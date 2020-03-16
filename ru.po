@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-03-15 20:38+0000\n"
+"PO-Revision-Date: 2020-03-17 20:38+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/ru/>\n"
@@ -1519,7 +1519,6 @@ msgid "Close Selected Pages"
 msgstr "Закрыть выделенные страницы"
 
 #: src/ws/cockpit.appdata.xml.in:7
-#, fuzzy
 msgid "Cockpit"
 msgstr "Cockpit"
 
@@ -2789,7 +2788,7 @@ msgstr "Запись"
 
 #: pkg/systemd/logs.js:463
 msgid "Entry at $0"
-msgstr ""
+msgstr "Запись в $0"
 
 #: pkg/docker/containers-view.jsx:410
 msgid "Entrypoint"
@@ -2899,7 +2898,7 @@ msgstr "Показывать порты контейнера"
 
 #: pkg/systemd/logs.js:541
 msgid "Extended Information"
-msgstr ""
+msgstr "Расширенная информация"
 
 #: pkg/storaged/content-views.jsx:486 pkg/storaged/format-dialog.jsx:158
 msgid "Extended Partition"
@@ -3157,7 +3156,7 @@ msgstr "Переход..."
 
 #: pkg/systemd/graphs.html:46
 msgid "Go to                                                now"
-msgstr ""
+msgstr "Переход к                                                сейчас"
 
 #: pkg/apps/application.jsx:108
 msgid "Go to Application"
@@ -3178,7 +3177,7 @@ msgstr "Графическая консоль в средстве просмот
 
 #: pkg/systemd/graphs.html:5
 msgid "Graphs"
-msgstr ""
+msgstr "Графики"
 
 #: pkg/storaged/lvol-tabs.jsx:240 pkg/storaged/lvol-tabs.jsx:408
 #: pkg/storaged/lvol-tabs.jsx:461 pkg/storaged/vdo-details.jsx:228
@@ -3224,17 +3223,15 @@ msgstr "Сведения об оборудовании"
 
 #: pkg/systemd/overview-cards/healthCard.jsx:55
 msgid "Health"
-msgstr ""
+msgstr "Здоровье"
 
 #: pkg/networkmanager/interfaces.js:2845
 msgid "Hello time $hello_time"
 msgstr "Время приветствия $hello_time"
 
 #: pkg/machines/components/diskAdd.jsx:156
-#, fuzzy
-#| msgid "Additional actions"
 msgid "Hide Additional Options"
-msgstr "Дополнительные действия"
+msgstr "Скрыть дополнительные параметры"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:137
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:35
@@ -3266,7 +3263,7 @@ msgstr "Имя узла не должно быть пустым"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:384
 msgid "Hostname"
-msgstr ""
+msgstr "Имя узла"
 
 #: pkg/systemd/services.html:353
 msgid "Hour : Minute"
@@ -3314,6 +3311,8 @@ msgid ""
 "IP address with routing prefix. Separate multiple values with a comma. "
 "Example: 192.0.2.0/24, 2001:db8::/32"
 msgstr ""
+"IP-адрес с префиксом маршрутизации. Несколько значений нужно разделять "
+"запятой. Например: 192.0.2.0/24, 2001:db8::/32"
 
 #: pkg/networkmanager/interfaces.js:2894
 msgid "IPv4"
@@ -3429,16 +3428,12 @@ msgid "Immediately Start VM"
 msgstr "Запустить ВМ сразу после создания"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:822
-#, fuzzy
-#| msgid "Import VM"
 msgid "Import"
-msgstr "Импортировать ВМ"
+msgstr "Импортировать"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:809
-#, fuzzy
-#| msgid "Create New Virtual Machine"
 msgid "Import A Virtual Machine"
-msgstr "Создание новой виртуальной машины"
+msgstr "Импортировать виртуальную машину"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:885
 msgid "Import VM"
@@ -3529,7 +3524,7 @@ msgstr "Установка программного обеспечения"
 
 #: pkg/storaged/vdos-panel.jsx:44
 msgid "Install VDO Support"
-msgstr ""
+msgstr "Установить поддержку VDO"
 
 #: pkg/selinux/setroubleshoot-view.jsx:384
 msgid "Install setroubleshoot-server to troubleshoot SELinux events."
@@ -3717,10 +3712,8 @@ msgid "Join a Domain"
 msgstr "Присоединение к домену"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:623
-#, fuzzy
-#| msgid "Joining this domain is not supported"
 msgid "Joining a domain requires installation of realmd"
-msgstr "Присоединение к этому домену не поддерживается"
+msgstr "Присоединение к этому домену требует установки realmd"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:508
 msgid "Joining this domain is not supported"
@@ -3822,10 +3815,8 @@ msgid "Last Trigger"
 msgstr "Последнее срабатывание"
 
 #: pkg/packagekit/updates.jsx:181
-#, fuzzy
-#| msgid "Last checked: $0 ago"
 msgid "Last checked: $0"
-msgstr "Последняя проверка: $0 назад"
+msgstr "Последняя проверка: $0"
 
 #: pkg/machines/components/desktopConsole.jsx:128
 msgid "Launch Remote Viewer"
@@ -3907,7 +3898,7 @@ msgstr "Загрузить более ранние записи"
 
 #: pkg/machines/components/libvirtSlate.jsx:89
 msgid "Loading Resources"
-msgstr ""
+msgstr "Загрузка ресурсов"
 
 #: pkg/packagekit/updates.jsx:48
 msgid "Loading available updates failed"
@@ -3967,7 +3958,7 @@ msgstr "Дата блокировки учётной записи: $0"
 
 #: pkg/lib/machine-change-auth.html:76
 msgid "Locked"
-msgstr ""
+msgstr "Заблокировано"
 
 #: pkg/storaged/jobs-panel.jsx:38
 msgid "Locking $target"
@@ -4095,7 +4086,7 @@ msgstr "Отпечатки SSH-ключей компьютера"
 
 #: pkg/machines/components/diskEdit.jsx:81
 msgid "Machine must be shut off before changing bus type"
-msgstr ""
+msgstr "Машина должна быть выключена перед сменой типа шины"
 
 #: pkg/shell/indexes.js:539
 msgid "Machines"
@@ -4211,11 +4202,11 @@ msgstr "Память и подкачка"
 
 #: pkg/systemd/graphs.js:439
 msgid "Memory & Swap Usage"
-msgstr ""
+msgstr "Использование памяти и подкачки"
 
 #: pkg/systemd/graphs.js:493
 msgid "Memory Graph"
-msgstr ""
+msgstr "График памяти"
 
 #: pkg/systemd/hwinfo.jsx:271
 msgid "Memory Technology"
@@ -4330,11 +4321,11 @@ msgstr "Подключение"
 
 #: pkg/storaged/fsys-tab.jsx:264
 msgid "Mount Configuration"
-msgstr ""
+msgstr "Настройки монтирования"
 
 #: pkg/storaged/fsys-tab.jsx:262
 msgid "Mount Filesystem"
-msgstr ""
+msgstr "Монтировать файловую систему"
 
 #: pkg/storaged/format-dialog.jsx:236 pkg/storaged/fsys-tab.jsx:233
 #: pkg/storaged/nfs-details.jsx:171
@@ -4349,7 +4340,7 @@ msgstr "Точка подключения"
 
 #: pkg/storaged/fsys-tab.jsx:466
 msgid "Mount also automatically on boot"
-msgstr ""
+msgstr "Монтировать также автоматически при загрузке"
 
 #: pkg/storaged/nfs-details.jsx:174
 msgid "Mount at boot"
@@ -4357,7 +4348,7 @@ msgstr "Подключение при загрузке"
 
 #: pkg/storaged/fsys-tab.jsx:458 pkg/storaged/fsys-tab.jsx:470
 msgid "Mount automatically on $0 on boot"
-msgstr ""
+msgstr "Монтировать автоматически на $0 при загрузке"
 
 #: pkg/docker/index.html:521
 msgid "Mount container volumes"
@@ -4365,15 +4356,15 @@ msgstr "Подключить тома контейнера"
 
 #: pkg/storaged/format-dialog.jsx:245 pkg/storaged/fsys-tab.jsx:463
 msgid "Mount now"
-msgstr ""
+msgstr "Монтировать сейчас"
 
 #: pkg/storaged/fsys-tab.jsx:459
 msgid "Mount on $0 now"
-msgstr ""
+msgstr "Монтировать на $0 сейчас"
 
 #: pkg/storaged/fsys-tab.jsx:83
 msgid "Mount point cannot be empty"
-msgstr ""
+msgstr "Точка монтирования не может быть пустой"
 
 #: pkg/storaged/nfs-details.jsx:165
 msgid "Mount point cannot be empty."
@@ -4381,7 +4372,7 @@ msgstr "Точка подключения не может быть пуста."
 
 #: pkg/storaged/fsys-tab.jsx:87
 msgid "Mount point is already used for $0"
-msgstr ""
+msgstr "Точка монтирования уже используется для $0"
 
 #: pkg/storaged/nfs-details.jsx:167
 msgid "Mount point must start with \"/\"."
@@ -4638,7 +4629,7 @@ msgstr "Без задержки"
 
 #: pkg/storaged/things-panel.jsx:81
 msgid "No Devices"
-msgstr ""
+msgstr "Нет устройств"
 
 #: pkg/storaged/format-dialog.jsx:156
 msgid "No Filesystem"
@@ -4650,7 +4641,7 @@ msgstr "Нет логических томов"
 
 #: pkg/systemd/logs.js:159 pkg/systemd/logs.js:181 pkg/systemd/logs.js:345
 msgid "No Logs Found"
-msgstr ""
+msgstr "Журналов не найдено"
 
 #: pkg/systemd/services.html:83
 msgid "No Matching Results"
@@ -4836,7 +4827,7 @@ msgstr "Нет результатов для $0"
 
 #: pkg/shell/indexes.js:524
 msgid "No results found"
-msgstr ""
+msgstr "Нет результатов"
 
 #: pkg/docker/containers-view.jsx:364
 msgid "No running containers"
@@ -4867,6 +4858,8 @@ msgid ""
 "Non-persistent network cannot be deleted. It ceases to exists when it's "
 "deactivated."
 msgstr ""
+"Временная сеть не может быть удалена. Она перестает существовать после "
+"отключения."
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:189
 msgid ""
