@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-03-17 20:38+0000\n"
+"PO-Revision-Date: 2020-03-22 12:47+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/ru/>\n"
@@ -924,7 +924,6 @@ msgid "Always attach"
 msgstr "Всегда присоединять"
 
 #: pkg/lib/cockpit-components-modifications.jsx:81
-#, fuzzy
 msgid "Ansible"
 msgstr "Ansible"
 
@@ -2768,7 +2767,7 @@ msgstr "Введите IP-адрес или имя узла"
 
 #: pkg/lib/machine-change-auth.html:79
 msgid "Enter passphrase to add identity to ssh-agent"
-msgstr ""
+msgstr "Введите парольную фразу для добавления ключа в ssh-agent"
 
 #: pkg/lib/machine-change-auth.html:57
 msgid ""
@@ -4866,6 +4865,8 @@ msgid ""
 "Non-persistent storage pool cannot be deleted. It ceases to exists when it's "
 "deactivated."
 msgstr ""
+"Временный буфер хранения не может быть удален. Он перестает существовать "
+"после отключения."
 
 #: pkg/kdump/kdump-view.jsx:422
 #: pkg/machines/components/networks/createNetworkDialog.jsx:190
@@ -4883,7 +4884,7 @@ msgstr "Не готово"
 
 #: pkg/packagekit/updates.jsx:790
 msgid "Not Registered"
-msgstr ""
+msgstr "Не зарегистрировано"
 
 #: pkg/lib/credentials.js:255
 msgid "Not a valid private key"
@@ -4895,27 +4896,27 @@ msgstr "Право доступа к Docker в этой системе отсу�
 
 #: pkg/networkmanager/firewall.jsx:899
 msgid "Not authorized to add a new zone"
-msgstr ""
+msgstr "Нет прав на добавление новой зоны"
 
 #: pkg/networkmanager/firewall.jsx:146
 msgid "Not authorized to add services to zone $0"
-msgstr ""
+msgstr "Нет прав для добавления служб в зону $0"
 
 #: pkg/networkmanager/firewall.jsx:933
 msgid "Not authorized to disable the firewall"
-msgstr ""
+msgstr "Нет прав для отключения межсетевого экрана"
 
 #: pkg/networkmanager/firewall.jsx:933
 msgid "Not authorized to enable the firewall"
-msgstr ""
+msgstr "Нет прав для включения межсетевого экрана"
 
 #: pkg/networkmanager/firewall.jsx:79
 msgid "Not authorized to remove service $0"
-msgstr ""
+msgstr "Нет прав для удаления службы $0"
 
 #: pkg/networkmanager/firewall.jsx:134
 msgid "Not authorized to remove zone $0"
-msgstr ""
+msgstr "Нет прав для удаления зоны $0"
 
 #: pkg/networkmanager/interfaces.js:826
 msgid "Not available"
@@ -5117,7 +5118,7 @@ msgstr "PCI"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:433
 msgid "PCP"
-msgstr ""
+msgstr "PCP"
 
 #: pkg/packagekit/updates.jsx:507
 msgid "Package information"
@@ -5279,7 +5280,7 @@ msgstr "Приостановить"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:407
 msgid "Performance profile"
-msgstr ""
+msgstr "Профиль производительности"
 
 #: pkg/lib/machine-info.js:87
 msgid "Peripheral Chassis"
@@ -5816,7 +5817,7 @@ msgstr "Удалить $0"
 
 #: pkg/networkmanager/firewall.jsx:838
 msgid "Remove $0 service from $1 zone"
-msgstr ""
+msgstr "Удалить службу $0 из зоны $1"
 
 #: pkg/storaged/crypto-keyslots.jsx:423
 msgid "Remove $0?"
@@ -5840,11 +5841,11 @@ msgstr "Удалить парольную фразу в $0?"
 
 #: pkg/networkmanager/firewall.jsx:84
 msgid "Remove service $0"
-msgstr ""
+msgstr "Удалить службу $0"
 
 #: pkg/networkmanager/firewall.jsx:138 pkg/networkmanager/firewall.jsx:821
 msgid "Remove zone $0"
-msgstr ""
+msgstr "Удалить зону $0"
 
 # translation auto-copied from project subscription-manager, version 1.11.X,
 # document keys
@@ -5878,10 +5879,13 @@ msgid ""
 "unreachable. Make sure that this zone does not apply to your current web "
 "console connection."
 msgstr ""
+"Удаление службы cockpit может привести к недоступности веб-консоли. "
+"Убедитесь, что эта зона не относится к вашему текущему подключению к "
+"веб-консоли."
 
 #: pkg/networkmanager/firewall.jsx:819
 msgid "Removing the zone will remove all services within it."
-msgstr ""
+msgstr "Удаление зоны приведет к удалению всех служб в ней."
 
 #: pkg/storaged/lvol-tabs.jsx:39 pkg/storaged/vgroup-details.jsx:182
 #: pkg/storaged/vgroup-details.jsx:231
@@ -5935,23 +5939,23 @@ msgstr "Сообщить"
 
 #: pkg/systemd/reporting.jsx:152
 msgid "Report to ABRT Analytics"
-msgstr ""
+msgstr "Сообщить в ABRT Analytics"
 
 #: pkg/systemd/reporting.jsx:409
 msgid "Reported; no links available"
-msgstr ""
+msgstr "Сообщение сделано; нет ссылок"
 
 #: pkg/systemd/reporting.jsx:305
 msgid "Reporting failed"
-msgstr ""
+msgstr "Сообщение не удалось"
 
 #: pkg/systemd/reporting.jsx:205
 msgid "Reporting was canceled"
-msgstr ""
+msgstr "Отчеты отменены"
 
 #: pkg/systemd/reporting.jsx:407
 msgid "Reports:"
-msgstr ""
+msgstr "Отчеты:"
 
 # translation auto-copied from project Red Hat Satellite User Guide, version
 # 6.0, document appe-Glossary_of_Terms
@@ -6233,7 +6237,7 @@ msgstr "Компьютер с невскрываемым корпусом"
 
 #: pkg/shell/index.html:389
 msgid "Search"
-msgstr ""
+msgstr "Поиск"
 
 #: pkg/systemd/services.html:313 pkg/systemd/services.html:317
 #: pkg/systemd/init.js:972
@@ -6242,7 +6246,7 @@ msgstr "с"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:412
 msgid "Secure Shell keys"
-msgstr ""
+msgstr "Ключи Secure Shell"
 
 #: pkg/storaged/jobs-panel.jsx:56
 msgid "Securely erasing $target"
@@ -6270,7 +6274,7 @@ msgstr ""
 
 #: pkg/systemd/reporting.jsx:245
 msgid "Send"
-msgstr ""
+msgstr "Отправить"
 
 #: pkg/machines/components/vm/vmActions.jsx:66
 msgid "Send Non-Maskable Interrupt"
@@ -6370,7 +6374,7 @@ msgstr "Сеанс"
 
 #: pkg/shell/index.html:134
 msgid "Session is about to expire"
-msgstr ""
+msgstr "Сессия истекает"
 
 #: pkg/dashboard/index.html:176 pkg/users/index.html:238
 msgid "Set"
@@ -6382,7 +6386,7 @@ msgstr "Задать диапазон DHCP"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:347
 msgid "Set Hostname"
-msgstr ""
+msgstr "Установить название узла"
 
 #: pkg/users/index.html:121 pkg/users/index.html:211
 msgid "Set Password"
@@ -6446,10 +6450,8 @@ msgid "Shift+Insert"
 msgstr "Shift+Insert"
 
 #: pkg/machines/components/diskAdd.jsx:156
-#, fuzzy
-#| msgid "Additional actions"
 msgid "Show Additional Options"
-msgstr "Дополнительные действия"
+msgstr "Показать дополнительные параметры"
 
 #: pkg/storaged/overview.jsx:52
 msgid "Show all"
@@ -6457,7 +6459,7 @@ msgstr "Показать все"
 
 #: pkg/storaged/things-panel.jsx:82
 msgid "Show all $0 devices"
-msgstr ""
+msgstr "Показать все устройства $0"
 
 #: pkg/storaged/drives-panel.jsx:104
 msgid "Show all $0 drives"
@@ -6496,7 +6498,7 @@ msgstr "Завершение работы"
 
 #: pkg/systemd/overview.jsx:105
 msgid "Shutdown"
-msgstr ""
+msgstr "Выключить"
 
 #: pkg/lib/machine-info.js:245
 msgid "Single Rank"
@@ -6955,7 +6957,7 @@ msgstr "Системные службы"
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:87
 msgid "System information"
-msgstr ""
+msgstr "Сведения о системе"
 
 # ctx::sourcefile::/systems/SystemEntitlements
 #: pkg/packagekit/updates.jsx:942 pkg/packagekit/updates.jsx:956
@@ -6964,7 +6966,7 @@ msgstr "Система не нуждается в обновлении"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:392
 msgid "System time"
-msgstr ""
+msgstr "Системное время"
 
 #: pkg/docker/index.html:329 pkg/docker/index.html:333
 #: pkg/networkmanager/firewall.jsx:169
@@ -7052,11 +7054,11 @@ msgstr "Проверка подключения"
 
 #: pkg/machines/components/deleteResource.jsx:46
 msgid "The $0 could not be deleted"
-msgstr ""
+msgstr "Не удалось удалить $0"
 
 #: pkg/storaged/vdos-panel.jsx:45
 msgid "The $0 package must be installed to create VDO devices."
-msgstr ""
+msgstr "Для создания устройств VDO должен быть установлен пакет $0."
 
 #: pkg/docker/storage.jsx:523
 msgid "The Docker storage pool cannot be managed on this system."
@@ -7126,7 +7128,7 @@ msgstr ""
 #: pkg/machines/components/vmDisksTab.jsx:176
 #: pkg/machines/components/vmnetworktab.jsx:230
 msgid "The VM needs to be running or shut off to detach this device"
-msgstr ""
+msgstr "ВМ должна работать или быть отключена, чтобы отсоединить это устройство"
 
 #: pkg/users/local.js:1357
 msgid "The account '$0' will be forced to change their password on next login"
@@ -7144,7 +7146,7 @@ msgstr ""
 
 #: pkg/networkmanager/firewall.jsx:703
 msgid "The cockpit service is automatically included"
-msgstr ""
+msgstr "Служба cockpit автоматически входит в состав"
 
 #: pkg/sosreport/index.html:35
 msgid "The collected information will be stored locally on the system."
@@ -7173,17 +7175,21 @@ msgstr "Экспортируемый каталог на сервере"
 
 #: pkg/storaged/fsys-tab.jsx:392
 msgid "The filesystem has no permanent mount point."
-msgstr ""
+msgstr "У этой файловой системы нет постоянной точки монтирования."
 
 #: pkg/storaged/fsys-tab.jsx:256
 msgid "The filesystem is already mounted at $0.  Proceeding will unmount it."
 msgstr ""
+"Файловая система уже смонтирована в $0.  Продолжение приведет к ее "
+"размонтированию."
 
 #: pkg/storaged/fsys-tab.jsx:465
 msgid ""
 "The filesystem is currently mounted but will not be mounted after the next "
 "boot."
 msgstr ""
+"Файловая система сейчас смонтирована, после следующей загрузки не будет "
+"смонтирована."
 
 #: pkg/storaged/fsys-tab.jsx:457
 msgid ""
