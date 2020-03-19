@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-02-02 08:16+0000\n"
+"PO-Revision-Date: 2020-03-22 12:47+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "cockpit/rhel-8-2/ja/>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Weblate 3.10.3\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -3770,7 +3770,7 @@ msgstr ""
 
 #: pkg/shell/index.html:91
 msgid "Licensed under:"
-msgstr "ライセンス保持者:"
+msgstr "ライセンス情報:"
 
 #: pkg/systemd/terminal.jsx:101
 msgid "Light"
