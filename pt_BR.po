@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-03-12 13:38+0000\n"
-"Last-Translator: Daniel Lara Souza <daniellarasouza@yahoo.com.br>\n"
+"PO-Revision-Date: 2020-04-04 23:36+0000\n"
+"Last-Translator: Paulo Eduardo Faversani <pauloeduardo2709@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/rhel-8-2/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 3.11.2\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -35,6 +35,7 @@ msgstr "(compartilhado com o SO)"
 #: pkg/machines/components/diskAdd.jsx:242
 msgid " Attaching it will make this disk shareable for every VM using it."
 msgstr ""
+" Ao anexa-lo, esse disco será compartilhado por todas as VM que o utilizarem."
 
 #: pkg/networkmanager/interfaces.js:2317
 msgid "$0 Active Zone"
@@ -63,12 +64,13 @@ msgstr "$0 Sistema de Arquivos"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:105
 msgid "$0 Network"
-msgstr ""
+msgstr "$0 Rede"
 
 #: pkg/packagekit/history.jsx:100
 msgid "$0 Package"
 msgid_plural "$0 Packages"
-msgstr[0] ""
+msgstr[0] "$0 Pacote"
+msgstr[1] "$0 Pacotes"
 
 #: pkg/systemd/init.js:484 pkg/systemd/service-details.jsx:59
 msgid "$0 Template"
@@ -211,7 +213,8 @@ msgstr "$0 of $1"
 #: pkg/systemd/init.js:424
 msgid "$0 service has failed"
 msgid_plural "$0 services have failed"
-msgstr[0] ""
+msgstr[0] "$0 serviço falhou"
+msgstr[1] "$0 serviços falharam"
 
 #: pkg/docker/util.js:125
 msgid "$0 shares"
@@ -568,7 +571,7 @@ msgstr "Sobre o Cockpit"
 
 #: pkg/lib/machine-info.js:254
 msgid "Absent"
-msgstr ""
+msgstr "Ausente"
 
 #: pkg/users/index.html:104 pkg/users/index.html:190
 #: pkg/machines/components/diskEdit.jsx:94
@@ -680,11 +683,11 @@ msgstr "Adicionar Máquina ao Painel"
 
 #: pkg/machines/components/vmnetworktab.jsx:273
 msgid "Add Network Interface"
-msgstr ""
+msgstr "Adicionar Interface de Rede"
 
 #: pkg/networkmanager/firewall.jsx:495
 msgid "Add Ports"
-msgstr ""
+msgstr "Adicionar Portas"
 
 #: pkg/networkmanager/firewall.jsx:146 pkg/networkmanager/firewall.jsx:152
 #: pkg/networkmanager/firewall.jsx:495
@@ -705,12 +708,12 @@ msgstr "Adicionar VLAN"
 
 #: pkg/machines/components/nicAdd.jsx:191
 msgid "Add Virtual Network Interface"
-msgstr ""
+msgstr "Adicionar Interface Virtual de Rede"
 
 #: pkg/networkmanager/firewall.jsx:668 pkg/networkmanager/firewall.jsx:899
 #: pkg/networkmanager/firewall.jsx:905
 msgid "Add Zone"
-msgstr ""
+msgstr "Adicionar zona"
 
 #: pkg/networkmanager/firewall.jsx:904
 msgid "Add a new zone"
@@ -831,7 +834,7 @@ msgstr "Endereços"
 
 #: src/bridge/org.cockpit-project.cockpit-bridge.policy.in:10
 msgid "Administration with Cockpit Web Console"
-msgstr ""
+msgstr "Administração com o Console Web do Cockpit"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:336
 msgid "Administrator Password"
