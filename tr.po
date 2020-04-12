@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-04-11 16:40+0000\n"
+"PO-Revision-Date: 2020-04-14 17:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/tr/>\n"
@@ -90,15 +90,15 @@ msgstr[1] "$0 bit"
 #: src/base1/test-locale.js:87 src/base1/test-locale.js:88
 msgid "$0 byte"
 msgid_plural "$0 bytes"
-msgstr[0] "$0 byte"
-msgstr[1] "$0 byte"
+msgstr[0] "$0 bayt"
+msgstr[1] "$0 bayt"
 
 #: src/base1/test-locale.js:76 src/base1/test-locale.js:77
 msgctxt "memory"
 msgid "$0 byte"
 msgid_plural "$0 bytes"
-msgstr[0] "$0 byte"
-msgstr[1] "$0 byte"
+msgstr[0] "$0 bayt"
+msgstr[1] "$0 bayt"
 
 #: pkg/storaged/vdo-details.jsx:279
 msgid "$0 data + $1 overhead used of $2 ($3)"
@@ -1590,7 +1590,7 @@ msgstr "Kaydet (Commit)"
 
 #: pkg/docker/index.html:678
 msgid "Commit Image"
-msgstr "Görüntüyü Kaydet"
+msgstr "Kalıbı Kaydet"
 
 #: pkg/tuned/dialog.js:115
 msgid "Communication with tuned has failed"
@@ -2168,7 +2168,7 @@ msgstr ""
 
 #: pkg/docker/index.html:359 pkg/docker/index.html:363
 msgid "Default"
-msgstr "Ön tanımlı"
+msgstr "Öntanımlı"
 
 #: pkg/systemd/index.html:178
 msgid "Delay"
@@ -2716,7 +2716,7 @@ msgstr ""
 
 #: pkg/selinux/setroubleshoot.js:67
 msgid "Error while setting SELinux mode: '$0'"
-msgstr "SELinux kipi belirlenirken hata: '$0'"
+msgstr "SELinux modu belirlenirken hata: '$0'"
 
 #: pkg/networkmanager/index.html:681
 msgid "Ethernet MAC"
@@ -3001,7 +3001,7 @@ msgstr ""
 
 #: pkg/docker/containers-view.jsx:683
 msgid "Get new image"
-msgstr "Yeni bir görüntü al"
+msgstr "Yeni bir kalıp al"
 
 #: pkg/machines/components/memorySelectRow.jsx:87
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:98
@@ -3255,7 +3255,7 @@ msgstr "Kalıp $0"
 
 #: pkg/users/local.js:771
 msgid "Image Builder"
-msgstr "Görüntü Oluşturucu"
+msgstr "Kalıp Oluşturucu"
 
 #: pkg/docker/index.html:580
 msgid "Image Search"
@@ -3263,20 +3263,20 @@ msgstr ""
 
 #: pkg/docker/index.html:157
 msgid "Image:"
-msgstr "Görüntü:"
+msgstr "Kalıp:"
 
 #: pkg/docker/containers-view.jsx:715
 msgid "Images"
-msgstr "Görüntüler"
+msgstr "Kalıplar"
 
 #: pkg/docker/image.js:40
 msgctxt "page-title"
 msgid "Images"
-msgstr "Görüntüler"
+msgstr "Kalıplar"
 
 #: pkg/docker/containers-view.jsx:109
 msgid "Images and running containers"
-msgstr "Görüntüler ve çalışan konteynerler"
+msgstr "Kalıplar ve çalışan konteynerler"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:800
 msgid "Immediately Start VM"
@@ -4599,11 +4599,11 @@ msgstr ""
 
 #: pkg/docker/containers-view.jsx:709
 msgid "No images"
-msgstr "Görüntü yok"
+msgstr "Kalıp yok"
 
 #: pkg/docker/containers-view.jsx:711
 msgid "No images that match the current filter"
-msgstr "Geçerli filtreyle eşleşen görüntü yok"
+msgstr "Geçerli filtreyle eşleşen kalıp yok"
 
 #: pkg/apps/utils.jsx:96
 msgid "No installation package found for this application."
@@ -5889,7 +5889,7 @@ msgstr "Çalıştır"
 
 #: pkg/docker/index.html:427
 msgid "Run Image"
-msgstr "Görüntüyü Çalıştır"
+msgstr "Kalıbı Çalıştır"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:93
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:134
@@ -7415,7 +7415,7 @@ msgstr "Tuned kapalı"
 #: pkg/storaged/unrecognized-tab.jsx:33 pkg/systemd/hwinfo.jsx:66
 #: pkg/systemd/hwinfo.jsx:271
 msgid "Type"
-msgstr "Tip"
+msgstr "Tür"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:145
 msgid "Type ID"
@@ -8271,7 +8271,7 @@ msgstr ""
 
 #: pkg/docker/util.js:124
 msgid "default"
-msgstr "ön tanımlı"
+msgstr "öntanımlı"
 
 #: pkg/systemd/manifest.json.in
 msgid "dimm"
