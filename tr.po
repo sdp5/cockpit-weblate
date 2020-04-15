@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-04-14 17:40+0000\n"
+"PO-Revision-Date: 2020-04-17 10:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/tr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.0.1\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -2796,7 +2796,7 @@ msgstr ""
 
 #: pkg/lib/credentials.js:228 pkg/users/local.js:100 pkg/users/local.js:132
 msgid "Failed to change password"
-msgstr "Parola değişimi başarısız oldu"
+msgstr "Parola değiştirilemedi"
 
 #: pkg/selinux/setroubleshoot-client.js:188
 msgid "Failed to delete alert: $0"
@@ -3500,7 +3500,7 @@ msgstr ""
 
 #: pkg/docker/run.js:269
 msgid "Invalid port"
-msgstr "Geçersiz port"
+msgstr "Geçersiz bağlantı noktası"
 
 #: pkg/networkmanager/firewall.jsx:386
 msgid "Invalid port number"
@@ -4740,7 +4740,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:826
 msgid "Not available"
-msgstr "Mevcut değil"
+msgstr "Kullanılabilir değil"
 
 #: pkg/selinux/setroubleshoot.js:240
 msgid "Not connected"
@@ -5235,7 +5235,7 @@ msgstr ""
 #: pkg/machines/components/vmnetworktab.jsx:132
 #: pkg/storaged/iscsi-panel.jsx:128
 msgid "Port"
-msgstr "Port"
+msgstr "Bağlantı noktası"
 
 #: pkg/networkmanager/firewall.jsx:390
 msgid "Port number and type do not match"
@@ -5249,11 +5249,11 @@ msgstr ""
 #: pkg/networkmanager/index.html:330 pkg/docker/containers-view.jsx:414
 #: pkg/networkmanager/interfaces.js:2968
 msgid "Ports"
-msgstr "Portlar"
+msgstr "Bağlantı noktaları"
 
 #: pkg/docker/index.html:192
 msgid "Ports:"
-msgstr "Portlar:"
+msgstr "Bağlantı noktaları:"
 
 #: pkg/machines/components/vcpuModal.jsx:225
 msgid "Preferred number of sockets to expose to the guest."
@@ -8609,7 +8609,7 @@ msgstr ""
 
 #: pkg/networkmanager/manifest.json.in
 msgid "port"
-msgstr "port"
+msgstr "bağlantı noktası"
 
 #: pkg/systemd/manifest.json.in
 msgid "power"
