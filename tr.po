@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-04-17 10:40+0000\n"
+"PO-Revision-Date: 2020-04-19 17:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/tr/>\n"
@@ -6104,7 +6104,7 @@ msgstr "Sunucular"
 #: pkg/systemd/logs.html:66 pkg/networkmanager/firewall.jsx:169
 #: pkg/storaged/dialog.jsx:1034
 msgid "Service"
-msgstr "Servis"
+msgstr "Hizmet"
 
 #: pkg/systemd/services.html:228
 msgid "Service Logs"
@@ -6116,19 +6116,19 @@ msgstr ""
 
 #: pkg/kdump/kdump-view.jsx:441
 msgid "Service is running"
-msgstr "Servis çalışıyor"
+msgstr "Hizmet çalışıyor"
 
 #: pkg/kdump/kdump-view.jsx:447
 msgid "Service is starting"
-msgstr "Servis başlatılıyor"
+msgstr "Hizmet başlatılıyor"
 
 #: pkg/kdump/kdump-view.jsx:443
 msgid "Service is stopped"
-msgstr "Servis durduruldu"
+msgstr "Hizmet durduruldu"
 
 #: pkg/kdump/kdump-view.jsx:449
 msgid "Service is stopping"
-msgstr "Servis durduruluyor"
+msgstr "Hizmet durduruluyor"
 
 #: pkg/systemd/services.html:253
 msgid "Service name"
@@ -6137,7 +6137,7 @@ msgstr ""
 #: pkg/systemd/services.html:4 pkg/systemd/services.html:221
 #: pkg/networkmanager/firewall.jsx:507 pkg/systemd/manifest.json.in
 msgid "Services"
-msgstr "Servisler"
+msgstr "Hizmetler"
 
 #: pkg/machines/components/machinesConnectionSelector.jsx:50
 #: pkg/machines/helpers.js:192 pkg/storaged/dialog.jsx:1030
@@ -8689,7 +8689,7 @@ msgstr "sunucu"
 
 #: pkg/systemd/manifest.json.in
 msgid "service"
-msgstr "servis"
+msgstr "hizmet"
 
 #: pkg/selinux/manifest.json.in
 msgid "setroubleshoot"
