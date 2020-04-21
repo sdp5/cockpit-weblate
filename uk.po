@@ -10,16 +10,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
+"PO-Revision-Date: 2020-04-22 17:40+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
+"cockpit/rhel-7/uk/>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-10-01 12:17+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
-"Language: uk\n"
-"X-Generator: Zanata 4.6.2\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.0.1\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -1955,7 +1956,7 @@ msgstr "З’єднуватися автоматично"
 
 #: pkg/subscriptions/subscriptions-register.jsx:120
 msgid "Connect this system to $0."
-msgstr ""
+msgstr "З'єднати цю систему з $0."
 
 #: src/ws/login.html:74
 msgid "Connect to"
@@ -1963,7 +1964,7 @@ msgstr "З’єднатися з"
 
 #: pkg/subscriptions/insights.jsx:93
 msgid "Connect to Red Hat Insights"
-msgstr ""
+msgstr "З'єднати з Red Hat Insights"
 
 #: pkg/ovirt/components/InstallationDialog.jsx:102
 msgid "Connect to oVirt Engine"
@@ -1979,11 +1980,11 @@ msgstr "З’єднатися із будь-якою програмою пере
 
 #: pkg/subscriptions/insights.jsx:320
 msgid "Connected to Insights"
-msgstr ""
+msgstr "З'єднано з Insights"
 
 #: pkg/subscriptions/insights.jsx:208
 msgid "Connected to Red Hat Insights"
-msgstr ""
+msgstr "З'єднано з Red Hat Insights"
 
 #: pkg/machines/components/vnc.jsx:107
 msgid "Connecting"
@@ -2357,7 +2358,7 @@ msgid ""
 "Creating this VLAN will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"Створення цієї VLAN  призведе до розірвання з’єднання із сервером і зробить "
+"Створення цієї VLAN призведе до розірвання з’єднання із сервером і зробить "
 "адміністративний інтерфейс користувача недоступним."
 
 #: pkg/networkmanager/interfaces.js:3821
@@ -2608,8 +2609,6 @@ msgid ""
 msgstr ""
 "Вилучення кокона призведе до завершення роботи усіх пов’язаних із ним "
 "контейнерів. У певних випадках кокон може бути повторно створено автоматично."
-"\n"
-"          "
 
 #: pkg/storaged/mdraid-details.jsx:301
 msgid "Deleting a RAID device will erase all data on it."
@@ -2767,7 +2766,7 @@ msgstr "Від’єднатися"
 
 #: pkg/subscriptions/insights.jsx:244 pkg/subscriptions/insights.jsx:250
 msgid "Disconnect from Insights"
-msgstr ""
+msgstr "Від'єднати від Insights"
 
 #: pkg/shell/simple.html:101 pkg/machines/components/vnc.jsx:108
 #: pkg/shell/indexes.js:149 pkg/shell/indexes.js:604
@@ -3812,6 +3811,8 @@ msgid ""
 "If you disconnect this system from Insights, it will no longer report it's "
 "Insights status in Red Hat Cloud or Satellite."
 msgstr ""
+"Якщо ви від'єднаєте цю систему від Insights, вона більше не повідомлятиме "
+"про свій стан Insights у Red Hat Cloud або Satellite."
 
 #: pkg/networkmanager/interfaces.js:1969 pkg/packagekit/updates.jsx:496
 msgid "Ignore"
@@ -3948,7 +3949,7 @@ msgid ""
 "strong}}."
 msgstr ""
 "Для синхронізації параметрів користувачів, слід увійти до "
-"{{#strong}}{{host}}{{/strong}}. "
+"{{#strong}}{{host}}{{/strong}}."
 
 #: pkg/networkmanager/interfaces.js:824 pkg/networkmanager/interfaces.js:1417
 #: pkg/networkmanager/interfaces.js:1424 pkg/networkmanager/interfaces.js:2606
@@ -3993,7 +3994,7 @@ msgstr "IQN ініціатора має бути непорожнімy"
 
 #: pkg/subscriptions/subscriptions-register.jsx:112
 msgid "Insights"
-msgstr ""
+msgstr "Insights"
 
 #: pkg/machines/components/vm/vmActions.jsx:98
 #: pkg/lib/cockpit-components-install-dialog.jsx:115
@@ -4309,7 +4310,7 @@ msgstr "Останній такт"
 
 #: pkg/subscriptions/insights.jsx:222
 msgid "Last Insights data upload"
-msgstr ""
+msgstr "Останнє вивантаження даних на Insights"
 
 #: pkg/users/index.html:100
 msgid "Last Login"
@@ -5055,7 +5056,7 @@ msgstr "Назва не повинна містити символу «$0»."
 
 #: pkg/storaged/utils.js:139
 msgid "Name cannot contain whitespace."
-msgstr "У назві не повинно бути пробілів"
+msgstr "У назві не повинно бути пробілів."
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:67
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:82
@@ -5218,11 +5219,11 @@ msgstr "Далі"
 
 #: pkg/subscriptions/insights.jsx:215
 msgid "Next Insights data upload"
-msgstr ""
+msgstr "Наступне вивантаження даних на Insights"
 
 #: pkg/subscriptions/insights.jsx:233
 msgid "Next Insights data upload could not be scheduled."
-msgstr ""
+msgstr "Не вдалося запланувати наступне вивантаження даних на Insights."
 
 #: pkg/systemd/init.js:283
 msgid "Next Run"
@@ -6432,6 +6433,10 @@ msgid ""
 "analytics, avoid problems and unplanned downtime in your Red Hat environment."
 ""
 msgstr ""
+"Активно виявляйте і усувайте загрози безпеці, швидкодії та стабільності "
+"системи за допомогою Red Hat Insights. Red Hat Insights — прогнозна "
+"аналітика, уникнення проблем та незапланованого призупинення роботи у вашому "
+"середовищі Red Hat."
 
 #: pkg/systemd/logs.js:488
 msgid "Problem details"
@@ -6728,7 +6733,7 @@ msgstr "Читання лише з декількох вузлів"
 
 #: pkg/docker/index.html:363
 msgid "ReadOnly"
-msgstr "Лише запис"
+msgstr "Лише читання"
 
 #: pkg/docker/index.html:362
 msgid "ReadWrite"
@@ -8193,7 +8198,7 @@ msgstr "Увімкнути $0"
 msgid "Switching host to maintenance mode failed. Received error: "
 msgstr ""
 "Не вдалося перемкнути вузол у режим обслуговування. Отримано повідомлення "
-"про помилку:"
+"про помилку: "
 
 #: pkg/ovirt/provider.js:408
 msgid "Switching host to maintenance mode in progress ..."
@@ -8572,7 +8577,7 @@ msgstr "Наданий вами ключ є некоректним."
 
 #: pkg/subscriptions/insights.jsx:203
 msgid "The last Insights data upload has failed."
-msgstr ""
+msgstr "Остання спроба вивантаження даних на Insights була невдалою."
 
 #: pkg/storaged/mdraid-details.jsx:121
 msgid "The last disk of a RAID device cannot be removed."
@@ -8898,7 +8903,7 @@ msgstr "Для цього пакунка потрібна версія Cockpit %
 
 #: pkg/subscriptions/insights.jsx:96
 msgid "This system is not connected to $0."
-msgstr ""
+msgstr "Цю систему не з'єднано з $0."
 
 #: pkg/packagekit/updates.jsx:772
 msgid "This system is not registered"
@@ -8938,7 +8943,7 @@ msgid ""
 "alternate user or port"
 msgstr ""
 "У цій версії cockpit-ws не передбачено підтримки встановлення з’єднання із "
-"вузлом від альтернативного користувача або на альтернативному порті."
+"вузлом від альтернативного користувача або на альтернативному порті"
 
 #: pkg/ovirt/components/OVirtTab.jsx:134
 msgid "This virtual machine is not managed by oVirt"
