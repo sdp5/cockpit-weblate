@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-02-27 02:38+0000\n"
-"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
+"PO-Revision-Date: 2020-04-27 17:40+0000\n"
+"Last-Translator: Luclu7 <me@luclu7.fr>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/fr/>\n"
 "Language: fr\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.11.2\n"
+"X-Generator: Weblate 4.0.1\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -215,7 +215,7 @@ msgstr "$0 of $1"
 msgid "$0 service has failed"
 msgid_plural "$0 services have failed"
 msgstr[0] "$0 service a échoué"
-msgstr[1] "$0 les services ont échoué"
+msgstr[1] "$0 services ont échoué"
 
 #: pkg/docker/util.js:125
 msgid "$0 shares"
@@ -693,7 +693,7 @@ msgstr "Ajouter des ports"
 #: pkg/networkmanager/firewall.jsx:146 pkg/networkmanager/firewall.jsx:152
 #: pkg/networkmanager/firewall.jsx:495
 msgid "Add Services"
-msgstr "Ajouter services"
+msgstr "Ajouter des services"
 
 #: pkg/docker/storage.jsx:219
 msgid "Add Storage"
@@ -6317,7 +6317,7 @@ msgstr "Nom du service"
 #: pkg/systemd/services.html:4 pkg/systemd/services.html:221
 #: pkg/networkmanager/firewall.jsx:507 pkg/systemd/manifest.json.in
 msgid "Services"
-msgstr "Prestations de service"
+msgstr "Services"
 
 #: pkg/machines/components/machinesConnectionSelector.jsx:50
 #: pkg/machines/helpers.js:192 pkg/storaged/dialog.jsx:1030
