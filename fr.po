@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
+"PO-Revision-Date: 2020-04-27 17:40+0000\n"
+"Last-Translator: Luclu7 <me@luclu7.fr>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
+"rhel-7/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-10-08 08:54+0000\n"
-"Last-Translator: corina roe <croe@redhat.com>\n"
-"Language-Team: French\n"
-"Language: fr\n"
-"X-Generator: Zanata 4.6.2\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.0.1\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -722,7 +723,7 @@ msgstr "Ajouter un rôle"
 #: pkg/networkmanager/firewall.jsx:457 pkg/networkmanager/firewall.jsx:877
 #: pkg/networkmanager/firewall.jsx:889
 msgid "Add Services"
-msgstr "Ajouter services"
+msgstr "Ajouter des services"
 
 #: pkg/docker/storage.jsx:217
 msgid "Add Storage"
@@ -7594,7 +7595,7 @@ msgstr "Nom du service"
 #: pkg/kubernetes/views/details-page.html:29
 #: pkg/networkmanager/firewall.jsx:483 pkg/kubernetes/scripts/details.js:213
 msgid "Services"
-msgstr "Prestations de service"
+msgstr "Services"
 
 #: pkg/kubernetes/views/topology-page.html:31
 msgid ""
