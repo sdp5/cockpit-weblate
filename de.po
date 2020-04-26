@@ -20,15 +20,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
+"PO-Revision-Date: 2020-04-27 17:40+0000\n"
+"Last-Translator: Jens Maucher <jens.maucher@online.de>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
+"rhel-7/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-10-07 08:25+0000\n"
-"Last-Translator: cockpit <cockpituous@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.0.1\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -2403,7 +2404,7 @@ msgstr "Strg + Alt + Entf"
 
 #: pkg/lib/cockpit-components-context-menu.jsx:101
 msgid "Ctrl+Insert"
-msgstr ""
+msgstr "Strg+Einfügen"
 
 #: pkg/machines/components/vm/memoryModal.jsx:130
 msgid "Current Allocation"
@@ -3065,7 +3066,7 @@ msgstr "Aktiviert"
 
 #: pkg/storaged/format-dialog.jsx:292
 msgid "Encrypt data"
-msgstr ""
+msgstr "Daten verschlüsseln"
 
 #: pkg/storaged/utils.js:273
 msgid "Encrypted $0"
@@ -3234,11 +3235,11 @@ msgstr "Alles"
 
 #: pkg/networkmanager/firewall.jsx:534
 msgid "Example: 22,ssh,8080,5900-5910"
-msgstr ""
+msgstr "Beispiel: 22,ssh,8080,5900-5910"
 
 #: pkg/networkmanager/firewall.jsx:542
 msgid "Example: 88,2019,nfs,rsync"
-msgstr ""
+msgstr "Beispiel: 88,2019,nfs,rsync"
 
 #: pkg/users/local.js:473 pkg/users/local.js:1417
 msgid "Excellent password"
@@ -3504,7 +3505,7 @@ msgstr "Freitag"
 
 #: pkg/packagekit/autoupdates.jsx:321
 msgid "Fridays"
-msgstr ""
+msgstr "Freitags"
 
 #: node_modules/registry-image-widgets/views/image-listing.html:6
 msgid "From"
@@ -3608,7 +3609,7 @@ msgstr "Wachsen"
 
 #: pkg/storaged/lvol-tabs.jsx:417
 msgid "Grow Content"
-msgstr ""
+msgstr "Inhalte erweitern"
 
 #: pkg/storaged/lvol-tabs.jsx:231
 msgid "Grow Logical Volume"
@@ -3757,7 +3758,7 @@ msgstr "IPv4"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:103
 msgid "IPv4 Address"
-msgstr ""
+msgstr "IPv4 Adresse"
 
 #: pkg/networkmanager/interfaces.js:3359
 msgid "IPv4 Settings"
@@ -3769,7 +3770,7 @@ msgstr "IPv6"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:126
 msgid "IPv6 Address"
-msgstr ""
+msgstr "IPv6 Adresse"
 
 #: pkg/networkmanager/interfaces.js:3359
 msgid "IPv6 Settings"
@@ -4087,9 +4088,8 @@ msgid "Internal error"
 msgstr "Interner Fehler"
 
 #: pkg/networkmanager/utils.js:88 pkg/networkmanager/utils.js:171
-#, fuzzy
 msgid "Invalid address $0"
-msgstr "Ungültiger Schlüssel"
+msgstr "Ungültige Adresse $0"
 
 #: pkg/subscriptions/subscriptions-client.js:195
 #, fuzzy
@@ -4105,9 +4105,8 @@ msgid "Invalid date format and invalid time format"
 msgstr "Ungültiges Datumsformat und ungültiges Zeitformat"
 
 #: pkg/systemd/init.js:1367
-#, fuzzy
 msgid "Invalid date format."
-msgstr "Ungültiger Port"
+msgstr "Ungültiges Datumformat."
 
 #: pkg/users/local.js:1237
 msgid "Invalid expiration date"
@@ -4126,18 +4125,16 @@ msgid "Invalid key"
 msgstr "Ungültiger Schlüssel"
 
 #: pkg/networkmanager/utils.js:55
-#, fuzzy
 msgid "Invalid metric $0"
-msgstr "Ungültiger Schlüssel"
+msgstr "Ungültige Metrik $0"
 
 #: pkg/users/local.js:1313
 msgid "Invalid number of days"
 msgstr "Ungültige Anzahl von Tagen"
 
 #: pkg/systemd/init.js:1314
-#, fuzzy
 msgid "Invalid number."
-msgstr "Ungültiger Schlüssel"
+msgstr "Ungültige Nummer."
 
 #: pkg/docker/run.js:269
 msgid "Invalid port"
@@ -4145,21 +4142,19 @@ msgstr "Ungültiger Port"
 
 #: pkg/networkmanager/firewall.jsx:335
 msgid "Invalid port number"
-msgstr ""
+msgstr "Ungültige Port-Nummer"
 
 #: pkg/networkmanager/utils.js:41
-#, fuzzy
 msgid "Invalid prefix $0"
-msgstr "Ungültiger Port"
+msgstr "Ungültiger Prefix $0"
 
 #: pkg/networkmanager/utils.js:132
-#, fuzzy
 msgid "Invalid prefix or netmask $0"
-msgstr "Ungültiger Port"
+msgstr "Port"
 
 #: pkg/networkmanager/firewall.jsx:362
 msgid "Invalid range"
-msgstr ""
+msgstr "Ungültiger Bereich"
 
 #: pkg/systemd/shutdown.js:141 pkg/systemd/host.js:1466
 msgid "Invalid time format"
@@ -4184,7 +4179,7 @@ msgstr "Läuft sshd auf einem anderen Port?"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:108
 msgid "Isolated Network"
-msgstr ""
+msgstr "Isoliertes Netzwerk"
 
 #: pkg/storaged/jobs-panel.jsx:186
 msgid "Jobs"
@@ -4199,9 +4194,8 @@ msgid "Join Domain"
 msgstr "Einer Domain beitreten"
 
 #: pkg/realmd/operation.js:116
-#, fuzzy
 msgid "Join a Domain"
-msgstr "Einer Domain beitreten"
+msgstr "Einer Domäne beitreten"
 
 #: pkg/realmd/operation.js:506
 msgid "Joining this domain is not supported"
@@ -4356,9 +4350,8 @@ msgid "Launch Remote Viewer"
 msgstr "Starten Sie den Remote Viewer"
 
 #: pkg/realmd/operation.html:24 pkg/realmd/operation.html:28
-#, fuzzy
 msgid "Leave Domain"
-msgstr "Einer Domain beitreten"
+msgstr "Domäne verlassen"
 
 #: pkg/dashboard/index.html:149
 msgid ""
@@ -4460,14 +4453,12 @@ msgid "Local Accounts"
 msgstr "Lokale Konten"
 
 #: pkg/docker/storage.jsx:198
-#, fuzzy
 msgid "Local Disks"
-msgstr "$0 Datenträger"
+msgstr "Lokale Datenträger"
 
 #: pkg/kdump/kdump-view.jsx:136
-#, fuzzy
 msgid "Local Filesystem"
-msgstr "Kein Dateisystem"
+msgstr "Lokales Dateisystem"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:218
 msgid "Local Install Media"
@@ -4881,7 +4872,7 @@ msgstr "Montag"
 
 #: pkg/packagekit/autoupdates.jsx:317
 msgid "Mondays"
-msgstr ""
+msgstr "Montags"
 
 #: pkg/networkmanager/index.html:299
 msgid "Monitoring Interval"
@@ -5359,9 +5350,8 @@ msgid "No carrier"
 msgstr "Kein Träger"
 
 #: pkg/kdump/kdump-view.jsx:396
-#, fuzzy
 msgid "No configuration found"
-msgstr "Unbekannte Konfiguration"
+msgstr "Keine Konfiguration gefunden"
 
 #: pkg/machines/components/consoles.jsx:97
 msgid "No console defined for this virtual machine."
@@ -5381,7 +5371,7 @@ msgstr "Keine Container, die dem aktuellen Filter entsprechen"
 
 #: pkg/networkmanager/firewall.jsx:732
 msgid "No description available"
-msgstr ""
+msgstr "Keine Beschreibung verfügbar"
 
 #: pkg/apps/application.jsx:79
 msgid "No description provided."
@@ -5817,7 +5807,7 @@ msgstr "Ooops!"
 
 #: pkg/machines/helpers.js:222
 msgid "Open"
-msgstr ""
+msgstr "Öffnen"
 
 #: pkg/systemd/index.html:98 pkg/kubernetes/views/nodes-page.html:42
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:289
@@ -5944,7 +5934,6 @@ msgstr "Passwort"
 #: pkg/storaged/format-dialog.jsx:299 pkg/storaged/crypto-keyslots.jsx:157
 #: pkg/storaged/crypto-keyslots.jsx:212 pkg/storaged/crypto-keyslots.jsx:250
 #: pkg/storaged/crypto-keyslots.jsx:254
-#, fuzzy
 msgid "Passphrase cannot be empty"
 msgstr "Passphrase darf nicht leer sein"
 
@@ -5998,7 +5987,7 @@ msgstr ""
 
 #: pkg/lib/cockpit-components-context-menu.jsx:104
 msgid "Paste"
-msgstr ""
+msgstr "Einfügen"
 
 #: pkg/users/index.html:409
 msgid "Paste the contents of your public SSH key file here"
@@ -6050,7 +6039,7 @@ msgstr "Pfade"
 
 #: pkg/machines/components/vm/vmActions.jsx:77
 msgid "Pause"
-msgstr ""
+msgstr "Pause"
 
 #: pkg/kubernetes/views/volumes-page.html:53
 msgid "Pending Volume Claims"
@@ -6451,7 +6440,7 @@ msgstr "Priorität $priority"
 
 #: pkg/machines/helpers.js:227
 msgid "Private"
-msgstr ""
+msgstr "Privat"
 
 #: pkg/kubernetes/scripts/projects.js:1042
 msgid "Private: Allow only specific users or groups to pull images"
@@ -6489,7 +6478,7 @@ msgstr "Prozess"
 #: pkg/machines/components/vm/bootOrderModal.jsx:121
 #: pkg/machines/components/vm/bootOrderModal.jsx:127
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 # translation auto-copied from project RHEL Deployment Guide, version 6.2, document Product_Subscriptions_and_Entitlements, author hpeters
 #: pkg/subscriptions/subscriptions-view.jsx:35
@@ -6726,7 +6715,7 @@ msgstr "Zufällig"
 
 #: pkg/networkmanager/firewall.jsx:762
 msgid "Range"
-msgstr ""
+msgstr "Bereich"
 
 #: pkg/networkmanager/firewall.jsx:370
 msgid "Range must be strictly ordered"
@@ -6761,7 +6750,7 @@ msgstr "Lesen und Schreiben von mehreren Knoten aus"
 
 #: pkg/systemd/hwinfo.jsx:193
 msgid "Read more..."
-msgstr ""
+msgstr "Mehr lesen..."
 
 #: pkg/kubernetes/scripts/volumes.js:212
 msgid "Read only from multiple nodes"
@@ -6780,9 +6769,8 @@ msgid "Reading"
 msgstr "lesen"
 
 #: pkg/kdump/kdump-view.jsx:413
-#, fuzzy
 msgid "Reading..."
-msgstr "Lade..."
+msgstr "Lese..."
 
 #: pkg/machines/components/vmDisksTab.jsx:74
 msgid "Readonly"
@@ -6957,9 +6945,8 @@ msgid "Remove"
 msgstr "Entfernen"
 
 #: pkg/networkmanager/interfaces.js:3055
-#, fuzzy
 msgid "Remove $0"
-msgstr "Entfernen"
+msgstr "Entferne $0"
 
 #: pkg/storaged/crypto-keyslots.jsx:414
 msgid "Remove $0?"
@@ -7429,7 +7416,7 @@ msgstr "Samstag"
 
 #: pkg/packagekit/autoupdates.jsx:322
 msgid "Saturdays"
-msgstr ""
+msgstr "Samstags"
 
 #: pkg/systemd/services.html:523 pkg/machines/components/vm/memoryModal.jsx:217
 #: pkg/machines/components/vm/bootOrderModal.jsx:330
@@ -7440,7 +7427,7 @@ msgstr "Speichern"
 
 #: pkg/systemd/hwinfo.jsx:219
 msgid "Save and reboot"
-msgstr ""
+msgstr "Sichern und Neustarten"
 
 #: pkg/storaged/vdos-panel.jsx:82
 msgid "Save space by compressing individual blocks with LZ4"
@@ -7729,7 +7716,7 @@ msgstr "Shell"
 
 #: pkg/lib/cockpit-components-context-menu.jsx:105
 msgid "Shift+Insert"
-msgstr ""
+msgstr "Shift+Einfügen"
 
 #: pkg/machines/components/diskAdd.jsx:238
 msgid "Show Performance Options"
@@ -8209,7 +8196,7 @@ msgstr "Sonntag"
 
 #: pkg/packagekit/autoupdates.jsx:323
 msgid "Sundays"
-msgstr ""
+msgstr "Sonntags"
 
 #: pkg/storaged/optional-panel.jsx:95
 msgid "Support is installed."
