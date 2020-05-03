@@ -5,16 +5,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-01-14 18:50+0000\n"
+"PO-Revision-Date: 2020-05-04 11:40+0000\n"
 "Last-Translator: Valentin Laskov <v_laskov@mail.bg>\n"
-"Language-Team: Bulgarian <https://translate.stg.fedoraproject.org/projects/"
-"cockpit/master/bg/>\n"
+"Language-Team: Bulgarian <https://translate.fedoraproject.org/projects/"
+"cockpit/rhel-8-2/bg/>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10.1\n"
+"X-Generator: Weblate 4.0.3\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -177,7 +177,7 @@ msgstr "$0 не е налично в никое хранилище."
 
 #: src/base1/cockpit.js:2783
 msgid "$0 killed with signal $1"
-msgstr ""
+msgstr "$0 killed със сигнал $1"
 
 #: pkg/lib/plot.js:977
 msgid "$0 minute"
@@ -209,7 +209,7 @@ msgstr[1] "$0 услуги се провалиха"
 
 #: pkg/docker/util.js:125
 msgid "$0 shares"
-msgstr ""
+msgstr "$0 споделени"
 
 #: pkg/storaged/crypto-keyslots.jsx:589
 msgid "$0 slots remain"
@@ -243,16 +243,17 @@ msgstr[1] "$0 години"
 
 #: pkg/storaged/vgroup-details.jsx:111
 msgid "$0, $1 free"
-msgstr ""
+msgstr "$0, $1 свободни"
 
 #: pkg/systemd/logs.js:457
 msgid "$0: crash at $1"
-msgstr ""
+msgstr "$0: срив в $1"
 
 #: pkg/packagekit/updates.jsx:161
 msgid "$1 security fix"
 msgid_plural "$1 security fixes"
-msgstr[0] ""
+msgstr[0] "$1 поправка в сигурността"
+msgstr[1] "$1 поправки в сигурността"
 
 #: pkg/storaged/utils.js:182
 msgid "$name (from $host)"
@@ -260,24 +261,25 @@ msgstr "$name (от $host)"
 
 #: pkg/storaged/utils.js:126
 msgid "${size} ${desc}"
-msgstr ""
+msgstr "${size} ${desc}"
 
 #: pkg/networkmanager/firewall.jsx:573
 msgid "(Optional)"
-msgstr ""
+msgstr "(по избор)"
 
 #: pkg/storaged/crypto-tab.jsx:132
 msgid "(none)"
-msgstr ""
+msgstr "(нищо)"
 
 #: pkg/packagekit/updates.jsx:165
 msgid ", including $1 security fix"
 msgid_plural ", including $1 security fixes"
-msgstr[0] ""
+msgstr[0] ", включително $1 поправка в сигурността"
+msgstr[1] ", включително $1 поправки в сигурността"
 
 #: pkg/storaged/nfs-details.jsx:325
 msgid "--"
-msgstr ""
+msgstr "--"
 
 #: pkg/storaged/mdraids-panel.jsx:106
 msgid "1 MiB"
@@ -603,27 +605,27 @@ msgstr "Активен"
 
 #: pkg/networkmanager/interfaces.js:1963 pkg/networkmanager/interfaces.js:1980
 msgid "Active Backup"
-msgstr ""
+msgstr "Активно резервно копиране"
 
 #: pkg/shell/index.html:60 pkg/shell/active-pages.js:95
 msgid "Active Pages"
-msgstr ""
+msgstr "Активни страници"
 
 #: pkg/storaged/dialog.jsx:1030 pkg/storaged/dialog.jsx:1034
 msgid "Active since"
-msgstr ""
+msgstr "Активно от"
 
 #: pkg/systemd/service-details.jsx:355
 msgid "Active since "
-msgstr ""
+msgstr "Активно от "
 
 #: pkg/networkmanager/interfaces.js:1968
 msgid "Adaptive load balancing"
-msgstr ""
+msgstr "Адаптивен баланс на натоварването"
 
 #: pkg/networkmanager/interfaces.js:1967
 msgid "Adaptive transmit load balancing"
-msgstr ""
+msgstr "Адаптивен баланс на натоварване при изпращане"
 
 #: pkg/lib/machine-add.html:43 pkg/shell/index.html:197
 #: pkg/machines/components/diskAdd.jsx:549
@@ -632,11 +634,11 @@ msgstr ""
 #: pkg/storaged/mdraid-details.jsx:59 pkg/storaged/nfs-details.jsx:191
 #: pkg/storaged/vgroup-details.jsx:65
 msgid "Add"
-msgstr ""
+msgstr "Добави"
 
 #: pkg/networkmanager/interfaces.js:3088
 msgid "Add $0"
-msgstr ""
+msgstr "Добави $0"
 
 #: pkg/docker/storage.jsx:383
 msgid "Add Additional Storage"
@@ -644,41 +646,41 @@ msgstr ""
 
 #: pkg/networkmanager/index.html:116
 msgid "Add Bond"
-msgstr ""
+msgstr "Добави Бонд"
 
 #: pkg/networkmanager/index.html:118
 msgid "Add Bridge"
-msgstr ""
+msgstr "Добави Bridge"
 
 #: pkg/machines/components/diskAdd.jsx:537
 #: pkg/machines/components/vmDisksTab.jsx:93
 msgid "Add Disk"
-msgstr ""
+msgstr "Добави диск"
 
 #: pkg/storaged/mdraid-details.jsx:46 pkg/storaged/vgroup-details.jsx:52
 msgid "Add Disks"
-msgstr ""
+msgstr "Добавяне на дискове"
 
 #: pkg/storaged/crypto-keyslots.jsx:202
 msgid "Add Key"
-msgstr ""
+msgstr "Добавяне на ключ"
 
 #: pkg/lib/machine-add.html:4
 msgid "Add Machine to Dashboard"
-msgstr ""
+msgstr "Добавяне на машина към таблото"
 
 #: pkg/machines/components/vmnetworktab.jsx:273
 msgid "Add Network Interface"
-msgstr ""
+msgstr "Добавяне мрежов интерфейс"
 
 #: pkg/networkmanager/firewall.jsx:495
 msgid "Add Ports"
-msgstr ""
+msgstr "Добавяне на портове"
 
 #: pkg/networkmanager/firewall.jsx:146 pkg/networkmanager/firewall.jsx:152
 #: pkg/networkmanager/firewall.jsx:495
 msgid "Add Services"
-msgstr ""
+msgstr "Добавяне на услуги"
 
 #: pkg/docker/storage.jsx:219
 msgid "Add Storage"
@@ -690,80 +692,84 @@ msgstr ""
 
 #: pkg/networkmanager/index.html:119
 msgid "Add VLAN"
-msgstr ""
+msgstr "Добавяне на VLAN"
 
 #: pkg/machines/components/nicAdd.jsx:191
 msgid "Add Virtual Network Interface"
-msgstr ""
+msgstr "Добавяне на виртуален мрежов интерфейс"
 
 #: pkg/networkmanager/firewall.jsx:668 pkg/networkmanager/firewall.jsx:899
 #: pkg/networkmanager/firewall.jsx:905
 msgid "Add Zone"
-msgstr ""
+msgstr "Добавяне на зона"
 
 #: pkg/networkmanager/firewall.jsx:904
 msgid "Add a new zone"
-msgstr ""
+msgstr "Добавяне на нова зона"
 
 #: pkg/storaged/iscsi-panel.jsx:42
 msgid "Add iSCSI Portal"
-msgstr ""
+msgstr "Добавяне на iSCSI портал"
 
 #: pkg/shell/index.html:189 pkg/users/index.html:414
 msgid "Add key"
-msgstr ""
+msgstr "Добавяне на ключ"
 
 #: pkg/networkmanager/firewall.jsx:496
 msgid "Add ports to $0 zone"
-msgstr ""
+msgstr "Добавяне на портове към зона $0"
 
 #: pkg/users/index.html:406
 msgid "Add public key"
-msgstr ""
+msgstr "Добавяне на публичен ключ"
 
 #: pkg/networkmanager/firewall.jsx:496
 msgid "Add services to $0 zone"
-msgstr ""
+msgstr "Добавяне на услуги към зона $0"
 
 #: pkg/networkmanager/firewall.jsx:151
 msgid "Add services to zone $0"
-msgstr ""
+msgstr "Добавяне на услуги към зона $0"
 
 #: pkg/networkmanager/firewall.jsx:746
 msgid "Add zone"
-msgstr ""
+msgstr "Добавяне на зона"
 
 #: pkg/networkmanager/interfaces.js:3087
 msgid ""
 "Adding <b>$0</b> will break the connection to the server, and will make the "
 "administration UI unavailable."
 msgstr ""
+"Добавянето на <b>$0</b> ще прекъсне връзката към сървъра и ще направи "
+"административния UI недостъпен."
 
 #: pkg/networkmanager/firewall.jsx:586
 msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
 msgstr ""
+"Добавянето на допълнителни портове ще предизвика презареждане на firewalld. "
+"Това ще предизвика загуба на текущо работещи временни правила!"
 
 #: pkg/users/authorized-keys.js:113
 msgid "Adding key"
-msgstr ""
+msgstr "Добавяне на ключ"
 
 #: pkg/storaged/jobs-panel.jsx:73
 msgid "Adding physical volume to $target"
-msgstr ""
+msgstr "Добавяне на физически дял към $target"
 
 #: pkg/machines/components/vmDisksTab.jsx:119
 msgid "Additional"
-msgstr ""
+msgstr "Допълнителни"
 
 #: pkg/networkmanager/interfaces.js:2638
 msgid "Additional DNS $val"
-msgstr ""
+msgstr "Допълнителен DNS $val"
 
 #: pkg/networkmanager/interfaces.js:2641
 msgid "Additional DNS Search Domains $val"
-msgstr ""
+msgstr "Допълнителни DNS Search домейни $val"
 
 #: pkg/docker/index.html:309
 msgid "Additional Storage"
@@ -771,15 +777,15 @@ msgstr ""
 
 #: pkg/systemd/service-details.jsx:210
 msgid "Additional actions"
-msgstr ""
+msgstr "Допълнителни действия"
 
 #: pkg/networkmanager/interfaces.js:2633
 msgid "Additional address $val"
-msgstr ""
+msgstr "Допълнителен адрес $val"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:75
 msgid "Additional packages:"
-msgstr ""
+msgstr "Допълнителни пакети:"
 
 #: pkg/lib/machine-add.html:11
 #: pkg/machines/components/networks/networkOverviewTab.jsx:109
@@ -787,42 +793,42 @@ msgstr ""
 #: pkg/machines/components/vmnetworktab.jsx:131
 #: pkg/storaged/iscsi-panel.jsx:128
 msgid "Address"
-msgstr ""
+msgstr "Адрес"
 
 #: pkg/networkmanager/interfaces.js:2633
 msgid "Address $val"
-msgstr ""
+msgstr "Адрес $val"
 
 #: pkg/storaged/crypto-keyslots.jsx:193
 msgid "Address cannot be empty"
-msgstr ""
+msgstr "Адрес не може да е празно"
 
 #: pkg/storaged/crypto-keyslots.jsx:195
 msgid "Address is not a valid URL"
-msgstr ""
+msgstr "Адресът е невалиден URL"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:60
 #: pkg/machines/components/networks/createNetworkDialog.jsx:67
 #: pkg/machines/components/networks/createNetworkDialog.jsx:88
 #: pkg/machines/components/networks/createNetworkDialog.jsx:95
 msgid "Address not within subnet"
-msgstr ""
+msgstr "Адресът не принадлежи на подмрежата"
 
 #: pkg/machines/components/desktopConsole.jsx:153
 msgid "Address:"
-msgstr ""
+msgstr "Адрес:"
 
 #: pkg/networkmanager/firewall.jsx:163 pkg/networkmanager/interfaces.js:3294
 msgid "Addresses"
-msgstr ""
+msgstr "Адреси"
 
 #: src/bridge/org.cockpit-project.cockpit-bridge.policy.in:10
 msgid "Administration with Cockpit Web Console"
-msgstr ""
+msgstr "Администриране чрез Cockpit Web Console"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:336
 msgid "Administrator Password"
-msgstr ""
+msgstr "Парола на администратор"
 
 #: pkg/lib/machine-info.js:93
 msgid "Advanced TCA"
@@ -830,12 +836,12 @@ msgstr ""
 
 #: pkg/systemd/service-details.jsx:431
 msgid "After"
-msgstr ""
+msgstr "След"
 
 #: pkg/systemd/services.html:309
 msgctxt "time-delay"
 msgid "After"
-msgstr ""
+msgstr "След"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:27
 msgid ""
@@ -1128,11 +1134,11 @@ msgstr ""
 #: pkg/networkmanager/interfaces.js:2493 pkg/networkmanager/interfaces.js:2505
 #: pkg/networkmanager/interfaces.js:2773
 msgid "Bond"
-msgstr ""
+msgstr "Бонд"
 
 #: pkg/networkmanager/index.html:499
 msgid "Bond Settings"
-msgstr ""
+msgstr "Настройки на Бонда"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:312
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:164
@@ -2059,6 +2065,8 @@ msgid ""
 "Creating this bond will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
+"Създаването на този бонд ще прекъсне връзката към сървъра и ще направи "
+"административния UI недостъпен."
 
 #: pkg/networkmanager/interfaces.js:4270
 msgid ""
@@ -8210,7 +8218,7 @@ msgstr ""
 
 #: pkg/networkmanager/manifest.json.in
 msgid "bond"
-msgstr ""
+msgstr "бонд"
 
 #: pkg/systemd/manifest.json.in
 msgid "boot"
