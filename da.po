@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-04-24 18:40+0000\n"
+"PO-Revision-Date: 2020-05-06 20:40+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/da/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.1\n"
+"X-Generator: Weblate 4.0.3\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -549,9 +549,8 @@ msgid "Access"
 msgstr ""
 
 #: pkg/users/index.html:249
-#, fuzzy
 msgid "Account Expiration"
-msgstr "Indstillinger"
+msgstr "Kontoudløb"
 
 #: pkg/shell/index.html:64
 msgid "Account Settings"
@@ -1303,9 +1302,8 @@ msgid "Change"
 msgstr ""
 
 #: pkg/systemd/index.html:217
-#, fuzzy
 msgid "Change Host Name"
-msgstr "Værtsnavn"
+msgstr "Skift værtsnavn"
 
 #: pkg/shell/index.html:339
 msgid "Change Password"
@@ -1328,9 +1326,8 @@ msgid "Change iSCSI Initiator Name"
 msgstr ""
 
 #: pkg/storaged/crypto-keyslots.jsx:255
-#, fuzzy
 msgid "Change passphrase"
-msgstr "Værtsnavn"
+msgstr "Skift adgangskode"
 
 #: pkg/docker/index.html:229
 msgid "Change resource limits"
@@ -1938,9 +1935,8 @@ msgid "Create RAID Device"
 msgstr ""
 
 #: pkg/sosreport/index.html:36
-#, fuzzy
 msgid "Create Report"
-msgstr "Værtsnavn"
+msgstr "Opret rapport"
 
 #: pkg/storaged/lvol-tabs.jsx:355 pkg/storaged/lvol-tabs.jsx:396
 msgid "Create Snapshot"
@@ -2097,9 +2093,8 @@ msgstr ""
 
 #: pkg/storaged/format-dialog.jsx:247 pkg/storaged/fsys-tab.jsx:241
 #: pkg/storaged/nfs-details.jsx:176
-#, fuzzy
 msgid "Custom mount options"
-msgstr "Indstillinger"
+msgstr "Tilpasset monteringsvalgmuligheder"
 
 #: pkg/networkmanager/firewall.jsx:686
 msgid "Custom zones"
@@ -2304,9 +2299,8 @@ msgid "Device"
 msgstr "Enhed"
 
 #: pkg/storaged/vdo-details.jsx:266
-#, fuzzy
 msgid "Device File"
-msgstr "Værtsnavn"
+msgstr "Enhedsfil"
 
 #: pkg/storaged/content-views.jsx:591
 msgid "Device is read-only"
@@ -2375,7 +2369,6 @@ msgid "Disk $0 fail to get detached from VM $1"
 msgstr ""
 
 #: pkg/dashboard/index.html:73 pkg/systemd/graphs.js:72
-#, fuzzy
 msgid "Disk I/O"
 msgstr "Disk I/O"
 
@@ -2423,9 +2416,8 @@ msgid "Docker is not installed or activated on the system"
 msgstr ""
 
 #: pkg/lib/machine-info.js:78
-#, fuzzy
 msgid "Docking Station"
-msgstr "Indstillinger"
+msgstr "Dokingstation"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:11
 #: pkg/systemd/overview-cards/configurationCard.jsx:402
@@ -3074,9 +3066,8 @@ msgid "Hand Held"
 msgstr ""
 
 #: pkg/docker/storage.jsx:168
-#, fuzzy
 msgid "Hard Disk"
-msgstr "Disk I/O"
+msgstr "Harddisk"
 
 #: pkg/systemd/hwinfo.html:4 pkg/systemd/hwinfo.jsx:283
 msgid "Hardware Information"
@@ -3256,29 +3247,25 @@ msgid "Image $0"
 msgstr ""
 
 #: pkg/users/local.js:771
-#, fuzzy
 msgid "Image Builder"
-msgstr "Værtsnavn"
+msgstr "Billedbygger"
 
 #: pkg/docker/index.html:580
-#, fuzzy
 msgid "Image Search"
-msgstr "Værtsnavn"
+msgstr "Billedsøgning"
 
 #: pkg/docker/index.html:157
-#, fuzzy
 msgid "Image:"
-msgstr "Værtsnavn"
+msgstr "Billede:"
 
 #: pkg/docker/containers-view.jsx:715
 msgid "Images"
 msgstr ""
 
 #: pkg/docker/image.js:40
-#, fuzzy
 msgctxt "page-title"
 msgid "Images"
-msgstr "Værtsnavn"
+msgstr "Billeder"
 
 #: pkg/docker/containers-view.jsx:109
 msgid "Images and running containers"
@@ -3334,9 +3321,8 @@ msgid "Incorrect Host Key"
 msgstr ""
 
 #: pkg/storaged/vdo-details.jsx:300 pkg/storaged/vdos-panel.jsx:106
-#, fuzzy
 msgid "Index Memory"
-msgstr "Hukommelse"
+msgstr "Indekshukommelse"
 
 #: pkg/systemd/logs.html:62
 msgid "Info and above"
@@ -3769,14 +3755,12 @@ msgid "Local Accounts"
 msgstr ""
 
 #: pkg/docker/storage.jsx:200
-#, fuzzy
 msgid "Local Disks"
-msgstr "Disk I/O"
+msgstr "Lokale diske"
 
 #: pkg/kdump/kdump-view.jsx:136
-#, fuzzy
 msgid "Local Filesystem"
-msgstr "Disk I/O"
+msgstr "Lokalt filsystem"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:292
 msgid "Local Install Media"
@@ -3787,9 +3771,8 @@ msgid "Local Mount Point"
 msgstr ""
 
 #: pkg/kdump/kdump-view.jsx:145
-#, fuzzy
 msgid "Location"
-msgstr "Indstillinger"
+msgstr "Placering"
 
 #: pkg/storaged/content-views.jsx:252
 msgid "Lock"
@@ -3840,9 +3823,8 @@ msgid "Logical"
 msgstr ""
 
 #: pkg/storaged/vdo-details.jsx:218 pkg/storaged/vdos-panel.jsx:99
-#, fuzzy
 msgid "Logical Size"
-msgstr "Disk I/O"
+msgstr "Logisk størrelse"
 
 #: pkg/storaged/utils.js:198
 msgid "Logical Volume"
@@ -4038,9 +4020,8 @@ msgid "Memory"
 msgstr ""
 
 #: pkg/systemd/graphs.html:83
-#, fuzzy
 msgid "Memory & Swap"
-msgstr "Hukommelse"
+msgstr "Hukommelse og swap"
 
 #: pkg/systemd/graphs.js:439
 msgid "Memory & Swap Usage"
@@ -4068,9 +4049,8 @@ msgid "Memory must not be 0"
 msgstr ""
 
 #: pkg/docker/index.html:211
-#, fuzzy
 msgid "Memory usage:"
-msgstr "Hukommelse"
+msgstr "Hukommelsesforbrug:"
 
 #: pkg/systemd/shutdown.js:83
 msgid "Message to logged in users"
@@ -4150,9 +4130,8 @@ msgstr ""
 
 #: pkg/machines/components/desktopConsole.jsx:102
 #: pkg/machines/components/desktopConsole.jsx:110
-#, fuzzy
 msgid "More Information"
-msgstr "Indstillinger"
+msgstr "Mere information"
 
 #: pkg/kdump/kdump-view.jsx:451
 msgid "More details"
@@ -4173,9 +4152,8 @@ msgstr ""
 
 #: pkg/storaged/format-dialog.jsx:236 pkg/storaged/fsys-tab.jsx:233
 #: pkg/storaged/nfs-details.jsx:171
-#, fuzzy
 msgid "Mount Options"
-msgstr "Indstillinger"
+msgstr "Monteringsvalgmuligheder"
 
 #: pkg/storaged/format-dialog.jsx:230 pkg/storaged/fsys-panel.jsx:95
 #: pkg/storaged/fsys-tab.jsx:228 pkg/storaged/fsys-tab.jsx:496
@@ -4188,9 +4166,8 @@ msgid "Mount also automatically on boot"
 msgstr ""
 
 #: pkg/storaged/nfs-details.jsx:174
-#, fuzzy
 msgid "Mount at boot"
-msgstr "Indstillinger"
+msgstr "Montér ved opstart"
 
 #: pkg/storaged/fsys-tab.jsx:458 pkg/storaged/fsys-tab.jsx:470
 msgid "Mount automatically on $0 on boot"
@@ -4226,9 +4203,8 @@ msgstr ""
 
 #: pkg/storaged/format-dialog.jsx:246 pkg/storaged/fsys-tab.jsx:240
 #: pkg/storaged/nfs-details.jsx:175
-#, fuzzy
 msgid "Mount read only"
-msgstr "Indstillinger"
+msgstr "Montér som skrivebeskyttet"
 
 #: pkg/storaged/jobs-panel.jsx:43
 msgid "Mounting $target"
@@ -4289,9 +4265,8 @@ msgstr ""
 #: pkg/storaged/vdos-panel.jsx:82 pkg/storaged/vgroup-details.jsx:175
 #: pkg/storaged/vgroups-panel.jsx:74 pkg/systemd/hwinfo.jsx:70
 #: pkg/systemd/init.js:308
-#, fuzzy
 msgid "Name"
-msgstr "Værtsnavn"
+msgstr "Navn"
 
 #: pkg/storaged/vdos-panel.jsx:87
 msgid "Name can not be empty."
@@ -4369,9 +4344,8 @@ msgid "Network Boot is available only when using System connection"
 msgstr ""
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:63
-#, fuzzy
 msgid "Network File System"
-msgstr "Netværks Traffik"
+msgstr "Netværksfilsystem"
 
 #: pkg/machines/components/vm/vm.jsx:52
 msgid "Network Interfaces"
@@ -4382,9 +4356,8 @@ msgid "Network Selection does not support PXE."
 msgstr ""
 
 #: pkg/systemd/graphs.js:73
-#, fuzzy
 msgid "Network Traffic"
-msgstr "Netværks Traffik"
+msgstr "Netværkstrafik"
 
 #: pkg/networkmanager/index.html:56
 msgid "Network devices and graphs require NetworkManager."
@@ -4405,10 +4378,9 @@ msgid "Networking"
 msgstr ""
 
 #: pkg/networkmanager/interfaces.js:1612 pkg/networkmanager/interfaces.js:2195
-#, fuzzy
 msgctxt "page-title"
 msgid "Networking"
-msgstr "Netværks Traffik"
+msgstr "Netværk"
 
 #: pkg/networkmanager/index.html:155
 msgid "Networking Logs"
@@ -4416,18 +4388,16 @@ msgstr ""
 
 #: pkg/machines/components/networks/networkList.jsx:50
 #: pkg/machines/components/networks/networkList.jsx:54
-#, fuzzy
 msgid "Networks"
-msgstr "Netværks Traffik"
+msgstr "Netværk"
 
 #: pkg/users/local.js:983
 msgid "Never"
 msgstr ""
 
 #: pkg/users/index.html:297 pkg/users/local.js:890
-#, fuzzy
 msgid "Never expire password"
-msgstr "Indtast adgangskode"
+msgstr "Adgangskode udløber aldrig"
 
 #: pkg/users/index.html:258 pkg/users/local.js:898
 msgid "Never lock account"
@@ -4438,19 +4408,16 @@ msgid "New NFS Mount"
 msgstr ""
 
 #: pkg/shell/index.html:314 pkg/users/index.html:218
-#, fuzzy
 msgid "New Password"
-msgstr "Indtast adgangskode"
+msgstr "Ny adgangskode"
 
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:39
-#, fuzzy
 msgid "New Volume Name"
-msgstr "Værtsnavn"
+msgstr "Nyt diskenhedsnavn"
 
 #: pkg/storaged/crypto-keyslots.jsx:214 pkg/storaged/crypto-keyslots.jsx:260
-#, fuzzy
 msgid "New passphrase"
-msgstr "Indtast adgangskode"
+msgstr "Ny adgangskode"
 
 #: pkg/lib/credentials.js:237 pkg/users/local.js:109
 msgid "New password was not accepted"
@@ -4825,14 +4792,12 @@ msgid "Ok"
 msgstr ""
 
 #: pkg/shell/index.html:305 pkg/users/index.html:215
-#, fuzzy
 msgid "Old Password"
-msgstr "Indtast adgangskode"
+msgstr "Gammel adgangskode"
 
 #: pkg/storaged/crypto-keyslots.jsx:257
-#, fuzzy
 msgid "Old passphrase"
-msgstr "Indtast adgangskode"
+msgstr "Gammel adgangskode"
 
 #: pkg/lib/credentials.js:218 pkg/users/local.js:56
 msgid "Old password not accepted"
@@ -4932,9 +4897,8 @@ msgid "Other Devices"
 msgstr ""
 
 #: src/ws/login.html:70
-#, fuzzy
 msgid "Other Options"
-msgstr "Indstillinger"
+msgstr "Andre valgmuligheder"
 
 #: pkg/docker/index.html:299 pkg/systemd/graphs.html:25
 #: pkg/systemd/graphs.html:109 pkg/machines/components/networks/network.jsx:73
@@ -5232,9 +5196,8 @@ msgstr ""
 #: pkg/machines/components/vm/bootOrderModal.jsx:95
 #: pkg/machines/components/vmDiskColumns.jsx:45
 #: pkg/storaged/content-views.jsx:138
-#, fuzzy
 msgid "Pool"
-msgstr "Værtsnavn"
+msgstr "Pulje"
 
 #: pkg/storaged/utils.js:192
 msgid "Pool for Thin Logical Volumes"
@@ -6140,32 +6103,28 @@ msgid "Service Logs"
 msgstr ""
 
 #: pkg/kdump/kdump-view.jsx:445
-#, fuzzy
 msgid "Service has an error"
-msgstr "Værtsnavn"
+msgstr "Tjenesten har en fejl"
 
 #: pkg/kdump/kdump-view.jsx:441
-#, fuzzy
 msgid "Service is running"
-msgstr "Værtsnavn"
+msgstr "Tjenesten kører"
 
 #: pkg/kdump/kdump-view.jsx:447
 msgid "Service is starting"
 msgstr ""
 
 #: pkg/kdump/kdump-view.jsx:443
-#, fuzzy
 msgid "Service is stopped"
-msgstr "Værtsnavn"
+msgstr "Tjenesten er stoppet"
 
 #: pkg/kdump/kdump-view.jsx:449
 msgid "Service is stopping"
 msgstr ""
 
 #: pkg/systemd/services.html:253
-#, fuzzy
 msgid "Service name"
-msgstr "Værtsnavn"
+msgstr "Tjenestenavn"
 
 #: pkg/systemd/services.html:4 pkg/systemd/services.html:221
 #: pkg/networkmanager/firewall.jsx:507 pkg/systemd/manifest.json.in
@@ -6373,9 +6332,8 @@ msgid "Solution failed"
 msgstr ""
 
 #: pkg/selinux/setroubleshoot-view.jsx:414
-#, fuzzy
 msgid "Solutions"
-msgstr "Indstillinger"
+msgstr "Løsninger"
 
 #: pkg/packagekit/updates.jsx:42
 msgid ""
@@ -6503,9 +6461,8 @@ msgid "State"
 msgstr ""
 
 #: pkg/docker/index.html:168
-#, fuzzy
 msgid "State:"
-msgstr "Tilstand"
+msgstr "Tilstand:"
 
 #: pkg/systemd/services.html:67 pkg/systemd/init.js:219
 #: pkg/systemd/service-details.jsx:372
@@ -6587,9 +6544,8 @@ msgid "Storage Pool $0 failed to get deactivated"
 msgstr ""
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:47
-#, fuzzy
 msgid "Storage Pool Name"
-msgstr "Værtsnavn"
+msgstr "Lagerpuljenavn"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:461
 msgid "Storage Pool failed to be created"
@@ -6605,9 +6561,8 @@ msgid "Storage Volume"
 msgstr ""
 
 #: pkg/machines/components/storagePools/storagePool.jsx:88
-#, fuzzy
 msgid "Storage Volumes"
-msgstr "Værtsnavn"
+msgstr "Lagerdiskenheder"
 
 #: pkg/machines/components/storagePools/storageVolumeDelete.jsx:48
 msgid "Storage Volumes could not be deleted"
@@ -6626,9 +6581,8 @@ msgid "Storage size must not be 0"
 msgstr ""
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:421
-#, fuzzy
 msgid "Store metrics"
-msgstr "Værtsnavn"
+msgstr ""
 
 #: pkg/storaged/format-dialog.jsx:69
 msgid "Store passphrase"
@@ -7452,9 +7406,8 @@ msgid "Type ID"
 msgstr ""
 
 #: pkg/lib/machine-change-auth.html:42
-#, fuzzy
 msgid "Type a password"
-msgstr "Indtast adgangskode"
+msgstr "Skriv en adgangskode"
 
 #: pkg/docker/containers-view.jsx:115
 msgid "Type to filter…"
@@ -7535,9 +7488,8 @@ msgid "Unique Network Name"
 msgstr ""
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:201
-#, fuzzy
 msgid "Unique name"
-msgstr "Værtsnavn"
+msgstr "Unikt navn"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:134
 #: pkg/storaged/dialog.jsx:1034
@@ -7758,9 +7710,8 @@ msgstr ""
 
 #: pkg/systemd/overview-cards/realmd-operation.html:56 pkg/users/index.html:90
 #: pkg/users/index.html:170
-#, fuzzy
 msgid "User Name"
-msgstr "Værtsnavn"
+msgstr "Brugernavn"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:59
 #: pkg/systemd/overview-cards/realmd-operation.js:337
@@ -7777,9 +7728,8 @@ msgid "User name cannot be empty"
 msgstr ""
 
 #: pkg/storaged/iscsi-panel.jsx:46 pkg/storaged/iscsi-panel.jsx:155
-#, fuzzy
 msgid "Username"
-msgstr "Værtsnavn"
+msgstr "Brugernavn"
 
 #: pkg/lib/machine-change-auth.html:44
 msgid "Using available credentials"
@@ -8001,9 +7951,8 @@ msgid "Volumes"
 msgstr ""
 
 #: pkg/docker/index.html:200
-#, fuzzy
 msgid "Volumes:"
-msgstr "Værtsnavn"
+msgstr "Diskenheder:"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:140
 msgid "WWPN"
@@ -8568,9 +8517,8 @@ msgstr ""
 
 #: pkg/machines/helpers.js:207 pkg/machines/helpers.js:218
 #: pkg/networkmanager/manifest.json.in
-#, fuzzy
 msgid "network"
-msgstr "Netværks Traffik"
+msgstr "netværk"
 
 #: pkg/storaged/manifest.json.in
 msgid "nfs"
