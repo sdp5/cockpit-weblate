@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-03-30 06:38+0000\n"
-"Last-Translator: Hossein Aghaie <hossein.a97@gmail.com>\n"
+"PO-Revision-Date: 2020-05-08 08:40+0000\n"
+"Last-Translator: Ahmad Haghighi <haghighi.ahmad@gmail.com>\n"
 "Language-Team: Persian <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/fa/>\n"
 "Language: fa\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -38,6 +38,8 @@ msgstr ""
 #: pkg/machines/components/diskAdd.jsx:242
 msgid " Attaching it will make this disk shareable for every VM using it."
 msgstr ""
+" افزودنش سبب می‌شود که بتوان این دیسک را با تمامی ماشین‌های مجازی استفاده "
+"کننده از آن به اشتراک گذاشت."
 
 #: pkg/networkmanager/interfaces.js:2317
 msgid "$0 Active Zone"
@@ -53,7 +55,7 @@ msgstr "$0 Block Device"
 
 #: pkg/storaged/mdraid-details.jsx:188
 msgid "$0 Chunk Size"
-msgstr ""
+msgstr "$0 اندازه قطعه"
 
 #: pkg/storaged/mdraid-details.jsx:186
 msgid "$0 Disks"
@@ -111,21 +113,21 @@ msgstr[1] "$0 بایت ها"
 
 #: pkg/storaged/vdo-details.jsx:279
 msgid "$0 data + $1 overhead used of $2 ($3)"
-msgstr ""
+msgstr "$0 داده + 1$ سربار از (3$) 2$ استفاده شده است"
 
 #: pkg/lib/plot.js:971
 msgid "$0 day"
 msgid_plural "$0 days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 روز"
+msgstr[1] "$0 روز"
 
 #: src/base1/test-locale.js:65 src/base1/test-locale.js:66
 #: src/base1/test-locale.js:67 pkg/playground/translate.js:26
 #: pkg/playground/translate.js:29 pkg/storaged/mdraid-details.jsx:208
 msgid "$0 disk is missing"
 msgid_plural "$0 disks are missing"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 دیسگ مفقود شده است"
+msgstr[1] "$0 دیسگ مفقود شده است"
 
 #: src/base1/test-locale.js:68 src/base1/test-locale.js:70
 #: src/base1/test-locale.js:72 pkg/playground/translate.js:32
@@ -133,12 +135,12 @@ msgstr[1] ""
 msgctxt "disk-non-rotational"
 msgid "$0 disk is missing"
 msgid_plural "$0 disks are missing"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 دیسک مفقود شده است"
+msgstr[1] "$0 دیسک مفقود شده است"
 
 #: src/ws/login.js:336 src/ws/login.js:695
 msgid "$0 error"
-msgstr ""
+msgstr "$0 خطا"
 
 #: src/base1/cockpit.js:2785
 msgid "$0 exited with code $1"
