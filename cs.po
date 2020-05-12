@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-04-19 17:40+0000\n"
+"PO-Revision-Date: 2020-05-14 09:40+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/cs/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.0.1\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -2553,7 +2553,7 @@ msgstr "Disk $0 se nepodařilo odpojit od virt. stroje $1"
 # DocId: virt-manager
 #: pkg/dashboard/index.html:73 pkg/systemd/graphs.js:72
 msgid "Disk I/O"
-msgstr "Diskový vst./výst."
+msgstr "Diskový vst/výst."
 
 #: pkg/machines/components/diskAdd.jsx:456
 msgid "Disk failed to be attached"
@@ -2924,7 +2924,7 @@ msgstr "Ethernet MAC adresa"
 
 #: pkg/networkmanager/index.html:655
 msgid "Ethernet MTU"
-msgstr "Ethernet MTU"
+msgstr "MTU ethernetu"
 
 #: pkg/networkmanager/interfaces.js:1994
 msgid "Ethtool"
