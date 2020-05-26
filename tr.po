@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-04-22 17:40+0000\n"
+"PO-Revision-Date: 2020-05-30 19:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/tr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.0.1\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -32,15 +32,15 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:2317
 msgid "$0 Active Zone"
-msgstr "$0 Aktif Bölge"
+msgstr "$0 Etkin Bölge"
 
 #: pkg/networkmanager/interfaces.js:2317
 msgid "$0 Active Zones"
-msgstr "$0 Aktif Bölge"
+msgstr "$0 Etkin Bölge"
 
 #: pkg/storaged/others-panel.jsx:57
 msgid "$0 Block Device"
-msgstr "$0 Blok Device"
+msgstr "$0 Blok Aygıtı"
 
 #: pkg/storaged/mdraid-details.jsx:188
 msgid "$0 Chunk Size"
@@ -162,6 +162,8 @@ msgid ""
 "$0 is available for most operating systems. To install it, search for it in "
 "GNOME Software or run the following:"
 msgstr ""
+"$0, çoğu işletim sisteminde kullanılabilir. Kurmak için GNOME Yazılımlar'da "
+"arayın veya aşağıdaki komutu çalıştırın:"
 
 #: pkg/storaged/content-views.jsx:298 pkg/storaged/content-views.jsx:538
 #: pkg/storaged/format-dialog.jsx:164 pkg/storaged/lvol-tabs.jsx:203
@@ -169,116 +171,125 @@ msgstr ""
 #: pkg/storaged/mdraid-details.jsx:282 pkg/storaged/vdo-details.jsx:128
 #: pkg/storaged/vdo-details.jsx:159 pkg/storaged/vgroup-details.jsx:199
 msgid "$0 is in active use"
-msgstr ""
+msgstr "$0 etkin olarak kullanılıyor"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:153
 msgid "$0 is not available from any repository."
-msgstr ""
+msgstr "$0, hiçbir depoda yok."
 
 #: src/base1/cockpit.js:2783
 msgid "$0 killed with signal $1"
-msgstr ""
+msgstr "$0, $1 sinyali ile sonlandırıldı"
 
 #: pkg/lib/plot.js:977
 msgid "$0 minute"
 msgid_plural "$0 minutes"
-msgstr[0] ""
+msgstr[0] "$0 dakika"
+msgstr[1] "$0 dakika"
 
 #: pkg/lib/plot.js:965
 msgid "$0 month"
 msgid_plural "$0 months"
-msgstr[0] ""
+msgstr[0] "$0 ay"
+msgstr[1] "$0 ay"
 
 #: pkg/selinux/setroubleshoot-view.jsx:434
 msgid "$0 occurrence"
 msgid_plural "$1 occurrences"
-msgstr[0] ""
+msgstr[0] "$0 defa meydana geldi"
+msgstr[1] "$1 defa meydana geldi"
 
 #: pkg/storaged/fsys-tab.jsx:365
 msgid "$0 of $1"
-msgstr ""
+msgstr "$0/$1"
 
 #: pkg/systemd/init.js:424
 msgid "$0 service has failed"
 msgid_plural "$0 services have failed"
-msgstr[0] ""
+msgstr[0] "$0 hizmet başarısız oldu"
+msgstr[1] "$0 hizmet başarısız oldu"
 
 #: pkg/docker/util.js:125
 msgid "$0 shares"
-msgstr ""
+msgstr "$0 paylaşım"
 
 #: pkg/storaged/crypto-keyslots.jsx:589
 msgid "$0 slots remain"
-msgstr ""
+msgstr "$0 yuva kaldı"
 
 #: pkg/packagekit/updates.jsx:163
 msgid "$0 update"
 msgid_plural "$0 updates"
-msgstr[0] ""
+msgstr[0] "$0 güncelleme"
+msgstr[1] "$0 güncelleme"
 
 #: pkg/storaged/vdo-details.jsx:291
 msgid "$0 used of $1 ($2 saved)"
-msgstr ""
+msgstr "Kullanılan: $0/$1 ($2 tasarruf edildi)"
 
 #: pkg/lib/plot.js:968
 msgid "$0 week"
 msgid_plural "$0 weeks"
-msgstr[0] ""
+msgstr[0] "$0 hafta"
+msgstr[1] "$0 hafta"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:108
 msgid "$0 will be installed."
-msgstr ""
+msgstr "$0 kurulacak."
 
 #: pkg/lib/plot.js:962
 msgid "$0 year"
 msgid_plural "$0 years"
-msgstr[0] ""
+msgstr[0] "$0 yıl"
+msgstr[1] "$0 yıl"
 
 #: pkg/storaged/vgroup-details.jsx:111
 msgid "$0, $1 free"
-msgstr ""
+msgstr "$0, $1 boş"
 
 #: pkg/systemd/logs.js:457
 msgid "$0: crash at $1"
-msgstr ""
+msgstr "$0: $1 tarihinde çökme"
 
 #: pkg/packagekit/updates.jsx:161
 msgid "$1 security fix"
 msgid_plural "$1 security fixes"
-msgstr[0] ""
+msgstr[0] "$1 güvenlik düzeltmesi"
+msgstr[1] "$1 güvenlik düzeltmesi"
 
 #: pkg/storaged/utils.js:182
 msgid "$name (from $host)"
-msgstr ""
+msgstr "$name ($host'den)"
 
 #: pkg/storaged/utils.js:126
 msgid "${size} ${desc}"
-msgstr ""
+msgstr "${size} ${desc}"
 
 #: pkg/networkmanager/firewall.jsx:573
 msgid "(Optional)"
-msgstr ""
+msgstr "(İsteğe bağlı)"
 
 #: pkg/storaged/crypto-tab.jsx:132
 msgid "(none)"
-msgstr ""
+msgstr "(yok)"
 
 #: pkg/packagekit/updates.jsx:165
 msgid ", including $1 security fix"
 msgid_plural ", including $1 security fixes"
-msgstr[0] ""
+msgstr[0] ", $1 güvenlik düzeltmesi dahil"
+msgstr[1] ", $1 güvenlik düzeltmesi dahil"
 
 #: pkg/storaged/nfs-details.jsx:325
 msgid "--"
-msgstr ""
+msgstr "--"
 
 #: pkg/storaged/mdraids-panel.jsx:106
 msgid "1 MiB"
-msgstr ""
+msgstr "1 MiB"
 
 #: pkg/systemd/index.html:183 pkg/systemd/index.html:187
 msgid "1 Minute"
-msgstr "1 dakika"
+msgstr "1 Dakika"
 
 #: pkg/dashboard/index.html:55 pkg/networkmanager/index.html:72
 #: pkg/networkmanager/index.html:408 pkg/systemd/graphs.html:55
@@ -294,7 +305,7 @@ msgstr "1 saat"
 
 #: pkg/systemd/graphs.js:382
 msgid "1 min"
-msgstr ""
+msgstr "1 dakika"
 
 #: pkg/dashboard/index.html:57 pkg/networkmanager/index.html:73
 #: pkg/networkmanager/index.html:409 pkg/systemd/graphs.html:57
@@ -304,155 +315,155 @@ msgstr "1 hafta"
 
 #: pkg/systemd/services.html:164
 msgid "10th"
-msgstr ""
+msgstr "10."
 
 #: pkg/systemd/services.html:165
 msgid "11th"
-msgstr ""
+msgstr "11."
 
 #: pkg/storaged/mdraids-panel.jsx:104
 msgid "128 KiB"
-msgstr ""
+msgstr "128 KiB"
 
 #: pkg/systemd/services.html:166
 msgid "12th"
-msgstr ""
+msgstr "12."
 
 #: pkg/systemd/services.html:167
 msgid "13th"
-msgstr ""
+msgstr "13."
 
 #: pkg/systemd/services.html:168
 msgid "14th"
-msgstr ""
+msgstr "14."
 
 #: pkg/systemd/services.html:169
 msgid "15th"
-msgstr ""
+msgstr "15."
 
 #: pkg/storaged/mdraids-panel.jsx:101
 msgid "16 KiB"
-msgstr ""
+msgstr "16 KiB"
 
 #: pkg/systemd/services.html:170
 msgid "16th"
-msgstr ""
+msgstr "16."
 
 #: pkg/systemd/services.html:171
 msgid "17th"
-msgstr ""
+msgstr "17."
 
 #: pkg/systemd/services.html:172
 msgid "18th"
-msgstr ""
+msgstr "18."
 
 #: pkg/systemd/services.html:173
 msgid "19th"
-msgstr ""
+msgstr "19."
 
 #: pkg/systemd/services.html:155
 msgid "1st"
-msgstr ""
+msgstr "1."
 
 #: pkg/storaged/mdraids-panel.jsx:107
 msgid "2 MiB"
-msgstr ""
+msgstr "2 MiB"
 
 #: pkg/systemd/graphs.js:381
 msgid "2 min"
-msgstr ""
+msgstr "2 dakika"
 
 #: pkg/systemd/index.html:189
 msgid "20 Minutes"
-msgstr "20 dakika"
+msgstr "20 Dakika"
 
 #: pkg/systemd/services.html:174
 msgid "20th"
-msgstr ""
+msgstr "20."
 
 #: pkg/systemd/services.html:175
 msgid "21st"
-msgstr ""
+msgstr "21."
 
 #: pkg/systemd/services.html:176
 msgid "22nd"
-msgstr ""
+msgstr "22."
 
 #: pkg/systemd/services.html:177
 msgid "23rd"
-msgstr ""
+msgstr "23."
 
 #: pkg/systemd/services.html:178
 msgid "24th"
-msgstr ""
+msgstr "24."
 
 #: pkg/systemd/services.html:179
 msgid "25th"
-msgstr ""
+msgstr "25."
 
 #: pkg/systemd/services.html:180
 msgid "26th"
-msgstr ""
+msgstr "26."
 
 #: pkg/systemd/services.html:181
 msgid "27th"
-msgstr ""
+msgstr "27."
 
 #: pkg/systemd/services.html:182
 msgid "28th"
-msgstr ""
+msgstr "28."
 
 #: pkg/systemd/services.html:183
 msgid "29th"
-msgstr ""
+msgstr "29."
 
 #: pkg/systemd/services.html:156
 msgid "2nd"
-msgstr ""
+msgstr "2."
 
 #: pkg/systemd/graphs.js:380
 msgid "3 min"
-msgstr ""
+msgstr "3 dakika"
 
 #: pkg/systemd/services.html:184
 msgid "30th"
-msgstr ""
+msgstr "30."
 
 #: pkg/systemd/services.html:185
 msgid "31st"
-msgstr ""
+msgstr "31."
 
 #: pkg/storaged/mdraids-panel.jsx:102
 msgid "32 KiB"
-msgstr ""
+msgstr "32 KiB"
 
 #: pkg/systemd/services.html:157
 msgid "3rd"
-msgstr ""
+msgstr "3."
 
 #: pkg/storaged/mdraids-panel.jsx:99
 msgid "4 KiB"
-msgstr ""
+msgstr "4 KiB"
 
 #: pkg/systemd/graphs.js:379
 msgid "4 min"
-msgstr ""
+msgstr "4 dakika"
 
 #: pkg/systemd/index.html:190
 msgid "40 Minutes"
-msgstr "40 dakika"
+msgstr "40 Dakika"
 
 #: pkg/systemd/services.html:158
 msgid "4th"
-msgstr ""
+msgstr "4."
 
 #: pkg/systemd/index.html:188
 msgid "5 Minutes"
-msgstr "5 dakika"
+msgstr "5 Dakika"
 
 #: pkg/systemd/graphs.js:378
 msgid "5 min"
-msgstr ""
+msgstr "5 dakika"
 
 #: pkg/dashboard/index.html:49 pkg/networkmanager/index.html:69
 #: pkg/networkmanager/index.html:405 pkg/systemd/graphs.html:49
@@ -462,11 +473,11 @@ msgstr "5 dakika"
 
 #: pkg/storaged/mdraids-panel.jsx:105
 msgid "512 KiB"
-msgstr ""
+msgstr "512 KiB"
 
 #: pkg/systemd/services.html:159
 msgid "5th"
-msgstr ""
+msgstr "5."
 
 #: pkg/dashboard/index.html:53 pkg/networkmanager/index.html:71
 #: pkg/networkmanager/index.html:407 pkg/systemd/graphs.html:53
@@ -476,23 +487,23 @@ msgstr "6 saat"
 
 #: pkg/systemd/index.html:191
 msgid "60 Minutes"
-msgstr "60 dakika"
+msgstr "60 Dakika"
 
 #: pkg/storaged/mdraids-panel.jsx:103
 msgid "64 KiB"
-msgstr ""
+msgstr "64 KiB"
 
 #: pkg/systemd/services.html:160
 msgid "6th"
-msgstr ""
+msgstr "6."
 
 #: pkg/systemd/services.html:161
 msgid "7th"
-msgstr ""
+msgstr "7."
 
 #: pkg/storaged/mdraids-panel.jsx:100
 msgid "8 KiB"
-msgstr ""
+msgstr "8 KiB"
 
 #: pkg/networkmanager/interfaces.js:1966
 msgid "802.3ad"
@@ -500,34 +511,39 @@ msgstr "802.3ad"
 
 #: pkg/networkmanager/interfaces.js:1983
 msgid "802.3ad LACP"
-msgstr ""
+msgstr "802.3ad LACP"
 
 #: pkg/systemd/services.html:162
 msgid "8th"
-msgstr ""
+msgstr "8."
 
 #: pkg/systemd/services.html:163
 msgid "9th"
-msgstr ""
+msgstr "9."
 
 #: pkg/lib/machine-not-supported.html:5
 msgid ""
 "A compatible version of Cockpit is not installed on {{#strong}}{{host}}{{/"
 "strong}}."
 msgstr ""
+"{{#strong}}{{host}}{{/strong}} üzerinde uyumlu bir Cockpit sürümü kurulu "
+"değil."
 
 #: pkg/storaged/vdos-panel.jsx:95
 msgid "A disk is needed."
-msgstr ""
+msgstr "Bir disk gerekli."
 
 #: src/ws/login.html:113
 msgid ""
 "A modern browser is required for security, reliability, and performance."
 msgstr ""
+"Güvenlik, güvenilirlik ve performans için modern bir tarayıcı gerekmektedir."
 
 #: pkg/storaged/mdraid-details.jsx:114
 msgid "A spare disk needs to be added first before this disk can be removed."
 msgstr ""
+"Bu diskin kaldırılabilmesi için önce yedek bir diskin eklenmesi "
+"gerekmektedir."
 
 #: pkg/networkmanager/interfaces.js:1974
 msgid "ARP"
@@ -539,15 +555,15 @@ msgstr "ARP İzleme"
 
 #: pkg/networkmanager/interfaces.js:1995
 msgid "ARP Ping"
-msgstr ""
+msgstr "ARP Ping"
 
 #: pkg/shell/index.html:57 pkg/shell/index.html:83
 msgid "About Cockpit"
-msgstr "Kokpit Hakkında"
+msgstr "Cockpit Hakkında"
 
 #: pkg/lib/machine-info.js:254
 msgid "Absent"
-msgstr ""
+msgstr "Yok"
 
 #: pkg/users/index.html:104 pkg/users/index.html:190
 #: pkg/machines/components/diskEdit.jsx:94
@@ -557,7 +573,7 @@ msgstr "Erişim"
 
 #: pkg/users/index.html:249
 msgid "Account Expiration"
-msgstr ""
+msgstr "Hesabın Süresinin Dolması"
 
 #: pkg/shell/index.html:64
 msgid "Account Settings"
@@ -565,7 +581,7 @@ msgstr "Hesap Ayarları"
 
 #: pkg/users/index.html:63
 msgid "Account not available or cannot be edited."
-msgstr ""
+msgstr "Hesap kullanılamıyor veya düzenlenemiyor."
 
 #: pkg/playground/translate.html:95 pkg/users/index.html:71
 #: pkg/users/manifest.json.in
@@ -581,39 +597,39 @@ msgstr "Hesaplar"
 #: pkg/machines/components/storagePools/storagePool.jsx:176
 #: pkg/storaged/content-views.jsx:270
 msgid "Activate"
-msgstr "Aktifleştir"
+msgstr "Etkinleştir"
 
 #: pkg/storaged/jobs-panel.jsx:68
 msgid "Activating $target"
-msgstr ""
+msgstr "$target etkinleştiriliyor"
 
 #: pkg/networkmanager/interfaces.js:842 pkg/networkmanager/interfaces.js:1989
 msgid "Active"
-msgstr "Aktif"
+msgstr "Etkin"
 
 #: pkg/networkmanager/interfaces.js:1963 pkg/networkmanager/interfaces.js:1980
 msgid "Active Backup"
-msgstr "Aktif Yedekleme"
+msgstr "Etkin Yedekleme"
 
 #: pkg/shell/index.html:60 pkg/shell/active-pages.js:95
 msgid "Active Pages"
-msgstr ""
+msgstr "Etkin Sayfalar"
 
 #: pkg/storaged/dialog.jsx:1030 pkg/storaged/dialog.jsx:1034
 msgid "Active since"
-msgstr ""
+msgstr "Etkin olduğu tarih"
 
 #: pkg/systemd/service-details.jsx:355
 msgid "Active since "
-msgstr ""
+msgstr "Etkin olduğu tarih "
 
 #: pkg/networkmanager/interfaces.js:1968
 msgid "Adaptive load balancing"
-msgstr ""
+msgstr "Uyarlamalı yük dengeleme"
 
 #: pkg/networkmanager/interfaces.js:1967
 msgid "Adaptive transmit load balancing"
-msgstr ""
+msgstr "Uyarlamalı iletim yük dengeleme"
 
 #: pkg/lib/machine-add.html:43 pkg/shell/index.html:197
 #: pkg/machines/components/diskAdd.jsx:549
@@ -626,7 +642,7 @@ msgstr "Ekle"
 
 #: pkg/networkmanager/interfaces.js:3088
 msgid "Add $0"
-msgstr ""
+msgstr "$0 ekle"
 
 #: pkg/docker/storage.jsx:383
 msgid "Add Additional Storage"
@@ -634,11 +650,11 @@ msgstr ""
 
 #: pkg/networkmanager/index.html:116
 msgid "Add Bond"
-msgstr ""
+msgstr "Birleştirme (Bond) Ekle"
 
 #: pkg/networkmanager/index.html:118
 msgid "Add Bridge"
-msgstr ""
+msgstr "Köprü Ekle"
 
 #: pkg/machines/components/diskAdd.jsx:537
 #: pkg/machines/components/vmDisksTab.jsx:93
@@ -651,24 +667,24 @@ msgstr "Disk Ekle"
 
 #: pkg/storaged/crypto-keyslots.jsx:202
 msgid "Add Key"
-msgstr ""
+msgstr "Anahtar Ekle"
 
 #: pkg/lib/machine-add.html:4
 msgid "Add Machine to Dashboard"
-msgstr ""
+msgstr "Gösterge Paneline Makine Ekle"
 
 #: pkg/machines/components/vmnetworktab.jsx:273
 msgid "Add Network Interface"
-msgstr ""
+msgstr "Ağ Arayüzü Ekle"
 
 #: pkg/networkmanager/firewall.jsx:495
 msgid "Add Ports"
-msgstr ""
+msgstr "Bağlantı Noktası Ekle"
 
 #: pkg/networkmanager/firewall.jsx:146 pkg/networkmanager/firewall.jsx:152
 #: pkg/networkmanager/firewall.jsx:495
 msgid "Add Services"
-msgstr ""
+msgstr "Hizmet Ekle"
 
 #: pkg/docker/storage.jsx:219
 msgid "Add Storage"
@@ -676,15 +692,15 @@ msgstr ""
 
 #: pkg/networkmanager/index.html:117
 msgid "Add Team"
-msgstr ""
+msgstr "Takım Ekle"
 
 #: pkg/networkmanager/index.html:119
 msgid "Add VLAN"
-msgstr ""
+msgstr "VLAN Ekle"
 
 #: pkg/machines/components/nicAdd.jsx:191
 msgid "Add Virtual Network Interface"
-msgstr ""
+msgstr "Sanal Ağ Arayüzü Ekle"
 
 #: pkg/networkmanager/firewall.jsx:668 pkg/networkmanager/firewall.jsx:899
 #: pkg/networkmanager/firewall.jsx:905
@@ -693,31 +709,31 @@ msgstr "Bölge Ekle"
 
 #: pkg/networkmanager/firewall.jsx:904
 msgid "Add a new zone"
-msgstr ""
+msgstr "Yeni bir bölge ekle"
 
 #: pkg/storaged/iscsi-panel.jsx:42
 msgid "Add iSCSI Portal"
-msgstr ""
+msgstr "iSCSI Portalı Ekle"
 
 #: pkg/shell/index.html:189 pkg/users/index.html:414
 msgid "Add key"
-msgstr ""
+msgstr "Anahtar ekle"
 
 #: pkg/networkmanager/firewall.jsx:496
 msgid "Add ports to $0 zone"
-msgstr ""
+msgstr "$0 bölgesine bağlantı noktaları ekle"
 
 #: pkg/users/index.html:406
 msgid "Add public key"
-msgstr "Açık anahtar ekle"
+msgstr "Genel anahtar ekle"
 
 #: pkg/networkmanager/firewall.jsx:496
 msgid "Add services to $0 zone"
-msgstr ""
+msgstr "$0 bölgesine hizmetler ekle"
 
 #: pkg/networkmanager/firewall.jsx:151
 msgid "Add services to zone $0"
-msgstr ""
+msgstr "$0 bölgesine hizmetler ekle"
 
 #: pkg/networkmanager/firewall.jsx:746
 msgid "Add zone"
@@ -728,12 +744,17 @@ msgid ""
 "Adding <b>$0</b> will break the connection to the server, and will make the "
 "administration UI unavailable."
 msgstr ""
+"<b>$0</b> eklenmesi sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
+"kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/firewall.jsx:586
 msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
 msgstr ""
+"Özel bağlantı noktaları eklendiğinde firewalld yeniden yüklenecektir. "
+"Yeniden yükleme, sadece çalışma zamanına ait yapılandırmaların kaybolmasına "
+"neden olacaktır!"
 
 #: pkg/users/authorized-keys.js:113
 msgid "Adding key"
@@ -741,19 +762,19 @@ msgstr "Anahtar ekleniyor"
 
 #: pkg/storaged/jobs-panel.jsx:73
 msgid "Adding physical volume to $target"
-msgstr ""
+msgstr "$target'e fiziksel birim ekleniyor"
 
 #: pkg/machines/components/vmDisksTab.jsx:119
 msgid "Additional"
-msgstr ""
+msgstr "Eklemeler"
 
 #: pkg/networkmanager/interfaces.js:2638
 msgid "Additional DNS $val"
-msgstr ""
+msgstr "Ek DNS $val"
 
 #: pkg/networkmanager/interfaces.js:2641
 msgid "Additional DNS Search Domains $val"
-msgstr ""
+msgstr "Ek DNS Arama Etki Alanları $val"
 
 #: pkg/docker/index.html:309
 msgid "Additional Storage"
@@ -761,15 +782,15 @@ msgstr ""
 
 #: pkg/systemd/service-details.jsx:210
 msgid "Additional actions"
-msgstr ""
+msgstr "Ek eylemler"
 
 #: pkg/networkmanager/interfaces.js:2633
 msgid "Additional address $val"
-msgstr ""
+msgstr "Ek adres $val"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:75
 msgid "Additional packages:"
-msgstr ""
+msgstr "Ek paketler:"
 
 #: pkg/lib/machine-add.html:11
 #: pkg/machines/components/networks/networkOverviewTab.jsx:109
@@ -781,22 +802,22 @@ msgstr "Adres"
 
 #: pkg/networkmanager/interfaces.js:2633
 msgid "Address $val"
-msgstr ""
+msgstr "Adres $val"
 
 #: pkg/storaged/crypto-keyslots.jsx:193
 msgid "Address cannot be empty"
-msgstr ""
+msgstr "Adres boş olamaz"
 
 #: pkg/storaged/crypto-keyslots.jsx:195
 msgid "Address is not a valid URL"
-msgstr ""
+msgstr "Adres geçerli bir URL değil"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:60
 #: pkg/machines/components/networks/createNetworkDialog.jsx:67
 #: pkg/machines/components/networks/createNetworkDialog.jsx:88
 #: pkg/machines/components/networks/createNetworkDialog.jsx:95
 msgid "Address not within subnet"
-msgstr ""
+msgstr "Adres alt ağ içinde değil"
 
 #: pkg/machines/components/desktopConsole.jsx:153
 msgid "Address:"
@@ -808,24 +829,24 @@ msgstr "Adresler"
 
 #: src/bridge/org.cockpit-project.cockpit-bridge.policy.in:10
 msgid "Administration with Cockpit Web Console"
-msgstr ""
+msgstr "Cockpit Web Konsolu ile Yönetim"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:336
 msgid "Administrator Password"
-msgstr ""
+msgstr "Yönetici Parolası"
 
 #: pkg/lib/machine-info.js:93
 msgid "Advanced TCA"
-msgstr ""
+msgstr "Gelişmiş TCA"
 
 #: pkg/systemd/service-details.jsx:431
 msgid "After"
-msgstr ""
+msgstr "Sonra"
 
 #: pkg/systemd/services.html:309
 msgctxt "time-delay"
 msgid "After"
-msgstr ""
+msgstr "Sonra"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:27
 msgid ""
@@ -833,15 +854,19 @@ msgid ""
 "log into this machine. This may also affect other services as DNS resolution "
 "settings and the list of trusted CAs may change."
 msgstr ""
+"Etki alanından ayrıldıktan sonra, sadece yerel kimlik bilgilerine sahip "
+"kullanıcılar bu makinede oturum açabilecektir. DNS çözümleme ayarları ve "
+"güvenilen CA'ların listesi değişebileceğinden, bu durum diğer hizmetleri de "
+"etkileyebilir."
 
 #: pkg/systemd/services.html:300 pkg/systemd/services.html:304
 #: pkg/systemd/init.js:969
 msgid "After system boot"
-msgstr ""
+msgstr "Sistemi başlattıktan sonra"
 
 #: pkg/systemd/logs.html:57
 msgid "Alert and above"
-msgstr ""
+msgstr "Alarm ve üstü"
 
 #: pkg/systemd/services.html:64 pkg/systemd/logs.js:239 pkg/systemd/logs.js:416
 msgid "All"
@@ -849,7 +874,7 @@ msgstr "Hepsi"
 
 #: pkg/lib/machine-info.js:79
 msgid "All In One"
-msgstr ""
+msgstr "Hepsi Bir Arada"
 
 #: pkg/docker/storage.jsx:386
 msgid ""
@@ -859,11 +884,11 @@ msgstr ""
 
 #: pkg/systemd/service-details.jsx:160
 msgid "Allow running (unmask)"
-msgstr ""
+msgstr "Çalıştırmaya izin ver (unmask)"
 
 #: pkg/networkmanager/firewall.jsx:720
 msgid "Allowed Addresses"
-msgstr ""
+msgstr "İzin Verilen Adresler"
 
 #: pkg/docker/index.html:550 pkg/docker/util.js:108
 msgid "Always"
@@ -872,15 +897,15 @@ msgstr "Her zaman"
 #: pkg/machines/components/diskAdd.jsx:106
 #: pkg/machines/components/nicAdd.jsx:86
 msgid "Always attach"
-msgstr ""
+msgstr "Her zaman ekle"
 
 #: pkg/lib/cockpit-components-modifications.jsx:81
 msgid "Ansible"
-msgstr ""
+msgstr "Ansible"
 
 #: pkg/lib/cockpit-components-modifications.jsx:91
 msgid "Ansible roles documentation"
-msgstr ""
+msgstr "Ansible rolleri belgelendirmesi"
 
 #: pkg/systemd/terminal.jsx:94
 msgid "Appearance:"
@@ -889,7 +914,7 @@ msgstr "Görünüm:"
 #: pkg/apps/index.html:23 pkg/apps/application-list.jsx:148
 #: pkg/apps/application.jsx:143 pkg/apps/manifest.json.in
 msgid "Applications"
-msgstr ""
+msgstr "Uygulamalar"
 
 #: pkg/networkmanager/index.html:487 pkg/networkmanager/index.html:513
 #: pkg/networkmanager/index.html:539 pkg/networkmanager/index.html:565
@@ -904,79 +929,81 @@ msgstr "Uygula"
 
 #: pkg/packagekit/autoupdates.jsx:311
 msgid "Apply all updates"
-msgstr ""
+msgstr "Tüm güncellemeleri uygula"
 
 #: pkg/packagekit/autoupdates.jsx:312
 msgid "Apply security updates"
-msgstr ""
+msgstr "Güvenlik güncellemelerini uygula"
 
 #: pkg/selinux/setroubleshoot-view.jsx:112
 msgid "Apply this solution"
-msgstr ""
+msgstr "Bu çözümü uygula"
 
 #: pkg/selinux/setroubleshoot-view.jsx:89
 msgid "Applying solution..."
-msgstr ""
+msgstr "Çözüm uygulanıyor..."
 
 #: pkg/packagekit/updates.jsx:45
 msgid "Applying updates"
-msgstr ""
+msgstr "Güncellemeler uygulanıyor"
 
 #: pkg/packagekit/updates.jsx:47
 msgid "Applying updates failed"
-msgstr ""
+msgstr "Güncellemeler uygulanamadı"
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:98
 msgid "Asset tag"
-msgstr ""
+msgstr "Varlık etiketi"
 
 #: pkg/storaged/mdraids-panel.jsx:116
 msgid "At least $0 disks are needed."
-msgstr ""
+msgstr "En az $0 disk gerekli."
 
 #: pkg/storaged/mdraid-details.jsx:53 pkg/storaged/vgroup-details.jsx:59
 #: pkg/storaged/vgroups-panel.jsx:84
 msgid "At least one disk is needed."
-msgstr "En azından bir disk gerekli."
+msgstr "En az bir disk gerekli."
 
 #: pkg/systemd/services.html:305
 msgid "At specific time"
-msgstr ""
+msgstr "Belirli bir zamanda"
 
 #: pkg/selinux/setroubleshoot-view.jsx:419
 msgid "Audit log"
-msgstr ""
+msgstr "Denetim günlüğü"
 
 #: pkg/networkmanager/interfaces.js:834
 msgid "Authenticating"
-msgstr "Yetkilendiriliyor"
+msgstr "Kimlik doğrulanıyor"
 
 #: pkg/lib/machine-change-auth.html:32 pkg/shell/index.html:67
 #: pkg/shell/index.html:166 pkg/systemd/overview-cards/realmd-operation.html:47
 msgid "Authentication"
-msgstr "Yetkilendirme"
+msgstr "Kimlik doğrulama"
 
 #: pkg/lib/machine-auth-failed.html:2
 msgid "Authentication Failed"
-msgstr ""
+msgstr "Kimlik Doğrulama Başarısız"
 
 #: src/ws/login.js:675
 msgid "Authentication Failed: Server closed connection"
-msgstr ""
+msgstr "Kimlik Doğrulama Başarısız: Sunucu bağlantıyı kesti"
 
 #: src/ws/login.js:685
 msgid "Authentication failed"
-msgstr ""
+msgstr "Kimlik doğrulama başarısız"
 
 #: src/bridge/org.cockpit-project.cockpit-bridge.policy.in:11
 msgid ""
 "Authentication is required to perform privileged tasks with the Cockpit Web "
 "Console"
 msgstr ""
+"Cockpit Web Konsolu ile ayrıcalıklı görevleri gerçekleştirmek için kimlik "
+"doğrulaması gerekmektedir"
 
 #: pkg/storaged/iscsi-panel.jsx:153
 msgid "Authentication required"
-msgstr ""
+msgstr "Kimlik doğrulama gerekli"
 
 #: pkg/docker/index.html:702 pkg/docker/containers-view.jsx:413
 msgid "Author"
@@ -984,7 +1011,7 @@ msgstr "Yazar"
 
 #: pkg/users/index.html:148
 msgid "Authorized Public SSH Keys"
-msgstr "Yetkilendirilmiş Açık SSH Anahtarları"
+msgstr "Yetkilendirilmiş Genel SSH Anahtarları"
 
 #: pkg/networkmanager/index.html:183
 #: pkg/machines/components/networks/createNetworkDialog.jsx:162
@@ -1009,133 +1036,133 @@ msgstr ""
 
 #: pkg/packagekit/autoupdates.jsx:350
 msgid "Automatic Updates"
-msgstr ""
+msgstr "Otomatik Güncellemeler"
 
 #: pkg/machines/components/libvirtSlate.jsx:103
 msgid "Automatically start libvirt on boot"
-msgstr "libvirt'i başlangıçta otomatik olarak başlat"
+msgstr "Başlangıçta libvirt'i otomatik olarak başlat"
 
 #: pkg/systemd/service-details.jsx:399
 msgid "Automatically starts"
-msgstr ""
+msgstr "Otomatik olarak başlar"
 
 #: pkg/systemd/index.html:101
 msgid "Automatically using NTP"
-msgstr ""
+msgstr "Otomatik olarak NTP kullanma"
 
 #: pkg/systemd/index.html:102
 msgid "Automatically using specific NTP servers"
-msgstr ""
+msgstr "Otomatik olarak belirli NTP sunucularını kullanma"
 
 #: pkg/lib/cockpit-components-modifications.jsx:72
 msgid "Automation Script"
-msgstr ""
+msgstr "Otomasyon Betiği"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:87
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:70
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:166
 msgid "Autostart"
-msgstr ""
+msgstr "Otomatik olarak başlat"
 
 #: pkg/lib/machine-change-auth.html:66
 #: pkg/machines/components/vm/vmUsageTab.jsx:65
 #: pkg/machines/components/vm/vmUsageTab.jsx:76
 msgid "Available"
-msgstr ""
+msgstr "Kullanılabilir"
 
 #: pkg/packagekit/updates.jsx:880
 msgid "Available Updates"
-msgstr ""
+msgstr "Kullanılabilir Güncellemeler"
 
 #: pkg/storaged/iscsi-panel.jsx:125
 msgid "Available targets on $0"
-msgstr ""
+msgstr "$0 üzerindeki kullanılabilir hedefler"
 
 #: pkg/dashboard/index.html:163
 msgid "Avatar"
-msgstr ""
+msgstr "Avatar"
 
 #: pkg/systemd/hwinfo.jsx:83
 msgid "BIOS"
-msgstr ""
+msgstr "BIOS"
 
 #: pkg/systemd/hwinfo.jsx:91
 msgid "BIOS date"
-msgstr ""
+msgstr "BIOS tarihi"
 
 #: pkg/systemd/hwinfo.jsx:87
 msgid "BIOS version"
-msgstr ""
+msgstr "BIOS sürümü"
 
 #: pkg/users/index.html:65
 msgid "Back to Accounts"
-msgstr ""
+msgstr "Hesaplara geri dön"
 
 #: pkg/storaged/vdo-details.jsx:269
 msgid "Backing Device"
-msgstr ""
+msgstr "Yedek Aygıtı"
 
 #: src/bridge/cockpitdbussetup.c:367 src/bridge/cockpitdbussetup.c:631
 msgid "Bad data passed for passwd1 mechanism"
-msgstr "passwd1 düzeneği için kötü veri geçti"
+msgstr "passwd1 mekanizması için yanlış veri iletildi"
 
 #: pkg/networkmanager/index.html:340
 msgid "Balancer"
-msgstr ""
+msgstr "Dengeleyici"
 
 #: pkg/systemd/service-details.jsx:430
 msgid "Before"
-msgstr ""
+msgstr "Önce"
 
 #: pkg/systemd/service-details.jsx:421
 msgid "Binds To"
-msgstr ""
+msgstr "Bağlanır"
 
 #: pkg/systemd/terminal.jsx:99
 msgid "Black"
-msgstr ""
+msgstr "Siyah"
 
 #: pkg/lib/machine-info.js:94
 msgid "Blade"
-msgstr ""
+msgstr "Blade"
 
 #: pkg/lib/machine-info.js:95
 msgid "Blade enclosure"
-msgstr ""
+msgstr "Blade sunucu kasası"
 
 #: pkg/storaged/block-details.jsx:34
 msgid "Block"
-msgstr ""
+msgstr "Blok"
 
 #: pkg/storaged/content-views.jsx:693
 msgid "Block device for filesystems"
-msgstr ""
+msgstr "Dosya sistemleri için blok aygıtı"
 
 #: pkg/storaged/mdraid-details.jsx:98
 msgid "Blocked"
-msgstr "Bloklanmış"
+msgstr "Engellendi"
 
 #: pkg/networkmanager/interfaces.js:2493 pkg/networkmanager/interfaces.js:2505
 #: pkg/networkmanager/interfaces.js:2773
 msgid "Bond"
-msgstr "Bond"
+msgstr "Birleştirme (Bond)"
 
 #: pkg/networkmanager/index.html:499
 msgid "Bond Settings"
-msgstr ""
+msgstr "Birleştirme (Bond) Ayarları"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:312
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:164
 msgid "Boot Order"
-msgstr ""
+msgstr "Önyükleme Sırası"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:208
 msgid "Boot order settings could not be saved"
-msgstr ""
+msgstr "Önyükleme sırası ayarları kaydedilemedi"
 
 #: pkg/systemd/service-details.jsx:426
 msgid "Bound By"
-msgstr ""
+msgstr "Tarafından Bağlanır"
 
 #: pkg/networkmanager/interfaces.js:2499 pkg/networkmanager/interfaces.js:2511
 #: pkg/networkmanager/interfaces.js:2850
@@ -1144,31 +1171,31 @@ msgstr "Köprü"
 
 #: pkg/networkmanager/index.html:603
 msgid "Bridge Port Settings"
-msgstr ""
+msgstr "Köprü Bağlantı Noktası Ayarları"
 
 #: pkg/networkmanager/index.html:577
 msgid "Bridge Settings"
-msgstr ""
+msgstr "Köprü Ayarları"
 
 #: pkg/networkmanager/interfaces.js:2871
 msgid "Bridge port"
-msgstr ""
+msgstr "Köprü bağlantı noktası"
 
 #: pkg/networkmanager/interfaces.js:1965 pkg/networkmanager/interfaces.js:1982
 msgid "Broadcast"
-msgstr "Broadcast"
+msgstr "Yayınlama"
 
 #: pkg/networkmanager/interfaces.js:2786 pkg/networkmanager/interfaces.js:2820
 msgid "Broken configuration"
-msgstr ""
+msgstr "Bozuk yapılandırma"
 
 #: pkg/packagekit/updates.jsx:860
 msgid "Bug Fix Updates Available"
-msgstr ""
+msgstr "Hata Düzeltme Güncellemeleri Var"
 
 #: pkg/packagekit/updates.jsx:319
 msgid "Bugs:"
-msgstr ""
+msgstr "Hatalar:"
 
 #: pkg/machines/components/diskAdd.jsx:180
 #: pkg/machines/components/diskEdit.jsx:63
@@ -1176,11 +1203,11 @@ msgstr ""
 #: pkg/machines/components/vm/bootOrderModal.jsx:132
 #: pkg/machines/components/vmDisksTab.jsx:113
 msgid "Bus"
-msgstr ""
+msgstr "Veri yolu"
 
 #: pkg/lib/machine-info.js:86
 msgid "Bus Expansion Chassis"
-msgstr ""
+msgstr "Veri Yolu Genişletme Şasisi"
 
 #: pkg/dashboard/index.html:70 pkg/docker/index.html:272
 #: pkg/docker/containers-view.jsx:359 pkg/systemd/hwinfo.jsx:99
@@ -1190,15 +1217,15 @@ msgstr "CPU"
 
 #: pkg/systemd/graphs.js:487
 msgid "CPU Graph"
-msgstr ""
+msgstr "CPU Grafiği"
 
 #: pkg/systemd/hwinfo.jsx:104
 msgid "CPU Security"
-msgstr ""
+msgstr "CPU Güvenliği"
 
 #: pkg/systemd/hwinfo.jsx:209
 msgid "CPU Security Toggles"
-msgstr ""
+msgstr "CPU Güvenlik Ayarları"
 
 #: pkg/systemd/graphs.js:256
 msgctxt "page-title"
@@ -1207,7 +1234,7 @@ msgstr "CPU Durumu"
 
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:165
 msgid "CPU Type"
-msgstr ""
+msgstr "CPU Türü"
 
 #: pkg/docker/index.html:471 pkg/docker/index.html:643
 msgid "CPU priority"
@@ -1215,28 +1242,29 @@ msgstr "CPU önceliği"
 
 #: pkg/docker/index.html:218
 msgid "CPU usage:"
-msgstr ""
+msgstr "CPU kullanımı:"
 
 #: pkg/machines/components/diskAdd.jsx:164
 #: pkg/machines/components/vmDiskColumns.jsx:75
 msgid "Cache"
-msgstr ""
+msgstr "Önbellek"
 
 #: pkg/systemd/graphs.html:161 pkg/systemd/graphs.js:392
 msgid "Cached"
-msgstr "Belleklenmiş"
+msgstr "Önbelleğe alınan"
 
 #: pkg/systemd/logs.js:181 pkg/systemd/logs.js:345
 msgid "Can not find any logs using the current combination of filters."
 msgstr ""
+"Geçerli filtre birleşimi kullanılarak herhangi bir günlük kaydı bulunamıyor."
 
 #: pkg/docker/index.html:63
 msgid "Can&rsquo;t connect to Docker"
-msgstr "Docker&rsquo;a bağlanılamadı"
+msgstr "Docker&rsquo;a bağlanılamıyor"
 
 #: pkg/dashboard/list.js:220
 msgid "Can't load image"
-msgstr ""
+msgstr "Görüntü yüklenemiyor"
 
 #: pkg/dashboard/index.html:175 pkg/docker/index.html:565
 #: pkg/docker/index.html:599 pkg/docker/index.html:663
@@ -1284,11 +1312,12 @@ msgstr "Bilinmeyen bir makineye bağlanılamıyor"
 
 #: src/base1/cockpit.js:4048
 msgid "Cannot forward login credentials"
-msgstr ""
+msgstr "Oturum açma bilgileri yönlendirilemiyor"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:628
 msgid "Cannot join a domain because realmd is not available on this system"
 msgstr ""
+"Bu sistemde realmd kullanılabilir olmadığı için bir etki alanına katılamıyor"
 
 #: pkg/systemd/shutdown.js:175
 msgid "Cannot schedule event in the past"
@@ -1318,7 +1347,7 @@ msgstr ""
 
 #: pkg/tuned/dialog.js:189
 msgid "Change Performance Profile"
-msgstr "Başarım Profilini Değiştir"
+msgstr "Performans Profilini Değiştir"
 
 #: pkg/tuned/dialog.js:199
 msgid "Change Profile"
@@ -1594,7 +1623,7 @@ msgstr "Kalıbı Kaydet"
 
 #: pkg/tuned/dialog.js:115
 msgid "Communication with tuned has failed"
-msgstr "tuned ile iletişim başarısız"
+msgstr "tuned ile iletişim başarısız oldu"
 
 #: pkg/lib/machine-info.js:92
 msgid "Compact PCI"
@@ -1635,7 +1664,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:2707
 msgid "Configure"
-msgstr "Ayarla"
+msgstr "Yapılandır"
 
 #: pkg/docker/storage.jsx:335
 msgid "Configure storage..."
@@ -1643,11 +1672,11 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:832
 msgid "Configuring"
-msgstr "Ayarlanıyor"
+msgstr "Yapılandırılıyor"
 
 #: pkg/networkmanager/interfaces.js:836
 msgid "Configuring IP"
-msgstr "IP ayarlanıyor"
+msgstr "IP yapılandırılıyor"
 
 #: pkg/shell/index.html:323 pkg/users/index.html:176
 #: pkg/storaged/format-dialog.jsx:221
@@ -1685,7 +1714,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:2694
 msgid "Connect automatically"
-msgstr "Otomatik bağlan"
+msgstr "Otomatik olarak bağlan"
 
 #: src/ws/login.html:74
 msgid "Connect to"
@@ -1774,7 +1803,7 @@ msgstr "Konteyner Yöneticisi"
 #: pkg/docker/index.html:440 pkg/docker/index.html:620
 #: pkg/docker/index.html:684
 msgid "Container Name"
-msgstr "Konteyner İsmi"
+msgstr "Konteyner Adı"
 
 #: pkg/docker/util.js:506
 msgid ""
@@ -1852,7 +1881,7 @@ msgstr ""
 
 #: src/bridge/cockpitdbussetup.c:467
 msgid "Couldn't change user groups"
-msgstr "Kullanıcı kümeleri değiştirilemedi"
+msgstr "Kullanıcı grupları değiştirilemedi"
 
 #: src/bridge/cockpitdbussetup.c:520
 msgid "Couldn't change user password"
@@ -1876,7 +1905,7 @@ msgstr "Kullanıcılar listelenemedi"
 
 #: src/bridge/cockpitdbussetup.c:382
 msgid "Couldn't load user data"
-msgstr "Kullanıcı verisi yüklenemedi"
+msgstr "Kullanıcı verileri yüklenemedi"
 
 #: pkg/systemd/reporting.jsx:471
 msgid "Crash Reporting"
@@ -1899,7 +1928,7 @@ msgstr ""
 #: pkg/storaged/lvol-tabs.jsx:361 pkg/storaged/mdraids-panel.jsx:123
 #: pkg/storaged/vdos-panel.jsx:146 pkg/storaged/vgroups-panel.jsx:90
 msgid "Create"
-msgstr "Yarat"
+msgstr "Oluştur"
 
 #: pkg/storaged/things-panel.jsx:66
 msgid "Create Devices"
@@ -1915,7 +1944,7 @@ msgstr ""
 
 #: pkg/users/index.html:52 pkg/users/index.html:163
 msgid "Create New Account"
-msgstr "Yeni Hesap Yarat"
+msgstr "Yeni Hesap Oluştur"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:809
 msgid "Create New Virtual Machine"
@@ -1939,7 +1968,7 @@ msgstr ""
 
 #: pkg/storaged/mdraids-panel.jsx:59 pkg/storaged/things-panel.jsx:67
 msgid "Create RAID Device"
-msgstr "RAID Yarat"
+msgstr "RAID Aygıtı Oluştur"
 
 #: pkg/sosreport/index.html:36
 msgid "Create Report"
@@ -1990,7 +2019,7 @@ msgstr ""
 
 #: pkg/storaged/things-panel.jsx:68 pkg/storaged/vgroups-panel.jsx:72
 msgid "Create Volume Group"
-msgstr "Volume Grubu Yarat"
+msgstr "Birim Grubu Oluştur"
 
 #: pkg/sosreport/index.html:44
 msgid "Create diagnostic report"
@@ -2003,7 +2032,7 @@ msgstr ""
 
 #: pkg/storaged/content-views.jsx:755
 msgid "Create new Logical Volume"
-msgstr "Yeni bir mantıksal birim oluştur"
+msgstr "Yeni mantıksal birim oluştur"
 
 #: pkg/lib/cockpit-components-modifications.jsx:87
 msgid "Create new task file with this content."
@@ -2126,7 +2155,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:3305
 msgid "DNS Search Domains"
-msgstr "DNS Arama Alanları"
+msgstr "DNS Arama Etki Alanları"
 
 #: pkg/networkmanager/interfaces.js:2641
 msgid "DNS Search Domains $val"
@@ -2148,11 +2177,11 @@ msgstr ""
 #: pkg/machines/components/storagePools/storagePool.jsx:168
 #: pkg/storaged/content-views.jsx:268
 msgid "Deactivate"
-msgstr "Deaktifleştir"
+msgstr "Devre dışı bırak"
 
 #: pkg/networkmanager/interfaces.js:844
 msgid "Deactivating"
-msgstr "Deaktif ediliyor"
+msgstr "Devre dışı bırakılıyor"
 
 #: pkg/storaged/jobs-panel.jsx:69
 msgid "Deactivating $target"
@@ -2236,15 +2265,15 @@ msgstr ""
 
 #: pkg/storaged/mdraid-details.jsx:294
 msgid "Deleting a RAID device will erase all data on it."
-msgstr "Bir RAID cihazını silmek üstündeki tüm veriyi silecektir."
+msgstr "Bir RAID aygıtını silmek üzerindeki tüm verileri silecektir."
 
 #: pkg/storaged/vdo-details.jsx:199
 msgid "Deleting a VDO device will erase all data on it."
-msgstr "Bir VDO aygıtını silmek, aygıt üzerindeki tüm verileri silecektir."
+msgstr "Bir VDO aygıtını silmek üzerindeki tüm verileri silecektir."
 
 #: pkg/docker/containers-view.jsx:201 pkg/docker/details.js:287
 msgid "Deleting a container will erase all data in it."
-msgstr "Bir konteyneri silmek içindeki veriyi de silecektir."
+msgstr "Bir konteyneri silmek içindeki tüm verileri silecektir."
 
 #: pkg/storaged/content-views.jsx:287
 msgid "Deleting a logical volume will delete all data in it."
@@ -2348,7 +2377,7 @@ msgstr "tuned'i devre dışı bırak"
 #: pkg/systemd/services.html:66 pkg/networkmanager/interfaces.js:1948
 #: pkg/systemd/init.js:225 pkg/systemd/service-details.jsx:334
 msgid "Disabled"
-msgstr "Etkin değil"
+msgstr "Devre dışı"
 
 #: pkg/systemd/service-details.jsx:193
 msgid "Disallow running (mask)"
@@ -2389,7 +2418,7 @@ msgstr ""
 
 #: pkg/storaged/drive-details.jsx:55
 msgid "Disk is OK"
-msgstr "Disk durumu iyi"
+msgstr "Diskin durumu iyi"
 
 #: pkg/storaged/crypto-keyslots.jsx:155
 msgid "Disk passphrase"
@@ -2420,7 +2449,7 @@ msgstr ""
 
 #: pkg/docker/index.html:60
 msgid "Docker is not installed or activated on the system"
-msgstr "Docker sistemde kurulu ya da aktif değil"
+msgstr "Docker sistemde kurulu ya da etkinleştirilmiş değil"
 
 #: pkg/lib/machine-info.js:78
 msgid "Docking Station"
@@ -2459,7 +2488,7 @@ msgstr ""
 
 #: pkg/storaged/content-views.jsx:551 pkg/storaged/format-dialog.jsx:195
 msgid "Don't overwrite existing data"
-msgstr "Mevcut verinin üstüne yazma"
+msgstr "Var olan verilerin üzerine yazma"
 
 #: pkg/sosreport/index.html:61
 msgid "Done!"
@@ -2613,7 +2642,7 @@ msgstr ""
 
 #: pkg/storaged/crypto-tab.jsx:105
 msgid "Encryption Options"
-msgstr "Şifreleme seçenekleri"
+msgstr "Şifreleme Seçenekleri"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:238
 msgid "End"
@@ -2634,7 +2663,7 @@ msgstr ""
 
 #: pkg/lib/machine-dialogs.js:451
 msgid "Enter IP address or host name"
-msgstr "IP adresi ya da ana makine adı gir"
+msgstr "IP adresini veya ana makine adını gir"
 
 #: pkg/lib/machine-change-auth.html:79
 msgid "Enter passphrase to add identity to ssh-agent"
@@ -2716,7 +2745,7 @@ msgstr ""
 
 #: pkg/selinux/setroubleshoot.js:67
 msgid "Error while setting SELinux mode: '$0'"
-msgstr "SELinux modu belirlenirken hata: '$0'"
+msgstr "SELinux modu ayarlanırken hata oluştu: '$0'"
 
 #: pkg/networkmanager/index.html:681
 msgid "Ethernet MAC"
@@ -2744,7 +2773,7 @@ msgstr ""
 
 #: pkg/users/local.js:447 pkg/users/local.js:1436
 msgid "Excellent password"
-msgstr "Mükemmel Parola"
+msgstr "Mükemmel parola"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:232
 msgid "Existing disk image on host's file system"
@@ -2772,15 +2801,15 @@ msgstr ""
 
 #: pkg/storaged/mdraid-details.jsx:94
 msgid "FAILED"
-msgstr "OLMADI"
+msgstr "BAŞARISIZ OLDU"
 
 #: pkg/networkmanager/interfaces.js:846
 msgid "Failed"
-msgstr "Başarısız"
+msgstr "Başarısız oldu"
 
 #: pkg/lib/machine-dialogs.js:416
 msgid "Failed to add machine: $0"
-msgstr "Makine ekleme başarısız: $0"
+msgstr "Makine eklenemedi: $0"
 
 #: pkg/networkmanager/firewall.jsx:288
 msgid "Failed to add port"
@@ -2804,11 +2833,11 @@ msgstr ""
 
 #: pkg/tuned/dialog.js:169
 msgid "Failed to disable tuned"
-msgstr "tuned'i devre dışı bırakma başarısız"
+msgstr "tuned devre dışı bırakılamadı"
 
 #: pkg/tuned/dialog.js:134
 msgid "Failed to disable tuned profile"
-msgstr "tuned profilini devre dışı bırakma başarısız"
+msgstr "tuned profili devre dışı bırakılamadı"
 
 #: pkg/lib/machine-dialogs.js:498
 msgid "Failed to edit machine: $0"
@@ -2816,7 +2845,7 @@ msgstr "Makine düzenlenemedi: $0"
 
 #: pkg/tuned/dialog.js:167
 msgid "Failed to enable tuned"
-msgstr "tuned'i etkinleştirme başarısız"
+msgstr "tuned etkinleştirilemedi"
 
 #: pkg/machines/components/vmnetworktab.jsx:79
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
@@ -2824,7 +2853,7 @@ msgstr ""
 
 #: pkg/users/index.html:393
 msgid "Failed to load authorized keys."
-msgstr "Yetkilendirilmiş anahtarların yüklemesi başarısız oldu."
+msgstr "Yetkilendirilmiş anahtarlar yüklenemedi."
 
 #: pkg/systemd/service-details.jsx:343
 msgid "Failed to start"
@@ -2865,7 +2894,7 @@ msgstr ""
 
 #: pkg/storaged/fsys-panel.jsx:87 pkg/storaged/fsys-panel.jsx:90
 msgid "Filesystems"
-msgstr "Dosya Sistemleri"
+msgstr "Dosya sistemleri"
 
 #: pkg/networkmanager/firewall.jsx:515
 msgid "Filter Services"
@@ -2902,7 +2931,7 @@ msgstr ""
 
 #: pkg/docker/util.js:519
 msgid "Force Delete"
-msgstr "Zorla Sil"
+msgstr "Silmeye Zorla"
 
 #: pkg/machines/components/vm/vmActions.jsx:46
 msgid "Force Restart"
@@ -2937,7 +2966,7 @@ msgstr ""
 
 #: pkg/storaged/content-views.jsx:570
 msgid "Formatting a disk will erase all data on it."
-msgstr "Bir diski biçimlendirmek üstünde yer alan veriyi silecektir."
+msgstr "Bir diski biçimlendirmek üzerindeki tüm verileri silecektir."
 
 #: pkg/storaged/format-dialog.jsx:265
 msgid "Formatting a storage device will erase all data on it."
@@ -2980,7 +3009,7 @@ msgstr ""
 
 #: pkg/users/index.html:86 pkg/users/index.html:167
 msgid "Full Name"
-msgstr "Tam İsim"
+msgstr "Ad Soyad"
 
 #: pkg/docker/index.html:184
 msgid "Gateway:"
@@ -3097,7 +3126,7 @@ msgstr ""
 #: pkg/machines/components/vm/bootOrderModal.jsx:97
 #: pkg/machines/components/vmDiskColumns.jsx:47 pkg/shell/indexes.js:575
 msgid "Host"
-msgstr "Host"
+msgstr "Ana makine"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:172
 msgid "Host Device"
@@ -3122,7 +3151,7 @@ msgstr ""
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:384
 msgid "Hostname"
-msgstr "Ana bilgisayar adı"
+msgstr "Ana makine adı"
 
 #: pkg/systemd/services.html:353
 msgid "Hour : Minute"
@@ -3138,7 +3167,7 @@ msgstr ""
 
 #: pkg/systemd/graphs.html:146 pkg/systemd/graphs.js:295
 msgid "I/O Wait"
-msgstr "I/O Beklemesi"
+msgstr "I/O Bekleme"
 
 #: pkg/systemd/hwinfo.jsx:271
 msgid "ID"
@@ -3242,7 +3271,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:1957 pkg/packagekit/updates.jsx:502
 msgid "Ignore"
-msgstr "Yoksay"
+msgstr "Yok say"
 
 #: pkg/docker/index.html:270 pkg/docker/index.html:433
 #: pkg/docker/containers-view.jsx:131 pkg/docker/containers-view.jsx:359
@@ -3296,7 +3325,7 @@ msgstr ""
 
 #: pkg/storaged/mdraid-details.jsx:95
 msgid "In Sync"
-msgstr "Eş zamanlanıyor"
+msgstr "Eşzamanlanıyor"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:240
 msgid ""
@@ -3313,7 +3342,7 @@ msgstr ""
 #: pkg/networkmanager/interfaces.js:828 pkg/networkmanager/interfaces.js:1398
 #: pkg/networkmanager/interfaces.js:1405 pkg/networkmanager/interfaces.js:2588
 msgid "Inactive"
-msgstr "Aktif değil"
+msgstr "Etkin değil"
 
 #: pkg/storaged/content-views.jsx:653
 msgid "Inactive volume"
@@ -3464,7 +3493,7 @@ msgstr "Geçersiz tarih biçimi"
 #: pkg/systemd/overview-cards/configurationCard.jsx:959
 #: pkg/systemd/shutdown.js:150
 msgid "Invalid date format and invalid time format"
-msgstr "Geçersiz tarih ve geçersiz zaman biçimi"
+msgstr "Geçersiz tarih ve saat biçimi"
 
 #: pkg/systemd/init.js:1263
 msgid "Invalid date format."
@@ -3521,7 +3550,7 @@ msgstr ""
 #: pkg/systemd/overview-cards/configurationCard.jsx:961
 #: pkg/systemd/shutdown.js:152
 msgid "Invalid time format"
-msgstr "Geçersiz zaman biçimi"
+msgstr "Geçersiz saat biçimi"
 
 #: pkg/systemd/index.html:88
 msgid "Invalid time zone"
@@ -3654,7 +3683,7 @@ msgstr ""
 
 #: pkg/users/index.html:100
 msgid "Last Login"
-msgstr "Son Giriş"
+msgstr "Son Oturum Açma"
 
 #: pkg/systemd/init.js:311
 msgid "Last Trigger"
@@ -3671,7 +3700,7 @@ msgstr ""
 #: pkg/systemd/overview-cards/realmd-operation.html:24
 #: pkg/systemd/overview-cards/realmd-operation.html:28
 msgid "Leave Domain"
-msgstr "Alandan Ayrıl"
+msgstr "Etki Alanından Ayrıl"
 
 #: pkg/dashboard/index.html:149
 msgid ""
@@ -3721,7 +3750,7 @@ msgstr ""
 
 #: pkg/docker/index.html:495
 msgid "Links"
-msgstr "Linkler"
+msgstr "Bağlantılar"
 
 #: pkg/docker/index.html:196
 msgid "Links:"
@@ -3823,7 +3852,7 @@ msgstr ""
 
 #: pkg/users/local.js:981
 msgid "Logged In"
-msgstr "Giriş Yapıldı"
+msgstr "Oturum Açıldı"
 
 #: pkg/storaged/vdo-details.jsx:288
 msgid "Logical"
@@ -3875,7 +3904,7 @@ msgstr "Günlük kayıtları"
 
 #: pkg/dashboard/index.html:112
 msgid "Lost connection. Trying to reconnect"
-msgstr "Bağlantı koptu. Tekrar bağlanmaya çalışıyor"
+msgstr "Bağlantı kesildi. Yeniden bağlanmaya çalışılıyor"
 
 #: pkg/lib/machine-info.js:70
 msgid "Low Profile Desktop"
@@ -4049,7 +4078,7 @@ msgstr ""
 
 #: pkg/docker/index.html:454 pkg/docker/index.html:626
 msgid "Memory limit"
-msgstr "Bellek limiti"
+msgstr "Bellek sınırı"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:156
 msgid "Memory must not be 0"
@@ -4061,7 +4090,7 @@ msgstr ""
 
 #: pkg/systemd/shutdown.js:83
 msgid "Message to logged in users"
-msgstr "Giriş yapmış kullanıcılara mesaj"
+msgstr "Oturum açmış kullanıcılara mesaj"
 
 #: pkg/shell/index.html:430
 msgid "Messages related to the failure might be found in the journal:"
@@ -4125,7 +4154,7 @@ msgstr ""
 
 #: pkg/networkmanager/index.html:306
 msgid "Monitoring Interval"
-msgstr "İzleme Sıklığı"
+msgstr "İzleme Aralığı"
 
 #: pkg/networkmanager/index.html:310
 msgid "Monitoring Targets"
@@ -4369,30 +4398,30 @@ msgstr ""
 
 #: pkg/networkmanager/index.html:56
 msgid "Network devices and graphs require NetworkManager."
-msgstr ""
+msgstr "Ağ aygıtları ve grafikleri için NetworkManager gereklidir."
 
 #: pkg/machines/components/nicAdd.jsx:148
 #: pkg/machines/components/nicEdit.jsx:118
 msgid "Network interface settings could not be saved"
-msgstr ""
+msgstr "Ağ arayüzü ayarları kaydedilemedi"
 
 #: pkg/networkmanager/index.html:47
 msgid "NetworkManager is not running."
-msgstr ""
+msgstr "NetworkManager çalışmıyor."
 
 #: pkg/networkmanager/index.html:23 pkg/networkmanager/index.html:392
 #: pkg/networkmanager/firewall.jsx:947 pkg/networkmanager/manifest.json.in
 msgid "Networking"
-msgstr ""
+msgstr "Ağ"
 
 #: pkg/networkmanager/interfaces.js:1612 pkg/networkmanager/interfaces.js:2195
 msgctxt "page-title"
 msgid "Networking"
-msgstr ""
+msgstr "Ağ"
 
 #: pkg/networkmanager/index.html:155
 msgid "Networking Logs"
-msgstr ""
+msgstr "Ağ Günlük Kayıtları"
 
 #: pkg/machines/components/networks/networkList.jsx:50
 #: pkg/machines/components/networks/networkList.jsx:54
@@ -4452,7 +4481,7 @@ msgstr "Hayır"
 
 #: pkg/systemd/index.html:193
 msgid "No Delay"
-msgstr "Gecikme yok"
+msgstr "Gecikme Yok"
 
 #: pkg/storaged/things-panel.jsx:81
 msgid "No Devices"
@@ -4460,7 +4489,7 @@ msgstr ""
 
 #: pkg/storaged/format-dialog.jsx:156
 msgid "No Filesystem"
-msgstr "Dosya sistemi yok"
+msgstr "Dosya Sistemi Yok"
 
 #: pkg/storaged/content-views.jsx:762
 msgid "No Logical Volumes"
@@ -4591,7 +4620,7 @@ msgstr ""
 
 #: pkg/systemd/index.html:141
 msgid "No host keys found."
-msgstr "Ana bilgisayar anahtarı bulunamadı."
+msgstr "Ana makine anahtarı bulunamadı."
 
 #: pkg/storaged/iscsi-panel.jsx:269
 msgid "No iSCSI targets set up"
@@ -4700,7 +4729,7 @@ msgstr ""
 
 #: pkg/playground/translate.html:29
 msgid "Not Ready"
-msgstr "Hazır değil"
+msgstr "Hazır Değil"
 
 #: pkg/packagekit/updates.jsx:790
 msgid "Not Registered"
@@ -4712,7 +4741,7 @@ msgstr "Geçerli bir özel anahtar değil"
 
 #: pkg/docker/index.html:57
 msgid "Not authorized to access Docker on this system"
-msgstr "Bu sistem üzerinde Docker'e erişim yetkisi yok"
+msgstr "Bu sistemde Docker'a erişim yetkisi yok"
 
 #: pkg/networkmanager/firewall.jsx:899
 msgid "Not authorized to add a new zone"
@@ -4898,7 +4927,7 @@ msgstr "Diğer"
 #: pkg/storaged/content-views.jsx:375
 msgctxt "storage-id-desc"
 msgid "Other Data"
-msgstr "Diğer Veri"
+msgstr "Diğer Veriler"
 
 #: pkg/storaged/others-panel.jsx:71
 msgid "Other Devices"
@@ -4918,7 +4947,7 @@ msgstr "Genel Bakış"
 
 #: pkg/storaged/content-views.jsx:552 pkg/storaged/format-dialog.jsx:196
 msgid "Overwrite existing data with zeros"
-msgstr "Mevcut veriyi sıfırlarla tekrar yaz"
+msgstr "Var olan verilerin sıfırlarla üzerine yaz"
 
 #: pkg/systemd/hwinfo.jsx:254
 msgid "PCI"
@@ -4946,7 +4975,7 @@ msgstr ""
 
 #: pkg/networkmanager/index.html:163
 msgid "Parent"
-msgstr "Ana"
+msgstr "Üst"
 
 #: pkg/networkmanager/interfaces.js:2885
 msgid "Parent $parent"
@@ -4958,7 +4987,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:1446
 msgid "Part of "
-msgstr "Parçası: "
+msgstr "Şunun parçası: "
 
 #: pkg/storaged/content-views.jsx:146
 msgid "Partition"
@@ -5014,7 +5043,7 @@ msgstr "Parola kabul edilebilir değil"
 
 #: pkg/users/local.js:235
 msgid "Password is too weak"
-msgstr "Parola çok güçsüz"
+msgstr "Parola çok zayıf"
 
 #: pkg/users/local.js:892
 msgid "Password must be changed"
@@ -5277,7 +5306,7 @@ msgstr "Ön ek uzunluğu"
 
 #: pkg/networkmanager/interfaces.js:3291
 msgid "Prefix length or Netmask"
-msgstr "Ön ek uzunluğu ya da ağ maskesi"
+msgstr "Ön ek uzunluğu veya ağ maskesi"
 
 #: pkg/networkmanager/interfaces.js:830
 msgid "Preparing"
@@ -5301,7 +5330,7 @@ msgstr ""
 
 #: pkg/networkmanager/index.html:296
 msgid "Primary"
-msgstr "Öncelikli"
+msgstr "Birincil"
 
 #: pkg/networkmanager/index.html:251 pkg/networkmanager/index.html:370
 #: pkg/networkmanager/index.html:380
@@ -5469,7 +5498,7 @@ msgstr ""
 
 #: pkg/kdump/kdump-view.jsx:391
 msgid "Raw to a device"
-msgstr "Bir cihaza ham olarak"
+msgstr "Bir aygıta ham olarak"
 
 #: pkg/systemd/hwinfo.jsx:197
 msgid "Read more..."
@@ -5487,7 +5516,7 @@ msgstr "Salt-Okunur"
 
 #: pkg/docker/index.html:364
 msgid "ReadWrite"
-msgstr "OkuYaz"
+msgstr "Oku-Yaz"
 
 #: pkg/storaged/plot.jsx:312
 msgid "Reading"
@@ -5508,7 +5537,7 @@ msgstr "Hazırla"
 
 #: pkg/systemd/index.html:232
 msgid "Real Host Name"
-msgstr "Gerçek Host İsmi"
+msgstr "Gerçek Ana Makine Adı"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:530
 msgid ""
@@ -5597,7 +5626,7 @@ msgstr "SSH yoluyla uzaktan"
 #: pkg/storaged/drives-panel.jsx:72 pkg/storaged/drives-panel.jsx:74
 msgctxt "storage"
 msgid "Removable Drive"
-msgstr "Çıkarılabilir Disk"
+msgstr "Çıkarılabilir Sürücü"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:83
 msgid "Removals:"
@@ -5682,7 +5711,7 @@ msgstr ""
 #: pkg/storaged/lvol-tabs.jsx:39 pkg/storaged/vgroup-details.jsx:182
 #: pkg/storaged/vgroup-details.jsx:231
 msgid "Rename"
-msgstr "Yeniden İsimlendir"
+msgstr "Yeniden Adlandır"
 
 #: pkg/storaged/lvol-tabs.jsx:33
 msgid "Rename Logical Volume"
@@ -5868,7 +5897,7 @@ msgstr "Roller"
 
 #: pkg/networkmanager/interfaces.js:1962 pkg/networkmanager/interfaces.js:1979
 msgid "Round Robin"
-msgstr "Round Robin"
+msgstr "Döngüsel"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:98
 msgid "Route to $0"
@@ -6223,7 +6252,7 @@ msgstr ""
 
 #: pkg/storaged/overview.jsx:52
 msgid "Show all"
-msgstr "Tümünü göster"
+msgstr "Hepsini göster"
 
 #: pkg/storaged/things-panel.jsx:82
 msgid "Show all $0 devices"
@@ -6402,7 +6431,7 @@ msgstr "Yedek"
 
 #: pkg/systemd/index.html:194
 msgid "Specific Time"
-msgstr "Özel Bir Zamanda"
+msgstr "Belirli Bir Zamanda"
 
 #: pkg/systemd/hwinfo.jsx:271
 msgid "Speed"
@@ -6595,11 +6624,11 @@ msgstr ""
 
 #: pkg/storaged/format-dialog.jsx:69
 msgid "Store passphrase"
-msgstr "Parolayı sakla"
+msgstr "Parolayı kaydet"
 
 #: pkg/storaged/crypto-tab.jsx:68 pkg/storaged/crypto-tab.jsx:70
 msgid "Stored Passphrase"
-msgstr "Saklı Parolalar"
+msgstr "Kayıtlı Parola"
 
 #: pkg/storaged/crypto-tab.jsx:127
 msgid "Stored passphrase"
@@ -6632,11 +6661,11 @@ msgstr ""
 #: pkg/storaged/content-views.jsx:373
 msgctxt "storage-id-desc"
 msgid "Swap Space"
-msgstr "Swap Alanı"
+msgstr "Takas Alanı"
 
 #: pkg/systemd/graphs.html:157 pkg/systemd/graphs.js:409
 msgid "Swap Used"
-msgstr "Kullanılan Swap"
+msgstr "Kullanılan Takas"
 
 #: pkg/networkmanager/interfaces.js:2475 pkg/networkmanager/interfaces.js:3022
 msgid "Switch off $0"
@@ -6998,11 +7027,11 @@ msgstr "Makine yeniden başlatılıyor"
 
 #: pkg/users/local.js:413 pkg/users/local.js:1414
 msgid "The passwords do not match"
-msgstr "Parolalar eşleşmişyor"
+msgstr "Parolalar eşleşmiyor"
 
 #: pkg/lib/credentials.js:190
 msgid "The passwords do not match."
-msgstr "Parolalar uyuşmuyor."
+msgstr "Parolalar eşleşmiyor."
 
 #: pkg/machines/components/diskAdd.jsx:70
 msgid "The pool is empty"
@@ -7051,8 +7080,7 @@ msgstr ""
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:335
 msgid "The user $0 is not permitted to modify hostnames"
-msgstr ""
-"$0 kullanıcısının ana bilgisayar adlarını değiştirmesine izin verilmiyor"
+msgstr "$0 kullanıcısının ana makine adlarını değiştirmesine izin verilmiyor"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:361
 msgid "The user $0 is not permitted to modify realms"
@@ -7080,7 +7108,7 @@ msgstr ""
 
 #: pkg/users/local.js:641
 msgid "The user <b>$0</b> is not permitted to modify accounts"
-msgstr "<b>$0</b> kullanıcısı hesapları düzenlemek için yetkili değil"
+msgstr "<b>$0</b> kullanıcısının hesapları değiştirmesine izin verilmiyor"
 
 #: pkg/networkmanager/interfaces.js:1497
 msgid "The user <b>$0</b> is not permitted to modify network settings"
@@ -7119,7 +7147,7 @@ msgstr ""
 
 #: pkg/users/index.html:387
 msgid "There are no authorized public keys for this account."
-msgstr "Bu hesap için yetkilendirilmiş açık anahtar yok."
+msgstr "Bu hesap için yetkilendirilmiş genel anahtar yok."
 
 #: pkg/storaged/vgroup-details.jsx:96
 msgid ""
@@ -7228,7 +7256,7 @@ msgstr ""
 
 #: pkg/tuned/dialog.js:103
 msgid "This system is using a custom profile"
-msgstr "Bu sistem özel profil kullanıyor"
+msgstr "Bu sistem özelleştirilmiş bir profil kullanıyor"
 
 #: pkg/tuned/dialog.js:101
 msgid "This system is using the recommended profile"
@@ -7367,11 +7395,11 @@ msgstr ""
 
 #: src/ws/login.html:109
 msgid "Try Again"
-msgstr "Tekrar Deneyin"
+msgstr "Tekrar Dene"
 
 #: pkg/docker/index.html:71 pkg/docker/index.html:74
 msgid "Try again"
-msgstr "Tekrar Dene"
+msgstr "Tekrar dene"
 
 #: pkg/systemd/index.html:47
 msgid "Trying to synchronize with {{Server}}"
@@ -7387,11 +7415,11 @@ msgstr ""
 
 #: pkg/tuned/dialog.js:261
 msgid "Tuned has failed to start"
-msgstr "Tuned başlatılırken başarısız oldu"
+msgstr "Tuned başlatılamadı"
 
 #: pkg/tuned/dialog.js:91
 msgid "Tuned is not available"
-msgstr "Tuned uygun değil"
+msgstr "Tuned kullanılabilir değil"
 
 #: pkg/tuned/dialog.js:93
 msgid "Tuned is not running"
@@ -7455,7 +7483,7 @@ msgstr ""
 
 #: pkg/users/local.js:660
 msgid "Unable to delete root account"
-msgstr "Kök hesabı silinemiyor"
+msgstr "Root hesabı silinemedi"
 
 #: pkg/selinux/setroubleshoot-view.jsx:74
 #: pkg/selinux/setroubleshoot-view.jsx:170
@@ -7476,7 +7504,7 @@ msgstr ""
 
 #: pkg/users/local.js:662
 msgid "Unable to rename root account"
-msgstr "Kök hesabı yeniden adlandırılamıyor"
+msgstr "Root hesabı yeniden adlandırılamadı"
 
 #: pkg/selinux/setroubleshoot-client.js:173
 msgid "Unable to run fix: %0"
@@ -7484,7 +7512,7 @@ msgstr ""
 
 #: pkg/selinux/setroubleshoot-client.js:53
 msgid "Unable to start setroubleshootd"
-msgstr "setroubleshootd başlatılamıyor"
+msgstr "setroubleshootd başlatılamadı"
 
 #: pkg/storaged/nfs-details.jsx:258
 msgid "Unable to unmount filesystem"
@@ -7518,7 +7546,7 @@ msgstr ""
 #: pkg/networkmanager/interfaces.js:2515 pkg/networkmanager/interfaces.js:2517
 #: pkg/storaged/fsys-tab.jsx:369 pkg/storaged/swap-tab.jsx:57
 msgid "Unknown"
-msgstr "Bilinmiyor"
+msgstr "Bilinmeyen"
 
 #: pkg/networkmanager/interfaces.js:2501 pkg/networkmanager/interfaces.js:2513
 msgid "Unknown \"$0\""
@@ -7526,7 +7554,7 @@ msgstr "Bilinmeyen \"$0\""
 
 #: pkg/storaged/mdraid-details.jsx:99
 msgid "Unknown ($0)"
-msgstr "Bilinmiyor ($)"
+msgstr "Bilinmeyen ($0)"
 
 #: pkg/apps/application.jsx:98
 msgid "Unknown Application"
@@ -7538,7 +7566,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:2622
 msgid "Unknown configuration"
-msgstr "Bilinmeyen konfigrasyon"
+msgstr "Bilinmeyen yapılandırma"
 
 #: pkg/storaged/iscsi-panel.jsx:84
 msgid "Unknown host name"
@@ -7554,7 +7582,7 @@ msgstr ""
 
 #: pkg/docker/index.html:551 pkg/docker/util.js:110
 msgid "Unless Stopped"
-msgstr "Durmadıkça"
+msgstr "Durdurulmadığı Sürece"
 
 #: pkg/lib/machine-change-auth.html:81 pkg/storaged/content-views.jsx:236
 #: pkg/storaged/content-views.jsx:241 pkg/storaged/content-views.jsx:254
@@ -7638,7 +7666,7 @@ msgstr ""
 
 #: pkg/docker/util.js:94
 msgid "Up since $0"
-msgstr "$0'dan beri aktif"
+msgstr "$0'dan beri çalışıyor"
 
 #: pkg/lib/machine-change-port.html:41
 msgid "Update"
@@ -7708,7 +7736,7 @@ msgstr ""
 #: pkg/machines/components/vmDisksTab.jsx:109 pkg/storaged/fsys-tab.jsx:504
 #: pkg/storaged/swap-tab.jsx:81 pkg/systemd/graphs.js:391
 msgid "Used"
-msgstr "Kullanılmış"
+msgstr "Kullanılan"
 
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:79
 msgid "Used by"
@@ -7783,7 +7811,7 @@ msgstr "VLAN"
 
 #: pkg/networkmanager/index.html:168
 msgid "VLAN Id"
-msgstr "VLAN id"
+msgstr "VLAN Kimliği"
 
 #: pkg/networkmanager/index.html:629
 msgid "VLAN Settings"
@@ -8079,7 +8107,7 @@ msgstr ""
 #: pkg/dashboard/list.js:448
 msgid ""
 "You are currently connected directly to this server. You cannot delete it."
-msgstr "Şu an bu sunucuya doğrudan bağlısınız. Silme işlemi yapamazsınız."
+msgstr "Şu anda doğrudan bu sunucuya bağlısınız. Bunu silemezsiniz."
 
 #: pkg/networkmanager/firewall.jsx:77 pkg/networkmanager/firewall.jsx:133
 #: pkg/networkmanager/firewall.jsx:145 pkg/networkmanager/firewall.jsx:898
@@ -8092,7 +8120,7 @@ msgid ""
 "You do not have permission to view the authorized public keys for this "
 "account."
 msgstr ""
-"Bu hesabın yetkilendirilmiş açık anahtarlarını görmeniz için izniniz yok."
+"Bu hesap için yetkilendirilmiş genel anahtarları görüntüleme izniniz yok."
 
 #: pkg/docker/storage.jsx:520
 msgid "You don't have permission to manage the Docker storage pool."
@@ -8162,7 +8190,7 @@ msgstr "giriş"
 #: pkg/machines/components/storagePools/storagePool.jsx:70
 #: pkg/shell/active-pages-dialog.jsx:39
 msgid "active"
-msgstr "aktif"
+msgstr "etkin"
 
 #: pkg/apps/manifest.json.in
 msgid "add-on"
@@ -8259,7 +8287,7 @@ msgstr ""
 
 #: pkg/machines/helpers.js:213
 msgid "custom"
-msgstr "özel"
+msgstr "özelleştirilmiş"
 
 #: pkg/systemd/manifest.json.in
 msgid "date"
@@ -8287,7 +8315,7 @@ msgstr "devre dışı bırak"
 
 #: pkg/machines/helpers.js:184 pkg/machines/helpers.js:187
 msgid "disabled"
-msgstr "devre dışı bırakıldı"
+msgstr "devre dışı"
 
 #: pkg/machines/helpers.js:205 pkg/machines/helpers.js:208
 #: pkg/storaged/manifest.json.in
@@ -8329,7 +8357,7 @@ msgstr "etkinleştir"
 
 #: pkg/machines/helpers.js:185 pkg/machines/helpers.js:188
 msgid "enabled"
-msgstr "etkinleştirildi"
+msgstr "etkin"
 
 #: pkg/storaged/manifest.json.in
 msgid "encryption"
@@ -8422,7 +8450,7 @@ msgstr ""
 #: pkg/machines/components/networks/network.jsx:60
 #: pkg/machines/components/storagePools/storagePool.jsx:70
 msgid "inactive"
-msgstr "aktif değil"
+msgstr "etkin değil"
 
 #: pkg/apps/manifest.json.in
 msgid "install"
@@ -8555,7 +8583,7 @@ msgstr ""
 #: pkg/docker/run.js:419 pkg/docker/run.js:475 pkg/docker/run.js:529
 #: pkg/docker/run.js:574 pkg/tuned/dialog.js:105
 msgid "none"
-msgstr "hiç biri"
+msgstr "hiçbiri"
 
 #: pkg/systemd/graphs.js:142 pkg/systemd/overview-cards/usageCard.jsx:112
 msgid "of $0 CPU"
@@ -8789,7 +8817,7 @@ msgstr ""
 
 #: pkg/docker/run.js:474
 msgid "to host path"
-msgstr "ana bilgisayar yoluna"
+msgstr "ana makine yoluna"
 
 #: pkg/docker/run.js:418
 msgid "to host port"
