@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-05-14 09:40+0000\n"
-"Last-Translator: Mike Wille <mike@wille.io>\n"
+"PO-Revision-Date: 2020-06-07 22:47+0000\n"
+"Last-Translator: Jonas Becker <jonasbecker1.jb@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/de/>\n"
 "Language: de\n"
@@ -997,7 +997,7 @@ msgstr "Anonym: Alle nicht authentifizierten Benutzer dürfen Bilder ziehen"
 
 #: pkg/systemd/terminal.jsx:94
 msgid "Appearance:"
-msgstr "Erscheinungsbild"
+msgstr "Erscheinungsbild:"
 
 #: pkg/apps/index.html:23 pkg/apps/application-list.jsx:152
 #: pkg/apps/application.jsx:143
@@ -1645,7 +1645,7 @@ msgstr "Client-Zertifikat"
 
 #: pkg/realmd/operation.html:20
 msgid "Client Software"
-msgstr ""
+msgstr "Client Software"
 
 #: pkg/networkmanager/index.html:688 pkg/lib/machine-not-supported.html:8
 #: pkg/lib/machine-auth-failed.html:20 pkg/lib/machine-change-port.html:45
@@ -2058,7 +2058,7 @@ msgstr "Konsolen"
 
 #: pkg/realmd/operation.js:274
 msgid "Contacted domain"
-msgstr ""
+msgstr "Kontaktierte Domain"
 
 #: pkg/docker/console.html:4 pkg/kubernetes/views/container-body.html:4
 #: pkg/kubernetes/views/container-page-inline.html:2
@@ -2432,7 +2432,7 @@ msgstr "Benutzerdefinierte Verschlüsselungsoptionen"
 
 #: pkg/storaged/format-dialog.jsx:91 pkg/storaged/nfs-details.jsx:176
 msgid "Custom mount options"
-msgstr "Kundenspezifische Montageoptionen"
+msgstr "Benutzerdefinierte Einhängeoptionen"
 
 #: pkg/networkmanager/firewall.jsx:721
 msgid "Custom zones"
@@ -3042,7 +3042,7 @@ msgstr "Leere $target"
 
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:162
 msgid "Emulated Machine"
-msgstr ""
+msgstr "Emulierte Maschine"
 
 #: pkg/systemd/init.js:569
 msgid "Enable"
@@ -3146,7 +3146,7 @@ msgstr ""
 
 #: pkg/networkmanager/firewall.jsx:757
 msgid "Entire subnet"
-msgstr ""
+msgstr "Gesamtes Subnetzwerk"
 
 #: pkg/systemd/logs.html:83
 msgid "Entry"
@@ -3203,7 +3203,7 @@ msgstr "Fehlermeldung von Docker:"
 
 #: pkg/users/authorized-keys.js:121
 msgid "Error saving authorized keys: "
-msgstr "Fehler beim Speichern der autorisierten Schlüssel:"
+msgstr "Fehler beim Speichern der autorisierten Schlüssel: "
 
 #: pkg/selinux/setroubleshoot-client.js:193
 msgid "Error while deleting alert: $0"
@@ -3243,7 +3243,7 @@ msgstr "Beispiel: 88,2019,nfs,rsync"
 
 #: pkg/users/local.js:473 pkg/users/local.js:1417
 msgid "Excellent password"
-msgstr "Perfektes Passwort!"
+msgstr "Perfektes Passwort"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:222
 msgid "Existing Disk Image"
@@ -3251,7 +3251,7 @@ msgstr ""
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:163
 msgid "Existing disk image on host's file system"
-msgstr ""
+msgstr "Existierenes Festplatten Abbild auf dem Host Dateisystem"
 
 #: pkg/docker/util.js:97
 msgid "Exited $ExitCode"
@@ -3291,11 +3291,11 @@ msgstr "Maschine konnte nicht hinzugefügt werden: $0"
 
 #: pkg/networkmanager/firewall.jsx:237
 msgid "Failed to add service"
-msgstr ""
+msgstr "Hinzufügen des Services fehlgeschlagen"
 
 #: pkg/networkmanager/firewall.jsx:682
 msgid "Failed to add zone"
-msgstr ""
+msgstr "Hinzufügen der Zone fehlgeschlagen"
 
 #: pkg/lib/credentials.js:228 pkg/users/local.js:130 pkg/users/local.js:162
 msgid "Failed to change password"
@@ -3426,7 +3426,7 @@ msgstr "Folgt dem Docker-Repo"
 
 #: pkg/storaged/vdos-panel.jsx:88
 msgid "For legacy applications only. Reduces performance."
-msgstr ""
+msgstr "Nur für ältere Programme, reduziert die Performance."
 
 #: pkg/users/index.html:122
 msgid "Force Change"
@@ -3758,7 +3758,7 @@ msgstr "IPv4"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:103
 msgid "IPv4 Address"
-msgstr "IPv4 Adresse"
+msgstr "IPv4-Adresse"
 
 #: pkg/networkmanager/interfaces.js:3359
 msgid "IPv4 Settings"
@@ -3770,7 +3770,7 @@ msgstr "IPv6"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:126
 msgid "IPv6 Address"
-msgstr "IPv6 Adresse"
+msgstr "IPv6-Adresse"
 
 #: pkg/networkmanager/interfaces.js:3359
 msgid "IPv6 Settings"
@@ -4072,7 +4072,7 @@ msgstr "Schnittstelle"
 
 #: pkg/machines/components/nicEdit.jsx:123
 msgid "Interface Type"
-msgstr ""
+msgstr "Art des Interfaces"
 
 #: pkg/networkmanager/index.html:108 pkg/networkmanager/firewall.jsx:740
 #: pkg/networkmanager/firewall.jsx:928
@@ -4462,11 +4462,11 @@ msgstr "Lokales Dateisystem"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:218
 msgid "Local Install Media"
-msgstr ""
+msgstr "Lokales Installationsmedium"
 
 #: pkg/storaged/nfs-details.jsx:162
 msgid "Local Mount Point"
-msgstr "Local Mount Point"
+msgstr "Lokaler Einhängepunkt"
 
 #: pkg/kdump/kdump-view.jsx:145
 msgid "Location"
@@ -4560,7 +4560,7 @@ msgstr "Nochmal anmelden"
 
 #: pkg/realmd/operation.html:14
 msgid "Login Format"
-msgstr ""
+msgstr "Login Format"
 
 #: pkg/lib/machine-change-auth.html:68
 msgid "Login Password"
@@ -4594,7 +4594,7 @@ msgstr "Protokolle"
 
 #: pkg/dashboard/index.html:112
 msgid "Lost connection. Trying to reconnect"
-msgstr "Verbindung verloren. "
+msgstr "Verbindung verloren."
 
 #: pkg/lib/machine-info.js:67
 msgid "Low Profile Desktop"
@@ -4917,11 +4917,11 @@ msgstr "Einhängoptionen"
 #: pkg/storaged/nfs-details.jsx:318 pkg/storaged/fsys-tab.jsx:157
 #: pkg/storaged/nfs-panel.jsx:102
 msgid "Mount Point"
-msgstr "Einhängestelle"
+msgstr "Einhängepunkt"
 
 #: pkg/storaged/format-dialog.jsx:89 pkg/storaged/nfs-details.jsx:174
 msgid "Mount at boot"
-msgstr "Am Kofferraum montieren"
+msgstr "beim Start einhängen"
 
 #: pkg/docker/index.html:519
 msgid "Mount container volumes"
@@ -4941,7 +4941,7 @@ msgstr "Einhängepunkt muss mit \"/\" beginnen."
 
 #: pkg/storaged/format-dialog.jsx:90 pkg/storaged/nfs-details.jsx:175
 msgid "Mount read only"
-msgstr "Mount nur lesen"
+msgstr "Dateisystem als nur lesbar einhängen"
 
 #: pkg/storaged/fsys-tab.jsx:180
 msgid "Mounted At"
@@ -5659,7 +5659,7 @@ msgstr "Nicht gefunden"
 
 #: pkg/storaged/nfs-panel.jsx:55
 msgid "Not mounted"
-msgstr "Nicht montiert"
+msgstr "Nicht eingehängt"
 
 #: src/base1/cockpit.js:4013
 msgid "Not permitted to perform this action."
@@ -5759,7 +5759,7 @@ msgstr "Bei einem Ausfall"
 
 #: pkg/kdump/kdump-view.jsx:393
 msgid "On a mounted device"
-msgstr "Auf einem montierten Gerät"
+msgstr "Auf einem eingehangenem Gerät"
 
 #: pkg/docker/util.js:105
 msgid "On failure, retry $0 time"
@@ -5907,7 +5907,7 @@ msgstr "Teil von"
 
 #: pkg/networkmanager/interfaces.js:1465
 msgid "Part of "
-msgstr "Teil von"
+msgstr "Teil von "
 
 #: pkg/kubernetes/views/volume-body.html:8
 #: pkg/kubernetes/views/volume-body.html:18 pkg/storaged/content-views.jsx:141
@@ -6387,7 +6387,7 @@ msgstr ""
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:135
 msgid "Prefix"
-msgstr ""
+msgstr "Präfix"
 
 #: pkg/networkmanager/interfaces.js:3306
 msgid "Prefix length"
@@ -8079,7 +8079,7 @@ msgstr "Gerät anhalten"
 
 #: pkg/storaged/nfs-details.jsx:259
 msgid "Stop and Unmount"
-msgstr "Stoppen und demontieren"
+msgstr "Stoppen und aushängen"
 
 #: pkg/docker/util.js:639
 msgid "Stop and delete"
@@ -8208,7 +8208,7 @@ msgstr "Bereitschaft"
 
 #: pkg/storaged/content-views.jsx:157
 msgid "Swap"
-msgstr "Auslagerungsspeicher "
+msgstr "Auslagerungsspeicher"
 
 #: pkg/storaged/content-views.jsx:351
 msgctxt "storage-id-desc"
@@ -9175,7 +9175,7 @@ msgstr "Dienstag"
 
 #: pkg/packagekit/autoupdates.jsx:318
 msgid "Tuesdays"
-msgstr ""
+msgstr "Dienstags"
 
 #: pkg/tuned/dialog.js:260
 msgid "Tuned has failed to start"
@@ -9212,7 +9212,7 @@ msgstr "Typ"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:145
 msgid "Type ID"
-msgstr ""
+msgstr "Typ ID"
 
 #: pkg/lib/machine-change-auth.html:42
 msgid "Type a password"
@@ -9220,7 +9220,7 @@ msgstr "Geben Sie ein Passwort ein"
 
 #: pkg/docker/containers-view.jsx:115
 msgid "Type to filter…"
-msgstr "Zum Filtern tippen..."
+msgstr "Zum Filtern tippen. . ."
 
 #: pkg/kubernetes/views/details-page.html:7
 msgid "Type:"
@@ -9303,7 +9303,7 @@ msgstr "Kann setroubleshootd nicht starten"
 
 #: pkg/storaged/nfs-details.jsx:257
 msgid "Unable to unmount filesystem"
-msgstr "Das Aufhängen des Dateisystems ist nicht möglich"
+msgstr "Das Aushängen des Dateisystems ist nicht möglich"
 
 #: pkg/playground/translate.html:34 pkg/playground/translate.html:39
 #: pkg/kubernetes/scripts/charts.js:110
@@ -9366,7 +9366,7 @@ msgstr "Unbekannter Host-Name"
 
 #: pkg/networkmanager/firewall.jsx:333
 msgid "Unknown service name"
-msgstr ""
+msgstr "Unbekannten Servicename"
 
 #: pkg/storaged/crypto-keyslots.jsx:562
 msgid "Unknown type"
@@ -9544,7 +9544,7 @@ msgstr "Benutzt"
 
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:65
 msgid "Used by"
-msgstr ""
+msgstr "Benutzt von"
 
 #: pkg/docker/index.html:262
 msgid "Used by Containers"
@@ -9769,7 +9769,7 @@ msgstr "Virtuelle Maschinen von $0 Cluster"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:161
 msgid "Virtual Network"
-msgstr ""
+msgstr "Virtuelles Netzwerk"
 
 #: pkg/machines/components/libvirtSlate.jsx:80
 msgid "Virtualization Service (libvirt) is Not Active"
@@ -9832,7 +9832,7 @@ msgstr "Volumen:"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:140
 msgid "WWPN"
-msgstr ""
+msgstr "WWPN"
 
 #: pkg/networkmanager/interfaces.js:836
 msgid "Waiting"
@@ -9878,7 +9878,7 @@ msgstr "Mittwoch"
 
 #: pkg/packagekit/autoupdates.jsx:319
 msgid "Wednesdays"
-msgstr ""
+msgstr "Mittwochs"
 
 #: pkg/systemd/services.html:466
 msgid "Weeks"
@@ -9898,7 +9898,7 @@ msgstr "Wann"
 
 #: pkg/systemd/terminal.jsx:101
 msgid "White"
-msgstr ""
+msgstr "Weiß"
 
 #: pkg/docker/index.html:486
 msgid "With terminal"
@@ -10165,7 +10165,7 @@ msgstr ""
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:78
 msgid "iSCSI Target"
-msgstr ""
+msgstr "iSCSI Targets"
 
 #: pkg/storaged/iscsi-panel.jsx:261
 msgid "iSCSI Targets"
@@ -10221,7 +10221,6 @@ msgid "key slot $0"
 msgstr "Schlüsselschlitz $0"
 
 #: pkg/kdump/kdump-view.jsx:380 pkg/kdump/kdump-view.jsx:382
-#, fuzzy
 msgid "locally in $0"
 msgstr "lokal in $0"
 
@@ -10330,13 +10329,12 @@ msgid "reboot"
 msgstr "neustarten"
 
 #: pkg/tuned/change-profile.jsx:42
-#, fuzzy
 msgid "recommended"
-msgstr "MII (empfohlen)"
+msgstr "empfohlen"
 
 #: pkg/machines/helpers.js:202
 msgid "redirected device"
-msgstr ""
+msgstr "weitergeleitete Geräte"
 
 #: pkg/machines/helpers.js:188
 msgid "running"
