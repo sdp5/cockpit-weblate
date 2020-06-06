@@ -6,15 +6,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2019-09-20 11:25+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish\n"
+"PO-Revision-Date: 2020-06-10 07:40+0000\n"
+"Last-Translator: Jakob Sundberg <jakob@mress.se>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit/"
+"rhel-8-2/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -22,15 +23,15 @@ msgstr "(delat med OS:et)"
 
 #: pkg/machines/components/diskAdd.jsx:242
 msgid " Attaching it will make this disk shareable for every VM using it."
-msgstr ""
+msgstr " Inkoppling av denna disk gör att alla VM:er kan använda den."
 
 #: pkg/networkmanager/interfaces.js:2317
 msgid "$0 Active Zone"
-msgstr ""
+msgstr "Aktiv zon $0"
 
 #: pkg/networkmanager/interfaces.js:2317
 msgid "$0 Active Zones"
-msgstr ""
+msgstr "$0 Aktiva zoner"
 
 #: pkg/storaged/others-panel.jsx:57
 msgid "$0 Block Device"
@@ -96,7 +97,7 @@ msgstr[1] "$0 byte"
 
 #: pkg/storaged/vdo-details.jsx:279
 msgid "$0 data + $1 overhead used of $2 ($3)"
-msgstr "$0 data + $1 överskjutande använt av $2 ($3)"
+msgstr "$0 data + $1 extra använt av $2 ($3)"
 
 #: pkg/lib/plot.js:971
 msgid "$0 day"
@@ -200,7 +201,8 @@ msgstr "$0 av $1"
 #: pkg/systemd/init.js:424
 msgid "$0 service has failed"
 msgid_plural "$0 services have failed"
-msgstr[0] ""
+msgstr[0] "$0 tjänsten har inte startat"
+msgstr[1] "$0 tjänsterna har inte startat"
 
 #: pkg/docker/util.js:125
 msgid "$0 shares"
@@ -242,7 +244,7 @@ msgstr "$0, $1 fritt"
 
 #: pkg/systemd/logs.js:457
 msgid "$0: crash at $1"
-msgstr ""
+msgstr "$0: stop vid $1"
 
 #: pkg/packagekit/updates.jsx:161
 msgid "$1 security fix"
@@ -294,7 +296,7 @@ msgstr "1 dag"
 #: pkg/networkmanager/index.html:406 pkg/systemd/graphs.html:51
 #: pkg/storaged/plot.jsx:79
 msgid "1 hour"
-msgstr "1 timma"
+msgstr "1 timme"
 
 #: pkg/systemd/graphs.js:382
 msgid "1 min"
@@ -665,7 +667,7 @@ msgstr "Lägg till en maskin till panelen"
 
 #: pkg/machines/components/vmnetworktab.jsx:273
 msgid "Add Network Interface"
-msgstr ""
+msgstr "Lägg till nätverksport"
 
 #: pkg/networkmanager/firewall.jsx:495
 msgid "Add Ports"
@@ -690,7 +692,7 @@ msgstr " Lägg till VLAN"
 
 #: pkg/machines/components/nicAdd.jsx:191
 msgid "Add Virtual Network Interface"
-msgstr ""
+msgstr "Lägg till virtuell nätverksport"
 
 #: pkg/networkmanager/firewall.jsx:668 pkg/networkmanager/firewall.jsx:899
 #: pkg/networkmanager/firewall.jsx:905
@@ -699,7 +701,7 @@ msgstr "Lägg till zon"
 
 #: pkg/networkmanager/firewall.jsx:904
 msgid "Add a new zone"
-msgstr ""
+msgstr "Lägg till zon"
 
 #: pkg/storaged/iscsi-panel.jsx:42
 msgid "Add iSCSI Portal"
@@ -711,7 +713,7 @@ msgstr "Lägg till nyckel"
 
 #: pkg/networkmanager/firewall.jsx:496
 msgid "Add ports to $0 zone"
-msgstr ""
+msgstr "Lägg till portar till $0 zonen"
 
 #: pkg/users/index.html:406
 msgid "Add public key"
@@ -719,11 +721,11 @@ msgstr "Lägg till publik nyckel"
 
 #: pkg/networkmanager/firewall.jsx:496
 msgid "Add services to $0 zone"
-msgstr ""
+msgstr "Lägg till tjänster till $0 zonen"
 
 #: pkg/networkmanager/firewall.jsx:151
 msgid "Add services to zone $0"
-msgstr ""
+msgstr "Lägg till tjänster till zon $0"
 
 #: pkg/networkmanager/firewall.jsx:746
 msgid "Add zone"
@@ -742,6 +744,8 @@ msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
 msgstr ""
+"Att lägga till egna portar startar om firewalld . En omstart gör att "
+"osparade ändringar försvinner!"
 
 #: pkg/users/authorized-keys.js:113
 msgid "Adding key"
@@ -833,7 +837,7 @@ msgstr "Efter"
 #: pkg/systemd/services.html:309
 msgctxt "time-delay"
 msgid "After"
-msgstr ""
+msgstr "Efter"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:27
 msgid ""
@@ -841,6 +845,9 @@ msgid ""
 "log into this machine. This may also affect other services as DNS resolution "
 "settings and the list of trusted CAs may change."
 msgstr ""
+"Om du lämnar domänen kommer bara lokala användare kunna logga in på den här "
+"datorn. Det kan också påverka andra tjänster eftersom DNS och listan av "
+"betrodda CA kan ändras."
 
 #: pkg/systemd/services.html:300 pkg/systemd/services.html:304
 #: pkg/systemd/init.js:969
@@ -853,7 +860,7 @@ msgstr "Larm och högre"
 
 #: pkg/systemd/services.html:64 pkg/systemd/logs.js:239 pkg/systemd/logs.js:416
 msgid "All"
-msgstr ""
+msgstr "Alla"
 
 #: pkg/lib/machine-info.js:79
 msgid "All In One"
@@ -869,11 +876,11 @@ msgstr ""
 
 #: pkg/systemd/service-details.jsx:160
 msgid "Allow running (unmask)"
-msgstr ""
+msgstr "Tillåt start (göm inte)"
 
 #: pkg/networkmanager/firewall.jsx:720
 msgid "Allowed Addresses"
-msgstr ""
+msgstr "Tillåtna adresser"
 
 #: pkg/docker/index.html:550 pkg/docker/util.js:108
 msgid "Always"
@@ -886,15 +893,15 @@ msgstr "Anslut alltid"
 
 #: pkg/lib/cockpit-components-modifications.jsx:81
 msgid "Ansible"
-msgstr ""
+msgstr "Ansible"
 
 #: pkg/lib/cockpit-components-modifications.jsx:91
 msgid "Ansible roles documentation"
-msgstr ""
+msgstr "Dokumentation för Ansibleroller"
 
 #: pkg/systemd/terminal.jsx:94
 msgid "Appearance:"
-msgstr ""
+msgstr "Utseende:"
 
 #: pkg/apps/index.html:23 pkg/apps/application-list.jsx:148
 #: pkg/apps/application.jsx:143 pkg/apps/manifest.json.in
@@ -938,7 +945,7 @@ msgstr "Att lägga på uppdateringar misslyckades"
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:98
 msgid "Asset tag"
-msgstr ""
+msgstr "MaskinID"
 
 #: pkg/storaged/mdraids-panel.jsx:116
 msgid "At least $0 disks are needed."
@@ -1029,7 +1036,7 @@ msgstr "Starta automatiskt libvirt vid uppstart"
 
 #: pkg/systemd/service-details.jsx:399
 msgid "Automatically starts"
-msgstr ""
+msgstr "Startar automatiskt"
 
 #: pkg/systemd/index.html:101
 msgid "Automatically using NTP"
@@ -1041,13 +1048,13 @@ msgstr "Använder automatiskt specifika NTP-servrar"
 
 #: pkg/lib/cockpit-components-modifications.jsx:72
 msgid "Automation Script"
-msgstr ""
+msgstr "Automatiseringsskript"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:87
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:70
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:166
 msgid "Autostart"
-msgstr ""
+msgstr "Starta automatiskt"
 
 #: pkg/lib/machine-change-auth.html:66
 #: pkg/machines/components/vm/vmUsageTab.jsx:65
@@ -1105,7 +1112,7 @@ msgstr "Binder till"
 
 #: pkg/systemd/terminal.jsx:99
 msgid "Black"
-msgstr ""
+msgstr "Svart"
 
 #: pkg/lib/machine-info.js:94
 msgid "Blade"
@@ -1139,11 +1146,11 @@ msgstr "Bindinställningar"
 #: pkg/machines/components/vm/bootOrderModal.jsx:312
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:164
 msgid "Boot Order"
-msgstr ""
+msgstr "Uppstartsordning"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:208
 msgid "Boot order settings could not be saved"
-msgstr ""
+msgstr "Uppstartsordningen kunde inte sparas"
 
 #: pkg/systemd/service-details.jsx:426
 msgid "Bound By"
@@ -1202,15 +1209,15 @@ msgstr "CPU"
 
 #: pkg/systemd/graphs.js:487
 msgid "CPU Graph"
-msgstr ""
+msgstr "CPU-graf"
 
 #: pkg/systemd/hwinfo.jsx:104
 msgid "CPU Security"
-msgstr ""
+msgstr "CPU-säkerhet"
 
 #: pkg/systemd/hwinfo.jsx:209
 msgid "CPU Security Toggles"
-msgstr ""
+msgstr "CPU-säkerhetsinställningar"
 
 #: pkg/systemd/graphs.js:256
 msgctxt "page-title"
@@ -1219,7 +1226,7 @@ msgstr "CPU-status"
 
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:165
 msgid "CPU Type"
-msgstr ""
+msgstr "CPU-typ"
 
 #: pkg/docker/index.html:471 pkg/docker/index.html:643
 msgid "CPU priority"
@@ -1232,7 +1239,7 @@ msgstr "CPU-användning:"
 #: pkg/machines/components/diskAdd.jsx:164
 #: pkg/machines/components/vmDiskColumns.jsx:75
 msgid "Cache"
-msgstr ""
+msgstr "Cache"
 
 #: pkg/systemd/graphs.html:161 pkg/systemd/graphs.js:392
 msgid "Cached"
@@ -1240,7 +1247,7 @@ msgstr "Cachad"
 
 #: pkg/systemd/logs.js:181 pkg/systemd/logs.js:345
 msgid "Can not find any logs using the current combination of filters."
-msgstr ""
+msgstr "Hittade inga loggar med dessa filter aktiva."
 
 #: pkg/docker/index.html:63
 msgid "Can&rsquo;t connect to Docker"
@@ -1296,15 +1303,16 @@ msgstr "Kan inte ansluta till en okänd maskin"
 
 #: src/base1/cockpit.js:4048
 msgid "Cannot forward login credentials"
-msgstr "Kan inte vidarebefordra inloggningskreditiven"
+msgstr "Kan inte vidarebefordra inloggningsuppgifterna"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:628
 msgid "Cannot join a domain because realmd is not available on this system"
 msgstr ""
+"Kan inte ansluta till en domän eftersom realmd inte finns på detta system"
 
 #: pkg/systemd/shutdown.js:175
 msgid "Cannot schedule event in the past"
-msgstr "Kan inte schemalägga händelser i det förflutna"
+msgstr "Kan inte schemalägga händelser som redan hänt"
 
 #: pkg/machines/components/vmDisksTab.jsx:111
 msgid "Capacity"
@@ -1312,7 +1320,7 @@ msgstr "Kapacitet"
 
 #: pkg/networkmanager/interfaces.js:2572
 msgid "Carrier"
-msgstr "Transportör"
+msgstr "Transport"
 
 #: pkg/docker/index.html:664 pkg/systemd/index.html:123
 #: pkg/systemd/index.html:261 pkg/users/index.html:277 pkg/users/index.html:316
@@ -1354,7 +1362,7 @@ msgstr "Ändra resursgränser"
 
 #: pkg/docker/index.html:614
 msgid "Change resources limits"
-msgstr "Ändra resursgränser"
+msgstr "Ändra resursers gränser"
 
 #: pkg/networkmanager/interfaces.js:3138
 msgid "Change the settings"
@@ -1402,7 +1410,7 @@ msgstr "Kontrollerar om det finns nya program"
 
 #: pkg/packagekit/updates.jsx:819
 msgid "Checking for package updates..."
-msgstr ""
+msgstr "Söker efter programuppdateringar..."
 
 #: pkg/lib/machine-change-auth.html:71
 msgid "Checking for public keys"
@@ -1414,7 +1422,7 @@ msgstr "Kontrollerar installerad programvara"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:365
 msgid "Choose an operating system"
-msgstr ""
+msgstr "Välj ett operativsystem"
 
 #: pkg/shell/index.html:118
 msgid "Choose the language to be used in the application"
@@ -1434,7 +1442,7 @@ msgstr "Rensar upp för $target"
 
 #: pkg/systemd/service-details.jsx:189
 msgid "Clear 'Failed to start'"
-msgstr ""
+msgstr "Nollställ \"Misslyckad start\""
 
 #: pkg/systemd/services.html:85
 msgid "Clear All Filters"
@@ -1442,20 +1450,21 @@ msgstr ""
 
 #: pkg/shell/indexes.js:505
 msgid "Clear Search"
-msgstr ""
+msgstr "Nollställ sökning"
 
 #: pkg/storaged/fsys-tab.jsx:250
 msgid "Clear mount point configuration"
-msgstr ""
+msgstr "Nollställ inställningarna för monteringspunkter"
 
 #: pkg/machines/components/desktopConsole.jsx:41
 msgid ""
 "Clicking \"Launch Remote Viewer\" will download a .vv file and launch $0."
-msgstr "Att klicka ”Starta fjärrvisare” kommer hämta en .vv-fil och starta $0"
+msgstr ""
+"Att klicka på ”Starta fjärrvisare” kommer hämta en .vv-fil och starta $0."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:20
 msgid "Client Software"
-msgstr ""
+msgstr "Klientprogramvara"
 
 #: pkg/docker/index.html:738 pkg/lib/machine-auth-failed.html:20
 #: pkg/lib/machine-change-port.html:45 pkg/lib/machine-invalid-hostkey.html:12
@@ -1485,7 +1494,7 @@ msgid ""
 "Cockpit could not contact the given host $0. Make sure it has ssh running on "
 "port $1, or specify another port in the address."
 msgstr ""
-"Cockpit kunde inte kontakta den angivna värden $0.  Se till att den har ssh "
+"Cockpit kunde inte kontakta den angivna värden $0. Se till att den har ssh "
 "körande på port $1, eller ange en annan port i adressen."
 
 #: src/base1/cockpit.js:4054
@@ -1498,8 +1507,8 @@ msgid ""
 "Cockpit by pressing refresh in your browser. The javascript console contains "
 "details about this error (<b>Ctrl-Shift-J</b> in most browsers)."
 msgstr ""
-"Cockpit fick ett oväntat internt fel.  <br/><br/>Du kan försöka starta om "
-"Cockpit genom att trycka ladda om i din webbläsare.  Javaskriptkosolen "
+"Cockpit fick ett oväntat internt fel. <br/><br/>Du kan försöka starta om "
+"Cockpit genom att trycka ladda om i din webbläsare. Javaskriptkosolen "
 "innehåller detaljer om detta fel (<b>Ctrl-Shift-J</b> i de flesta "
 "webbläsare)."
 
@@ -1512,9 +1521,9 @@ msgid ""
 "journal interface."
 msgstr ""
 "Cockpit är en serverhanterare som gör det lätt att administrera dina "
-"Linuxservrar via en webbläsare.  Att hoppa mellan terminalen och "
-"webbverktyget är inget problem.  En tjänst som startas via Cockpit kan "
-"stoppas via terminalen.  Likaledes, om ett fel uppstår i terminalen kan det "
+"Linuxservrar via en webbläsare. Att hoppa mellan terminalen och "
+"webbverktyget är inget problem. En tjänst som startas via Cockpit kan "
+"stoppas via terminalen. Likaledes, om ett fel uppstår i terminalen kan det "
 "ses i Cockpits journalgränssnitt."
 
 #: pkg/shell/index.html:86
@@ -1779,7 +1788,7 @@ msgstr "Anslutningsfel"
 
 #: pkg/shell/index.html:427
 msgid "Connection failed"
-msgstr ""
+msgstr "Anslutningen misslyckades"
 
 #: src/base1/cockpit.js:4044
 msgid "Connection has timed out."
@@ -1803,7 +1812,7 @@ msgstr "Konsoler"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:276
 msgid "Contacted domain"
-msgstr ""
+msgstr "Kontaktade domänen"
 
 #: pkg/docker/console.html:4
 msgid "Container"
@@ -1845,7 +1854,7 @@ msgstr "Behållare"
 
 #: pkg/shell/indexes.js:405
 msgid "Contains"
-msgstr ""
+msgstr "Innehåller"
 
 #: pkg/storaged/content-views.jsx:597
 msgid "Content"
@@ -1853,7 +1862,7 @@ msgstr "Innehåll"
 
 #: pkg/shell/index.html:140
 msgid "Continue Session"
-msgstr ""
+msgstr "Fortsätt session"
 
 #: src/base1/test-locale.js:45 src/base1/test-locale.js:56
 #: pkg/playground/translate.js:20
@@ -1872,11 +1881,11 @@ msgstr "Konvertibel"
 
 #: pkg/lib/cockpit-components-context-menu.jsx:103
 msgid "Copy"
-msgstr ""
+msgstr "Kopiera"
 
 #: pkg/lib/cockpit-components-modifications.jsx:100
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Kopiera till urklipp"
 
 #: pkg/machines/components/vcpuModal.jsx:232
 msgid "Cores per socket"
@@ -1924,7 +1933,7 @@ msgstr "Kunde inte läsa in användardata"
 
 #: pkg/systemd/reporting.jsx:471
 msgid "Crash Reporting"
-msgstr ""
+msgstr "Rapportera krasher"
 
 #: pkg/kdump/kdump-view.jsx:338 pkg/kdump/kdump-view.jsx:507
 msgid "Crash dump location"
@@ -1947,7 +1956,7 @@ msgstr "Skapa"
 
 #: pkg/storaged/things-panel.jsx:66
 msgid "Create Devices"
-msgstr ""
+msgstr "Skapa enheter"
 
 #: pkg/storaged/content-views.jsx:680
 msgid "Create Logical Volume"
@@ -1967,7 +1976,7 @@ msgstr "Skapa en ny virtuell maskin"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:438
 msgid "Create New Volume"
-msgstr ""
+msgstr "Skapa ny volym"
 
 #: pkg/storaged/content-views.jsx:466 pkg/storaged/format-dialog.jsx:263
 msgid "Create Partition"
@@ -1975,11 +1984,11 @@ msgstr "Skapa en partition"
 
 #: pkg/storaged/content-views.jsx:592
 msgid "Create Partition Table"
-msgstr ""
+msgstr "Skapa partitionstabell"
 
 #: pkg/storaged/format-dialog.jsx:132
 msgid "Create Partition on $0"
-msgstr ""
+msgstr "Skapa partition på $0"
 
 #: pkg/storaged/mdraids-panel.jsx:59 pkg/storaged/things-panel.jsx:67
 msgid "Create RAID Device"
@@ -2000,7 +2009,7 @@ msgstr "Skapa en lagringspool"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:79
 msgid "Create Storage Volume"
-msgstr ""
+msgstr "Skapa lagringsvolym"
 
 #: pkg/storaged/content-views.jsx:112 pkg/storaged/content-views.jsx:139
 msgid "Create Thin Volume"
@@ -2025,12 +2034,12 @@ msgstr "Skapa en VM"
 #: pkg/machines/components/networks/createNetworkDialog.jsx:470
 #: pkg/machines/components/networks/createNetworkDialog.jsx:518
 msgid "Create Virtual Network"
-msgstr ""
+msgstr "Skapa virtuellt nätverk"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:135
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:149
 msgid "Create Volume"
-msgstr ""
+msgstr "Skapa volym"
 
 #: pkg/storaged/things-panel.jsx:68 pkg/storaged/vgroups-panel.jsx:72
 msgid "Create Volume Group"
@@ -2051,7 +2060,7 @@ msgstr "Skapa en ny logisk volym"
 
 #: pkg/lib/cockpit-components-modifications.jsx:87
 msgid "Create new task file with this content."
-msgstr ""
+msgstr "Skapa en händelse med detta innehåll."
 
 #: pkg/docker/containers-view.jsx:129 pkg/docker/containers-view.jsx:412
 #: pkg/docker/containers-view.jsx:687
@@ -2120,7 +2129,7 @@ msgstr "Skapar en volymgrupp $target"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:714
 msgid "Creation of VM $0 failed"
-msgstr ""
+msgstr "Misslyckades att skapa VM $0"
 
 #: pkg/systemd/logs.html:58
 msgid "Critical and above"
@@ -2132,11 +2141,11 @@ msgstr "Ctrl+Alt+Del"
 
 #: pkg/lib/cockpit-components-context-menu.jsx:104
 msgid "Ctrl+Insert"
-msgstr ""
+msgstr "Ctrl+Insert"
 
 #: pkg/machines/components/vm/memoryModal.jsx:113
 msgid "Current Allocation"
-msgstr ""
+msgstr "Nuvarande indelning"
 
 #: pkg/systemd/logs.html:42
 msgid "Current boot"
@@ -2144,7 +2153,7 @@ msgstr "Nuvarande uppstart"
 
 #: pkg/networkmanager/firewall.jsx:547
 msgid "Custom Ports"
-msgstr ""
+msgstr "Egna portar"
 
 #: pkg/storaged/format-dialog.jsx:65
 msgid "Custom encryption options"
@@ -2157,12 +2166,12 @@ msgstr "Anpassade monteringsalternativ"
 
 #: pkg/networkmanager/firewall.jsx:686
 msgid "Custom zones"
-msgstr ""
+msgstr "Egna zoner"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:119
 #: pkg/machines/components/networks/networkOverviewTab.jsx:142
 msgid "DHCP Range"
-msgstr ""
+msgstr "DHCP område"
 
 #: pkg/storaged/drive-details.jsx:54
 msgid "DISK IS FAILING"
@@ -2186,7 +2195,7 @@ msgstr "DNS-sökdomäner $val"
 
 #: pkg/systemd/terminal.jsx:100
 msgid "Dark"
-msgstr ""
+msgstr "Mörk"
 
 #: pkg/dashboard/index.html:22
 msgid "Dashboard"
@@ -2254,11 +2263,12 @@ msgstr "Ta bort $0"
 #: pkg/machines/components/storagePools/storageVolumeDelete.jsx:67
 msgid "Delete $0 volume"
 msgid_plural "Delete $0 volumes"
-msgstr[0] ""
+msgstr[0] "Ta bort volymen $0"
+msgstr[1] "Ta bort volymerna $0"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:163
 msgid "Delete Content"
-msgstr ""
+msgstr "Ta bort innehållet"
 
 #: pkg/users/index.html:351
 msgid "Delete Files"
@@ -2266,7 +2276,7 @@ msgstr "Ta bort filer"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:226
 msgid "Delete Storage Pool $0"
-msgstr ""
+msgstr "Ta bort lagringspool $0"
 
 #: pkg/machines/components/deleteDialog.jsx:70
 msgid "Delete associated storage files:"
@@ -2274,7 +2284,7 @@ msgstr "Ta bort assoicierade lagringsfiler:"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:171
 msgid "Delete the Volumes inside this Pool"
-msgstr ""
+msgstr "Ta bort volymerna i denna pool"
 
 #: pkg/storaged/jobs-panel.jsx:53 pkg/storaged/jobs-panel.jsx:67
 msgid "Deleting $target"
@@ -2317,6 +2327,8 @@ msgid ""
 "Deleting an inactive Storage Pool will only undefine the Pool. Its content "
 "will not be deleted."
 msgstr ""
+"Att ta bort en inaktiv lagringspool, tar bara bort poolnamnet. Innehållet "
+"raderas inte."
 
 #: pkg/storaged/jobs-panel.jsx:72
 msgid "Deleting volume group $target"
@@ -2336,6 +2348,8 @@ msgstr "Skrivbord"
 msgid ""
 "Detach the disks using this pool from any VMs before attempting deletion."
 msgstr ""
+"Koppla bort diskarna från VM:er som använder denna pool innan du försöker ta "
+"bort poolen."
 
 #: pkg/lib/machine-info.js:98
 msgid "Detachable"
@@ -2349,7 +2363,7 @@ msgstr "Detaljer"
 
 #: pkg/playground/manifest.json.in
 msgid "Development"
-msgstr ""
+msgstr "Utveckling"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:155
 #: pkg/machines/components/networks/networkList.jsx:55
@@ -2369,11 +2383,11 @@ msgstr "Enheten är skrivskyddad"
 
 #: pkg/storaged/things-panel.jsx:79
 msgid "Devices"
-msgstr ""
+msgstr "Enheter"
 
 #: pkg/sosreport/manifest.json.in
 msgid "Diagnostic Reports"
-msgstr ""
+msgstr "Diagnostikrapporter"
 
 #: pkg/sosreport/index.html:22
 msgid "Diagnostic reports"
@@ -2389,11 +2403,11 @@ msgstr "Katalogen $0 är inte skrivbar eller finns inte."
 
 #: pkg/systemd/hwinfo.jsx:195
 msgid "Disable simultaneous multithreading"
-msgstr ""
+msgstr "Stäng av hyperthreading"
 
 #: pkg/networkmanager/firewall.jsx:940
 msgid "Disable the firewall"
-msgstr ""
+msgstr "Stäng av brandväggen"
 
 #: pkg/tuned/dialog.js:233
 msgid "Disable tuned"
@@ -2406,7 +2420,7 @@ msgstr "Avaktiverad"
 
 #: pkg/systemd/service-details.jsx:193
 msgid "Disallow running (mask)"
-msgstr ""
+msgstr "Hindra körning (göm)"
 
 #: pkg/machines/components/serialConsole.jsx:81
 msgid "Disconnect"
@@ -2419,7 +2433,7 @@ msgstr "Frånkopplad"
 
 #: pkg/machines/components/serialConsole.jsx:73
 msgid "Disconnected from serial console. Click the Connect button."
-msgstr ""
+msgstr "Frånkopplad från seriekonsolen. Klicka på Anslut."
 
 #: pkg/storaged/vdos-panel.jsx:90
 msgid "Disk"
@@ -2427,7 +2441,7 @@ msgstr "Disk"
 
 #: pkg/machines/components/vmDisksTab.jsx:162
 msgid "Disk $0 fail to get detached from VM $1"
-msgstr ""
+msgstr "Disken $0 kunde inte kopplas bort från VM $1"
 
 #: pkg/dashboard/index.html:73 pkg/systemd/graphs.js:72
 msgid "Disk I/O"
@@ -2452,7 +2466,7 @@ msgstr "Disklösenfras"
 #: pkg/machines/components/diskAdd.jsx:468
 #: pkg/machines/components/diskEdit.jsx:165
 msgid "Disk settings could not be saved"
-msgstr ""
+msgstr "Inställningarna för disken kunde inte sparas"
 
 #: pkg/machines/components/vm/vm.jsx:51 pkg/storaged/mdraid-details.jsx:48
 #: pkg/storaged/mdraid-details.jsx:148 pkg/storaged/mdraids-panel.jsx:110
@@ -2466,11 +2480,11 @@ msgstr "Visningsspråk"
 
 #: pkg/storaged/fsys-tab.jsx:462
 msgid "Do not mount automatically on boot"
-msgstr ""
+msgstr "Montera inte automatiskt vid start"
 
 #: pkg/docker/manifest.json.in
 msgid "Docker Containers"
-msgstr ""
+msgstr "Docker containrar"
 
 #: pkg/docker/index.html:60
 msgid "Docker is not installed or activated on the system"
@@ -2529,7 +2543,7 @@ msgstr "Hämta en ny webbläsare gratis"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:290
 msgid "Download an OS"
-msgstr ""
+msgstr "Ladda ner ett OS"
 
 #: pkg/sosreport/index.html:62
 msgid "Download report"
@@ -2561,7 +2575,7 @@ msgstr "Enheter"
 
 #: pkg/lib/machine-info.js:247
 msgid "Dual Rank"
-msgstr ""
+msgstr "Dubbelrad"
 
 #: pkg/docker/run.js:348
 msgid "Duplicate alias"
@@ -2614,7 +2628,7 @@ msgstr "Tömmer $target"
 
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:162
 msgid "Emulated Machine"
-msgstr ""
+msgstr "Emulerad maskin"
 
 #: pkg/networkmanager/index.html:52
 msgid "Enable Service"
@@ -2622,11 +2636,11 @@ msgstr "Aktivera tjänst"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:436
 msgid "Enable stored metrics"
-msgstr ""
+msgstr "Aktivera mätdatalagring"
 
 #: pkg/networkmanager/firewall.jsx:940
 msgid "Enable the firewall"
-msgstr ""
+msgstr "Slå på brandväggen"
 
 #: pkg/systemd/services.html:65 pkg/systemd/init.js:222
 msgid "Enabled"
@@ -2634,7 +2648,7 @@ msgstr "Aktiverad"
 
 #: pkg/storaged/format-dialog.jsx:209
 msgid "Encrypt data"
-msgstr ""
+msgstr "Kryptera data"
 
 #: pkg/storaged/utils.js:274
 msgid "Encrypted $0"
@@ -2671,16 +2685,16 @@ msgstr "Krypteringsalternativ"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:238
 msgid "End"
-msgstr ""
+msgstr "Slut"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:63
 #: pkg/machines/components/networks/createNetworkDialog.jsx:91
 msgid "End should not be empty"
-msgstr ""
+msgstr "Slutet kan inte vara tomt"
 
 #: pkg/selinux/setroubleshoot-view.jsx:291
 msgid "Enforcing"
-msgstr ""
+msgstr "Tvingande"
 
 #: pkg/packagekit/updates.jsx:862
 msgid "Enhancement Updates Available"
@@ -2692,7 +2706,7 @@ msgstr "Ange en IP-adress eller ett värdnamn"
 
 #: pkg/lib/machine-change-auth.html:79
 msgid "Enter passphrase to add identity to ssh-agent"
-msgstr ""
+msgstr "Ange ditt lösenord för att lägga till identiteten till ssh-agent"
 
 #: pkg/lib/machine-change-auth.html:57
 msgid ""
@@ -2704,7 +2718,7 @@ msgstr ""
 
 #: pkg/networkmanager/firewall.jsx:723
 msgid "Entire subnet"
-msgstr ""
+msgstr "Hela subnätet"
 
 #: pkg/systemd/logs.html:83
 msgid "Entry"
@@ -2712,7 +2726,7 @@ msgstr "Post"
 
 #: pkg/systemd/logs.js:463
 msgid "Entry at $0"
-msgstr ""
+msgstr "Ingång vid $0"
 
 #: pkg/docker/containers-view.jsx:410
 msgid "Entrypoint"
@@ -2760,7 +2774,7 @@ msgstr "Felmeddelande från Docker:"
 
 #: pkg/lib/cockpit-components-modifications.jsx:139
 msgid "Error running semanage to discover system modifications"
-msgstr ""
+msgstr "Ett fel inträffade när semanage sökte efter ändringar i systemet"
 
 #: pkg/users/authorized-keys.js:121
 msgid "Error saving authorized keys: "
@@ -2792,11 +2806,11 @@ msgstr "Allting"
 
 #: pkg/networkmanager/firewall.jsx:560
 msgid "Example: 22,ssh,8080,5900-5910"
-msgstr ""
+msgstr "Exempel: 22,ssh,8080,5900-5910"
 
 #: pkg/networkmanager/firewall.jsx:568
 msgid "Example: 88,2019,nfs,rsync"
-msgstr ""
+msgstr "Exempel: 88,2019,nfs,rsync"
 
 #: pkg/users/local.js:447 pkg/users/local.js:1436
 msgid "Excellent password"
@@ -2804,7 +2818,7 @@ msgstr "Utmärkt lösenord"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:232
 msgid "Existing disk image on host's file system"
-msgstr ""
+msgstr "En annan disk på den här datorns filsystem"
 
 #: pkg/docker/util.js:97
 msgid "Exited $ExitCode"
@@ -2820,7 +2834,7 @@ msgstr "Exponerade behållarportar"
 
 #: pkg/systemd/logs.js:541
 msgid "Extended Information"
-msgstr ""
+msgstr "Utökad information"
 
 #: pkg/storaged/content-views.jsx:486 pkg/storaged/format-dialog.jsx:158
 msgid "Extended Partition"
@@ -2840,15 +2854,15 @@ msgstr "Misslyckades att lägga till en maskin: $0"
 
 #: pkg/networkmanager/firewall.jsx:288
 msgid "Failed to add port"
-msgstr ""
+msgstr "Kunde inte lägga till port"
 
 #: pkg/networkmanager/firewall.jsx:288
 msgid "Failed to add service"
-msgstr ""
+msgstr "Kunde inte lägga till tjänst"
 
 #: pkg/networkmanager/firewall.jsx:647
 msgid "Failed to add zone"
-msgstr ""
+msgstr "Kunde inte lägga till zon"
 
 #: pkg/lib/credentials.js:228 pkg/users/local.js:100 pkg/users/local.js:132
 msgid "Failed to change password"
@@ -2868,7 +2882,7 @@ msgstr "Misslyckades avaktivera en tuned-profil"
 
 #: pkg/lib/machine-dialogs.js:498
 msgid "Failed to edit machine: $0"
-msgstr "Misslyckades att redigera en makin: $0"
+msgstr "Misslyckades att redigera en maskin: $0"
 
 #: pkg/tuned/dialog.js:167
 msgid "Failed to enable tuned"
@@ -2876,7 +2890,7 @@ msgstr "Misslyckades att aktivera tuned"
 
 #: pkg/machines/components/vmnetworktab.jsx:79
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
-msgstr ""
+msgstr "Kunde inte hämta IP-adresser från portar i $0"
 
 #: pkg/users/index.html:393
 msgid "Failed to load authorized keys."
@@ -2884,11 +2898,11 @@ msgstr "Misslyckades att läsa in auktoriserade nycklar."
 
 #: pkg/systemd/service-details.jsx:343
 msgid "Failed to start"
-msgstr ""
+msgstr "Misslyckades att starta"
 
 #: pkg/docker/containers.js:60
 msgid "Failed to start Docker: $0"
-msgstr "Misslyckades att stara Docker: $0"
+msgstr "Misslyckades att starta Docker: $0"
 
 #: pkg/docker/util.js:559
 msgid "Failed to stop Docker scope: $0"
@@ -2946,11 +2960,11 @@ msgstr "Brandväggen är inte tillgänglig"
 
 #: pkg/storaged/vdos-panel.jsx:129
 msgid "For legacy applications only. Reduces performance."
-msgstr ""
+msgstr "Bara för gamla program. Går långsamt."
 
 #: pkg/systemd/service-details.jsx:325
 msgid "Forbidden from running"
-msgstr ""
+msgstr "Kan ej köras"
 
 #: pkg/users/index.html:122
 msgid "Force Change"
@@ -3034,7 +3048,7 @@ msgstr "Fredag"
 
 #: pkg/packagekit/autoupdates.jsx:325
 msgid "Fridays"
-msgstr ""
+msgstr "Fredagar"
 
 #: pkg/users/index.html:86 pkg/users/index.html:167
 msgid "Full Name"
@@ -3051,7 +3065,7 @@ msgstr "Allmänt"
 
 #: pkg/machines/components/nicAdd.jsx:49
 msgid "Generate automatically"
-msgstr ""
+msgstr "Skapa automatiskt"
 
 #: pkg/sosreport/index.html:55
 msgid "Generating report"
@@ -3094,7 +3108,7 @@ msgstr "Grafisk konsol i skrivbordsvisare"
 
 #: pkg/systemd/graphs.html:5
 msgid "Graphs"
-msgstr ""
+msgstr "Grafer"
 
 #: pkg/storaged/lvol-tabs.jsx:240 pkg/storaged/lvol-tabs.jsx:408
 #: pkg/storaged/lvol-tabs.jsx:461 pkg/storaged/vdo-details.jsx:228
@@ -3104,7 +3118,7 @@ msgstr "Utöka"
 
 #: pkg/storaged/lvol-tabs.jsx:423
 msgid "Grow Content"
-msgstr ""
+msgstr "Utöka innehållet"
 
 #: pkg/storaged/lvol-tabs.jsx:236
 msgid "Grow Logical Volume"
@@ -3140,17 +3154,15 @@ msgstr "Hårdvaruinformation"
 
 #: pkg/systemd/overview-cards/healthCard.jsx:55
 msgid "Health"
-msgstr ""
+msgstr "Hälsa"
 
 #: pkg/networkmanager/interfaces.js:2845
 msgid "Hello time $hello_time"
 msgstr "Hälsningstid $hello_time"
 
 #: pkg/machines/components/diskAdd.jsx:156
-#, fuzzy
-#| msgid "Additional actions"
 msgid "Hide Additional Options"
-msgstr "Ytterligare åtgärder"
+msgstr "Göm ytterligare inställningar"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:137
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:35
@@ -3161,7 +3173,7 @@ msgstr "Värd"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:172
 msgid "Host Device"
-msgstr ""
+msgstr "Värdenhet"
 
 #: pkg/dashboard/index.html:137
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:142
@@ -3174,7 +3186,7 @@ msgstr "Värdnyckeln är felaktig"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:605
 msgid "Host name should not be changed in a domain"
-msgstr ""
+msgstr "Datornamn skall inte ändras i en domän"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:148
 msgid "Host should not be empty"
@@ -3182,7 +3194,7 @@ msgstr "Värden får inte vara tom"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:384
 msgid "Hostname"
-msgstr ""
+msgstr "Värdnamn"
 
 #: pkg/systemd/services.html:353
 msgid "Hour : Minute"
@@ -3202,7 +3214,7 @@ msgstr "I/O-väntan"
 
 #: pkg/systemd/hwinfo.jsx:271
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: pkg/networkmanager/index.html:126 pkg/networkmanager/index.html:144
 #: pkg/machines/components/vmnetworktab.jsx:162
@@ -3215,7 +3227,7 @@ msgstr "IP-adress:"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:183
 msgid "IP Configuration"
-msgstr ""
+msgstr "IP-konfiguration"
 
 #: pkg/docker/index.html:180
 msgid "IP Prefix Length:"
@@ -3230,6 +3242,8 @@ msgid ""
 "IP address with routing prefix. Separate multiple values with a comma. "
 "Example: 192.0.2.0/24, 2001:db8::/32"
 msgstr ""
+"IP adress med prefix. Separera flera adresser med komma. Exempel: 192.0.2.0/"
+"24,2001:db8::/32"
 
 #: pkg/networkmanager/interfaces.js:2894
 msgid "IPv4"
@@ -3237,15 +3251,15 @@ msgstr "IPv4"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:105
 msgid "IPv4 Address"
-msgstr ""
+msgstr "IPv4-adress"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:265
 msgid "IPv4 Network"
-msgstr ""
+msgstr "IPv4 nätverk"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:45
 msgid "IPv4 Network should not be empty"
-msgstr ""
+msgstr "IPv4 nätverk kan inte vara tom"
 
 #: pkg/networkmanager/interfaces.js:3344
 msgid "IPv4 Settings"
@@ -3253,11 +3267,11 @@ msgstr "IPv4-inställningar"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:199
 msgid "IPv4 and IPv6"
-msgstr ""
+msgstr "IPv4 och IPv6"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:193
 msgid "IPv4 only"
-msgstr ""
+msgstr "IPv4 enbart"
 
 #: pkg/networkmanager/interfaces.js:2895
 msgid "IPv6"
@@ -3265,15 +3279,15 @@ msgstr "IPv6"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:128
 msgid "IPv6 Address"
-msgstr ""
+msgstr "IPv6-adress"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:309
 msgid "IPv6 Network"
-msgstr ""
+msgstr "IPv6 nätverk"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:73
 msgid "IPv6 Network should not be empty"
-msgstr ""
+msgstr "IPv6 nätverk kan inte vara tom"
 
 #: pkg/networkmanager/interfaces.js:3344
 msgid "IPv6 Settings"
@@ -3281,7 +3295,7 @@ msgstr "IPv6-inställningar"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:196
 msgid "IPv6 only"
-msgstr ""
+msgstr "IPv6 enbart"
 
 #: pkg/docker/containers-view.jsx:128 pkg/docker/containers-view.jsx:408
 #: pkg/machines/components/diskEdit.jsx:37
@@ -3343,20 +3357,16 @@ msgid "Immediately Start VM"
 msgstr "Starta VM:en omedelbart"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:822
-#, fuzzy
-#| msgid "Report"
 msgid "Import"
-msgstr "Rapport"
+msgstr "Importera"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:809
-#, fuzzy
-#| msgid "Create New Virtual Machine"
 msgid "Import A Virtual Machine"
-msgstr "Skapa en ny virtuell maskin"
+msgstr "Importera en virtuell maskin"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:885
 msgid "Import VM"
-msgstr ""
+msgstr "Importera VM"
 
 #: pkg/storaged/mdraid-details.jsx:95
 msgid "In Sync"
@@ -3367,6 +3377,8 @@ msgid ""
 "In most configurations, macvtap does not work for host to guest network "
 "communication."
 msgstr ""
+"I de flesta fall kan man inte använda macvtap för att kommunicera mellan "
+"host och VM."
 
 #: pkg/lib/machine-sync-users.html:52
 msgid ""
@@ -3387,7 +3399,7 @@ msgstr "Inaktiv volym"
 
 #: pkg/networkmanager/firewall.jsx:700
 msgid "Included services"
-msgstr ""
+msgstr "Inkluderade tjänster"
 
 #: pkg/lib/machine-invalid-hostkey.html:2
 msgid "Incorrect Host Key"
@@ -3411,11 +3423,11 @@ msgstr "Initierar …"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:164
 msgid "Initiator"
-msgstr ""
+msgstr "Initierare"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:175
 msgid "Initiator IQN should not be empty"
-msgstr ""
+msgstr "Initierarens IQN kan inte vara tom"
 
 #: pkg/apps/application-list.jsx:83 pkg/apps/application.jsx:112
 #: pkg/lib/cockpit-components-install-dialog.jsx:118
@@ -3441,7 +3453,7 @@ msgstr "Installera programvara"
 
 #: pkg/storaged/vdos-panel.jsx:44
 msgid "Install VDO Support"
-msgstr ""
+msgstr "Installera stöd för VDO"
 
 #: pkg/selinux/setroubleshoot-view.jsx:384
 msgid "Install setroubleshoot-server to troubleshoot SELinux events."
@@ -3453,11 +3465,11 @@ msgstr "Installationskälla"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:152
 msgid "Installation Source must not be empty"
-msgstr ""
+msgstr "Installationskällan kan inte vara tom"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:284
 msgid "Installation Type"
-msgstr ""
+msgstr "Installationstyp"
 
 #: pkg/packagekit/updates.jsx:61
 msgid "Installed"
@@ -3474,7 +3486,7 @@ msgstr "Installerar $0"
 
 #: pkg/systemd/service-details.jsx:488
 msgid "Instance of template: "
-msgstr ""
+msgstr "Användning av mall: "
 
 #: pkg/systemd/service-details.jsx:63
 msgid "Instantiate"
@@ -3482,7 +3494,7 @@ msgstr "Instatiera"
 
 #: pkg/machines/components/nicBody.jsx:128
 msgid "Interface Type"
-msgstr ""
+msgstr "Gränssnittstyp"
 
 #: pkg/networkmanager/index.html:114 pkg/networkmanager/index.html:273
 #: pkg/networkmanager/firewall.jsx:162 pkg/networkmanager/firewall.jsx:706
@@ -3502,21 +3514,21 @@ msgstr "Internt fel"
 #: pkg/machines/components/networks/createNetworkDialog.jsx:58
 #: pkg/machines/components/networks/createNetworkDialog.jsx:65
 msgid "Invalid IPv4 address"
-msgstr ""
+msgstr "Felaktig IPv4-adress"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:52
 msgid "Invalid IPv4 mask or prefix length"
-msgstr ""
+msgstr "Felaktig IPv4 nätverksmask eller prefix"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:75
 #: pkg/machines/components/networks/createNetworkDialog.jsx:86
 #: pkg/machines/components/networks/createNetworkDialog.jsx:93
 msgid "Invalid IPv6 address"
-msgstr ""
+msgstr "Felaktig IPv6-adress"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:80
 msgid "Invalid IPv6 prefix"
-msgstr ""
+msgstr "Felaktigt IPv6-prefix"
 
 #: pkg/networkmanager/utils.js:90 pkg/networkmanager/utils.js:175
 msgid "Invalid address $0"
@@ -3570,7 +3582,7 @@ msgstr "Felaktig port"
 
 #: pkg/networkmanager/firewall.jsx:386
 msgid "Invalid port number"
-msgstr ""
+msgstr "Felaktigt portnummer"
 
 #: pkg/networkmanager/utils.js:41
 msgid "Invalid prefix $0"
@@ -3582,7 +3594,7 @@ msgstr "Felaktigt prefix eller nätmask $0"
 
 #: pkg/networkmanager/firewall.jsx:413
 msgid "Invalid range"
-msgstr ""
+msgstr "Felaktigt område"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:961
 #: pkg/systemd/shutdown.js:152
@@ -3607,7 +3619,7 @@ msgstr "Kör sshd på en annan port?"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:108
 msgid "Isolated Network"
-msgstr ""
+msgstr "Isolerat nätverk"
 
 #: pkg/storaged/jobs-panel.jsx:186
 msgid "Jobs"
@@ -3626,10 +3638,8 @@ msgid "Join a Domain"
 msgstr "Gå med i en domän"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:623
-#, fuzzy
-#| msgid "Joining this domain is not supported"
 msgid "Joining a domain requires installation of realmd"
-msgstr "Att gå med i denna domän stödjs inte"
+msgstr "Att gå med i en domän kräver installation av realmd"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:508
 msgid "Joining this domain is not supported"
@@ -3708,7 +3718,7 @@ msgstr "LACP-nyckel"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:66
 msgid "LVM Volume Group"
-msgstr ""
+msgstr "LVM Volymgrupp"
 
 #: pkg/lib/machine-info.js:75
 msgid "Laptop"
@@ -3731,8 +3741,6 @@ msgid "Last Trigger"
 msgstr "Senaste trigger"
 
 #: pkg/packagekit/updates.jsx:181
-#, fuzzy
-#| msgid "Last checked: $0 ago"
 msgid "Last checked: $0"
 msgstr "Senast kontrollerad: $0 sedan"
 
@@ -3772,7 +3780,7 @@ msgstr "Licensierad under:"
 
 #: pkg/systemd/terminal.jsx:101
 msgid "Light"
-msgstr ""
+msgstr "Ljust"
 
 #: pkg/networkmanager/index.html:301
 msgid "Link Monitoring"
@@ -3816,7 +3824,7 @@ msgstr "Läs in tidigare poster"
 
 #: pkg/machines/components/libvirtSlate.jsx:89
 msgid "Loading Resources"
-msgstr ""
+msgstr "Laddar resurser"
 
 #: pkg/packagekit/updates.jsx:48
 msgid "Loading available updates failed"
@@ -3828,7 +3836,7 @@ msgstr "Läser in tillgängliga uppdateringar, var god dröj …"
 
 #: pkg/lib/cockpit-components-modifications.jsx:145
 msgid "Loading system modifications..."
-msgstr ""
+msgstr "Laddar anpassningar till systemet..."
 
 #: pkg/systemd/services.html:77 pkg/kdump/kdump-view.jsx:370
 #: pkg/machines/components/serialConsole.jsx:65 pkg/storaged/devices.jsx:65
@@ -3850,7 +3858,7 @@ msgstr "Lokala filsystem"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:292
 msgid "Local Install Media"
-msgstr ""
+msgstr "Lokal installationsmedia"
 
 #: pkg/storaged/nfs-details.jsx:160
 msgid "Local Mount Point"
@@ -3874,7 +3882,7 @@ msgstr "Lås kontot på $0"
 
 #: pkg/lib/machine-change-auth.html:76
 msgid "Locked"
-msgstr ""
+msgstr "Låst"
 
 #: pkg/storaged/jobs-panel.jsx:38
 msgid "Locking $target"
@@ -3930,7 +3938,7 @@ msgstr "Logga in igen"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:14
 msgid "Login Format"
-msgstr ""
+msgstr "Inloggningsformat"
 
 #: pkg/lib/machine-change-auth.html:68
 msgid "Login Password"
@@ -4000,7 +4008,7 @@ msgstr "Makinens SSH-nyckels fingeravtryck"
 
 #: pkg/machines/components/diskEdit.jsx:81
 msgid "Machine must be shut off before changing bus type"
-msgstr ""
+msgstr "Maskinen måste vara avstängd innan det går att ändra busstyp"
 
 #: pkg/shell/indexes.js:539
 msgid "Machines"
@@ -4036,19 +4044,19 @@ msgstr "Markerar $target som felaktig"
 
 #: pkg/systemd/service-details.jsx:200 pkg/systemd/service-details.jsx:203
 msgid "Mask Service"
-msgstr ""
+msgstr "Göm tjänst"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:279
 msgid "Mask or Prefix Length"
-msgstr ""
+msgstr "Mask eller prefixlängd"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:50
 msgid "Mask or Prefix Length should not be empty"
-msgstr ""
+msgstr "Mask eller prefixlängd kan inte vara tom"
 
 #: pkg/systemd/service-details.jsx:324
 msgid "Masked"
-msgstr ""
+msgstr "Gömd"
 
 #: pkg/systemd/service-details.jsx:201
 msgid ""
@@ -4056,6 +4064,9 @@ msgid ""
 "bigger impact than anticipated. Please confirm that you want to mask this "
 "unit."
 msgstr ""
+"Att gömma en tjänst hindrar alla tjänster som beror på den att starta. Det "
+"kan ha en större effekt än tänkt. Se till att du verkligen vill gömma denna "
+"tjänst."
 
 #: pkg/networkmanager/interfaces.js:2749
 msgid "Master"
@@ -4063,15 +4074,15 @@ msgstr "Huvudgränssnitt"
 
 #: pkg/machines/components/vm/memoryModal.jsx:125
 msgid "Maximum Allocation"
-msgstr ""
+msgstr "Maximal tilldelning"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:98
 msgid "Maximum Transmission Unit"
-msgstr ""
+msgstr "Maximal överföringsstorlek"
 
 #: pkg/machines/components/vm/memoryModal.jsx:82
 msgid "Maximum memory could not be saved"
-msgstr ""
+msgstr "Maximalt minne kunde inte sparas"
 
 #: pkg/networkmanager/interfaces.js:2847
 msgid "Maximum message age $max_age"
@@ -4113,20 +4124,20 @@ msgstr "Minne och växling"
 
 #: pkg/systemd/graphs.js:439
 msgid "Memory & Swap Usage"
-msgstr ""
+msgstr "Minnes och swap-användning"
 
 #: pkg/systemd/graphs.js:493
 msgid "Memory Graph"
-msgstr ""
+msgstr "Graf över minnesanvändning"
 
 #: pkg/systemd/hwinfo.jsx:271
 msgid "Memory Technology"
-msgstr ""
+msgstr "Minnesteknologi"
 
 #: pkg/machines/components/vm/memoryModal.jsx:86
 #: pkg/machines/components/vm/memoryModal.jsx:96
 msgid "Memory could not be saved"
-msgstr ""
+msgstr "Minnet kunde inte sparas"
 
 #: pkg/docker/index.html:454 pkg/docker/index.html:626
 msgid "Memory limit"
@@ -4134,7 +4145,7 @@ msgstr "Minnesgräns"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:156
 msgid "Memory must not be 0"
-msgstr ""
+msgstr "Minne kan inte vara 0"
 
 #: pkg/docker/index.html:211
 msgid "Memory usage:"
@@ -4146,7 +4157,7 @@ msgstr "Meddelande till inloggade användare"
 
 #: pkg/shell/index.html:430
 msgid "Messages related to the failure might be found in the journal:"
-msgstr ""
+msgstr "Meddelanden angående detta fel kan finnas i journalen:"
 
 #: pkg/storaged/lvol-tabs.jsx:468
 msgid "Metadata Used"
@@ -4176,7 +4187,7 @@ msgstr "Minuter"
 
 #: pkg/systemd/hwinfo.jsx:57
 msgid "Mitigations"
-msgstr ""
+msgstr "Rättningar"
 
 #: pkg/networkmanager/index.html:291
 msgid "Mode"
@@ -4202,7 +4213,7 @@ msgstr "Måndag"
 
 #: pkg/packagekit/autoupdates.jsx:321
 msgid "Mondays"
-msgstr ""
+msgstr "Måndagar"
 
 #: pkg/networkmanager/index.html:306
 msgid "Monitoring Interval"
@@ -4232,11 +4243,11 @@ msgstr "Montering"
 
 #: pkg/storaged/fsys-tab.jsx:264
 msgid "Mount Configuration"
-msgstr ""
+msgstr "Inställningar för monteringspunkter"
 
 #: pkg/storaged/fsys-tab.jsx:262
 msgid "Mount Filesystem"
-msgstr ""
+msgstr "Montera filsystem"
 
 #: pkg/storaged/format-dialog.jsx:236 pkg/storaged/fsys-tab.jsx:233
 #: pkg/storaged/nfs-details.jsx:171
@@ -4251,7 +4262,7 @@ msgstr "Monteringspunkt"
 
 #: pkg/storaged/fsys-tab.jsx:466
 msgid "Mount also automatically on boot"
-msgstr ""
+msgstr "Montera också automatiskt vid start"
 
 #: pkg/storaged/nfs-details.jsx:174
 msgid "Mount at boot"
@@ -4259,7 +4270,7 @@ msgstr "Montera vid uppstart"
 
 #: pkg/storaged/fsys-tab.jsx:458 pkg/storaged/fsys-tab.jsx:470
 msgid "Mount automatically on $0 on boot"
-msgstr ""
+msgstr "Montera automatiskt på $0 vid start"
 
 #: pkg/docker/index.html:521
 msgid "Mount container volumes"
@@ -4267,15 +4278,15 @@ msgstr "Montera behållarvolymer"
 
 #: pkg/storaged/format-dialog.jsx:245 pkg/storaged/fsys-tab.jsx:463
 msgid "Mount now"
-msgstr ""
+msgstr "Montera nu"
 
 #: pkg/storaged/fsys-tab.jsx:459
 msgid "Mount on $0 now"
-msgstr ""
+msgstr "Montera på $0 nu"
 
 #: pkg/storaged/fsys-tab.jsx:83
 msgid "Mount point cannot be empty"
-msgstr ""
+msgstr "Monteringspunkten kan inte vara tom"
 
 #: pkg/storaged/nfs-details.jsx:165
 msgid "Mount point cannot be empty."
@@ -4283,7 +4294,7 @@ msgstr "Monteringspunkten får inte vara tom."
 
 #: pkg/storaged/fsys-tab.jsx:87
 msgid "Mount point is already used for $0"
-msgstr ""
+msgstr "Monteringspunkten är redan i användning för $0"
 
 #: pkg/storaged/nfs-details.jsx:167
 msgid "Mount point must start with \"/\"."
@@ -4304,7 +4315,7 @@ msgstr "Multisystemschassi"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:93
 msgid "NAT to $0"
-msgstr ""
+msgstr "NAT till $0"
 
 #: pkg/storaged/nfs-details.jsx:136
 msgid "NFS Mount"
@@ -4320,7 +4331,7 @@ msgstr "Stöd för NFS är inte installerat"
 
 #: pkg/machines/components/vmnetworktab.jsx:121
 msgid "NIC $0 of VM $1 failed to change state"
-msgstr ""
+msgstr "NIC $0 på VM $1 kunde inte ändra läge"
 
 #: pkg/networkmanager/interfaces.js:1996
 msgid "NSNA Ping"
@@ -4386,7 +4397,7 @@ msgstr "Namnet får inte innehålla blanktecken."
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:123
 msgid "Name must not be empty"
-msgstr ""
+msgstr "Namnet kan inte vara tomt"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:41
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:53
@@ -4395,7 +4406,7 @@ msgstr "Namnet får inte vara tomt"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:36
 msgid "Name: "
-msgstr ""
+msgstr "Namn:"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:859
 msgid "Need at least one NTP server"
@@ -4403,30 +4414,30 @@ msgstr "Behöver åtminstone en NTP-server"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:114
 msgid "Netmask"
-msgstr ""
+msgstr "Nätmask"
 
 #: pkg/machines/components/aggregateStatusCards.jsx:72
-#, fuzzy
 msgid "Network"
 msgid_plural "Networks"
 msgstr[0] "Nätverk"
+msgstr[1] "Nätverk"
 
 #: pkg/dashboard/index.html:72
 msgctxt "label"
 msgid "Network"
-msgstr ""
+msgstr "Nätverk"
 
 #: pkg/machines/components/networks/network.jsx:119
 msgid "Network $0 failed to get activated"
-msgstr ""
+msgstr "Kunde inte starta nätverk $0"
 
 #: pkg/machines/components/networks/network.jsx:131
 msgid "Network $0 failed to get deactivated"
-msgstr ""
+msgstr "Kunde inte stoppa nätverk $0"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:298
 msgid "Network Boot (PXE)"
-msgstr ""
+msgstr "Nätverksboot (PXE)"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:295
 msgid "Network Boot is available only when using System connection"
@@ -4438,11 +4449,11 @@ msgstr "Nätverksfilsystem"
 
 #: pkg/machines/components/vm/vm.jsx:52
 msgid "Network Interfaces"
-msgstr ""
+msgstr "Nätverksportar"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:246
 msgid "Network Selection does not support PXE."
-msgstr ""
+msgstr "Nätverksvalet tillåter inte PXE."
 
 #: pkg/systemd/graphs.js:73
 msgid "Network Traffic"
@@ -9082,7 +9093,7 @@ msgstr ""
 
 #: pkg/networkmanager/manifest.json.in
 msgid "zone"
-msgstr ""
+msgstr "zon"
 
 #~ msgid "$mtu"
 #~ msgstr "$mtu"
