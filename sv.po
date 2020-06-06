@@ -7,15 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
+"PO-Revision-Date: 2020-06-07 22:47+0000\n"
+"Last-Translator: Jakob Sundberg <jakob@mress.se>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit/"
+"rhel-7/sv/>\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-10-01 12:16+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Swedish\n"
-"Language: sv\n"
-"X-Generator: Zanata 4.6.2\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -79,7 +80,7 @@ msgstr[1] "$0 byte"
 
 #: pkg/storaged/vdo-details.jsx:280
 msgid "$0 data + $1 overhead used of $2 ($3)"
-msgstr "$0 data + $1 överskjutande använt av $2 ($3)"
+msgstr "$0 data + $1 extra använt av $2 ($3)"
 
 #: src/base1/test-locale.js:62 src/base1/test-locale.js:63
 #: src/base1/test-locale.js:64 pkg/storaged/mdraid-details.jsx:213
@@ -269,7 +270,7 @@ msgstr "1 dag"
 #: pkg/systemd/index.html:186 pkg/dashboard/index.html:51
 #: pkg/storaged/plot.jsx:79
 msgid "1 hour"
-msgstr "1 timma"
+msgstr "1 timme"
 
 #: pkg/systemd/host.js:1685
 msgid "1 min"
@@ -778,6 +779,8 @@ msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
 msgstr ""
+"Att lägga till egna portar startar om firewalld . En omstart gör att "
+"osparade ändringar försvinner!"
 
 #: pkg/users/authorized-keys.js:113
 msgid "Adding key"
@@ -892,6 +895,9 @@ msgid ""
 "log into this machine. This may also affect other services as DNS resolution "
 "settings and the list of trusted CAs may change."
 msgstr ""
+"Om du lämnar domänen kommer bara lokala användare kunna logga in på den här "
+"datorn. Det kan också påverka andra tjänster eftersom DNS och listan av "
+"betrodda CA kan ändras."
 
 #: pkg/systemd/services.html:446 pkg/systemd/services.html:450
 #: pkg/systemd/init.js:1073
@@ -904,7 +910,7 @@ msgstr "Larm och högre"
 
 #: pkg/systemd/services.html:71 pkg/systemd/logs.js:212 pkg/systemd/logs.js:382
 msgid "All"
-msgstr ""
+msgstr "Alla"
 
 #: pkg/lib/machine-info.js:76
 msgid "All In One"
@@ -948,7 +954,7 @@ msgstr "Alla körande virtuella maskiner kommer stängas av."
 
 #: pkg/networkmanager/firewall.jsx:754
 msgid "Allowed Addresses"
-msgstr ""
+msgstr "Tillåtna adresser"
 
 #: pkg/networkmanager/firewall.jsx:940
 msgid "Allowed Services"
@@ -974,7 +980,7 @@ msgstr "Anonymt: tillåt alla oautentiserade användare att hämta avbilder"
 
 #: pkg/systemd/terminal.jsx:94
 msgid "Appearance:"
-msgstr ""
+msgstr "Utseende:"
 
 #: pkg/apps/index.html:23 pkg/apps/application-list.jsx:152
 #: pkg/apps/application.jsx:143
@@ -1130,7 +1136,7 @@ msgstr "Använder automatiskt specifika NTP-servrar"
 #: pkg/machines/components/networks/networkOverviewTab.jsx:86
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:166
 msgid "Autostart"
-msgstr ""
+msgstr "Starta automatiskt"
 
 #: pkg/lib/machine-change-auth.html:66
 #: pkg/machines/components/vm/vmUsageTab.jsx:65
@@ -1204,7 +1210,7 @@ msgstr "Binder till"
 
 #: pkg/systemd/terminal.jsx:98
 msgid "Black"
-msgstr ""
+msgstr "Svart"
 
 #: pkg/lib/machine-info.js:91
 msgid "Blade"
@@ -1242,11 +1248,11 @@ msgstr "Start-ID"
 #: pkg/machines/components/vm/bootOrderModal.jsx:312
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:164
 msgid "Boot Order"
-msgstr ""
+msgstr "Uppstartsordning"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:208
 msgid "Boot order settings could not be saved"
-msgstr ""
+msgstr "Uppstartsordningen kunde inte sparas"
 
 #: pkg/systemd/init.js:725
 msgid "Bound By"
@@ -1308,11 +1314,11 @@ msgstr "CPU"
 
 #: pkg/systemd/hwinfo.jsx:113
 msgid "CPU Security"
-msgstr ""
+msgstr "CPU-säkerhet"
 
 #: pkg/systemd/hwinfo.jsx:205
 msgid "CPU Security Toggles"
-msgstr ""
+msgstr "CPU-säkerhetsinställningar"
 
 #: pkg/systemd/host.js:1564
 msgctxt "page-title"
@@ -1321,7 +1327,7 @@ msgstr "CPU-status"
 
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:165
 msgid "CPU Type"
-msgstr ""
+msgstr "CPU-typ"
 
 #: pkg/kubernetes/scripts/nodes.js:712
 msgid "CPU Utilization: $0%"
@@ -1342,7 +1348,7 @@ msgstr "Åtgärden SKAPA VM misslyckades"
 #: pkg/machines/components/vmDiskColumns.jsx:75
 #: pkg/machines/components/diskAdd.jsx:246
 msgid "Cache"
-msgstr ""
+msgstr "Cache"
 
 #: pkg/systemd/index.html:259 pkg/systemd/host.js:1695
 msgid "Cached"
@@ -1435,11 +1441,11 @@ msgstr "Kan inte dektryptera en PEM-kodad privat nyckel"
 
 #: src/base1/cockpit.js:4031
 msgid "Cannot forward login credentials"
-msgstr "Kan inte vidarebefordra inloggningskreditiven"
+msgstr "Kan inte vidarebefordra inloggningsuppgifterna"
 
 #: pkg/systemd/shutdown.js:164
 msgid "Cannot schedule event in the past"
-msgstr "Kan inte schemalägga händelser i det förflutna"
+msgstr "Kan inte schemalägga händelser som redan hänt"
 
 #: pkg/kubernetes/views/pv-body.html:13 pkg/kubernetes/views/node-page.html:17
 #: pkg/kubernetes/views/pv-modify.html:44 pkg/kubernetes/views/pvc-body.html:32
@@ -1449,7 +1455,7 @@ msgstr "Kapacitet"
 
 #: pkg/networkmanager/interfaces.js:2590
 msgid "Carrier"
-msgstr "Transportör"
+msgstr "Transport"
 
 #: pkg/kubernetes/scripts/volumes.js:203
 msgid "Ceph Filesystem Mount"
@@ -1514,7 +1520,7 @@ msgstr "Ändra resursgränser"
 
 #: pkg/docker/index.html:612
 msgid "Change resources limits"
-msgstr "Ändra resursgränser"
+msgstr "Ändra resursers gränser"
 
 #: pkg/networkmanager/interfaces.js:3153
 msgid "Change the settings"
@@ -2097,7 +2103,7 @@ msgstr "Konvertibel"
 
 #: pkg/lib/cockpit-components-context-menu.jsx:100
 msgid "Copy"
-msgstr ""
+msgstr "Kopiera"
 
 #: pkg/machines/components/vcpuModal.jsx:209
 #: pkg/ovirt/components/vcpuModal.jsx:67
