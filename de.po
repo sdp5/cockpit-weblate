@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-06-07 22:47+0000\n"
+"PO-Revision-Date: 2020-06-10 07:40+0000\n"
 "Last-Translator: Jonas Becker <jonasbecker1.jb@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/de/>\n"
@@ -7190,6 +7190,8 @@ msgid ""
 "Resizing an encrypted filesystem requires unlocking the disk. Please provide "
 "a current disk passphrase."
 msgstr ""
+"Die Größenänderung eines verschlüsselten Dateisystems benötigt das "
+"entsperren der Festplatte. Bitte geben sie das Passwort ein."
 
 #: pkg/systemd/index.html:141 pkg/systemd/index.html:151
 #: pkg/docker/index.html:135 pkg/machines/components/vm/vmActions.jsx:42
@@ -7223,13 +7225,12 @@ msgid "Restarting"
 msgstr "Neustart"
 
 #: pkg/networkmanager/index.html:39
-#, fuzzy
 msgid "Restoring connection"
 msgstr "Erneut verbinden"
 
 #: pkg/machines/components/vm/vmActions.jsx:84
 msgid "Resume"
-msgstr ""
+msgstr "Fortfahren"
 
 #: pkg/kubernetes/scripts/volumes.js:217
 msgid "Retain"
@@ -7280,7 +7281,7 @@ msgstr "Route"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:98
 msgid "Route to $0"
-msgstr ""
+msgstr "Route zu $0"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:100
 msgid "Routed Network"
@@ -7312,7 +7313,7 @@ msgstr "Ausführen als"
 #: pkg/machines/components/networks/networkOverviewTab.jsx:92
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:134
 msgid "Run when host boots"
-msgstr ""
+msgstr "Starten wenn Host hochfährt"
 
 #: pkg/networkmanager/index.html:328
 msgid "Runner"
@@ -7431,7 +7432,7 @@ msgstr "Sichern und Neustarten"
 
 #: pkg/storaged/vdos-panel.jsx:82
 msgid "Save space by compressing individual blocks with LZ4"
-msgstr ""
+msgstr "Speicherplatz durch komprimieren der einzelnen Blöcke mit LZ4 spare"
 
 #: pkg/storaged/vdos-panel.jsx:85
 msgid "Save space by storing identical data blocks just once"
@@ -7833,7 +7834,6 @@ msgid "Size cannot be zero"
 msgstr "Größe darf nicht Null sein"
 
 #: pkg/storaged/dialog.jsx:913
-#, fuzzy
 msgid "Size is too large"
 msgstr "Größe zu groß"
 
