@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-06-10 07:40+0000\n"
+"PO-Revision-Date: 2020-06-16 20:40+0000\n"
 "Last-Translator: Jonas Becker <jonasbecker1.jb@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/de/>\n"
@@ -8386,14 +8386,12 @@ msgid "Team Port"
 msgstr "Netzwerk-Team Anschluss"
 
 #: pkg/networkmanager/index.html:538
-#, fuzzy
 msgid "Team Port Settings"
-msgstr "Bridge Port Einstellungen"
+msgstr "Team Port Einstellungen"
 
 #: pkg/networkmanager/index.html:514
-#, fuzzy
 msgid "Team Settings"
-msgstr "IP Einstellungen"
+msgstr "Team Einstellungen"
 
 #: pkg/kubernetes/views/replicationcontroller-panel.html:14
 #: pkg/kubernetes/views/deploymentconfig-page.html:15
@@ -8460,7 +8458,7 @@ msgstr "Das RAID-Gerät muss aktiv sein, um Festplatten entfernen zu können."
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:80
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:84
 msgid "The Storage Pool could not be deleted"
-msgstr ""
+msgstr "Der Speicher-Pool konnte nicht entfernt werden"
 
 #: pkg/machines/components/vm/stateIcon.jsx:40
 msgid "The VM crashed."
