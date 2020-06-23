@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-05-04 11:40+0000\n"
-"Last-Translator: Álvaro Castillo <sincorchetes@gmail.com>\n"
+"PO-Revision-Date: 2020-06-24 14:40+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/es/>\n"
 "Language: es\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.3\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -5379,7 +5379,7 @@ msgstr "Caja de pizza"
 #: pkg/storaged/mdraid-details.jsx:289 pkg/storaged/vdo-details.jsx:194
 #: pkg/storaged/vgroup-details.jsx:207
 msgid "Please confirm deletion of $0"
-msgstr "Por favor confirme la eliminación de $0"
+msgstr "Confirme la eliminación de $0"
 
 #: pkg/docker/util.js:517
 msgid "Please confirm forced deletion of $0"
@@ -6562,15 +6562,15 @@ msgstr "El tamaño no puede ser cero"
 
 #: pkg/storaged/dialog.jsx:900
 msgid "Size is too large"
-msgstr "Tamaño es muy grande"
+msgstr "El tamaño es demasiado grande"
 
 #: pkg/storaged/dialog.jsx:894
 msgid "Size must be a number"
-msgstr "Tamaño debe ser un número"
+msgstr "El tamaño debe ser un número"
 
 #: pkg/storaged/dialog.jsx:902
 msgid "Size must be at least $0"
-msgstr "Tamaño debe ser al menos $0"
+msgstr "El tamaño debe ser al menos $0"
 
 #: pkg/systemd/hwinfo.jsx:260
 msgid "Slot"
