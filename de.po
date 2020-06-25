@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-06-16 20:40+0000\n"
+"PO-Revision-Date: 2020-06-26 10:40+0000\n"
 "Last-Translator: Jonas Becker <jonasbecker1.jb@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/de/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -53,7 +53,7 @@ msgstr "$0 blockorientiertes Gerät"
 
 #: pkg/storaged/mdraid-details.jsx:188
 msgid "$0 Chunk Size"
-msgstr "$0 Chunk Size"
+msgstr "$0 Chunk Größe"
 
 #: pkg/storaged/mdraid-details.jsx:186
 msgid "$0 Disks"
@@ -1142,7 +1142,7 @@ msgstr "Schwarz"
 
 #: pkg/lib/machine-info.js:94
 msgid "Blade"
-msgstr "Klinge"
+msgstr "Blade"
 
 #: pkg/lib/machine-info.js:95
 msgid "Blade enclosure"
@@ -2019,7 +2019,7 @@ msgstr "Neue Virtuelle Maschine erstellen"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:438
 msgid "Create New Volume"
-msgstr ""
+msgstr "Neuen Datenträger erstellen"
 
 #: pkg/storaged/content-views.jsx:466 pkg/storaged/format-dialog.jsx:263
 msgid "Create Partition"
@@ -5937,7 +5937,7 @@ msgstr "Meldung wurde abgebrochen"
 
 #: pkg/systemd/reporting.jsx:407
 msgid "Reports:"
-msgstr "Berichte"
+msgstr "Berichte:"
 
 #: pkg/docker/index.html:690
 msgid "Repository"
@@ -8584,11 +8584,11 @@ msgstr "Brauch"
 
 #: pkg/systemd/manifest.json.in
 msgid "date"
-msgstr ""
+msgstr "Datum"
 
 #: pkg/systemd/manifest.json.in
 msgid "debug"
-msgstr ""
+msgstr "Debug"
 
 #: pkg/docker/util.js:124
 msgid "default"
@@ -8604,7 +8604,7 @@ msgstr "Direkte"
 
 #: pkg/systemd/manifest.json.in
 msgid "disable"
-msgstr ""
+msgstr "deaktivieren"
 
 #: pkg/machines/helpers.js:184 pkg/machines/helpers.js:187
 msgid "disabled"
@@ -8617,7 +8617,7 @@ msgstr "Datenträger"
 
 #: pkg/packagekit/manifest.json.in
 msgid "dnf"
-msgstr ""
+msgstr "dnf"
 
 #: pkg/systemd/manifest.json.in
 msgid "domain"
@@ -8698,7 +8698,7 @@ msgstr "Fstab"
 
 #: pkg/systemd/manifest.json.in
 msgid "graphs"
-msgstr ""
+msgstr "Kurven"
 
 #: pkg/systemd/manifest.json.in
 msgid "hardware"
@@ -8712,7 +8712,7 @@ msgstr "host"
 
 #: pkg/machines/helpers.js:210
 msgid "host device"
-msgstr ""
+msgstr "Host-Gerät"
 
 #: pkg/machines/helpers.js:222
 msgid "hostdev"
@@ -8720,7 +8720,7 @@ msgstr "hostdev"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:169
 msgid "iSCSI Initiator IQN"
-msgstr ""
+msgstr "iSCSI Initiator IQN"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:64
 msgid "iSCSI Target"
@@ -8769,7 +8769,7 @@ msgstr "ipv6"
 
 #: pkg/storaged/manifest.json.in
 msgid "iscsi"
-msgstr ""
+msgstr "iscsi"
 
 #: pkg/machines/manifest.json.in
 msgid "iso"
@@ -8777,7 +8777,7 @@ msgstr "iso"
 
 #: pkg/systemd/manifest.json.in
 msgid "journal"
-msgstr ""
+msgstr "Journal"
 
 #: pkg/kdump/manifest.json.in
 msgid "kdump"
@@ -8829,7 +8829,7 @@ msgstr "Maschine"
 
 #: pkg/systemd/manifest.json.in
 msgid "mask"
-msgstr ""
+msgstr "Maske"
 
 #: pkg/machines/helpers.js:223
 msgid "mcast"
@@ -8841,7 +8841,7 @@ msgstr "Speicher"
 
 #: pkg/systemd/manifest.json.in
 msgid "mitigation"
-msgstr ""
+msgstr "Milderung"
 
 #: pkg/storaged/manifest.json.in
 msgid "mkfs"
@@ -8853,7 +8853,7 @@ msgstr "Einhängen"
 
 #: pkg/storaged/manifest.json.in
 msgid "nbde"
-msgstr ""
+msgstr "nbde"
 
 #: pkg/machines/helpers.js:207 pkg/machines/helpers.js:218
 #: pkg/networkmanager/manifest.json.in
@@ -8936,7 +8936,7 @@ msgstr "Port"
 
 #: pkg/systemd/manifest.json.in
 msgid "power"
-msgstr ""
+msgstr "Leistung"
 
 #: pkg/machines/manifest.json.in
 msgid "pxe"
@@ -8984,7 +8984,7 @@ msgstr "Läuft"
 
 #: pkg/systemd/overview.jsx:147
 msgid "running $0"
-msgstr ""
+msgstr "$0 wird ausgeführt"
 
 #: pkg/docker/search.js:50
 msgid "search by name, namespace or description"
@@ -9000,7 +9000,7 @@ msgstr "Container auswählen"
 
 #: pkg/selinux/manifest.json.in
 msgid "semanage"
-msgstr ""
+msgstr "semanage"
 
 #: pkg/systemd/manifest.json.in
 msgid "serial"
@@ -9016,7 +9016,7 @@ msgstr "Dienst"
 
 #: pkg/selinux/manifest.json.in
 msgid "setroubleshoot"
-msgstr ""
+msgstr "setroubleshoot"
 
 #: pkg/docker/index.html:485 pkg/docker/index.html:657
 msgid "shares"
@@ -9048,7 +9048,7 @@ msgstr "Herunterfahren"
 
 #: pkg/systemd/manifest.json.in
 msgid "socket"
-msgstr ""
+msgstr "Socket"
 
 #: pkg/selinux/setroubleshoot-view.jsx:123
 msgid "solution details"
@@ -9056,7 +9056,7 @@ msgstr "Lösungsdetails"
 
 #: pkg/sosreport/manifest.json.in
 msgid "sos"
-msgstr ""
+msgstr "Sos"
 
 #: pkg/systemd/manifest.json.in pkg/users/manifest.json.in
 msgid "ssh"
@@ -9132,7 +9132,7 @@ msgstr "nicht definiert"
 
 #: pkg/systemd/manifest.json.in
 msgid "unit"
-msgstr ""
+msgstr "Einheit"
 
 #: pkg/systemd/init.js:263 pkg/systemd/init.js:277
 msgid "unknown"
@@ -9144,7 +9144,7 @@ msgstr "Unbekanntes Ziel"
 
 #: pkg/systemd/manifest.json.in
 msgid "unmask"
-msgstr ""
+msgstr "Freigeben"
 
 #: pkg/storaged/manifest.json.in
 msgid "unmount"
@@ -9174,7 +9174,7 @@ msgstr "Benutzername"
 
 #: pkg/machines/components/vcpuModal.jsx:193
 msgid "vCPU Count"
-msgstr "vCPU Count"
+msgstr "Anzahl vCPUs"
 
 #: pkg/machines/components/vcpuModal.jsx:205
 msgid "vCPU Maximum"
@@ -9190,11 +9190,11 @@ msgstr "vCPUs"
 # author hpeters
 #: pkg/docker/run.js:528
 msgid "value"
-msgstr "value"
+msgstr "Wert"
 
 #: pkg/storaged/manifest.json.in
 msgid "vdo"
-msgstr ""
+msgstr "vdo"
 
 #: pkg/systemd/manifest.json.in
 msgid "version"
@@ -9202,13 +9202,15 @@ msgstr "Version"
 
 #: pkg/machines/helpers.js:226
 msgid "vhostuser"
-msgstr "vhostuser"
+msgstr "vhostbenutzer"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:892
 msgid ""
 "virt-install package needs to be installed on the system in order to create "
 "new VMs"
 msgstr ""
+"Das \"virt-install\" Paket muss auf dem System installiert werden, um neue "
+"VMs zu erstellen"
 
 #: pkg/networkmanager/manifest.json.in
 msgid "vlan"
@@ -9216,11 +9218,11 @@ msgstr "VLan"
 
 #: pkg/machines/manifest.json.in
 msgid "vm"
-msgstr ""
+msgstr "VM"
 
 #: pkg/storaged/manifest.json.in
 msgid "volume"
-msgstr ""
+msgstr "Laufwerk"
 
 #: pkg/systemd/manifest.json.in
 msgid "warning"
@@ -9234,7 +9236,6 @@ msgid "yes"
 msgstr "Ja"
 
 #: pkg/packagekit/manifest.json.in
-#, fuzzy
 msgid "yum"
 msgstr "yum"
 
