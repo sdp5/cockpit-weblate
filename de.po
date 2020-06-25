@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-06-16 20:40+0000\n"
+"PO-Revision-Date: 2020-06-26 10:40+0000\n"
 "Last-Translator: Jonas Becker <jonasbecker1.jb@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/de/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -45,7 +45,7 @@ msgstr "$0 blockorientiertes Gerät"
 
 #: pkg/storaged/mdraid-details.jsx:193
 msgid "$0 Chunk Size"
-msgstr "$0 Chunk Size"
+msgstr "$0 Chunk Größe"
 
 #: pkg/storaged/mdraid-details.jsx:191
 msgid "$0 Disks"
@@ -1231,7 +1231,7 @@ msgstr "Schwarz"
 
 #: pkg/lib/machine-info.js:91
 msgid "Blade"
-msgstr "Klinge"
+msgstr "Blade"
 
 #: pkg/lib/machine-info.js:92
 msgid "Blade enclosure"
@@ -10151,7 +10151,7 @@ msgstr "host"
 
 #: pkg/machines/helpers.js:203
 msgid "host device"
-msgstr ""
+msgstr "Host-Gerät"
 
 #: pkg/machines/helpers.js:215
 msgid "hostdev"
@@ -10159,7 +10159,7 @@ msgstr "hostdev"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:182
 msgid "iSCSI Initiator IQN"
-msgstr ""
+msgstr "iSCSI Initiator IQN"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:78
 msgid "iSCSI Target"
@@ -10452,7 +10452,7 @@ msgstr "Benutzer"
 #: pkg/machines/components/vcpuModal.jsx:192
 #: pkg/ovirt/components/vcpuModal.jsx:54
 msgid "vCPU Count"
-msgstr "vCPU Count"
+msgstr "Anzahl vCPUs"
 
 #: pkg/machines/components/vcpuModal.jsx:197
 msgid "vCPU Maximum"
@@ -10468,17 +10468,19 @@ msgstr "vCPUs"
 # translation auto-copied from project Cloudforms Cloud Engine User Guide, version 1.0, document topics/References/Cloud/AppXML/CF_AppXML_values, author hpeters
 #: pkg/docker/run.js:528
 msgid "value"
-msgstr "value"
+msgstr "Wert"
 
 #: pkg/machines/helpers.js:219
 msgid "vhostuser"
-msgstr "vhostuser"
+msgstr "vhostbenutzer"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:699
 msgid ""
 "virt-install package needs to be installed on the system in order to create "
 "new VMs"
 msgstr ""
+"Das \"virt-install\" Paket muss auf dem System installiert werden, um neue "
+"VMs zu erstellen"
 
 #: pkg/kubernetes/views/route-body.html:13 pkg/machines/helpers.js:233
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:62
