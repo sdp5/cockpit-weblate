@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-06-26 10:40+0000\n"
+"PO-Revision-Date: 2020-06-28 19:40+0000\n"
 "Last-Translator: Jonas Becker <jonasbecker1.jb@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/de/>\n"
@@ -2052,7 +2052,7 @@ msgstr "Erstellen Sie einen Speicherpool"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:79
 msgid "Create Storage Volume"
-msgstr ""
+msgstr "Datenträger erstellen"
 
 #: pkg/storaged/content-views.jsx:112 pkg/storaged/content-views.jsx:139
 msgid "Create Thin Volume"
@@ -2103,7 +2103,7 @@ msgstr "Logischen Datenträger erstellen"
 
 #: pkg/lib/cockpit-components-modifications.jsx:87
 msgid "Create new task file with this content."
-msgstr ""
+msgstr "Neue Aufgabe mit diesem Inhalt erstellen."
 
 #: pkg/docker/containers-view.jsx:129 pkg/docker/containers-view.jsx:412
 #: pkg/docker/containers-view.jsx:687
@@ -2307,7 +2307,8 @@ msgstr "$0 löschen"
 #: pkg/machines/components/storagePools/storageVolumeDelete.jsx:67
 msgid "Delete $0 volume"
 msgid_plural "Delete $0 volumes"
-msgstr[0] ""
+msgstr[0] "Datenträger $0 löschen"
+msgstr[1] "Datenträger $0 löschen"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:163
 msgid "Delete Content"
