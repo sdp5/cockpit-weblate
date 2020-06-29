@@ -13,15 +13,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
+"PO-Revision-Date: 2020-06-30 14:40+0000\n"
+"Last-Translator: Charles Lee <lchopn@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
+"projects/cockpit/rhel-7/zh_CN/>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-10-15 08:29+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
-"Language-Team: Chinese (Simplified)\n"
-"Language: zh_CN\n"
-"X-Generator: Zanata 4.6.2\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -126,7 +127,7 @@ msgstr "$0文件系统不能在这里改变大小。"
 msgid ""
 "$0 is available for most operating systems. To install it, search for it in "
 "GNOME Software or run the following:"
-msgstr "$0 大多数操作系统可用。为了安装它，请在 GNOME 中搜索它，或运行以下命令： "
+msgstr "$0 大多数操作系统可用。为了安装它，请在 GNOME 软件中心中搜索它，或运行以下命令："
 
 #: pkg/storaged/format-dialog.jsx:259 pkg/storaged/vdo-details.jsx:146
 #: pkg/storaged/vdo-details.jsx:175 pkg/storaged/vgroup-details.jsx:203
@@ -3676,7 +3677,7 @@ msgstr "编号："
 #: node_modules/registry-image-widgets/views/image-listing.html:7
 #: node_modules/registry-image-widgets/views/image-body.html:24
 msgid "Identifier"
-msgstr "身份标识"
+msgstr "标识符"
 
 #: pkg/kubernetes/views/user-page.html:22
 #: pkg/kubernetes/views/user-panel.html:18
@@ -8325,7 +8326,7 @@ msgid ""
 "The generated archive contains data considered sensitive and its content "
 "should be reviewed by the originating organization before being passed to "
 "any third party."
-msgstr "生成的文档包含敏感数据，其内容在传递到第三方前应该由原始组织检查通过。"
+msgstr "生成的归档中包含被认为敏感的数据，其内容应在传递给任何第三方之前由原始组织进行审核。"
 
 #: pkg/kubernetes/views/group-page.html:47
 msgid "The group '{{ groupName }}' does not exist."
