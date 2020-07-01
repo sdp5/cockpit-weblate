@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-06-26 10:40+0000\n"
+"PO-Revision-Date: 2020-07-06 09:27+0000\n"
 "Last-Translator: Jonas Becker <jonasbecker1.jb@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/de/>\n"
@@ -9651,43 +9651,43 @@ msgstr "VLAN Einstellungen"
 
 #: pkg/machines/hostvmslist.jsx:116
 msgid "VM $0 failed to Reboot"
-msgstr ""
+msgstr "VM $0 konnte nicht neugestartet werden"
 
 #: pkg/machines/hostvmslist.jsx:122
 msgid "VM $0 failed to force Reboot"
-msgstr ""
+msgstr "VM $0 konnte nicht zum Neustart gezwungen werden"
 
 #: pkg/machines/hostvmslist.jsx:146
 msgid "VM $0 failed to force shutdown"
-msgstr ""
+msgstr "VM $0 konnte nicht zum Herunterfahren gezwungen werden"
 
 #: pkg/machines/components/deleteDialog.jsx:136
 msgid "VM $0 failed to get deleted"
-msgstr ""
+msgstr "VM $0 konnte nicht gelöscht werden"
 
 #: pkg/machines/hostvmslist.jsx:110 pkg/machines/libvirt-common.js:1317
 msgid "VM $0 failed to get installed"
-msgstr ""
+msgstr "VM$0 konnte nicht installiert werden"
 
 #: pkg/machines/hostvmslist.jsx:134
 msgid "VM $0 failed to pause"
-msgstr ""
+msgstr "VM $0 konnte nicht pausiert werden"
 
 #: pkg/machines/hostvmslist.jsx:140
 msgid "VM $0 failed to resume"
-msgstr ""
+msgstr "VM $0 konnte nicht fortgesetzt werden"
 
 #: pkg/machines/hostvmslist.jsx:152
 msgid "VM $0 failed to send NMI"
-msgstr ""
+msgstr "NMI konnte nicht an VM $0 gesendet werden"
 
 #: pkg/machines/hostvmslist.jsx:128
 msgid "VM $0 failed to shutdown"
-msgstr ""
+msgstr "VM $0 konnte nicht heruntergefahren werden"
 
 #: pkg/machines/hostvmslist.jsx:104
 msgid "VM $0 failed to start"
-msgstr ""
+msgstr "VM $0 konnte nicht gestartet werden"
 
 #: pkg/ovirt/components/VmOverviewColumn.jsx:37
 msgid "VM icon"
@@ -9711,7 +9711,7 @@ msgstr "VNC-TLS-Port:"
 
 #: pkg/realmd/operation.js:165
 msgid "Validating address"
-msgstr ""
+msgstr "Validiere Adresse"
 
 #: src/ws/login.html:101
 msgid "Validating authentication token"
@@ -9860,7 +9860,7 @@ msgstr "Will"
 
 #: pkg/systemd/logs.html:60
 msgid "Warning and above"
-msgstr "Warnung und oben"
+msgstr "Warnung und höher"
 
 #: pkg/kubernetes/views/pv-modify.html:24
 msgid "Warning:"
