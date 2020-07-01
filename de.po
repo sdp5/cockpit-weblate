@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-06-28 19:40+0000\n"
+"PO-Revision-Date: 2020-07-06 09:27+0000\n"
 "Last-Translator: Jonas Becker <jonasbecker1.jb@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/de/>\n"
@@ -6919,7 +6919,7 @@ msgstr "Systeminformationen"
 
 #: pkg/selinux/setroubleshoot-view.jsx:462
 msgid "System Modifications"
-msgstr ""
+msgstr "System Modifikationen"
 
 #: pkg/systemd/services.jsx:49
 msgid "System Services"
@@ -6927,7 +6927,7 @@ msgstr "System Dienste"
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:87
 msgid "System information"
-msgstr ""
+msgstr "Systeminformationen"
 
 # ctx::sourcefile::/systems/SystemEntitlements
 #: pkg/packagekit/updates.jsx:942 pkg/packagekit/updates.jsx:956
@@ -8096,47 +8096,47 @@ msgstr "VLAN Einstellungen"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:125
 msgid "VM $0 already exists"
-msgstr ""
+msgstr "VM $0 existiert bereits"
 
 #: pkg/machines/hostvmslist.jsx:107
 msgid "VM $0 failed to Reboot"
-msgstr ""
+msgstr "VM $0 konnte nicht neugestartet werden"
 
 #: pkg/machines/hostvmslist.jsx:113
 msgid "VM $0 failed to force Reboot"
-msgstr ""
+msgstr "VM $0 konnte nicht zum Neustart gezwungen werden"
 
 #: pkg/machines/hostvmslist.jsx:137
 msgid "VM $0 failed to force shutdown"
-msgstr ""
+msgstr "VM $0 konnte nicht zum Herunterfahren gezwungen werden"
 
 #: pkg/machines/components/deleteDialog.jsx:136
 msgid "VM $0 failed to get deleted"
-msgstr ""
+msgstr "VM $0 konnte nicht gelöscht werden"
 
 #: pkg/machines/hostvmslist.jsx:101 pkg/machines/libvirt-common.js:1402
 msgid "VM $0 failed to get installed"
-msgstr ""
+msgstr "VM$0 konnte nicht installiert werden"
 
 #: pkg/machines/hostvmslist.jsx:125
 msgid "VM $0 failed to pause"
-msgstr ""
+msgstr "VM $0 konnte nicht pausiert werden"
 
 #: pkg/machines/hostvmslist.jsx:131
 msgid "VM $0 failed to resume"
-msgstr ""
+msgstr "VM $0 konnte nicht fortgesetzt werden"
 
 #: pkg/machines/hostvmslist.jsx:143
 msgid "VM $0 failed to send NMI"
-msgstr ""
+msgstr "NMI konnte nicht an VM $0 gesendet werden"
 
 #: pkg/machines/hostvmslist.jsx:119
 msgid "VM $0 failed to shutdown"
-msgstr ""
+msgstr "VM $0 konnte nicht heruntergefahren werden"
 
 #: pkg/machines/hostvmslist.jsx:95
 msgid "VM $0 failed to start"
-msgstr ""
+msgstr "VM $0 konnte nicht gestartet werden"
 
 #: pkg/machines/components/desktopConsole.jsx:187
 msgid "VNC"
@@ -8156,7 +8156,7 @@ msgstr "VNC-TLS-Port:"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:167
 msgid "Validating address"
-msgstr ""
+msgstr "Validiere Adresse"
 
 #: src/ws/login.html:99
 msgid "Validating authentication token"
@@ -8196,7 +8196,7 @@ msgstr "$target wird sehr sicher gelöscht"
 
 #: pkg/lib/cockpit-components-modifications.jsx:167
 msgid "View automation script"
-msgstr ""
+msgstr "Automatisierungs-Script anzeigen"
 
 #: pkg/systemd/overview-cards/usageCard.jsx:147
 msgid "View graphs"
@@ -8208,7 +8208,7 @@ msgstr "Hardware-Details anzeigen"
 
 #: pkg/systemd/reporting.jsx:397
 msgid "View report"
-msgstr ""
+msgstr "Bericht anzeigen"
 
 #: pkg/machines/components/networks/networkList.jsx:47
 #: pkg/machines/components/storagePools/storagePoolList.jsx:46
@@ -8226,7 +8226,7 @@ msgstr "Virtuelles Netzwerk"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:414
 msgid "Virtual Network failed to be created"
-msgstr ""
+msgstr "Virtuelles Netzwerk konnte nicht erstellt werden"
 
 #: pkg/machines/components/libvirtSlate.jsx:93
 msgid "Virtualization Service (libvirt) is Not Active"
@@ -8413,11 +8413,11 @@ msgstr "Sie haben keine Berechtigung, den Docker Storage Pool zu verwalten."
 
 #: pkg/shell/base_index.js:546
 msgid "You have been logged out due to inactivity."
-msgstr ""
+msgstr "Sie wurden wegen Inaktivität abgemeldet."
 
 #: pkg/systemd/logs.js:160
 msgid "You may try to load older entries."
-msgstr ""
+msgstr "Wollen sie probieren alte Einträge zu laden."
 
 #: pkg/users/local.js:90
 msgid "You must wait longer to change your password"
@@ -8425,7 +8425,7 @@ msgstr "Sie müssen länger warten, um Ihr Passwort zu ändern"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:128
 msgid "You need to select the most closely matching Operating System"
-msgstr ""
+msgstr "Bitte wählen sie das passende Betriebssystem aus"
 
 #: pkg/shell/base_index.js:535
 msgid "You will be logged out in $0 seconds."
@@ -8503,7 +8503,6 @@ msgid "apps"
 msgstr "Programme"
 
 #: pkg/packagekit/manifest.json.in
-#, fuzzy
 msgid "apt-get"
 msgstr "apt-get"
 
@@ -8520,7 +8519,7 @@ msgstr "um"
 
 #: pkg/selinux/manifest.json.in
 msgid "avc"
-msgstr ""
+msgstr "avc"
 
 #: pkg/systemd/manifest.json.in
 msgid "bash"
@@ -8536,7 +8535,7 @@ msgstr ""
 
 #: pkg/systemd/manifest.json.in
 msgid "boot"
-msgstr ""
+msgstr "Starten"
 
 #: pkg/machines/helpers.js:219 pkg/networkmanager/manifest.json.in
 msgid "bridge"
@@ -8565,7 +8564,7 @@ msgstr "Konsole"
 
 #: pkg/systemd/manifest.json.in
 msgid "coredump"
-msgstr ""
+msgstr "coredump"
 
 #: pkg/systemd/manifest.json.in
 msgid "cpu"
@@ -8573,7 +8572,7 @@ msgstr "CPU"
 
 #: pkg/kdump/manifest.json.in pkg/systemd/manifest.json.in
 msgid "crash"
-msgstr ""
+msgstr "Absturz"
 
 #: pkg/machines/helpers.js:200
 msgid "crashed"
@@ -8597,7 +8596,7 @@ msgstr "Vorgabe"
 
 #: pkg/systemd/manifest.json.in
 msgid "dimm"
-msgstr ""
+msgstr "dimm"
 
 #: pkg/machines/helpers.js:217
 msgid "direct"
@@ -9109,7 +9108,7 @@ msgstr "Zeit"
 
 #: pkg/systemd/manifest.json.in
 msgid "timer"
-msgstr ""
+msgstr "Timer"
 
 #: pkg/docker/run.js:474
 msgid "to host path"
