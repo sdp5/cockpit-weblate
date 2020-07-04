@@ -5,15 +5,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2017-05-12 11:11+0000\n"
-"Last-Translator: A S Alam <aalam@fedoraproject.org>\n"
-"Language-Team: Punjabi\n"
+"PO-Revision-Date: 2020-07-06 09:27+0000\n"
+"Last-Translator: A S Alam <amanpreet.alam@gmail.com>\n"
+"Language-Team: Punjabi <https://translate.fedoraproject.org/projects/cockpit/"
+"rhel-8-2/pa/>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -25,15 +26,15 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:2317
 msgid "$0 Active Zone"
-msgstr ""
+msgstr "$0 ਸਰਗਰਮ ਜ਼ੋਨ"
 
 #: pkg/networkmanager/interfaces.js:2317
 msgid "$0 Active Zones"
-msgstr ""
+msgstr "$0 ਸਰਗਰਮ ਜ਼ੋਨ"
 
 #: pkg/storaged/others-panel.jsx:57
 msgid "$0 Block Device"
-msgstr "$0 ਬਲਾਕ ਜੰਤਰ"
+msgstr "$0 ਬਲਾਕ ਡਿਵਾਈਸ"
 
 #: pkg/storaged/mdraid-details.jsx:188
 msgid "$0 Chunk Size"
@@ -50,12 +51,13 @@ msgstr "$0 ਫ਼ਾਈਲ ਸਿਸਟਮ"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:105
 msgid "$0 Network"
-msgstr ""
+msgstr "$0 ਨੈੱਟਵਰਕ"
 
 #: pkg/packagekit/history.jsx:100
 msgid "$0 Package"
 msgid_plural "$0 Packages"
-msgstr[0] ""
+msgstr[0] "$0 ਪੈਕੇਜ"
+msgstr[1] "$0 ਪੈਕੇਜ"
 
 #: pkg/systemd/init.js:484 pkg/systemd/service-details.jsx:59
 msgid "$0 Template"
@@ -121,7 +123,7 @@ msgstr[1] "$0 ਡਿਸਕਾਂ ਗੁੰਮ ਹਨ"
 
 #: src/ws/login.js:336 src/ws/login.js:695
 msgid "$0 error"
-msgstr ""
+msgstr "$0 ਗਲਤੀ"
 
 #: src/base1/cockpit.js:2785
 msgid "$0 exited with code $1"
@@ -209,7 +211,8 @@ msgstr ""
 #: pkg/packagekit/updates.jsx:163
 msgid "$0 update"
 msgid_plural "$0 updates"
-msgstr[0] ""
+msgstr[0] "$0 ਅੱਪਡੇਟ"
+msgstr[1] "$0 ਅੱਪਡੇਟ"
 
 #: pkg/storaged/vdo-details.jsx:291
 msgid "$0 used of $1 ($2 saved)"
@@ -250,7 +253,7 @@ msgstr "$name ($host ਤੋਂ)"
 
 #: pkg/storaged/utils.js:126
 msgid "${size} ${desc}"
-msgstr ""
+msgstr "${size} ${desc}"
 
 #: pkg/networkmanager/firewall.jsx:573
 msgid "(Optional)"
@@ -673,11 +676,11 @@ msgstr ""
 
 #: pkg/networkmanager/index.html:117
 msgid "Add Team"
-msgstr ""
+msgstr "ਟੀਮ ਜੋੜੋ"
 
 #: pkg/networkmanager/index.html:119
 msgid "Add VLAN"
-msgstr ""
+msgstr "VLAN ਜੋੜੋ"
 
 #: pkg/machines/components/nicAdd.jsx:191
 msgid "Add Virtual Network Interface"
@@ -690,7 +693,7 @@ msgstr ""
 
 #: pkg/networkmanager/firewall.jsx:904
 msgid "Add a new zone"
-msgstr ""
+msgstr "ਨਵਾਂ ਜ਼ੋਨ ਜੋੜੋ"
 
 #: pkg/storaged/iscsi-panel.jsx:42
 msgid "Add iSCSI Portal"
@@ -897,15 +900,15 @@ msgstr ""
 #: pkg/storaged/crypto-tab.jsx:108 pkg/storaged/fsys-tab.jsx:270
 #: pkg/storaged/fsys-tab.jsx:347 pkg/storaged/nfs-details.jsx:191
 msgid "Apply"
-msgstr ""
+msgstr "ਲਾਗੂ ਕਰੋ"
 
 #: pkg/packagekit/autoupdates.jsx:311
 msgid "Apply all updates"
-msgstr ""
+msgstr "ਸਾਰੇ ਅੱਪਡੇਟ ਲਾਗੂ ਕਰੋ"
 
 #: pkg/packagekit/autoupdates.jsx:312
 msgid "Apply security updates"
-msgstr ""
+msgstr "ਸੁਰੱਖਿਆ ਅੱਪਡੇਟ ਲਾਗੂ ਕਰੋ"
 
 #: pkg/selinux/setroubleshoot-view.jsx:112
 msgid "Apply this solution"
