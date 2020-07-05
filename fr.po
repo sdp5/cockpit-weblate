@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-06-07 22:47+0000\n"
-"Last-Translator: Sébastien POHER <sogal@member.fsf.org>\n"
+"PO-Revision-Date: 2020-07-06 09:27+0000\n"
+"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/fr/>\n"
 "Language: fr\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
-msgstr "(partagé avec l’OS)"
+msgstr " (partagé avec l’OS)"
 
 #: pkg/kubernetes/views/node-delete.html:8
 msgid " 1\"Do you want to delete the following Nodes?"
@@ -156,7 +156,7 @@ msgstr "$0 tué avec un signal $1"
 msgid "$0 occurrence"
 msgid_plural "$1 occurrences"
 msgstr[0] "$0 occurrence"
-msgstr[1] "$0 occurrences"
+msgstr[1] "$1 occurrences"
 
 #: pkg/storaged/fsys-tab.jsx:60
 msgid "$0 of $1"
@@ -174,7 +174,7 @@ msgstr "$0 logements restants"
 msgid "$0 update"
 msgid_plural "$0 updates"
 msgstr[0] "$0 mis à jour"
-msgstr[1] "$0 mis à jour"
+msgstr[1] "$0 mises à jour"
 
 #: pkg/storaged/vdo-details.jsx:292
 msgid "$0 used of $1 ($2 saved)"
@@ -192,13 +192,13 @@ msgstr "0 $ sera installé."
 msgid "$0% Free"
 msgid_plural "$0% Free"
 msgstr[0] "$0% disponible"
-msgstr[1] "$0% disponible"
+msgstr[1] "$0% disponibles"
 
 #: pkg/kubernetes/scripts/nodes.js:873
 msgid "$0% Used"
 msgid_plural "$0% Used"
 msgstr[0] "$0% utilisé"
-msgstr[1] "$0% utilisé"
+msgstr[1] "$0% utilisés"
 
 #: pkg/storaged/vgroup-details.jsx:118
 msgid "$0, $1 free"
@@ -220,7 +220,7 @@ msgstr "$name (de $host )"
 
 #: pkg/docker/details.js:151
 msgid "${hip}:${hport} -> $cport"
-msgstr "$ {hip}: $ {hport} -> $cport"
+msgstr "${hip} : ${hport} -> $cport"
 
 #: pkg/storaged/utils.js:126
 msgid "${size} ${desc}"
@@ -530,7 +530,7 @@ msgstr "Surveillance ARP"
 
 #: pkg/networkmanager/interfaces.js:2007
 msgid "ARP Ping"
-msgstr "ARP Ping"
+msgstr "Ping ARP"
 
 #: pkg/kubernetes/scripts/volumes.js:193
 msgid "AWS Elastic Block Store"
@@ -789,7 +789,7 @@ msgid ""
 "of any runtime-only configuration!"
 msgstr ""
 "Ajouter des ports personnalisés rechargera firwalld. Le chargement à nouveau "
-"entraînera la perte des configurations d'exécution-uniquement."
+"entrainera la perte des configurations d’exécution-uniquement !"
 
 #: pkg/users/authorized-keys.js:113
 msgid "Adding key"
@@ -1497,11 +1497,11 @@ msgstr "Modifier le mot de passe"
 
 #: pkg/tuned/dialog.js:189
 msgid "Change Performance Profile"
-msgstr "Changer le profil de performance"
+msgstr "Modifier le profil de performance"
 
 #: pkg/tuned/dialog.js:198
 msgid "Change Profile"
-msgstr "Change de profil"
+msgstr "Modifier le profil"
 
 #: pkg/systemd/index.html:365
 msgid "Change System Time"
@@ -1757,15 +1757,15 @@ msgid ""
 "sync_link}}.{{/can_sync}} For more authentication options and "
 "troubleshooting support please upgrade cockpit-ws to a newer version."
 msgstr ""
-"Cockpit n’a pas pu se connecter à {{#strong}}{{host}}{{/ strong}}. "
+"Cockpit n’a pas pu se connecter à {{#strong}}{{host}}{{/strong}}. "
 "{{#can_sync}} Vous pouvez essayer de {{#sync_link}} synchroniser les "
-"utilisateurs {{/ sync_link}}. {{/ can_sync}} Pour plus d’options "
-"d’authentification et de support de diagnostic de problèmes, mettez à niveau "
+"utilisateurs {{/sync_link}}. {{/can_sync}} Pour plus d’options d’"
+"authentification et de support de diagnostic de problèmes, mettez à niveau "
 "cockpit-ws vers une version plus récente."
 
 #: pkg/lib/machine-change-auth.html:9
 msgid "Cockpit was unable to log into {{#strong}}{{host}}{{/strong}}."
-msgstr "Cockpit n’a pas pu se connecter à {{#strong}}{{host}}{{/ strong}}."
+msgstr "Cockpit n’a pas pu se connecter à {{#strong}}{{host}}{{/strong}}."
 
 #: pkg/lib/machine-auth-failed.html:6
 msgid ""
@@ -1773,10 +1773,10 @@ msgid ""
 "machine with cockpit you will need to enable one of the following "
 "authentication methods in the sshd config on {{#strong}}{{host}}{{/strong}}:"
 msgstr ""
-"Cockpit n’a pas pu se connecter à {{#strong}}{{host}}{{/ strong}}. Pour "
+"Cockpit n’a pas pu se connecter à {{#strong}}{{host}}{{/strong}}. Pour "
 "utiliser cette machine avec cockpit, vous devrez activer l’une des méthodes "
 "d’authentification suivantes dans la configuration de sshd sur "
-"{{#strong}}{{host}}{{/ strong}} :"
+"{{#strong}}{{host}}{{/strong}} :"
 
 #: pkg/lib/machine-change-auth.html:13
 msgid ""
@@ -1784,10 +1784,10 @@ msgid ""
 "change your authentication credentials below. {{#can_sync}}You may prefer to "
 "{{#sync_link}}synchronize accounts and passwords{{/sync_link}}.{{/can_sync}}"
 msgstr ""
-"Cockpit n’a pas pu se connecter à {{#strong}}{{host}}{{/ strong}}. Vous "
+"Cockpit n’a pas pu se connecter à {{#strong}}{{host}}{{/strong}}. Vous "
 "pouvez modifier vos identifiants ci-dessous. {{#can_sync}} Vous pouvez "
-"préférer {{#sync_link}} synchroniser les comptes et les mots de passe {{/ "
-"sync_link}}.{{/ can_sync}}"
+"préférer {{#sync_link}} synchroniser les comptes et les mots de passe "
+"{{/sync_link}}.{{/can_sync}}"
 
 #: pkg/lib/machine-add.html:27 pkg/dashboard/index.html:157
 msgid "Color"
@@ -2714,7 +2714,7 @@ msgstr "Fichier de périphérique"
 
 #: pkg/storaged/content-views.jsx:551
 msgid "Device is read-only"
-msgstr "L’appareil est en lecture seule"
+msgstr "Périphérique en lecture seule"
 
 #: pkg/sosreport/index.html:22
 msgid "Diagnostic reports"
@@ -2842,7 +2842,7 @@ msgid ""
 "Do you want to delete the Persistent Volume Claim '{{item.metadata.name}}'?"
 msgstr ""
 "Voulez-vous supprimer la requête de volume persistant « {{item.metadata."
-"name}}’ »"
+"name}}’ » ?"
 
 #: pkg/kubernetes/views/item-delete.html:6
 msgid "Do you want to delete the {{ item.kind }} '{{item.metadata.name}}'?"
@@ -2969,7 +2969,7 @@ msgstr "Lecteur"
 
 #: pkg/docker/run.js:348
 msgid "Duplicate alias"
-msgstr "Alias ​​en double"
+msgstr "Alias en double"
 
 #: pkg/docker/run.js:279
 msgid "Duplicate port"
@@ -3045,7 +3045,7 @@ msgstr "Activer le service"
 
 #: pkg/systemd/index.html:168
 msgid "Enable stored metrics…"
-msgstr "Activer les métriques stockées…."
+msgstr "Activer les métriques stockées…"
 
 #: pkg/systemd/services.html:72 pkg/systemd/init.js:210
 msgid "Enabled"
@@ -3162,7 +3162,7 @@ msgstr "Effacement de $target"
 
 #: pkg/packagekit/updates.jsx:312
 msgid "Errata:"
-msgstr "Errata:"
+msgstr "Errata :"
 
 #: pkg/systemd/services.html:375 pkg/playground/translate.html:100
 #: pkg/playground/translate.html:105 pkg/storaged/multipath.jsx:57
@@ -3189,7 +3189,7 @@ msgstr "Message d’erreur de Docker :"
 
 #: pkg/users/authorized-keys.js:121
 msgid "Error saving authorized keys: "
-msgstr "Erreur lors de l’enregistrement des clés autorisées :"
+msgstr "Erreur lors de l’enregistrement des clés autorisées : "
 
 #: pkg/selinux/setroubleshoot-client.js:193
 msgid "Error while deleting alert: $0"
@@ -3197,7 +3197,7 @@ msgstr "Erreur lors de la suppression de l’alerte : $0"
 
 #: pkg/selinux/setroubleshoot.js:67
 msgid "Error while setting SELinux mode: '$0'"
-msgstr "Erreur lors du réglage du mode SELinux: $0"
+msgstr "Erreur lors du réglage du mode SELinux : $0"
 
 #: pkg/kubernetes/scripts/connection.js:85
 msgid "Error writing kubectl config"
@@ -3205,11 +3205,11 @@ msgstr "Erreur lors de l’écriture de la configuration de kubectl"
 
 #: pkg/networkmanager/index.html:658
 msgid "Ethernet MAC"
-msgstr "Ethernet MAC"
+msgstr "MAC Ethernet"
 
 #: pkg/networkmanager/index.html:634
 msgid "Ethernet MTU"
-msgstr "Ethernet MTU"
+msgstr "MTU Ethernet"
 
 #: pkg/networkmanager/interfaces.js:2006
 msgid "Ethtool"
@@ -3277,11 +3277,11 @@ msgstr "Échec de l’ajout de la machine : $0"
 
 #: pkg/networkmanager/firewall.jsx:237
 msgid "Failed to add service"
-msgstr "N'a pas pu ajouter le service"
+msgstr "N’a pas pu ajouter le service"
 
 #: pkg/networkmanager/firewall.jsx:682
 msgid "Failed to add zone"
-msgstr "N'a pas pu ajouter de zone"
+msgstr "N’a pas pu ajouter de zone"
 
 #: pkg/lib/credentials.js:228 pkg/users/local.js:130 pkg/users/local.js:162
 msgid "Failed to change password"
@@ -3317,7 +3317,7 @@ msgstr "N'a pas pu supprimer le service"
 
 #: pkg/docker/containers.js:60
 msgid "Failed to start Docker: $0"
-msgstr "Impossible de démarrer Docker: $0"
+msgstr "Échec du démarrage de Docker : $0"
 
 #: pkg/docker/util.js:559
 msgid "Failed to stop Docker scope: $0"
@@ -3462,7 +3462,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:2861
 msgid "Forward delay $forward_delay"
-msgstr "Délai d’attente $forward_delay"
+msgstr "Délai d’attente de redirection $forward_delay"
 
 #: pkg/machines/components/networks/networkList.jsx:47
 msgid "Forwarding mode"
@@ -3983,7 +3983,7 @@ msgstr "Initiateur"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:188
 msgid "Initiator IQN should not be empty"
-msgstr "L'initiateur IQN ne doit pas rester vide"
+msgstr "L’initiateur IQN ne doit pas rester vide"
 
 #: pkg/subscriptions/subscriptions-register.jsx:112
 msgid "Insights"
@@ -4092,7 +4092,7 @@ msgstr "Format de date non valide et format d’heure non valide"
 
 #: pkg/systemd/init.js:1367
 msgid "Invalid date format."
-msgstr "Format de date incorrect"
+msgstr "Format de date incorrect."
 
 #: pkg/users/local.js:1237
 msgid "Invalid expiration date"
@@ -4157,7 +4157,7 @@ msgstr "Nom d’utilisateur ou mot de passe non valide"
 
 #: pkg/lib/machine-info.js:96
 msgid "IoT Gateway"
-msgstr "IoT Gateway"
+msgstr "Passerelle IoT"
 
 #: pkg/lib/machine-change-port.html:15
 msgid "Is sshd running on a different port?"
@@ -4690,7 +4690,7 @@ msgstr "Unité maximale de transmission (MTU)"
 
 #: pkg/machines/components/vm/memoryModal.jsx:99
 msgid "Maximum memory could not be saved"
-msgstr "La mémoire maximale n'a pas pu être sauvegardée"
+msgstr "La mémoire maximale n’a pas pu être sauvegardée"
 
 #: pkg/networkmanager/interfaces.js:2865
 msgid "Maximum message age $max_age"
@@ -4701,8 +4701,8 @@ msgid ""
 "Maximum number of virtual CPUs allocated for the guest OS, which must be "
 "between 1 and $0"
 msgstr ""
-"Nombre maximum de CPU virtuels alloués pour l’OS invité; doit être compris "
-"entre 1 et $0."
+"Nombre maximum de CPU virtuels alloués pour l’OS invité, doit être compris "
+"entre 1 et $0"
 
 #: pkg/kubernetes/views/volume-body.html:34
 msgid "Medium"
@@ -4762,7 +4762,7 @@ msgstr "Utilisation de la mémoire : $0 %"
 #: pkg/machines/components/vm/memoryModal.jsx:103
 #: pkg/machines/components/vm/memoryModal.jsx:113
 msgid "Memory could not be saved"
-msgstr "La mémoire n'a pas pu être sauvegardée"
+msgstr "La mémoire n’a pas pu être sauvegardée"
 
 #: pkg/docker/index.html:452 pkg/docker/index.html:624
 msgid "Memory limit"
@@ -4814,7 +4814,7 @@ msgstr "Mini PC"
 
 #: pkg/lib/machine-info.js:69
 msgid "Mini Tower"
-msgstr "Mini Tower"
+msgstr "Mini Tour"
 
 #: pkg/systemd/init.js:1338 pkg/systemd/init.js:1347 pkg/systemd/init.js:1356
 msgid "Minute needs to be a number between 0-59"
@@ -4968,7 +4968,7 @@ msgstr "Échec du changement d’état du NIC $0 de la VM $1"
 
 #: pkg/networkmanager/interfaces.js:2008
 msgid "NSNA Ping"
-msgstr "NSNA Ping"
+msgstr "Ping NSNA"
 
 #: pkg/systemd/host.js:1530
 msgid "NTP Server"
@@ -5060,7 +5060,7 @@ msgstr "Le nom ne doit pas être vide"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:36
 msgid "Name: "
-msgstr "Nom :"
+msgstr "Nom : "
 
 #: pkg/kubernetes/views/pod-body.html:5
 #: pkg/kubernetes/views/containers-listing.html:14
@@ -5145,7 +5145,7 @@ msgstr "Réseau"
 #: pkg/networkmanager/interfaces.js:1625 pkg/networkmanager/interfaces.js:2207
 msgctxt "page-title"
 msgid "Networking"
-msgstr "La mise en réseau"
+msgstr "Réseau"
 
 #: pkg/networkmanager/index.html:149
 msgid "Networking Logs"
@@ -5576,7 +5576,7 @@ msgstr "Les nœuds sont les machines qui exécutent vos conteneurs."
 #: pkg/kdump/kdump-view.jsx:419 pkg/networkmanager/firewall.jsx:737
 #: pkg/tuned/dialog.js:231
 msgid "None"
-msgstr "Aucun(e)"
+msgstr "Aucun"
 
 #: pkg/machines/helpers.js:224
 msgid "None (Isolated Network)"
@@ -5627,7 +5627,7 @@ msgstr "Non déployé"
 
 #: pkg/storaged/lvol-tabs.jsx:369
 msgid "Not enough space to grow."
-msgstr "Espace insuffisant"
+msgstr "Espace insuffisant pour propager."
 
 #: pkg/storaged/details.jsx:121 pkg/docker/details.js:185
 msgid "Not found"
@@ -5778,7 +5778,7 @@ msgstr ""
 
 #: pkg/machines/components/vm/memoryModal.jsx:196
 msgid "Only editable when the guest is shut off"
-msgstr "Modifiable uniquement quand l'invité est fermé"
+msgstr "Modifiable uniquement quand l’invité est fermé"
 
 #: pkg/shell/stub.html:33 pkg/shell/index.html:43 pkg/shell/simple.html:29
 msgid "Ooops!"
@@ -5885,7 +5885,7 @@ msgstr "Fait partie de"
 
 #: pkg/networkmanager/interfaces.js:1465
 msgid "Part of "
-msgstr "Partie de"
+msgstr "Partie de "
 
 #: pkg/kubernetes/views/volume-body.html:8
 #: pkg/kubernetes/views/volume-body.html:18 pkg/storaged/content-views.jsx:141
@@ -6074,7 +6074,7 @@ msgstr "Volumes physiques"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:210
 msgid "Physical disk device on host"
-msgstr "Périphérique de disque physique sur l'hôte"
+msgstr "Périphérique de disque physique sur l’hôte"
 
 #: pkg/storaged/content-views.jsx:338
 msgid "Physical volume of $0"
@@ -6683,7 +6683,7 @@ msgstr "Rados Block Device"
 
 #: pkg/networkmanager/interfaces.js:3632
 msgid "Random"
-msgstr "Random"
+msgstr "Aléatoire"
 
 #: pkg/networkmanager/firewall.jsx:762
 msgid "Range"
@@ -6691,7 +6691,7 @@ msgstr "Gamme"
 
 #: pkg/networkmanager/firewall.jsx:370
 msgid "Range must be strictly ordered"
-msgstr "La plage doit être strictement ordonnée."
+msgstr "La plage doit être strictement ordonnée"
 
 #: pkg/kdump/kdump-view.jsx:388
 msgid "Raw to a device"
@@ -6919,7 +6919,7 @@ msgstr "Supprimer $0"
 
 #: pkg/storaged/crypto-keyslots.jsx:414
 msgid "Remove $0?"
-msgstr "Supprimer $0"
+msgstr "Supprimer $0 ?"
 
 #: pkg/kubernetes/views/group-delete.html:3
 msgid "Remove Group"
@@ -6971,7 +6971,7 @@ msgstr "Supprimer un service des zones"
 
 #: pkg/apps/application-list.jsx:51 pkg/apps/application.jsx:59
 msgid "Removing"
-msgstr "Suppression "
+msgstr "Suppression"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:181
 msgid "Removing $0"
@@ -7309,7 +7309,7 @@ msgstr "Politique de SELinux"
 
 #: pkg/selinux/setroubleshoot.html:23
 msgid "SELinux Troubleshoot"
-msgstr "SELinux Troubleshoot"
+msgstr "Dépannage SELinux"
 
 #: pkg/selinux/setroubleshoot-view.jsx:356
 msgid "SELinux is disabled on the system"
@@ -7670,7 +7670,7 @@ msgstr "Nom de partage (Share)"
 
 #: pkg/networkmanager/interfaces.js:1959
 msgid "Shared"
-msgstr "Shared"
+msgstr "Partagé"
 
 #: pkg/kubernetes/scripts/projects.js:1043
 msgid "Shared: Allow any authenticated user to pull images"
@@ -7695,7 +7695,7 @@ msgstr "Tout afficher"
 
 #: pkg/storaged/drives-panel.jsx:121
 msgid "Show all $0 drives"
-msgstr "Afficher tous les lecteurs $0 "
+msgstr "Afficher tous les lecteurs $0"
 
 #: pkg/kubernetes/views/container-page.html:4
 msgid "Show all Containers"
@@ -7894,7 +7894,7 @@ msgstr "Format de la source"
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:217
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:244
 msgid "Source Path"
-msgstr "Chemin de la source "
+msgstr "Chemin de la source"
 
 #: node_modules/registry-image-widgets/views/image-body.html:8
 msgid "Source URL"
@@ -7973,7 +7973,7 @@ msgstr "Démarre"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:284
 msgid "Startup"
-msgstr "Startup"
+msgstr "Démarrage"
 
 #: pkg/kubernetes/views/container-body.html:16
 #: pkg/kubernetes/views/details-page.html:38
@@ -8693,7 +8693,7 @@ msgstr "Le service « {{target}} » n’existe pas."
 msgid "The user $0 is not permitted to change cpu security mitigations"
 msgstr ""
 "L’utilisateur $0 n’est pas autorisé à changer les mitigations de sécurité "
-"pour le  CPU"
+"pour le CPU"
 
 #: pkg/kubernetes/views/user-page.html:29
 msgid "The user '{{ userName }}' does not exist."
@@ -8914,7 +8914,7 @@ msgstr "Ce paquet n’est pas compatible avec cette version de Cockpit"
 #: src/bridge/cockpitpackages.c:495
 #, c-format
 msgid "This package requires Cockpit version %s or later"
-msgstr "Ce paquet nécessite la version Cockpit  %s ou supérieure"
+msgstr "Ce paquet nécessite la version Cockpit %s ou supérieure"
 
 #: pkg/subscriptions/insights.jsx:96
 msgid "This system is not connected to $0."
@@ -9102,7 +9102,7 @@ msgstr "Déclencheurs"
 #: pkg/shell/stub.html:181 pkg/shell/index.html:387 pkg/shell/simple.html:139
 #: pkg/kubernetes/index.html:109 pkg/machines/components/libvirtSlate.jsx:99
 msgid "Troubleshoot"
-msgstr "Troubleshoot"
+msgstr "Dépannage"
 
 #: pkg/storaged/crypto-keyslots.jsx:331
 msgid "Trust key"
@@ -9973,7 +9973,7 @@ msgstr "Votre session a été interrompue."
 
 #: src/base1/cockpit.js:4011
 msgid "Your session has expired. Please log in again."
-msgstr "Votre session a expiré. Veuillez vous reconnecter"
+msgstr "Votre session a expiré. Veuillez vous reconnecter."
 
 #: pkg/networkmanager/firewall.jsx:928
 msgid "Zone"
@@ -10106,7 +10106,7 @@ msgstr "tous les jours"
 
 #: pkg/systemd/host.js:902
 msgid "failed to list ssh host keys: $0"
-msgstr "Échec de listage des clés de l’hôte ssh : $0"
+msgstr "échec de listage des clés de l’hôte ssh : $0"
 
 #: pkg/machines/helpers.js:207
 msgid "host"
