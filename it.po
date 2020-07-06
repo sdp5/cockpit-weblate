@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-07-06 09:27+0000\n"
+"PO-Revision-Date: 2020-07-08 04:42+0000\n"
 "Last-Translator: Roberto Bellingeri <bellingeri@netguru.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/it/>\n"
@@ -1033,7 +1033,7 @@ msgstr "Applicazione degli aggiornamenti"
 
 #: pkg/packagekit/updates.jsx:45
 msgid "Applying updates failed"
-msgstr "Applicazione degli aggiornamenti non riuscita"
+msgstr "Impossibile installare gli aggiornamenti"
 
 #: node_modules/registry-image-widgets/views/image-config.html:16
 #: pkg/subscriptions/subscriptions-view.jsx:37
@@ -1843,7 +1843,7 @@ msgstr "Commit immagine"
 
 #: pkg/tuned/dialog.js:115
 msgid "Communication with tuned has failed"
-msgstr "La comunicazione con tuned non è riuscita"
+msgstr "Comunicazione con tuned non riuscita"
 
 #: pkg/lib/machine-info.js:89
 msgid "Compact PCI"
@@ -1876,7 +1876,7 @@ msgstr "Condizione $0=$1 non soddisfatta"
 
 #: pkg/systemd/services.html:143
 msgid "Condition failed"
-msgstr "Condizione fallita"
+msgstr "Condizione non riuscita"
 
 # translation auto-copied from project libreport, version master, document libreport
 #: pkg/kubernetes/views/node-add.html:24
@@ -2088,8 +2088,8 @@ msgstr "Versione Runtime del contenitore"
 msgid ""
 "Container is currently marked as not running, but regular stopping failed."
 msgstr ""
-"Il contenitore è attualmente contrassegnato come non funzionante, ma "
-"l'arresto regolare non è riuscito."
+"Il Container è attualmente contrassegnato come non funzionante, ma l'arresto "
+"regolare non è riuscito."
 
 #: pkg/docker/util.js:504
 msgid "Container is currently running."
@@ -2805,7 +2805,7 @@ msgstr "Il disco non è stato collegato"
 
 #: pkg/machines/components/diskAdd.jsx:468
 msgid "Disk failed to be created"
-msgstr "Disco che non è stato creato"
+msgstr "Impossibile creare il disco"
 
 #: pkg/storaged/drive-details.jsx:55
 msgid "Disk is OK"
@@ -3282,11 +3282,11 @@ msgstr "FQDN"
 
 #: pkg/networkmanager/interfaces.js:842
 msgid "Failed"
-msgstr "Non riuscito"
+msgstr "Fallito"
 
 #: pkg/lib/machine-dialogs.js:410
 msgid "Failed to add machine: $0"
-msgstr "Non è riuscito ad aggiungere la macchina: $0"
+msgstr "Impossibile aggiungere la macchina: $0"
 
 #: pkg/networkmanager/firewall.jsx:237
 msgid "Failed to add service"
@@ -3302,15 +3302,15 @@ msgstr "Impossibile cambiare la password"
 
 #: pkg/selinux/setroubleshoot-client.js:188
 msgid "Failed to delete alert: $0"
-msgstr "Non è riuscito a cancellare l'avviso: $0"
+msgstr "Impossibile cancellare l'avviso: $0"
 
 #: pkg/tuned/dialog.js:169
 msgid "Failed to disable tuned"
-msgstr "Non riuscito a disabilitare sintonizzato"
+msgstr "Impossibile disabilitare tuned"
 
 #: pkg/tuned/dialog.js:134
 msgid "Failed to disable tuned profile"
-msgstr "Impossibile disabilitare il profilo sintonizzato"
+msgstr "Impossibile disabilitare il profilo tuned"
 
 #: pkg/lib/machine-dialogs.js:492
 msgid "Failed to edit machine: $0"
@@ -3318,7 +3318,7 @@ msgstr "Impossibile modificare la macchina: $0"
 
 #: pkg/tuned/dialog.js:167
 msgid "Failed to enable tuned"
-msgstr "Impossibile abilitare la sintonizzazione"
+msgstr "Impossibile abilitare tuned"
 
 #: pkg/users/index.html:393
 msgid "Failed to load authorized keys."
@@ -3330,15 +3330,16 @@ msgstr ""
 
 #: pkg/docker/containers.js:60
 msgid "Failed to start Docker: $0"
-msgstr "Non sono riuscito a far partire Docker: $0"
+msgstr "Impossibile avviare Docker: $0"
 
 #: pkg/docker/util.js:559
+#, fuzzy
 msgid "Failed to stop Docker scope: $0"
-msgstr "Non è riuscito a fermare il cannocchiale Docker: $0"
+msgstr "Impossibile fermare Docker scope: $0"
 
 #: pkg/tuned/dialog.js:145
 msgid "Failed to switch profile"
-msgstr "Non è riuscito a commutare il profilo"
+msgstr "Impossibile cambiare profilo"
 
 #: pkg/machines/components/vcpuModal.jsx:193
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
@@ -3922,7 +3923,7 @@ msgstr "Avviare immediatamente la VM"
 
 #: pkg/storaged/mdraid-details.jsx:100
 msgid "In Sync"
-msgstr "In Sync"
+msgstr "In sincronizzazione"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:171
 msgid ""
@@ -4983,7 +4984,7 @@ msgstr "Supporto NFS non installato"
 
 #: pkg/machines/components/vmnetworktab.jsx:67
 msgid "NIC $0 of VM $1 failed to change state"
-msgstr ""
+msgstr "NIC $0 di VM $1 non è riuscito a cambiare stato"
 
 #: pkg/networkmanager/interfaces.js:2008
 msgid "NSNA Ping"
@@ -5079,7 +5080,7 @@ msgstr "Il nome non deve essere vuoto"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:36
 msgid "Name: "
-msgstr ""
+msgstr "Nome: "
 
 #: pkg/kubernetes/views/pod-body.html:5
 #: pkg/kubernetes/views/containers-listing.html:14
@@ -5108,7 +5109,7 @@ msgstr "Immettere almeno un server NTP"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:112
 msgid "Netmask"
-msgstr ""
+msgstr "Maschera di rete"
 
 #: pkg/playground/translate.html:95 pkg/dashboard/index.html:72
 #: pkg/kubernetes/scripts/graphs.js:613
@@ -5117,15 +5118,16 @@ msgstr "Rete"
 
 #: pkg/machines/components/networks/network.jsx:117
 msgid "Network $0 failed to get activated"
-msgstr ""
+msgstr "Impossibile attivare la rete $0"
 
 #: pkg/machines/components/networks/network.jsx:129
 msgid "Network $0 failed to get deactivated"
-msgstr ""
+msgstr "Impossibile disattivare la rete $0"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:221
+#, fuzzy
 msgid "Network Boot (PXE)"
-msgstr ""
+msgstr "Avvio di rete (PXE)"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:77
 msgid "Network File System"
@@ -5133,7 +5135,7 @@ msgstr "Sistema di file di rete"
 
 #: pkg/machines/components/vm/vm.jsx:50
 msgid "Network Interfaces"
-msgstr ""
+msgstr "Interfacce di rete"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:177
 msgid "Network Selection does not support PXE."
@@ -5149,7 +5151,7 @@ msgstr "I dispositivi di rete e i grafici richiedono NetworkManager."
 
 #: pkg/machines/components/nicEdit.jsx:232
 msgid "Network interface settings could not be saved"
-msgstr ""
+msgstr "Impossibile salvare le impostazioni dell'interfaccia di rete"
 
 #: pkg/networkmanager/index.html:46
 msgid "NetworkManager is not running."
@@ -5290,11 +5292,12 @@ msgstr "Nessun allarme SELinux."
 #: pkg/machines/components/diskAdd.jsx:204
 #: pkg/machines/components/diskAdd.jsx:216
 msgid "No Storage Pools available"
-msgstr ""
+msgstr "Nessun Pool di Archiviazione disponibile"
 
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:69
 msgid "No Storage Volumes defined for this Storage Pool"
-msgstr "Nessun volume di stoccaggio definito per questo pool di stoccaggio"
+msgstr ""
+"Nessun Volume di Archiviazione definito per questo Pool di Archiviazione"
 
 #: pkg/ovirt/components/ClusterTemplates.jsx:29
 #: pkg/ovirt/components/ClusterVms.jsx:36
@@ -5307,7 +5310,7 @@ msgstr "Nessuna VM è in esecuzione o definita su questo host"
 
 #: pkg/machines/components/nicEdit.jsx:110
 msgid "No Virtual Networks"
-msgstr ""
+msgstr "Nessuna rete virtuale"
 
 #: pkg/kubernetes/views/pvc-body.html:10
 msgid "No Volume Bound"
@@ -5367,7 +5370,7 @@ msgstr "Nessun contenitore che corrisponde al filtro corrente"
 
 #: pkg/networkmanager/firewall.jsx:732
 msgid "No description available"
-msgstr ""
+msgstr "Nessuna descrizione disponibile"
 
 #: pkg/apps/application.jsx:79
 msgid "No description provided."
@@ -5466,11 +5469,11 @@ msgstr "Nessuna interfaccia di rete definita per questa macchina virtuale"
 
 #: pkg/machines/components/networks/networkList.jsx:48
 msgid "No network is defined on this host"
-msgstr ""
+msgstr "Nessuna rete definita su questo host"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:180
 msgid "No networks available"
-msgstr ""
+msgstr "Nessuna rete disponibile"
 
 #: pkg/kubernetes/views/dashboard-page.html:117
 msgid "No nodes in cluster"
@@ -5597,7 +5600,7 @@ msgstr "Nessuno"
 
 #: pkg/machines/helpers.js:224
 msgid "None (Isolated Network)"
-msgstr ""
+msgstr "Nessuno (Rete Isolata)"
 
 #: pkg/playground/translate.html:29 pkg/kubernetes/views/node-body.html:42
 #: pkg/kubernetes/views/details-page.html:53
@@ -5635,7 +5638,7 @@ msgstr "Non connesso"
 
 #: pkg/systemd/host.js:554
 msgid "Not connected to Insights"
-msgstr ""
+msgstr "Non connesso a Insights"
 
 #: pkg/kubernetes/views/deploymentconfig-body.html:17
 #: pkg/kubernetes/views/details-page.html:122
@@ -5985,7 +5988,7 @@ msgstr ""
 
 #: pkg/lib/cockpit-components-context-menu.jsx:104
 msgid "Paste"
-msgstr ""
+msgstr "Incolla"
 
 #: pkg/users/index.html:409
 msgid "Paste the contents of your public SSH key file here"
@@ -6061,12 +6064,12 @@ msgstr "Permessi negati"
 
 #: pkg/machines/components/diskAdd.jsx:110
 msgid "Persistence"
-msgstr ""
+msgstr "Persistenza"
 
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:61
 #: pkg/machines/components/networks/networkOverviewTab.jsx:83
 msgid "Persistent"
-msgstr ""
+msgstr "Persistente"
 
 #: pkg/kubernetes/views/volumes-page.html:14
 msgid "Persistent Volumes"
@@ -6083,7 +6086,7 @@ msgstr "Fisico"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:79
 msgid "Physical Disk Device"
-msgstr ""
+msgstr "Dispositivo Disco Fisico"
 
 #: pkg/storaged/content-views.jsx:150 pkg/storaged/content-views.jsx:343
 msgid "Physical Volume"
@@ -6095,7 +6098,7 @@ msgstr "Volumi fisici"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:210
 msgid "Physical disk device on host"
-msgstr ""
+msgstr "Dispositivo disco fisico sull'host"
 
 #: pkg/storaged/content-views.jsx:338
 msgid "Physical volume of $0"
@@ -6326,15 +6329,16 @@ msgstr "Nome pool"
 
 #: pkg/storaged/utils.js:191
 msgid "Pool for Thin Logical Volumes"
-msgstr "Piscina per volumi logici sottili"
+msgstr "Pool per Volumi Logici Thin"
 
 #: pkg/storaged/content-views.jsx:594
 msgid "Pool for Thin Volumes"
-msgstr "Piscina per volumi sottili"
+msgstr "Pool per Volumi Thin"
 
 #: pkg/storaged/content-views.jsx:651
+#, fuzzy
 msgid "Pool for thinly provisioned volumes"
-msgstr "Pool per i volumi scarsamente approvvigionati"
+msgstr "Pool per volumi thin"
 
 #: pkg/kubernetes/views/imagestream-modify.html:45
 msgid "Populate"
@@ -6351,7 +6355,7 @@ msgstr "Porta"
 
 #: pkg/networkmanager/firewall.jsx:339
 msgid "Port number and type do not match"
-msgstr ""
+msgstr "Il numero e il tipo di porta non corrispondono"
 
 #: pkg/lib/machine-info.js:71
 msgid "Portable"
@@ -6380,7 +6384,7 @@ msgstr "Numero preferito di prese da esporre all'ospite."
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:135
 msgid "Prefix"
-msgstr ""
+msgstr "Prefisso"
 
 #: pkg/networkmanager/interfaces.js:3306
 msgid "Prefix length"
@@ -7223,7 +7227,7 @@ msgstr "Ripristino della connessione"
 
 #: pkg/machines/components/vm/vmActions.jsx:84
 msgid "Resume"
-msgstr ""
+msgstr "Riprendere"
 
 #: pkg/kubernetes/scripts/volumes.js:217
 msgid "Retain"
@@ -7374,7 +7378,7 @@ msgstr "Porta SPICE:"
 
 #: pkg/machines/components/desktopConsole.jsx:165
 msgid "SPICE TLS Port:"
-msgstr "SPICE TLS Port:"
+msgstr "Porta SPICE TLS:"
 
 #: pkg/ovirt/provider.js:225
 msgid "START action failed"
@@ -7557,7 +7561,7 @@ msgstr "Amministratore del server"
 
 #: pkg/realmd/operation.html:17
 msgid "Server Software"
-msgstr ""
+msgstr "Software Server"
 
 #: pkg/storaged/iscsi-panel.jsx:44
 msgid "Server address cannot be empty."
@@ -7986,7 +7990,7 @@ msgstr "Avvia libvirt"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:291
 msgid "Start pool when host boots"
-msgstr "Iniziare la piscina quando gli stivali host"
+msgstr "Avviare il pool all'avvio dell'host"
 
 #: pkg/storaged/jobs-panel.jsx:59
 msgid "Starting RAID Device $target"
@@ -8113,24 +8117,24 @@ msgstr "Log storage"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:137
 msgid "Storage Pool $0 failed to get activated"
-msgstr ""
+msgstr "Impossibile attivare il Pool di Archiviazione $0"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:149
 msgid "Storage Pool $0 failed to get deactivated"
-msgstr ""
+msgstr "Impossibile disattivare il Pool di Archiviazione $0"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:61
 msgid "Storage Pool Name"
-msgstr "Nome della piscina di stoccaggio"
+msgstr "Nome del Pool di Archiviazione"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:437
 msgid "Storage Pool failed to be created"
-msgstr "Non è stato creato un pool di storage che non è riuscito a creare"
+msgstr "Impossibile creare il Pool di Archiviazione"
 
 #: pkg/machines/components/storagePools/storagePoolList.jsx:44
 #: pkg/machines/components/storagePools/storagePoolList.jsx:48
 msgid "Storage Pools"
-msgstr "Pool di storage"
+msgstr "Pool di Archiviazione"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:88
 msgid "Storage Volumes"
@@ -8239,7 +8243,7 @@ msgid ""
 "Switching off <b>$0</b>  will break the connection to the server, and will "
 "make the administration UI unavailable."
 msgstr ""
-"La disattivazione di ² interromperà la connessione al server e renderà "
+"La disattivazione <b>$0</b>  interromperà la connessione al server e renderà "
 "l'interfaccia utente di amministrazione non disponibile."
 
 #: pkg/networkmanager/interfaces.js:3038
@@ -8454,7 +8458,7 @@ msgstr "Il dispositivo RAID deve essere in funzione per rimuovere i dischi."
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:80
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:84
 msgid "The Storage Pool could not be deleted"
-msgstr ""
+msgstr "Impossibile eliminare il Pool di Archiviazione"
 
 #: pkg/machines/components/vm/stateIcon.jsx:40
 msgid "The VM crashed."
@@ -8667,7 +8671,7 @@ msgstr "Il baccello ''non esiste."
 
 #: pkg/machines/components/diskAdd.jsx:80
 msgid "The pool is empty"
-msgstr "La piscina è vuota"
+msgstr "Il pool è vuoto"
 
 #: pkg/kubernetes/views/project-page.html:34
 msgid "The project '{{ projName }}' does not exist."
@@ -8911,7 +8915,7 @@ msgstr "Questa immagine non esiste."
 
 #: pkg/storaged/lvol-tabs.jsx:408
 msgid "This logical volume is not completely used by its content."
-msgstr ""
+msgstr "Questo volume logico non è completamente utilizzato dal suo contenuto."
 
 #: pkg/lib/machine-dialogs.js:362
 msgid "This machine has already been added."
@@ -9005,7 +9009,7 @@ msgstr "Questo volume non è stato rivendicato"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:369
 msgid "This volume is already used by another VM."
-msgstr ""
+msgstr "Questo volume è già utilizzato da un'altra VM."
 
 #: pkg/storaged/lvol-tabs.jsx:186
 msgid "This volume needs to be activated before it can be resized."
@@ -9169,7 +9173,7 @@ msgstr "Martedì"
 
 #: pkg/tuned/dialog.js:260
 msgid "Tuned has failed to start"
-msgstr "Tuned non è riuscito ad avviarsi"
+msgstr "Impossibile avviare Tuned"
 
 #: pkg/tuned/dialog.js:91
 msgid "Tuned is not available"
@@ -9357,7 +9361,7 @@ msgstr "Nome host sconosciuto"
 
 #: pkg/networkmanager/firewall.jsx:333
 msgid "Unknown service name"
-msgstr ""
+msgstr "Nome del servizio sconosciuto"
 
 #: pkg/storaged/crypto-keyslots.jsx:562
 msgid "Unknown type"
@@ -9645,43 +9649,43 @@ msgstr "Impostazioni VLAN"
 
 #: pkg/machines/hostvmslist.jsx:116
 msgid "VM $0 failed to Reboot"
-msgstr ""
+msgstr "Impossibile Riavviare la VM $0"
 
 #: pkg/machines/hostvmslist.jsx:122
 msgid "VM $0 failed to force Reboot"
-msgstr ""
+msgstr "Impossibile Riavviare forzatamente la VM $0"
 
 #: pkg/machines/hostvmslist.jsx:146
 msgid "VM $0 failed to force shutdown"
-msgstr ""
+msgstr "Impossibile spegnere forzatamente la VM $0"
 
 #: pkg/machines/components/deleteDialog.jsx:136
 msgid "VM $0 failed to get deleted"
-msgstr ""
+msgstr "Impossibile eliminare la VM $0"
 
 #: pkg/machines/hostvmslist.jsx:110 pkg/machines/libvirt-common.js:1317
 msgid "VM $0 failed to get installed"
-msgstr ""
+msgstr "Impossibile installare la VM $0"
 
 #: pkg/machines/hostvmslist.jsx:134
 msgid "VM $0 failed to pause"
-msgstr ""
+msgstr "Impossibile mettere in pausa la VM $0"
 
 #: pkg/machines/hostvmslist.jsx:140
 msgid "VM $0 failed to resume"
-msgstr ""
+msgstr "Impossibile riprendere la VM $0"
 
 #: pkg/machines/hostvmslist.jsx:152
 msgid "VM $0 failed to send NMI"
-msgstr ""
+msgstr "La VM $0 non è riuscita a inviare l'NMI"
 
 #: pkg/machines/hostvmslist.jsx:128
 msgid "VM $0 failed to shutdown"
-msgstr ""
+msgstr "Impossibile spegnere la VM $0"
 
 #: pkg/machines/hostvmslist.jsx:104
 msgid "VM $0 failed to start"
-msgstr ""
+msgstr "Impossibile avviare la VM $0"
 
 #: pkg/ovirt/components/VmOverviewColumn.jsx:37
 msgid "VM icon"
@@ -9748,7 +9752,7 @@ msgstr "Version num"
 
 #: pkg/storaged/jobs-panel.jsx:57
 msgid "Very securely erasing $target"
-msgstr "Very securely erasing $target"
+msgstr "Cancellazione molto sicura di $target"
 
 #: pkg/machines/hostvmslist.jsx:82
 #: pkg/machines/components/storagePools/storagePoolList.jsx:41
@@ -9762,7 +9766,7 @@ msgstr "Macchine virtuali del cluster $0"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:161
 msgid "Virtual Network"
-msgstr ""
+msgstr "Rete virtuale"
 
 #: pkg/machines/components/libvirtSlate.jsx:80
 msgid "Virtualization Service (libvirt) is Not Active"
@@ -9826,7 +9830,7 @@ msgstr "Volumi:"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:140
 msgid "WWPN"
-msgstr ""
+msgstr "WWPN"
 
 # translation auto-copied from project evolution-data-server, version el6, document evolution-data-server-2.32
 #: pkg/networkmanager/interfaces.js:836
@@ -9895,7 +9899,7 @@ msgstr "Quando"
 
 #: pkg/systemd/terminal.jsx:101
 msgid "White"
-msgstr ""
+msgstr "Bianco"
 
 #: pkg/docker/index.html:486
 msgid "With terminal"
@@ -9903,11 +9907,11 @@ msgstr "Con terminale"
 
 #: pkg/storaged/mdraid-details.jsx:102
 msgid "Write-mostly"
-msgstr "Scrittura-principalmente"
+msgstr "Principalmente scrittura"
 
 #: pkg/storaged/plot.jsx:313
 msgid "Writing"
-msgstr "La scrittura"
+msgstr "In scrittura"
 
 #: src/ws/login.js:659
 msgid "Wrong user name or password"
@@ -10139,7 +10143,7 @@ msgstr "quotidianamente"
 
 #: pkg/systemd/host.js:902
 msgid "failed to list ssh host keys: $0"
-msgstr "non ha elencato le chiavi host ssh: $0"
+msgstr "impossibile elencare le chiavi host ssh: $0"
 
 #: pkg/machines/helpers.js:207
 msgid "host"
@@ -10147,7 +10151,7 @@ msgstr "host"
 
 #: pkg/machines/helpers.js:203
 msgid "host device"
-msgstr ""
+msgstr "dispositivo host"
 
 #: pkg/machines/helpers.js:215
 msgid "hostdev"
@@ -10155,11 +10159,11 @@ msgstr "hostdev"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:182
 msgid "iSCSI Initiator IQN"
-msgstr ""
+msgstr "Iniziatore iSCSI IQN"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:78
 msgid "iSCSI Target"
-msgstr ""
+msgstr "Target iSCSI"
 
 #: pkg/storaged/iscsi-panel.jsx:261
 msgid "iSCSI Targets"
@@ -10167,11 +10171,11 @@ msgstr "target iSCSI"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:83
 msgid "iSCSI direct Target"
-msgstr ""
+msgstr "Target iSCSI diretto"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:207
 msgid "iSCSI target IQN"
-msgstr ""
+msgstr "Target iSCSI IQN"
 
 #: pkg/machines/helpers.js:189
 msgid "idle"
@@ -10326,7 +10330,7 @@ msgstr "raccomandato"
 
 #: pkg/machines/helpers.js:202
 msgid "redirected device"
-msgstr ""
+msgstr "dispositivo reindirizzato"
 
 #: pkg/machines/helpers.js:188
 msgid "running"
@@ -10472,6 +10476,8 @@ msgid ""
 "virt-install package needs to be installed on the system in order to create "
 "new VMs"
 msgstr ""
+"Il pacchetto virt-install deve essere installato sul sistema per creare "
+"nuove macchine virtuali"
 
 #: pkg/kubernetes/views/route-body.html:13 pkg/machines/helpers.js:233
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:62
