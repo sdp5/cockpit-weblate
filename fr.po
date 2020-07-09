@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-07-08 04:42+0000\n"
-"Last-Translator: Côme Borsoi <fedora@borsoi.fr>\n"
+"PO-Revision-Date: 2020-07-10 02:27+0000\n"
+"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/fr/>\n"
 "Language: fr\n"
@@ -69,8 +69,8 @@ msgstr "Réseau $0"
 #: pkg/packagekit/history.jsx:100
 msgid "$0 Package"
 msgid_plural "$0 Packages"
-msgstr[0] "0 paquet"
-msgstr[1] "0 paquets"
+msgstr[0] "$0 paquet"
+msgstr[1] "$0 paquets"
 
 #: pkg/systemd/init.js:484 pkg/systemd/service-details.jsx:59
 msgid "$0 Template"
@@ -228,7 +228,7 @@ msgstr "$0 logements restants"
 #: pkg/packagekit/updates.jsx:163
 msgid "$0 update"
 msgid_plural "$0 updates"
-msgstr[0] "$0 mis à jour"
+msgstr[0] "$0 mise à jour"
 msgstr[1] "$0 mises à jour"
 
 #: pkg/storaged/vdo-details.jsx:291
@@ -243,7 +243,7 @@ msgstr[1] "$0 semaines"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:108
 msgid "$0 will be installed."
-msgstr "0 $ sera installé."
+msgstr "$0 sera installé."
 
 #: pkg/lib/plot.js:962
 msgid "$0 year"
@@ -1786,7 +1786,7 @@ msgstr "Connexion en cours"
 msgid ""
 "Connecting simultaneously to more than {{ limit }} machines is unsupported."
 msgstr ""
-"La connexion simultanée à plus de {{limit}} machines n’est pas prise en "
+"La connexion simultanée à plus de {{ limit }} machines n’est pas prise en "
 "charge."
 
 #: pkg/docker/index.html:54
@@ -2827,7 +2827,7 @@ msgstr "Erreur lors de la suppression de l’alerte : $0"
 
 #: pkg/selinux/setroubleshoot.js:67
 msgid "Error while setting SELinux mode: '$0'"
-msgstr "Erreur lors du réglage du mode SELinux : $0"
+msgstr "Erreur lors du réglage du mode SELinux : « $0 »"
 
 #: pkg/networkmanager/index.html:681
 msgid "Ethernet MAC"
@@ -4226,7 +4226,7 @@ msgstr "Mini Tour"
 
 #: pkg/systemd/init.js:1234 pkg/systemd/init.js:1243 pkg/systemd/init.js:1252
 msgid "Minute needs to be a number between 0-59"
-msgstr "La minute doit être un nombre entre 0-59"
+msgstr "Minute doit correspondre à un nombre entre 0-59"
 
 #: pkg/systemd/services.html:318
 msgid "Minutes"
