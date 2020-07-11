@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-07-08 04:42+0000\n"
+"PO-Revision-Date: 2020-07-12 07:27+0000\n"
 "Last-Translator: Roberto Bellingeri <bellingeri@netguru.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/it/>\n"
@@ -7060,11 +7060,11 @@ msgstr "Test connessione"
 
 #: pkg/machines/components/deleteResource.jsx:46
 msgid "The $0 could not be deleted"
-msgstr ""
+msgstr "$0 non può essere eliminato"
 
 #: pkg/storaged/vdos-panel.jsx:45
 msgid "The $0 package must be installed to create VDO devices."
-msgstr ""
+msgstr "Il pacchetto $0 deve essere installato per creare dispositivi VDO."
 
 #: pkg/docker/storage.jsx:523
 msgid "The Docker storage pool cannot be managed on this system."
@@ -7135,6 +7135,7 @@ msgstr "La VM è sospesa dalla gestione dell'alimentazione degli ospiti."
 #: pkg/machines/components/vmnetworktab.jsx:230
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
+"La VM deve essere in esecuzione o spenta per staccare questo dispositivo"
 
 #: pkg/users/local.js:1357
 msgid "The account '$0' will be forced to change their password on next login"
@@ -7152,7 +7153,7 @@ msgstr ""
 
 #: pkg/networkmanager/firewall.jsx:703
 msgid "The cockpit service is automatically included"
-msgstr ""
+msgstr "Il servizio cockpit è incluso automaticamente"
 
 #: pkg/sosreport/index.html:35
 msgid "The collected information will be stored locally on the system."
@@ -7183,34 +7184,40 @@ msgstr "La directory sul server da esportare"
 
 #: pkg/storaged/fsys-tab.jsx:392
 msgid "The filesystem has no permanent mount point."
-msgstr ""
+msgstr "Il filesystem non ha un punto di montaggio permanente."
 
 #: pkg/storaged/fsys-tab.jsx:256
 msgid "The filesystem is already mounted at $0.  Proceeding will unmount it."
-msgstr ""
+msgstr "Il filesystem è già montato in $0.  La procedura lo smonterà."
 
 #: pkg/storaged/fsys-tab.jsx:465
 msgid ""
 "The filesystem is currently mounted but will not be mounted after the next "
 "boot."
 msgstr ""
+"Il filesystem è attualmente montato ma non verrà montato al prossimo avvio."
 
 #: pkg/storaged/fsys-tab.jsx:457
 msgid ""
 "The filesystem is currently mounted on $0 but will be mounted on $1 on the "
 "next boot."
 msgstr ""
+"Il filesystem è attualmente montato su $0 ma verrà montato su $1 al prossimo "
+"avvio."
 
 #: pkg/storaged/fsys-tab.jsx:469
 msgid ""
 "The filesystem is currently mounted on $0 but will not be mounted after the "
 "next boot."
 msgstr ""
+"Il filesystem è attualmente montato su $0 ma non verrà montato dopo il "
+"prossimo avvio."
 
 #: pkg/storaged/fsys-tab.jsx:461
 msgid ""
 "The filesystem is currently not mounted but will be mounted on the next boot."
 msgstr ""
+"Il filesystem non è attualmente montato ma verrà montato al prossimo avvio."
 
 #: pkg/storaged/dialog.jsx:999
 msgid ""
@@ -7234,7 +7241,7 @@ msgstr ""
 
 #: pkg/storaged/fsys-tab.jsx:394
 msgid "The filesystem is not mounted."
-msgstr ""
+msgstr "Il filesystem non è montato."
 
 #: pkg/docker/util.js:631
 msgid "The following containers depend on this image and will become unusable."
@@ -7279,6 +7286,8 @@ msgstr "L'ultimo volume fisico di un gruppo di volumi non può essere rimosso."
 #: pkg/lib/cockpit-components-modifications.jsx:138
 msgid "The logged in user is not permitted to view system modifications"
 msgstr ""
+"L'utente che ha effettuato l'accesso non è autorizzato a visualizzare le "
+"modifiche di sistema"
 
 #: pkg/shell/indexes.js:650
 msgid "The machine is restarting"
@@ -7315,11 +7324,14 @@ msgstr "La scansione da $time ($type) non ha avuto successo."
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:163
 msgid "The selected Operating System has minimum memory requirement of $0 $1"
 msgstr ""
+"Il Sistema Operativo selezionato ha un requisito di memoria minimo di $0 $1"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:178
 msgid ""
 "The selected Operating System has minimum storage size requirement of $0 $1"
 msgstr ""
+"Il Sistema Operativo selezionato ha un requisito di dimensione minima di "
+"archiviazione di $0 $1"
 
 #: src/ws/login.js:673
 msgid ""
@@ -7339,6 +7351,8 @@ msgstr ""
 #: pkg/systemd/hwinfo.jsx:55
 msgid "The user $0 is not permitted to change cpu security mitigations"
 msgstr ""
+"L'utente $0 non è autorizzato a modificare le mitigazioni della sicurezza "
+"della CPU"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:355
 msgid "The user $0 is not permitted to change the system time"
@@ -7386,6 +7400,8 @@ msgstr ""
 #: pkg/users/index.html:436
 msgid "The user must log out and log back in to fully change roles."
 msgstr ""
+"L'utente deve disconnettersi e riconnettersi per cambiare completamente "
+"ruoli."
 
 #: pkg/users/local.js:537
 msgid ""
@@ -7416,7 +7432,7 @@ msgstr ""
 
 #: pkg/networkmanager/firewall.jsx:170
 msgid "There are no active services in this zone"
-msgstr ""
+msgstr "Non ci sono servizi attivi in questa zona"
 
 #: pkg/users/index.html:387
 msgid "There are no authorized public keys for this account."
@@ -7693,6 +7709,7 @@ msgid "Troubleshoot"
 msgstr "Risoluzione dei problemi"
 
 #: pkg/storaged/crypto-keyslots.jsx:339
+#, fuzzy
 msgid "Trust key"
 msgstr "Chiave della fiducia"
 
@@ -8522,7 +8539,7 @@ msgstr ""
 
 #: pkg/users/manifest.json.in
 msgid "access"
-msgstr ""
+msgstr "accesso"
 
 #: pkg/machines/components/networks/network.jsx:60
 #: pkg/machines/components/storagePools/storagePool.jsx:70
@@ -8532,7 +8549,7 @@ msgstr "attivo"
 
 #: pkg/apps/manifest.json.in
 msgid "add-on"
-msgstr ""
+msgstr "add-on"
 
 #: pkg/apps/manifest.json.in
 msgid "addon"
@@ -8548,11 +8565,11 @@ msgstr "e riavviare automaticamente la macchina."
 
 #: pkg/apps/manifest.json.in
 msgid "apps"
-msgstr ""
+msgstr "applicazioni"
 
 #: pkg/packagekit/manifest.json.in
 msgid "apt-get"
-msgstr ""
+msgstr "apt-get"
 
 #: pkg/systemd/manifest.json.in
 msgid "asset tag"
@@ -8571,11 +8588,11 @@ msgstr ""
 
 #: pkg/systemd/manifest.json.in
 msgid "bash"
-msgstr ""
+msgstr "bash"
 
 #: pkg/systemd/manifest.json.in
 msgid "bios"
-msgstr ""
+msgstr "bios"
 
 #: pkg/networkmanager/manifest.json.in
 msgid "bond"
@@ -8608,15 +8625,15 @@ msgstr ""
 
 #: pkg/systemd/manifest.json.in
 msgid "console"
-msgstr ""
+msgstr "console"
 
 #: pkg/systemd/manifest.json.in
 msgid "coredump"
-msgstr ""
+msgstr "coredump"
 
 #: pkg/systemd/manifest.json.in
 msgid "cpu"
-msgstr ""
+msgstr "cpu"
 
 #: pkg/kdump/manifest.json.in pkg/systemd/manifest.json.in
 msgid "crash"
@@ -8644,7 +8661,7 @@ msgstr "predefinito"
 
 #: pkg/systemd/manifest.json.in
 msgid "dimm"
-msgstr ""
+msgstr "dimm"
 
 #: pkg/machines/helpers.js:217
 msgid "direct"
@@ -8888,7 +8905,7 @@ msgstr "memoria"
 
 #: pkg/systemd/manifest.json.in
 msgid "mitigation"
-msgstr ""
+msgstr "mitigazione"
 
 #: pkg/storaged/manifest.json.in
 msgid "mkfs"
@@ -8909,7 +8926,7 @@ msgstr "rete"
 
 #: pkg/storaged/manifest.json.in
 msgid "nfs"
-msgstr ""
+msgstr "nfs"
 
 #: pkg/kdump/kdump-client.js:117
 msgid "nfs dump target isn't formated as server:path"
@@ -8928,17 +8945,14 @@ msgid "none"
 msgstr "nessuno"
 
 #: pkg/systemd/graphs.js:142 pkg/systemd/overview-cards/usageCard.jsx:112
-#, fuzzy
-#| msgid "of $0 CPU core"
-#| msgid_plural "of $0 CPU cores"
 msgid "of $0 CPU"
 msgid_plural "of $0 CPUs"
-msgstr[0] "di core della CPU $0"
-msgstr[1] "di core della CPU $0"
+msgstr[0] "di $0 CPU"
+msgstr[1] "di $0 CPU"
 
 #: pkg/systemd/manifest.json.in
 msgid "operating system"
-msgstr ""
+msgstr "sistema operativo"
 
 #: pkg/systemd/manifest.json.in
 msgid "os"
@@ -8966,7 +8980,7 @@ msgstr "password"
 
 #: pkg/systemd/manifest.json.in
 msgid "path"
-msgstr ""
+msgstr "percorso"
 
 #: pkg/machines/helpers.js:197
 msgid "paused"
@@ -9034,7 +9048,7 @@ msgstr "in esecuzione"
 
 #: pkg/systemd/overview.jsx:147
 msgid "running $0"
-msgstr ""
+msgstr "$0 in esecuzione"
 
 #: pkg/docker/search.js:50
 msgid "search by name, namespace or description"
@@ -9054,7 +9068,7 @@ msgstr ""
 
 #: pkg/systemd/manifest.json.in
 msgid "serial"
-msgstr ""
+msgstr "seriale"
 
 #: pkg/machines/helpers.js:224
 msgid "server"
@@ -9066,7 +9080,7 @@ msgstr "servizio"
 
 #: pkg/selinux/manifest.json.in
 msgid "setroubleshoot"
-msgstr ""
+msgstr "setroubleshoot"
 
 #: pkg/docker/index.html:485 pkg/docker/index.html:657
 msgid "shares"
@@ -9240,7 +9254,7 @@ msgstr "valore"
 
 #: pkg/storaged/manifest.json.in
 msgid "vdo"
-msgstr ""
+msgstr "vdo"
 
 #: pkg/systemd/manifest.json.in
 msgid "version"
