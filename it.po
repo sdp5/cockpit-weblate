@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-07-08 04:42+0000\n"
+"PO-Revision-Date: 2020-07-12 09:27+0000\n"
 "Last-Translator: Roberto Bellingeri <bellingeri@netguru.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/it/>\n"
@@ -8591,8 +8591,8 @@ msgid ""
 "any third party."
 msgstr ""
 "L'archivio generato contiene dati considerati sensibili e il suo contenuto "
-"deve essere esaminato dall'organizzazione di origine prima di essere "
-"trasmesso a terzi."
+"deve essere rivisto dall'organizzazione di origine prima di essere passato a "
+"terzi."
 
 #: pkg/kubernetes/views/group-page.html:47
 msgid "The group '{{ groupName }}' does not exist."
@@ -8724,6 +8724,8 @@ msgstr "Il servizio ''non esiste."
 #: pkg/systemd/hwinfo.jsx:65
 msgid "The user $0 is not permitted to change cpu security mitigations"
 msgstr ""
+"L'utente $0 non è autorizzato a modificare le mitigazioni della sicurezza "
+"della CPU"
 
 #: pkg/kubernetes/views/user-page.html:29
 msgid "The user '{{ userName }}' does not exist."
@@ -9136,6 +9138,7 @@ msgid "Troubleshoot"
 msgstr "Risoluzione dei problemi"
 
 #: pkg/storaged/crypto-keyslots.jsx:331
+#, fuzzy
 msgid "Trust key"
 msgstr "Chiave della fiducia"
 
