@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-07-12 09:27+0000\n"
+"PO-Revision-Date: 2020-07-18 10:29+0000\n"
 "Last-Translator: Roberto Bellingeri <bellingeri@netguru.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/it/>\n"
@@ -1330,11 +1330,11 @@ msgstr "CPU"
 
 #: pkg/systemd/hwinfo.jsx:113
 msgid "CPU Security"
-msgstr ""
+msgstr "Sicurezza CPU"
 
 #: pkg/systemd/hwinfo.jsx:205
 msgid "CPU Security Toggles"
-msgstr ""
+msgstr "Impostazioni di Sicurezza della CPU"
 
 #: pkg/systemd/host.js:1564
 msgctxt "page-title"
@@ -1643,7 +1643,7 @@ msgstr "Certificato del client"
 
 #: pkg/realmd/operation.html:20
 msgid "Client Software"
-msgstr ""
+msgstr "Software Client"
 
 #: pkg/networkmanager/index.html:688 pkg/lib/machine-not-supported.html:8
 #: pkg/lib/machine-auth-failed.html:20 pkg/lib/machine-change-port.html:45
@@ -1741,11 +1741,12 @@ msgid ""
 "same time. Just add them with a single click and your machines will look "
 "after its buddies."
 msgstr ""
-"Cockpit è perfetto per i nuovi sysadmins, consentendo loro di eseguire "
-"facilmente semplici operazioni come l'amministrazione dello storage, "
-"l'ispezione dei log e l'avvio e l'arresto dei servizi. È possibile "
-"monitorare e amministrare più server allo stesso tempo. Basta aggiungerli "
-"con un solo clic e le macchine si prenderanno cura dei loro amici."
+"Cockpit è perfetto per i nuovi amministratori di sistema, consentendo loro "
+"di eseguire facilmente semplici operazioni come la gestione "
+"dell'archiviazione, l'ispezione dei log e l'avvio e l'arresto dei servizi. È "
+"possibile monitorare e amministrare più server allo stesso tempo. Basta "
+"aggiungerli con un solo clic e le macchine si prenderanno cura dei loro "
+"amici."
 
 #: pkg/lib/machine-change-port.html:9
 msgid "Cockpit was unable to contact {{#strong}}{{host}}{{/strong}}."
@@ -2271,7 +2272,7 @@ msgstr "Crea snapshot"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:522
 msgid "Create Storage Pool"
-msgstr "Creare un pool di archiviazione"
+msgstr "Crea Pool di Archiviazione"
 
 #: pkg/storaged/content-views.jsx:109 pkg/storaged/content-views.jsx:134
 msgid "Create Thin Volume"
@@ -2404,7 +2405,7 @@ msgstr "Ctrl+Alt+Del"
 
 #: pkg/lib/cockpit-components-context-menu.jsx:101
 msgid "Ctrl+Insert"
-msgstr ""
+msgstr "Ctrl+Insert"
 
 #: pkg/machines/components/vm/memoryModal.jsx:130
 msgid "Current Allocation"
@@ -2788,7 +2789,7 @@ msgstr "Disco"
 
 #: pkg/machines/components/diskRemove.jsx:32
 msgid "Disk $0 fail to get detached from VM $1"
-msgstr ""
+msgstr "Impossibile scollegare il disco $0 dalla VM $1"
 
 # translation auto-copied from project virt-manager, version 0.10.0, document virt-manager
 #: pkg/dashboard/index.html:73 pkg/systemd/host.js:565
@@ -3387,7 +3388,7 @@ msgstr "Sistemi di file system"
 
 #: pkg/networkmanager/firewall.jsx:490
 msgid "Filter Services"
-msgstr "Servizi di filtraggio"
+msgstr "Filtra Servizi"
 
 #: pkg/systemd/services.html:68
 msgid "Filter by name or description..."
@@ -3428,7 +3429,7 @@ msgstr "Solo per applicazioni legacy. Riduce le prestazioni."
 
 #: pkg/users/index.html:122
 msgid "Force Change"
-msgstr "Cambio di forza"
+msgstr "Forza Cambiamento"
 
 #: pkg/docker/util.js:519
 msgid "Force Delete"
@@ -3436,11 +3437,11 @@ msgstr "Forza Cancella"
 
 #: pkg/machines/components/vm/vmActions.jsx:46
 msgid "Force Restart"
-msgstr "Riavvio della forza"
+msgstr "Forza Riavvio"
 
 #: pkg/machines/components/vm/vmActions.jsx:60
 msgid "Force Shut Down"
-msgstr "Spegnimento forzato"
+msgstr "Forza Spegnimento"
 
 #: pkg/users/index.html:326
 msgid "Force password change"
@@ -3448,21 +3449,21 @@ msgstr "Forzare la modifica della password"
 
 #: pkg/storaged/crypto-keyslots.jsx:373
 msgid "Force remove passphrase in $0"
-msgstr "Forza rimuovere la passphrase in $0"
+msgstr "Forza rimozione della passphrase da $0"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:258
 #: pkg/machines/components/diskAdd.jsx:147 pkg/storaged/format-dialog.jsx:323
 #: pkg/storaged/content-views.jsx:318 pkg/storaged/content-views.jsx:530
 msgid "Format"
-msgstr "Formato"
+msgstr "Formatta"
 
 #: pkg/storaged/format-dialog.jsx:186
 msgid "Format $0"
-msgstr "Formato $0"
+msgstr "Formatta $0"
 
 #: pkg/storaged/content-views.jsx:511
 msgid "Format Disk $0"
-msgstr "Formato Disco $0"
+msgstr "Formatta Disco $0"
 
 #: pkg/storaged/content-views.jsx:531
 msgid "Formatting a disk will erase all data on it."
@@ -3472,8 +3473,8 @@ msgstr ""
 #: pkg/storaged/format-dialog.jsx:325
 msgid "Formatting a storage device will erase all data on it."
 msgstr ""
-"La formattazione di un dispositivo di memorizzazione cancella tutti i dati "
-"in esso contenuti."
+"La formattazione di un dispositivo di archiviazione cancella tutti i dati in "
+"esso contenuti."
 
 #: pkg/networkmanager/interfaces.js:2861
 msgid "Forward delay $forward_delay"
@@ -3507,7 +3508,7 @@ msgstr "Venerdì"
 
 #: pkg/packagekit/autoupdates.jsx:321
 msgid "Fridays"
-msgstr ""
+msgstr "Venerdì"
 
 #: node_modules/registry-image-widgets/views/image-listing.html:6
 msgid "From"
@@ -3606,11 +3607,11 @@ msgstr "Gruppi"
 #: pkg/storaged/lvol-tabs.jsx:235 pkg/storaged/lvol-tabs.jsx:399
 #: pkg/storaged/lvol-tabs.jsx:451
 msgid "Grow"
-msgstr "Crescere"
+msgstr "Espandi"
 
 #: pkg/storaged/lvol-tabs.jsx:417
 msgid "Grow Content"
-msgstr ""
+msgstr "Espandi Contenuto"
 
 #: pkg/storaged/lvol-tabs.jsx:231
 msgid "Grow Logical Volume"
@@ -3622,7 +3623,7 @@ msgstr "Estendere le dimensioni logiche di $0"
 
 #: pkg/storaged/vdo-details.jsx:130
 msgid "Grow to take all space"
-msgstr "Crescere per prendere tutto lo spazio"
+msgstr "Espandi per occupare tutto lo spazio"
 
 #: pkg/ovirt/components/ClusterTemplates.jsx:136
 #: pkg/ovirt/components/ClusterVms.jsx:182
@@ -3635,7 +3636,7 @@ msgstr "HA:"
 
 #: pkg/networkmanager/index.html:252
 msgid "Hair Pin mode"
-msgstr "Capelli Modalità pin"
+msgstr "Modalità Hairpin"
 
 #: pkg/networkmanager/interfaces.js:2887
 msgid "Hairpin mode"
@@ -3685,7 +3686,7 @@ msgstr "Host"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:172
 msgid "Host Device"
-msgstr ""
+msgstr "Dispositivo Host"
 
 #: pkg/systemd/index.html:120 pkg/dashboard/index.html:137
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:155
@@ -3702,7 +3703,7 @@ msgstr "La chiave host non è corretta"
 
 #: pkg/realmd/operation.js:602
 msgid "Host name should not be changed in a domain"
-msgstr ""
+msgstr "Il nome dell'host non dovrebbe essere cambiato in un dominio"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:161
 msgid "Host should not be empty"
@@ -4705,7 +4706,7 @@ msgstr "Assegnazione massima"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:96
 msgid "Maximum Transmission Unit"
-msgstr ""
+msgstr "Unità di Trasmissione Massima (MTU)"
 
 #: pkg/machines/components/vm/memoryModal.jsx:99
 msgid "Maximum memory could not be saved"
@@ -4846,7 +4847,7 @@ msgstr "Minuti"
 
 #: pkg/systemd/hwinfo.jsx:62 pkg/systemd/hwinfo.jsx:67
 msgid "Mitigations"
-msgstr ""
+msgstr "Mitigazioni"
 
 #: pkg/networkmanager/index.html:284
 msgid "Mode"
@@ -6040,7 +6041,7 @@ msgstr "Percorsi"
 
 #: pkg/machines/components/vm/vmActions.jsx:77
 msgid "Pause"
-msgstr ""
+msgstr "Pausa"
 
 #: pkg/kubernetes/views/volumes-page.html:53
 msgid "Pending Volume Claims"
@@ -7714,7 +7715,7 @@ msgstr "Shell"
 
 #: pkg/lib/cockpit-components-context-menu.jsx:105
 msgid "Shift+Insert"
-msgstr ""
+msgstr "Shift+Insert"
 
 #: pkg/machines/components/diskAdd.jsx:238
 msgid "Show Performance Options"
@@ -8109,11 +8110,11 @@ msgstr "Arresto dello spazio di swap $target"
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:342
 #: pkg/storaged/details.jsx:127
 msgid "Storage"
-msgstr "Storage"
+msgstr "Archiviazione"
 
 #: pkg/storaged/logs-panel.jsx:37
 msgid "Storage Logs"
-msgstr "Log storage"
+msgstr "Log archiviazione"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:137
 msgid "Storage Pool $0 failed to get activated"
@@ -8138,15 +8139,15 @@ msgstr "Pool di Archiviazione"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:88
 msgid "Storage Volumes"
-msgstr "Volumi di storage"
+msgstr "Volumi di Archiviazione"
 
 #: pkg/machines/components/storagePools/storageVolumeDelete.jsx:48
 msgid "Storage Volumes could not be deleted"
-msgstr ""
+msgstr "I Volumi di Archiviazione non possono essere eliminati"
 
 #: pkg/storaged/devices.jsx:76
 msgid "Storage can not be managed on this system."
-msgstr ""
+msgstr "L'archiviazione non può essere gestita su questo sistema."
 
 #: pkg/docker/index.html:302
 msgid "Storage pool"
@@ -8724,8 +8725,8 @@ msgstr "Il servizio ''non esiste."
 #: pkg/systemd/hwinfo.jsx:65
 msgid "The user $0 is not permitted to change cpu security mitigations"
 msgstr ""
-"L'utente $0 non è autorizzato a modificare le mitigazioni della sicurezza "
-"della CPU"
+"L'utente $0 non è autorizzato a modificare le mitigazioni di sicurezza della "
+"CPU"
 
 #: pkg/kubernetes/views/user-page.html:29
 msgid "The user '{{ userName }}' does not exist."
@@ -9933,15 +9934,14 @@ msgid ""
 "You are connected to {{#strong}}{{host}}{{/strong}}, however in order to "
 "synchronize users, a user with superuser privileges is required."
 msgstr ""
-"Si è connessi{{#strong}}{{host}}{{/strong}}, ma per sincronizzare gli utenti "
-"è necessario un utente con privilegi di superutente."
+"Sei connesso a {{#strong}}{{host}}{{/strong}}, ma per sincronizzare gli "
+"utenti è necessario un utente con privilegi di superutente."
 
 #: pkg/dashboard/list.js:440
 msgid ""
 "You are currently connected directly to this server. You cannot delete it."
 msgstr ""
-"Al momento siete connessi direttamente a questo server. Non potete "
-"cancellarlo."
+"Al momento sei connesso direttamente a questo server. Non puoi cancellarlo."
 
 #: pkg/networkmanager/firewall.jsx:70 pkg/networkmanager/firewall.jsx:116
 #: pkg/networkmanager/firewall.jsx:876 pkg/networkmanager/firewall.jsx:882
