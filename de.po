@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-07-08 04:42+0000\n"
-"Last-Translator: Martin Pitt <mpitt@redhat.com>\n"
+"PO-Revision-Date: 2020-07-23 22:32+0000\n"
+"Last-Translator: Jonas Becker <jonasbecker1.jb@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/de/>\n"
 "Language: de\n"
@@ -1993,7 +1993,7 @@ msgstr "Verbindungsaufbau"
 msgid ""
 "Connecting simultaneously to more than {{ limit }} machines is unsupported."
 msgstr ""
-"Das gleichzeitige Verbinden zu mehr als  {{ limit }} Maschinen wird nicht "
+"Das gleichzeitige Verbinden zu mehr als {{ limit }} Maschinen wird nicht "
 "unterstützt."
 
 #: pkg/docker/index.html:54
@@ -6356,7 +6356,7 @@ msgstr "Port"
 
 #: pkg/networkmanager/firewall.jsx:339
 msgid "Port number and type do not match"
-msgstr ""
+msgstr "Portnummer und -typ passen nicht zusammen"
 
 #: pkg/lib/machine-info.js:71
 msgid "Portable"
@@ -6372,7 +6372,7 @@ msgstr "Ports"
 
 #: pkg/docker/index.html:191
 msgid "Ports:"
-msgstr "Häfen:"
+msgstr "Ports:"
 
 #: pkg/systemd/index.html:139
 msgid "Power Options"
@@ -6382,7 +6382,7 @@ msgstr "Energieoptionen"
 #: pkg/ovirt/components/vcpuModal.jsx:64
 msgid "Preferred number of sockets to expose to the guest."
 msgstr ""
-"Bevorzugte Anzahl von Steckdosen, die dem Gast zugänglich gemacht werden "
+"Bevorzugte Anzahl von Sockets , die dem Gast zugänglich gemacht werden "
 "sollen."
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:135
@@ -7658,9 +7658,8 @@ msgid "Set Password"
 msgstr "Passwort setzen"
 
 #: pkg/systemd/index.html:385
-#, fuzzy
 msgid "Set Time"
-msgstr "Zeit setzen"
+msgstr "Zeit einsetzten"
 
 #: pkg/docker/index.html:530
 msgid "Set container environment variables"
@@ -7725,7 +7724,7 @@ msgstr ""
 
 #: pkg/storaged/overview.jsx:56
 msgid "Show all"
-msgstr ""
+msgstr "Alle anzeigen"
 
 #: pkg/storaged/drives-panel.jsx:121
 msgid "Show all $0 drives"
@@ -7798,12 +7797,12 @@ msgid "Shrink Logical Volume"
 msgstr "Logisches Volumen verkleinern"
 
 #: pkg/storaged/lvol-tabs.jsx:415
+#, fuzzy
 msgid "Shrink Volume"
-msgstr ""
+msgstr "Volume komprimieren"
 
 #: pkg/systemd/index.html:154 pkg/machines/components/vm/vmActions.jsx:56
 #: pkg/systemd/shutdown.js:92 pkg/systemd/shutdown.js:93
-#, fuzzy
 msgid "Shut Down"
 msgstr "Herunterfahren"
 
@@ -7922,7 +7921,7 @@ msgstr "Quelle"
 
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:52
 msgid "Source Format"
-msgstr ""
+msgstr "Quellenformat"
 
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:42
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:47
@@ -7942,7 +7941,7 @@ msgstr "Quellpfad sollte nicht leer sein"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:108
 msgid "Source should start with http, ftp or nfs protocol"
-msgstr ""
+msgstr "Die Quelle sollte mit dem http,ftp oder nfs Protokoll starten"
 
 #: pkg/lib/machine-info.js:78
 msgid "Space-saving Computer"
