@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-07-23 22:32+0000\n"
+"PO-Revision-Date: 2020-07-25 21:29+0000\n"
 "Last-Translator: Jonas Becker <jonasbecker1.jb@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/de/>\n"
@@ -7797,7 +7797,6 @@ msgid "Shrink Logical Volume"
 msgstr "Logisches Volumen verkleinern"
 
 #: pkg/storaged/lvol-tabs.jsx:415
-#, fuzzy
 msgid "Shrink Volume"
 msgstr "Volume komprimieren"
 
