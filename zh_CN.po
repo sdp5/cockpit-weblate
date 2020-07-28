@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-06-30 14:40+0000\n"
+"PO-Revision-Date: 2020-07-29 16:29+0000\n"
 "Last-Translator: Charles Lee <lchopn@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit/rhel-7/zh_CN/>\n"
@@ -3448,7 +3448,7 @@ msgstr "到"
 
 #: pkg/apps/application.jsx:108
 msgid "Go to Application"
-msgstr "到应用"
+msgstr "转到应用"
 
 #: pkg/networkmanager/index.html:63 pkg/networkmanager/index.html:396
 #: pkg/systemd/index.html:181 pkg/dashboard/index.html:46
