@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-07-10 02:27+0000\n"
-"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
+"PO-Revision-Date: 2020-07-31 08:29+0000\n"
+"Last-Translator: Sébastien POHER <sogal@member.fsf.org>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/fr/>\n"
 "Language: fr\n"
@@ -761,8 +761,8 @@ msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
 msgstr ""
-"Ajouter des ports personnalisés rechargera firwalld. Le chargement à nouveau "
-"entrainera la perte des configurations d’exécution-uniquement !"
+"Ajouter des ports personnalisés rechargera firewalld. Le chargement à "
+"nouveau entraînera la perte de la configuration en cours d’exécution !"
 
 #: pkg/users/authorized-keys.js:113
 msgid "Adding key"
@@ -2457,7 +2457,7 @@ msgstr "Désactivé"
 
 #: pkg/systemd/service-details.jsx:193
 msgid "Disallow running (mask)"
-msgstr "Cesser l’exécution (mask)"
+msgstr "Empêcher l’exécution (mask)"
 
 #: pkg/machines/components/serialConsole.jsx:81
 msgid "Disconnect"
@@ -7051,7 +7051,8 @@ msgstr "La machine virtuelle est en pause."
 
 #: pkg/machines/components/deleteDialog.jsx:64
 msgid "The VM is running and will be forced off before deletion."
-msgstr "La VM est en cours d’exécution et sera forcée avant la suppression."
+msgstr ""
+"La VM est en cours d’exécution, son arrêt sera forcé avant la suppression."
 
 #: pkg/machines/components/vm/stateIcon.jsx:35
 msgid "The VM is running."
@@ -7266,7 +7267,7 @@ msgstr ""
 msgid ""
 "The selected Operating System has minimum storage size requirement of $0 $1"
 msgstr ""
-"Le système d’exécution sélectionné a un besoin en mémoire minimum de $0 $1"
+"Le système d’exploitation sélectionné a un besoin en mémoire minimum de $0 $1"
 
 #: src/ws/login.js:673
 msgid ""
@@ -8956,7 +8957,7 @@ msgstr "en cours"
 
 #: pkg/systemd/overview.jsx:147
 msgid "running $0"
-msgstr "$0en cours d’exécution"
+msgstr "$0 en cours d’exécution"
 
 #: pkg/docker/search.js:50
 msgid "search by name, namespace or description"
