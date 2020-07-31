@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-07-18 10:29+0000\n"
+"PO-Revision-Date: 2020-07-31 20:10+0000\n"
 "Last-Translator: Roberto Bellingeri <bellingeri@netguru.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/it/>\n"
@@ -2268,7 +2268,7 @@ msgstr "Crea report"
 
 #: pkg/storaged/lvol-tabs.jsx:346 pkg/storaged/lvol-tabs.jsx:387
 msgid "Create Snapshot"
-msgstr "Crea snapshot"
+msgstr "Crea Snapshot"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:522
 msgid "Create Storage Pool"
@@ -2353,7 +2353,7 @@ msgstr "Creazione della partizione $target"
 
 #: pkg/storaged/jobs-panel.jsx:70
 msgid "Creating snapshot of $target"
-msgstr "Creazione di un'istantanea di $target"
+msgstr "Creazione di uno snapshot di $target"
 
 #: pkg/networkmanager/interfaces.js:4479
 msgid ""
@@ -4547,7 +4547,7 @@ msgstr "Volume logico"
 
 #: pkg/storaged/utils.js:195
 msgid "Logical Volume (Snapshot)"
-msgstr "Volume logico (istantanea)"
+msgstr "Volume logico (Snapshot)"
 
 #: pkg/storaged/utils.js:269
 msgid "Logical Volume of $0"
@@ -4563,7 +4563,7 @@ msgstr "Effettua di nuovo il login"
 
 #: pkg/realmd/operation.html:14
 msgid "Login Format"
-msgstr ""
+msgstr "Formato di accesso"
 
 #: pkg/lib/machine-change-auth.html:68
 msgid "Login Password"
@@ -4965,7 +4965,7 @@ msgstr "Telaio multisistema"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:93
 msgid "NAT to $0"
-msgstr ""
+msgstr "NAT per $0"
 
 #: pkg/kubernetes/scripts/volumes.js:865
 msgid "NFS"
@@ -7727,7 +7727,7 @@ msgstr "Mostra tutto"
 
 #: pkg/storaged/drives-panel.jsx:121
 msgid "Show all $0 drives"
-msgstr ""
+msgstr "Mostra tutti i dischi $0"
 
 #: pkg/kubernetes/views/container-page.html:4
 msgid "Show all Containers"
@@ -7921,7 +7921,7 @@ msgstr "Sorgente"
 
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:52
 msgid "Source Format"
-msgstr ""
+msgstr "Formato sorgente"
 
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:42
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:47
@@ -9543,7 +9543,7 @@ msgstr "Usato"
 
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:65
 msgid "Used by"
-msgstr ""
+msgstr "Usato da"
 
 #: pkg/docker/index.html:262
 msgid "Used by Containers"
@@ -9713,7 +9713,7 @@ msgstr "Porta VNC TLS:"
 
 #: pkg/realmd/operation.js:165
 msgid "Validating address"
-msgstr ""
+msgstr "Convalida dell'indirizzo"
 
 #: src/ws/login.html:101
 msgid "Validating authentication token"
@@ -9819,7 +9819,7 @@ msgstr "Tipo di volume"
 
 #: pkg/storaged/lvol-tabs.jsx:410
 msgid "Volume size is $0. Content size is $1."
-msgstr ""
+msgstr "La dimensione del Volume è $0. La dimensione del Contenuto è $1."
 
 #: pkg/docker/index.html:515 pkg/kubernetes/index.html:74
 #: pkg/kubernetes/views/dashboard-page.html:47
