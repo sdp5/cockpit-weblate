@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-07-31 20:10+0000\n"
-"Last-Translator: Lucas Landim <detona.headmetal@gmail.com>\n"
+"PO-Revision-Date: 2020-08-05 17:29+0000\n"
+"Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/rhel-8-2/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -74,7 +74,7 @@ msgstr[1] "$0 Pacotes"
 
 #: pkg/systemd/init.js:484 pkg/systemd/service-details.jsx:59
 msgid "$0 Template"
-msgstr "Modelo $0 "
+msgstr "Modelo $0"
 
 #: pkg/docker/containers-view.jsx:614
 msgid "$0 Vulnerability"
@@ -91,13 +91,13 @@ msgstr ""
 msgid "$0 bit"
 msgid_plural "$0 bits"
 msgstr[0] "$0 bit"
-msgstr[1] "$0 bits "
+msgstr[1] "$0 bits"
 
 #: src/base1/test-locale.js:74 src/base1/test-locale.js:75
 #: src/base1/test-locale.js:87 src/base1/test-locale.js:88
 msgid "$0 byte"
 msgid_plural "$0 bytes"
-msgstr[0] "$0 byte "
+msgstr[0] "$0 byte"
 msgstr[1] "$0 bytes"
 
 #: src/base1/test-locale.js:76 src/base1/test-locale.js:77
@@ -629,7 +629,7 @@ msgstr "Ativo desde"
 
 #: pkg/systemd/service-details.jsx:355
 msgid "Active since "
-msgstr "Ativo desde"
+msgstr "Ativo desde "
 
 #: pkg/networkmanager/interfaces.js:1968
 msgid "Adaptive load balancing"
@@ -716,8 +716,9 @@ msgid "Add Zone"
 msgstr "Adicionar zona"
 
 #: pkg/networkmanager/firewall.jsx:904
+#, fuzzy
 msgid "Add a new zone"
-msgstr ""
+msgstr "Adicionar um nova zona"
 
 #: pkg/storaged/iscsi-panel.jsx:42
 msgid "Add iSCSI Portal"
@@ -1505,8 +1506,8 @@ msgid ""
 "Cockpit could not contact the given host $0. Make sure it has ssh running on "
 "port $1, or specify another port in the address."
 msgstr ""
-"Cockpit não pode contactar o host $0. Tenha certeza que o ssh  esteja "
-"rodando na porta $1, ou especifique outra porta no endereço."
+"Cockpit não pode contactar o host $0. Tenha certeza que o ssh esteja rodando "
+"na porta $1, ou especifique outra porta no endereço."
 
 #: src/base1/cockpit.js:4054
 msgid "Cockpit could not contact the given host."
@@ -1654,7 +1655,7 @@ msgstr "Commit"
 
 #: pkg/docker/index.html:678
 msgid "Commit Image"
-msgstr "Imagem Commit "
+msgstr "Imagem Commit"
 
 #: pkg/tuned/dialog.js:115
 msgid "Communication with tuned has failed"
@@ -2501,7 +2502,7 @@ msgstr "Docker não está instalado ou ativado no sistema"
 
 #: pkg/lib/machine-info.js:78
 msgid "Docking Station"
-msgstr "Estação de ancoragem."
+msgstr "Estação de ancoragem"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:11
 #: pkg/systemd/overview-cards/configurationCard.jsx:402
@@ -2789,7 +2790,7 @@ msgstr ""
 
 #: pkg/users/authorized-keys.js:121
 msgid "Error saving authorized keys: "
-msgstr "Erro ao salvar chaves autorizadas:"
+msgstr "Erro ao salvar chaves autorizadas: "
 
 #: pkg/selinux/setroubleshoot-client.js:193
 msgid "Error while deleting alert: $0"
@@ -3849,7 +3850,7 @@ msgstr ""
 
 #: pkg/packagekit/updates.jsx:48
 msgid "Loading available updates failed"
-msgstr "Falhou ao carregar as atualizações disponíveis "
+msgstr "Falhou ao carregar as atualizações disponíveis"
 
 #: pkg/packagekit/updates.jsx:41
 msgid "Loading available updates, please wait..."
@@ -3983,7 +3984,7 @@ msgstr "Logs"
 
 #: pkg/dashboard/index.html:112
 msgid "Lost connection. Trying to reconnect"
-msgstr "Conexão Perdida. Tentando reconectar."
+msgstr "Conexão Perdida. Tentando reconectar"
 
 #: pkg/lib/machine-info.js:70
 msgid "Low Profile Desktop"
@@ -4308,7 +4309,7 @@ msgstr ""
 
 #: pkg/storaged/nfs-details.jsx:165
 msgid "Mount point cannot be empty."
-msgstr "O ponto de montagem não pode estar vazio"
+msgstr "O ponto de montagem não pode estar vazio."
 
 #: pkg/storaged/fsys-tab.jsx:87
 msgid "Mount point is already used for $0"
@@ -4735,7 +4736,7 @@ msgid ""
 "crashkernel=512M"
 msgstr ""
 "Nenhuma memória reservada. Acrescente uma opção crashkernel à linha de "
-"comando do kernel (por exemplo, em  /etc/default/grub) para reservar memória "
+"comando do kernel (por exemplo, em /etc/default/grub) para reservar memória "
 "no momento de inicialização. Exemplo: crashkernel=512M"
 
 #: pkg/machines/components/vmnetworktab.jsx:289
@@ -5075,7 +5076,7 @@ msgstr "Parte de"
 
 #: pkg/networkmanager/interfaces.js:1446
 msgid "Part of "
-msgstr "Parte de"
+msgstr "Parte de "
 
 #: pkg/storaged/content-views.jsx:146
 msgid "Partition"
@@ -5328,7 +5329,7 @@ msgstr "Pool"
 
 #: pkg/storaged/utils.js:192
 msgid "Pool for Thin Logical Volumes"
-msgstr "Buscando por  Thin Logical Volumes"
+msgstr "Buscando por Thin Logical Volumes"
 
 #: pkg/storaged/content-views.jsx:634
 msgid "Pool for Thin Volumes"
@@ -6081,7 +6082,7 @@ msgstr "SPICE TLS Porta:"
 
 #: pkg/networkmanager/index.html:235
 msgid "STP Forward delay"
-msgstr "STP Atraso de Redirecionamento "
+msgstr "STP Atraso de Redirecionamento"
 
 #: pkg/networkmanager/index.html:239
 msgid "STP Hello time"
@@ -7262,7 +7263,7 @@ msgid ""
 "The user name can only consist of letters from a-z, digits, dots, dashes and "
 "underscores."
 msgstr ""
-"O nome de usuário coniste em letas de  a-z, digitos, pontos, barras e "
+"O nome de usuário coniste em letas de a-z, digitos, pontos, barras e "
 "underline."
 
 #: src/ws/login.js:135 src/ws/login.js:158
@@ -7384,7 +7385,7 @@ msgstr ""
 
 #: pkg/lib/machine-dialogs.js:368
 msgid "This machine has already been added."
-msgstr "Esta máquina já foi adicionada"
+msgstr "Esta máquina já foi adicionada."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:82
 msgid "This may take a while"
@@ -7622,7 +7623,7 @@ msgstr "Digite uma senha"
 
 #: pkg/docker/containers-view.jsx:115
 msgid "Type to filter…"
-msgstr "Tipo para filtrar..."
+msgstr "Tipo para filtrar…"
 
 #: pkg/docker/index.html:334 pkg/networkmanager/firewall.jsx:169
 msgid "UDP"
@@ -7884,7 +7885,7 @@ msgstr ""
 #: pkg/systemd/graphs.js:326
 msgid "Usage of $0 CPU core"
 msgid_plural "Usage of $0 CPU cores"
-msgstr[0] "Uso de $0 núcleo da CPU "
+msgstr[0] "Uso de $0 núcleo da CPU"
 msgstr[1] "Uso de $0 núcleos da CPU"
 
 #: pkg/storaged/vdos-panel.jsx:128
@@ -7971,7 +7972,7 @@ msgstr "Dispositivo VDO $0"
 
 #: pkg/storaged/lvol-tabs.jsx:86 pkg/storaged/lvol-tabs.jsx:173
 msgid "VDO backing devices can not be made smaller"
-msgstr "Dispositivos de suporte VDO não podem ser  menores"
+msgstr "Dispositivos de suporte VDO não podem ser menores"
 
 #: pkg/networkmanager/interfaces.js:2497 pkg/networkmanager/interfaces.js:2509
 #: pkg/networkmanager/interfaces.js:2888
