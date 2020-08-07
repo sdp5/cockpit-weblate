@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-15 07:27+0000\n"
+"POT-Creation-Date: 2020-08-07 18:27+0200\n"
 "PO-Revision-Date: 2020-03-30 10:03+0000\n"
 "Last-Translator: Leon Chen <cwk545@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -58,7 +58,7 @@ msgid_plural "$0 Packages"
 msgstr[0] "$0 軟體包"
 
 #: pkg/systemd/services/service-details.jsx:130
-#: pkg/systemd/services/services.jsx:380
+#: pkg/systemd/services/services.jsx:378
 msgid "$0 Template"
 msgstr "$0 模板"
 
@@ -95,8 +95,8 @@ msgid_plural "$0 days"
 msgstr[0] "$0 天"
 
 #: src/base1/test-locale.js:65 src/base1/test-locale.js:66
-#: src/base1/test-locale.js:67 pkg/playground/translate.js:28
-#: pkg/playground/translate.js:31 pkg/storaged/mdraid-details.jsx:200
+#: src/base1/test-locale.js:67 pkg/storaged/mdraid-details.jsx:200
+#: pkg/playground/translate.js:28 pkg/playground/translate.js:31
 msgid "$0 disk is missing"
 msgid_plural "$0 disks are missing"
 msgstr[0] "$0 磁碟遺失"
@@ -164,11 +164,11 @@ msgid ""
 msgstr ""
 "$0 適用於大多數操作系統。要安裝它，請在GNOME軟件中搜索它或運行以下命令："
 
-#: pkg/storaged/content-views.jsx:333 pkg/storaged/content-views.jsx:573
-#: pkg/storaged/format-dialog.jsx:164 pkg/storaged/lvol-tabs.jsx:203
-#: pkg/storaged/lvol-tabs.jsx:265 pkg/storaged/mdraid-details.jsx:222
-#: pkg/storaged/mdraid-details.jsx:274 pkg/storaged/vdo-details.jsx:128
+#: pkg/storaged/format-dialog.jsx:164 pkg/storaged/content-views.jsx:333
+#: pkg/storaged/content-views.jsx:573 pkg/storaged/lvol-tabs.jsx:203
+#: pkg/storaged/lvol-tabs.jsx:265 pkg/storaged/vdo-details.jsx:128
 #: pkg/storaged/vdo-details.jsx:159 pkg/storaged/vgroup-details.jsx:181
+#: pkg/storaged/mdraid-details.jsx:222 pkg/storaged/mdraid-details.jsx:274
 msgid "$0 is in active use"
 msgstr "$0 正在積極使用"
 
@@ -219,7 +219,7 @@ msgctxt "<date> on <terminal>"
 msgid "$0 on $1"
 msgstr "可用 $0 共 $1"
 
-#: pkg/systemd/services/services.jsx:664
+#: pkg/systemd/services/services.jsx:662
 msgid "$0 service has failed"
 msgid_plural "$0 services have failed"
 msgstr[0] "$0 服務發生錯誤"
@@ -305,14 +305,14 @@ msgstr "1 MiB"
 msgid "1 Minute"
 msgstr "1分鐘"
 
-#: pkg/dashboard/index.html:54 pkg/networkmanager/index.html:71
-#: pkg/networkmanager/index.html:414 pkg/systemd/graphs.html:52
+#: pkg/networkmanager/index.html:71 pkg/networkmanager/index.html:414
+#: pkg/dashboard/index.html:54 pkg/systemd/graphs.html:52
 #: pkg/storaged/plot.jsx:85
 msgid "1 day"
 msgstr "1天"
 
-#: pkg/dashboard/index.html:50 pkg/networkmanager/index.html:69
-#: pkg/networkmanager/index.html:412 pkg/systemd/graphs.html:48
+#: pkg/networkmanager/index.html:69 pkg/networkmanager/index.html:412
+#: pkg/dashboard/index.html:50 pkg/systemd/graphs.html:48
 #: pkg/storaged/plot.jsx:79
 msgid "1 hour"
 msgstr "1小時"
@@ -321,8 +321,8 @@ msgstr "1小時"
 msgid "1 min"
 msgstr "1分鐘"
 
-#: pkg/dashboard/index.html:56 pkg/networkmanager/index.html:72
-#: pkg/networkmanager/index.html:415 pkg/systemd/graphs.html:54
+#: pkg/networkmanager/index.html:72 pkg/networkmanager/index.html:415
+#: pkg/dashboard/index.html:56 pkg/systemd/graphs.html:54
 #: pkg/storaged/plot.jsx:88
 msgid "1 week"
 msgstr "1週"
@@ -479,8 +479,8 @@ msgstr "5分鐘"
 msgid "5 min"
 msgstr "5分鐘"
 
-#: pkg/dashboard/index.html:48 pkg/networkmanager/index.html:68
-#: pkg/networkmanager/index.html:411 pkg/systemd/graphs.html:46
+#: pkg/networkmanager/index.html:68 pkg/networkmanager/index.html:411
+#: pkg/dashboard/index.html:48 pkg/systemd/graphs.html:46
 #: pkg/storaged/plot.jsx:76
 msgid "5 minutes"
 msgstr "5分鐘"
@@ -493,8 +493,8 @@ msgstr "512 KiB"
 msgid "5th"
 msgstr "第5"
 
-#: pkg/dashboard/index.html:52 pkg/networkmanager/index.html:70
-#: pkg/networkmanager/index.html:413 pkg/systemd/graphs.html:50
+#: pkg/networkmanager/index.html:70 pkg/networkmanager/index.html:413
+#: pkg/dashboard/index.html:52 pkg/systemd/graphs.html:50
 #: pkg/storaged/plot.jsx:82
 msgid "6 hours"
 msgstr "6小時"
@@ -582,9 +582,9 @@ msgstr "控制台"
 msgid "Absent"
 msgstr ""
 
-#: pkg/machines/components/diskEdit.jsx:94
 #: pkg/machines/components/vmDisksTab.jsx:115
-#: pkg/users/account-create-dialog.js:75 pkg/users/account-details.js:297
+#: pkg/machines/components/diskEdit.jsx:94 pkg/users/account-details.js:297
+#: pkg/users/account-create-dialog.js:75
 msgid "Access"
 msgstr "存取"
 
@@ -601,15 +601,15 @@ msgstr "帳號不可用或無法編輯。"
 msgid "Accounts"
 msgstr "帳號管理"
 
-#: pkg/machines/hostvmslist.jsx:98
+#: pkg/apps/application-list.jsx:109
 #, fuzzy
 #| msgid "Applications"
 msgid "Actions"
 msgstr "應用程式"
 
-#: pkg/machines/components/networks/network.jsx:164
-#: pkg/machines/components/storagePools/storagePool.jsx:166
 #: pkg/storaged/content-views.jsx:287
+#: pkg/machines/components/storagePools/storagePool.jsx:161
+#: pkg/machines/components/networks/network.jsx:160
 msgid "Activate"
 msgstr "使用"
 
@@ -631,7 +631,7 @@ msgstr "使用中備份工作"
 msgid "Active Pages"
 msgstr "活動頁面"
 
-#: pkg/storaged/dialog.jsx:1034 pkg/storaged/dialog.jsx:1038
+#: pkg/storaged/dialog.jsx:1029 pkg/storaged/dialog.jsx:1033
 msgid "Active since"
 msgstr "活躍起來"
 
@@ -647,12 +647,12 @@ msgstr "適應性負載平衡"
 msgid "Adaptive transmit load balancing"
 msgstr "適應性傳輸負載平衡"
 
-#: pkg/lib/machine-add.html:36 pkg/shell/index.html:249
-#: pkg/machines/components/diskAdd.jsx:548
-#: pkg/machines/components/nicAdd.jsx:203 pkg/storaged/crypto-keyslots.jsx:235
+#: pkg/shell/index.html:249 pkg/lib/machine-add.html:36
 #: pkg/storaged/iscsi-panel.jsx:137 pkg/storaged/iscsi-panel.jsx:161
+#: pkg/storaged/crypto-keyslots.jsx:235 pkg/storaged/vgroup-details.jsx:67
 #: pkg/storaged/mdraid-details.jsx:60 pkg/storaged/nfs-details.jsx:189
-#: pkg/storaged/vgroup-details.jsx:67 pkg/users/authorized-keys-panel.js:65
+#: pkg/machines/components/diskAdd.jsx:548
+#: pkg/machines/components/nicAdd.jsx:203 pkg/users/authorized-keys-panel.js:65
 msgid "Add"
 msgstr "加入"
 
@@ -673,7 +673,7 @@ msgstr "新增橋接"
 msgid "Add Disk"
 msgstr "新增磁碟"
 
-#: pkg/storaged/mdraid-details.jsx:47 pkg/storaged/vgroup-details.jsx:54
+#: pkg/storaged/vgroup-details.jsx:54 pkg/storaged/mdraid-details.jsx:47
 msgid "Add Disks"
 msgstr "新增磁碟"
 
@@ -803,11 +803,10 @@ msgstr "附加包："
 msgid "Additional ports"
 msgstr "額外存儲"
 
-#: pkg/lib/machine-add.html:11
+#: pkg/lib/machine-add.html:11 pkg/storaged/iscsi-panel.jsx:128
 #: pkg/machines/components/networks/networkOverviewTab.jsx:109
 #: pkg/machines/components/networks/networkOverviewTab.jsx:132
 #: pkg/machines/components/vmnetworktab.jsx:128
-#: pkg/storaged/iscsi-panel.jsx:128
 msgid "Address"
 msgstr "位址"
 
@@ -834,7 +833,7 @@ msgstr ""
 msgid "Address:"
 msgstr "位址："
 
-#: pkg/networkmanager/firewall.jsx:154 pkg/networkmanager/interfaces.js:3323
+#: pkg/networkmanager/interfaces.js:3323 pkg/networkmanager/firewall.jsx:154
 msgid "Addresses"
 msgstr "位址"
 
@@ -842,7 +841,7 @@ msgstr "位址"
 msgid "Administration with Cockpit Web Console"
 msgstr ""
 
-#: pkg/shell/superuser.jsx:70 pkg/shell/superuser.jsx:332
+#: pkg/shell/superuser.jsx:82 pkg/shell/superuser.jsx:344
 #, fuzzy
 #| msgid "Administrator Password"
 msgid "Administrative access"
@@ -881,7 +880,7 @@ msgstr "系統啟動後"
 msgid "Alert and above"
 msgstr "警報及以上"
 
-#: pkg/systemd/logs.js:219 pkg/systemd/services/services.jsx:698
+#: pkg/systemd/logs.js:219 pkg/systemd/services/services.jsx:696
 msgid "All"
 msgstr "全部"
 
@@ -923,19 +922,25 @@ msgstr ""
 msgid "Appearance:"
 msgstr "配色："
 
-#: pkg/apps/index.html:23 pkg/apps/application-list.jsx:151
-#: pkg/apps/application.jsx:144 pkg/apps/manifest.json.in
+#: pkg/apps/index.html:23 pkg/apps/application.jsx:144
+#: pkg/apps/application-list.jsx:167 pkg/apps/manifest.json.in
 msgid "Applications"
+msgstr "應用程式"
+
+#: pkg/apps/application-list.jsx:175
+#, fuzzy
+#| msgid "Applications"
+msgid "Applications list"
 msgstr "應用程式"
 
 #: pkg/networkmanager/index.html:497 pkg/networkmanager/index.html:525
 #: pkg/networkmanager/index.html:552 pkg/networkmanager/index.html:579
 #: pkg/networkmanager/index.html:606 pkg/networkmanager/index.html:633
 #: pkg/networkmanager/index.html:660 pkg/networkmanager/index.html:687
-#: pkg/networkmanager/index.html:714 pkg/kdump/kdump-view.jsx:355
-#: pkg/machines/components/vcpuModal.jsx:252 pkg/storaged/crypto-tab.jsx:78
-#: pkg/storaged/crypto-tab.jsx:108 pkg/storaged/fsys-tab.jsx:270
-#: pkg/storaged/fsys-tab.jsx:347 pkg/storaged/nfs-details.jsx:189
+#: pkg/networkmanager/index.html:714 pkg/storaged/fsys-tab.jsx:270
+#: pkg/storaged/fsys-tab.jsx:347 pkg/storaged/crypto-tab.jsx:78
+#: pkg/storaged/crypto-tab.jsx:108 pkg/storaged/nfs-details.jsx:189
+#: pkg/machines/components/vcpuModal.jsx:252 pkg/kdump/kdump-view.jsx:355
 msgid "Apply"
 msgstr "套用"
 
@@ -980,8 +985,8 @@ msgstr "標籤"
 msgid "At least $0 disks are needed."
 msgstr "至少需要 $0 個磁碟。"
 
-#: pkg/storaged/mdraid-details.jsx:54 pkg/storaged/vgroup-details.jsx:61
-#: pkg/storaged/vgroups-panel.jsx:84
+#: pkg/storaged/vgroups-panel.jsx:84 pkg/storaged/vgroup-details.jsx:61
+#: pkg/storaged/mdraid-details.jsx:54
 msgid "At least one disk is needed."
 msgstr "至少需要一個磁碟。"
 
@@ -993,7 +998,7 @@ msgstr "在特定時間"
 msgid "Audit log"
 msgstr "稽核日誌"
 
-#: pkg/shell/superuser.jsx:79
+#: pkg/shell/superuser.jsx:91
 #, fuzzy
 #| msgid "Authenticating"
 msgid "Authenticate"
@@ -1038,11 +1043,10 @@ msgstr "作者"
 msgid "Authorized Public SSH Keys"
 msgstr "授權的公共SSH密鑰"
 
-#: pkg/networkmanager/index.html:189
+#: pkg/networkmanager/index.html:189 pkg/networkmanager/interfaces.js:1965
+#: pkg/networkmanager/interfaces.js:2763 pkg/networkmanager/interfaces.js:3331
+#: pkg/networkmanager/interfaces.js:3335 pkg/networkmanager/interfaces.js:3341
 #: pkg/machines/components/networks/createNetworkDialog.jsx:175
-#: pkg/networkmanager/interfaces.js:1965 pkg/networkmanager/interfaces.js:2763
-#: pkg/networkmanager/interfaces.js:3331 pkg/networkmanager/interfaces.js:3335
-#: pkg/networkmanager/interfaces.js:3341
 #: pkg/systemd/overview-cards/realmd-operation.js:338
 msgid "Automatic"
 msgstr "自動"
@@ -1063,8 +1067,8 @@ msgstr "自動更新"
 msgid "Automatically start libvirt on boot"
 msgstr "在啟動時自動啟動libvirt"
 
-#: pkg/systemd/services/service-details.jsx:480
 #: pkg/systemd/services/services-list.jsx:68
+#: pkg/systemd/services/service-details.jsx:480
 msgid "Automatically starts"
 msgstr ""
 
@@ -1080,8 +1084,8 @@ msgstr "自動使用特定的NTP伺服器"
 msgid "Automation Script"
 msgstr ""
 
-#: pkg/machines/components/networks/networkOverviewTab.jsx:87
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:70
+#: pkg/machines/components/networks/networkOverviewTab.jsx:87
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:275
 msgid "Autostart"
 msgstr ""
@@ -1226,10 +1230,10 @@ msgid "Bugs:"
 msgstr "Bug："
 
 #: pkg/machines/components/diskAdd.jsx:181
-#: pkg/machines/components/diskEdit.jsx:63
 #: pkg/machines/components/vm/bootOrderModal.jsx:109
 #: pkg/machines/components/vm/bootOrderModal.jsx:132
 #: pkg/machines/components/vmDisksTab.jsx:113
+#: pkg/machines/components/diskEdit.jsx:63
 msgid "Bus"
 msgstr "總線"
 
@@ -1238,8 +1242,8 @@ msgid "Bus Expansion Chassis"
 msgstr "總線擴展機箱"
 
 #: pkg/dashboard/index.html:73 pkg/docker/index.html:265
-#: pkg/docker/containers-view.jsx:366 pkg/systemd/hwinfo.jsx:101
-#: pkg/systemd/overview-cards/usageCard.jsx:121
+#: pkg/systemd/hwinfo.jsx:101 pkg/systemd/overview-cards/usageCard.jsx:121
+#: pkg/docker/containers-view.jsx:366
 msgid "CPU"
 msgstr "處理器"
 
@@ -1293,42 +1297,42 @@ msgstr "無法連接到Docker"
 msgid "Can't load image"
 msgstr "無法加載圖片"
 
-#: pkg/dashboard/index.html:186 pkg/docker/index.html:527
-#: pkg/docker/index.html:564 pkg/docker/index.html:628
-#: pkg/docker/index.html:682 pkg/docker/index.html:722
-#: pkg/docker/index.html:753 pkg/lib/machine-add.html:37
-#: pkg/lib/machine-change-auth.html:92 pkg/lib/machine-change-port.html:41
-#: pkg/lib/machine-sync-users.html:77 pkg/lib/machine-unknown-hostkey.html:23
 #: pkg/networkmanager/index.html:498 pkg/networkmanager/index.html:526
 #: pkg/networkmanager/index.html:553 pkg/networkmanager/index.html:580
 #: pkg/networkmanager/index.html:607 pkg/networkmanager/index.html:634
 #: pkg/networkmanager/index.html:661 pkg/networkmanager/index.html:688
-#: pkg/networkmanager/index.html:715 pkg/playground/translate.html:38
-#: pkg/shell/index.html:137 pkg/shell/index.html:189 pkg/systemd/index.html:99
-#: pkg/systemd/index.html:153
+#: pkg/networkmanager/index.html:715 pkg/dashboard/index.html:186
+#: pkg/shell/index.html:137 pkg/shell/index.html:189
+#: pkg/playground/translate.html:38 pkg/lib/machine-change-auth.html:92
+#: pkg/lib/machine-sync-users.html:77 pkg/lib/machine-add.html:37
+#: pkg/lib/machine-change-port.html:41 pkg/lib/machine-unknown-hostkey.html:23
+#: pkg/systemd/index.html:99 pkg/systemd/index.html:153
+#: pkg/systemd/services.html:282
 #: pkg/systemd/overview-cards/realmd-operation.html:82
-#: pkg/systemd/services.html:282 pkg/apps/utils.jsx:84
-#: pkg/lib/cockpit-components-dialog.jsx:158
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:935
-#: pkg/machines/components/deleteDialog.jsx:144
-#: pkg/machines/components/deleteResource.jsx:74
+#: pkg/docker/index.html:527 pkg/docker/index.html:564
+#: pkg/docker/index.html:628 pkg/docker/index.html:682
+#: pkg/docker/index.html:722 pkg/docker/index.html:753
+#: pkg/storaged/dialog.jsx:399 pkg/storaged/jobs-panel.jsx:123
+#: pkg/sosreport/index.js:52 pkg/networkmanager/firewall.jsx:565
+#: pkg/networkmanager/firewall.jsx:718 pkg/networkmanager/firewall.jsx:741
+#: pkg/apps/utils.jsx:84
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:948
 #: pkg/machines/components/diskAdd.jsx:551
-#: pkg/machines/components/diskEdit.jsx:215
-#: pkg/machines/components/networks/createNetworkDialog.jsx:492
-#: pkg/machines/components/nicAdd.jsx:206
-#: pkg/machines/components/nicEdit.jsx:174
-#: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:514
+#: pkg/machines/components/vm/memoryModal.jsx:155
+#: pkg/machines/components/vm/firmwareModal.jsx:78
+#: pkg/machines/components/vm/bootOrderModal.jsx:325
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:237
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:96
+#: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:514
+#: pkg/machines/components/networks/createNetworkDialog.jsx:492
 #: pkg/machines/components/vcpuModal.jsx:255
-#: pkg/machines/components/vm/bootOrderModal.jsx:325
-#: pkg/machines/components/vm/firmwareModal.jsx:78
-#: pkg/machines/components/vm/memoryModal.jsx:155
-#: pkg/networkmanager/firewall.jsx:565 pkg/networkmanager/firewall.jsx:718
-#: pkg/networkmanager/firewall.jsx:741 pkg/packagekit/updates.jsx:192
-#: pkg/shell/superuser.jsx:83 pkg/shell/superuser.jsx:138
-#: pkg/sosreport/index.js:52 pkg/storaged/dialog.jsx:400
-#: pkg/storaged/jobs-panel.jsx:123 pkg/systemd/hwinfo.jsx:227
+#: pkg/machines/components/deleteDialog.jsx:144
+#: pkg/machines/components/nicEdit.jsx:174
+#: pkg/machines/components/nicAdd.jsx:206
+#: pkg/machines/components/deleteResource.jsx:74
+#: pkg/machines/components/diskEdit.jsx:215 pkg/packagekit/updates.jsx:192
+#: pkg/shell/superuser.jsx:95 pkg/shell/superuser.jsx:150
+#: pkg/lib/cockpit-components-dialog.jsx:158 pkg/systemd/hwinfo.jsx:227
 #: pkg/systemd/reporting.jsx:420 pkg/systemd/services/service-details.jsx:187
 msgid "Cancel"
 msgstr "取消"
@@ -1360,7 +1364,7 @@ msgid "Capacity"
 msgstr "容量"
 
 #: pkg/storaged/block-details.jsx:37 pkg/storaged/drive-details.jsx:75
-#: pkg/storaged/mdraid-details.jsx:319 pkg/storaged/vgroup-details.jsx:223
+#: pkg/storaged/vgroup-details.jsx:223 pkg/storaged/mdraid-details.jsx:319
 #, fuzzy
 #| msgid "Capacity"
 msgctxt "storage"
@@ -1371,10 +1375,10 @@ msgstr "容量"
 msgid "Carrier"
 msgstr "支架"
 
-#: pkg/docker/index.html:627 pkg/systemd/index.html:152
-#: pkg/storaged/iscsi-panel.jsx:188
+#: pkg/systemd/index.html:152 pkg/docker/index.html:627
+#: pkg/storaged/iscsi-panel.jsx:188 pkg/users/expiration-dialogs.js:112
+#: pkg/users/expiration-dialogs.js:226
 #: pkg/systemd/overview-cards/serverTime.js:683
-#: pkg/users/expiration-dialogs.js:112 pkg/users/expiration-dialogs.js:226
 msgid "Change"
 msgstr "改變"
 
@@ -1424,11 +1428,11 @@ msgstr "更改資源限制"
 msgid "Change the settings"
 msgstr "更改設置"
 
-#: pkg/machines/components/diskEdit.jsx:195
-#: pkg/machines/components/nicEdit.jsx:154
-#: pkg/machines/components/vcpuModal.jsx:181
 #: pkg/machines/components/vm/bootOrderModal.jsx:280
 #: pkg/machines/components/warningInactive.jsx:11
+#: pkg/machines/components/vcpuModal.jsx:181
+#: pkg/machines/components/nicEdit.jsx:154
+#: pkg/machines/components/diskEdit.jsx:195
 msgid "Changes will take effect after shutting down the VM"
 msgstr "關閉VM後，更改將生效"
 
@@ -1458,7 +1462,7 @@ msgstr "檢查RAID設備 $target"
 msgid "Checking and Repairing RAID Device $target"
 msgstr "檢查和修復RAID設備 $target"
 
-#: pkg/apps/application-list.jsx:124
+#: pkg/apps/application-list.jsx:143
 msgid "Checking for new applications"
 msgstr "檢查新的應用程式"
 
@@ -1474,7 +1478,8 @@ msgstr "檢查公鑰"
 msgid "Checking installed software"
 msgstr "檢查已安裝的軟件"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:368
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:380
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:381
 msgid "Choose an operating system"
 msgstr ""
 
@@ -1502,7 +1507,7 @@ msgstr ""
 msgid "Clear Search"
 msgstr ""
 
-#: pkg/systemd/services/services.jsx:789
+#: pkg/systemd/services/services.jsx:787
 msgid "Clear all filters"
 msgstr ""
 
@@ -1519,14 +1524,15 @@ msgstr "單擊“啟動遠程查看器”將下載.vv文件並啟動 $0。"
 msgid "Client Software"
 msgstr ""
 
-#: pkg/docker/index.html:702 pkg/lib/machine-auth-failed.html:20
+#: pkg/networkmanager/index.html:734 pkg/shell/index.html:162
+#: pkg/shell/index.html:221 pkg/shell/index.html:403
+#: pkg/lib/machine-auth-failed.html:20 pkg/lib/machine-not-supported.html:8
 #: pkg/lib/machine-change-port.html:45 pkg/lib/machine-invalid-hostkey.html:12
-#: pkg/lib/machine-not-supported.html:8 pkg/networkmanager/index.html:734
-#: pkg/shell/index.html:162 pkg/shell/index.html:221 pkg/shell/index.html:403
-#: pkg/systemd/index.html:56 pkg/apps/utils.jsx:104
-#: pkg/lib/cockpit-components-modifications.jsx:103 pkg/shell/superuser.jsx:83
-#: pkg/sosreport/index.js:46 pkg/sosreport/index.js:128
-#: pkg/storaged/dialog.jsx:400 pkg/users/dialog-utils.js:61
+#: pkg/systemd/index.html:56 pkg/docker/index.html:702
+#: pkg/storaged/dialog.jsx:399 pkg/sosreport/index.js:46
+#: pkg/sosreport/index.js:128 pkg/apps/utils.jsx:104 pkg/shell/superuser.jsx:95
+#: pkg/users/dialog-utils.js:61
+#: pkg/lib/cockpit-components-modifications.jsx:103
 msgid "Close"
 msgstr "關閉"
 
@@ -1643,8 +1649,8 @@ msgstr ""
 "據。 {{#can_sync}}你可能更喜歡 {{#sync_link}}同步帳號和密碼{{/sync_link}}。"
 "{{/can_sync}}"
 
-#: pkg/dashboard/index.html:168 pkg/lib/machine-add.html:27
-#: pkg/shell/index.html:127
+#: pkg/dashboard/index.html:168 pkg/shell/index.html:127
+#: pkg/lib/machine-add.html:27
 msgid "Color"
 msgstr "顏色"
 
@@ -1661,8 +1667,8 @@ msgstr[0] "全部使用 $0 處理器核心"
 msgid "Comma-separated ports, ranges, and aliases are accepted"
 msgstr ""
 
-#: pkg/docker/index.html:264 pkg/docker/index.html:408
-#: pkg/docker/index.html:672 pkg/systemd/services.html:186
+#: pkg/systemd/services.html:186 pkg/docker/index.html:264
+#: pkg/docker/index.html:408 pkg/docker/index.html:672
 #: pkg/docker/containers-view.jsx:136 pkg/docker/containers-view.jsx:366
 #: pkg/docker/containers-view.jsx:418
 msgid "Command"
@@ -1709,8 +1715,8 @@ msgstr "兼容現代系統和硬盤> 2TB（GPT）"
 msgid "Compress crash dumps to save space"
 msgstr "壓縮故障轉儲以節省空間"
 
-#: pkg/kdump/kdump-view.jsx:156 pkg/storaged/vdo-details.jsx:303
-#: pkg/storaged/vdos-panel.jsx:120
+#: pkg/storaged/vdo-details.jsx:303 pkg/storaged/vdos-panel.jsx:120
+#: pkg/kdump/kdump-view.jsx:156
 msgid "Compression"
 msgstr "壓縮"
 
@@ -1728,7 +1734,7 @@ msgstr "條件失敗"
 
 # translation auto-copied from project libreport, version master, document
 # libreport
-#: pkg/systemd/overview-cards/configurationCard.jsx:273
+#: pkg/systemd/overview-cards/configurationCard.jsx:272
 msgid "Configuration"
 msgstr "組態"
 
@@ -1824,11 +1830,11 @@ msgid "Connecting to the machine"
 msgstr "連接到機器"
 
 # ctx::sourcefile::Navigation Menu
+#: pkg/machines/components/storagePools/storagePoolList.jsx:56
 #: pkg/machines/components/machinesConnectionSelector.jsx:34
 #: pkg/machines/components/networks/createNetworkDialog.jsx:41
-#: pkg/machines/components/networks/networkList.jsx:55
-#: pkg/machines/components/storagePools/storagePoolList.jsx:54
-#: pkg/machines/hostvmslist.jsx:96
+#: pkg/machines/components/networks/networkList.jsx:56
+#: pkg/machines/hostvmslist.jsx:98
 msgid "Connection"
 msgstr "連線"
 
@@ -1856,7 +1862,8 @@ msgstr "由組成"
 msgid "Console Type"
 msgstr "控制台類型"
 
-#: pkg/machines/components/vm/vmExpandedContent.jsx:44
+#: pkg/machines/components/vm/vmExpandedContent.jsx:45
+#: pkg/machines/components/vm/vmExpandedContent.jsx:50
 msgid "Consoles"
 msgstr "控制台"
 
@@ -1986,13 +1993,13 @@ msgstr "崩潰轉儲位置"
 msgid "Crash system"
 msgstr "崩潰系統"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:932
-#: pkg/machines/components/networks/createNetworkDialog.jsx:489
-#: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:511
-#: pkg/machines/components/storagePools/storageVolumeCreate.jsx:93
 #: pkg/storaged/content-views.jsx:129 pkg/storaged/content-views.jsx:275
-#: pkg/storaged/content-views.jsx:771 pkg/storaged/mdraids-panel.jsx:123
-#: pkg/storaged/vdos-panel.jsx:146 pkg/storaged/vgroups-panel.jsx:90
+#: pkg/storaged/content-views.jsx:771 pkg/storaged/vgroups-panel.jsx:90
+#: pkg/storaged/mdraids-panel.jsx:123 pkg/storaged/vdos-panel.jsx:146
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:945
+#: pkg/machines/components/storagePools/storageVolumeCreate.jsx:93
+#: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:511
+#: pkg/machines/components/networks/createNetworkDialog.jsx:489
 #: pkg/users/account-create-dialog.js:258
 msgid "Create"
 msgstr "建立"
@@ -2013,15 +2020,15 @@ msgstr "新建"
 msgid "Create New Account"
 msgstr "建立新帳號"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:923
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:936
 msgid "Create New Virtual Machine"
 msgstr ""
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:501
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:514
 msgid "Create New Volume"
 msgstr ""
 
-#: pkg/storaged/content-views.jsx:501 pkg/storaged/format-dialog.jsx:263
+#: pkg/storaged/format-dialog.jsx:263 pkg/storaged/content-views.jsx:501
 msgid "Create Partition"
 msgstr "建立分區"
 
@@ -2058,7 +2065,7 @@ msgstr ""
 msgid "Create Thin Volume"
 msgstr "建立精簡卷"
 
-#: pkg/systemd/services/services.jsx:761
+#: pkg/systemd/services/services.jsx:759
 msgid "Create Timer"
 msgstr "建立計時器"
 
@@ -2066,11 +2073,11 @@ msgstr "建立計時器"
 msgid "Create Timers"
 msgstr "建立計時器"
 
-#: pkg/storaged/things-panel.jsx:69 pkg/storaged/vdos-panel.jsx:80
+#: pkg/storaged/vdos-panel.jsx:80 pkg/storaged/things-panel.jsx:69
 msgid "Create VDO Device"
 msgstr "建立VDO設備"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1002
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1015
 msgid "Create VM"
 msgstr "建立VM"
 
@@ -2084,7 +2091,7 @@ msgstr ""
 msgid "Create Volume"
 msgstr ""
 
-#: pkg/storaged/things-panel.jsx:68 pkg/storaged/vgroups-panel.jsx:72
+#: pkg/storaged/vgroups-panel.jsx:72 pkg/storaged/things-panel.jsx:68
 msgid "Create Volume Group"
 msgstr "建立卷組"
 
@@ -2165,7 +2172,7 @@ msgstr "建立此團隊將斷開與伺服器的連接，並使管理UI不可用�
 msgid "Creating volume group $target"
 msgstr "建立卷組 $target"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:792
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:805
 msgid "Creation of VM $0 failed"
 msgstr ""
 
@@ -2203,7 +2210,7 @@ msgstr "自定義加密選項"
 msgid "Custom firmware: $0"
 msgstr ""
 
-#: pkg/storaged/format-dialog.jsx:247 pkg/storaged/fsys-tab.jsx:241
+#: pkg/storaged/fsys-tab.jsx:241 pkg/storaged/format-dialog.jsx:247
 #: pkg/storaged/nfs-details.jsx:174
 msgid "Custom mount options"
 msgstr "自定義安裝選項"
@@ -2249,9 +2256,9 @@ msgstr "狀態"
 msgid "Data Used"
 msgstr "使用的數據"
 
-#: pkg/machines/components/networks/network.jsx:160
-#: pkg/machines/components/storagePools/storagePool.jsx:158
 #: pkg/storaged/content-views.jsx:285
+#: pkg/machines/components/storagePools/storagePool.jsx:153
+#: pkg/machines/components/networks/network.jsx:156
 msgid "Deactivate"
 msgstr "取消啟動"
 
@@ -2279,25 +2286,25 @@ msgstr "預設值"
 msgid "Delay"
 msgstr "延遲"
 
-#: pkg/docker/index.html:132 pkg/docker/index.html:244
-#: pkg/networkmanager/index.html:450 pkg/docker/containers-view.jsx:207
-#: pkg/docker/details.js:288 pkg/docker/util.js:645
+#: pkg/networkmanager/index.html:450 pkg/docker/index.html:132
+#: pkg/docker/index.html:244 pkg/storaged/content-views.jsx:344
+#: pkg/storaged/content-views.jsx:360 pkg/storaged/vdo-details.jsx:198
+#: pkg/storaged/vdo-details.jsx:261 pkg/storaged/vgroup-details.jsx:193
+#: pkg/storaged/vgroup-details.jsx:215 pkg/storaged/mdraid-details.jsx:285
+#: pkg/storaged/mdraid-details.jsx:308 pkg/networkmanager/firewall.jsx:738
+#: pkg/machines/components/vm/vmActions.jsx:140
+#: pkg/machines/components/vm/vmActions.jsx:147
+#: pkg/machines/components/storagePools/storagePoolDelete.jsx:201
+#: pkg/machines/components/storagePools/storagePoolDelete.jsx:211
+#: pkg/machines/components/storagePools/storagePoolDelete.jsx:234
 #: pkg/machines/components/deleteDialog.jsx:141
 #: pkg/machines/components/deleteResource.jsx:63
 #: pkg/machines/components/deleteResource.jsx:71
 #: pkg/machines/components/deleteResource.jsx:99
 #: pkg/machines/components/deleteResource.jsx:109
-#: pkg/machines/components/storagePools/storagePoolDelete.jsx:201
-#: pkg/machines/components/storagePools/storagePoolDelete.jsx:211
-#: pkg/machines/components/storagePools/storagePoolDelete.jsx:234
-#: pkg/machines/components/vm/vmActions.jsx:142
-#: pkg/machines/components/vm/vmActions.jsx:148
-#: pkg/networkmanager/firewall.jsx:738 pkg/storaged/content-views.jsx:344
-#: pkg/storaged/content-views.jsx:360 pkg/storaged/mdraid-details.jsx:285
-#: pkg/storaged/mdraid-details.jsx:308 pkg/storaged/vdo-details.jsx:198
-#: pkg/storaged/vdo-details.jsx:261 pkg/storaged/vgroup-details.jsx:193
-#: pkg/storaged/vgroup-details.jsx:215 pkg/users/account-details.js:250
-#: pkg/users/delete-account-dialog.js:65
+#: pkg/users/account-details.js:250 pkg/users/delete-account-dialog.js:65
+#: pkg/docker/util.js:645 pkg/docker/containers-view.jsx:207
+#: pkg/docker/details.js:288
 msgid "Delete"
 msgstr "刪除"
 
@@ -2395,9 +2402,9 @@ msgstr "可拆開"
 
 # translation auto-copied from project libreport, version master, document
 # libreport
-#: pkg/shell/index.html:302 pkg/docker/containers-view.jsx:343
-#: pkg/docker/containers-view.jsx:437 pkg/docker/containers-view.jsx:537
-#: pkg/packagekit/updates.jsx:397
+#: pkg/shell/index.html:302 pkg/packagekit/updates.jsx:397
+#: pkg/docker/containers-view.jsx:343 pkg/docker/containers-view.jsx:437
+#: pkg/docker/containers-view.jsx:537
 msgid "Details"
 msgstr "詳情"
 
@@ -2405,9 +2412,9 @@ msgstr "詳情"
 msgid "Development"
 msgstr ""
 
-#: pkg/machines/components/networks/createNetworkDialog.jsx:168
-#: pkg/machines/components/networks/networkList.jsx:55
 #: pkg/machines/components/vm/bootOrderModal.jsx:93
+#: pkg/machines/components/networks/createNetworkDialog.jsx:168
+#: pkg/machines/components/networks/networkList.jsx:56
 #: pkg/machines/components/vmDiskColumns.jsx:43
 #: pkg/machines/components/vmDisksTab.jsx:102
 msgid "Device"
@@ -2469,7 +2476,7 @@ msgstr "禁用調整"
 
 #: pkg/networkmanager/interfaces.js:1960
 #: pkg/systemd/services/service-details.jsx:413
-#: pkg/systemd/services/services.jsx:535 pkg/systemd/services/services.jsx:700
+#: pkg/systemd/services/services.jsx:533 pkg/systemd/services/services.jsx:698
 msgid "Disabled"
 msgstr "已停用"
 
@@ -2524,10 +2531,10 @@ msgstr "磁碟密碼"
 msgid "Disk settings could not be saved"
 msgstr ""
 
-#: pkg/machines/components/vm/vmExpandedContent.jsx:42
-#: pkg/storaged/mdraid-details.jsx:49 pkg/storaged/mdraid-details.jsx:153
-#: pkg/storaged/mdraids-panel.jsx:110 pkg/storaged/vgroup-details.jsx:56
-#: pkg/storaged/vgroups-panel.jsx:79
+#: pkg/storaged/vgroups-panel.jsx:79 pkg/storaged/mdraids-panel.jsx:110
+#: pkg/storaged/vgroup-details.jsx:56 pkg/storaged/mdraid-details.jsx:49
+#: pkg/storaged/mdraid-details.jsx:153
+#: pkg/machines/components/vm/vmExpandedContent.jsx:43
 msgid "Disks"
 msgstr "磁碟"
 
@@ -2562,7 +2569,7 @@ msgid "Does not automatically start"
 msgstr "自動連接"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:11
-#: pkg/systemd/overview-cards/configurationCard.jsx:291
+#: pkg/systemd/overview-cards/configurationCard.jsx:290
 #: pkg/systemd/overview-cards/realmd-operation.js:124
 msgid "Domain"
 msgstr "網域名稱"
@@ -2592,7 +2599,7 @@ msgstr "域管理員密碼"
 msgid "Don't Repeat"
 msgstr "不要重複"
 
-#: pkg/storaged/content-views.jsx:586 pkg/storaged/format-dialog.jsx:195
+#: pkg/storaged/format-dialog.jsx:195 pkg/storaged/content-views.jsx:586
 msgid "Don't overwrite existing data"
 msgstr "不要覆蓋現有數據"
 
@@ -2608,7 +2615,7 @@ msgstr "下載"
 msgid "Download a new browser for free"
 msgstr "免費下載新的瀏覽器"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:294
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:297
 msgid "Download an OS"
 msgstr ""
 
@@ -2652,9 +2659,9 @@ msgstr "複製別名"
 msgid "Duplicate port"
 msgstr "重複端口"
 
-#: pkg/machines/components/diskEdit.jsx:250
-#: pkg/machines/components/vmnetworktab.jsx:224 pkg/shell/indexes.js:340
 #: pkg/storaged/crypto-tab.jsx:129 pkg/storaged/nfs-details.jsx:305
+#: pkg/machines/components/vmnetworktab.jsx:224
+#: pkg/machines/components/diskEdit.jsx:250 pkg/shell/indexes.js:340
 msgid "Edit"
 msgstr "編輯"
 
@@ -2712,7 +2719,7 @@ msgstr ""
 msgid "Enable Service"
 msgstr "啟用服務"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:325
+#: pkg/systemd/overview-cards/configurationCard.jsx:324
 msgid "Enable stored metrics"
 msgstr ""
 
@@ -2720,7 +2727,7 @@ msgstr ""
 msgid "Enable the firewall"
 msgstr ""
 
-#: pkg/systemd/services/services.jsx:532 pkg/systemd/services/services.jsx:699
+#: pkg/systemd/services/services.jsx:530 pkg/systemd/services/services.jsx:697
 msgid "Enabled"
 msgstr "已啟用"
 
@@ -2814,7 +2821,7 @@ msgstr "進入點"
 msgid "Environment"
 msgstr "環境"
 
-#: pkg/storaged/content-views.jsx:583 pkg/storaged/format-dialog.jsx:192
+#: pkg/storaged/format-dialog.jsx:192 pkg/storaged/content-views.jsx:583
 msgid "Erase"
 msgstr "抹除"
 
@@ -2827,10 +2834,9 @@ msgid "Errata:"
 msgstr "勘誤："
 
 #: pkg/playground/translate.html:99 pkg/playground/translate.html:104
-#: pkg/apps/utils.jsx:96 pkg/storaged/fsys-tab.jsx:283
-#: pkg/storaged/multipath.jsx:58 pkg/storaged/storage-controls.jsx:86
-#: pkg/storaged/storage-controls.jsx:163
-#: pkg/systemd/services/service-details.jsx:532
+#: pkg/storaged/fsys-tab.jsx:283 pkg/storaged/multipath.jsx:58
+#: pkg/storaged/storage-controls.jsx:86 pkg/storaged/storage-controls.jsx:163
+#: pkg/apps/utils.jsx:96 pkg/systemd/services/service-details.jsx:532
 msgid "Error"
 msgstr "錯誤"
 
@@ -2890,7 +2896,7 @@ msgstr ""
 msgid "Excellent password"
 msgstr "優秀的密碼"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:236
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:239
 msgid "Existing disk image on host's file system"
 msgstr ""
 
@@ -2910,7 +2916,7 @@ msgstr "暴露容器端口"
 msgid "Extended Information"
 msgstr ""
 
-#: pkg/storaged/content-views.jsx:521 pkg/storaged/format-dialog.jsx:158
+#: pkg/storaged/format-dialog.jsx:158 pkg/storaged/content-views.jsx:521
 msgid "Extended Partition"
 msgstr "擴展分區"
 
@@ -2944,8 +2950,8 @@ msgstr ""
 msgid "Failed to change firmware"
 msgstr "無法更改密碼"
 
-#: pkg/lib/credentials.js:228 pkg/users/password-dialogs.js:95
-#: pkg/users/password-dialogs.js:125
+#: pkg/users/password-dialogs.js:95 pkg/users/password-dialogs.js:125
+#: pkg/lib/credentials.js:228
 msgid "Failed to change password"
 msgstr "無法更改密碼"
 
@@ -2982,7 +2988,7 @@ msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr ""
 
 #: pkg/systemd/services/service-details.jsx:422
-#: pkg/systemd/services/services.jsx:526
+#: pkg/systemd/services/services.jsx:524
 msgid "Failed to start"
 msgstr ""
 
@@ -3023,7 +3029,7 @@ msgstr "檔案系統名稱"
 msgid "Filesystems"
 msgstr "檔案系統"
 
-#: pkg/systemd/services/services.jsx:733
+#: pkg/systemd/services/services.jsx:731
 msgid "Filter"
 msgstr ""
 
@@ -3031,17 +3037,17 @@ msgstr ""
 msgid "Filter Services"
 msgstr "過濾服務"
 
-#: pkg/systemd/services/services.jsx:741
+#: pkg/systemd/services/services.jsx:739
 #, fuzzy
 #| msgid "search by name, namespace or description"
 msgid "Filter by name or description"
 msgstr "按名稱，名稱空間或描述進行搜索"
 
-#: pkg/lib/machine-unknown-hostkey.html:10 pkg/shell/index.html:345
+#: pkg/shell/index.html:345 pkg/lib/machine-unknown-hostkey.html:10
 msgid "Fingerprint"
 msgstr "指紋"
 
-#: pkg/networkmanager/firewall.html:22 pkg/networkmanager/index.html:106
+#: pkg/networkmanager/index.html:106 pkg/networkmanager/firewall.html:22
 #: pkg/networkmanager/firewall.jsx:897 pkg/networkmanager/firewall.jsx:901
 msgid "Firewall"
 msgstr "防火牆"
@@ -3071,8 +3077,8 @@ msgstr "版本"
 msgid "For legacy applications only. Reduces performance."
 msgstr ""
 
-#: pkg/systemd/services/service-details.jsx:404
 #: pkg/systemd/services/services-list.jsx:72
+#: pkg/systemd/services/service-details.jsx:404
 msgid "Forbidden from running"
 msgstr ""
 
@@ -3100,10 +3106,10 @@ msgstr "強制更改密碼"
 msgid "Force remove passphrase in $0"
 msgstr "強制刪除密碼 $0"
 
+#: pkg/storaged/format-dialog.jsx:263 pkg/storaged/content-views.jsx:365
+#: pkg/storaged/content-views.jsx:367 pkg/storaged/content-views.jsx:604
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:250
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:64
-#: pkg/storaged/content-views.jsx:365 pkg/storaged/content-views.jsx:367
-#: pkg/storaged/content-views.jsx:604 pkg/storaged/format-dialog.jsx:263
 msgid "Format"
 msgstr "格式"
 
@@ -3131,7 +3137,7 @@ msgstr ""
 msgid "Forward delay $forward_delay"
 msgstr "轉發延遲 $forward_延遲"
 
-#: pkg/machines/components/networks/networkList.jsx:55
+#: pkg/machines/components/networks/networkList.jsx:56
 msgid "Forwarding mode"
 msgstr ""
 
@@ -3157,7 +3163,7 @@ msgstr "週五"
 msgid "Fridays"
 msgstr ""
 
-#: pkg/users/account-create-dialog.js:40 pkg/users/account-details.js:260
+#: pkg/users/account-details.js:260 pkg/users/account-create-dialog.js:40
 msgid "Full Name"
 msgstr "全名"
 
@@ -3165,9 +3171,9 @@ msgstr "全名"
 msgid "Gateway:"
 msgstr "閘道："
 
+#: pkg/networkmanager/interfaces.js:2707
 #: pkg/machines/components/networks/networkOverviewTab.jsx:80
-#: pkg/machines/components/vmOverviewTabLibvirt.jsx:264
-#: pkg/networkmanager/interfaces.js:2707 pkg/systemd/logs.js:555
+#: pkg/machines/components/vmOverviewTabLibvirt.jsx:264 pkg/systemd/logs.js:555
 msgid "General"
 msgstr "一般"
 
@@ -3183,8 +3189,8 @@ msgstr "生成報告"
 msgid "Get new image"
 msgstr "獲取新圖片"
 
-#: pkg/machines/components/memorySelectRow.jsx:85
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:98
+#: pkg/machines/components/memorySelectRow.jsx:85
 #: pkg/machines/components/vmDisksTab.jsx:50
 msgid "GiB"
 msgstr "GiB"
@@ -3193,8 +3199,8 @@ msgstr "GiB"
 msgid "Go to Application"
 msgstr "轉到應用程式"
 
-#: pkg/dashboard/index.html:45 pkg/networkmanager/index.html:66
-#: pkg/networkmanager/index.html:409 pkg/systemd/graphs.html:44
+#: pkg/networkmanager/index.html:66 pkg/networkmanager/index.html:409
+#: pkg/dashboard/index.html:45 pkg/systemd/graphs.html:44
 #: pkg/storaged/plot.jsx:72
 msgid "Go to now"
 msgstr "去吧"
@@ -3275,9 +3281,9 @@ msgstr "添加附加存儲"
 msgid "Hide filters"
 msgstr ""
 
+#: pkg/machines/components/vm/bootOrderModal.jsx:97
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:138
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:35
-#: pkg/machines/components/vm/bootOrderModal.jsx:97
 #: pkg/machines/components/vmDiskColumns.jsx:47 pkg/shell/hosts.jsx:229
 msgid "Host"
 msgstr "主機"
@@ -3303,7 +3309,7 @@ msgstr ""
 msgid "Host should not be empty"
 msgstr "主持人不應該是空的"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:278
+#: pkg/systemd/overview-cards/configurationCard.jsx:277
 msgid "Hostname"
 msgstr "主機名稱"
 
@@ -3427,8 +3433,8 @@ msgstr ""
 
 # translation auto-copied from project Satellite6 Hammer CLI Foreman, version
 # 6.1, document hammer-cli-foreman
+#: pkg/networkmanager/firewall.jsx:544 pkg/machines/components/diskEdit.jsx:37
 #: pkg/docker/containers-view.jsx:132 pkg/docker/containers-view.jsx:415
-#: pkg/machines/components/diskEdit.jsx:37 pkg/networkmanager/firewall.jsx:544
 msgid "Id"
 msgstr "ID"
 
@@ -3486,24 +3492,24 @@ msgstr "映像檔"
 msgid "Images and running containers"
 msgstr "圖像和運行容器"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:809
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:822
 msgid "Immediately Start VM"
 msgstr "立即啟動VM"
 
 # translation auto-copied from project abrt, version master, document abrt
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:932
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:945
 #, fuzzy
 #| msgid "Report"
 msgid "Import"
 msgstr "回報"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:923
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:936
 #, fuzzy
 #| msgid "Virtual Machines"
 msgid "Import A Virtual Machine"
 msgstr "虛擬機器"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1002
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1015
 msgid "Import VM"
 msgstr ""
 
@@ -3511,7 +3517,7 @@ msgstr ""
 msgid "In Sync"
 msgstr "同步中"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:244
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:247
 msgid ""
 "In most configurations, macvtap does not work for host to guest network "
 "communication."
@@ -3570,9 +3576,9 @@ msgstr ""
 msgid "Insights: "
 msgstr ""
 
-#: pkg/apps/application-list.jsx:84 pkg/apps/application.jsx:113
-#: pkg/lib/cockpit-components-install-dialog.jsx:118
+#: pkg/apps/application.jsx:113 pkg/apps/application-list.jsx:89
 #: pkg/machines/components/vm/vmActions.jsx:127
+#: pkg/lib/cockpit-components-install-dialog.jsx:118
 msgid "Install"
 msgstr "安裝"
 
@@ -3600,15 +3606,15 @@ msgstr ""
 msgid "Install setroubleshoot-server to troubleshoot SELinux events."
 msgstr "安裝setroubleshoot-server以解決SELinux事件的故障。"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:309
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:312
 msgid "Installation Source"
 msgstr "安裝源"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:154
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:157
 msgid "Installation Source must not be empty"
 msgstr ""
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:288
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:291
 msgid "Installation Type"
 msgstr ""
 
@@ -3618,7 +3624,7 @@ msgstr ""
 msgid "Installed"
 msgstr "已安裝"
 
-#: pkg/apps/application-list.jsx:49 pkg/apps/application.jsx:56
+#: pkg/apps/application.jsx:56 pkg/apps/application-list.jsx:54
 #: pkg/packagekit/updates.jsx:63
 msgid "Installing"
 msgstr "安裝"
@@ -3640,8 +3646,8 @@ msgid "Interface Type"
 msgstr ""
 
 #: pkg/networkmanager/index.html:117 pkg/networkmanager/index.html:279
-#: pkg/networkmanager/firewall.jsx:153 pkg/networkmanager/firewall.jsx:679
-#: pkg/networkmanager/interfaces.js:2990
+#: pkg/networkmanager/interfaces.js:2990 pkg/networkmanager/firewall.jsx:153
+#: pkg/networkmanager/firewall.jsx:679
 msgid "Interfaces"
 msgstr "介面"
 
@@ -3697,7 +3703,7 @@ msgstr "失效日期無效"
 msgid "Invalid file permissions"
 msgstr "文件權限無效"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:141
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:144
 msgid "Invalid filename"
 msgstr "無效的文件名"
 
@@ -3930,7 +3936,7 @@ msgstr ""
 "留空以連接到當前登錄用戶的本機{{#default_user}} （{{default_user}}）{{/"
 "default_user}}。如果輸入其他用戶名，將始終使用該用戶連接到此計算機。"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:445
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:458
 msgid ""
 "Leave the password blank if you do not wish to have a root account created"
 msgstr ""
@@ -3952,15 +3958,15 @@ msgstr "許可下："
 msgid "Light"
 msgstr "淺色"
 
-#: pkg/shell/superuser.jsx:135
+#: pkg/shell/superuser.jsx:147
 msgid "Limit access"
 msgstr ""
 
-#: pkg/shell/superuser.jsx:332
+#: pkg/shell/superuser.jsx:344
 msgid "Limited access"
 msgstr ""
 
-#: pkg/shell/superuser.jsx:129
+#: pkg/shell/superuser.jsx:141
 msgid ""
 "Limited access mode restricts administrative privileges. Some parts of the "
 "web console will have reduced functionality."
@@ -4022,9 +4028,9 @@ msgstr "正在加載可用的更新，請稍候..."
 msgid "Loading system modifications..."
 msgstr ""
 
-#: pkg/kdump/kdump-view.jsx:370 pkg/machines/components/serialConsole.jsx:68
-#: pkg/storaged/devices.jsx:68 pkg/systemd/logs.js:214 pkg/systemd/logs.js:256
-#: pkg/systemd/services/services.jsx:678
+#: pkg/storaged/devices.jsx:68 pkg/machines/components/serialConsole.jsx:68
+#: pkg/systemd/logs.js:214 pkg/systemd/logs.js:256
+#: pkg/systemd/services/services.jsx:676 pkg/kdump/kdump-view.jsx:370
 msgid "Loading..."
 msgstr "正在載入..."
 
@@ -4036,7 +4042,7 @@ msgstr "本地帳號"
 msgid "Local Filesystem"
 msgstr "本地檔案系統"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:296
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:299
 msgid "Local Install Media"
 msgstr ""
 
@@ -4052,7 +4058,7 @@ msgstr "位置"
 msgid "Lock"
 msgstr "鎖定"
 
-#: pkg/users/account-create-dialog.js:79 pkg/users/account-details.js:306
+#: pkg/users/account-details.js:306 pkg/users/account-create-dialog.js:79
 msgid "Lock Account"
 msgstr "鎖定帳號"
 
@@ -4155,7 +4161,7 @@ msgstr "午餐盒"
 msgid "MAC"
 msgstr "MAC"
 
-#: pkg/machines/components/nicAdd.jsx:41 pkg/machines/components/nicEdit.jsx:41
+#: pkg/machines/components/nicEdit.jsx:41 pkg/machines/components/nicAdd.jsx:41
 #: pkg/machines/components/vmnetworktab.jsx:157
 msgid "MAC Address"
 msgstr "MAC 位址"
@@ -4314,12 +4320,12 @@ msgstr "RAID設備的成員"
 msgid "Member of RAID Device $0"
 msgstr "RAID設備的成員 $0"
 
-#: pkg/dashboard/index.html:74 pkg/docker/index.html:266
-#: pkg/playground/translate.html:89 pkg/systemd/graphs.html:79
-#: pkg/docker/containers-view.jsx:366
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:459
+#: pkg/dashboard/index.html:74 pkg/playground/translate.html:89
+#: pkg/systemd/graphs.html:79 pkg/docker/index.html:266
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:472
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:266
 #: pkg/systemd/hwinfo.jsx:272 pkg/systemd/overview-cards/usageCard.jsx:132
+#: pkg/docker/containers-view.jsx:366
 msgid "Memory"
 msgstr "記憶體"
 
@@ -4353,7 +4359,7 @@ msgstr ""
 msgid "Memory limit"
 msgstr "內存限制"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:158
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:161
 msgid "Memory must not be 0"
 msgstr ""
 
@@ -4373,13 +4379,13 @@ msgstr ""
 msgid "Metadata Used"
 msgstr "使用的元數據"
 
-#: pkg/shell/superuser.jsx:57
+#: pkg/shell/superuser.jsx:69
 msgid "Method"
 msgstr ""
 
 #: pkg/docker/index.html:429 pkg/docker/index.html:604
-#: pkg/machines/components/memorySelectRow.jsx:82
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:95
+#: pkg/machines/components/memorySelectRow.jsx:82
 msgid "MiB"
 msgstr "MiB"
 
@@ -4465,8 +4471,8 @@ msgstr "更多訊息"
 msgid "More details"
 msgstr "更多詳細資訊"
 
-#: pkg/kdump/kdump-view.jsx:99 pkg/storaged/content-views.jsx:374
-#: pkg/storaged/fsys-tab.jsx:268 pkg/storaged/nfs-details.jsx:300
+#: pkg/storaged/fsys-tab.jsx:268 pkg/storaged/content-views.jsx:374
+#: pkg/storaged/nfs-details.jsx:300 pkg/kdump/kdump-view.jsx:99
 msgid "Mount"
 msgstr "安裝"
 
@@ -4478,14 +4484,14 @@ msgstr ""
 msgid "Mount Filesystem"
 msgstr ""
 
-#: pkg/storaged/format-dialog.jsx:236 pkg/storaged/fsys-tab.jsx:233
+#: pkg/storaged/fsys-tab.jsx:233 pkg/storaged/format-dialog.jsx:236
 #: pkg/storaged/nfs-details.jsx:169
 msgid "Mount Options"
 msgstr "裝載選項"
 
-#: pkg/storaged/format-dialog.jsx:230 pkg/storaged/fsys-panel.jsx:95
 #: pkg/storaged/fsys-tab.jsx:228 pkg/storaged/fsys-tab.jsx:496
-#: pkg/storaged/nfs-details.jsx:317 pkg/storaged/nfs-panel.jsx:103
+#: pkg/storaged/format-dialog.jsx:230 pkg/storaged/nfs-panel.jsx:103
+#: pkg/storaged/fsys-panel.jsx:95 pkg/storaged/nfs-details.jsx:317
 msgid "Mount Point"
 msgstr "掛載"
 
@@ -4505,7 +4511,7 @@ msgstr ""
 msgid "Mount container volumes"
 msgstr "裝載容器卷"
 
-#: pkg/storaged/format-dialog.jsx:245 pkg/storaged/fsys-tab.jsx:463
+#: pkg/storaged/fsys-tab.jsx:463 pkg/storaged/format-dialog.jsx:245
 msgid "Mount now"
 msgstr ""
 
@@ -4529,7 +4535,7 @@ msgstr ""
 msgid "Mount point must start with \"/\"."
 msgstr "掛載點必須以“/”開頭。"
 
-#: pkg/storaged/format-dialog.jsx:246 pkg/storaged/fsys-tab.jsx:240
+#: pkg/storaged/fsys-tab.jsx:240 pkg/storaged/format-dialog.jsx:246
 #: pkg/storaged/nfs-details.jsx:173
 msgid "Mount read only"
 msgstr "安裝唯讀"
@@ -4577,29 +4583,28 @@ msgstr "NSNA Ping"
 msgid "NTP Server"
 msgstr "NTP伺服器"
 
-#: pkg/docker/index.html:262 pkg/networkmanager/index.html:128
-#: pkg/networkmanager/index.html:146 pkg/networkmanager/index.html:178
-#: pkg/networkmanager/index.html:222 pkg/networkmanager/index.html:275
-#: pkg/networkmanager/index.html:332 pkg/docker/containers-view.jsx:366
-#: pkg/docker/containers-view.jsx:573
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:198
-#: pkg/machines/components/networks/createNetworkDialog.jsx:121
-#: pkg/machines/components/networks/networkList.jsx:55
-#: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:43
-#: pkg/machines/components/storagePools/storagePoolList.jsx:54
-#: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:79
-#: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:33
-#: pkg/machines/hostvmslist.jsx:95 pkg/packagekit/updates.jsx:394
-#: pkg/storaged/content-views.jsx:115 pkg/storaged/content-views.jsx:271
-#: pkg/storaged/content-views.jsx:717 pkg/storaged/format-dialog.jsx:201
-#: pkg/storaged/fsys-panel.jsx:94 pkg/storaged/fsys-tab.jsx:340
+#: pkg/networkmanager/index.html:128 pkg/networkmanager/index.html:146
+#: pkg/networkmanager/index.html:178 pkg/networkmanager/index.html:222
+#: pkg/networkmanager/index.html:275 pkg/networkmanager/index.html:332
+#: pkg/docker/index.html:262 pkg/storaged/fsys-tab.jsx:340
 #: pkg/storaged/fsys-tab.jsx:492 pkg/storaged/iscsi-panel.jsx:128
-#: pkg/storaged/iscsi-panel.jsx:185 pkg/storaged/lvol-tabs.jsx:35
-#: pkg/storaged/lvol-tabs.jsx:380 pkg/storaged/lvol-tabs.jsx:434
-#: pkg/storaged/mdraids-panel.jsx:61 pkg/storaged/part-tab.jsx:33
-#: pkg/storaged/vdos-panel.jsx:82 pkg/storaged/vgroup-details.jsx:157
-#: pkg/storaged/vgroups-panel.jsx:74 pkg/systemd/hwinfo.jsx:72
-#: pkg/systemd/services/services-list.jsx:52
+#: pkg/storaged/iscsi-panel.jsx:185 pkg/storaged/format-dialog.jsx:201
+#: pkg/storaged/part-tab.jsx:33 pkg/storaged/content-views.jsx:115
+#: pkg/storaged/content-views.jsx:271 pkg/storaged/content-views.jsx:717
+#: pkg/storaged/vgroups-panel.jsx:74 pkg/storaged/mdraids-panel.jsx:61
+#: pkg/storaged/lvol-tabs.jsx:35 pkg/storaged/lvol-tabs.jsx:380
+#: pkg/storaged/lvol-tabs.jsx:434 pkg/storaged/vgroup-details.jsx:157
+#: pkg/storaged/vdos-panel.jsx:82 pkg/storaged/fsys-panel.jsx:94
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:201
+#: pkg/machines/components/storagePools/storagePoolList.jsx:56
+#: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:79
+#: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:43
+#: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:33
+#: pkg/machines/components/networks/createNetworkDialog.jsx:121
+#: pkg/machines/components/networks/networkList.jsx:56
+#: pkg/machines/hostvmslist.jsx:97 pkg/packagekit/updates.jsx:394
+#: pkg/systemd/hwinfo.jsx:72 pkg/systemd/services/services-list.jsx:52
+#: pkg/docker/containers-view.jsx:366 pkg/docker/containers-view.jsx:573
 msgid "Name"
 msgstr "名稱"
 
@@ -4637,12 +4642,12 @@ msgstr "名稱不能包含空格。"
 msgid "Name contains invalid characters"
 msgstr "名稱不能包含字符'$0“。"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:125
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:128
 msgid "Name must not be empty"
 msgstr ""
 
-#: pkg/machines/components/networks/createNetworkDialog.jsx:54
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:54
+#: pkg/machines/components/networks/createNetworkDialog.jsx:54
 msgid "Name should not be empty"
 msgstr "名稱不應為空"
 
@@ -4669,19 +4674,19 @@ msgctxt "label"
 msgid "Network"
 msgstr "網路"
 
-#: pkg/machines/components/networks/network.jsx:120
+#: pkg/machines/components/networks/network.jsx:116
 msgid "Network $0 failed to get activated"
 msgstr ""
 
-#: pkg/machines/components/networks/network.jsx:132
+#: pkg/machines/components/networks/network.jsx:128
 msgid "Network $0 failed to get deactivated"
 msgstr ""
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:301
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:304
 msgid "Network Boot (PXE)"
 msgstr ""
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:298
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:301
 msgid "Network Boot is available only when using System connection"
 msgstr ""
 
@@ -4689,11 +4694,11 @@ msgstr ""
 msgid "Network File System"
 msgstr "網絡檔案系統"
 
-#: pkg/machines/components/vm/vmExpandedContent.jsx:43
+#: pkg/machines/components/vm/vmExpandedContent.jsx:44
 msgid "Network Interfaces"
 msgstr ""
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:250
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:253
 msgid "Network Selection does not support PXE."
 msgstr ""
 
@@ -4710,8 +4715,8 @@ msgstr "網路"
 msgid "Network devices and graphs require NetworkManager."
 msgstr "網絡設備和圖形需要NetworkManager。"
 
-#: pkg/machines/components/nicAdd.jsx:149
 #: pkg/machines/components/nicEdit.jsx:119
+#: pkg/machines/components/nicAdd.jsx:149
 msgid "Network interface settings could not be saved"
 msgstr ""
 
@@ -4766,7 +4771,7 @@ msgstr "新卷名稱"
 msgid "New passphrase"
 msgstr "新密碼"
 
-#: pkg/lib/credentials.js:237 pkg/users/password-dialogs.js:104
+#: pkg/users/password-dialogs.js:104 pkg/lib/credentials.js:237
 msgid "New password was not accepted"
 msgstr "不接受新密碼"
 
@@ -4779,9 +4784,9 @@ msgstr "下一步"
 msgid "Nice"
 msgstr "Nice"
 
-#: pkg/docker/index.html:505 pkg/docker/index.html:509 pkg/docker/run.js:239
-#: pkg/docker/util.js:103 pkg/networkmanager/interfaces.js:2598
-#: pkg/systemd/reporting.jsx:271
+#: pkg/docker/index.html:505 pkg/docker/index.html:509
+#: pkg/networkmanager/interfaces.js:2598 pkg/systemd/reporting.jsx:271
+#: pkg/docker/util.js:103 pkg/docker/run.js:239
 msgid "No"
 msgstr "否"
 
@@ -4817,7 +4822,7 @@ msgstr ""
 msgid "No SELinux alerts."
 msgstr "沒有SELinux警報。"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:502
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:515
 msgid "No Storage"
 msgstr ""
 
@@ -4834,7 +4839,7 @@ msgstr "沒有為此存儲池定義存儲卷"
 msgid "No System Modifications"
 msgstr ""
 
-#: pkg/machines/hostvmslist.jsx:92
+#: pkg/machines/hostvmslist.jsx:94
 msgid "No VM is running or defined on this host"
 msgstr "此主機上未運行或定義VM"
 
@@ -4846,7 +4851,7 @@ msgstr ""
 msgid "No alias specified"
 msgstr "沒有指定別名"
 
-#: pkg/apps/application-list.jsx:138
+#: pkg/apps/application-list.jsx:156
 msgid "No applications installed or available"
 msgstr "沒有安裝或可用的應用程式"
 
@@ -4894,9 +4899,9 @@ msgstr ""
 msgid "No description provided."
 msgstr "沒有提供說明。"
 
-#: pkg/storaged/mdraid-details.jsx:51 pkg/storaged/mdraids-panel.jsx:112
-#: pkg/storaged/vdos-panel.jsx:92 pkg/storaged/vgroup-details.jsx:58
-#: pkg/storaged/vgroups-panel.jsx:81
+#: pkg/storaged/vgroups-panel.jsx:81 pkg/storaged/mdraids-panel.jsx:112
+#: pkg/storaged/vgroup-details.jsx:58 pkg/storaged/vdos-panel.jsx:92
+#: pkg/storaged/mdraid-details.jsx:51
 msgid "No disks are available."
 msgstr "沒有磁碟可用。"
 
@@ -4946,7 +4951,7 @@ msgstr "沒有新增密鑰"
 msgid "No log entries"
 msgstr "加載較早的條目"
 
-#: pkg/systemd/services/services.jsx:790
+#: pkg/systemd/services/services.jsx:788
 msgid "No matching results"
 msgstr ""
 
@@ -4967,7 +4972,7 @@ msgstr ""
 msgid "No network interfaces defined for this VM"
 msgstr "沒有為此VM定義的網絡接口"
 
-#: pkg/machines/components/networks/networkList.jsx:56
+#: pkg/machines/components/networks/networkList.jsx:57
 msgid "No network is defined on this host"
 msgstr ""
 
@@ -4991,7 +4996,7 @@ msgstr "沒有結果 $0"
 msgid "No results found"
 msgstr ""
 
-#: pkg/systemd/services/services.jsx:788
+#: pkg/systemd/services/services.jsx:786
 msgid ""
 "No results match the filter criteria. Clear all filters to show results."
 msgstr ""
@@ -5008,12 +5013,18 @@ msgstr "沒有運行容器"
 msgid "No running containers that match the current filter"
 msgstr "沒有與當前過濾器匹配的正在運行的容器"
 
-#: pkg/machines/components/storagePools/storagePoolList.jsx:55
+#: pkg/machines/components/storagePools/storagePoolList.jsx:57
 msgid "No storage pool is defined on this host"
 msgstr "此主機上未定義存儲池"
 
 #: pkg/lib/credentials.js:186
 msgid "No such file or directory"
+msgstr "沒有相應的文件和目錄"
+
+#: pkg/lib/cockpit-components-file-autocomplete.jsx:153
+#, fuzzy
+#| msgid "No such file or directory"
+msgid "No such file or directory '$0'"
 msgstr "沒有相應的文件和目錄"
 
 #: pkg/packagekit/updates.jsx:54
@@ -5024,7 +5035,7 @@ msgstr "沒有更新"
 msgid "No user name specified"
 msgstr "未指定用戶名"
 
-#: pkg/machines/components/networks/network.jsx:170
+#: pkg/machines/components/networks/network.jsx:166
 msgid ""
 "Non-persistent network cannot be deleted. It ceases to exists when it's "
 "deactivated."
@@ -5036,9 +5047,9 @@ msgid ""
 "deactivated."
 msgstr ""
 
-#: pkg/kdump/kdump-view.jsx:422
+#: pkg/networkmanager/firewall.jsx:675
 #: pkg/machines/components/networks/createNetworkDialog.jsx:203
-#: pkg/networkmanager/firewall.jsx:675 pkg/tuned/dialog.js:226
+#: pkg/tuned/dialog.js:226 pkg/kdump/kdump-view.jsx:422
 msgid "None"
 msgstr "無"
 
@@ -5090,11 +5101,11 @@ msgstr ""
 msgid "Not enough space to grow."
 msgstr ""
 
-#: pkg/docker/details.js:181 pkg/storaged/details.jsx:121
+#: pkg/storaged/details.jsx:121 pkg/docker/details.js:181
 msgid "Not found"
 msgstr "未找到"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:267
+#: pkg/systemd/overview-cards/configurationCard.jsx:266
 #, fuzzy
 #| msgid "Not mounted"
 msgid "Not joined"
@@ -5110,7 +5121,7 @@ msgstr "不允許執行此操作。"
 
 #: pkg/storaged/mdraid-details.jsx:328
 #: pkg/systemd/services/service-details.jsx:443
-#: pkg/systemd/services/services.jsx:528
+#: pkg/systemd/services/services.jsx:526
 msgid "Not running"
 msgstr "沒跑"
 
@@ -5150,7 +5161,7 @@ msgstr "舊密碼"
 msgid "Old passphrase"
 msgstr "舊密碼"
 
-#: pkg/lib/credentials.js:218 pkg/users/password-dialogs.js:51
+#: pkg/users/password-dialogs.js:51 pkg/lib/credentials.js:218
 msgid "Old password not accepted"
 msgstr "舊密碼不被接受"
 
@@ -5208,7 +5219,7 @@ msgstr "[錯誤]"
 msgid "Open"
 msgstr ""
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:359
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:371
 msgid "Operating System"
 msgstr "作業系統"
 
@@ -5216,8 +5227,8 @@ msgstr "作業系統"
 msgid "Operation '$operation' on $target"
 msgstr "運營'$operation' 上 $target"
 
-#: pkg/machines/components/storagePools/storagePool.jsx:171
-#: pkg/machines/components/storagePools/storagePool.jsx:178
+#: pkg/machines/components/storagePools/storagePool.jsx:166
+#: pkg/machines/components/storagePools/storagePool.jsx:173
 msgid "Operation is in progress"
 msgstr ""
 
@@ -5258,14 +5269,14 @@ msgstr "其他選擇"
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
 #: pkg/systemd/graphs.html:23 pkg/systemd/graphs.html:106
-#: pkg/machines/components/networks/network.jsx:73
-#: pkg/machines/components/storagePools/storagePool.jsx:73
-#: pkg/machines/components/vm/vmExpandedContent.jsx:40
-#: pkg/systemd/hwinfo.jsx:285 pkg/systemd/manifest.json.in
+#: pkg/machines/components/vm/vmExpandedContent.jsx:41
+#: pkg/machines/components/storagePools/storagePool.jsx:64
+#: pkg/machines/components/networks/network.jsx:70 pkg/systemd/hwinfo.jsx:285
+#: pkg/systemd/manifest.json.in
 msgid "Overview"
 msgstr "主機狀態"
 
-#: pkg/storaged/content-views.jsx:587 pkg/storaged/format-dialog.jsx:196
+#: pkg/storaged/format-dialog.jsx:196 pkg/storaged/content-views.jsx:587
 msgid "Overwrite existing data with zeros"
 msgstr "用零覆蓋現有數據"
 
@@ -5273,7 +5284,7 @@ msgstr "用零覆蓋現有數據"
 msgid "PCI"
 msgstr "PCI"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:322
+#: pkg/systemd/overview-cards/configurationCard.jsx:321
 msgid "PCP"
 msgstr ""
 
@@ -5325,14 +5336,14 @@ msgstr "分割硬碟"
 msgid "Passive"
 msgstr "被動"
 
-#: pkg/storaged/content-views.jsx:239 pkg/storaged/crypto-keyslots.jsx:209
-#: pkg/storaged/crypto-keyslots.jsx:565 pkg/storaged/format-dialog.jsx:213
+#: pkg/storaged/format-dialog.jsx:213 pkg/storaged/content-views.jsx:239
+#: pkg/storaged/crypto-keyslots.jsx:209 pkg/storaged/crypto-keyslots.jsx:565
 msgid "Passphrase"
 msgstr "密碼"
 
-#: pkg/storaged/crypto-keyslots.jsx:158 pkg/storaged/crypto-keyslots.jsx:217
-#: pkg/storaged/crypto-keyslots.jsx:258 pkg/storaged/crypto-keyslots.jsx:261
-#: pkg/storaged/format-dialog.jsx:217
+#: pkg/storaged/format-dialog.jsx:217 pkg/storaged/crypto-keyslots.jsx:158
+#: pkg/storaged/crypto-keyslots.jsx:217 pkg/storaged/crypto-keyslots.jsx:258
+#: pkg/storaged/crypto-keyslots.jsx:261
 msgid "Passphrase cannot be empty"
 msgstr "密碼短語不能為空"
 
@@ -5340,17 +5351,17 @@ msgstr "密碼短語不能為空"
 msgid "Passphrase removal may prevent unlocking $0."
 msgstr "密碼短語刪除可能會阻止解鎖 $0。"
 
-#: pkg/storaged/crypto-keyslots.jsx:225 pkg/storaged/crypto-keyslots.jsx:263
-#: pkg/storaged/format-dialog.jsx:225
+#: pkg/storaged/format-dialog.jsx:225 pkg/storaged/crypto-keyslots.jsx:225
+#: pkg/storaged/crypto-keyslots.jsx:263
 msgid "Passphrases do not match"
 msgstr "密碼短語不匹配"
 
+#: pkg/shell/index.html:275 pkg/shell/index.html:304 pkg/shell/index.html:319
 #: pkg/lib/machine-auth-failed.html:8 pkg/lib/machine-change-auth.html:52
-#: pkg/lib/machine-sync-users.html:63 pkg/shell/index.html:275
-#: pkg/shell/index.html:304 pkg/shell/index.html:319 src/ws/login.html:55
-#: pkg/shell/superuser.jsx:44 pkg/storaged/iscsi-panel.jsx:47
-#: pkg/storaged/iscsi-panel.jsx:157 pkg/users/account-create-dialog.js:52
-#: pkg/users/account-details.js:318
+#: pkg/lib/machine-sync-users.html:63 src/ws/login.html:55
+#: pkg/storaged/iscsi-panel.jsx:47 pkg/storaged/iscsi-panel.jsx:157
+#: pkg/shell/superuser.jsx:56 pkg/users/account-details.js:318
+#: pkg/users/account-create-dialog.js:52
 msgid "Password"
 msgstr "密碼"
 
@@ -5414,11 +5425,11 @@ msgstr "伺服器上的路徑不能為空。"
 msgid "Path on server must start with \"/\"."
 msgstr "伺服器上的路徑必須以“/”開頭。"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:227
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:230
 msgid "Path to ISO file on host's file system"
 msgstr "主機檔案系統上ISO文件的路徑"
 
-#: pkg/lib/cockpit-components-file-autocomplete.jsx:141
+#: pkg/lib/cockpit-components-file-autocomplete.jsx:146
 msgid "Path to file"
 msgstr "文件路徑"
 
@@ -5431,7 +5442,7 @@ msgstr "路徑"
 msgid "Pause"
 msgstr ""
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:296
+#: pkg/systemd/overview-cards/configurationCard.jsx:295
 msgid "Performance profile"
 msgstr "效能配置"
 
@@ -5456,8 +5467,8 @@ msgstr ""
 msgid "Persistence"
 msgstr ""
 
-#: pkg/machines/components/networks/networkOverviewTab.jsx:83
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:66
+#: pkg/machines/components/networks/networkOverviewTab.jsx:83
 msgid "Persistent"
 msgstr ""
 
@@ -5503,7 +5514,7 @@ msgstr "Ping目標"
 msgid "Pizza Box"
 msgstr "披薩盒"
 
-#: pkg/shell/superuser.jsx:43
+#: pkg/shell/superuser.jsx:55
 msgid "Please authenticate to gain administrative access"
 msgstr ""
 
@@ -5519,10 +5530,10 @@ msgstr "無法重置存儲池"
 msgid "Please choose a volume"
 msgstr "請輸入新的捲名"
 
-#: pkg/docker/containers-view.jsx:205 pkg/docker/details.js:286
-#: pkg/docker/util.js:616 pkg/storaged/content-views.jsx:340
-#: pkg/storaged/mdraid-details.jsx:281 pkg/storaged/vdo-details.jsx:194
-#: pkg/storaged/vgroup-details.jsx:189
+#: pkg/storaged/content-views.jsx:340 pkg/storaged/vdo-details.jsx:194
+#: pkg/storaged/vgroup-details.jsx:189 pkg/storaged/mdraid-details.jsx:281
+#: pkg/docker/util.js:616 pkg/docker/containers-view.jsx:205
+#: pkg/docker/details.js:286
 msgid "Please confirm deletion of $0"
 msgstr "請確認刪除 $0"
 
@@ -5530,7 +5541,7 @@ msgstr "請確認刪除 $0"
 msgid "Please confirm forced deletion of $0"
 msgstr "請確認強制刪除 $0"
 
-#: pkg/storaged/mdraid-details.jsx:230 pkg/storaged/vdo-details.jsx:136
+#: pkg/storaged/vdo-details.jsx:136 pkg/storaged/mdraid-details.jsx:230
 msgid "Please confirm stopping of $0"
 msgstr "請確認停止 $0"
 
@@ -5546,7 +5557,7 @@ msgstr "請輸入新的捲大小"
 msgid "Please install the $0 package"
 msgstr "請安裝 $0 包"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:187
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:190
 #, fuzzy
 #| msgid "Wrong user name or password"
 msgid "Please set a root password"
@@ -5572,11 +5583,10 @@ msgstr "請嘗試另一個學期"
 msgid "Plug"
 msgstr "插頭"
 
-#: pkg/machines/components/deleteDialog.jsx:54
-#: pkg/machines/components/diskAdd.jsx:117
+#: pkg/storaged/content-views.jsx:139 pkg/machines/components/diskAdd.jsx:117
 #: pkg/machines/components/vm/bootOrderModal.jsx:95
+#: pkg/machines/components/deleteDialog.jsx:54
 #: pkg/machines/components/vmDiskColumns.jsx:45
-#: pkg/storaged/content-views.jsx:139
 msgid "Pool"
 msgstr "集池"
 
@@ -5601,12 +5611,11 @@ msgstr ""
 msgid "Pool's volumes are used by VMs "
 msgstr ""
 
-#: pkg/lib/machine-change-port.html:23
+#: pkg/lib/machine-change-port.html:23 pkg/storaged/iscsi-panel.jsx:128
 #: pkg/machines/components/vm/bootOrderModal.jsx:98
 #: pkg/machines/components/vm/bootOrderModal.jsx:110
 #: pkg/machines/components/vmDiskColumns.jsx:48
 #: pkg/machines/components/vmnetworktab.jsx:129
-#: pkg/storaged/iscsi-panel.jsx:128
 msgid "Port"
 msgstr "連接埠"
 
@@ -5618,9 +5627,9 @@ msgstr ""
 msgid "Portable"
 msgstr "手提"
 
-#: pkg/docker/index.html:467 pkg/networkmanager/index.html:226
-#: pkg/networkmanager/index.html:336 pkg/docker/containers-view.jsx:421
-#: pkg/networkmanager/interfaces.js:2990
+#: pkg/networkmanager/index.html:226 pkg/networkmanager/index.html:336
+#: pkg/docker/index.html:467 pkg/networkmanager/interfaces.js:2990
+#: pkg/docker/containers-view.jsx:421
 msgid "Ports"
 msgstr "連接埠"
 
@@ -5701,7 +5710,7 @@ msgstr "問題訊息"
 msgid "Problems"
 msgstr "問題"
 
-#: pkg/storaged/dialog.jsx:1034
+#: pkg/storaged/dialog.jsx:1029
 msgid "Process"
 msgstr "程式"
 
@@ -5710,7 +5719,7 @@ msgstr "程式"
 msgid "Product"
 msgstr ""
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:419
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:432
 #, fuzzy
 #| msgid "Change Profile"
 msgid "Profile"
@@ -5742,7 +5751,7 @@ msgstr "宣傳重新加載"
 msgid "Protocol"
 msgstr "協定"
 
-#: pkg/lib/machine-auth-failed.html:9 pkg/shell/index.html:303
+#: pkg/shell/index.html:303 pkg/lib/machine-auth-failed.html:9
 msgid "Public Key"
 msgstr "公鑰"
 
@@ -5807,7 +5816,7 @@ msgid "RAID Chassis"
 msgstr "RAID機箱"
 
 # translation auto-copied from project Blivet, version master, document blivet
-#: pkg/storaged/mdraids-panel.jsx:41 pkg/storaged/pvol-tabs.jsx:59
+#: pkg/storaged/pvol-tabs.jsx:59 pkg/storaged/mdraids-panel.jsx:41
 msgid "RAID Device"
 msgstr "RAID 裝置"
 
@@ -5860,8 +5869,8 @@ msgstr "原始設備"
 msgid "Read more..."
 msgstr ""
 
-#: pkg/machines/components/diskEdit.jsx:106
 #: pkg/machines/components/vmDisksTab.jsx:143
+#: pkg/machines/components/diskEdit.jsx:106
 #: pkg/systemd/services/service-details.jsx:470
 msgid "Read-only"
 msgstr ""
@@ -5895,17 +5904,17 @@ msgstr "已準備好"
 msgid "Real Host Name"
 msgstr "真實主機名"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:419
+#: pkg/systemd/overview-cards/configurationCard.jsx:418
 msgid ""
 "Real host name can only contain lower-case characters, digits, dashes, and "
 "periods (with populated subdomains)"
 msgstr "真實主機名只能包含小寫字符，數字，短劃線和句點（帶有填充的子域）"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:420
+#: pkg/systemd/overview-cards/configurationCard.jsx:419
 msgid "Real host name must be 64 characters or less"
 msgstr "實際主機名必須為64個字符或更少"
 
-#: pkg/lib/cockpit-components-logs-panel.jsx:99 pkg/lib/journal.js:253
+#: pkg/lib/journal.js:253 pkg/lib/cockpit-components-logs-panel.jsx:99
 msgid "Reboot"
 msgstr "重新開機"
 
@@ -5959,7 +5968,7 @@ msgstr "重新載入"
 msgid "Reload Propagated From"
 msgstr "重新傳播來自"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:274
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:277
 msgid "Remote URL"
 msgstr "遠程URL"
 
@@ -5980,11 +5989,10 @@ msgstr "可拆卸驅動器"
 msgid "Removals:"
 msgstr "清除："
 
-#: pkg/apps/application-list.jsx:82 pkg/apps/application.jsx:110
-#: pkg/machines/components/vmDisksTab.jsx:171
-#: pkg/machines/components/vmDisksTab.jsx:181
 #: pkg/storaged/crypto-keyslots.jsx:402 pkg/storaged/crypto-keyslots.jsx:439
-#: pkg/storaged/nfs-details.jsx:307
+#: pkg/storaged/nfs-details.jsx:307 pkg/apps/application.jsx:110
+#: pkg/apps/application-list.jsx:87 pkg/machines/components/vmDisksTab.jsx:171
+#: pkg/machines/components/vmDisksTab.jsx:181
 msgid "Remove"
 msgstr "移除"
 
@@ -6026,7 +6034,7 @@ msgstr ""
 
 # translation auto-copied from project subscription-manager, version 1.11.X,
 # document keys
-#: pkg/apps/application-list.jsx:53 pkg/apps/application.jsx:60
+#: pkg/apps/application.jsx:60 pkg/apps/application-list.jsx:58
 msgid "Removing"
 msgstr "移除"
 
@@ -6174,7 +6182,7 @@ msgstr "必備的"
 msgid "Reserved memory"
 msgstr "保留的內存"
 
-#: pkg/systemd/terminal.jsx:103 pkg/users/password-dialogs.js:312
+#: pkg/users/password-dialogs.js:312 pkg/systemd/terminal.jsx:103
 msgid "Reset"
 msgstr "重置"
 
@@ -6190,10 +6198,11 @@ msgid ""
 msgstr ""
 
 # ctx::sourcefile::/rhn/admin/config/Restart.do
-#: pkg/docker/index.html:131 pkg/docker/containers-view.jsx:320
-#: pkg/machines/components/vm/vmActions.jsx:104 pkg/systemd/overview.jsx:209
-#: pkg/systemd/overview.jsx:226 pkg/systemd/services/service-details.jsx:244
+#: pkg/docker/index.html:131 pkg/machines/components/vm/vmActions.jsx:104
+#: pkg/systemd/overview.jsx:209 pkg/systemd/overview.jsx:226
 #: pkg/systemd/shutdown.js:99 pkg/systemd/shutdown.js:100
+#: pkg/systemd/services/service-details.jsx:244
+#: pkg/docker/containers-view.jsx:320
 msgid "Restart"
 msgstr "重新啟動"
 
@@ -6246,7 +6255,7 @@ msgstr "網絡日誌"
 msgid "Roles"
 msgstr "角色"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:439
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:452
 #, fuzzy
 #| msgid "Set Password"
 msgid "Root Password"
@@ -6268,8 +6277,8 @@ msgstr ""
 msgid "Routes"
 msgstr "路線"
 
-#: pkg/docker/index.html:246 pkg/docker/index.html:526
-#: pkg/systemd/services.html:200 pkg/machines/components/vm/vmActions.jsx:120
+#: pkg/systemd/services.html:200 pkg/docker/index.html:246
+#: pkg/docker/index.html:526 pkg/machines/components/vm/vmActions.jsx:120
 msgid "Run"
 msgstr "執行"
 
@@ -6277,7 +6286,7 @@ msgstr "執行"
 msgid "Run Image"
 msgstr "運行圖像"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:402
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:415
 msgid "Run unattended installation"
 msgstr ""
 
@@ -6292,7 +6301,7 @@ msgstr "跑步者"
 
 #: pkg/storaged/mdraid-details.jsx:328
 #: pkg/systemd/services/service-details.jsx:435
-#: pkg/systemd/services/services.jsx:524
+#: pkg/systemd/services/services.jsx:522
 msgid "Running"
 msgstr "執行中"
 
@@ -6379,12 +6388,13 @@ msgstr "週六"
 msgid "Saturdays"
 msgstr ""
 
-#: pkg/systemd/services.html:281 pkg/machines/components/diskEdit.jsx:212
-#: pkg/machines/components/nicEdit.jsx:171
-#: pkg/machines/components/vm/bootOrderModal.jsx:322
-#: pkg/machines/components/vm/firmwareModal.jsx:75
+#: pkg/systemd/services.html:281 pkg/storaged/crypto-keyslots.jsx:266
+#: pkg/storaged/crypto-keyslots.jsx:285
 #: pkg/machines/components/vm/memoryModal.jsx:152
-#: pkg/storaged/crypto-keyslots.jsx:266 pkg/storaged/crypto-keyslots.jsx:285
+#: pkg/machines/components/vm/firmwareModal.jsx:75
+#: pkg/machines/components/vm/bootOrderModal.jsx:322
+#: pkg/machines/components/nicEdit.jsx:171
+#: pkg/machines/components/diskEdit.jsx:212
 msgid "Save"
 msgstr "儲存"
 
@@ -6423,7 +6433,7 @@ msgstr ""
 msgid "Seconds"
 msgstr "秒"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:301
+#: pkg/systemd/overview-cards/configurationCard.jsx:300
 msgid "Secure Shell keys"
 msgstr "安全資料"
 
@@ -6474,8 +6484,8 @@ msgstr ""
 
 # translation auto-copied from project subscription-manager, version 1.11.X,
 # document keys
-#: src/ws/login.html:92 pkg/kdump/kdump-view.jsx:116
-#: pkg/storaged/nfs-details.jsx:314 pkg/storaged/nfs-panel.jsx:102
+#: src/ws/login.html:92 pkg/storaged/nfs-panel.jsx:102
+#: pkg/storaged/nfs-details.jsx:314 pkg/kdump/kdump-view.jsx:116
 msgid "Server"
 msgstr "伺服器"
 
@@ -6507,7 +6517,7 @@ msgstr "伺服器已關閉連接。"
 msgid "Servers"
 msgstr "伺服器"
 
-#: pkg/networkmanager/firewall.jsx:160 pkg/storaged/dialog.jsx:1038
+#: pkg/storaged/dialog.jsx:1033 pkg/networkmanager/firewall.jsx:160
 msgid "Service"
 msgstr "服務管理"
 
@@ -6544,8 +6554,8 @@ msgstr "服務名稱"
 msgid "Services"
 msgstr "服務"
 
+#: pkg/storaged/dialog.jsx:1029 pkg/machines/helpers.js:193
 #: pkg/machines/components/machinesConnectionSelector.jsx:50
-#: pkg/machines/helpers.js:193 pkg/storaged/dialog.jsx:1034
 msgid "Session"
 msgstr "作業階段"
 
@@ -6563,7 +6573,7 @@ msgstr "設置"
 msgid "Set DHCP Range"
 msgstr ""
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:254
+#: pkg/systemd/overview-cards/configurationCard.jsx:253
 msgid "Set Hostname"
 msgstr ""
 
@@ -6596,7 +6606,7 @@ msgid ""
 "Setting deviates from the configured state and will revert on the next boot."
 msgstr "設置偏離配置狀態，並在下次引導時恢復。"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:816
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:829
 msgid ""
 "Setting the user passwords for unattended installation requires starting the "
 "VM when creating it"
@@ -6664,7 +6674,7 @@ msgstr "顯示所有圖像"
 msgid "Show filters"
 msgstr "顯示指紋"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:304
+#: pkg/systemd/overview-cards/configurationCard.jsx:303
 msgid "Show fingerprints"
 msgstr "顯示指紋"
 
@@ -6700,37 +6710,37 @@ msgstr "關機"
 msgid "Single Rank"
 msgstr ""
 
-#: pkg/docker/containers-view.jsx:573
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:533
-#: pkg/machines/components/storagePools/storagePoolList.jsx:54
-#: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:79
-#: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:79
+#: pkg/storaged/format-dialog.jsx:184 pkg/storaged/part-tab.jsx:36
 #: pkg/storaged/content-views.jsx:120 pkg/storaged/content-views.jsx:764
-#: pkg/storaged/format-dialog.jsx:184 pkg/storaged/fsys-panel.jsx:96
 #: pkg/storaged/lvol-tabs.jsx:213 pkg/storaged/lvol-tabs.jsx:275
 #: pkg/storaged/lvol-tabs.jsx:384 pkg/storaged/lvol-tabs.jsx:437
-#: pkg/storaged/nfs-details.jsx:320 pkg/storaged/nfs-panel.jsx:104
-#: pkg/storaged/part-tab.jsx:36 pkg/systemd/hwinfo.jsx:273
+#: pkg/storaged/nfs-panel.jsx:104 pkg/storaged/fsys-panel.jsx:96
+#: pkg/storaged/nfs-details.jsx:320
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:546
+#: pkg/machines/components/storagePools/storagePoolList.jsx:56
+#: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:79
+#: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:79
+#: pkg/systemd/hwinfo.jsx:273 pkg/docker/containers-view.jsx:573
 msgid "Size"
 msgstr "大小"
 
-#: pkg/storaged/dialog.jsx:902
+#: pkg/storaged/dialog.jsx:897
 msgid "Size cannot be negative"
 msgstr "大小不能是負面的"
 
-#: pkg/storaged/dialog.jsx:900
+#: pkg/storaged/dialog.jsx:895
 msgid "Size cannot be zero"
 msgstr "大小不能為零"
 
-#: pkg/storaged/dialog.jsx:904
+#: pkg/storaged/dialog.jsx:899
 msgid "Size is too large"
 msgstr "尺寸太大"
 
-#: pkg/storaged/dialog.jsx:898
+#: pkg/storaged/dialog.jsx:893
 msgid "Size must be a number"
 msgstr "大小必須是數字"
 
-#: pkg/storaged/dialog.jsx:906
+#: pkg/storaged/dialog.jsx:901
 msgid "Size must be at least $0"
 msgstr "尺寸必須至少為 $0"
 
@@ -6789,7 +6799,7 @@ msgid ""
 "Some other program is currently using the package manager, please wait..."
 msgstr "其他一些程式目前正在使用包管理器，請稍候..."
 
-#: pkg/shell/superuser.jsx:291
+#: pkg/shell/superuser.jsx:303
 msgid "Something went wrong"
 msgstr ""
 
@@ -6798,10 +6808,10 @@ msgid "Sorted from least trusted to most trusted"
 msgstr ""
 
 #: pkg/machines/components/diskAdd.jsx:484
-#: pkg/machines/components/nicBody.jsx:146
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:52
-#: pkg/machines/components/vmDisksTab.jsx:117
+#: pkg/machines/components/nicBody.jsx:146
 #: pkg/machines/components/vmnetworktab.jsx:176
+#: pkg/machines/components/vmDisksTab.jsx:117
 msgid "Source"
 msgstr "來源"
 
@@ -6825,7 +6835,7 @@ msgstr ""
 msgid "Source path should not be empty"
 msgstr "源路徑不應為空"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:149
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:152
 msgid "Source should start with http, ftp or nfs protocol"
 msgstr ""
 
@@ -6857,11 +6867,11 @@ msgstr ""
 msgid "Stable"
 msgstr "穩定"
 
-#: pkg/docker/index.html:129 pkg/docker/containers-view.jsx:317
+#: pkg/docker/index.html:129 pkg/storaged/content-views.jsx:306
+#: pkg/storaged/vdo-details.jsx:258 pkg/storaged/mdraid-details.jsx:305
 #: pkg/machines/components/networks/createNetworkDialog.jsx:236
-#: pkg/storaged/content-views.jsx:306 pkg/storaged/mdraid-details.jsx:305
-#: pkg/storaged/vdo-details.jsx:258
 #: pkg/systemd/services/service-details.jsx:251
+#: pkg/docker/containers-view.jsx:317
 msgid "Start"
 msgstr "開始"
 
@@ -6907,11 +6917,11 @@ msgstr "啟動swapspace $target"
 msgid "Startup"
 msgstr "啟動"
 
-#: pkg/docker/containers-view.jsx:137 pkg/docker/containers-view.jsx:366
-#: pkg/machines/components/networks/networkList.jsx:55
-#: pkg/machines/components/storagePools/storagePoolList.jsx:54
-#: pkg/machines/components/vmnetworktab.jsx:202 pkg/machines/hostvmslist.jsx:97
+#: pkg/machines/components/storagePools/storagePoolList.jsx:56
+#: pkg/machines/components/networks/networkList.jsx:56
+#: pkg/machines/components/vmnetworktab.jsx:202 pkg/machines/hostvmslist.jsx:99
 #: pkg/systemd/hwinfo.jsx:273 pkg/systemd/services/services-list.jsx:98
+#: pkg/docker/containers-view.jsx:137 pkg/docker/containers-view.jsx:366
 msgid "State"
 msgstr "狀態"
 
@@ -6929,7 +6939,7 @@ msgid "State:"
 msgstr "狀態："
 
 #: pkg/systemd/services/service-details.jsx:453
-#: pkg/systemd/services/services.jsx:538 pkg/systemd/services/services.jsx:701
+#: pkg/systemd/services/services.jsx:536 pkg/systemd/services/services.jsx:699
 msgid "Static"
 msgstr "靜態"
 
@@ -6946,10 +6956,11 @@ msgstr "堅持使用PC"
 msgid "Sticky"
 msgstr "黏"
 
-#: pkg/docker/index.html:130 pkg/docker/containers-view.jsx:315
-#: pkg/storaged/content-views.jsx:304 pkg/storaged/mdraid-details.jsx:304
+#: pkg/docker/index.html:130 pkg/storaged/content-views.jsx:304
 #: pkg/storaged/vdo-details.jsx:140 pkg/storaged/vdo-details.jsx:257
+#: pkg/storaged/mdraid-details.jsx:304
 #: pkg/systemd/services/service-details.jsx:247
+#: pkg/docker/containers-view.jsx:315
 msgid "Stop"
 msgstr "停止"
 
@@ -6989,9 +7000,9 @@ msgstr "停止RAID設備 $target"
 msgid "Stopping swapspace $target"
 msgstr "停止交換空間 $target"
 
-#: pkg/storaged/index.html:23
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:496
-#: pkg/storaged/details.jsx:127 pkg/storaged/manifest.json.in
+#: pkg/storaged/index.html:23 pkg/storaged/details.jsx:127
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:509
+#: pkg/storaged/manifest.json.in
 msgid "Storage"
 msgstr "儲存裝置"
 
@@ -7004,11 +7015,11 @@ msgid "Storage Pool"
 msgid_plural "Storage Pools"
 msgstr[0] ""
 
-#: pkg/machines/components/storagePools/storagePool.jsx:129
+#: pkg/machines/components/storagePools/storagePool.jsx:124
 msgid "Storage Pool $0 failed to get activated"
 msgstr ""
 
-#: pkg/machines/components/storagePools/storagePool.jsx:143
+#: pkg/machines/components/storagePools/storagePool.jsx:138
 msgid "Storage Pool $0 failed to get deactivated"
 msgstr ""
 
@@ -7020,8 +7031,8 @@ msgstr "存儲池名稱"
 msgid "Storage Pool failed to be created"
 msgstr "存儲池無法建立"
 
-#: pkg/machines/components/storagePools/storagePoolList.jsx:49
-#: pkg/machines/components/storagePools/storagePoolList.jsx:53
+#: pkg/machines/components/storagePools/storagePoolList.jsx:50
+#: pkg/machines/components/storagePools/storagePoolList.jsx:54
 msgid "Storage Pools"
 msgstr "存儲池"
 
@@ -7029,7 +7040,7 @@ msgstr "存儲池"
 msgid "Storage Volume"
 msgstr ""
 
-#: pkg/machines/components/storagePools/storagePool.jsx:78
+#: pkg/machines/components/storagePools/storagePool.jsx:69
 msgid "Storage Volumes"
 msgstr "存儲卷"
 
@@ -7041,11 +7052,11 @@ msgstr ""
 msgid "Storage can not be managed on this system."
 msgstr ""
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:174
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:177
 msgid "Storage size must not be 0"
 msgstr ""
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:310
+#: pkg/systemd/overview-cards/configurationCard.jsx:309
 msgid "Store metrics"
 msgstr "存儲指標"
 
@@ -7102,7 +7113,7 @@ msgstr "關掉 $0"
 msgid "Switch on $0"
 msgstr "打開 $0"
 
-#: pkg/shell/superuser.jsx:126
+#: pkg/shell/superuser.jsx:138
 msgid "Switch to limited access"
 msgstr ""
 
@@ -7128,8 +7139,8 @@ msgstr "開啟 <b>$0</b> 將斷開與伺服器的連接，並使管理UI不可�
 msgid "Synchronize"
 msgstr "同步"
 
-#: pkg/dashboard/index.html:187 pkg/lib/machine-sync-users.html:4
-#: pkg/shell/index.html:138
+#: pkg/dashboard/index.html:187 pkg/shell/index.html:138
+#: pkg/lib/machine-sync-users.html:4
 msgid "Synchronize users"
 msgstr "同步用戶"
 
@@ -7155,9 +7166,9 @@ msgstr "同步RAID設備 $target"
 
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
-#: pkg/shell/index.html:23
+#: pkg/shell/index.html:23 pkg/machines/helpers.js:192
 #: pkg/machines/components/machinesConnectionSelector.jsx:43
-#: pkg/machines/helpers.js:192 pkg/shell/indexes.js:331
+#: pkg/shell/indexes.js:331
 msgid "System"
 msgstr "系統"
 
@@ -7182,7 +7193,7 @@ msgstr "主機資訊"
 msgid "System is up to date"
 msgstr "系統已更新至最新狀態"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:286
+#: pkg/systemd/overview-cards/configurationCard.jsx:285
 msgid "System time"
 msgstr "系統時間"
 
@@ -7345,8 +7356,8 @@ msgstr "VM正在運行。"
 msgid "The VM is suspended by guest power management."
 msgstr "客戶端電源管理暫停VM。"
 
-#: pkg/machines/components/vmDisksTab.jsx:180
 #: pkg/machines/components/vmnetworktab.jsx:240
+#: pkg/machines/components/vmDisksTab.jsx:180
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
 
@@ -7418,17 +7429,17 @@ msgid ""
 "The filesystem is currently not mounted but will be mounted on the next boot."
 msgstr ""
 
-#: pkg/storaged/dialog.jsx:1003
+#: pkg/storaged/dialog.jsx:998
 msgid ""
 "The filesystem is in use by login sessions and system services. Proceeding "
 "will stop these."
 msgstr "登錄會話和系統服務正在使用檔案系統。繼續進行將阻止這些。"
 
-#: pkg/storaged/dialog.jsx:1005
+#: pkg/storaged/dialog.jsx:1000
 msgid "The filesystem is in use by login sessions. Proceeding will stop these."
 msgstr "登錄會話正在使用檔案系統。繼續進行將阻止這些。"
 
-#: pkg/storaged/dialog.jsx:1007
+#: pkg/storaged/dialog.jsx:1002
 msgid ""
 "The filesystem is in use by system services. Proceeding will stop these."
 msgstr "檔案系統正由系統服務使用。繼續進行將阻止這些。"
@@ -7493,15 +7504,15 @@ msgstr "密碼兩者不相符。"
 msgid "The pool is empty"
 msgstr "游泳池是空的"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:407
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:420
 msgid "The selected Operating System does not support unattended installation"
 msgstr ""
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:165
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:168
 msgid "The selected Operating System has minimum memory requirement of $0 $1"
 msgstr ""
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:180
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:183
 msgid ""
 "The selected Operating System has minimum storage size requirement of $0 $1"
 msgstr ""
@@ -7581,7 +7592,7 @@ msgstr "此NFS掛載正在使用中，只能更改其選項。"
 msgid "This VDO device does not use all of its backing device."
 msgstr "此VDO設備不使用其所有後備設備。"
 
-#: pkg/machines/components/vm/vmActions.jsx:139
+#: pkg/machines/components/vm/vmActions.jsx:135
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr ""
 
@@ -7595,38 +7606,38 @@ msgstr "這一天並非在所有月份都存在。<br> 計時器只會在有31�
 msgid "This device cannot be managed here."
 msgstr "此設備無法在此處管理。"
 
-#: pkg/storaged/dialog.jsx:988
+#: pkg/storaged/dialog.jsx:983
 msgid ""
 "This device has filesystems that are currently in use. Proceeding will "
 "unmount all filesystems on it."
 msgstr ""
 "此設備具有當前正在使用的檔案系統。 Proceeding將卸載其上的所有檔案系統。"
 
-#: pkg/storaged/dialog.jsx:967
+#: pkg/storaged/dialog.jsx:962
 msgid "This device is currently used for RAID devices."
 msgstr "該設備目前用於RAID設備。"
 
-#: pkg/storaged/dialog.jsx:996
+#: pkg/storaged/dialog.jsx:991
 msgid ""
 "This device is currently used for RAID devices. Proceeding will remove it "
 "from its RAID devices."
 msgstr "該設備目前用於RAID設備。繼續將其從RAID設備中刪除。"
 
-#: pkg/storaged/dialog.jsx:971
+#: pkg/storaged/dialog.jsx:966
 msgid "This device is currently used for VDO devices."
 msgstr "該設備目前用於VDO設備。"
 
-#: pkg/storaged/dialog.jsx:963
+#: pkg/storaged/dialog.jsx:958
 msgid "This device is currently used for volume groups."
 msgstr "此設備當前用於卷組。"
 
-#: pkg/storaged/dialog.jsx:992
+#: pkg/storaged/dialog.jsx:987
 msgid ""
 "This device is currently used for volume groups. Proceeding will remove it "
 "from its volume groups."
 msgstr "此設備當前用於卷組。繼續將其從卷組中刪除。"
 
-#: pkg/shell/superuser.jsx:288
+#: pkg/shell/superuser.jsx:300
 msgid "This didn't work, please try again"
 msgstr ""
 
@@ -7701,7 +7712,7 @@ msgid ""
 "alternate user or port"
 msgstr "此版本的cockpit-ws不支持使用備用用戶或端口連接到主機"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:526
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:539
 msgid "This volume is already used by another VM."
 msgstr ""
 
@@ -7817,8 +7828,8 @@ msgstr ""
 msgid "Triggered By"
 msgstr "觸發"
 
-#: pkg/systemd/services/service-details.jsx:514
 #: pkg/systemd/services/services-list.jsx:54
+#: pkg/systemd/services/service-details.jsx:514
 msgid "Triggers"
 msgstr "觸發器"
 
@@ -7876,18 +7887,17 @@ msgstr "Tuned已關閉"
 msgid "Turn on administrative access"
 msgstr ""
 
-#: pkg/shell/index.html:341
-#: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:86
-#: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:74
+#: pkg/shell/index.html:341 pkg/storaged/unrecognized-tab.jsx:33
+#: pkg/storaged/format-dialog.jsx:199 pkg/storaged/part-tab.jsx:42
 #: pkg/machines/components/vm/bootOrderModal.jsx:108
 #: pkg/machines/components/vm/bootOrderModal.jsx:119
 #: pkg/machines/components/vm/bootOrderModal.jsx:125
 #: pkg/machines/components/vm/bootOrderModal.jsx:131
 #: pkg/machines/components/vm/bootOrderModal.jsx:138
 #: pkg/machines/components/vm/bootOrderModal.jsx:144
-#: pkg/machines/components/vmnetworktab.jsx:136
-#: pkg/storaged/format-dialog.jsx:199 pkg/storaged/part-tab.jsx:42
-#: pkg/storaged/unrecognized-tab.jsx:33 pkg/systemd/hwinfo.jsx:68
+#: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:86
+#: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:74
+#: pkg/machines/components/vmnetworktab.jsx:136 pkg/systemd/hwinfo.jsx:68
 #: pkg/systemd/hwinfo.jsx:273
 msgid "Type"
 msgstr "類型"
@@ -7914,7 +7924,7 @@ msgstr "鍵入以過濾…"
 msgid "UDP"
 msgstr "UDP"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:297
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:300
 msgid "URL"
 msgstr "URL"
 
@@ -7926,7 +7936,7 @@ msgstr "UUID"
 
 # translation auto-copied from project subscription-manager, version 1.11.X,
 # document keys
-#: pkg/storaged/mdraid-details.jsx:316 pkg/storaged/vgroup-details.jsx:220
+#: pkg/storaged/vgroup-details.jsx:220 pkg/storaged/mdraid-details.jsx:316
 #, fuzzy
 #| msgid "UUID"
 msgctxt "storage"
@@ -7978,7 +7988,7 @@ msgstr "無法卸載檔案系統"
 msgid "Unavailable"
 msgstr "無法使用"
 
-#: pkg/docker/index.html:696 pkg/networkmanager/index.html:727
+#: pkg/networkmanager/index.html:727 pkg/docker/index.html:696
 #: pkg/shell/base_index.js:829 pkg/users/dialog-utils.js:68
 msgid "Unexpected error"
 msgstr "未預期的錯誤"
@@ -7987,12 +7997,12 @@ msgstr "未預期的錯誤"
 msgid "Unique Network Name"
 msgstr ""
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:205
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:208
 msgid "Unique name"
 msgstr "唯一名稱"
 
+#: pkg/storaged/dialog.jsx:1033
 #: pkg/machines/components/vm/bootOrderModal.jsx:134
-#: pkg/storaged/dialog.jsx:1038
 msgid "Unit"
 msgstr "單位"
 
@@ -8000,11 +8010,11 @@ msgstr "單位"
 msgid "Unix group: $0"
 msgstr ""
 
-#: pkg/lib/machine-info.js:68 pkg/lib/machine-info.js:241
-#: pkg/machines/components/vmnetworktab.jsx:165
+#: pkg/storaged/fsys-tab.jsx:369 pkg/storaged/swap-tab.jsx:55
 #: pkg/networkmanager/interfaces.js:589 pkg/networkmanager/interfaces.js:1065
 #: pkg/networkmanager/interfaces.js:2537 pkg/networkmanager/interfaces.js:2539
-#: pkg/storaged/fsys-tab.jsx:369 pkg/storaged/swap-tab.jsx:55
+#: pkg/machines/components/vmnetworktab.jsx:165 pkg/lib/machine-info.js:68
+#: pkg/lib/machine-info.js:241
 msgid "Unknown"
 msgstr "不明"
 
@@ -8079,7 +8089,7 @@ msgstr "解鎖磁碟......"
 msgid "Unmanaged Interfaces"
 msgstr "非託管接口"
 
-#: pkg/storaged/content-views.jsx:372 pkg/storaged/fsys-tab.jsx:269
+#: pkg/storaged/fsys-tab.jsx:269 pkg/storaged/content-views.jsx:372
 #: pkg/storaged/nfs-details.jsx:299
 msgid "Unmount"
 msgstr "卸載"
@@ -8148,7 +8158,7 @@ msgstr "更新歷史記錄"
 msgid "Update Log"
 msgstr "更新日誌"
 
-#: pkg/apps/application-list.jsx:129
+#: pkg/apps/application-list.jsx:148
 #, fuzzy
 #| msgid "Package information"
 msgid "Update package information"
@@ -8184,8 +8194,8 @@ msgstr ""
 
 # translation auto-copied from project subscription-manager, version 1.11.X,
 # document keys
-#: pkg/machines/components/vm/vmExpandedContent.jsx:41
 #: pkg/storaged/unrecognized-tab.jsx:30
+#: pkg/machines/components/vm/vmExpandedContent.jsx:42
 #: pkg/systemd/overview-cards/usageCard.jsx:116
 msgid "Usage"
 msgstr "效能狀態"
@@ -8211,10 +8221,10 @@ msgstr "利用現有的"
 msgid "Use the following keys to authenticate against other systems"
 msgstr "使用以下密鑰對其他系統進行身份驗證"
 
-#: pkg/systemd/graphs.html:163 pkg/machines/components/vm/vmUsageTab.jsx:62
+#: pkg/systemd/graphs.html:163 pkg/storaged/fsys-tab.jsx:504
+#: pkg/storaged/swap-tab.jsx:63 pkg/machines/components/vm/vmUsageTab.jsx:62
 #: pkg/machines/components/vm/vmUsageTab.jsx:73
-#: pkg/machines/components/vmDisksTab.jsx:109 pkg/storaged/fsys-tab.jsx:504
-#: pkg/storaged/swap-tab.jsx:63 pkg/systemd/graphs.js:393
+#: pkg/machines/components/vmDisksTab.jsx:109 pkg/systemd/graphs.js:393
 msgid "Used"
 msgstr "已使用"
 
@@ -8226,14 +8236,14 @@ msgstr ""
 msgid "Used by Containers"
 msgstr "由容器使用"
 
-#: pkg/dashboard/index.html:155 pkg/playground/translate.html:84
-#: pkg/playground/translate.html:104 pkg/shell/index.html:114
+#: pkg/dashboard/index.html:155 pkg/shell/index.html:114
+#: pkg/playground/translate.html:84 pkg/playground/translate.html:104
 #: pkg/systemd/graphs.html:136 pkg/systemd/graphs.js:299
 msgid "User"
 msgstr "使用者"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:56
-#: pkg/users/account-create-dialog.js:46 pkg/users/account-details.js:278
+#: pkg/users/account-details.js:278 pkg/users/account-create-dialog.js:46
 msgid "User Name"
 msgstr "使用者名稱"
 
@@ -8276,7 +8286,7 @@ msgstr "VDO支持"
 msgid "VDO Device"
 msgstr "VDO設備"
 
-#: pkg/storaged/utils.js:253 pkg/storaged/vdo-details.jsx:254
+#: pkg/storaged/vdo-details.jsx:254 pkg/storaged/utils.js:253
 msgid "VDO Device $0"
 msgstr "VDO設備 $0"
 
@@ -8297,19 +8307,19 @@ msgstr "VLAN Id"
 msgid "VLAN Settings"
 msgstr "VLAN設置"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:127
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:130
 msgid "VM $0 already exists"
 msgstr ""
 
-#: pkg/machines/hostvmslist.jsx:123
+#: pkg/machines/hostvmslist.jsx:125
 msgid "VM $0 failed to Reboot"
 msgstr ""
 
-#: pkg/machines/hostvmslist.jsx:129
+#: pkg/machines/hostvmslist.jsx:131
 msgid "VM $0 failed to force Reboot"
 msgstr ""
 
-#: pkg/machines/hostvmslist.jsx:153
+#: pkg/machines/hostvmslist.jsx:155
 msgid "VM $0 failed to force shutdown"
 msgstr ""
 
@@ -8317,27 +8327,27 @@ msgstr ""
 msgid "VM $0 failed to get deleted"
 msgstr ""
 
-#: pkg/machines/hostvmslist.jsx:117 pkg/machines/libvirt-common.js:1420
+#: pkg/machines/libvirt-common.js:1420 pkg/machines/hostvmslist.jsx:119
 msgid "VM $0 failed to get installed"
 msgstr ""
 
-#: pkg/machines/hostvmslist.jsx:141
+#: pkg/machines/hostvmslist.jsx:143
 msgid "VM $0 failed to pause"
 msgstr ""
 
-#: pkg/machines/hostvmslist.jsx:147
+#: pkg/machines/hostvmslist.jsx:149
 msgid "VM $0 failed to resume"
 msgstr ""
 
-#: pkg/machines/hostvmslist.jsx:159
+#: pkg/machines/hostvmslist.jsx:161
 msgid "VM $0 failed to send NMI"
 msgstr ""
 
-#: pkg/machines/hostvmslist.jsx:135
+#: pkg/machines/hostvmslist.jsx:137
 msgid "VM $0 failed to shutdown"
 msgstr ""
 
-#: pkg/machines/hostvmslist.jsx:111
+#: pkg/machines/hostvmslist.jsx:113
 msgid "VM $0 failed to start"
 msgstr ""
 
@@ -8415,9 +8425,9 @@ msgstr "詳細資料"
 msgid "View report"
 msgstr ""
 
+#: pkg/machines/components/storagePools/storagePoolList.jsx:47
 #: pkg/machines/components/networks/networkList.jsx:47
-#: pkg/machines/components/storagePools/storagePoolList.jsx:46
-#: pkg/machines/hostvmslist.jsx:90 pkg/machines/manifest.json.in
+#: pkg/machines/hostvmslist.jsx:92 pkg/machines/manifest.json.in
 msgid "Virtual Machines"
 msgstr "虛擬機器"
 
@@ -8439,20 +8449,20 @@ msgstr ""
 msgid "Virtualization Service (libvirt) is Not Active"
 msgstr "虛擬化服務（libvirt）未啟動"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:516
-#: pkg/machines/components/deleteDialog.jsx:51
+#: pkg/storaged/content-views.jsx:142
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:529
 #: pkg/machines/components/diskAdd.jsx:80
 #: pkg/machines/components/vm/bootOrderModal.jsx:96
+#: pkg/machines/components/deleteDialog.jsx:51
 #: pkg/machines/components/vmDiskColumns.jsx:46
-#: pkg/storaged/content-views.jsx:142
 msgid "Volume"
 msgstr "音量"
 
-#: pkg/storaged/pvol-tabs.jsx:35 pkg/storaged/vgroups-panel.jsx:40
+#: pkg/storaged/vgroups-panel.jsx:40 pkg/storaged/pvol-tabs.jsx:35
 msgid "Volume Group"
 msgstr "儲區群組"
 
-#: pkg/storaged/utils.js:248 pkg/storaged/vgroup-details.jsx:211
+#: pkg/storaged/vgroup-details.jsx:211 pkg/storaged/utils.js:248
 msgid "Volume Group $0"
 msgstr "卷組 $0"
 
@@ -8571,13 +8581,13 @@ msgstr ""
 msgid "Write-mostly"
 msgstr "寫大多"
 
-#: pkg/machines/components/diskEdit.jsx:118
 #: pkg/machines/components/vmDisksTab.jsx:143
+#: pkg/machines/components/diskEdit.jsx:118
 msgid "Writeable"
 msgstr ""
 
-#: pkg/machines/components/diskEdit.jsx:131
 #: pkg/machines/components/vmDisksTab.jsx:143
+#: pkg/machines/components/diskEdit.jsx:131
 msgid "Writeable and shared"
 msgstr ""
 
@@ -8614,7 +8624,7 @@ msgstr "您當前直接連接到此伺服器。你無法刪除它。"
 msgid "You are not authorized to modify the firewall."
 msgstr "您無權修改防火牆。"
 
-#: pkg/shell/superuser.jsx:221
+#: pkg/shell/superuser.jsx:233
 msgid "You can not gain administrative access."
 msgstr ""
 
@@ -8636,7 +8646,7 @@ msgstr ""
 msgid "You must wait longer to change your password"
 msgstr "您必須等待更長時間才能更改密碼"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:130
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:133
 msgid "You need to select the most closely matching Operating System"
 msgstr ""
 
@@ -8645,7 +8655,7 @@ msgid ""
 "You need to switch to \"Administrative Access\" in order to create reports."
 msgstr ""
 
-#: pkg/shell/superuser.jsx:279
+#: pkg/shell/superuser.jsx:291
 msgid "You now have administrative access."
 msgstr ""
 
@@ -8667,7 +8677,7 @@ msgstr ""
 "您的瀏覽器將斷開連接，但這不會影響更新過程。您可以在幾分鐘後重新連接以繼續觀"
 "察進度。"
 
-#: pkg/shell/superuser.jsx:130
+#: pkg/shell/superuser.jsx:142
 msgid "Your browser will remember your access level across sessions."
 msgstr ""
 
@@ -8705,8 +8715,8 @@ msgstr ""
 msgid "access"
 msgstr ""
 
-#: pkg/machines/components/networks/network.jsx:60
-#: pkg/machines/components/storagePools/storagePool.jsx:61
+#: pkg/machines/components/storagePools/storagePool.jsx:58
+#: pkg/machines/components/networks/network.jsx:57
 #: pkg/shell/active-pages-dialog.jsx:39
 msgid "active"
 msgstr "活性"
@@ -8802,7 +8812,7 @@ msgstr ""
 msgid "cpu"
 msgstr "處理器"
 
-#: pkg/kdump/manifest.json.in pkg/systemd/manifest.json.in
+#: pkg/systemd/manifest.json.in pkg/kdump/manifest.json.in
 msgid "crash"
 msgstr "崩潰"
 
@@ -8810,13 +8820,13 @@ msgstr "崩潰"
 msgid "crashed"
 msgstr "已崩潰"
 
-#: pkg/machines/hostvmslist.jsx:50
+#: pkg/machines/hostvmslist.jsx:52
 #, fuzzy
 #| msgid "Create VM"
 msgid "creating VM"
 msgstr "建立VM"
 
-#: pkg/machines/hostvmslist.jsx:48
+#: pkg/machines/hostvmslist.jsx:50
 msgid "creating VM installation"
 msgstr ""
 
@@ -8888,7 +8898,7 @@ msgstr "例如“$0“"
 msgid "e.g. \"$0\""
 msgstr "例如“$0“"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:254
+#: pkg/systemd/overview-cards/configurationCard.jsx:253
 msgid "edit"
 msgstr "編輯"
 
@@ -8924,7 +8934,7 @@ msgstr "每天"
 msgid "extension"
 msgstr ""
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:180
+#: pkg/systemd/overview-cards/configurationCard.jsx:179
 msgid "failed to list ssh host keys: $0"
 msgstr "無法列出ssh​​主機密鑰： $0"
 
@@ -8994,8 +9004,8 @@ msgstr ""
 msgid "idle"
 msgstr "閒"
 
-#: pkg/machines/components/networks/network.jsx:60
-#: pkg/machines/components/storagePools/storagePool.jsx:61
+#: pkg/machines/components/storagePools/storagePool.jsx:58
+#: pkg/machines/components/networks/network.jsx:57
 msgid "inactive"
 msgstr "待用"
 
@@ -9128,15 +9138,15 @@ msgstr ""
 msgid "nfs dump target isn't formatted as server:path"
 msgstr "nfs dump target未格式化為server：path"
 
-#: pkg/machines/components/networks/networkOverviewTab.jsx:84
+#: pkg/machines/helpers.js:242
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:67
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:71
-#: pkg/machines/helpers.js:242
+#: pkg/machines/components/networks/networkOverviewTab.jsx:84
 msgid "no"
 msgstr "否"
 
-#: pkg/docker/run.js:419 pkg/docker/run.js:475 pkg/docker/run.js:529
-#: pkg/docker/run.js:574 pkg/tuned/dialog.js:101
+#: pkg/tuned/dialog.js:101 pkg/docker/run.js:419 pkg/docker/run.js:475
+#: pkg/docker/run.js:529 pkg/docker/run.js:574
 msgid "none"
 msgstr "無"
 
@@ -9324,7 +9334,7 @@ msgstr "解決方案細節"
 msgid "sos"
 msgstr ""
 
-#: pkg/systemd/manifest.json.in pkg/users/manifest.json.in
+#: pkg/users/manifest.json.in pkg/systemd/manifest.json.in
 msgid "ssh"
 msgstr ""
 
@@ -9400,8 +9410,8 @@ msgstr "未定義"
 msgid "unit"
 msgstr ""
 
-#: pkg/systemd/services/services.jsx:474 pkg/systemd/services/services.jsx:475
-#: pkg/systemd/services/services.jsx:497 pkg/systemd/services/services.jsx:498
+#: pkg/systemd/services/services.jsx:472 pkg/systemd/services/services.jsx:473
+#: pkg/systemd/services/services.jsx:495 pkg/systemd/services/services.jsx:496
 msgid "unknown"
 msgstr "不明"
 
@@ -9467,7 +9477,7 @@ msgstr ""
 msgid "vhostuser"
 msgstr "vhostuser"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1008
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1021
 msgid ""
 "virt-install package needs to be installed on the system in order to create "
 "new VMs"
@@ -9489,10 +9499,10 @@ msgstr ""
 msgid "warning"
 msgstr ""
 
-#: pkg/machines/components/networks/networkOverviewTab.jsx:84
+#: pkg/machines/helpers.js:241
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:67
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:71
-#: pkg/machines/helpers.js:241
+#: pkg/machines/components/networks/networkOverviewTab.jsx:84
 msgid "yes"
 msgstr "是"
 
