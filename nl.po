@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-31 09:12+0000\n"
-"PO-Revision-Date: 2020-08-03 14:29+0000\n"
+"POT-Creation-Date: 2020-07-15 07:27+0000\n"
+"PO-Revision-Date: 2020-07-19 17:28+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/cockpit/"
 "master/nl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "X-Generator: Weblate 4.1.1\n"
 
 #: pkg/machines/components/diskAdd.jsx:234
@@ -62,7 +62,7 @@ msgstr[0] "$0 Pakket"
 msgstr[1] "$0 Pakketten"
 
 #: pkg/systemd/services/service-details.jsx:130
-#: pkg/systemd/services/services.jsx:378
+#: pkg/systemd/services/services.jsx:380
 msgid "$0 Template"
 msgstr "$0 Templaat"
 
@@ -233,7 +233,7 @@ msgctxt "<date> on <terminal>"
 msgid "$0 on $1"
 msgstr "$0 op $1"
 
-#: pkg/systemd/services/services.jsx:662
+#: pkg/systemd/services/services.jsx:664
 msgid "$0 service has failed"
 msgid_plural "$0 services have failed"
 msgstr[0] "$0 service is mislukt"
@@ -627,12 +627,12 @@ msgstr "Account niet beschikbaar of kan niet worden bewerkt."
 msgid "Accounts"
 msgstr "Accounts"
 
-#: pkg/apps/application-list.jsx:109
+#: pkg/machines/hostvmslist.jsx:98
 msgid "Actions"
 msgstr "Acties"
 
-#: pkg/machines/components/networks/network.jsx:160
-#: pkg/machines/components/storagePools/storagePool.jsx:161
+#: pkg/machines/components/networks/network.jsx:164
+#: pkg/machines/components/storagePools/storagePool.jsx:166
 #: pkg/storaged/content-views.jsx:287
 msgid "Activate"
 msgstr "Activeren"
@@ -653,7 +653,7 @@ msgstr "Actieve back-up"
 msgid "Active Pages"
 msgstr "Actieve pagina's"
 
-#: pkg/storaged/dialog.jsx:1029 pkg/storaged/dialog.jsx:1033
+#: pkg/storaged/dialog.jsx:1034 pkg/storaged/dialog.jsx:1038
 msgid "Active since"
 msgstr "Actief sinds"
 
@@ -862,7 +862,7 @@ msgstr "Adressen"
 msgid "Administration with Cockpit Web Console"
 msgstr "Beheer met Cockpit Web Console"
 
-#: pkg/shell/superuser.jsx:82 pkg/shell/superuser.jsx:344
+#: pkg/shell/superuser.jsx:70 pkg/shell/superuser.jsx:332
 msgid "Administrative access"
 msgstr "Administratieve toegang"
 
@@ -903,7 +903,7 @@ msgstr "Na het opstarten van het systeem"
 msgid "Alert and above"
 msgstr "Alert en hoger"
 
-#: pkg/systemd/logs.js:219 pkg/systemd/services/services.jsx:696
+#: pkg/systemd/logs.js:219 pkg/systemd/services/services.jsx:698
 msgid "All"
 msgstr "Alle"
 
@@ -945,14 +945,10 @@ msgstr "Ansible rollen documentatie"
 msgid "Appearance:"
 msgstr "Uiterlijk:"
 
-#: pkg/apps/index.html:23 pkg/apps/application-list.jsx:167
+#: pkg/apps/index.html:23 pkg/apps/application-list.jsx:151
 #: pkg/apps/application.jsx:144 pkg/apps/manifest.json.in
 msgid "Applications"
 msgstr "Toepassingen"
-
-#: pkg/apps/application-list.jsx:175
-msgid "Applications list"
-msgstr "Toepassingenlijst"
 
 #: pkg/networkmanager/index.html:497 pkg/networkmanager/index.html:525
 #: pkg/networkmanager/index.html:552 pkg/networkmanager/index.html:579
@@ -1019,7 +1015,7 @@ msgstr "Op specifiek tijdstip"
 msgid "Audit log"
 msgstr "Audit-logboek"
 
-#: pkg/shell/superuser.jsx:91
+#: pkg/shell/superuser.jsx:79
 msgid "Authenticate"
 msgstr "Authenticatie uitvoeren"
 
@@ -1334,7 +1330,7 @@ msgstr "Kan image niet laden"
 #: pkg/systemd/overview-cards/realmd-operation.html:82
 #: pkg/systemd/services.html:282 pkg/apps/utils.jsx:84
 #: pkg/lib/cockpit-components-dialog.jsx:158
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:948
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:935
 #: pkg/machines/components/deleteDialog.jsx:144
 #: pkg/machines/components/deleteResource.jsx:74
 #: pkg/machines/components/diskAdd.jsx:551
@@ -1349,11 +1345,10 @@ msgstr "Kan image niet laden"
 #: pkg/machines/components/vm/bootOrderModal.jsx:325
 #: pkg/machines/components/vm/firmwareModal.jsx:78
 #: pkg/machines/components/vm/memoryModal.jsx:155
-#: pkg/machines/components/vmSnapshotsCreateModal.jsx:150
 #: pkg/networkmanager/firewall.jsx:565 pkg/networkmanager/firewall.jsx:718
 #: pkg/networkmanager/firewall.jsx:741 pkg/packagekit/updates.jsx:192
-#: pkg/shell/superuser.jsx:95 pkg/shell/superuser.jsx:150
-#: pkg/sosreport/index.js:52 pkg/storaged/dialog.jsx:399
+#: pkg/shell/superuser.jsx:83 pkg/shell/superuser.jsx:138
+#: pkg/sosreport/index.js:52 pkg/storaged/dialog.jsx:400
 #: pkg/storaged/jobs-panel.jsx:123 pkg/systemd/hwinfo.jsx:227
 #: pkg/systemd/reporting.jsx:420 pkg/systemd/services/service-details.jsx:187
 msgid "Cancel"
@@ -1482,7 +1477,7 @@ msgstr "Controleren van RAID-apparaat $target"
 msgid "Checking and Repairing RAID Device $target"
 msgstr "Controleren en repareren van RAID-apparaat $target"
 
-#: pkg/apps/application-list.jsx:143
+#: pkg/apps/application-list.jsx:124
 msgid "Checking for new applications"
 msgstr "Controleren op nieuwe toepassingen"
 
@@ -1498,8 +1493,7 @@ msgstr "Controleren op openbare sleutels"
 msgid "Checking installed software"
 msgstr "Controleren op geïnstalleerde software"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:380
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:381
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:368
 msgid "Choose an operating system"
 msgstr "Kies een besturingssysteem"
 
@@ -1527,7 +1521,7 @@ msgstr "Wis 'Kan niet starten'"
 msgid "Clear Search"
 msgstr "Wis zoekopdrachten"
 
-#: pkg/systemd/services/services.jsx:787
+#: pkg/systemd/services/services.jsx:789
 msgid "Clear all filters"
 msgstr "Wis alle filters"
 
@@ -1551,9 +1545,9 @@ msgstr "Cliënt software"
 #: pkg/lib/machine-not-supported.html:8 pkg/networkmanager/index.html:734
 #: pkg/shell/index.html:162 pkg/shell/index.html:221 pkg/shell/index.html:403
 #: pkg/systemd/index.html:56 pkg/apps/utils.jsx:104
-#: pkg/lib/cockpit-components-modifications.jsx:103 pkg/shell/superuser.jsx:95
+#: pkg/lib/cockpit-components-modifications.jsx:103 pkg/shell/superuser.jsx:83
 #: pkg/sosreport/index.js:46 pkg/sosreport/index.js:128
-#: pkg/storaged/dialog.jsx:399 pkg/users/dialog-utils.js:61
+#: pkg/storaged/dialog.jsx:400 pkg/users/dialog-utils.js:61
 msgid "Close"
 msgstr "Sluiten"
 
@@ -1858,9 +1852,9 @@ msgstr "Verbinding maken met de machine"
 
 #: pkg/machines/components/machinesConnectionSelector.jsx:34
 #: pkg/machines/components/networks/createNetworkDialog.jsx:41
-#: pkg/machines/components/networks/networkList.jsx:56
-#: pkg/machines/components/storagePools/storagePoolList.jsx:56
-#: pkg/machines/hostvmslist.jsx:98
+#: pkg/machines/components/networks/networkList.jsx:55
+#: pkg/machines/components/storagePools/storagePoolList.jsx:54
+#: pkg/machines/hostvmslist.jsx:96
 msgid "Connection"
 msgstr "Verbinding"
 
@@ -1888,8 +1882,7 @@ msgstr "Bestaat uit"
 msgid "Console Type"
 msgstr "Consoletype"
 
-#: pkg/machines/components/vm/vmExpandedContent.jsx:47
-#: pkg/machines/components/vm/vmExpandedContent.jsx:54
+#: pkg/machines/components/vm/vmExpandedContent.jsx:44
 msgid "Consoles"
 msgstr "Consoles"
 
@@ -2017,11 +2010,10 @@ msgstr "Crashdump locatie"
 msgid "Crash system"
 msgstr "Crash systeem"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:945
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:932
 #: pkg/machines/components/networks/createNetworkDialog.jsx:489
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:511
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:93
-#: pkg/machines/components/vmSnapshotsCreateModal.jsx:147
 #: pkg/storaged/content-views.jsx:129 pkg/storaged/content-views.jsx:275
 #: pkg/storaged/content-views.jsx:771 pkg/storaged/mdraids-panel.jsx:123
 #: pkg/storaged/vdos-panel.jsx:146 pkg/storaged/vgroups-panel.jsx:90
@@ -2045,11 +2037,11 @@ msgstr "Nieuwe aanmaken"
 msgid "Create New Account"
 msgstr "Nieuw account aanmaken"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:936
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:923
 msgid "Create New Virtual Machine"
 msgstr "Nieuwe virtuele machine aanmaken"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:514
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:501
 msgid "Create New Volume"
 msgstr "Nieuwe volume aanmaken"
 
@@ -2073,8 +2065,6 @@ msgstr "Maak RAID-apparaat aan"
 msgid "Create Report"
 msgstr "Maak rapport aan"
 
-#: pkg/machines/components/vmSnapshotsCreateModal.jsx:139
-#: pkg/machines/components/vmSnapshotsTab.jsx:175
 #: pkg/storaged/content-views.jsx:269 pkg/storaged/content-views.jsx:290
 msgid "Create Snapshot"
 msgstr "Maak snapshot aan"
@@ -2092,7 +2082,7 @@ msgstr "Maak opslagvolume aan"
 msgid "Create Thin Volume"
 msgstr "Maak dun volume aan"
 
-#: pkg/systemd/services/services.jsx:759
+#: pkg/systemd/services/services.jsx:761
 msgid "Create Timer"
 msgstr "Maak timer aan"
 
@@ -2104,7 +2094,7 @@ msgstr "Maak timers aan"
 msgid "Create VDO Device"
 msgstr "Maak VDO-apparaat aan"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1015
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1002
 msgid "Create VM"
 msgstr "Maak VM aan"
 
@@ -2204,11 +2194,7 @@ msgstr ""
 msgid "Creating volume group $target"
 msgstr "Volumegroep $target aanmaken"
 
-#: pkg/machines/components/vmSnapshotsTab.jsx:77
-msgid "Creation Time"
-msgstr "Aanmaaktijd"
-
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:805
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:792
 msgid "Creation of VM $0 failed"
 msgstr "Aanmaken van VM $0 mislukte"
 
@@ -2290,8 +2276,8 @@ msgstr "Dashboard"
 msgid "Data Used"
 msgstr "Gebruikte data"
 
-#: pkg/machines/components/networks/network.jsx:156
-#: pkg/machines/components/storagePools/storagePool.jsx:153
+#: pkg/machines/components/networks/network.jsx:160
+#: pkg/machines/components/storagePools/storagePool.jsx:158
 #: pkg/storaged/content-views.jsx:285
 msgid "Deactivate"
 msgstr "Deactiveren"
@@ -2331,8 +2317,8 @@ msgstr "Vertraging"
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:201
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:211
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:234
-#: pkg/machines/components/vm/vmActions.jsx:140
-#: pkg/machines/components/vm/vmActions.jsx:147
+#: pkg/machines/components/vm/vmActions.jsx:142
+#: pkg/machines/components/vm/vmActions.jsx:148
 #: pkg/networkmanager/firewall.jsx:738 pkg/storaged/content-views.jsx:344
 #: pkg/storaged/content-views.jsx:360 pkg/storaged/mdraid-details.jsx:285
 #: pkg/storaged/mdraid-details.jsx:308 pkg/storaged/vdo-details.jsx:198
@@ -2420,17 +2406,10 @@ msgstr ""
 msgid "Deleting volume group $target"
 msgstr "Volumegroep $target verwijderen"
 
-#: pkg/systemd/services.html:172
-#: pkg/machines/components/vmSnapshotsCreateModal.jsx:61
-#: pkg/machines/components/vmSnapshotsTab.jsx:96
-#: pkg/networkmanager/firewall.jsx:668
+#: pkg/systemd/services.html:172 pkg/networkmanager/firewall.jsx:668
 #: pkg/systemd/services/services-list.jsx:53
 msgid "Description"
 msgstr "Beschrijving"
-
-#: pkg/machines/components/vmSnapshotsCreateModal.jsx:67
-msgid "Description input text"
-msgstr "Beschrijving inputtekst"
 
 #: pkg/lib/machine-info.js:69
 msgid "Desktop"
@@ -2459,7 +2438,7 @@ msgid "Development"
 msgstr "Ontwikkeling"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:168
-#: pkg/machines/components/networks/networkList.jsx:56
+#: pkg/machines/components/networks/networkList.jsx:55
 #: pkg/machines/components/vm/bootOrderModal.jsx:93
 #: pkg/machines/components/vmDiskColumns.jsx:43
 #: pkg/machines/components/vmDisksTab.jsx:102
@@ -2518,7 +2497,7 @@ msgstr "Schakel tuned uit"
 
 #: pkg/networkmanager/interfaces.js:1960
 #: pkg/systemd/services/service-details.jsx:413
-#: pkg/systemd/services/services.jsx:533 pkg/systemd/services/services.jsx:698
+#: pkg/systemd/services/services.jsx:535 pkg/systemd/services/services.jsx:700
 msgid "Disabled"
 msgstr "Uitgeschakeld"
 
@@ -2571,11 +2550,7 @@ msgstr "Schijf wachtzin"
 msgid "Disk settings could not be saved"
 msgstr "Schijfinstellingen konden niet opgeslagen worden"
 
-#: pkg/machines/components/vmSnapshotsTab.jsx:118
-msgid "Disk-only snapshot"
-msgstr "Momentopname op schijf"
-
-#: pkg/machines/components/vm/vmExpandedContent.jsx:45
+#: pkg/machines/components/vm/vmExpandedContent.jsx:42
 #: pkg/storaged/mdraid-details.jsx:49 pkg/storaged/mdraid-details.jsx:153
 #: pkg/storaged/mdraids-panel.jsx:110 pkg/storaged/vgroup-details.jsx:56
 #: pkg/storaged/vgroups-panel.jsx:79
@@ -2636,14 +2611,6 @@ msgstr "Domeinbeheerdersnaam"
 msgid "Domain Administrator Password"
 msgstr "Domeinbeheerderswachtwoord"
 
-#: pkg/machines/components/vmSnapshotsTab.jsx:120
-msgid "Domain has crashed"
-msgstr "Domein is vastgelopen"
-
-#: pkg/machines/components/vmSnapshotsTab.jsx:119
-msgid "Domain is blocked on resource"
-msgstr "Domein is geblokkeerd op hulpbron"
-
 #: pkg/systemd/services.html:242 pkg/systemd/services.html:246
 #: pkg/systemd/services/timer-dialog.js:303
 msgid "Don't Repeat"
@@ -2665,7 +2632,7 @@ msgstr "Download"
 msgid "Download a new browser for free"
 msgstr "Download gratis een nieuwe browser"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:297
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:294
 msgid "Download an OS"
 msgstr "Download een OS"
 
@@ -2775,7 +2742,7 @@ msgstr "Schakel opgeslagen metriek in"
 msgid "Enable the firewall"
 msgstr "Schakel de firewall in"
 
-#: pkg/systemd/services/services.jsx:530 pkg/systemd/services/services.jsx:697
+#: pkg/systemd/services/services.jsx:532 pkg/systemd/services/services.jsx:699
 msgid "Enabled"
 msgstr "Ingeschakeld"
 
@@ -2948,7 +2915,7 @@ msgstr "Voorbeeld: 88,2019,nfs,rsync"
 msgid "Excellent password"
 msgstr "Uitstekend wachtwoord"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:239
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:236
 msgid "Existing disk image on host's file system"
 msgstr "Bestaande schijfimage op het bestandssysteem van de host"
 
@@ -3038,7 +3005,7 @@ msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr "Kan toets Ctrl+Alt+$0 niet verzenden naar VM $1"
 
 #: pkg/systemd/services/service-details.jsx:422
-#: pkg/systemd/services/services.jsx:524
+#: pkg/systemd/services/services.jsx:526
 msgid "Failed to start"
 msgstr "Starten mislukt"
 
@@ -3079,7 +3046,7 @@ msgstr "Bestandssysteemnaam"
 msgid "Filesystems"
 msgstr "Bestandssystemen"
 
-#: pkg/systemd/services/services.jsx:731
+#: pkg/systemd/services/services.jsx:733
 msgid "Filter"
 msgstr "Filter"
 
@@ -3087,7 +3054,7 @@ msgstr "Filter"
 msgid "Filter Services"
 msgstr "Filter services"
 
-#: pkg/systemd/services/services.jsx:739
+#: pkg/systemd/services/services.jsx:741
 msgid "Filter by name or description"
 msgstr "Filteren op naam of beschrijving"
 
@@ -3177,7 +3144,7 @@ msgstr "Voorwaartse modus"
 msgid "Forward delay $forward_delay"
 msgstr "Voorwaartse vertraging $forward_delay"
 
-#: pkg/machines/components/networks/networkList.jsx:56
+#: pkg/machines/components/networks/networkList.jsx:55
 msgid "Forwarding mode"
 msgstr "Modus doorsturen"
 
@@ -3526,19 +3493,19 @@ msgstr "Images"
 msgid "Images and running containers"
 msgstr "Images en containers uitvoeren"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:822
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:809
 msgid "Immediately Start VM"
 msgstr "Start VM onmiddellijk"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:945
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:932
 msgid "Import"
 msgstr "Importeren"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:936
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:923
 msgid "Import A Virtual Machine"
 msgstr "Importeer een virtuele machine"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1015
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1002
 msgid "Import VM"
 msgstr "Importeer VM"
 
@@ -3546,7 +3513,7 @@ msgstr "Importeer VM"
 msgid "In Sync"
 msgstr "Synchroon"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:247
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:244
 msgid ""
 "In most configurations, macvtap does not work for host to guest network "
 "communication."
@@ -3607,7 +3574,7 @@ msgstr "Initiator IQN mag niet leeg zijn"
 msgid "Insights: "
 msgstr "Inzichten: "
 
-#: pkg/apps/application-list.jsx:89 pkg/apps/application.jsx:113
+#: pkg/apps/application-list.jsx:84 pkg/apps/application.jsx:113
 #: pkg/lib/cockpit-components-install-dialog.jsx:118
 #: pkg/machines/components/vm/vmActions.jsx:127
 msgid "Install"
@@ -3638,15 +3605,15 @@ msgid "Install setroubleshoot-server to troubleshoot SELinux events."
 msgstr ""
 "Installeer setroubleshoot-server om SELinux-gebeurtenissen op te lossen."
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:312
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:309
 msgid "Installation Source"
 msgstr "Installatiebron"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:157
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:154
 msgid "Installation Source must not be empty"
 msgstr "Installatiebron mag niet leeg zijn"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:291
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:288
 msgid "Installation Type"
 msgstr "Installatietype"
 
@@ -3654,7 +3621,7 @@ msgstr "Installatietype"
 msgid "Installed"
 msgstr "Geïnstalleerd"
 
-#: pkg/apps/application-list.jsx:54 pkg/apps/application.jsx:56
+#: pkg/apps/application-list.jsx:49 pkg/apps/application.jsx:56
 #: pkg/packagekit/updates.jsx:63
 msgid "Installing"
 msgstr "Installeren"
@@ -3733,7 +3700,7 @@ msgstr "Ongeldige vervaldatum"
 msgid "Invalid file permissions"
 msgstr "Ongeldige bestandsrechten"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:144
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:141
 msgid "Invalid filename"
 msgstr "Ongeldige bestandsnaam"
 
@@ -3958,7 +3925,7 @@ msgstr ""
 "andere gebruikersnaam invoert, wordt die gebruiker altijd gebruikt om "
 "verbinding te maken met deze machine."
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:458
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:445
 msgid ""
 "Leave the password blank if you do not wish to have a root account created"
 msgstr "Laat het wachtwoord leeg als je geen root-account wilt aanmaken"
@@ -3980,15 +3947,15 @@ msgstr "Licentie onder:"
 msgid "Light"
 msgstr "Licht"
 
-#: pkg/shell/superuser.jsx:147
+#: pkg/shell/superuser.jsx:135
 msgid "Limit access"
 msgstr "Beperk toegang"
 
-#: pkg/shell/superuser.jsx:344
+#: pkg/shell/superuser.jsx:332
 msgid "Limited access"
 msgstr "Beperkte toegang"
 
-#: pkg/shell/superuser.jsx:141
+#: pkg/shell/superuser.jsx:129
 msgid ""
 "Limited access mode restricts administrative privileges. Some parts of the "
 "web console will have reduced functionality."
@@ -4054,7 +4021,7 @@ msgstr "Systeemwijzigingen laden..."
 
 #: pkg/kdump/kdump-view.jsx:370 pkg/machines/components/serialConsole.jsx:68
 #: pkg/storaged/devices.jsx:68 pkg/systemd/logs.js:214 pkg/systemd/logs.js:256
-#: pkg/systemd/services/services.jsx:676
+#: pkg/systemd/services/services.jsx:678
 msgid "Loading..."
 msgstr "Laden..."
 
@@ -4066,7 +4033,7 @@ msgstr "Lokale accounts"
 msgid "Local Filesystem"
 msgstr "Lokaal bestandssysteem"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:299
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:296
 msgid "Local Install Media"
 msgstr "Lokale installatiemedia"
 
@@ -4339,7 +4306,7 @@ msgstr "Onderdeel van RAID-apparaat $0"
 #: pkg/dashboard/index.html:74 pkg/docker/index.html:266
 #: pkg/playground/translate.html:89 pkg/systemd/graphs.html:79
 #: pkg/docker/containers-view.jsx:366
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:472
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:459
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:266
 #: pkg/systemd/hwinfo.jsx:272 pkg/systemd/overview-cards/usageCard.jsx:132
 msgid "Memory"
@@ -4375,7 +4342,7 @@ msgstr "Geheugen kon niet worden opgeslagen"
 msgid "Memory limit"
 msgstr "Geheugenlimiet"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:161
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:158
 msgid "Memory must not be 0"
 msgstr "Geheugen mag niet 0 zijn"
 
@@ -4396,7 +4363,7 @@ msgstr ""
 msgid "Metadata Used"
 msgstr "Gebruikte metadata"
 
-#: pkg/shell/superuser.jsx:69
+#: pkg/shell/superuser.jsx:57
 msgid "Method"
 msgstr "Methode"
 
@@ -4599,16 +4566,14 @@ msgstr "NTP-server"
 #: pkg/networkmanager/index.html:222 pkg/networkmanager/index.html:275
 #: pkg/networkmanager/index.html:332 pkg/docker/containers-view.jsx:366
 #: pkg/docker/containers-view.jsx:573
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:201
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:198
 #: pkg/machines/components/networks/createNetworkDialog.jsx:121
-#: pkg/machines/components/networks/networkList.jsx:56
+#: pkg/machines/components/networks/networkList.jsx:55
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:43
-#: pkg/machines/components/storagePools/storagePoolList.jsx:56
+#: pkg/machines/components/storagePools/storagePoolList.jsx:54
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:79
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:33
-#: pkg/machines/components/vmSnapshotsCreateModal.jsx:41
-#: pkg/machines/components/vmSnapshotsTab.jsx:87
-#: pkg/machines/hostvmslist.jsx:97 pkg/packagekit/updates.jsx:394
+#: pkg/machines/hostvmslist.jsx:95 pkg/packagekit/updates.jsx:394
 #: pkg/storaged/content-views.jsx:115 pkg/storaged/content-views.jsx:271
 #: pkg/storaged/content-views.jsx:717 pkg/storaged/format-dialog.jsx:201
 #: pkg/storaged/fsys-panel.jsx:94 pkg/storaged/fsys-tab.jsx:340
@@ -4654,11 +4619,7 @@ msgstr "Naam mag geen spaties bevatten."
 msgid "Name contains invalid characters"
 msgstr "Naam bevat ongeldige tekens"
 
-#: pkg/machines/components/vmSnapshotsCreateModal.jsx:50
-msgid "Name input text"
-msgstr "Naam inputtekst"
-
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:128
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:125
 msgid "Name must not be empty"
 msgstr "Naam mag niet leeg zijn"
 
@@ -4690,19 +4651,19 @@ msgctxt "label"
 msgid "Network"
 msgstr "Netwerk"
 
-#: pkg/machines/components/networks/network.jsx:116
+#: pkg/machines/components/networks/network.jsx:120
 msgid "Network $0 failed to get activated"
 msgstr "Netwerk $0 kan niet geactiveerd worden"
 
-#: pkg/machines/components/networks/network.jsx:128
+#: pkg/machines/components/networks/network.jsx:132
 msgid "Network $0 failed to get deactivated"
 msgstr "Netwerk $0 kan niet gedeactiveerd worden"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:304
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:301
 msgid "Network Boot (PXE)"
 msgstr "Netwerk opstarten (PXE)"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:301
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:298
 msgid "Network Boot is available only when using System connection"
 msgstr ""
 "Netwerk opstarten is alleen beschikbaar bij gebruik van de systeemverbinding"
@@ -4711,11 +4672,11 @@ msgstr ""
 msgid "Network File System"
 msgstr "Netwerk bestandssyteem"
 
-#: pkg/machines/components/vm/vmExpandedContent.jsx:46
+#: pkg/machines/components/vm/vmExpandedContent.jsx:43
 msgid "Network Interfaces"
 msgstr "Netwerkinterfaces"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:253
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:250
 msgid "Network Selection does not support PXE."
 msgstr "Netwerk selectie ondersteunt PXE niet."
 
@@ -4838,7 +4799,7 @@ msgstr "Geen netwerkapparaten"
 msgid "No SELinux alerts."
 msgstr "Geen SELinux-waarschuwingen."
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:515
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:502
 msgid "No Storage"
 msgstr "Geen opslag"
 
@@ -4855,7 +4816,7 @@ msgstr "Geen opslagvolumes gedefinieerd voor deze opslagpool"
 msgid "No System Modifications"
 msgstr "Geen systeemwijzigingen"
 
-#: pkg/machines/hostvmslist.jsx:94
+#: pkg/machines/hostvmslist.jsx:92
 msgid "No VM is running or defined on this host"
 msgstr "Er is geen VM actief of gedefinieerd op deze host"
 
@@ -4867,7 +4828,7 @@ msgstr "Geen virtuele netwerken"
 msgid "No alias specified"
 msgstr "Geen alias opgegeven"
 
-#: pkg/apps/application-list.jsx:156
+#: pkg/apps/application-list.jsx:138
 msgid "No applications installed or available"
 msgstr "Geen toepassingen geïnstalleerd of beschikbaar"
 
@@ -4906,10 +4867,6 @@ msgstr "Geen containers"
 #: pkg/docker/containers-view.jsx:378
 msgid "No containers that match the current filter"
 msgstr "Geen containers die overeenkomen met het huidige filter"
-
-#: pkg/machines/components/vmSnapshotsTab.jsx:99
-msgid "No description"
-msgstr "Geen beschrijving"
 
 #: pkg/networkmanager/firewall.jsx:670
 msgid "No description available"
@@ -4969,7 +4926,7 @@ msgstr "Geen sleutels toegevoegd"
 msgid "No log entries"
 msgstr "Geen logboekvermeldingen"
 
-#: pkg/systemd/services/services.jsx:788
+#: pkg/systemd/services/services.jsx:790
 msgid "No matching results"
 msgstr "Geen overeenkomende resultaten"
 
@@ -4991,17 +4948,13 @@ msgstr ""
 msgid "No network interfaces defined for this VM"
 msgstr "Geen netwerkinterfaces gedefinieerd voor deze VM"
 
-#: pkg/machines/components/networks/networkList.jsx:57
+#: pkg/machines/components/networks/networkList.jsx:56
 msgid "No network is defined on this host"
 msgstr "Geen netwerk gedefinieerd op deze host"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:180
 msgid "No networks available"
 msgstr "Geen netwerken beschikbaar"
-
-#: pkg/machines/components/vmSnapshotsTab.jsx:140
-msgid "No parent"
-msgstr "Geen ouder"
 
 #: pkg/storaged/content-views.jsx:599
 msgid "No partitioning"
@@ -5019,7 +4972,7 @@ msgstr "Geen resultaten voor $0"
 msgid "No results found"
 msgstr "Geen resultaten gevonden"
 
-#: pkg/systemd/services/services.jsx:786
+#: pkg/systemd/services/services.jsx:788
 msgid ""
 "No results match the filter criteria. Clear all filters to show results."
 msgstr ""
@@ -5038,21 +4991,13 @@ msgstr "Geen actieve containers"
 msgid "No running containers that match the current filter"
 msgstr "Geen actieve containers die overeenkomen met het huidige filter"
 
-#: pkg/machines/components/vmSnapshotsTab.jsx:71
-msgid "No snapshots"
-msgstr "Geen momentopnames"
-
-#: pkg/machines/components/storagePools/storagePoolList.jsx:57
+#: pkg/machines/components/storagePools/storagePoolList.jsx:55
 msgid "No storage pool is defined on this host"
 msgstr "Er is geen opslagpool gedefinieerd op deze host"
 
 #: pkg/lib/credentials.js:186
 msgid "No such file or directory"
 msgstr "Bestand of map bestaat niet"
-
-#: pkg/lib/cockpit-components-file-autocomplete.jsx:153
-msgid "No such file or directory '$0'"
-msgstr "Geen bestand of map '$0'"
 
 #: pkg/packagekit/updates.jsx:54
 msgid "No updates pending"
@@ -5062,7 +5007,7 @@ msgstr "Geen updates in behandeling"
 msgid "No user name specified"
 msgstr "Geen gebruikersnaam opgegeven"
 
-#: pkg/machines/components/networks/network.jsx:166
+#: pkg/machines/components/networks/network.jsx:170
 msgid ""
 "Non-persistent network cannot be deleted. It ceases to exists when it's "
 "deactivated."
@@ -5150,7 +5095,7 @@ msgstr "Niet toegestaan om deze actie uit te voeren."
 
 #: pkg/storaged/mdraid-details.jsx:328
 #: pkg/systemd/services/service-details.jsx:443
-#: pkg/systemd/services/services.jsx:526
+#: pkg/systemd/services/services.jsx:528
 msgid "Not running"
 msgstr "Niet actief"
 
@@ -5253,7 +5198,7 @@ msgstr "Ooops!"
 msgid "Open"
 msgstr "Openen"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:371
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:359
 msgid "Operating System"
 msgstr "Besturingssysteem"
 
@@ -5261,8 +5206,8 @@ msgstr "Besturingssysteem"
 msgid "Operation '$operation' on $target"
 msgstr "Bewerking '$operation' op $target"
 
-#: pkg/machines/components/storagePools/storagePool.jsx:166
-#: pkg/machines/components/storagePools/storagePool.jsx:173
+#: pkg/machines/components/storagePools/storagePool.jsx:171
+#: pkg/machines/components/storagePools/storagePool.jsx:178
 msgid "Operation is in progress"
 msgstr "Bewerking is bezig"
 
@@ -5297,9 +5242,9 @@ msgid "Other Options"
 msgstr "Andere opties"
 
 #: pkg/systemd/graphs.html:23 pkg/systemd/graphs.html:106
-#: pkg/machines/components/networks/network.jsx:70
-#: pkg/machines/components/storagePools/storagePool.jsx:64
-#: pkg/machines/components/vm/vmExpandedContent.jsx:43
+#: pkg/machines/components/networks/network.jsx:73
+#: pkg/machines/components/storagePools/storagePool.jsx:73
+#: pkg/machines/components/vm/vmExpandedContent.jsx:40
 #: pkg/systemd/hwinfo.jsx:285 pkg/systemd/manifest.json.in
 msgid "Overview"
 msgstr "Overzicht"
@@ -5339,10 +5284,6 @@ msgstr "Ouder"
 #: pkg/networkmanager/interfaces.js:2907
 msgid "Parent $parent"
 msgstr "Ouder $parent"
-
-#: pkg/machines/components/vmSnapshotsTab.jsx:139
-msgid "Parent Snapshot"
-msgstr "Ouder momentopname"
 
 #: pkg/systemd/services/service-details.jsx:503
 msgid "Part Of"
@@ -5391,7 +5332,7 @@ msgstr "Wachtzinnen komen niet overeen"
 #: pkg/lib/machine-auth-failed.html:8 pkg/lib/machine-change-auth.html:52
 #: pkg/lib/machine-sync-users.html:63 pkg/shell/index.html:275
 #: pkg/shell/index.html:304 pkg/shell/index.html:319 src/ws/login.html:55
-#: pkg/shell/superuser.jsx:56 pkg/storaged/iscsi-panel.jsx:47
+#: pkg/shell/superuser.jsx:44 pkg/storaged/iscsi-panel.jsx:47
 #: pkg/storaged/iscsi-panel.jsx:157 pkg/users/account-create-dialog.js:52
 #: pkg/users/account-details.js:318
 msgid "Password"
@@ -5457,11 +5398,11 @@ msgstr "Pad op server mag niet leeg zijn."
 msgid "Path on server must start with \"/\"."
 msgstr "Pad op server moet beginnen met \"/\"."
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:230
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:227
 msgid "Path to ISO file on host's file system"
 msgstr "Pad naar ISO-bestand op bestandssysteem van host"
 
-#: pkg/lib/cockpit-components-file-autocomplete.jsx:146
+#: pkg/lib/cockpit-components-file-autocomplete.jsx:141
 msgid "Path to file"
 msgstr "Pad naar bestand"
 
@@ -5544,7 +5485,7 @@ msgstr "Ping doel"
 msgid "Pizza Box"
 msgstr "Pizzadoos"
 
-#: pkg/shell/superuser.jsx:55
+#: pkg/shell/superuser.jsx:43
 msgid "Please authenticate to gain administrative access"
 msgstr "Authenticeer om administratieve toegang te krijgen"
 
@@ -5583,7 +5524,7 @@ msgstr "Voer een nieuwe volumegrootte in"
 msgid "Please install the $0 package"
 msgstr "Installeer het $0 pakket"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:190
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:187
 msgid "Please set a root password"
 msgstr "Stel een rootwachtwoord in"
 
@@ -5707,14 +5648,6 @@ msgstr "Mooie hostnaam"
 msgid "Previous boot"
 msgstr "Vorige opstart"
 
-#: pkg/machines/components/vmSnapshotsTab.jsx:72
-msgid ""
-"Previously taken snapshots allow you to revert to an earlier state if "
-"something goes wrong"
-msgstr ""
-"Met eerder gemaakte momentopnames kun je terugkeren naar een eerdere "
-"toestand als er iets misgaat"
-
 #: pkg/networkmanager/index.html:302
 msgid "Primary"
 msgstr "Primair"
@@ -5744,7 +5677,7 @@ msgstr "Probleem info"
 msgid "Problems"
 msgstr "Problemen"
 
-#: pkg/storaged/dialog.jsx:1029
+#: pkg/storaged/dialog.jsx:1034
 msgid "Process"
 msgstr "Proces"
 
@@ -5753,7 +5686,7 @@ msgstr "Proces"
 msgid "Product"
 msgstr "Product"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:432
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:419
 msgid "Profile"
 msgstr "Profiel"
 
@@ -5997,7 +5930,7 @@ msgstr "Opnieuw laden"
 msgid "Reload Propagated From"
 msgstr "Opnieuw laden gepropageerd van"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:277
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:274
 msgid "Remote URL"
 msgstr "URL op afstand"
 
@@ -6018,7 +5951,7 @@ msgstr "Verwijderbaar station"
 msgid "Removals:"
 msgstr "Verwijderingen:"
 
-#: pkg/apps/application-list.jsx:87 pkg/apps/application.jsx:110
+#: pkg/apps/application-list.jsx:82 pkg/apps/application.jsx:110
 #: pkg/machines/components/vmDisksTab.jsx:171
 #: pkg/machines/components/vmDisksTab.jsx:181
 #: pkg/storaged/crypto-keyslots.jsx:402 pkg/storaged/crypto-keyslots.jsx:439
@@ -6062,7 +5995,7 @@ msgstr "Verwijder service $0"
 msgid "Remove zone $0"
 msgstr "Verwijder zone $0"
 
-#: pkg/apps/application-list.jsx:58 pkg/apps/application.jsx:60
+#: pkg/apps/application-list.jsx:53 pkg/apps/application.jsx:60
 msgid "Removing"
 msgstr "Verwijderen"
 
@@ -6279,7 +6212,7 @@ msgstr "Logboeken bekijken"
 msgid "Roles"
 msgstr "Rollen"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:452
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:439
 msgid "Root Password"
 msgstr "Rootwachtwoord"
 
@@ -6308,7 +6241,7 @@ msgstr "Uitvoeren"
 msgid "Run Image"
 msgstr "Image uitvoeren"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:415
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:402
 msgid "Run unattended installation"
 msgstr "Voer een installatie zonder toezicht uit"
 
@@ -6323,7 +6256,7 @@ msgstr "Uitvoerder"
 
 #: pkg/storaged/mdraid-details.jsx:328
 #: pkg/systemd/services/service-details.jsx:435
-#: pkg/systemd/services/services.jsx:522
+#: pkg/systemd/services/services.jsx:524
 msgid "Running"
 msgstr "Uitvoeren"
 
@@ -6540,7 +6473,7 @@ msgstr "Server heeft de verbinding verbroken."
 msgid "Servers"
 msgstr "Servers"
 
-#: pkg/networkmanager/firewall.jsx:160 pkg/storaged/dialog.jsx:1033
+#: pkg/networkmanager/firewall.jsx:160 pkg/storaged/dialog.jsx:1038
 msgid "Service"
 msgstr "Service"
 
@@ -6578,7 +6511,7 @@ msgid "Services"
 msgstr "Services"
 
 #: pkg/machines/components/machinesConnectionSelector.jsx:50
-#: pkg/machines/helpers.js:193 pkg/storaged/dialog.jsx:1029
+#: pkg/machines/helpers.js:193 pkg/storaged/dialog.jsx:1034
 msgid "Session"
 msgstr "Sessie"
 
@@ -6630,7 +6563,7 @@ msgstr ""
 "Instelling wijkt af van de geconfigureerde status en keert terug bij de "
 "volgende keer opstarten."
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:829
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:816
 msgid ""
 "Setting the user passwords for unattended installation requires starting the "
 "VM when creating it"
@@ -6724,17 +6657,13 @@ msgstr "Schakel de VM uit om de firmwareconfiguratie te bewerken"
 msgid "Shutdown"
 msgstr "Afsluiten"
 
-#: pkg/machines/components/vmSnapshotsTab.jsx:117
-msgid "Shutting down"
-msgstr "Afsluiten"
-
 #: pkg/lib/machine-info.js:245
 msgid "Single Rank"
 msgstr "Enkele rang"
 
 #: pkg/docker/containers-view.jsx:573
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:546
-#: pkg/machines/components/storagePools/storagePoolList.jsx:56
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:533
+#: pkg/machines/components/storagePools/storagePoolList.jsx:54
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:79
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:79
 #: pkg/storaged/content-views.jsx:120 pkg/storaged/content-views.jsx:764
@@ -6746,23 +6675,23 @@ msgstr "Enkele rang"
 msgid "Size"
 msgstr "Grootte"
 
-#: pkg/storaged/dialog.jsx:897
+#: pkg/storaged/dialog.jsx:902
 msgid "Size cannot be negative"
 msgstr "Grootte mag niet negatief zijn"
 
-#: pkg/storaged/dialog.jsx:895
+#: pkg/storaged/dialog.jsx:900
 msgid "Size cannot be zero"
 msgstr "Grootte mag niet nul zijn"
 
-#: pkg/storaged/dialog.jsx:899
+#: pkg/storaged/dialog.jsx:904
 msgid "Size is too large"
 msgstr "Grootte is te groot"
 
-#: pkg/storaged/dialog.jsx:893
+#: pkg/storaged/dialog.jsx:898
 msgid "Size must be a number"
 msgstr "Grootte moet een getal zijn"
 
-#: pkg/storaged/dialog.jsx:901
+#: pkg/storaged/dialog.jsx:906
 msgid "Size must be at least $0"
 msgstr "Grootte moet tenminste #0 zijn"
 
@@ -6781,14 +6710,6 @@ msgstr "Slot"
 #: pkg/storaged/crypto-keyslots.jsx:544 pkg/storaged/mdraid-details.jsx:107
 msgid "Slot $0"
 msgstr "Slot $0"
-
-#: pkg/machines/components/vmSnapshotsCreateModal.jsx:121
-msgid "Snapshot failed to be created"
-msgstr "Momentopname kon niet aangemaakt worden"
-
-#: pkg/machines/components/vm/vmExpandedContent.jsx:50
-msgid "Snapshots"
-msgstr "Momentopnames"
 
 #: pkg/machines/components/vcpuModal.jsx:215
 #: pkg/systemd/services/service-tabs.jsx:31
@@ -6828,7 +6749,7 @@ msgstr ""
 "Een ander programma gebruikt momenteel de pakketbeheerder, een ogenblik "
 "geduld..."
 
-#: pkg/shell/superuser.jsx:303
+#: pkg/shell/superuser.jsx:291
 msgid "Something went wrong"
 msgstr "Er is iets fout gegaan"
 
@@ -6864,7 +6785,7 @@ msgstr "Bron volumegroep"
 msgid "Source path should not be empty"
 msgstr "Bronpad mag niet leeg zijn"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:152
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:149
 msgid "Source should start with http, ftp or nfs protocol"
 msgstr "Bron moet beginnen met http, ftp of nfs protocol"
 
@@ -6947,9 +6868,9 @@ msgid "Startup"
 msgstr "Opstarten"
 
 #: pkg/docker/containers-view.jsx:137 pkg/docker/containers-view.jsx:366
-#: pkg/machines/components/networks/networkList.jsx:56
-#: pkg/machines/components/storagePools/storagePoolList.jsx:56
-#: pkg/machines/components/vmnetworktab.jsx:202 pkg/machines/hostvmslist.jsx:99
+#: pkg/machines/components/networks/networkList.jsx:55
+#: pkg/machines/components/storagePools/storagePoolList.jsx:54
+#: pkg/machines/components/vmnetworktab.jsx:202 pkg/machines/hostvmslist.jsx:97
 #: pkg/systemd/hwinfo.jsx:273 pkg/systemd/services/services-list.jsx:98
 msgid "State"
 msgstr "Toestand"
@@ -6964,7 +6885,7 @@ msgid "State:"
 msgstr "Toestand:"
 
 #: pkg/systemd/services/service-details.jsx:453
-#: pkg/systemd/services/services.jsx:536 pkg/systemd/services/services.jsx:699
+#: pkg/systemd/services/services.jsx:538 pkg/systemd/services/services.jsx:701
 msgid "Static"
 msgstr "Statisch"
 
@@ -7025,7 +6946,7 @@ msgid "Stopping swapspace $target"
 msgstr "Swapspace $target stoppen"
 
 #: pkg/storaged/index.html:23
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:509
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:496
 #: pkg/storaged/details.jsx:127 pkg/storaged/manifest.json.in
 msgid "Storage"
 msgstr "Opslag"
@@ -7040,11 +6961,11 @@ msgid_plural "Storage Pools"
 msgstr[0] "Opslagpool"
 msgstr[1] "Opslagpools"
 
-#: pkg/machines/components/storagePools/storagePool.jsx:124
+#: pkg/machines/components/storagePools/storagePool.jsx:129
 msgid "Storage Pool $0 failed to get activated"
 msgstr "Opslagpool $0 kan niet geactiveerd worden"
 
-#: pkg/machines/components/storagePools/storagePool.jsx:138
+#: pkg/machines/components/storagePools/storagePool.jsx:143
 msgid "Storage Pool $0 failed to get deactivated"
 msgstr "Opslagpool $0 kan niet gedeactiveerd worden"
 
@@ -7056,8 +6977,8 @@ msgstr "Opslagpoolnaam"
 msgid "Storage Pool failed to be created"
 msgstr "Opslagpool kan niet worden gemaakt"
 
-#: pkg/machines/components/storagePools/storagePoolList.jsx:50
-#: pkg/machines/components/storagePools/storagePoolList.jsx:54
+#: pkg/machines/components/storagePools/storagePoolList.jsx:49
+#: pkg/machines/components/storagePools/storagePoolList.jsx:53
 msgid "Storage Pools"
 msgstr "Opslagpools"
 
@@ -7065,7 +6986,7 @@ msgstr "Opslagpools"
 msgid "Storage Volume"
 msgstr "Opslagvolume"
 
-#: pkg/machines/components/storagePools/storagePool.jsx:69
+#: pkg/machines/components/storagePools/storagePool.jsx:78
 msgid "Storage Volumes"
 msgstr "Opslagvolumes"
 
@@ -7077,7 +6998,7 @@ msgstr "Opslagvolumes konden niet verwijderd worden"
 msgid "Storage can not be managed on this system."
 msgstr "Opslag kan op dit systeem niet beheerd worden."
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:177
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:174
 msgid "Storage size must not be 0"
 msgstr "Opslaggrootte mag niet nul zijn"
 
@@ -7138,7 +7059,7 @@ msgstr "Schakel $0 uit"
 msgid "Switch on $0"
 msgstr "Schakel $0 in"
 
-#: pkg/shell/superuser.jsx:138
+#: pkg/shell/superuser.jsx:126
 msgid "Switch to limited access"
 msgstr "Schakel over naar beperkte toegang"
 
@@ -7468,7 +7389,7 @@ msgstr ""
 "Het bestandssysteem is momenteel niet aangekoppeld, maar wordt bij de "
 "volgende opstart aangekoppeld."
 
-#: pkg/storaged/dialog.jsx:998
+#: pkg/storaged/dialog.jsx:1003
 msgid ""
 "The filesystem is in use by login sessions and system services. Proceeding "
 "will stop these."
@@ -7476,13 +7397,13 @@ msgstr ""
 "Het bestandssysteem wordt gebruikt door inlogsessies en systeemservices. Als "
 "je doorgaat, worden deze gestopt."
 
-#: pkg/storaged/dialog.jsx:1000
+#: pkg/storaged/dialog.jsx:1005
 msgid "The filesystem is in use by login sessions. Proceeding will stop these."
 msgstr ""
 "Het bestandssysteem wordt gebruikt door inlogsessies. Als je doorgaat, "
 "worden deze gestopt."
 
-#: pkg/storaged/dialog.jsx:1002
+#: pkg/storaged/dialog.jsx:1007
 msgid ""
 "The filesystem is in use by system services. Proceeding will stop these."
 msgstr ""
@@ -7556,19 +7477,19 @@ msgstr "De wachtwoorden komen niet overeen."
 msgid "The pool is empty"
 msgstr "De pool is leeg"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:420
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:407
 msgid "The selected Operating System does not support unattended installation"
 msgstr ""
 "Het geselecteerde besturingssysteem ondersteunt geen installatie zonder "
 "toezicht"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:168
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:165
 msgid "The selected Operating System has minimum memory requirement of $0 $1"
 msgstr ""
 "Het geselecteerde besturingssysteem heeft een minimale geheugenvereiste van "
 "$0 $1"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:183
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:180
 msgid ""
 "The selected Operating System has minimum storage size requirement of $0 $1"
 msgstr ""
@@ -7669,7 +7590,7 @@ msgstr ""
 msgid "This VDO device does not use all of its backing device."
 msgstr "Dit VDO-apparaat gebruikt niet al zijn achtergrondapparatuur."
 
-#: pkg/machines/components/vm/vmActions.jsx:135
+#: pkg/machines/components/vm/vmActions.jsx:139
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr ""
 "Deze virtuele machine is van voorbijgaande aard. Sluit het af als je het "
@@ -7687,7 +7608,7 @@ msgstr ""
 msgid "This device cannot be managed here."
 msgstr "Dit apparaat kan hier niet beheerd worden."
 
-#: pkg/storaged/dialog.jsx:983
+#: pkg/storaged/dialog.jsx:988
 msgid ""
 "This device has filesystems that are currently in use. Proceeding will "
 "unmount all filesystems on it."
@@ -7695,11 +7616,11 @@ msgstr ""
 "Dit apparaat heeft bestandssystemen die momenteel in gebruik zijn. Als je "
 "doorgaat, worden alle bestandssystemen ontkoppeld."
 
-#: pkg/storaged/dialog.jsx:962
+#: pkg/storaged/dialog.jsx:967
 msgid "This device is currently used for RAID devices."
 msgstr "Dit apparaat wordt momenteel gebruikt voor RAID-apparaten."
 
-#: pkg/storaged/dialog.jsx:991
+#: pkg/storaged/dialog.jsx:996
 msgid ""
 "This device is currently used for RAID devices. Proceeding will remove it "
 "from its RAID devices."
@@ -7707,15 +7628,15 @@ msgstr ""
 "Dit apparaat wordt momenteel gebruikt voor RAID-apparaten. Als je doorgaat, "
 "wordt het van zijn RAID-apparaten verwijderd."
 
-#: pkg/storaged/dialog.jsx:966
+#: pkg/storaged/dialog.jsx:971
 msgid "This device is currently used for VDO devices."
 msgstr "Dit apparaat wordt momenteel gebruikt voor VDO-apparaten."
 
-#: pkg/storaged/dialog.jsx:958
+#: pkg/storaged/dialog.jsx:963
 msgid "This device is currently used for volume groups."
 msgstr "Dit apparaat wordt momenteel gebruikt voor volumegroepen."
 
-#: pkg/storaged/dialog.jsx:987
+#: pkg/storaged/dialog.jsx:992
 msgid ""
 "This device is currently used for volume groups. Proceeding will remove it "
 "from its volume groups."
@@ -7723,7 +7644,7 @@ msgstr ""
 "Dit apparaat wordt momenteel gebruikt voor volumegroepen. Als je doorgaat, "
 "wordt het uit de volumegroepen verwijderd."
 
-#: pkg/shell/superuser.jsx:300
+#: pkg/shell/superuser.jsx:288
 msgid "This didn't work, please try again"
 msgstr "Dit werkte niet, probeer het opnieuw"
 
@@ -7802,7 +7723,7 @@ msgstr ""
 "Deze versie van cockpit-ws biedt geen ondersteuning voor het verbinden met "
 "een host met een alternatieve gebruiker of poort"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:539
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:526
 msgid "This volume is already used by another VM."
 msgstr "Dit volume wordt al gebruikt door een andere VM."
 
@@ -7894,10 +7815,6 @@ msgid ""
 msgstr ""
 "Om een andere poort te proberen, moet je cockpit-ws upgraden naar een "
 "nieuwere versie."
-
-#: pkg/machines/components/vmSnapshotsTab.jsx:35
-msgid "Today"
-msgstr "Vandaag"
 
 #: pkg/shell/index.html:65
 msgid "Toggle session settings"
@@ -8022,7 +7939,7 @@ msgstr "Typ om te filteren…"
 msgid "UDP"
 msgstr "UDP"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:300
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:297
 msgid "URL"
 msgstr "URL"
 
@@ -8089,12 +8006,12 @@ msgstr "Onverwachte fout"
 msgid "Unique Network Name"
 msgstr "Unieke netwerknaam"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:208
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:205
 msgid "Unique name"
 msgstr "Unieke naam"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:134
-#: pkg/storaged/dialog.jsx:1033
+#: pkg/storaged/dialog.jsx:1038
 msgid "Unit"
 msgstr "Unit"
 
@@ -8246,7 +8163,7 @@ msgstr "Update geschiedenis"
 msgid "Update Log"
 msgstr "Update logboek"
 
-#: pkg/apps/application-list.jsx:148
+#: pkg/apps/application-list.jsx:129
 msgid "Update package information"
 msgstr "Vernieuw pakketinformatie"
 
@@ -8278,7 +8195,7 @@ msgstr "Uptime"
 msgid "Url"
 msgstr "Url"
 
-#: pkg/machines/components/vm/vmExpandedContent.jsx:44
+#: pkg/machines/components/vm/vmExpandedContent.jsx:41
 #: pkg/storaged/unrecognized-tab.jsx:30
 #: pkg/systemd/overview-cards/usageCard.jsx:116
 msgid "Usage"
@@ -8392,19 +8309,19 @@ msgstr "VLAN-Id"
 msgid "VLAN Settings"
 msgstr "VLAN-instellingen"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:130
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:127
 msgid "VM $0 already exists"
 msgstr "VM $0 bestaat al"
 
-#: pkg/machines/hostvmslist.jsx:125
+#: pkg/machines/hostvmslist.jsx:123
 msgid "VM $0 failed to Reboot"
 msgstr "VM $0 kon niet opnieuw opstarten"
 
-#: pkg/machines/hostvmslist.jsx:131
+#: pkg/machines/hostvmslist.jsx:129
 msgid "VM $0 failed to force Reboot"
 msgstr "VM $0 kan opnieuw opstarten niet forceren"
 
-#: pkg/machines/hostvmslist.jsx:155
+#: pkg/machines/hostvmslist.jsx:153
 msgid "VM $0 failed to force shutdown"
 msgstr "VM $0 kon afsluiten niet forceren"
 
@@ -8412,33 +8329,29 @@ msgstr "VM $0 kon afsluiten niet forceren"
 msgid "VM $0 failed to get deleted"
 msgstr "VM $0 kan niet verwijderd worden"
 
-#: pkg/machines/hostvmslist.jsx:119 pkg/machines/libvirt-common.js:1378
+#: pkg/machines/hostvmslist.jsx:117 pkg/machines/libvirt-common.js:1420
 msgid "VM $0 failed to get installed"
 msgstr "VM $0 kan niet geïnstalleerd worden"
 
-#: pkg/machines/hostvmslist.jsx:143
+#: pkg/machines/hostvmslist.jsx:141
 msgid "VM $0 failed to pause"
 msgstr "VM $0 kan niet gepauzeerd worden"
 
-#: pkg/machines/hostvmslist.jsx:149
+#: pkg/machines/hostvmslist.jsx:147
 msgid "VM $0 failed to resume"
 msgstr "VM $0 kan niet hervat worden"
 
-#: pkg/machines/hostvmslist.jsx:161
+#: pkg/machines/hostvmslist.jsx:159
 msgid "VM $0 failed to send NMI"
 msgstr "VM $0 kan NMI niet verzenden"
 
-#: pkg/machines/hostvmslist.jsx:137
+#: pkg/machines/hostvmslist.jsx:135
 msgid "VM $0 failed to shutdown"
 msgstr "VM $0 kan niet afgesloten worden"
 
-#: pkg/machines/hostvmslist.jsx:113
+#: pkg/machines/hostvmslist.jsx:111
 msgid "VM $0 failed to start"
 msgstr "VM $0 kan niet gestart worden"
-
-#: pkg/machines/components/vmSnapshotsTab.jsx:109
-msgid "VM State"
-msgstr "VM toestand"
 
 #: pkg/machines/components/desktopConsole.jsx:187
 msgid "VNC"
@@ -8511,8 +8424,8 @@ msgid "View report"
 msgstr "Bekijk rapport"
 
 #: pkg/machines/components/networks/networkList.jsx:47
-#: pkg/machines/components/storagePools/storagePoolList.jsx:47
-#: pkg/machines/hostvmslist.jsx:92 pkg/machines/manifest.json.in
+#: pkg/machines/components/storagePools/storagePoolList.jsx:46
+#: pkg/machines/hostvmslist.jsx:90 pkg/machines/manifest.json.in
 msgid "Virtual Machines"
 msgstr "Virtuele machines"
 
@@ -8532,7 +8445,7 @@ msgstr "Virtueel netwerk kan niet aangemaakt worden"
 msgid "Virtualization Service (libvirt) is Not Active"
 msgstr "Virtualisatieservice (libvirt) is niet actief"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:529
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:516
 #: pkg/machines/components/deleteDialog.jsx:51
 #: pkg/machines/components/diskAdd.jsx:80
 #: pkg/machines/components/vm/bootOrderModal.jsx:96
@@ -8688,10 +8601,6 @@ msgstr "XOR"
 msgid "Yes"
 msgstr "Ja"
 
-#: pkg/machines/components/vmSnapshotsTab.jsx:34
-msgid "Yesterday"
-msgstr "Gisteren"
-
 #: pkg/lib/machine-sync-users.html:49
 msgid ""
 "You are connected to {{#strong}}{{host}}{{/strong}}, however in order to "
@@ -8711,7 +8620,7 @@ msgstr ""
 msgid "You are not authorized to modify the firewall."
 msgstr "Jr bent niet bevoegd om de firewall te wijzigen."
 
-#: pkg/shell/superuser.jsx:233
+#: pkg/shell/superuser.jsx:221
 msgid "You can not gain administrative access."
 msgstr "Je kunt geen administratieve toegang krijgen."
 
@@ -8735,7 +8644,7 @@ msgstr "Je kunt proberen oudere items te laden."
 msgid "You must wait longer to change your password"
 msgstr "Je moet langer wachten om je wachtwoord te wijzigen"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:133
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:130
 msgid "You need to select the most closely matching Operating System"
 msgstr "Je moet het meest overeenkomende besturingssysteem selecteren"
 
@@ -8745,7 +8654,7 @@ msgid ""
 msgstr ""
 "Je moet overschakelen naar \"Beheerderstoegang\" om rapporten te maken."
 
-#: pkg/shell/superuser.jsx:291
+#: pkg/shell/superuser.jsx:279
 msgid "You now have administrative access."
 msgstr "Je hebt nu administratieve toegang."
 
@@ -8766,7 +8675,7 @@ msgstr ""
 "updateproces. Je kunt binnen enkele ogenblikken opnieuw verbinding maken om "
 "de voortgang te blijven bekijken."
 
-#: pkg/shell/superuser.jsx:142
+#: pkg/shell/superuser.jsx:130
 msgid "Your browser will remember your access level across sessions."
 msgstr "Je browser onthoudt je toegangsniveau tijdens sessies."
 
@@ -8806,8 +8715,8 @@ msgstr "abrt"
 msgid "access"
 msgstr "toegang"
 
-#: pkg/machines/components/networks/network.jsx:57
-#: pkg/machines/components/storagePools/storagePool.jsx:58
+#: pkg/machines/components/networks/network.jsx:60
+#: pkg/machines/components/storagePools/storagePool.jsx:61
 #: pkg/shell/active-pages-dialog.jsx:39
 msgid "active"
 msgstr "actief"
@@ -8909,11 +8818,11 @@ msgstr "crash"
 msgid "crashed"
 msgstr "crashte"
 
-#: pkg/machines/hostvmslist.jsx:52
+#: pkg/machines/hostvmslist.jsx:50
 msgid "creating VM"
 msgstr "VM aanmaken"
 
-#: pkg/machines/hostvmslist.jsx:50
+#: pkg/machines/hostvmslist.jsx:48
 msgid "creating VM installation"
 msgstr "VM installatie aanmaken"
 
@@ -9087,8 +8996,8 @@ msgstr "iSCSI-doel IQN"
 msgid "idle"
 msgstr "nietsdoend"
 
-#: pkg/machines/components/networks/network.jsx:57
-#: pkg/machines/components/storagePools/storagePool.jsx:58
+#: pkg/machines/components/networks/network.jsx:60
+#: pkg/machines/components/storagePools/storagePool.jsx:61
 msgid "inactive"
 msgstr "inactief"
 
@@ -9227,10 +9136,6 @@ msgstr "nfs dump target is niet geformatteerd als server:pad"
 #: pkg/machines/helpers.js:242
 msgid "no"
 msgstr "nee"
-
-#: pkg/machines/components/vmSnapshotsTab.jsx:112
-msgid "no state saved"
-msgstr "geen toestand opgeslagen"
 
 #: pkg/docker/run.js:419 pkg/docker/run.js:475 pkg/docker/run.js:529
 #: pkg/docker/run.js:574 pkg/tuned/dialog.js:101
@@ -9495,8 +9400,8 @@ msgstr "onbepaald"
 msgid "unit"
 msgstr "unit"
 
-#: pkg/systemd/services/services.jsx:472 pkg/systemd/services/services.jsx:473
-#: pkg/systemd/services/services.jsx:495 pkg/systemd/services/services.jsx:496
+#: pkg/systemd/services/services.jsx:474 pkg/systemd/services/services.jsx:475
+#: pkg/systemd/services/services.jsx:497 pkg/systemd/services/services.jsx:498
 msgid "unknown"
 msgstr "onbekend"
 
@@ -9560,7 +9465,7 @@ msgstr "versie"
 msgid "vhostuser"
 msgstr "vhost-gebruiker"
 
-#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1021
+#: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1008
 msgid ""
 "virt-install package needs to be installed on the system in order to create "
 "new VMs"
