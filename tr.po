@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 10:09+0200\n"
-"PO-Revision-Date: 2020-05-30 19:40+0000\n"
+"PO-Revision-Date: 2020-08-10 13:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/tr/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -143,7 +143,7 @@ msgstr "$0 dosya sistemleri genişletilemez."
 
 #: pkg/storaged/lvol-tabs.jsx:156
 msgid "$0 filesystems can not be made smaller."
-msgstr "$0 dosya sistemleri daraltılamaz."
+msgstr "$0 dosya sistemleri küçültülemez."
 
 #: pkg/storaged/lvol-tabs.jsx:152
 msgid "$0 filesystems can not be resized here."
@@ -1127,7 +1127,7 @@ msgstr "Kimlik Doğrulama Başarısız"
 
 #: src/ws/login.js:647
 msgid "Authentication Failed: Server closed connection"
-msgstr "Kimlik Doğrulama Başarısız: Sunucu bağlantıyı kesti"
+msgstr "Kimlik Doğrulama Başarısız: Sunucu bağlantıyı kapattı"
 
 #: src/ws/login.js:657
 msgid "Authentication failed"
@@ -1244,7 +1244,7 @@ msgstr "Yedek Aygıtı"
 
 #: src/bridge/cockpitdbussetup.c:367 src/bridge/cockpitdbussetup.c:631
 msgid "Bad data passed for passwd1 mechanism"
-msgstr "passwd1 mekanizması için yanlış veri iletildi"
+msgstr "passwd1 mekanizması için hatalı veri iletildi"
 
 #: pkg/networkmanager/index.html:333
 msgid "Balancer"
@@ -4112,7 +4112,7 @@ msgstr "Geçersiz saat biçimi"
 
 #: pkg/systemd/index.html:381
 msgid "Invalid time zone"
-msgstr ""
+msgstr "Geçersiz saat dilimi"
 
 #: pkg/storaged/iscsi-panel.jsx:80 pkg/storaged/iscsi-panel.jsx:163
 #: pkg/subscriptions/subscriptions-client.js:193
@@ -4971,15 +4971,15 @@ msgstr ""
 #: pkg/machines/hostvmslist.jsx:83 pkg/docker/containers-view.jsx:359
 #: pkg/docker/containers-view.jsx:683
 msgid "Name"
-msgstr "İsim"
+msgstr "Ad"
 
 #: pkg/storaged/vdos-panel.jsx:52
 msgid "Name can not be empty."
-msgstr "İsim boş olamaz."
+msgstr "Ad boş olamaz."
 
 #: pkg/storaged/utils.js:131
 msgid "Name cannot be empty."
-msgstr "İsim boş olamaz."
+msgstr "Ad boş olamaz."
 
 #: pkg/storaged/utils.js:159
 msgid "Name cannot be longer than $0 bytes"
@@ -5008,7 +5008,7 @@ msgstr ""
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:36
 msgid "Name: "
-msgstr "İsim: "
+msgstr "Ad: "
 
 #: pkg/kubernetes/views/route-body.html:5
 #: pkg/kubernetes/views/volumes-page.html:59
@@ -8830,7 +8830,7 @@ msgstr ""
 
 #: pkg/systemd/index.html:371
 msgid "Time Zone"
-msgstr "Zaman Dilimi"
+msgstr "Saat Dilimi"
 
 #: pkg/systemd/services.html:59
 msgid "Timers"
@@ -9180,7 +9180,7 @@ msgstr "$target bağlantısı kaldırılıyor"
 
 #: pkg/users/index.html:370
 msgid "Unnamed"
-msgstr "İsimsiz"
+msgstr "Adsız"
 
 #: pkg/machines/components/vmnetworktab.jsx:139
 msgid "Unplug"
