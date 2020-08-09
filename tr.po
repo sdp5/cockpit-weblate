@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-05-30 19:40+0000\n"
+"PO-Revision-Date: 2020-08-10 13:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/tr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -145,7 +145,7 @@ msgstr "$0 dosya sistemleri genişletilemez."
 
 #: pkg/storaged/lvol-tabs.jsx:158
 msgid "$0 filesystems can not be made smaller."
-msgstr "$0 dosya sistemleri daraltılamaz."
+msgstr "$0 dosya sistemleri küçültülemez."
 
 #: pkg/storaged/lvol-tabs.jsx:154
 msgid "$0 filesystems can not be resized here."
@@ -987,7 +987,7 @@ msgstr "Kimlik Doğrulama Başarısız"
 
 #: src/ws/login.js:675
 msgid "Authentication Failed: Server closed connection"
-msgstr "Kimlik Doğrulama Başarısız: Sunucu bağlantıyı kesti"
+msgstr "Kimlik Doğrulama Başarısız: Sunucu bağlantıyı kapattı"
 
 #: src/ws/login.js:685
 msgid "Authentication failed"
@@ -1104,7 +1104,7 @@ msgstr "Yedek Aygıtı"
 
 #: src/bridge/cockpitdbussetup.c:367 src/bridge/cockpitdbussetup.c:631
 msgid "Bad data passed for passwd1 mechanism"
-msgstr "passwd1 mekanizması için yanlış veri iletildi"
+msgstr "passwd1 mekanizması için hatalı veri iletildi"
 
 #: pkg/networkmanager/index.html:340
 msgid "Balancer"
@@ -1489,7 +1489,7 @@ msgstr ""
 
 #: src/ws/cockpit.appdata.xml.in:7
 msgid "Cockpit"
-msgstr "Kokpit"
+msgstr "Cockpit"
 
 #: src/ws/login.js:356
 msgid "Cockpit authentication is configured incorrectly."
@@ -3554,7 +3554,7 @@ msgstr "Geçersiz saat biçimi"
 
 #: pkg/systemd/index.html:88
 msgid "Invalid time zone"
-msgstr ""
+msgstr "Geçersiz saat dilimi"
 
 #: pkg/storaged/iscsi-panel.jsx:80 pkg/storaged/iscsi-panel.jsx:169
 msgid "Invalid username or password"
@@ -4302,15 +4302,15 @@ msgstr ""
 #: pkg/storaged/vgroups-panel.jsx:74 pkg/systemd/hwinfo.jsx:70
 #: pkg/systemd/init.js:308
 msgid "Name"
-msgstr "İsim"
+msgstr "Ad"
 
 #: pkg/storaged/vdos-panel.jsx:87
 msgid "Name can not be empty."
-msgstr "İsim boş olamaz."
+msgstr "Ad boş olamaz."
 
 #: pkg/storaged/utils.js:131
 msgid "Name cannot be empty."
-msgstr "İsim boş olamaz."
+msgstr "Ad boş olamaz."
 
 #: pkg/storaged/utils.js:159
 msgid "Name cannot be longer than $0 bytes"
@@ -4334,7 +4334,7 @@ msgstr ""
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:123
 msgid "Name must not be empty"
-msgstr "İsim boş olmamalıdır"
+msgstr "Ad boş olmamalıdır"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:41
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:53
@@ -4343,7 +4343,7 @@ msgstr ""
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:36
 msgid "Name: "
-msgstr "İsim: "
+msgstr "Ad: "
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:859
 msgid "Need at least one NTP server"
@@ -7333,7 +7333,7 @@ msgstr ""
 
 #: pkg/systemd/index.html:83
 msgid "Time Zone"
-msgstr "Zaman Dilimi"
+msgstr "Saat Dilimi"
 
 #: pkg/systemd/services.jsx:52
 msgid "Timers"
@@ -7632,7 +7632,7 @@ msgstr "$target bağlantısı kaldırılıyor"
 
 #: pkg/users/index.html:370
 msgid "Unnamed"
-msgstr "İsimsiz"
+msgstr "Adsız"
 
 #: pkg/machines/components/vmnetworktab.jsx:236
 msgid "Unplug"
@@ -8184,7 +8184,7 @@ msgstr ""
 
 #: pkg/users/manifest.json.in
 msgid "access"
-msgstr "giriş"
+msgstr "erişim"
 
 #: pkg/machines/components/networks/network.jsx:60
 #: pkg/machines/components/storagePools/storagePool.jsx:70
