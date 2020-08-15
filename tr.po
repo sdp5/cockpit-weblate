@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 10:09+0200\n"
-"PO-Revision-Date: 2020-08-10 13:29+0000\n"
+"PO-Revision-Date: 2020-08-16 08:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/tr/>\n"
@@ -1506,7 +1506,7 @@ msgstr "Oturum açma bilgileri yönlendirilemiyor"
 
 #: pkg/systemd/shutdown.js:164
 msgid "Cannot schedule event in the past"
-msgstr ""
+msgstr "Geçmiş için olay zamanlanamaz"
 
 #: pkg/kubernetes/views/pvc-body.html:32 pkg/kubernetes/views/pv-body.html:13
 #: pkg/kubernetes/views/node-page.html:17
@@ -1535,15 +1535,15 @@ msgstr ""
 #: pkg/systemd/index.html:427 pkg/docker/index.html:662
 #: pkg/storaged/iscsi-panel.jsx:181
 msgid "Change"
-msgstr ""
+msgstr "Değiştir"
 
 #: pkg/systemd/index.html:296
 msgid "Change Host Name"
-msgstr ""
+msgstr "Ana Makine Adını Değiştir"
 
 #: pkg/shell/index.html:312
 msgid "Change Password"
-msgstr ""
+msgstr "Parola Değiştir"
 
 #: pkg/tuned/dialog.js:189
 msgid "Change Performance Profile"
@@ -1555,7 +1555,7 @@ msgstr "Profil Değiştir"
 
 #: pkg/systemd/index.html:365
 msgid "Change System Time"
-msgstr ""
+msgstr "Sistem Zamanını Değiştir"
 
 #: pkg/kubernetes/views/user-modify.html:3
 msgid "Change User"
@@ -1563,7 +1563,7 @@ msgstr ""
 
 #: pkg/storaged/iscsi-panel.jsx:176
 msgid "Change iSCSI Initiator Name"
-msgstr ""
+msgstr "iSCSI Başlatıcı Adını Değiştir"
 
 #: pkg/kubernetes/views/imagestream-modify.html:4
 msgid "Change image stream"
@@ -1571,7 +1571,7 @@ msgstr ""
 
 #: pkg/storaged/crypto-keyslots.jsx:247
 msgid "Change passphrase"
-msgstr ""
+msgstr "Parolayı değiştir"
 
 #: pkg/kubernetes/views/project-modify.html:10
 msgid "Change project"
@@ -1579,36 +1579,38 @@ msgstr ""
 
 #: pkg/docker/index.html:228
 msgid "Change resource limits"
-msgstr ""
+msgstr "Kaynak sınırlarını değiştir"
 
 #: pkg/docker/index.html:612
 msgid "Change resources limits"
-msgstr ""
+msgstr "Kaynak sınırlarını değiştir"
 
 #: pkg/networkmanager/interfaces.js:3153
 msgid "Change the settings"
-msgstr ""
+msgstr "Ayarları değiştir"
 
 #: pkg/machines/components/nicEdit.jsx:272
 #: pkg/machines/components/warningInactive.jsx:11
 #: pkg/machines/components/vm/bootOrderModal.jsx:283
 #: pkg/machines/components/vcpuModal.jsx:183
 msgid "Changes will take effect after shutting down the VM"
-msgstr ""
+msgstr "Değişiklikler, sanal makine kapatıldıktan sonra geçerli olacaktır"
 
 #: pkg/networkmanager/interfaces.js:3152
 msgid ""
 "Changing the settings will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
+"Ayarların değiştirilmesi sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
+"kullanılamaz hale getirecektir."
 
 #: pkg/packagekit/updates.jsx:175
 msgid "Check for Updates"
-msgstr ""
+msgstr "Güncellemeleri Denetle"
 
 #: pkg/storaged/jobs-panel.jsx:47
 msgid "Checking $target"
-msgstr ""
+msgstr "$target denetleniyor"
 
 #: pkg/networkmanager/interfaces.js:834
 msgid "Checking IP"
@@ -1616,19 +1618,19 @@ msgstr "IP denetleniyor"
 
 #: pkg/storaged/jobs-panel.jsx:63
 msgid "Checking RAID Device $target"
-msgstr ""
+msgstr "RAID aygıtı $target denetleniyor"
 
 #: pkg/storaged/jobs-panel.jsx:64
 msgid "Checking and Repairing RAID Device $target"
-msgstr ""
+msgstr "RAID aygıtı $target denetleniyor ve onarılıyor"
 
 #: pkg/apps/application-list.jsx:127
 msgid "Checking for new applications"
-msgstr ""
+msgstr "Yeni uygulamalar denetleniyor"
 
 #: pkg/lib/machine-change-auth.html:71
 msgid "Checking for public keys"
-msgstr ""
+msgstr "Genel anahtarlar denetleniyor"
 
 #: pkg/systemd/host.js:517
 msgid "Checking for updates…"
@@ -1636,15 +1638,15 @@ msgstr ""
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:142
 msgid "Checking installed software"
-msgstr ""
+msgstr "Kurulu yazılımlar denetleniyor"
 
 #: pkg/shell/stub.html:100 pkg/shell/simple.html:85 pkg/shell/index.html:117
 msgid "Choose the language to be used in the application"
-msgstr ""
+msgstr "Uygulamada kullanılacak dili seçin"
 
 #: pkg/storaged/mdraids-panel.jsx:57
 msgid "Chunk Size"
-msgstr ""
+msgstr "Segment (Chunk) Boyutu"
 
 #: pkg/kubernetes/scripts/volumes.js:202
 msgid "Cinder"
@@ -1660,11 +1662,11 @@ msgstr ""
 
 #: pkg/systemd/hwinfo.jsx:248
 msgid "Class"
-msgstr ""
+msgstr "Sınıf"
 
 #: pkg/storaged/jobs-panel.jsx:55
 msgid "Cleaning up for $target"
-msgstr ""
+msgstr "$target için temizleniyor"
 
 #: pkg/systemd/services.html:194
 msgid "Clear All Filters"
@@ -1678,6 +1680,8 @@ msgstr ""
 msgid ""
 "Clicking \"Launch Remote Viewer\" will download a .vv file and launch $0."
 msgstr ""
+"\"Remote Viewer'ı Başlat\" tıklandığında bir .vv dosyası indirilecek ve $0 "
+"başlatılacaktır."
 
 #: pkg/kubernetes/views/auth-form.html:88
 msgid "Client Certificate"
@@ -1685,7 +1689,7 @@ msgstr ""
 
 #: pkg/realmd/operation.html:20
 msgid "Client Software"
-msgstr ""
+msgstr "İstemci Yazılımı"
 
 #: pkg/shell/stub.html:79 pkg/shell/stub.html:122 pkg/shell/simple.html:72
 #: pkg/shell/index.html:96 pkg/shell/index.html:139 pkg/shell/index.html:323
@@ -1703,7 +1707,7 @@ msgstr "Kapat"
 
 #: pkg/shell/active-pages.js:103
 msgid "Close Selected Pages"
-msgstr ""
+msgstr "Seçili Sayfaları Kapat"
 
 #: pkg/kubernetes/views/auth-form.html:5 pkg/kubernetes/index.html:37
 #: pkg/ovirt/components/App.jsx:107
@@ -1720,17 +1724,20 @@ msgstr ""
 
 #: src/ws/login.js:346
 msgid "Cockpit authentication is configured incorrectly."
-msgstr ""
+msgstr "Cockpit kimlik doğrulaması yanlış yapılandırıldı."
 
 #: pkg/lib/machine-dialogs.js:427
 msgid ""
 "Cockpit could not contact the given host $0. Make sure it has ssh running on "
 "port $1, or specify another port in the address."
 msgstr ""
+"Cockpit, verilen ana makine $0 ile iletişim kuramadı. SSH hizmetinin $1 "
+"bağlantı noktasında çalıştığından emin olun veya adreste başka bir bağlantı "
+"noktası belirtin."
 
 #: src/base1/cockpit.js:4037
 msgid "Cockpit could not contact the given host."
-msgstr ""
+msgstr "Cockpit, verilen ana makineyle iletişim kuramadı."
 
 #: pkg/shell/base_index.js:738
 msgid ""
@@ -1738,6 +1745,10 @@ msgid ""
 "Cockpit by pressing refresh in your browser. The javascript console contains "
 "details about this error (<b>Ctrl-Shift-J</b> in most browsers)."
 msgstr ""
+"Cockpit beklenmeyen bir dahili hatayla karşılaştı. <br/><br/>Tarayıcınızda "
+"yenile tuşuna basarak Cockpit'i yeniden başlatmayı deneyebilirsiniz. Bu "
+"hatayla ilgili ayrıntılar javascript konsolunda bulunmaktadır (çoğu "
+"tarayıcıda <b>Ctrl-Shift-J</b>)."
 
 #: cockpit.appdata.xml.in.h:2
 msgid ""
@@ -1747,6 +1758,11 @@ msgid ""
 "Likewise, if an error occurs in the terminal, it can be seen in the Cockpit "
 "journal interface."
 msgstr ""
+"Cockpit, Linux sunucularınızı bir web tarayıcısı aracılığıyla yönetmenizi "
+"kolaylaştıran bir sunucu yöneticisidir. Terminal ve web aracı arasında geçiş "
+"yapmak sorun değil. Cockpit üzerinden başlatılan bir hizmet terminal "
+"üzerinden durdurulabilir. Aynı şekilde, terminalde bir hata meydana gelirse, "
+"Cockpit günlük arayüzünde görülebilir."
 
 #: pkg/shell/stub.html:68 pkg/shell/simple.html:61 pkg/shell/index.html:85
 msgid "Cockpit is an interactive Linux server admin interface."
