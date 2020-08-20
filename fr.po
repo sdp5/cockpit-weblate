@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-07-31 08:29+0000\n"
-"Last-Translator: Sébastien POHER <sogal@member.fsf.org>\n"
+"PO-Revision-Date: 2020-08-22 08:29+0000\n"
+"Last-Translator: Sébastien Pascal-Poher <spoher@pm.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/fr/>\n"
 "Language: fr\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.2.1\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -761,8 +761,8 @@ msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
 msgstr ""
-"Ajouter des ports personnalisés rechargera firewalld. Le chargement à "
-"nouveau entraînera la perte de la configuration en cours d’exécution !"
+"Ajouter des ports personnalisés rechargera firewalld. Le rechargement de la "
+"configuration entraînera la perte de celle en cours d’exécution !"
 
 #: pkg/users/authorized-keys.js:113
 msgid "Adding key"
@@ -2734,7 +2734,7 @@ msgstr "L’extrémité ne doit pas être vide"
 
 #: pkg/selinux/setroubleshoot-view.jsx:291
 msgid "Enforcing"
-msgstr "Faire exécuter"
+msgstr "Imposer les règles"
 
 #: pkg/packagekit/updates.jsx:862
 msgid "Enhancement Updates Available"
