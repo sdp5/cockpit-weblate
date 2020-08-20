@@ -20,16 +20,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-07-10 02:27+0000\n"
-"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
+"PO-Revision-Date: 2020-08-22 08:29+0000\n"
+"Last-Translator: Sébastien Pascal-Poher <spoher@pm.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
-"master/fr/>\n"
+"rhel8/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1\n"
-"X-Generator: Weblate 4.1.1\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.2.1\n"
 
 #: pkg/machines/components/diskAdd.jsx:234
 msgid " Attaching it will make this disk shareable for every VM using it."
@@ -796,8 +796,8 @@ msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
 msgstr ""
-"Ajouter des ports personnalisés rechargera firwalld. Le chargement à nouveau "
-"entrainera la perte des configurations d’exécution-uniquement !"
+"Ajouter des ports personnalisés rechargera firewalld. Le rechargement de la "
+"configuration entraînera la perte de celle en cours d’exécution !"
 
 #: pkg/users/authorized-keys.js:113
 msgid "Adding key"
@@ -2829,7 +2829,7 @@ msgstr "L’extrémité ne doit pas être vide"
 
 #: pkg/selinux/setroubleshoot-view.jsx:285
 msgid "Enforcing"
-msgstr "Faire exécuter"
+msgstr "Imposer les règles"
 
 #: pkg/packagekit/updates.jsx:867
 msgid "Enhancement Updates Available"
@@ -7539,8 +7539,8 @@ msgstr "La pool est vide"
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:420
 msgid "The selected Operating System does not support unattended installation"
 msgstr ""
-"Le système d’exécution sélectionné ne prend pas en charge les installations "
-"sans surveillance"
+"Le système d’exploitation sélectionné ne prend pas en charge les "
+"installations automatisées"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:168
 msgid "The selected Operating System has minimum memory requirement of $0 $1"
