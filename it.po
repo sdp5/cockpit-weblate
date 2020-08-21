@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-07-31 20:10+0000\n"
+"PO-Revision-Date: 2020-08-22 08:29+0000\n"
 "Last-Translator: Roberto Bellingeri <bellingeri@netguru.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/it/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.2.1\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -1253,7 +1253,6 @@ msgstr "Utilizzo CPU:"
 
 #: pkg/machines/components/diskAdd.jsx:164
 #: pkg/machines/components/vmDiskColumns.jsx:75
-#, fuzzy
 msgid "Cache"
 msgstr "Cache"
 
@@ -2392,7 +2391,6 @@ msgstr "Desktop"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:152
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:186
-#, fuzzy
 msgid ""
 "Detach the disks using this pool from any VMs before attempting deletion."
 msgstr ""
@@ -2626,7 +2624,6 @@ msgid "Drives"
 msgstr "Drive"
 
 #: pkg/lib/machine-info.js:247
-#, fuzzy
 msgid "Dual Rank"
 msgstr "Dual Rank"
 
@@ -3226,10 +3223,8 @@ msgid "Hello time $hello_time"
 msgstr "Ciao tempo $hello_time"
 
 #: pkg/machines/components/diskAdd.jsx:156
-#, fuzzy
-#| msgid "Add Additional Storage"
 msgid "Hide Additional Options"
-msgstr "Aggiungi memoria aggiuntiva"
+msgstr "Nascondi opzioni aggiuntive"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:137
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:35
@@ -3426,16 +3421,12 @@ msgid "Immediately Start VM"
 msgstr "Avviare immediatamente la VM"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:822
-#, fuzzy
-#| msgid "Report"
 msgid "Import"
-msgstr "Notifica"
+msgstr "Importa"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:809
-#, fuzzy
-#| msgid "Virtual Machines"
 msgid "Import A Virtual Machine"
-msgstr "Server Virtuali"
+msgstr "Importa una macchina virtuale"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:885
 msgid "Import VM"
@@ -3718,10 +3709,8 @@ msgid "Join a Domain"
 msgstr "Join a un dominio"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:623
-#, fuzzy
-#| msgid "Joining this domain is not supported"
 msgid "Joining a domain requires installation of realmd"
-msgstr "L'adesione a questo dominio non è supportata"
+msgstr "L'adesione a un dominio richiede l'installazione di realmd"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:508
 msgid "Joining this domain is not supported"
@@ -3824,10 +3813,8 @@ msgid "Last Trigger"
 msgstr "Ultimo trigger"
 
 #: pkg/packagekit/updates.jsx:181
-#, fuzzy
-#| msgid "Last checked: $0 ago"
 msgid "Last checked: $0"
-msgstr "Ultimo controllo: $0■fa"
+msgstr "Ultimo controllo: $0"
 
 #: pkg/machines/components/desktopConsole.jsx:128
 msgid "Launch Remote Viewer"
@@ -4526,7 +4513,6 @@ msgid "Network $0 failed to get deactivated"
 msgstr "Impossibile disattivare la rete $0"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:298
-#, fuzzy
 msgid "Network Boot (PXE)"
 msgstr "Avvio di rete (PXE)"
 
@@ -5426,9 +5412,8 @@ msgid "Pool for Thin Volumes"
 msgstr "Pool per Volumi Thin"
 
 #: pkg/storaged/content-views.jsx:695
-#, fuzzy
 msgid "Pool for thinly provisioned volumes"
-msgstr "Pool per volumi thin"
+msgstr "Pool per volumi con thin provisioning"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:142
 msgid "Pool type doesn't support volume creation"
@@ -6460,10 +6445,8 @@ msgid "Shift+Insert"
 msgstr "Shift+Insert"
 
 #: pkg/machines/components/diskAdd.jsx:156
-#, fuzzy
-#| msgid "Additional Storage"
 msgid "Show Additional Options"
-msgstr "Memoria aggiuntiva"
+msgstr "Mostra opzioni aggiuntive"
 
 #: pkg/storaged/overview.jsx:52
 msgid "Show all"
@@ -7713,13 +7696,12 @@ msgid "Troubleshoot"
 msgstr "Risoluzione dei problemi"
 
 #: pkg/storaged/crypto-keyslots.jsx:339
-#, fuzzy
 msgid "Trust key"
-msgstr "Chiave della fiducia"
+msgstr "Chiave di trust"
 
 #: pkg/networkmanager/firewall.jsx:673
 msgid "Trust level"
-msgstr ""
+msgstr "Livello di trust"
 
 #: src/ws/login.html:109
 msgid "Try Again"
@@ -8046,7 +8028,7 @@ msgstr "Utilizzo"
 
 #: pkg/systemd/graphs.html:31 pkg/systemd/graphs.html:115
 msgid "Usage Graphs"
-msgstr ""
+msgstr "Grafici di utilizzo"
 
 #: pkg/systemd/graphs.js:326
 msgid "Usage of $0 CPU core"
@@ -8281,10 +8263,8 @@ msgid "Virtual Machines"
 msgstr "Server Virtuali"
 
 #: pkg/machines/index.html:4
-#, fuzzy
-#| msgid "Virtual Machines"
 msgid "Virtual Machines Management"
-msgstr "Server Virtuali"
+msgstr "Gestione Macchine Virtuali"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:161
 msgid "Virtual Network"
@@ -8374,7 +8354,6 @@ msgid "Waiting for other software management operations to finish"
 msgstr "In attesa che finiscano le altre operazioni di gestione del software"
 
 #: pkg/systemd/reporting.jsx:315
-#, fuzzy
 msgid "Waiting to start…"
 msgstr "In attesa di avvio…"
 
@@ -8557,7 +8536,7 @@ msgstr "add-on"
 
 #: pkg/apps/manifest.json.in
 msgid "addon"
-msgstr ""
+msgstr "componente aggiuntivo"
 
 #: pkg/docker/run.js:573
 msgid "alias"
@@ -8896,7 +8875,6 @@ msgid "machine"
 msgstr "macchina"
 
 #: pkg/systemd/manifest.json.in
-#, fuzzy
 msgid "mask"
 msgstr "maschera"
 
@@ -8918,7 +8896,7 @@ msgstr "mkfs"
 
 #: pkg/storaged/manifest.json.in
 msgid "mount"
-msgstr ""
+msgstr "mount"
 
 #: pkg/storaged/manifest.json.in
 msgid "nbde"
@@ -9161,7 +9139,7 @@ msgstr ""
 
 #: pkg/systemd/manifest.json.in
 msgid "target"
-msgstr ""
+msgstr "target"
 
 #: pkg/networkmanager/manifest.json.in
 msgid "tcp"
