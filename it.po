@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-07-31 20:10+0000\n"
+"PO-Revision-Date: 2020-08-22 08:29+0000\n"
 "Last-Translator: Roberto Bellingeri <bellingeri@netguru.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/it/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.2.1\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -1363,7 +1363,6 @@ msgstr "Azione CREATE VM fallita"
 
 #: pkg/machines/components/vmDiskColumns.jsx:75
 #: pkg/machines/components/diskAdd.jsx:246
-#, fuzzy
 msgid "Cache"
 msgstr "Cache"
 
@@ -5126,7 +5125,6 @@ msgid "Network $0 failed to get deactivated"
 msgstr "Impossibile disattivare la rete $0"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:221
-#, fuzzy
 msgid "Network Boot (PXE)"
 msgstr "Avvio di rete (PXE)"
 
@@ -6337,9 +6335,8 @@ msgid "Pool for Thin Volumes"
 msgstr "Pool per Volumi Thin"
 
 #: pkg/storaged/content-views.jsx:651
-#, fuzzy
 msgid "Pool for thinly provisioned volumes"
-msgstr "Pool per volumi thin"
+msgstr "Pool per volumi con thin provisioning"
 
 #: pkg/kubernetes/views/imagestream-modify.html:45
 msgid "Populate"
@@ -9139,13 +9136,12 @@ msgid "Troubleshoot"
 msgstr "Risoluzione dei problemi"
 
 #: pkg/storaged/crypto-keyslots.jsx:331
-#, fuzzy
 msgid "Trust key"
-msgstr "Chiave della fiducia"
+msgstr "Chiave di trust"
 
 #: pkg/networkmanager/firewall.jsx:708
 msgid "Trust level"
-msgstr ""
+msgstr "Livello di trust"
 
 #: pkg/kubernetes/views/auth-rejected-cert.html:21
 msgid "Trust this certificate for this connection"
