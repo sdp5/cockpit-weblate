@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-02-06 13:16+0000\n"
+"PO-Revision-Date: 2020-09-12 18:29+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/sk/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -2323,6 +2323,7 @@ msgid "Devices"
 msgstr "Zariadenia"
 
 #: pkg/sosreport/manifest.json.in
+#, fuzzy
 msgid "Diagnostic Reports"
 msgstr "Diagnostické hlásenia"
 
