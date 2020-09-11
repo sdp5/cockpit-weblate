@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 10:09+0200\n"
-"PO-Revision-Date: 2020-08-16 08:29+0000\n"
+"PO-Revision-Date: 2020-09-12 18:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/tr/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -4206,7 +4206,7 @@ msgstr "Çekirdek"
 
 #: pkg/kdump/index.html:23
 msgid "Kernel Dump"
-msgstr ""
+msgstr "Çekirdek Dökümü"
 
 #: pkg/kubernetes/views/node-body.html:19
 msgid "Kernel Version"
@@ -9533,7 +9533,7 @@ msgstr ""
 #: pkg/machines/components/storagePools/storagePoolList.jsx:41
 #: pkg/machines/hostvmslist.jsx:82
 msgid "Virtual Machines"
-msgstr ""
+msgstr "Sanal Makineler"
 
 #: pkg/ovirt/components/ClusterVms.jsx:176
 msgid "Virtual Machines of $0 cluster"
