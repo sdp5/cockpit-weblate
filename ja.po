@@ -13,16 +13,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-07-08 04:42+0000\n"
+"PO-Revision-Date: 2020-09-12 18:29+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
-"cockpit/master/ja/>\n"
+"cockpit/rhel8/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Weblate 4.1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: pkg/machines/components/diskAdd.jsx:234
 msgid " Attaching it will make this disk shareable for every VM using it."
@@ -32,11 +32,11 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:2339
 msgid "$0 Active Zone"
-msgstr "$0 アクティブゾーン"
+msgstr "$0 つのアクティブゾーン"
 
 #: pkg/networkmanager/interfaces.js:2339
 msgid "$0 Active Zones"
-msgstr "$0 アクティブゾーン"
+msgstr "アクティブゾーン数 (8)"
 
 #: pkg/storaged/others-panel.jsx:57
 msgid "$0 Block Device"
@@ -225,7 +225,7 @@ msgstr "$1 の $0"
 #: pkg/systemd/services/services.jsx:662
 msgid "$0 service has failed"
 msgid_plural "$0 services have failed"
-msgstr[0] "$0 サービスは失敗しました"
+msgstr[0] "失敗したサービスの数 ($0)"
 
 #: pkg/docker/util.js:125
 msgid "$0 shares"
@@ -922,7 +922,7 @@ msgstr "Ansible ロールのドキュメント"
 
 #: pkg/systemd/terminal.jsx:91
 msgid "Appearance:"
-msgstr "Appearance:"
+msgstr "外観:"
 
 #: pkg/apps/index.html:23 pkg/apps/application.jsx:144
 #: pkg/apps/application-list.jsx:167 pkg/apps/manifest.json.in
@@ -1193,7 +1193,7 @@ msgstr "ブート順序の設定は保存できませんでした"
 
 #: pkg/systemd/services/service-details.jsx:507
 msgid "Bound By"
-msgstr "バインドされた"
+msgstr "以下でバインド"
 
 #: pkg/networkmanager/interfaces.js:2521 pkg/networkmanager/interfaces.js:2533
 #: pkg/networkmanager/interfaces.js:2872
@@ -2568,7 +2568,7 @@ msgstr "自動起動しません"
 #: pkg/systemd/overview-cards/configurationCard.jsx:290
 #: pkg/systemd/overview-cards/realmd-operation.js:124
 msgid "Domain"
-msgstr "Domain"
+msgstr "ドメイン"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:193
 msgid "Domain $0 could not be contacted"
@@ -2597,7 +2597,7 @@ msgstr "繰り返さないでください"
 
 #: pkg/storaged/format-dialog.jsx:195 pkg/storaged/content-views.jsx:586
 msgid "Don't overwrite existing data"
-msgstr "既存のデータを上書きしないでください"
+msgstr "既存のデータを上書きしない"
 
 #: pkg/sosreport/index.html:60
 msgid "Done!"
@@ -3482,7 +3482,7 @@ msgstr "インポート"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:936
 msgid "Import A Virtual Machine"
-msgstr "仮想マシンをインポートします"
+msgstr "仮想マシンのインポート"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1015
 msgid "Import VM"
@@ -5624,7 +5624,7 @@ msgstr "保存"
 
 #: pkg/systemd/index.html:115
 msgid "Pretty Host Name"
-msgstr "プリティホスト名"
+msgstr "Pretty ホスト名"
 
 #: pkg/systemd/logs.html:42
 msgid "Previous boot"
@@ -5827,7 +5827,7 @@ msgstr "読み書き"
 
 #: pkg/storaged/plot.jsx:312
 msgid "Reading"
-msgstr "読み取り中"
+msgstr "読み取り"
 
 #: pkg/kdump/kdump-view.jsx:416
 msgid "Reading..."
@@ -6409,7 +6409,7 @@ msgstr "キーの送信"
 #: pkg/networkmanager/index.html:148 pkg/networkmanager/index.html:432
 #: pkg/networkmanager/index.html:465
 msgid "Sending"
-msgstr "送信中"
+msgstr "送信"
 
 #: pkg/machines/components/consoles.jsx:70
 msgid "Serial Console"
@@ -6651,7 +6651,7 @@ msgstr "シングルランク"
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:79
 #: pkg/systemd/hwinfo.jsx:273 pkg/docker/containers-view.jsx:573
 msgid "Size"
-msgstr "Size"
+msgstr "サイズ"
 
 #: pkg/storaged/dialog.jsx:897
 msgid "Size cannot be negative"
@@ -8151,11 +8151,11 @@ msgstr "URL"
 #: pkg/machines/components/vm/vmExpandedContent.jsx:42
 #: pkg/systemd/overview-cards/usageCard.jsx:116
 msgid "Usage"
-msgstr "使用法"
+msgstr "使用率"
 
 #: pkg/systemd/graphs.html:29 pkg/systemd/graphs.html:112
 msgid "Usage Graphs"
-msgstr "使用法のグラフ"
+msgstr "使用率のグラフ"
 
 #: pkg/systemd/graphs.js:328
 msgid "Usage of $0 CPU core"
@@ -8179,7 +8179,7 @@ msgstr "他のシステムに対して認証する場合は次の鍵を使用し
 #: pkg/machines/components/vm/vmUsageTab.jsx:73
 #: pkg/machines/components/vmDisksTab.jsx:109 pkg/systemd/graphs.js:393
 msgid "Used"
-msgstr "Used"
+msgstr "使用済み"
 
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:79
 msgid "Used by"
@@ -9087,7 +9087,7 @@ msgstr "なし"
 #: pkg/systemd/graphs.js:144 pkg/systemd/overview-cards/usageCard.jsx:112
 msgid "of $0 CPU"
 msgid_plural "of $0 CPUs"
-msgstr[0] "$0 CPU の"
+msgstr[0] "CPU 数 ($0)"
 
 #: pkg/systemd/manifest.json.in
 msgid "operating system"
