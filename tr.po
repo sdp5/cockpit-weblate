@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-08-16 08:29+0000\n"
+"PO-Revision-Date: 2020-09-12 18:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/tr/>\n"
@@ -36,7 +36,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: pkg/machines/components/diskAdd.jsx:234
 msgid " Attaching it will make this disk shareable for every VM using it."
@@ -3800,7 +3800,7 @@ msgstr "Çekirdek"
 
 #: pkg/kdump/index.html:23 pkg/kdump/manifest.json.in
 msgid "Kernel Dump"
-msgstr ""
+msgstr "Çekirdek Dökümü"
 
 #: pkg/storaged/crypto-keyslots.jsx:576
 msgid "Key slots with unknown types can not be edited here"
@@ -8255,7 +8255,7 @@ msgstr ""
 #: pkg/machines/components/networks/networkList.jsx:47
 #: pkg/machines/hostvmslist.jsx:92 pkg/machines/manifest.json.in
 msgid "Virtual Machines"
-msgstr ""
+msgstr "Sanal Makineler"
 
 #: pkg/machines/index.html:4
 msgid "Virtual Machines Management"
