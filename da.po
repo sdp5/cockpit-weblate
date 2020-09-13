@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-07-22 18:28+0000\n"
+"PO-Revision-Date: 2020-09-17 18:29+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/da/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -7721,7 +7721,7 @@ msgstr ""
 #: pkg/lib/machine-change-auth.html:18 pkg/lib/machine-sync-users.html:56
 #: src/ws/login.html:50
 msgid "User name"
-msgstr ""
+msgstr "Brugernavn"
 
 #: src/ws/login.js:470
 msgid "User name cannot be empty"
