@@ -21,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
 "PO-Revision-Date: 2020-09-17 18:29+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit/rhel8/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -7025,7 +7025,7 @@ msgstr "系统已更新到最新"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:285
 msgid "System time"
-msgstr "系统类型"
+msgstr "系统时间"
 
 #: pkg/systemd/services/services-list.jsx:33
 msgid "Systemd Units"
