@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-07-29 16:28+0000\n"
-"Last-Translator: Charles Lee <lchopn@gmail.com>\n"
+"PO-Revision-Date: 2020-09-17 18:29+0000\n"
+"Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit/rhel-8-2/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -6744,7 +6744,7 @@ msgstr "系统已更新到最新"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:392
 msgid "System time"
-msgstr "系统类型"
+msgstr "系统时间"
 
 #: pkg/docker/index.html:329 pkg/docker/index.html:333
 #: pkg/networkmanager/firewall.jsx:169
