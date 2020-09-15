@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-09-12 18:29+0000\n"
+"PO-Revision-Date: 2020-09-17 18:29+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "cockpit/rhel8/ja/>\n"
@@ -36,7 +36,7 @@ msgstr "$0 つのアクティブゾーン"
 
 #: pkg/networkmanager/interfaces.js:2339
 msgid "$0 Active Zones"
-msgstr "アクティブゾーン数 (8)"
+msgstr "アクティブゾーン数 $0"
 
 #: pkg/storaged/others-panel.jsx:57
 msgid "$0 Block Device"
