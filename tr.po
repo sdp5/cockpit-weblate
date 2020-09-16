@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 10:09+0200\n"
-"PO-Revision-Date: 2020-09-12 18:29+0000\n"
+"PO-Revision-Date: 2020-09-17 18:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/tr/>\n"
@@ -844,9 +844,9 @@ msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
 msgstr ""
-"Özel bağlantı noktaları eklendiğinde firewalld yeniden yüklenecektir. "
-"Yeniden yükleme, sadece çalışma zamanına ait yapılandırmaların kaybolmasına "
-"neden olacaktır!"
+"Özelleştirilmiş bağlantı noktaları eklendiğinde firewalld yeniden "
+"yüklenecektir. Yeniden yükleme, sadece çalışma zamanına ait "
+"yapılandırmaların kaybolmasına neden olacaktır!"
 
 #: pkg/users/authorized-keys.js:113
 msgid "Adding key"
@@ -1318,7 +1318,7 @@ msgstr "Önyükleme sırası ayarları kaydedilemedi"
 
 #: pkg/systemd/init.js:725
 msgid "Bound By"
-msgstr "Tarafından Bağlanır"
+msgstr "Tarafından bağlanır"
 
 #: pkg/networkmanager/interfaces.js:2516 pkg/networkmanager/interfaces.js:2528
 #: pkg/networkmanager/interfaces.js:2868
@@ -1766,19 +1766,19 @@ msgstr ""
 
 #: pkg/shell/stub.html:68 pkg/shell/simple.html:61 pkg/shell/index.html:85
 msgid "Cockpit is an interactive Linux server admin interface."
-msgstr ""
+msgstr "Cockpit, etkileşimli bir Linux sunucu yönetim arayüzüdür."
 
 #: src/base1/cockpit.js:4035
 msgid "Cockpit is not compatible with the software on the system."
-msgstr ""
+msgstr "Cockpit, sistemdeki yazılımla uyumlu değil."
 
 #: pkg/lib/machine-not-supported.html:2
 msgid "Cockpit is not installed"
-msgstr ""
+msgstr "Cockpit kurulu değil"
 
 #: src/base1/cockpit.js:4029
 msgid "Cockpit is not installed on the system."
-msgstr ""
+msgstr "Cockpit sistemde kurulu değil."
 
 #: cockpit.appdata.xml.in.h:3
 msgid ""
@@ -1788,6 +1788,11 @@ msgid ""
 "same time. Just add them with a single click and your machines will look "
 "after its buddies."
 msgstr ""
+"Cockpit yeni sistem yöneticileri için mükemmeldir; depolama yönetimi, "
+"günlükleri inceleme, hizmetleri başlatma ve durdurma gibi basit görevleri "
+"kolayca gerçekleştirmelerine olanak tanır. Aynı anda birkaç sunucuyu "
+"izleyebilir ve yönetebilirsiniz. Bunları tek bir tıklama ile ekleyin ve "
+"makineleriniz arkadaşlarıyla ilgilensin."
 
 #: pkg/lib/machine-change-port.html:9
 msgid "Cockpit was unable to contact {{#strong}}{{host}}{{/strong}}."
@@ -1836,6 +1841,8 @@ msgstr[1] ""
 #: pkg/networkmanager/firewall.jsx:526
 msgid "Comma-separated ports, ranges, and aliases are accepted"
 msgstr ""
+"Virgülle ayrılmış bağlantı noktaları, aralıklar ve takma adlar kabul "
+"edilmektedir"
 
 #: pkg/systemd/services.html:427 pkg/docker/index.html:269
 #: pkg/docker/index.html:445 pkg/docker/index.html:706
@@ -1872,40 +1879,40 @@ msgstr "tuned ile iletişim başarısız oldu"
 
 #: pkg/lib/machine-info.js:89
 msgid "Compact PCI"
-msgstr ""
+msgstr "Compact PCI"
 
 #: pkg/storaged/content-views.jsx:522
 msgid "Compatible with all systems and devices (MBR)"
-msgstr ""
+msgstr "Tüm sistem ve aygıtlarla uyumlu (MBR)"
 
 #: pkg/storaged/content-views.jsx:524
 msgid "Compatible with modern system and hard disks > 2TB (GPT)"
-msgstr ""
+msgstr "Modern sistem ve 2TB'tan büyük sabit disklerle uyumlu (GPT)"
 
 #: pkg/kdump/kdump-view.jsx:162
 msgid "Compress crash dumps to save space"
-msgstr ""
+msgstr "Yer kazanmak için çökme dökümlerini sıkıştır"
 
 #: pkg/kdump/kdump-view.jsx:156 pkg/storaged/vdo-details.jsx:304
 #: pkg/storaged/vdos-panel.jsx:81
 msgid "Compression"
-msgstr ""
+msgstr "Sıkıştırma"
 
 #: pkg/realmd/operation.html:44
 msgid "Computer OU"
-msgstr ""
+msgstr "Bilgisayar Organizasyon Birimi"
 
 #: pkg/systemd/init.js:692
 msgid "Condition $0=$1 was not met"
-msgstr ""
+msgstr "$0=$1 koşulu karşılanmadı"
 
 #: pkg/systemd/services.html:143
 msgid "Condition failed"
-msgstr ""
+msgstr "Koşul başarısız oldu"
 
 #: pkg/kubernetes/views/node-add.html:24
 msgid "Configuration"
-msgstr ""
+msgstr "Yapılandırma"
 
 #: pkg/networkmanager/interfaces.js:2725
 msgid "Configure"
@@ -1950,7 +1957,7 @@ msgstr ""
 
 #: pkg/storaged/crypto-keyslots.jsx:364
 msgid "Confirm removal with passphrase"
-msgstr ""
+msgstr "Kaldırmayı parola ile onayla"
 
 #: pkg/ovirt/components/VdsmView.jsx:108
 msgid "Confirm save:"
@@ -1962,13 +1969,13 @@ msgstr ""
 
 #: pkg/systemd/init.js:727
 msgid "Conflicts"
-msgstr ""
+msgstr "Çakışır"
 
 #: pkg/kubernetes/views/auth-rejected-cert.html:33
 #: pkg/kubernetes/views/auth-form.html:130
 #: pkg/lib/machine-unknown-hostkey.html:22 pkg/subscriptions/insights.jsx:118
 msgid "Connect"
-msgstr ""
+msgstr "Bağlan"
 
 #: pkg/networkmanager/interfaces.js:2712
 msgid "Connect automatically"
@@ -1980,7 +1987,7 @@ msgstr ""
 
 #: src/ws/login.html:74
 msgid "Connect to"
-msgstr ""
+msgstr "Şuna bağlan"
 
 #: pkg/subscriptions/insights.jsx:105
 msgid "Connect to Red Hat Insights"
@@ -1992,11 +1999,11 @@ msgstr ""
 
 #: pkg/machines/components/desktopConsole.jsx:188
 msgid "Connect with any $0 viewer application."
-msgstr ""
+msgstr "Herhangi bir $0 görüntüleyici uygulamasına bağlan."
 
 #: pkg/machines/components/desktopConsole.jsx:185
 msgid "Connect with any SPICE or VNC viewer application."
-msgstr ""
+msgstr "Herhangi bir SPICE veya VNC görüntüleyici uygulamasına bağlan."
 
 #: pkg/subscriptions/insights.jsx:342
 msgid "Connected to Insights"
@@ -2013,7 +2020,7 @@ msgstr ""
 #: pkg/lib/machine-add.html:39
 msgid ""
 "Connecting simultaneously to more than {{ limit }} machines is unsupported."
-msgstr ""
+msgstr "Aynı anda {{ limit }} makineden fazlasına bağlanmak desteklenmiyor."
 
 #: pkg/docker/index.html:54
 msgid "Connecting to Docker"
@@ -2025,7 +2032,7 @@ msgstr ""
 
 #: pkg/selinux/setroubleshoot-view.jsx:371
 msgid "Connecting to SETroubleshoot daemon..."
-msgstr ""
+msgstr "SETroubleshoot hizmetine bağlanılıyor..."
 
 #: pkg/machines/components/libvirtSlate.jsx:77
 msgid "Connecting to Virtualization Service"
@@ -2061,11 +2068,11 @@ msgstr ""
 
 #: src/base1/cockpit.js:4027
 msgid "Connection has timed out."
-msgstr ""
+msgstr "Bağlantı zaman aşımına uğradı."
 
 #: pkg/networkmanager/index.html:700
 msgid "Connection will be lost"
-msgstr ""
+msgstr "Bağlantı kesilecek"
 
 #: pkg/systemd/init.js:726
 msgid "Consists Of"
@@ -2081,7 +2088,7 @@ msgstr "Konsollar"
 
 #: pkg/realmd/operation.js:274
 msgid "Contacted domain"
-msgstr ""
+msgstr "İletişim kurulan etki alanı"
 
 #: pkg/kubernetes/views/container-panel.html:4
 #: pkg/kubernetes/views/container-body.html:4
@@ -2152,7 +2159,7 @@ msgstr "Ctrl"
 
 #: pkg/lib/machine-info.js:94
 msgid "Convertible"
-msgstr ""
+msgstr "Convertible"
 
 #: pkg/lib/cockpit-components-context-menu.jsx:100
 msgid "Copy"
@@ -2161,7 +2168,7 @@ msgstr "Kopyala"
 #: pkg/ovirt/components/vcpuModal.jsx:67
 #: pkg/machines/components/vcpuModal.jsx:209
 msgid "Cores per socket"
-msgstr ""
+msgstr "Soket başına çekirdek sayısı"
 
 #: pkg/docker/storage.jsx:428
 msgid "Could not add all disks"
@@ -2169,7 +2176,7 @@ msgstr ""
 
 #: pkg/lib/machine-change-port.html:4
 msgid "Could not contact {{host}}"
-msgstr ""
+msgstr "{{host}} ile iletişim kurulamadı"
 
 #: pkg/kubernetes/views/dashboard-page.html:142
 msgid "Could not list services"
@@ -2232,11 +2239,11 @@ msgstr "Kullanıcı verileri yüklenemedi"
 
 #: pkg/kdump/kdump-view.jsx:336 pkg/kdump/kdump-view.jsx:504
 msgid "Crash dump location"
-msgstr ""
+msgstr "Çökme dökümü konumu"
 
 #: pkg/kdump/kdump-view.jsx:304
 msgid "Crash system"
-msgstr ""
+msgstr "Sistemi çöktür"
 
 #: pkg/kubernetes/views/add-group-dialog.html:19
 #: pkg/kubernetes/views/project-modify.html:72 pkg/users/index.html:199
@@ -2312,7 +2319,7 @@ msgstr ""
 #: pkg/ovirt/components/ClusterTemplates.jsx:81
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:699
 msgid "Create VM"
-msgstr ""
+msgstr "Sanal makine oluştur"
 
 #: pkg/storaged/vgroups-panel.jsx:53
 msgid "Create Volume Group"
@@ -2320,7 +2327,7 @@ msgstr "Birim Grubu Oluştur"
 
 #: pkg/sosreport/index.html:44
 msgid "Create diagnostic report"
-msgstr ""
+msgstr "Tanılama raporu oluştur"
 
 #: pkg/kubernetes/scripts/images.js:643
 msgid "Create empty image stream"
@@ -2333,7 +2340,7 @@ msgstr ""
 #: pkg/networkmanager/interfaces.js:3822 pkg/networkmanager/interfaces.js:4021
 #: pkg/networkmanager/interfaces.js:4275 pkg/networkmanager/interfaces.js:4480
 msgid "Create it"
-msgstr ""
+msgstr "Oluştur"
 
 #: pkg/storaged/content-views.jsx:708
 msgid "Create new Logical Volume"
@@ -2358,55 +2365,63 @@ msgstr ""
 
 #: pkg/storaged/jobs-panel.jsx:50
 msgid "Creating filesystem on $target"
-msgstr ""
+msgstr "$target üzerinde dosya sistemi oluşturuluyor"
 
 #: pkg/storaged/jobs-panel.jsx:76
 msgid "Creating logical volume $target"
-msgstr ""
+msgstr "Mantıksal birim $target oluşturuluyor"
 
 #: pkg/storaged/jobs-panel.jsx:54
 msgid "Creating partition $target"
-msgstr ""
+msgstr "$target bölümü oluşturuluyor"
 
 #: pkg/storaged/jobs-panel.jsx:70
 msgid "Creating snapshot of $target"
-msgstr ""
+msgstr "$target'in anlık görüntüsü oluşturuluyor"
 
 #: pkg/networkmanager/interfaces.js:4479
 msgid ""
 "Creating this VLAN will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
+"Bu VLAN'ı oluşturmak sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
+"kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/interfaces.js:3821
 msgid ""
 "Creating this bond will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
+"Bu birleştirmeyi (bond) oluşturmak sunucuyla bağlantıyı kesecek ve yönetici "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/interfaces.js:4274
 msgid ""
 "Creating this bridge will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
+"Bu köprüyü oluşturmak sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
+"kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/interfaces.js:4020
 msgid ""
 "Creating this team will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
+"Bu takımı oluşturmak sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
+"kullanılamaz hale getirecektir."
 
 #: pkg/storaged/jobs-panel.jsx:71
 msgid "Creating volume group $target"
-msgstr ""
+msgstr "Birim grubu $target oluşturuluyor"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:559
 msgid "Creation of VM $0 failed"
-msgstr ""
+msgstr "$0 sanal makinesi oluşturulamadı"
 
 #: pkg/systemd/logs.html:58
 msgid "Critical and above"
-msgstr ""
+msgstr "Kritik ve üstü"
 
 #: pkg/machines/components/vnc.jsx:110
 msgid "Ctrl+Alt+Del"
@@ -2414,7 +2429,7 @@ msgstr ""
 
 #: pkg/lib/cockpit-components-context-menu.jsx:101
 msgid "Ctrl+Insert"
-msgstr ""
+msgstr "Ctrl+Insert"
 
 #: pkg/machines/components/vm/memoryModal.jsx:130
 msgid "Current Allocation"
@@ -2422,7 +2437,7 @@ msgstr ""
 
 #: pkg/systemd/logs.html:42
 msgid "Current boot"
-msgstr ""
+msgstr "Şu anki önyükleme"
 
 #: pkg/storaged/format-dialog.jsx:69
 msgid "Custom"
@@ -2438,15 +2453,15 @@ msgstr ""
 
 #: pkg/storaged/format-dialog.jsx:118
 msgid "Custom encryption options"
-msgstr ""
+msgstr "Özelleştirilmiş şifreleme seçenekleri"
 
 #: pkg/storaged/nfs-details.jsx:176 pkg/storaged/format-dialog.jsx:91
 msgid "Custom mount options"
-msgstr ""
+msgstr "Özelleştirilmiş bağlama seçenekleri"
 
 #: pkg/networkmanager/firewall.jsx:720
 msgid "Custom zones"
-msgstr ""
+msgstr "Özelleştirilmiş bölgeler"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:117
 #: pkg/machines/components/networks/networkOverviewTab.jsx:140
@@ -2463,7 +2478,7 @@ msgstr "DNS"
 
 #: pkg/networkmanager/interfaces.js:2656
 msgid "DNS $val"
-msgstr ""
+msgstr "DNS $val"
 
 #: pkg/kubernetes/views/pod-body.html:14
 msgid "DNS Policy"
@@ -2479,11 +2494,11 @@ msgstr ""
 
 #: pkg/systemd/terminal.jsx:99
 msgid "Dark"
-msgstr ""
+msgstr "Karanlık"
 
 #: pkg/dashboard/index.html:22
 msgid "Dashboard"
-msgstr ""
+msgstr "Gösterge Paneli"
 
 #: pkg/storaged/lvol-tabs.jsx:455
 msgid "Data Used"
@@ -2501,15 +2516,15 @@ msgstr "Devre dışı bırakılıyor"
 
 #: pkg/storaged/jobs-panel.jsx:69
 msgid "Deactivating $target"
-msgstr ""
+msgstr "$target devre dışı bırakılıyor"
 
 #: pkg/systemd/logs.html:63
 msgid "Debug and above"
-msgstr ""
+msgstr "Hata ayıklama ve üstü"
 
 #: pkg/storaged/vdo-details.jsx:310 pkg/storaged/vdos-panel.jsx:84
 msgid "Deduplication"
-msgstr ""
+msgstr "Tekilleştirme"
 
 #: pkg/docker/index.html:357 pkg/docker/index.html:361
 #: node_modules/registry-image-widgets/views/image-config.html:10
@@ -2589,7 +2604,7 @@ msgstr ""
 
 #: pkg/machines/components/deleteDialog.jsx:70
 msgid "Delete associated storage files:"
-msgstr ""
+msgstr "İlişkili depolama dosyalarını sil:"
 
 #: pkg/kubernetes/views/imagestream-delete.html:3
 msgid "Delete image stream"
@@ -2605,13 +2620,15 @@ msgstr ""
 
 #: pkg/storaged/jobs-panel.jsx:53 pkg/storaged/jobs-panel.jsx:67
 msgid "Deleting $target"
-msgstr ""
+msgstr "$target siliniyor"
 
 #: pkg/networkmanager/interfaces.js:2434
 msgid ""
 "Deleting <b>$0</b> will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
+"<b>$0</b> silinmesi sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
+"kullanılamaz hale getirecektir."
 
 #: pkg/kubernetes/views/item-delete.html:7
 msgid ""
@@ -2633,15 +2650,15 @@ msgstr "Bir konteyneri silmek içindeki tüm verileri silecektir."
 
 #: pkg/storaged/content-views.jsx:273
 msgid "Deleting a logical volume will delete all data in it."
-msgstr ""
+msgstr "Mantıksal bir birimi silmek, içindeki tüm verileri silecektir."
 
 #: pkg/storaged/content-views.jsx:276
 msgid "Deleting a partition will delete all data in it."
-msgstr ""
+msgstr "Bir bölümü silmek, içindeki tüm verileri silecektir."
 
 #: pkg/storaged/vgroup-details.jsx:213
 msgid "Deleting a volume group will erase all data on it."
-msgstr ""
+msgstr "Bir birim grubunu silmek, üzerindeki tüm verileri silecektir."
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:174
 msgid ""
@@ -2651,7 +2668,7 @@ msgstr ""
 
 #: pkg/storaged/jobs-panel.jsx:72
 msgid "Deleting volume group $target"
-msgstr ""
+msgstr "Birim grubu $target siliniyor"
 
 #: pkg/kubernetes/views/dashboard-page.html:131
 #: pkg/kubernetes/views/deploy.html:62
@@ -2694,17 +2711,19 @@ msgstr ""
 
 #: pkg/lib/machine-info.js:66
 msgid "Desktop"
-msgstr ""
+msgstr "Masaüstü"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:151
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:187
 msgid ""
 "Detach the disks using this pool from any VMs before attempting deletion."
 msgstr ""
+"Silmeyi denemeden önce bu havuzu kullanan diskleri herhangi bir sanal "
+"makineden ayırın."
 
 #: pkg/lib/machine-info.js:95
 msgid "Detachable"
-msgstr ""
+msgstr "Ayrılabilir"
 
 #: pkg/kubernetes/index.html:67 pkg/shell/index.html:229
 #: pkg/packagekit/updates.jsx:383 pkg/systemd/host.js:764
@@ -2729,11 +2748,11 @@ msgstr "Aygıt Dosyası"
 
 #: pkg/storaged/content-views.jsx:551
 msgid "Device is read-only"
-msgstr ""
+msgstr "Aygıt salt-okunur"
 
 #: pkg/sosreport/index.html:22
 msgid "Diagnostic reports"
-msgstr ""
+msgstr "Tanılama raporları"
 
 #: node_modules/registry-image-widgets/views/image-body.html:22
 msgid "Digest"
@@ -2747,7 +2766,7 @@ msgstr "Dizin"
 
 #: pkg/kdump/kdump-client.js:113
 msgid "Directory $0 isn't writable or doesn't exist."
-msgstr ""
+msgstr "$0 dizini yazılabilir değil veya yok."
 
 #: pkg/systemd/init.js:571
 msgid "Disable"
@@ -2755,7 +2774,7 @@ msgstr ""
 
 #: pkg/systemd/hwinfo.jsx:191
 msgid "Disable simultaneous multithreading"
-msgstr ""
+msgstr "Eşzamanlı çoklu kullanımı devre dışı bırak"
 
 #: pkg/tuned/dialog.js:232
 msgid "Disable tuned"
@@ -2768,7 +2787,7 @@ msgstr "Devre dışı"
 
 #: pkg/machines/components/serialConsole.jsx:136
 msgid "Disconnect"
-msgstr ""
+msgstr "Bağlantıyı kes"
 
 #: pkg/subscriptions/insights.jsx:269 pkg/subscriptions/insights.jsx:275
 msgid "Disconnect from Insights"
@@ -2790,11 +2809,11 @@ msgstr "Disk"
 
 #: pkg/machines/components/diskRemove.jsx:32
 msgid "Disk $0 fail to get detached from VM $1"
-msgstr ""
+msgstr "$0 diski, $1 sanal makinesinden ayrılamadı"
 
 #: pkg/dashboard/index.html:73 pkg/systemd/host.js:568
 msgid "Disk I/O"
-msgstr ""
+msgstr "Disk okuma/yazma"
 
 #: pkg/kubernetes/scripts/nodes.js:720
 msgid "Disk Utilization: $0%"
@@ -2802,11 +2821,11 @@ msgstr ""
 
 #: pkg/machines/components/diskAdd.jsx:513
 msgid "Disk failed to be attached"
-msgstr ""
+msgstr "Disk eklenemedi"
 
 #: pkg/machines/components/diskAdd.jsx:492
 msgid "Disk failed to be created"
-msgstr ""
+msgstr "Disk oluşturulamadı"
 
 #: pkg/storaged/drive-details.jsx:55
 msgid "Disk is OK"
@@ -2814,7 +2833,7 @@ msgstr "Diskin durumu iyi"
 
 #: pkg/storaged/crypto-keyslots.jsx:155
 msgid "Disk passphrase"
-msgstr ""
+msgstr "Disk parolası"
 
 #: pkg/storaged/mdraids-panel.jsx:73 pkg/storaged/mdraid-details.jsx:46
 #: pkg/storaged/mdraid-details.jsx:154 pkg/storaged/vgroups-panel.jsx:59
@@ -2889,15 +2908,15 @@ msgstr ""
 #: pkg/systemd/index.html:125 pkg/realmd/operation.html:11
 #: pkg/realmd/operation.js:123
 msgid "Domain"
-msgstr ""
+msgstr "Etki alanı"
 
 #: pkg/realmd/operation.js:192
 msgid "Domain $0 could not be contacted"
-msgstr ""
+msgstr "$0 etki alanıyla iletişim kurulamadı"
 
 #: pkg/realmd/operation.js:279
 msgid "Domain $0 is not supported"
-msgstr ""
+msgstr "$0 etki alanı desteklenmiyor"
 
 #: pkg/realmd/operation.html:33
 msgid "Domain Address"
@@ -2934,27 +2953,27 @@ msgstr "İndir"
 
 #: src/ws/login.html:118
 msgid "Download a new browser for free"
-msgstr ""
+msgstr "Ücretsiz olarak yeni bir tarayıcı indirin"
 
 #: pkg/sosreport/index.html:64
 msgid "Download report"
-msgstr ""
+msgstr "Raporu indir"
 
 #: pkg/machines/components/desktopConsole.jsx:47
 msgid "Download the MSI from $0"
-msgstr ""
+msgstr "MSI dosyasını $0 adresinden indirin"
 
 #: pkg/packagekit/updates.jsx:58
 msgid "Downloaded"
-msgstr ""
+msgstr "İndirildi"
 
 #: pkg/packagekit/updates.jsx:50
 msgid "Downloading"
-msgstr ""
+msgstr "İndiriliyor"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:179
 msgid "Downloading $0"
-msgstr ""
+msgstr "$0 indiriliyor"
 
 #: pkg/storaged/drive-details.jsx:68 pkg/docker/storage.jsx:167
 msgid "Drive"
@@ -4335,7 +4354,7 @@ msgstr ""
 
 #: pkg/systemd/terminal.jsx:100
 msgid "Light"
-msgstr "Açık"
+msgstr "Aydınlık"
 
 #: pkg/networkmanager/index.html:294
 msgid "Link Monitoring"
