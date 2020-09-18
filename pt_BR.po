@@ -20,16 +20,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-04-04 23:36+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-09-20 17:29+0000\n"
+"Last-Translator: Daniel Lara Souza <daniellarasouza@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
-"projects/cockpit/master/pt_BR/>\n"
+"projects/cockpit/rhel8/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Weblate 3.11.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: pkg/machines/components/diskAdd.jsx:234
 msgid " Attaching it will make this disk shareable for every VM using it."
@@ -159,14 +159,16 @@ msgid "$0 filesystems can not be resized here."
 msgstr "$0 sistemas de arquivos não podem ser redimensionados aqui."
 
 #: pkg/systemd/overview.jsx:99
+#, fuzzy
 msgctxt "<date> from <host>"
 msgid "$0 from $1"
-msgstr ""
+msgstr "$0 de $1"
 
 #: pkg/systemd/overview.jsx:97
+#, fuzzy
 msgctxt "<date> from <host> on <terminal>"
 msgid "$0 from $1 on $2"
-msgstr ""
+msgstr "$0 de $1 em $2"
 
 #: pkg/lib/plot.js:974
 msgid "$0 hour"
@@ -175,10 +177,11 @@ msgstr[0] "$0 horas"
 msgstr[1] "$0 horas"
 
 #: pkg/systemd/overview-cards/insights.jsx:160
+#, fuzzy
 msgid "$0 important hit"
 msgid_plural "$0 hits, including important"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 hit importantes"
+msgstr[1] "$0 hits, incluindo importantes"
 
 #: pkg/machines/components/desktopConsole.jsx:56
 msgid ""
@@ -207,8 +210,8 @@ msgstr "$0 mortos com sinal $1"
 #: pkg/systemd/overview-cards/insights.jsx:170
 msgid "$0 low severity hit"
 msgid_plural "$0 low severity hits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 hit  de baixa gravidade"
+msgstr[1] "$0 hits de baixas gravidades"
 
 #: pkg/lib/plot.js:977
 msgid "$0 minute"
