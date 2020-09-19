@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-09-17 18:29+0000\n"
+"PO-Revision-Date: 2020-09-20 17:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/tr/>\n"
@@ -2401,7 +2401,7 @@ msgstr "Bir bölümü silmek, içindeki tüm verileri silecektir."
 
 #: pkg/storaged/vgroup-details.jsx:192
 msgid "Deleting a volume group will erase all data on it."
-msgstr "Bir birim grubunu silmek, üzerindeki tüm verileri silecektir."
+msgstr "Bir birim grubunu silmek üzerindeki tüm verileri silecektir."
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:176
 msgid ""
@@ -2669,11 +2669,11 @@ msgstr "Sürücü"
 
 #: pkg/storaged/drives-panel.jsx:102
 msgid "Drives"
-msgstr ""
+msgstr "Sürücüler"
 
 #: pkg/lib/machine-info.js:247
 msgid "Dual Rank"
-msgstr ""
+msgstr "Çift Sıra"
 
 #: pkg/docker/run.js:348
 msgid "Duplicate alias"
@@ -2699,23 +2699,23 @@ msgstr ""
 
 #: pkg/storaged/crypto-keyslots.jsx:276
 msgid "Edit Tang keyserver"
-msgstr ""
+msgstr "Tang anahtar sunucusunu düzenle"
 
 #: pkg/shell/hosts.jsx:242
 msgid "Edit hosts"
-msgstr ""
+msgstr "Ana makineleri düzenle"
 
 #: pkg/storaged/crypto-keyslots.jsx:548
 msgid "Editing a key requires a free slot"
-msgstr ""
+msgstr "Bir anahtarı düzenlemek, boş bir yuva gerektirir"
 
 #: pkg/storaged/jobs-panel.jsx:36
 msgid "Ejecting $target"
-msgstr ""
+msgstr "$target çıkarılıyor"
 
 #: pkg/lib/machine-info.js:100
 msgid "Embedded PC"
-msgstr ""
+msgstr "Gömülü PC"
 
 #: pkg/playground/translate.html:56 src/base1/test-locale.js:47
 #: src/base1/test-locale.js:57 pkg/playground/translate.js:13
@@ -2731,7 +2731,7 @@ msgstr "Boşalt"
 
 #: pkg/storaged/jobs-panel.jsx:75
 msgid "Emptying $target"
-msgstr ""
+msgstr "$target boşaltılıyor"
 
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:283
 msgid "Emulated Machine"
@@ -2743,11 +2743,11 @@ msgstr ""
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:324
 msgid "Enable stored metrics"
-msgstr ""
+msgstr "Depolanan metrikleri etkinleştir"
 
 #: pkg/networkmanager/firewall.jsx:889
 msgid "Enable the firewall"
-msgstr ""
+msgstr "Güvenlik duvarını etkinleştir"
 
 #: pkg/systemd/services/services.jsx:530 pkg/systemd/services/services.jsx:697
 msgid "Enabled"
@@ -2755,11 +2755,11 @@ msgstr "Etkin"
 
 #: pkg/storaged/format-dialog.jsx:209
 msgid "Encrypt data"
-msgstr ""
+msgstr "Verileri şifrele"
 
 #: pkg/storaged/utils.js:274
 msgid "Encrypted $0"
-msgstr ""
+msgstr "Şifrelenmiş $0"
 
 #: pkg/storaged/utils.js:266
 msgid "Encrypted Logical Volume of $0"
@@ -2772,19 +2772,21 @@ msgstr ""
 #: pkg/storaged/content-views.jsx:405
 msgctxt "storage-id-desc"
 msgid "Encrypted data"
-msgstr ""
+msgstr "Şifrelenmiş veri"
 
 #: pkg/storaged/lvol-tabs.jsx:142
 msgid "Encrypted volumes can not be resized here."
-msgstr ""
+msgstr "Şifrelenmiş birimler burada yeniden boyutlandırılamaz."
 
 #: pkg/storaged/lvol-tabs.jsx:145
 msgid "Encrypted volumes need to be unlocked before they can be resized."
 msgstr ""
+"Şifrelenmiş birimlerin yeniden boyutlandırılabilmeleri için kilidinin "
+"açılması gerekmektedir."
 
 #: pkg/storaged/content-views.jsx:155
 msgid "Encryption"
-msgstr ""
+msgstr "Şifreleme"
 
 #: pkg/storaged/crypto-tab.jsx:105
 msgid "Encryption Options"
@@ -2792,16 +2794,16 @@ msgstr "Şifreleme Seçenekleri"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:251
 msgid "End"
-msgstr ""
+msgstr "Bitiş"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:76
 #: pkg/machines/components/networks/createNetworkDialog.jsx:104
 msgid "End should not be empty"
-msgstr ""
+msgstr "Bitiş boş olmamalıdır"
 
 #: pkg/selinux/setroubleshoot-view.jsx:285
 msgid "Enforcing"
-msgstr ""
+msgstr "Zorunlu (enforcing)"
 
 #: pkg/packagekit/updates.jsx:867
 msgid "Enhancement Updates Available"
@@ -2823,7 +2825,7 @@ msgstr ""
 
 #: pkg/networkmanager/firewall.jsx:696
 msgid "Entire subnet"
-msgstr ""
+msgstr "Tüm alt ağ"
 
 #: pkg/systemd/logs.html:116
 msgid "Entry"
@@ -2831,7 +2833,7 @@ msgstr "Kayıt"
 
 #: pkg/systemd/logs.js:466
 msgid "Entry at $0"
-msgstr ""
+msgstr "$0 tarihindeki girdi"
 
 #: pkg/docker/containers-view.jsx:417
 msgid "Entrypoint"
@@ -2847,7 +2849,7 @@ msgstr "Sil"
 
 #: pkg/storaged/jobs-panel.jsx:49
 msgid "Erasing $target"
-msgstr ""
+msgstr "$target siliniyor"
 
 #: pkg/packagekit/updates.jsx:326
 msgid "Errata:"
@@ -2862,7 +2864,7 @@ msgstr "Hata"
 
 #: pkg/systemd/logs.html:54
 msgid "Error and above"
-msgstr ""
+msgstr "Hata ve üstü"
 
 #: pkg/lib/machine-sync-users.html:15
 msgid "Error loading users: {{perm_failed}}"
@@ -2875,6 +2877,7 @@ msgstr "Docker'dan hata mesajı:"
 #: pkg/lib/cockpit-components-modifications.jsx:139
 msgid "Error running semanage to discover system modifications"
 msgstr ""
+"Sistem değişikliklerini keşfetmek için semanage çalıştırılırken hata oluştu"
 
 #: pkg/users/authorized-keys.js:121
 msgid "Error saving authorized keys: "
@@ -2882,7 +2885,7 @@ msgstr "Yetkili anahtarlar kaydedilirken hata oluştu: "
 
 #: pkg/selinux/setroubleshoot-client.js:193
 msgid "Error while deleting alert: $0"
-msgstr ""
+msgstr "Uyarı \"$0\" silinirken hata oluştu"
 
 #: pkg/selinux/setroubleshoot.js:72
 msgid "Error while setting SELinux mode: '$0'"
@@ -2890,15 +2893,15 @@ msgstr "SELinux modu ayarlanırken hata oluştu: '$0'"
 
 #: pkg/networkmanager/index.html:700
 msgid "Ethernet MAC"
-msgstr ""
+msgstr "Ethernet MAC adresi"
 
 #: pkg/networkmanager/index.html:673
 msgid "Ethernet MTU"
-msgstr ""
+msgstr "Ethernet MTU değeri"
 
 #: pkg/networkmanager/interfaces.js:2006
 msgid "Ethtool"
-msgstr ""
+msgstr "Ethtool"
 
 #: pkg/docker/containers-view.jsx:112
 msgid "Everything"
@@ -2906,11 +2909,11 @@ msgstr "Her şey"
 
 #: pkg/networkmanager/firewall.jsx:533
 msgid "Example: 22,ssh,8080,5900-5910"
-msgstr ""
+msgstr "Örnek: 22,ssh,8080,5900-5910"
 
 #: pkg/networkmanager/firewall.jsx:541
 msgid "Example: 88,2019,nfs,rsync"
-msgstr ""
+msgstr "Örnek: 88,2019,nfs,rsync"
 
 #: pkg/users/account-create-dialog.js:187 pkg/users/password-dialogs.js:230
 msgid "Excellent password"
@@ -2918,7 +2921,7 @@ msgstr "Mükemmel parola"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:239
 msgid "Existing disk image on host's file system"
-msgstr ""
+msgstr "Ana makinenin dosya sistemindeki mevcut disk kalıbı"
 
 #: pkg/docker/util.js:97
 msgid "Exited $ExitCode"
@@ -2954,15 +2957,15 @@ msgstr "Makine eklenemedi: $0"
 
 #: pkg/networkmanager/firewall.jsx:282
 msgid "Failed to add port"
-msgstr ""
+msgstr "Bağlantı noktası eklenemedi"
 
 #: pkg/networkmanager/firewall.jsx:282
 msgid "Failed to add service"
-msgstr ""
+msgstr "Hizmet eklenemedi"
 
 #: pkg/networkmanager/firewall.jsx:620
 msgid "Failed to add zone"
-msgstr ""
+msgstr "Bölge eklenemedi"
 
 #: pkg/machines/components/vm/firmwareModal.jsx:49
 msgid "Failed to change firmware"
@@ -2975,7 +2978,7 @@ msgstr "Parola değiştirilemedi"
 
 #: pkg/selinux/setroubleshoot-client.js:188
 msgid "Failed to delete alert: $0"
-msgstr ""
+msgstr "Uyarı \"$0\" silinemedi"
 
 #: pkg/tuned/dialog.js:163
 msgid "Failed to disable tuned"
@@ -2995,7 +2998,7 @@ msgstr "tuned etkinleştirilemedi"
 
 #: pkg/machines/components/vmnetworktab.jsx:76
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
-msgstr ""
+msgstr "$0'da bulunan arayüzlerin IP adresleri alınamadı"
 
 #: pkg/users/authorized-keys-panel.js:110
 msgid "Failed to load authorized keys."
@@ -3003,12 +3006,12 @@ msgstr "Yetkilendirilmiş anahtarlar yüklenemedi."
 
 #: pkg/machines/components/vnc.jsx:130
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
-msgstr ""
+msgstr "Ctrl+Alt+$0 tuş dizisi $1 sanal makinesine gönderilemedi"
 
 #: pkg/systemd/services/service-details.jsx:422
 #: pkg/systemd/services/services.jsx:524
 msgid "Failed to start"
-msgstr ""
+msgstr "Başlatılamadı"
 
 #: pkg/docker/containers.js:60
 msgid "Failed to start Docker: $0"
@@ -3020,20 +3023,20 @@ msgstr ""
 
 #: pkg/tuned/dialog.js:139
 msgid "Failed to switch profile"
-msgstr ""
+msgstr "Profil değiştirilemedi"
 
 #: pkg/machines/components/vcpuModal.jsx:193
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
-msgstr ""
+msgstr "Azami sanal CPU sayısından daha azı etkinleştirilmelidir."
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:92
 #: pkg/machines/components/vmDiskColumns.jsx:42
 msgid "File"
-msgstr ""
+msgstr "Dosya"
 
 #: pkg/storaged/content-views.jsx:153
 msgid "Filesystem"
-msgstr ""
+msgstr "Dosya sistemi"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:63
 msgid "Filesystem Directory"
@@ -3049,7 +3052,7 @@ msgstr "Dosya sistemleri"
 
 #: pkg/systemd/services/services.jsx:731
 msgid "Filter"
-msgstr ""
+msgstr "Filtrele"
 
 #: pkg/networkmanager/firewall.jsx:489
 msgid "Filter Services"
@@ -3057,11 +3060,11 @@ msgstr ""
 
 #: pkg/systemd/services/services.jsx:739
 msgid "Filter by name or description"
-msgstr ""
+msgstr "Ada veya açıklamaya göre filtrele"
 
 #: pkg/shell/index.html:345 pkg/lib/machine-unknown-hostkey.html:10
 msgid "Fingerprint"
-msgstr ""
+msgstr "Parmak izi"
 
 #: pkg/networkmanager/index.html:106 pkg/networkmanager/firewall.html:22
 #: pkg/networkmanager/firewall.jsx:897 pkg/networkmanager/firewall.jsx:901
@@ -3070,7 +3073,7 @@ msgstr "Güvenlik duvarı"
 
 #: pkg/networkmanager/firewall.jsx:859
 msgid "Firewall is not available"
-msgstr ""
+msgstr "Güvenlik duvarı yok"
 
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:285
 msgid "Firmware"
@@ -3083,12 +3086,12 @@ msgstr "Ürün Yazılımı Sürümü"
 
 #: pkg/storaged/vdos-panel.jsx:129
 msgid "For legacy applications only. Reduces performance."
-msgstr ""
+msgstr "Sadece eski uygulamalar için. Performansı düşürür."
 
 #: pkg/systemd/services/services-list.jsx:72
 #: pkg/systemd/services/service-details.jsx:404
 msgid "Forbidden from running"
-msgstr ""
+msgstr "Çalıştırılmasına izin verilmiyor"
 
 #: pkg/users/account-details.js:331
 msgid "Force Change"
@@ -3108,11 +3111,11 @@ msgstr ""
 
 #: pkg/users/password-dialogs.js:305
 msgid "Force password change"
-msgstr ""
+msgstr "Parola değiştirmeye zorla"
 
 #: pkg/storaged/crypto-keyslots.jsx:381
 msgid "Force remove passphrase in $0"
-msgstr ""
+msgstr "$0'daki parolayı zorla kaldır"
 
 #: pkg/storaged/format-dialog.jsx:263 pkg/storaged/content-views.jsx:365
 #: pkg/storaged/content-views.jsx:367 pkg/storaged/content-views.jsx:604
@@ -3123,7 +3126,7 @@ msgstr "Biçimlendir"
 
 #: pkg/storaged/format-dialog.jsx:134
 msgid "Format $0"
-msgstr ""
+msgstr "$0 biçimlendir"
 
 #: pkg/storaged/content-views.jsx:580
 msgid "Format Disk $0"
@@ -3135,7 +3138,7 @@ msgstr "Bir diski biçimlendirmek üzerindeki tüm verileri silecektir."
 
 #: pkg/storaged/format-dialog.jsx:265
 msgid "Formatting a storage device will erase all data on it."
-msgstr ""
+msgstr "Bir depolama aygıtını biçimlendirmek içindeki tüm verileri silecektir."
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:146
 msgid "Forward Mode"
@@ -3143,11 +3146,11 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:2865
 msgid "Forward delay $forward_delay"
-msgstr ""
+msgstr "Yönlendirme gecikmesi $forward_delay"
 
 #: pkg/machines/components/networks/networkList.jsx:56
 msgid "Forwarding mode"
-msgstr ""
+msgstr "Yönlendirme modu"
 
 #: pkg/storaged/pvol-tabs.jsx:44
 msgid "Free"
@@ -3162,14 +3165,16 @@ msgid ""
 "Free up space in this group: Shrink or delete other logical volumes or add "
 "another physical volume."
 msgstr ""
+"Bu grupta yer açın: Diğer mantıksal birimleri küçültün veya silin ya da "
+"başka bir fiziksel birim ekleyin."
 
 #: pkg/systemd/services.html:57
 msgid "Friday"
-msgstr ""
+msgstr "Cuma"
 
 #: pkg/packagekit/autoupdates.jsx:319
 msgid "Fridays"
-msgstr ""
+msgstr "Cuma günleri"
 
 #: pkg/users/account-details.js:260 pkg/users/account-create-dialog.js:40
 msgid "Full Name"
@@ -5780,7 +5785,7 @@ msgstr ""
 
 #: pkg/systemd/hwinfo.jsx:273
 msgid "Rank"
-msgstr ""
+msgstr "Sıra"
 
 #: pkg/kdump/kdump-view.jsx:391
 msgid "Raw to a device"
@@ -6602,7 +6607,7 @@ msgstr "Kapat"
 
 #: pkg/lib/machine-info.js:245
 msgid "Single Rank"
-msgstr ""
+msgstr "Tek Sıra"
 
 #: pkg/storaged/format-dialog.jsx:184 pkg/storaged/part-tab.jsx:36
 #: pkg/storaged/content-views.jsx:120 pkg/storaged/content-views.jsx:764
