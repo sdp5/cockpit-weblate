@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 10:09+0200\n"
-"PO-Revision-Date: 2020-09-17 18:29+0000\n"
+"PO-Revision-Date: 2020-09-21 22:10+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/tr/>\n"
@@ -34,17 +34,17 @@ msgstr ""
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
-msgstr ""
+msgstr " (işletim sistemiyle paylaşıldı)"
 
 #: pkg/kubernetes/views/node-delete.html:8
 msgid " 1\"Do you want to delete the following Nodes?"
-msgstr ""
+msgstr " 1\"Aşağıdaki düğümleri silmek istiyor musunuz?"
 
 #: pkg/networkmanager/interfaces.js:2331
 msgid "$0 Active Rule"
 msgid_plural "$0 Active Rules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 Etkin Kural"
+msgstr[1] "$0 Etkin Kural"
 
 #: pkg/storaged/others-panel.jsx:57
 msgid "$0 Block Device"
@@ -75,7 +75,7 @@ msgstr[1] "$0 Paket"
 
 #: pkg/systemd/init.js:395 pkg/systemd/init.js:749
 msgid "$0 Template"
-msgstr "$0 Taslak"
+msgstr "$0 Şablonu"
 
 #: src/base1/test-locale.js:80 src/base1/test-locale.js:81
 #: src/base1/test-locale.js:82 src/base1/test-locale.js:83
@@ -221,7 +221,7 @@ msgstr "Kullanılan: $0/$1 ($2 tasarruf edildi)"
 
 #: pkg/ovirt/components/vcpuModal.jsx:98
 msgid "$0 vCPU Details"
-msgstr ""
+msgstr "$0 vCPU Ayrıntıları"
 
 #: pkg/lib/plot.js:981
 msgid "$0 week"
@@ -243,14 +243,14 @@ msgstr[1] "$0 yıl"
 #: pkg/kubernetes/scripts/nodes.js:871
 msgid "$0% Free"
 msgid_plural "$0% Free"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%$0 Boş"
+msgstr[1] "%$0 Boş"
 
 #: pkg/kubernetes/scripts/nodes.js:873
 msgid "$0% Used"
 msgid_plural "$0% Used"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%$0 Kullanılıyor"
+msgstr[1] "%$0 Kullanılıyor"
 
 #: pkg/storaged/vgroup-details.jsx:118
 msgid "$0, $1 free"
@@ -264,7 +264,7 @@ msgstr[1] "$1 güvenlik düzeltmesi"
 
 #: pkg/networkmanager/interfaces.js:2757
 msgid "$mtu"
-msgstr ""
+msgstr "$mtu"
 
 #: pkg/storaged/utils.js:182
 msgid "$name (from $host)"
@@ -272,7 +272,7 @@ msgstr "$name ($host'den)"
 
 #: pkg/docker/details.js:151
 msgid "${hip}:${hport} -> $cport"
-msgstr ""
+msgstr "${hip}:${hport} -> $cport"
 
 #: pkg/storaged/utils.js:126
 msgid "${size} ${desc}"
@@ -280,11 +280,11 @@ msgstr "${size} ${desc}"
 
 #: pkg/subscriptions/subscriptions-client.js:197
 msgid "'Organization' required to register."
-msgstr ""
+msgstr "Kaydolmak için \"organizasyon\" gereklidir."
 
 #: pkg/subscriptions/subscriptions-client.js:201
 msgid "'Organization' required when using activation keys."
-msgstr ""
+msgstr "Etkinleştirme anahtarları kullanılırken 'organizasyon' gereklidir."
 
 #: pkg/networkmanager/firewall.jsx:546
 msgid "(Optional)"
@@ -293,7 +293,7 @@ msgstr "(İsteğe bağlı)"
 #: pkg/storaged/fsys-tab.jsx:160 pkg/networkmanager/firewall.jsx:474
 #: pkg/networkmanager/firewall.jsx:620
 msgid "(default)"
-msgstr ""
+msgstr "(öntanımlı)"
 
 #: pkg/storaged/crypto-tab.jsx:135
 msgid "(none)"
@@ -320,8 +320,8 @@ msgstr "1 Dakika"
 #: pkg/docker/containers-view.jsx:614
 msgid "1 Vulnerability"
 msgid_plural "$0 Vulnerabilities"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 Güvenlik Açığı"
+msgstr[1] "$0 Güvenlik Açığı"
 
 #: pkg/systemd/index.html:190 pkg/dashboard/index.html:55
 #: pkg/networkmanager/index.html:68 pkg/networkmanager/index.html:401
@@ -591,7 +591,7 @@ msgstr "ARP Ping"
 
 #: pkg/kubernetes/scripts/volumes.js:193
 msgid "AWS Elastic Block Store"
-msgstr ""
+msgstr "AWS Elastic Block Store"
 
 #: pkg/shell/stub.html:46 pkg/shell/stub.html:65 pkg/shell/simple.html:42
 #: pkg/shell/simple.html:58 pkg/shell/index.html:56 pkg/shell/index.html:82
@@ -605,16 +605,16 @@ msgstr "Erişim"
 #: pkg/kubernetes/views/pvc-body.html:18 pkg/kubernetes/views/pv-body.html:9
 #: pkg/kubernetes/views/pv-claim.html:9 pkg/kubernetes/views/pv-modify.html:69
 msgid "Access Modes"
-msgstr ""
+msgstr "Erişim Modları"
 
 #: pkg/kubernetes/views/project-modify.html:49
 #: node_modules/registry-image-widgets/views/imagestream-body.html:12
 msgid "Access Policy"
-msgstr ""
+msgstr "Erişim Politikası"
 
 #: pkg/subscriptions/subscriptions-view.jsx:218
 msgid "Access denied"
-msgstr ""
+msgstr "Erişim reddedildi"
 
 #: pkg/users/index.html:249
 msgid "Account Expiration"
@@ -640,7 +640,7 @@ msgstr "Hesaplar"
 #: pkg/ovirt/components/ClusterTemplates.jsx:136
 #: pkg/ovirt/components/ClusterVms.jsx:183
 msgid "Action"
-msgstr ""
+msgstr "Eylem"
 
 #: pkg/storaged/content-views.jsx:256
 #: pkg/machines/components/networks/network.jsx:147
@@ -654,7 +654,7 @@ msgstr "$target etkinleştiriliyor"
 
 #: pkg/subscriptions/subscriptions-register.jsx:196
 msgid "Activation Key"
-msgstr ""
+msgstr "Etkinleştirme Anahtarı"
 
 #: pkg/networkmanager/interfaces.js:838 pkg/networkmanager/interfaces.js:2001
 msgid "Active"
@@ -674,11 +674,11 @@ msgstr "Etkin olduğu tarih"
 
 #: pkg/networkmanager/firewall.jsx:926
 msgid "Active zones"
-msgstr ""
+msgstr "Etkin bölgeler"
 
 #: pkg/kubernetes/views/pvc-body.html:25 pkg/kubernetes/views/pvc-body.html:45
 msgid "Actual"
-msgstr ""
+msgstr "Mevcut"
 
 #: pkg/networkmanager/interfaces.js:1980
 msgid "Adaptive load balancing"
@@ -707,7 +707,7 @@ msgstr "$0 ekle"
 
 #: pkg/docker/storage.jsx:378
 msgid "Add Additional Storage"
-msgstr ""
+msgstr "İlave Depolama Ekle"
 
 #: pkg/networkmanager/index.html:110
 msgid "Add Bond"
@@ -719,7 +719,7 @@ msgstr "Köprü Ekle"
 
 #: pkg/kubernetes/views/node-add.html:3
 msgid "Add Cluster Node"
-msgstr ""
+msgstr "Küme (Cluster) Düğümü Ekle"
 
 #: pkg/machines/components/diskAdd.jsx:360
 msgid "Add Disk"
@@ -731,7 +731,7 @@ msgstr "Disk Ekle"
 
 #: pkg/kubernetes/views/add-group-dialog.html:3
 msgid "Add Group"
-msgstr ""
+msgstr "Grup Ekle"
 
 #: pkg/storaged/crypto-keyslots.jsx:200
 msgid "Add Key"
@@ -739,7 +739,7 @@ msgstr "Anahtar Ekle"
 
 #: pkg/kubernetes/views/nodes-page.html:34
 msgid "Add Kubernetes Node"
-msgstr ""
+msgstr "Kubernetes Düğümü Ekle"
 
 #: pkg/lib/machine-add.html:4
 msgid "Add Machine to Dashboard"
@@ -751,22 +751,22 @@ msgstr "Gösterge Paneline Makine Ekle"
 #: pkg/kubernetes/views/user-group-add.html:3
 #: pkg/kubernetes/views/group-page.html:38
 msgid "Add Member"
-msgstr ""
+msgstr "Üye Ekle"
 
 #: pkg/kubernetes/views/user-panel.html:76
 #: pkg/kubernetes/views/user-body.html:67
 msgid "Add Membership"
-msgstr ""
+msgstr "Üyelik Ekle"
 
 #: pkg/kubernetes/views/auth-form.html:11
 #: pkg/kubernetes/views/auth-form.html:20
 msgid "Add New Cluster"
-msgstr ""
+msgstr "Yeni Küme Ekle"
 
 #: pkg/kubernetes/views/auth-form.html:67
 #: pkg/kubernetes/views/auth-form.html:76
 msgid "Add New User"
-msgstr ""
+msgstr "Yeni Kullanıcı Ekle"
 
 #: pkg/networkmanager/firewall.jsx:457
 msgid "Add Ports"
@@ -774,7 +774,7 @@ msgstr "Bağlantı Noktası Ekle"
 
 #: pkg/kubernetes/views/add-role-dialog.html:3
 msgid "Add Role"
-msgstr ""
+msgstr "Rol Ekle"
 
 #: pkg/networkmanager/firewall.jsx:457 pkg/networkmanager/firewall.jsx:876
 #: pkg/networkmanager/firewall.jsx:888
@@ -783,7 +783,7 @@ msgstr "Hizmet Ekle"
 
 #: pkg/docker/storage.jsx:217
 msgid "Add Storage"
-msgstr ""
+msgstr "Depolama Ekle"
 
 #: pkg/networkmanager/index.html:111
 msgid "Add Team"
@@ -792,7 +792,7 @@ msgstr "Takım Ekle"
 #: pkg/kubernetes/views/add-user-dialog.html:3
 #: pkg/kubernetes/views/project-listing.html:83
 msgid "Add User"
-msgstr ""
+msgstr "Kullanıcı Ekle"
 
 #: pkg/networkmanager/index.html:113
 msgid "Add VLAN"
@@ -813,11 +813,11 @@ msgstr "Anahtar ekle"
 
 #: pkg/kubernetes/views/user-add-membership.html:3
 msgid "Add membership"
-msgstr ""
+msgstr "Üyelik ekle"
 
 #: pkg/networkmanager/firewall.jsx:458
 msgid "Add ports to the following zones:"
-msgstr ""
+msgstr "Aşağıdaki bölgelere bağlantı noktaları ekle:"
 
 #: pkg/users/index.html:406
 msgid "Add public key"
@@ -825,7 +825,7 @@ msgstr "Genel anahtar ekle"
 
 #: pkg/networkmanager/firewall.jsx:458
 msgid "Add services to following zones:"
-msgstr ""
+msgstr "Aşağıdaki bölgelere hizmetler ekle:"
 
 #: pkg/networkmanager/firewall.jsx:778
 msgid "Add zone"
@@ -870,7 +870,7 @@ msgstr "Ek DNS Arama Etki Alanları $val"
 
 #: pkg/docker/index.html:307
 msgid "Additional Storage"
-msgstr ""
+msgstr "İlave Depolama"
 
 #: pkg/networkmanager/interfaces.js:2651
 msgid "Additional address $val"
@@ -914,27 +914,27 @@ msgstr "Adresler"
 
 #: pkg/kubernetes/views/service-modify.html:25
 msgid "Adjust"
-msgstr ""
+msgstr "Ayarla"
 
 #: pkg/kubernetes/views/pv-modify.html:3
 msgid "Adjust Persistent Volume '{{ item.metadata.name }}'"
-msgstr ""
+msgstr "'{{ item.metadata.name }}' Kalıcı Birimini Ayarla"
 
 #: pkg/kubernetes/views/replicationcontroller-modify.html:3
 msgid "Adjust Replication Controller {{ item.metadata.name }}"
-msgstr ""
+msgstr "{{ item.metadata.name }} Çoğaltma Denetleyicisini Ayarla"
 
 #: pkg/kubernetes/views/route-modify.html:3
 msgid "Adjust Route"
-msgstr ""
+msgstr "Yönlendirmeyi Ayarla"
 
 #: pkg/kubernetes/views/service-modify.html:3
 msgid "Adjust Service"
-msgstr ""
+msgstr "Hizmeti Ayarla"
 
 #: pkg/kubernetes/views/project-body.html:56
 msgid "Admin"
-msgstr ""
+msgstr "Yönetici"
 
 #: org.cockpit-project.cockpit-bridge.policy.in.h:1
 msgid "Administration with Cockpit Web Console"
@@ -982,37 +982,39 @@ msgstr "Hepsi Bir Arada"
 
 #: pkg/kubernetes/views/filter-project.html:4
 msgid "All Projects"
-msgstr ""
+msgstr "Tüm Projeler"
 
 #: pkg/kubernetes/views/details-page.html:6
 msgid "All Types"
-msgstr ""
+msgstr "Tüm Türler"
 
 #: pkg/docker/storage.jsx:381
 msgid ""
 "All data on selected disks will be erased and disks will be added to the "
 "storage pool."
 msgstr ""
+"Seçilen disklerdeki tüm veriler silinecek ve diskler depolama havuzuna "
+"eklenecektir."
 
 #: pkg/kubernetes/views/dashboard-page.html:112
 msgid "All healthy"
-msgstr ""
+msgstr "Her şey yolunda"
 
 #: pkg/kubernetes/views/registry-dashboard-page.html:74
 msgid "All images"
-msgstr ""
+msgstr "Tüm kalıplar"
 
 #: pkg/kubernetes/views/dashboard-page.html:69
 msgid "All in use"
-msgstr ""
+msgstr "Hepsi kullanımda"
 
 #: pkg/kubernetes/views/dashboard-page.html:37
 msgid "All running"
-msgstr ""
+msgstr "Hepsi çalışıyor"
 
 #: pkg/ovirt/components/HostToMaintenance.jsx:36
 msgid "All running virtual machines will be turned off."
-msgstr ""
+msgstr "Çalışan tüm sanal makineler kapatılacak."
 
 #: pkg/networkmanager/firewall.jsx:753
 msgid "Allowed Addresses"
@@ -1020,7 +1022,7 @@ msgstr "İzin Verilen Adresler"
 
 #: pkg/networkmanager/firewall.jsx:939
 msgid "Allowed Services"
-msgstr ""
+msgstr "İzin Verilen Hizmetler"
 
 #: pkg/docker/index.html:548 pkg/docker/util.js:108
 msgid "Always"
@@ -1034,11 +1036,12 @@ msgstr "Her zaman ekle"
 #: pkg/kubernetes/views/node-body.html:57
 #: node_modules/registry-image-widgets/views/annotations.html:1
 msgid "Annotations"
-msgstr ""
+msgstr "Ek açıklamalar"
 
 #: pkg/kubernetes/scripts/projects.js:1044
 msgid "Anonymous: Allow all unauthenticated users to pull images"
 msgstr ""
+"Anonim: Kimliği doğrulanmamış tüm kullanıcıların kalıpları çekmesine izin ver"
 
 #: pkg/systemd/terminal.jsx:94
 msgid "Appearance:"
@@ -1088,11 +1091,11 @@ msgstr "Güncellemeler uygulanamadı"
 #: node_modules/registry-image-widgets/views/image-config.html:16
 #: pkg/subscriptions/subscriptions-view.jsx:37
 msgid "Architecture"
-msgstr ""
+msgstr "Mimari"
 
 #: pkg/systemd/index.html:92
 msgid "Asset Tag"
-msgstr ""
+msgstr "Varlık Etiketi"
 
 #: pkg/storaged/mdraids-panel.jsx:79
 msgid "At least $0 disks are needed."
@@ -1172,7 +1175,7 @@ msgstr "Otomatik (DHCP)"
 
 #: pkg/systemd/services.html:125 pkg/systemd/init.js:286
 msgid "Automatic Startup"
-msgstr ""
+msgstr "Otomatik Başlatma"
 
 #: pkg/packagekit/autoupdates.jsx:346
 msgid "Automatic Updates"
@@ -1180,7 +1183,7 @@ msgstr "Otomatik Güncellemeler"
 
 #: pkg/ovirt/components/OVirtTab.jsx:81
 msgid "Automatically selected host"
-msgstr ""
+msgstr "Otomatik olarak seçilen ana makine"
 
 #: pkg/machines/components/libvirtSlate.jsx:90
 msgid "Automatically start libvirt on boot"
@@ -1220,7 +1223,7 @@ msgstr "Avatar"
 
 #: pkg/kubernetes/scripts/volumes.js:207
 msgid "Azure"
-msgstr ""
+msgstr "Azure"
 
 #: pkg/systemd/hwinfo.jsx:92
 msgid "BIOS"
@@ -1252,15 +1255,15 @@ msgstr "Dengeleyici"
 
 #: pkg/ovirt/components/ClusterTemplates.jsx:135
 msgid "Base Template"
-msgstr ""
+msgstr "Temel Şablon"
 
 #: pkg/ovirt/components/ClusterVms.jsx:83
 msgid "Base template"
-msgstr ""
+msgstr "Temel şablon"
 
 #: pkg/ovirt/components/OVirtTab.jsx:106 pkg/ovirt/components/OVirtTab.jsx:113
 msgid "Base template:"
-msgstr ""
+msgstr "Temel şablon:"
 
 #: pkg/systemd/init.js:729
 msgid "Before"
@@ -1305,7 +1308,7 @@ msgstr "Birleştirme (Bond) Ayarları"
 
 #: pkg/kubernetes/views/node-body.html:17
 msgid "Boot ID"
-msgstr ""
+msgstr "Önyükleme kimliği"
 
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:164
 #: pkg/machines/components/vm/bootOrderModal.jsx:312
@@ -1355,7 +1358,7 @@ msgstr "Hatalar:"
 
 #: node_modules/registry-image-widgets/views/image-body.html:18
 msgid "Built"
-msgstr ""
+msgstr "Oluşturuldu"
 
 #: pkg/machines/components/vmDisksTab.jsx:72
 #: pkg/machines/components/vm/bootOrderModal.jsx:109
@@ -1393,7 +1396,7 @@ msgstr "CPU Türü"
 
 #: pkg/kubernetes/scripts/nodes.js:712
 msgid "CPU Utilization: $0%"
-msgstr ""
+msgstr "CPU Kullanımı: $0%"
 
 #: pkg/docker/index.html:469 pkg/docker/index.html:641
 msgid "CPU priority"
@@ -1405,7 +1408,7 @@ msgstr "CPU kullanımı:"
 
 #: pkg/ovirt/provider.js:256
 msgid "CREATE VM action failed"
-msgstr ""
+msgstr "CREATE VM eylemi başarısız oldu"
 
 #: pkg/machines/components/diskAdd.jsx:246
 #: pkg/machines/components/vmDiskColumns.jsx:75
@@ -1422,7 +1425,7 @@ msgstr "Docker&rsquo;a bağlanılamıyor"
 
 #: pkg/storaged/content-views.jsx:313
 msgid "Can't delete while unlocked"
-msgstr ""
+msgstr "Kilitli değilken silinemez"
 
 #: pkg/dashboard/list.js:212
 msgid "Can't load image"
@@ -1498,7 +1501,7 @@ msgstr "Bilinmeyen bir makineye bağlanılamıyor"
 
 #: src/ws/cockpitcertificate.c:483
 msgid "Cannot decrypt PEM-encoded private key"
-msgstr ""
+msgstr "PEM kodlu özel anahtarın şifresi çözülemiyor"
 
 #: src/base1/cockpit.js:4031
 msgid "Cannot forward login credentials"
@@ -1521,11 +1524,11 @@ msgstr "Taşıyıcı"
 
 #: pkg/kubernetes/scripts/volumes.js:203
 msgid "Ceph Filesystem Mount"
-msgstr ""
+msgstr "Ceph Dosya Sistemi Bağlama Noktası"
 
 #: pkg/kubernetes/views/volume-body.html:97
 msgid "Ceph Monitors"
-msgstr ""
+msgstr "Ceph İzleyicileri"
 
 #: pkg/kubernetes/views/replicationcontroller-modify.html:17
 #: pkg/kubernetes/views/project-modify.html:74
@@ -1559,7 +1562,7 @@ msgstr "Sistem Zamanını Değiştir"
 
 #: pkg/kubernetes/views/user-modify.html:3
 msgid "Change User"
-msgstr ""
+msgstr "Kullanıcı Değiştir"
 
 #: pkg/storaged/iscsi-panel.jsx:176
 msgid "Change iSCSI Initiator Name"
@@ -1567,7 +1570,7 @@ msgstr "iSCSI Başlatıcı Adını Değiştir"
 
 #: pkg/kubernetes/views/imagestream-modify.html:4
 msgid "Change image stream"
-msgstr ""
+msgstr "Kalıp akışını değiştir"
 
 #: pkg/storaged/crypto-keyslots.jsx:247
 msgid "Change passphrase"
@@ -1575,7 +1578,7 @@ msgstr "Parolayı değiştir"
 
 #: pkg/kubernetes/views/project-modify.html:10
 msgid "Change project"
-msgstr ""
+msgstr "Proje değiştir"
 
 #: pkg/docker/index.html:228
 msgid "Change resource limits"
@@ -1634,7 +1637,7 @@ msgstr "Genel anahtarlar denetleniyor"
 
 #: pkg/systemd/host.js:517
 msgid "Checking for updates…"
-msgstr ""
+msgstr "Güncellemeler denetleniyor…"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:142
 msgid "Checking installed software"
@@ -1650,15 +1653,15 @@ msgstr "Segment (Chunk) Boyutu"
 
 #: pkg/kubernetes/scripts/volumes.js:202
 msgid "Cinder"
-msgstr ""
+msgstr "Cinder"
 
 #: pkg/kubernetes/views/pv-page.html:16 pkg/kubernetes/views/pv-panel.html:13
 msgid "Claim"
-msgstr ""
+msgstr "Talep et"
 
 #: pkg/kubernetes/views/pvc-body.html:4
 msgid "Claim Name"
-msgstr ""
+msgstr "Talep Adı"
 
 #: pkg/systemd/hwinfo.jsx:248
 msgid "Class"
@@ -1674,7 +1677,7 @@ msgstr "Tüm Filtreleri Temizle"
 
 #: pkg/systemd/host.js:753
 msgid "Click to see system hardware information"
-msgstr ""
+msgstr "Sistem donanım bilgilerini görmek için tıklayın"
 
 #: pkg/machines/components/desktopConsole.jsx:41
 msgid ""
@@ -1685,7 +1688,7 @@ msgstr ""
 
 #: pkg/kubernetes/views/auth-form.html:88
 msgid "Client Certificate"
-msgstr ""
+msgstr "İstemci Sertifikası"
 
 #: pkg/realmd/operation.html:20
 msgid "Client Software"
@@ -1707,20 +1710,20 @@ msgstr "Kapat"
 
 #: pkg/shell/active-pages.js:103
 msgid "Close Selected Pages"
-msgstr "Seçili Sayfaları Kapat"
+msgstr "Seçilen Sayfaları Kapat"
 
 #: pkg/kubernetes/views/auth-form.html:5 pkg/kubernetes/index.html:37
 #: pkg/ovirt/components/App.jsx:107
 msgid "Cluster"
-msgstr ""
+msgstr "Küme (Cluster)"
 
 #: pkg/ovirt/components/ClusterTemplates.jsx:128
 msgid "Cluster Templates"
-msgstr ""
+msgstr "Küme Şablonları"
 
 #: pkg/ovirt/components/ClusterVms.jsx:174
 msgid "Cluster Virtual Machines"
-msgstr ""
+msgstr "Küme Sanal Makineleri"
 
 #: src/ws/login.js:346
 msgid "Cockpit authentication is configured incorrectly."
@@ -1796,7 +1799,7 @@ msgstr ""
 
 #: pkg/lib/machine-change-port.html:9
 msgid "Cockpit was unable to contact {{#strong}}{{host}}{{/strong}}."
-msgstr ""
+msgstr "Cockpit {{#strong}}{{host}}{{/strong}} ile iletişim kuramadı."
 
 #: pkg/lib/machine-auth-failed.html:15
 msgid ""
@@ -1805,10 +1808,14 @@ msgid ""
 "can_sync}} For more authentication options and troubleshooting support "
 "please upgrade cockpit-ws to a newer version."
 msgstr ""
+"Cockpit {{#strong}}{{host}}{{/strong}} üzerinde oturum açamadı. "
+"{{#can_sync}}{{#sync_link}}Kullanıcıları eşzamanlamayı{{/sync_link}} denemek "
+"isteyebilirsiniz.{{/can_sync}} Daha fazla kimlik doğrulama seçeneği ve sorun "
+"giderme desteği için lütfen cockpit-ws'yi daha yeni bir sürüme yükseltin."
 
 #: pkg/lib/machine-change-auth.html:9
 msgid "Cockpit was unable to log into {{#strong}}{{host}}{{/strong}}."
-msgstr ""
+msgstr "Cockpit {{#strong}}{{host}}{{/strong}} üzerinde oturum açamadı."
 
 #: pkg/lib/machine-auth-failed.html:6
 msgid ""
@@ -1816,6 +1823,10 @@ msgid ""
 "machine with cockpit you will need to enable one of the following "
 "authentication methods in the sshd config on {{#strong}}{{host}}{{/strong}}:"
 msgstr ""
+"Cockpit {{#strong}}{{host}}{{/strong}} üzerinde oturum açamadı. Bu makineyi "
+"cockpit ile kullanmak için {{#strong}}{{host}}{{/strong}} sshd "
+"yapılandırmasında aşağıdaki kimlik doğrulama yöntemlerinden birini "
+"etkinleştirmeniz gerekecektir:"
 
 #: pkg/lib/machine-change-auth.html:13
 msgid ""
@@ -1823,6 +1834,10 @@ msgid ""
 "change your authentication credentials below. {{#can_sync}}You may prefer to "
 "{{#sync_link}}synchronize accounts and passwords{{/sync_link}}.{{/can_sync}}"
 msgstr ""
+"Cockpit {{#strong}}{{host}}{{/strong}} üzerinde oturum açamadı. Kimlik "
+"doğrulama bilgilerinizi aşağıdan değiştirebilirsiniz. "
+"{{#can_sync}}{{#sync_link}}Hesapları ve parolaları "
+"eşzamanlamayı{{/sync_link}} tercih edebilirsiniz.{{/can_sync}}"
 
 #: pkg/dashboard/index.html:157 pkg/lib/machine-add.html:27
 msgid "Color"
@@ -1830,13 +1845,13 @@ msgstr "Renk"
 
 #: pkg/docker/index.html:102
 msgid "Combined memory usage"
-msgstr ""
+msgstr "Birleşik bellek kullanımı"
 
 #: pkg/docker/overview.js:86
 msgid "Combined usage of $0 CPU core"
 msgid_plural "Combined usage of $0 CPU cores"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 CPU çekirdeğinin birleşik kullanımı"
+msgstr[1] "$0 CPU çekirdeğinin birleşik kullanımı"
 
 #: pkg/networkmanager/firewall.jsx:526
 msgid "Comma-separated ports, ranges, and aliases are accepted"
@@ -1854,7 +1869,7 @@ msgstr "Komut"
 
 #: pkg/docker/run.js:320
 msgid "Command can't be empty"
-msgstr ""
+msgstr "Komut boş olamaz"
 
 #: pkg/docker/index.html:163
 msgid "Command:"
@@ -1920,15 +1935,15 @@ msgstr "Yapılandır"
 
 #: pkg/kubernetes/views/node-add.html:42
 msgid "Configure Flannel networking"
-msgstr ""
+msgstr "Flannel ağını yapılandır"
 
 #: pkg/kubernetes/views/node-add.html:32
 msgid "Configure Kubelet and Proxy"
-msgstr ""
+msgstr "Kubelet ve Proxy yapılandır"
 
 #: pkg/docker/storage.jsx:331
 msgid "Configure storage..."
-msgstr ""
+msgstr "Depolamayı yapılandır..."
 
 #: pkg/networkmanager/interfaces.js:828
 msgid "Configuring"
@@ -1949,11 +1964,11 @@ msgstr "Yeni Parolayı Onayla"
 
 #: pkg/ovirt/components/OVirtTab.jsx:65
 msgid "Confirm migration"
-msgstr ""
+msgstr "Taşımayı onayla"
 
 #: pkg/ovirt/components/VdsmView.jsx:95
 msgid "Confirm reload:"
-msgstr ""
+msgstr "Yeniden yüklemeyi onayla:"
 
 #: pkg/storaged/crypto-keyslots.jsx:364
 msgid "Confirm removal with passphrase"
@@ -1961,11 +1976,11 @@ msgstr "Kaldırmayı parola ile onayla"
 
 #: pkg/ovirt/components/VdsmView.jsx:108
 msgid "Confirm save:"
-msgstr ""
+msgstr "Kaydetmeyi onayla:"
 
 #: pkg/systemd/init.js:728
 msgid "Conflicted By"
-msgstr ""
+msgstr "İle Çakışır"
 
 #: pkg/systemd/init.js:727
 msgid "Conflicts"
@@ -1983,7 +1998,7 @@ msgstr "Otomatik olarak bağlan"
 
 #: pkg/subscriptions/subscriptions-register.jsx:121
 msgid "Connect this system to $0."
-msgstr ""
+msgstr "Bu sistemi $0'a bağla."
 
 #: src/ws/login.html:74
 msgid "Connect to"
@@ -1991,11 +2006,11 @@ msgstr "Şuna bağlan"
 
 #: pkg/subscriptions/insights.jsx:105
 msgid "Connect to Red Hat Insights"
-msgstr ""
+msgstr "Red Hat Insights'a bağlan"
 
 #: pkg/ovirt/components/InstallationDialog.jsx:102
 msgid "Connect to oVirt Engine"
-msgstr ""
+msgstr "oVirt Engine'e bağlan"
 
 #: pkg/machines/components/desktopConsole.jsx:188
 msgid "Connect with any $0 viewer application."
@@ -2007,15 +2022,15 @@ msgstr "Herhangi bir SPICE veya VNC görüntüleyici uygulamasına bağlan."
 
 #: pkg/subscriptions/insights.jsx:342
 msgid "Connected to Insights"
-msgstr ""
+msgstr "Insights'a bağlandı"
 
 #: pkg/subscriptions/insights.jsx:233
 msgid "Connected to Red Hat Insights"
-msgstr ""
+msgstr "Red Hat Insights'a bağlandı"
 
 #: pkg/machines/components/vnc.jsx:107
 msgid "Connecting"
-msgstr ""
+msgstr "Bağlanıyor"
 
 #: pkg/lib/machine-add.html:39
 msgid ""
@@ -2028,7 +2043,7 @@ msgstr "Docker'a bağlanılıyor"
 
 #: pkg/subscriptions/insights.jsx:58
 msgid "Connecting to Insights"
-msgstr ""
+msgstr "Insights'a bağlanıyor"
 
 #: pkg/selinux/setroubleshoot-view.jsx:371
 msgid "Connecting to SETroubleshoot daemon..."
@@ -2036,7 +2051,7 @@ msgstr "SETroubleshoot hizmetine bağlanılıyor..."
 
 #: pkg/machines/components/libvirtSlate.jsx:77
 msgid "Connecting to Virtualization Service"
-msgstr ""
+msgstr "Sanallaştırma hizmetine bağlanıyor"
 
 #: pkg/shell/indexes.js:411
 msgid "Connecting to the machine"
@@ -2044,7 +2059,7 @@ msgstr "Makineye bağlanılıyor"
 
 #: pkg/kubernetes/registry.html:71 pkg/kubernetes/index.html:104
 msgid "Connecting..."
-msgstr ""
+msgstr "Bağlanıyor..."
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:573
 #: pkg/machines/components/networks/networkList.jsx:47
@@ -2060,11 +2075,11 @@ msgstr "Bağlantı Hatası"
 
 #: pkg/kubernetes/scripts/connection.js:512
 msgid "Connection Error: $0"
-msgstr ""
+msgstr "Bağlantı Hatası: $0"
 
 #: pkg/kubernetes/views/auth-dialog.html:3
 msgid "Connection Settings"
-msgstr ""
+msgstr "Bağlantı Ayarları"
 
 #: src/base1/cockpit.js:4027
 msgid "Connection has timed out."
@@ -2076,11 +2091,11 @@ msgstr "Bağlantı kesilecek"
 
 #: pkg/systemd/init.js:726
 msgid "Consists Of"
-msgstr ""
+msgstr "İçerir"
 
 #: pkg/machines/components/consoles.jsx:79
 msgid "Console Type"
-msgstr ""
+msgstr "Konsol Türü"
 
 #: pkg/machines/components/vm/vm.jsx:51
 msgid "Consoles"
@@ -2104,7 +2119,7 @@ msgstr "Konteyner Yöneticisi"
 
 #: pkg/kubernetes/views/container-body.html:10
 msgid "Container ID"
-msgstr ""
+msgstr "Konteyner Kimliği"
 
 #: pkg/docker/index.html:438 pkg/docker/index.html:618
 #: pkg/docker/index.html:682
@@ -2113,12 +2128,14 @@ msgstr "Konteyner Adı"
 
 #: pkg/kubernetes/views/node-body.html:21
 msgid "Container Runtime Version"
-msgstr ""
+msgstr "Konteyner Çalışma Zamanı Sürümü"
 
 #: pkg/docker/util.js:506
 msgid ""
 "Container is currently marked as not running, but regular stopping failed."
 msgstr ""
+"Konteyner şu anda çalışmıyor olarak işaretlenmiş, ancak normal durdurma "
+"başarısız oldu."
 
 #: pkg/docker/util.js:504
 msgid "Container is currently running."
@@ -2172,7 +2189,7 @@ msgstr "Soket başına çekirdek sayısı"
 
 #: pkg/docker/storage.jsx:428
 msgid "Could not add all disks"
-msgstr ""
+msgstr "Tüm diskler eklenemedi"
 
 #: pkg/lib/machine-change-port.html:4
 msgid "Could not contact {{host}}"
@@ -2180,19 +2197,19 @@ msgstr "{{host}} ile iletişim kurulamadı"
 
 #: pkg/kubernetes/views/dashboard-page.html:142
 msgid "Could not list services"
-msgstr ""
+msgstr "Hizmetler listelenemedi"
 
 #: src/ws/cockpitcertificate.c:531
 msgid "Could not parse PEM-encoded certificate"
-msgstr ""
+msgstr "PEM kodlu sertifika ayrıştırılamadı"
 
 #: src/ws/cockpitcertificate.c:498
 msgid "Could not parse PEM-encoded private key"
-msgstr ""
+msgstr "PEM kodlu özel anahtar ayrıştırılamadı"
 
 #: pkg/docker/storage.jsx:468
 msgid "Could not reset the storage pool"
-msgstr ""
+msgstr "Depolama havuzu sıfırlanamadı"
 
 #: src/bridge/cockpitdbussetup.c:467
 msgid "Couldn't change user groups"
@@ -2204,7 +2221,7 @@ msgstr "Kullanıcı parolası değiştirilemedi"
 
 #: pkg/kubernetes/registry.html:72 pkg/kubernetes/index.html:105
 msgid "Couldn't connect to server"
-msgstr ""
+msgstr "Sunucuya bağlanılamadı"
 
 #: pkg/shell/indexes.js:414
 msgid "Couldn't connect to the machine"
@@ -2217,13 +2234,15 @@ msgstr "Yeni kullanıcılar oluşturulamadı"
 #: pkg/kubernetes/scripts/kube-client-cockpit.js:957
 #: pkg/kubernetes/scripts/connection.js:510
 msgid "Couldn't find running API server"
-msgstr ""
+msgstr "Çalışan API sunucusu bulunamadı"
 
 #: pkg/subscriptions/subscriptions-view.jsx:223
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed."
 msgstr ""
+"Sistem abonelik durumu alınamadı. Lütfen subscription-manager kurulu "
+"olduğundan emin olun."
 
 #: src/bridge/cockpitdbussetup.c:642
 msgid "Couldn't list local users"
@@ -2262,7 +2281,7 @@ msgstr "Mantıksal Birim Oluştur"
 
 #: pkg/machines/components/diskAdd.jsx:539
 msgid "Create New"
-msgstr ""
+msgstr "Yeni Oluştur"
 
 #: pkg/users/index.html:52 pkg/users/index.html:163
 msgid "Create New Account"
@@ -2270,19 +2289,19 @@ msgstr "Yeni Hesap Oluştur"
 
 #: pkg/ovirt/components/App.jsx:162
 msgid "Create New VM"
-msgstr ""
+msgstr "Yeni Sanal Makine Oluştur"
 
 #: pkg/storaged/content-views.jsx:434 pkg/storaged/format-dialog.jsx:323
 msgid "Create Partition"
-msgstr ""
+msgstr "Bölüm Oluştur"
 
 #: pkg/storaged/content-views.jsx:552
 msgid "Create Partition Table"
-msgstr ""
+msgstr "Bölümlendirme Tablosu Oluştur"
 
 #: pkg/storaged/format-dialog.jsx:184
 msgid "Create Partition on $0"
-msgstr ""
+msgstr "$0 Üzerinde Bölüm Oluştur"
 
 #: pkg/storaged/mdraids-panel.jsx:38
 msgid "Create RAID Device"
@@ -2290,31 +2309,31 @@ msgstr "RAID Aygıtı Oluştur"
 
 #: pkg/sosreport/index.html:36
 msgid "Create Report"
-msgstr ""
+msgstr "Rapor Oluştur"
 
 #: pkg/storaged/lvol-tabs.jsx:346 pkg/storaged/lvol-tabs.jsx:387
 msgid "Create Snapshot"
-msgstr ""
+msgstr "Anlık Görüntü Oluştur"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:522
 msgid "Create Storage Pool"
-msgstr ""
+msgstr "Depolama Havuzu Oluştur"
 
 #: pkg/storaged/content-views.jsx:109 pkg/storaged/content-views.jsx:134
 msgid "Create Thin Volume"
-msgstr ""
+msgstr "İnce Birim Oluştur"
 
 #: pkg/systemd/services.html:64
 msgid "Create Timer"
-msgstr ""
+msgstr "Zamanlayıcı Oluştur"
 
 #: pkg/systemd/services.html:393
 msgid "Create Timers"
-msgstr ""
+msgstr "Zamanlayıcılar Oluştur"
 
 #: pkg/storaged/vdos-panel.jsx:46
 msgid "Create VDO Device"
-msgstr ""
+msgstr "VDO Aygıtı Oluştur"
 
 #: pkg/ovirt/components/ClusterTemplates.jsx:81
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:699
@@ -2331,11 +2350,11 @@ msgstr "Tanılama raporu oluştur"
 
 #: pkg/kubernetes/scripts/images.js:643
 msgid "Create empty image stream"
-msgstr ""
+msgstr "Boş kalıp akışı oluştur"
 
 #: pkg/kubernetes/views/imagestream-modify.html:3
 msgid "Create image stream"
-msgstr ""
+msgstr "Kalıp akışı oluştur"
 
 #: pkg/networkmanager/interfaces.js:3822 pkg/networkmanager/interfaces.js:4021
 #: pkg/networkmanager/interfaces.js:4275 pkg/networkmanager/interfaces.js:4480
@@ -2361,7 +2380,7 @@ msgstr "Oluşturuldu:"
 
 #: pkg/storaged/jobs-panel.jsx:62
 msgid "Creating RAID Device $target"
-msgstr ""
+msgstr "RAID aygıtı $target oluşturuluyor"
 
 #: pkg/storaged/jobs-panel.jsx:50
 msgid "Creating filesystem on $target"
@@ -2425,7 +2444,7 @@ msgstr "Kritik ve üstü"
 
 #: pkg/machines/components/vnc.jsx:110
 msgid "Ctrl+Alt+Del"
-msgstr ""
+msgstr "Ctrl+Alt+Del"
 
 #: pkg/lib/cockpit-components-context-menu.jsx:101
 msgid "Ctrl+Insert"
@@ -2433,7 +2452,7 @@ msgstr "Ctrl+Insert"
 
 #: pkg/machines/components/vm/memoryModal.jsx:130
 msgid "Current Allocation"
-msgstr ""
+msgstr "Şu Anki Ayırma"
 
 #: pkg/systemd/logs.html:42
 msgid "Current boot"
@@ -2441,15 +2460,15 @@ msgstr "Şu anki önyükleme"
 
 #: pkg/storaged/format-dialog.jsx:69
 msgid "Custom"
-msgstr ""
+msgstr "Özelleştirilmiş"
 
 #: pkg/networkmanager/firewall.jsx:520
 msgid "Custom Ports"
-msgstr ""
+msgstr "Özelleştirilmiş Bağlantı Noktaları"
 
 #: pkg/subscriptions/subscriptions-register.jsx:131
 msgid "Custom URL"
-msgstr ""
+msgstr "Özelleştirilmiş URL"
 
 #: pkg/storaged/format-dialog.jsx:118
 msgid "Custom encryption options"
@@ -2466,7 +2485,7 @@ msgstr "Özelleştirilmiş bölgeler"
 #: pkg/machines/components/networks/networkOverviewTab.jsx:117
 #: pkg/machines/components/networks/networkOverviewTab.jsx:140
 msgid "DHCP Range"
-msgstr ""
+msgstr "DHCP Aralığı"
 
 #: pkg/storaged/drive-details.jsx:54
 msgid "DISK IS FAILING"
@@ -2482,7 +2501,7 @@ msgstr "DNS $val"
 
 #: pkg/kubernetes/views/pod-body.html:14
 msgid "DNS Policy"
-msgstr ""
+msgstr "DNS Politikası"
 
 #: pkg/networkmanager/interfaces.js:3320
 msgid "DNS Search Domains"
@@ -2490,7 +2509,7 @@ msgstr "DNS Arama Etki Alanları"
 
 #: pkg/networkmanager/interfaces.js:2659
 msgid "DNS Search Domains $val"
-msgstr ""
+msgstr "DNS Arama Etki Alanları $val"
 
 #: pkg/systemd/terminal.jsx:99
 msgid "Dark"
@@ -2502,7 +2521,7 @@ msgstr "Gösterge Paneli"
 
 #: pkg/storaged/lvol-tabs.jsx:455
 msgid "Data Used"
-msgstr ""
+msgstr "Kullanılan Veriler"
 
 #: pkg/storaged/content-views.jsx:254
 #: pkg/machines/components/networks/network.jsx:143
@@ -2568,11 +2587,11 @@ msgstr "Sil: $0"
 
 #: pkg/playground/translate.html:189
 msgid "Delete '{{ name }}'"
-msgstr ""
+msgstr "'{{ name }}' sil"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:162
 msgid "Delete Content"
-msgstr ""
+msgstr "İçeriği Sil"
 
 #: pkg/users/index.html:351
 msgid "Delete Files"
@@ -2580,27 +2599,27 @@ msgstr "Dosyaları Sil"
 
 #: pkg/kubernetes/views/node-delete.html:4
 msgid "Delete Node"
-msgstr ""
+msgstr "Düğümü Sil"
 
 #: pkg/kubernetes/views/pv-delete.html:3
 msgid "Delete Persistent Volume"
-msgstr ""
+msgstr "Kalıcı Birimi Sil"
 
 #: pkg/kubernetes/views/pvc-delete.html:3
 msgid "Delete Persistent Volume Claim"
-msgstr ""
+msgstr "Kalıcı Birim Talebini Sil"
 
 #: pkg/kubernetes/views/project-delete.html:3
 msgid "Delete Project"
-msgstr ""
+msgstr "Projeyi Sil"
 
 #: pkg/kubernetes/views/nodes-page.html:3
 msgid "Delete Selected"
-msgstr ""
+msgstr "Seçileni Sil"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:217
 msgid "Delete Storage Pool $0"
-msgstr ""
+msgstr "$0 Depolama Havuzunu Sil"
 
 #: pkg/machines/components/deleteDialog.jsx:70
 msgid "Delete associated storage files:"
@@ -2608,15 +2627,15 @@ msgstr "İlişkili depolama dosyalarını sil:"
 
 #: pkg/kubernetes/views/imagestream-delete.html:3
 msgid "Delete image stream"
-msgstr ""
+msgstr "Kalıp akışını sil"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:170
 msgid "Delete the Volumes inside this Pool"
-msgstr ""
+msgstr "Bu havuz içindeki birimleri sil"
 
 #: pkg/kubernetes/views/item-delete.html:3
 msgid "Delete {{ item.kind }}"
-msgstr ""
+msgstr "{{ item.kind }} sil"
 
 #: pkg/storaged/jobs-panel.jsx:53 pkg/storaged/jobs-panel.jsx:67
 msgid "Deleting $target"
@@ -2635,6 +2654,8 @@ msgid ""
 "Deleting a Pod will kill all associated containers. Pods may be "
 "automatically created again in some cases."
 msgstr ""
+"Bir bölmenin silinmesi ilişkili tüm konteynerleri sonlandıracaktır. Bazı "
+"durumlarda bölmeler otomatik olarak yeniden oluşturulabilir."
 
 #: pkg/storaged/mdraid-details.jsx:301
 msgid "Deleting a RAID device will erase all data on it."
@@ -2658,13 +2679,15 @@ msgstr "Bir bölümü silmek, içindeki tüm verileri silecektir."
 
 #: pkg/storaged/vgroup-details.jsx:213
 msgid "Deleting a volume group will erase all data on it."
-msgstr "Bir birim grubunu silmek, üzerindeki tüm verileri silecektir."
+msgstr "Bir birim grubunu silmek üzerindeki tüm verileri silecektir."
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:174
 msgid ""
 "Deleting an inactive Storage Pool will only undefine the Pool. Its content "
 "will not be deleted."
 msgstr ""
+"Etkin olmayan bir depolama havuzunun silinmesi, sadece havuzun tanımını "
+"kaldırır. İçeriği silinmeyecektir."
 
 #: pkg/storaged/jobs-panel.jsx:72
 msgid "Deleting volume group $target"
@@ -2673,25 +2696,25 @@ msgstr "Birim grubu $target siliniyor"
 #: pkg/kubernetes/views/dashboard-page.html:131
 #: pkg/kubernetes/views/deploy.html:62
 msgid "Deploy"
-msgstr ""
+msgstr "Dağıt"
 
 #: pkg/kubernetes/views/deploy.html:3
 msgid "Deploy Application"
-msgstr ""
+msgstr "Uygulamayı Dağıt"
 
 #: pkg/kubernetes/views/deploymentconfig-body.html:22
 msgid "Deployment Causes"
-msgstr ""
+msgstr "Dağıtım Nedenleri"
 
 #: pkg/kubernetes/views/deploymentconfig-page.html:12
 #: pkg/kubernetes/views/deploymentconfig-panel.html:8
 msgid "Deployment Config"
-msgstr ""
+msgstr "Dağıtım Yapılandırması"
 
 #: pkg/kubernetes/views/details-page.html:98
 #: pkg/kubernetes/scripts/details.js:220
 msgid "Deployment Configs"
-msgstr ""
+msgstr "Dağıtım Yapılandırmaları"
 
 #: pkg/kubernetes/views/project-modify.html:40
 #: pkg/kubernetes/views/project-listing.html:15
@@ -2707,7 +2730,7 @@ msgstr "Açıklama"
 #: pkg/ovirt/components/OVirtTab.jsx:146
 #: pkg/ovirt/components/VmOverviewColumn.jsx:52
 msgid "Description:"
-msgstr ""
+msgstr "Açıklama:"
 
 #: pkg/lib/machine-info.js:66
 msgid "Desktop"
@@ -2756,7 +2779,7 @@ msgstr "Tanılama raporları"
 
 #: node_modules/registry-image-widgets/views/image-body.html:22
 msgid "Digest"
-msgstr ""
+msgstr "Özet"
 
 #: pkg/kubernetes/views/volume-body.html:28
 #: node_modules/registry-image-widgets/views/image-config.html:11
@@ -2770,7 +2793,7 @@ msgstr "$0 dizini yazılabilir değil veya yok."
 
 #: pkg/systemd/init.js:571
 msgid "Disable"
-msgstr ""
+msgstr "Devre Dışı Bırak"
 
 #: pkg/systemd/hwinfo.jsx:191
 msgid "Disable simultaneous multithreading"
@@ -2791,7 +2814,7 @@ msgstr "Bağlantıyı kes"
 
 #: pkg/subscriptions/insights.jsx:269 pkg/subscriptions/insights.jsx:275
 msgid "Disconnect from Insights"
-msgstr ""
+msgstr "Insights ile bağlantıyı kes"
 
 #: pkg/shell/simple.html:101 pkg/shell/indexes.js:149 pkg/shell/indexes.js:604
 #: pkg/machines/components/vnc.jsx:108
@@ -2800,7 +2823,7 @@ msgstr "Bağlantı kesildi"
 
 #: pkg/machines/components/serialConsole.jsx:137
 msgid "Disconnected from serial console. Click the Reconnect button."
-msgstr ""
+msgstr "Seri konsolla bağlantı kesildi. Yeniden bağlan düğmesine tıklayın."
 
 #: pkg/kubernetes/scripts/nodes.js:719 pkg/kubernetes/scripts/nodes.js:836
 #: pkg/storaged/vdos-panel.jsx:55
@@ -2817,7 +2840,7 @@ msgstr "Disk okuma/yazma"
 
 #: pkg/kubernetes/scripts/nodes.js:720
 msgid "Disk Utilization: $0%"
-msgstr ""
+msgstr "Disk Kullanımı: $0%"
 
 #: pkg/machines/components/diskAdd.jsx:513
 msgid "Disk failed to be attached"
@@ -2843,59 +2866,65 @@ msgstr "Diskler"
 
 #: pkg/machines/components/diskRemove.jsx:57
 msgid "Disks cannot be removed from $0 VMs"
-msgstr ""
+msgstr "$0 sanal makineden diskler kaldırılamıyor"
 
 #: pkg/shell/stub.html:42 pkg/shell/stub.html:97 pkg/shell/simple.html:38
 #: pkg/shell/simple.html:82 pkg/shell/index.html:52 pkg/shell/index.html:114
 msgid "Display Language"
-msgstr ""
+msgstr "Görüntüleme Dili"
 
 #: pkg/kubernetes/views/project-modify.html:31
 msgid "Display name"
-msgstr ""
+msgstr "Görünen ad"
 
 #: pkg/kubernetes/views/add-role-dialog.html:5
 msgid "Do you want to add the role '{{ fields.displayRole }}'?"
-msgstr ""
+msgstr "'{{ fields.displayRole }}' rolünü eklemek istiyor musunuz?"
 
 #: pkg/kubernetes/views/imagestream-delete.html:5
 msgid ""
 "Do you want to delete the '{{stream.metadata.namespace}}/{{stream.metadata."
 "name}}' image stream?"
 msgstr ""
+"'{{stream.metadata.namespace}}/{{stream.metadata.name}}' kalıp akışını "
+"silmek istiyor musunuz?"
 
 #: pkg/kubernetes/views/pv-delete.html:6
 msgid "Do you want to delete the Persistent Volume '{{item.metadata.name}}'?"
-msgstr ""
+msgstr "'{{item.metadata.name}}' Kalıcı Birimini silmek istiyor musunuz?"
 
 #: pkg/kubernetes/views/pvc-delete.html:6
 msgid ""
 "Do you want to delete the Persistent Volume Claim '{{item.metadata.name}}'?"
-msgstr ""
+msgstr "'{{item.metadata.name}}' Kalıcı Birim Talebini silmek istiyor musunuz?"
 
 #: pkg/kubernetes/views/item-delete.html:6
 msgid "Do you want to delete the {{ item.kind }} '{{item.metadata.name}}'?"
-msgstr ""
+msgstr "{{ item.kind }} '{{item.metadata.name}}' silmek istiyor musunuz?"
 
 #: pkg/kubernetes/views/node-delete.html:7
 msgid "Do you want to delete this Node?"
-msgstr ""
+msgstr "Bu düğümü silmek istiyor musunuz?"
 
 #: pkg/kubernetes/views/image-delete.html:5
 msgid ""
 "Do you want to remove the image tagged as '{{stream.metadata.namespace}}/"
 "{{stream.metadata.name}}:{{tag.tag}}'?"
 msgstr ""
+"'{{stream.metadata.namespace}}/{{stream.metadata.name}}:{{tag.tag}}' olarak "
+"etiketlenen kalıbı kaldırmak istiyor musunuz?"
 
 #: pkg/kubernetes/views/remove-role-dialog.html:5
 msgid ""
 "Do you want to remove the role '{{ fields.displayRole }}' from member "
 "{{ fields.member.metadata.name }}?"
 msgstr ""
+"{{ fields.member.metadata.name }} üyesinden '{{ fields.displayRole }}' "
+"rolünü kaldırmak istiyor musunuz?"
 
 #: node_modules/registry-image-widgets/views/image-meta.html:10
 msgid "Docker Version"
-msgstr ""
+msgstr "Docker Sürümü"
 
 #: pkg/docker/index.html:60
 msgid "Docker is not installed or activated on the system"
@@ -2903,7 +2932,7 @@ msgstr "Docker sistemde kurulu ya da etkinleştirilmiş değil"
 
 #: pkg/lib/machine-info.js:75
 msgid "Docking Station"
-msgstr ""
+msgstr "Yerleştirme (Dock) İstasyonu"
 
 #: pkg/systemd/index.html:125 pkg/realmd/operation.html:11
 #: pkg/realmd/operation.js:123
@@ -2920,20 +2949,20 @@ msgstr "$0 etki alanı desteklenmiyor"
 
 #: pkg/realmd/operation.html:33
 msgid "Domain Address"
-msgstr ""
+msgstr "Etki Alanı Adresi"
 
 #: pkg/realmd/operation.html:62
 msgid "Domain Administrator Name"
-msgstr ""
+msgstr "Etki Alanı Yöneticisi Adı"
 
 #: pkg/realmd/operation.html:65
 msgid "Domain Administrator Password"
-msgstr ""
+msgstr "Etki Alanı Yöneticisi Parolası"
 
 #: pkg/systemd/services.html:483 pkg/systemd/services.html:487
 #: pkg/systemd/init.js:1256
 msgid "Don't Repeat"
-msgstr ""
+msgstr "Tekrar Etme"
 
 #: pkg/storaged/content-views.jsx:516 pkg/storaged/format-dialog.jsx:280
 msgid "Don't overwrite existing data"
@@ -2941,7 +2970,7 @@ msgstr "Var olan verilerin üzerine yazma"
 
 #: pkg/kubernetes/scripts/images.js:633
 msgid "Don't pull images automatically"
-msgstr ""
+msgstr "Kalıpları otomatik olarak çekme"
 
 #: pkg/sosreport/index.html:63
 msgid "Done!"
@@ -2982,23 +3011,23 @@ msgstr "Sürücü"
 #: pkg/storaged/drives-panel.jsx:97 pkg/storaged/drives-panel.jsx:99
 msgctxt "storage"
 msgid "Drive"
-msgstr ""
+msgstr "Sürücü"
 
 #: pkg/kubernetes/views/volume-body.html:128
 msgid "Driver"
-msgstr ""
+msgstr "Sürücü"
 
 #: pkg/storaged/drives-panel.jsx:119
 msgid "Drives"
-msgstr ""
+msgstr "Sürücüler"
 
 #: pkg/docker/run.js:348
 msgid "Duplicate alias"
-msgstr ""
+msgstr "Yinelenen takma ad"
 
 #: pkg/docker/run.js:279
 msgid "Duplicate port"
-msgstr ""
+msgstr "Yinelenen bağlantı noktası"
 
 #: pkg/storaged/nfs-details.jsx:306 pkg/storaged/crypto-tab.jsx:128
 #: pkg/machines/components/nicEdit.jsx:281
@@ -3007,31 +3036,31 @@ msgstr "Düzenle"
 
 #: pkg/dashboard/index.html:130
 msgid "Edit Server"
-msgstr ""
+msgstr "Sunucuyu Düzenle"
 
 #: pkg/storaged/crypto-keyslots.jsx:270
 msgid "Edit Tang keyserver"
-msgstr ""
+msgstr "Tang anahtar sunucusunu düzenle"
 
 #: node_modules/registry-image-widgets/views/imagestream-body.html:7
 msgid "Edit image stream"
-msgstr ""
+msgstr "Kalıp akışını düzenle"
 
 #: pkg/ovirt/components/VdsmView.jsx:125
 msgid "Edit the vdsm.conf"
-msgstr ""
+msgstr "vdsm.conf dosyasını düzenle"
 
 #: pkg/storaged/crypto-keyslots.jsx:535
 msgid "Editing a key requires a free slot"
-msgstr ""
+msgstr "Bir anahtarı düzenlemek, boş bir yuva gerektirir"
 
 #: pkg/storaged/jobs-panel.jsx:36
 msgid "Ejecting $target"
-msgstr ""
+msgstr "$target çıkarılıyor"
 
 #: pkg/lib/machine-info.js:97
 msgid "Embedded PC"
-msgstr ""
+msgstr "Gömülü PC"
 
 #: pkg/playground/translate.html:57 src/base1/test-locale.js:44
 #: src/base1/test-locale.js:54 pkg/playground/translate.js:13
@@ -3046,31 +3075,31 @@ msgstr "Boşalt"
 
 #: pkg/kubernetes/scripts/volumes.js:196
 msgid "Empty Directory"
-msgstr ""
+msgstr "Boş Dizin"
 
 #: pkg/storaged/jobs-panel.jsx:75
 msgid "Emptying $target"
-msgstr ""
+msgstr "$target boşaltılıyor"
 
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:162
 msgid "Emulated Machine"
-msgstr ""
+msgstr "Öykünülmüş (Emulated) Makine"
 
 #: pkg/systemd/init.js:569
 msgid "Enable"
-msgstr ""
+msgstr "Etkinleştir"
 
 #: pkg/systemd/init.js:570
 msgid "Enable Forcefully"
-msgstr ""
+msgstr "Zorla Etkinleştir"
 
 #: pkg/networkmanager/index.html:50
 msgid "Enable Service"
-msgstr ""
+msgstr "Hizmeti Etkinleştir"
 
 #: pkg/systemd/index.html:168
 msgid "Enable stored metrics…"
-msgstr ""
+msgstr "Depolanan metrikleri etkinleştir…"
 
 #: pkg/systemd/services.html:72 pkg/systemd/init.js:210
 msgid "Enabled"
@@ -3078,36 +3107,38 @@ msgstr "Etkin"
 
 #: pkg/storaged/format-dialog.jsx:292
 msgid "Encrypt data"
-msgstr ""
+msgstr "Verileri şifrele"
 
 #: pkg/storaged/utils.js:273
 msgid "Encrypted $0"
-msgstr ""
+msgstr "Şifrelenmiş $0"
 
 #: pkg/storaged/utils.js:265
 msgid "Encrypted Logical Volume of $0"
-msgstr ""
+msgstr "$0'ın Şifrelenmiş Mantıksal Birimi"
 
 #: pkg/storaged/utils.js:267
 msgid "Encrypted Partition of $0"
-msgstr ""
+msgstr "$0'ın Şifrelenmiş Bölümü"
 
 #: pkg/storaged/content-views.jsx:348
 msgctxt "storage-id-desc"
 msgid "Encrypted data"
-msgstr ""
+msgstr "Şifrelenmiş veri"
 
 #: pkg/storaged/lvol-tabs.jsx:140
 msgid "Encrypted volumes can not be resized here."
-msgstr ""
+msgstr "Şifrelenmiş birimler burada yeniden boyutlandırılamaz."
 
 #: pkg/storaged/lvol-tabs.jsx:143
 msgid "Encrypted volumes need to be unlocked before they can be resized."
 msgstr ""
+"Şifrelenmiş birimlerin yeniden boyutlandırılabilmeleri için kilidinin "
+"açılması gerekmektedir."
 
 #: pkg/storaged/content-views.jsx:147
 msgid "Encryption"
-msgstr ""
+msgstr "Şifreleme"
 
 #: pkg/storaged/crypto-tab.jsx:102
 msgid "Encryption Options"
@@ -3115,28 +3146,28 @@ msgstr "Şifreleme Seçenekleri"
 
 #: pkg/kubernetes/views/pv-modify.html:93
 msgid "Endpoint"
-msgstr ""
+msgstr "Bitiş Noktası"
 
 #: pkg/kubernetes/views/volume-body.html:40
 msgid "Endpoint Name"
-msgstr ""
+msgstr "Bitiş Noktası Adı"
 
 #: pkg/kubernetes/views/service-page.html:14
 #: pkg/kubernetes/views/service-panel.html:9
 msgid "Endpoints"
-msgstr ""
+msgstr "Bitiş Noktaları"
 
 #: pkg/subscriptions/subscriptions-view.jsx:40
 msgid "Ends"
-msgstr ""
+msgstr "Bitiş"
 
 #: pkg/selinux/setroubleshoot-view.jsx:299
 msgid "Enforce policy:"
-msgstr ""
+msgstr "Politikayı uygula:"
 
 #: pkg/systemd/host.js:500
 msgid "Enhancement Updates Available"
-msgstr ""
+msgstr "İyileştirme Güncellemeleri Var"
 
 #: pkg/lib/machine-dialogs.js:445
 msgid "Enter IP address or host name"
@@ -3144,17 +3175,19 @@ msgstr "IP adresini veya ana makine adını gir"
 
 #: pkg/ovirt/components/ClusterTemplates.jsx:74
 msgid "Enter New VM name"
-msgstr ""
+msgstr "Yeni Sanal Makine Adı Gir"
 
 #: pkg/lib/machine-change-auth.html:57
 msgid ""
 "Entering a different password here means you will need to retype it every "
 "time you reconnect to this machine"
 msgstr ""
+"Buraya farklı bir parola girmek, bu makineye her yeniden bağlandığınızda "
+"parolayı yeniden yazmanız gerekeceği anlamına gelir"
 
 #: pkg/networkmanager/firewall.jsx:756
 msgid "Entire subnet"
-msgstr ""
+msgstr "Tüm alt ağ"
 
 #: pkg/systemd/logs.html:83
 msgid "Entry"
@@ -3175,15 +3208,15 @@ msgstr "Sil"
 
 #: pkg/docker/storage.jsx:447
 msgid "Erase containers and reset storage pool"
-msgstr ""
+msgstr "Konteynerleri sil ve depolama havuzunu sıfırla"
 
 #: pkg/storaged/jobs-panel.jsx:49
 msgid "Erasing $target"
-msgstr ""
+msgstr "$target siliniyor"
 
 #: pkg/packagekit/updates.jsx:312
 msgid "Errata:"
-msgstr ""
+msgstr "Düzeltme:"
 
 #: pkg/systemd/services.html:375 pkg/playground/translate.html:100
 #: pkg/playground/translate.html:105 pkg/apps/utils.jsx:100
@@ -3194,15 +3227,15 @@ msgstr "Hata"
 
 #: pkg/systemd/logs.html:59
 msgid "Error and above"
-msgstr ""
+msgstr "Hata ve üstü"
 
 #: pkg/kubernetes/scripts/connection.js:646
 msgid "Error getting certificate details: $0"
-msgstr ""
+msgstr "Sertifika ayrıntıları alınırken hata oluştu: $0"
 
 #: pkg/lib/machine-sync-users.html:13
 msgid "Error loading users: {{perm_failed}}"
-msgstr ""
+msgstr "Kullanıcılar yüklenirken hata oluştu: {{perm_failed}}"
 
 #: pkg/docker/util.js:507
 msgid "Error message from Docker:"
@@ -3214,7 +3247,7 @@ msgstr "Yetkili anahtarlar kaydedilirken hata oluştu: "
 
 #: pkg/selinux/setroubleshoot-client.js:193
 msgid "Error while deleting alert: $0"
-msgstr ""
+msgstr "Uyarı \"$0\" silinirken hata oluştu"
 
 #: pkg/selinux/setroubleshoot.js:67
 msgid "Error while setting SELinux mode: '$0'"
@@ -3222,19 +3255,19 @@ msgstr "SELinux modu ayarlanırken hata oluştu: '$0'"
 
 #: pkg/kubernetes/scripts/connection.js:85
 msgid "Error writing kubectl config"
-msgstr ""
+msgstr "kubectl yapılandırması yazılırken hata oluştu"
 
 #: pkg/networkmanager/index.html:658
 msgid "Ethernet MAC"
-msgstr ""
+msgstr "Ethernet MAC adresi"
 
 #: pkg/networkmanager/index.html:634
 msgid "Ethernet MTU"
-msgstr ""
+msgstr "Ethernet MTU değeri"
 
 #: pkg/networkmanager/interfaces.js:2006
 msgid "Ethtool"
-msgstr ""
+msgstr "Ethtool"
 
 #: pkg/systemd/logs.html:55 pkg/docker/containers-view.jsx:108
 msgid "Everything"
@@ -3242,11 +3275,11 @@ msgstr "Her şey"
 
 #: pkg/networkmanager/firewall.jsx:533
 msgid "Example: 22,ssh,8080,5900-5910"
-msgstr ""
+msgstr "Örnek: 22,ssh,8080,5900-5910"
 
 #: pkg/networkmanager/firewall.jsx:541
 msgid "Example: 88,2019,nfs,rsync"
-msgstr ""
+msgstr "Örnek: 88,2019,nfs,rsync"
 
 #: pkg/users/local.js:473 pkg/users/local.js:1417
 msgid "Excellent password"
@@ -3254,27 +3287,27 @@ msgstr "Mükemmel parola"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:222
 msgid "Existing Disk Image"
-msgstr ""
+msgstr "Mevcut Disk Kalıbı"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:163
 msgid "Existing disk image on host's file system"
-msgstr ""
+msgstr "Ana makinenin dosya sistemindeki mevcut disk kalıbı"
 
 #: pkg/docker/util.js:97
 msgid "Exited $ExitCode"
-msgstr ""
+msgstr "Çıkış yaptı $ExitCode"
 
 #: pkg/lib/machine-info.js:81
 msgid "Expansion Chassis"
-msgstr ""
+msgstr "Genişletme Şasisi"
 
 #: pkg/docker/index.html:508
 msgid "Expose container ports"
-msgstr ""
+msgstr "Konteyner bağlantı noktalarını aç"
 
 #: pkg/storaged/content-views.jsx:454 pkg/storaged/format-dialog.jsx:254
 msgid "Extended Partition"
-msgstr ""
+msgstr "Genişletilmiş Bölüm"
 
 #: pkg/storaged/mdraid-details.jsx:99
 msgid "FAILED"
@@ -3282,11 +3315,11 @@ msgstr "BAŞARISIZ OLDU"
 
 #: pkg/ovirt/provider.js:130
 msgid "FORCEOFF action failed: $0"
-msgstr ""
+msgstr "FORCEOFF eylemi başarısız: $0"
 
 #: pkg/ovirt/components/InstallationDialog.jsx:47
 msgid "FQDN"
-msgstr ""
+msgstr "FQDN"
 
 #: pkg/networkmanager/interfaces.js:842
 msgid "Failed"
@@ -3298,11 +3331,11 @@ msgstr "Makine eklenemedi: $0"
 
 #: pkg/networkmanager/firewall.jsx:237
 msgid "Failed to add service"
-msgstr ""
+msgstr "Hizmet eklenemedi"
 
 #: pkg/networkmanager/firewall.jsx:681
 msgid "Failed to add zone"
-msgstr ""
+msgstr "Bölge eklenemedi"
 
 #: pkg/users/local.js:130 pkg/users/local.js:162 pkg/lib/credentials.js:228
 msgid "Failed to change password"
@@ -3310,7 +3343,7 @@ msgstr "Parola değiştirilemedi"
 
 #: pkg/selinux/setroubleshoot-client.js:188
 msgid "Failed to delete alert: $0"
-msgstr ""
+msgstr "Uyarı \"$0\" silinemedi"
 
 #: pkg/tuned/dialog.js:169
 msgid "Failed to disable tuned"
@@ -3334,48 +3367,48 @@ msgstr "Yetkilendirilmiş anahtarlar yüklenemedi."
 
 #: pkg/networkmanager/firewall.jsx:593
 msgid "Failed to remove service"
-msgstr ""
+msgstr "Hizmet kaldırılamadı"
 
 #: pkg/docker/containers.js:60
 msgid "Failed to start Docker: $0"
-msgstr ""
+msgstr "Docker başlatılamadı: $0"
 
 #: pkg/docker/util.js:559
 msgid "Failed to stop Docker scope: $0"
-msgstr ""
+msgstr "Docker kapsamı durdurulamadı: $0"
 
 #: pkg/tuned/dialog.js:145
 msgid "Failed to switch profile"
-msgstr ""
+msgstr "Profil değiştirilemedi"
 
 #: pkg/machines/components/vcpuModal.jsx:193
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
-msgstr ""
+msgstr "Azami sanal CPU sayısından daha azı etkinleştirilmelidir."
 
 #: pkg/kubernetes/scripts/volumes.js:204
 msgid "Fibre Channel"
-msgstr ""
+msgstr "Fibre Channel"
 
 #: pkg/machines/components/vmDiskColumns.jsx:42
 #: pkg/machines/components/vm/bootOrderModal.jsx:92
 msgid "File"
-msgstr ""
+msgstr "Dosya"
 
 #: pkg/storaged/content-views.jsx:145
 msgid "Filesystem"
-msgstr ""
+msgstr "Dosya sistemi"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:76
 msgid "Filesystem Directory"
-msgstr ""
+msgstr "Dosya Sistemi Dizini"
 
 #: pkg/storaged/fsys-tab.jsx:123
 msgid "Filesystem Mounting"
-msgstr ""
+msgstr "Dosya Sistemi Bağlama"
 
 #: pkg/storaged/fsys-tab.jsx:70
 msgid "Filesystem Name"
-msgstr ""
+msgstr "Dosya Sistemi Adı"
 
 #: pkg/kubernetes/views/volume-body.html:6
 #: pkg/kubernetes/views/volume-body.html:16
@@ -3386,7 +3419,7 @@ msgstr ""
 #: pkg/kubernetes/views/volume-body.html:132
 #: pkg/kubernetes/views/pv-modify.html:181
 msgid "Filesystem Type"
-msgstr ""
+msgstr "Dosya Sistemi Türü"
 
 #: pkg/storaged/fsys-panel.jsx:103
 msgid "Filesystems"
@@ -3394,15 +3427,15 @@ msgstr "Dosya sistemleri"
 
 #: pkg/networkmanager/firewall.jsx:490
 msgid "Filter Services"
-msgstr ""
+msgstr "Hizmetleri Filtrele"
 
 #: pkg/systemd/services.html:68
 msgid "Filter by name or description..."
-msgstr ""
+msgstr "Ada veya açıklamaya göre filtrele..."
 
 #: pkg/shell/index.html:269 pkg/lib/machine-unknown-hostkey.html:10
 msgid "Fingerprint"
-msgstr ""
+msgstr "Parmak izi"
 
 #: pkg/networkmanager/firewall.html:22 pkg/networkmanager/index.html:97
 #: pkg/networkmanager/firewall.jsx:917 pkg/networkmanager/firewall.jsx:920
@@ -3411,31 +3444,31 @@ msgstr "Güvenlik duvarı"
 
 #: pkg/networkmanager/firewall.jsx:865
 msgid "Firewall is not available"
-msgstr ""
+msgstr "Güvenlik duvarı yok"
 
 #: pkg/kubernetes/scripts/volumes.js:206
 msgid "Flex"
-msgstr ""
+msgstr "Flex"
 
 #: pkg/kubernetes/scripts/volumes.js:205
 msgid "Flocker"
-msgstr ""
+msgstr "Flocker"
 
 #: pkg/kubernetes/views/volume-body.html:125
 msgid "Flocker Dataset Name"
-msgstr ""
+msgstr "Flocker Veri Kümesi Adı"
 
 #: node_modules/registry-image-widgets/views/imagestream-body.html:35
 msgid "Follows docker repo"
-msgstr ""
+msgstr "Docker deposunu takip eder"
 
 #: pkg/storaged/vdos-panel.jsx:88
 msgid "For legacy applications only. Reduces performance."
-msgstr ""
+msgstr "Sadece eski uygulamalar için. Performansı düşürür."
 
 #: pkg/users/index.html:122
 msgid "Force Change"
-msgstr ""
+msgstr "Değiştirmeye Zorla"
 
 #: pkg/docker/util.js:519
 msgid "Force Delete"
@@ -3447,15 +3480,15 @@ msgstr "Yeniden Başlatmaya Zorla"
 
 #: pkg/machines/components/vm/vmActions.jsx:60
 msgid "Force Shut Down"
-msgstr ""
+msgstr "Kapatmaya Zorla"
 
 #: pkg/users/index.html:326
 msgid "Force password change"
-msgstr ""
+msgstr "Parola değiştirmeye zorla"
 
 #: pkg/storaged/crypto-keyslots.jsx:373
 msgid "Force remove passphrase in $0"
-msgstr ""
+msgstr "$0'daki parolayı zorla kaldır"
 
 #: pkg/storaged/content-views.jsx:318 pkg/storaged/content-views.jsx:530
 #: pkg/storaged/format-dialog.jsx:323 pkg/machines/components/diskAdd.jsx:147
@@ -3465,11 +3498,11 @@ msgstr "Biçimlendir"
 
 #: pkg/storaged/format-dialog.jsx:186
 msgid "Format $0"
-msgstr ""
+msgstr "$0 biçimlendir"
 
 #: pkg/storaged/content-views.jsx:511
 msgid "Format Disk $0"
-msgstr ""
+msgstr "$0 Diskini Biçimlendir"
 
 #: pkg/storaged/content-views.jsx:531
 msgid "Formatting a disk will erase all data on it."
@@ -3477,15 +3510,15 @@ msgstr "Bir diski biçimlendirmek üzerindeki tüm verileri silecektir."
 
 #: pkg/storaged/format-dialog.jsx:325
 msgid "Formatting a storage device will erase all data on it."
-msgstr ""
+msgstr "Bir depolama aygıtını biçimlendirmek içindeki tüm verileri silecektir."
 
 #: pkg/networkmanager/interfaces.js:2861
 msgid "Forward delay $forward_delay"
-msgstr ""
+msgstr "Yönlendirme gecikmesi $forward_delay"
 
 #: pkg/machines/components/networks/networkList.jsx:47
 msgid "Forwarding mode"
-msgstr ""
+msgstr "Yönlendirme modu"
 
 #: pkg/storaged/pvol-tabs.jsx:44 pkg/docker/storage.jsx:325
 #: pkg/docker/storage.jsx:348
@@ -3494,25 +3527,27 @@ msgstr "Boş"
 
 #: pkg/storaged/content-views.jsx:440
 msgid "Free Space"
-msgstr ""
+msgstr "Boş Alan"
 
 #: pkg/storaged/lvol-tabs.jsx:371
 msgid ""
 "Free up space in this group: Shrink or delete other logical volumes or add "
 "another physical volume."
 msgstr ""
+"Bu grupta yer açın: Diğer mantıksal birimleri küçültün veya silin ya da "
+"başka bir fiziksel birim ekleyin."
 
 #: pkg/systemd/services.html:239
 msgid "Friday"
-msgstr ""
+msgstr "Cuma"
 
 #: pkg/packagekit/autoupdates.jsx:321
 msgid "Fridays"
-msgstr ""
+msgstr "Cuma günleri"
 
 #: node_modules/registry-image-widgets/views/image-listing.html:6
 msgid "From"
-msgstr ""
+msgstr "Nereden"
 
 #: pkg/users/index.html:86 pkg/users/index.html:167
 msgid "Full Name"
@@ -3520,11 +3555,11 @@ msgstr "Ad Soyad"
 
 #: pkg/kubernetes/scripts/volumes.js:192
 msgid "GCE Persistent Disk"
-msgstr ""
+msgstr "GCE Kalıcı Diski"
 
 #: pkg/docker/index.html:183
 msgid "Gateway:"
-msgstr ""
+msgstr "Ağ Geçidi:"
 
 #: pkg/systemd/logs.js:486 pkg/networkmanager/interfaces.js:2703
 #: pkg/machines/components/networks/networkOverviewTab.jsx:80
@@ -3533,7 +3568,7 @@ msgstr "Genel"
 
 #: pkg/sosreport/index.html:55
 msgid "Generating report"
-msgstr ""
+msgstr "Rapor oluşturuluyor"
 
 #: pkg/docker/containers-view.jsx:680
 msgid "Get new image"
@@ -3549,23 +3584,23 @@ msgstr "GiB"
 
 #: pkg/kubernetes/scripts/volumes.js:194
 msgid "Git Repository"
-msgstr ""
+msgstr "Git Deposu"
 
 #: pkg/kubernetes/scripts/volumes.js:198
 msgid "Gluster FS"
-msgstr ""
+msgstr "Gluster FS"
 
 #: pkg/kubernetes/scripts/volumes.js:877
 msgid "GlusterFS"
-msgstr ""
+msgstr "GlusterFS"
 
 #: pkg/systemd/logs.js:199
 msgid "Go to"
-msgstr ""
+msgstr "Git"
 
 #: pkg/apps/application.jsx:108
 msgid "Go to Application"
-msgstr ""
+msgstr "Uygulamaya Git"
 
 #: pkg/systemd/index.html:181 pkg/dashboard/index.html:46
 #: pkg/networkmanager/index.html:63 pkg/networkmanager/index.html:396
@@ -3577,96 +3612,98 @@ msgstr "Şimdiye git"
 #: pkg/kubernetes/views/project-body.html:8
 msgid "Grant additional push or admin access to specific members below."
 msgstr ""
+"Aşağıda belirli üyelere ek yükleme (push) veya yönetici (admin) erişimi "
+"verin."
 
 #: pkg/machines/components/consoles.jsx:51
 msgid "Graphics Console (VNC)"
-msgstr ""
+msgstr "Grafik Konsolu (VNC)"
 
 #: pkg/machines/components/consoles.jsx:60
 msgid "Graphics Console in Desktop Viewer"
-msgstr ""
+msgstr "Masaüstü Görüntüleyicide Grafik Konsolu"
 
 #: pkg/kubernetes/views/group-panel.html:12
 #: pkg/kubernetes/views/group-page.html:21
 msgid "Group Members"
-msgstr ""
+msgstr "Grup Üyeleri"
 
 #: pkg/kubernetes/views/user-add-membership.html:9
 msgid "Group or Project"
-msgstr ""
+msgstr "Grup veya Proje"
 
 #: pkg/kubernetes/views/user-delete.html:14
 #: pkg/kubernetes/views/project-listing.html:48
 msgid "Groups"
-msgstr ""
+msgstr "Gruplar"
 
 #: pkg/storaged/vdo-details.jsx:229 pkg/storaged/vdo-details.jsx:298
 #: pkg/storaged/lvol-tabs.jsx:235 pkg/storaged/lvol-tabs.jsx:399
 #: pkg/storaged/lvol-tabs.jsx:451
 msgid "Grow"
-msgstr ""
+msgstr "Büyüt"
 
 #: pkg/storaged/lvol-tabs.jsx:417
 msgid "Grow Content"
-msgstr ""
+msgstr "İçeriği Büyüt"
 
 #: pkg/storaged/lvol-tabs.jsx:231
 msgid "Grow Logical Volume"
-msgstr ""
+msgstr "Mantıksal Birimi Büyüt"
 
 #: pkg/storaged/vdo-details.jsx:218
 msgid "Grow logical size of $0"
-msgstr ""
+msgstr "$0'ın mantıksal boyutunu büyüt"
 
 #: pkg/storaged/vdo-details.jsx:130
 msgid "Grow to take all space"
-msgstr ""
+msgstr "Tüm alanı kaplayacak şekilde büyüt"
 
 #: pkg/ovirt/components/ClusterTemplates.jsx:136
 #: pkg/ovirt/components/ClusterVms.jsx:182
 msgid "HA"
-msgstr ""
+msgstr "HA"
 
 #: pkg/ovirt/components/OVirtTab.jsx:128
 msgid "HA:"
-msgstr ""
+msgstr "HA:"
 
 #: pkg/networkmanager/index.html:252
 msgid "Hair Pin mode"
-msgstr ""
+msgstr "Hairpin modu"
 
 #: pkg/networkmanager/interfaces.js:2887
 msgid "Hairpin mode"
-msgstr ""
+msgstr "Hairpin modu"
 
 #: pkg/lib/machine-info.js:74
 msgid "Hand Held"
-msgstr ""
+msgstr "Elde Taşınan"
 
 #: pkg/docker/storage.jsx:166
 msgid "Hard Disk"
-msgstr ""
+msgstr "Sabit Disk"
 
 #: pkg/storaged/drives-panel.jsx:85
 msgctxt "storage"
 msgid "Hard Disk"
-msgstr ""
+msgstr "Sabit Disk"
 
 #: pkg/systemd/index.html:87
 msgid "Hardware"
-msgstr ""
+msgstr "Donanım"
 
 #: pkg/systemd/hwinfo.html:4 pkg/systemd/hwinfo.jsx:260
 msgid "Hardware Information"
-msgstr ""
+msgstr "Donanım Bilgileri"
 
 #: pkg/networkmanager/interfaces.js:2863
 msgid "Hello time $hello_time"
-msgstr ""
+msgstr "Merhaba süresi $hello_time"
 
 #: pkg/machines/components/diskAdd.jsx:238
 msgid "Hide Performance Options"
-msgstr ""
+msgstr "Performans Seçeneklerini Gizle"
 
 #: pkg/kubernetes/views/route-body.html:9
 #: pkg/kubernetes/views/details-page.html:73
@@ -3682,44 +3719,44 @@ msgstr "Ana makine"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:172
 msgid "Host Device"
-msgstr ""
+msgstr "Ana Aygıt"
 
 #: pkg/systemd/index.html:120 pkg/dashboard/index.html:137
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:155
 msgid "Host Name"
-msgstr ""
+msgstr "Ana Makine Adı"
 
 #: pkg/kubernetes/scripts/volumes.js:197 pkg/kubernetes/scripts/volumes.js:869
 msgid "Host Path"
-msgstr ""
+msgstr "Ana Makine Yolu"
 
 #: src/base1/cockpit.js:4023
 msgid "Host key is incorrect"
-msgstr ""
+msgstr "Ana makine anahtarı yanlış"
 
 #: pkg/realmd/operation.js:602
 msgid "Host name should not be changed in a domain"
-msgstr ""
+msgstr "Bir etki alanında ana makine adı değiştirilmemelidir"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:161
 msgid "Host should not be empty"
-msgstr ""
+msgstr "Ana makine boş olmamalıdır"
 
 #: pkg/ovirt/components/HostToMaintenance.jsx:75
 msgid "Host to Maintenance"
-msgstr ""
+msgstr "Bakım Ana Makinesi"
 
 #: pkg/systemd/services.html:499
 msgid "Hour : Minute"
-msgstr ""
+msgstr "Saat : Dakika"
 
 #: pkg/systemd/init.js:1332 pkg/systemd/init.js:1361
 msgid "Hour needs to be a number between 0-23"
-msgstr ""
+msgstr "Saatin 0 ile 23 arasında bir sayı olması gerekmektedir"
 
 #: pkg/systemd/services.html:465
 msgid "Hours"
-msgstr ""
+msgstr "Saat"
 
 #: pkg/systemd/index.html:245 pkg/systemd/host.js:1601
 msgid "I/O Wait"
@@ -3728,7 +3765,7 @@ msgstr "I/O Bekleme"
 #: pkg/kubernetes/views/node-body.html:10
 #: pkg/kubernetes/views/service-body.html:9
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: pkg/networkmanager/index.html:120 pkg/networkmanager/index.html:138
 msgid "IP Address"
@@ -3744,11 +3781,11 @@ msgstr "IP Ön Ek Uzunluğu:"
 
 #: pkg/networkmanager/firewall.jsx:927
 msgid "IP Range"
-msgstr ""
+msgstr "IP Aralığı"
 
 #: pkg/networkmanager/index.html:466
 msgid "IP Settings"
-msgstr ""
+msgstr "IP Ayarları"
 
 #: pkg/networkmanager/interfaces.js:2912
 msgid "IPv4"
@@ -3756,7 +3793,7 @@ msgstr "IPv4"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:103
 msgid "IPv4 Address"
-msgstr ""
+msgstr "IPv4 Adresi"
 
 #: pkg/networkmanager/interfaces.js:3359
 msgid "IPv4 Settings"
@@ -3768,7 +3805,7 @@ msgstr "IPv6"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:126
 msgid "IPv6 Address"
-msgstr ""
+msgstr "IPv6 Adresi"
 
 #: pkg/networkmanager/interfaces.js:3359
 msgid "IPv6 Settings"
@@ -3776,45 +3813,47 @@ msgstr "IPv6 Ayarları"
 
 #: pkg/kubernetes/scripts/volumes.js:201 pkg/kubernetes/scripts/volumes.js:873
 msgid "ISCSI"
-msgstr ""
+msgstr "ISCSI"
 
 #: pkg/docker/containers-view.jsx:128 pkg/docker/containers-view.jsx:408
 msgid "Id"
-msgstr ""
+msgstr "Kimlik"
 
 #: pkg/networkmanager/interfaces.js:2904
 msgid "Id $id"
-msgstr ""
+msgstr "Kimlik $id"
 
 #: pkg/docker/index.html:148
 msgid "Id:"
-msgstr ""
+msgstr "Kimlik:"
 
 #: node_modules/registry-image-widgets/views/image-body.html:24
 #: node_modules/registry-image-widgets/views/image-listing.html:7
 msgid "Identifier"
-msgstr ""
+msgstr "Tanımlayıcı"
 
 #: pkg/kubernetes/views/user-page.html:22
 #: pkg/kubernetes/views/user-panel.html:18
 msgid "Identities"
-msgstr ""
+msgstr "Kimlikler"
 
 #: pkg/kubernetes/views/add-user-dialog.html:17
 #: pkg/kubernetes/views/user-modify.html:17
 #: pkg/kubernetes/views/project-listing.html:91
 msgid "Identity"
-msgstr ""
+msgstr "Kimlik"
 
 #: pkg/storaged/crypto-keyslots.jsx:325
 msgid "If tang-show-keys is not available, run the following:"
-msgstr ""
+msgstr "tang-show-keys kullanılamıyorsa, şunu çalıştır:"
 
 #: pkg/subscriptions/insights.jsx:272
 msgid ""
 "If you disconnect this system from Insights, it will no longer report it's "
 "Insights status in Red Hat Cloud or Satellite."
 msgstr ""
+"Bu sistemin Insights ile bağlantısını keserseniz, artık Red Hat Cloud veya "
+"Satellite üzerinde Insights durumunu bildirmeyecektir."
 
 #: pkg/packagekit/updates.jsx:496 pkg/networkmanager/interfaces.js:1969
 msgid "Ignore"
@@ -3838,35 +3877,35 @@ msgstr "Kalıp Oluşturucu"
 
 #: pkg/kubernetes/views/container-body.html:8
 msgid "Image ID"
-msgstr ""
+msgstr "Kalıp Kimliği"
 
 #: pkg/kubernetes/views/volume-body.html:58
 msgid "Image Name"
-msgstr ""
+msgstr "Kalıp Adı"
 
 #: pkg/kubernetes/registry.html:23
 msgid "Image Registry"
-msgstr ""
+msgstr "Kalıp Kayıt Defteri"
 
 #: pkg/docker/index.html:578
 msgid "Image Search"
-msgstr ""
+msgstr "Kalıp Arama"
 
 #: pkg/kubernetes/views/imagestream-page.html:16
 msgid "Image Stream"
-msgstr ""
+msgstr "Kalıp Akışı"
 
 #: pkg/kubernetes/views/registry-dashboard-page.html:135
 msgid "Image commands"
-msgstr ""
+msgstr "Kalıp komutları"
 
 #: node_modules/registry-image-widgets/views/imagestream-body.html:41
 msgid "Image count"
-msgstr ""
+msgstr "Kalıp sayısı"
 
 #: node_modules/registry-image-widgets/views/imagestream-panel.html:12
 msgid "Image stream"
-msgstr ""
+msgstr "Kalıp akışı"
 
 #: pkg/docker/index.html:156
 msgid "Image:"
@@ -3890,30 +3929,33 @@ msgstr "Kalıplar ve çalışan konteynerler"
 
 #: pkg/kubernetes/views/registry-dashboard-page.html:17
 msgid "Images by project"
-msgstr ""
+msgstr "Projeye göre kalıplar"
 
 #: node_modules/registry-image-widgets/views/imagestream-body.html:15
 #: node_modules/registry-image-widgets/views/imagestream-body.html:16
 msgid "Images may be pulled by anonymous users"
-msgstr ""
+msgstr "Kalıplar anonim kullanıcılar tarafından çekilebilir"
 
 #: node_modules/registry-image-widgets/views/imagestream-body.html:20
 #: node_modules/registry-image-widgets/views/imagestream-body.html:21
 msgid "Images may be pulled by any authenticated user or group"
 msgstr ""
+"Kalıplar kimliği doğrulanmış herhangi bir kullanıcı veya grup tarafından "
+"çekilebilir"
 
 #: node_modules/registry-image-widgets/views/imagestream-body.html:25
 #: node_modules/registry-image-widgets/views/imagestream-body.html:26
 msgid "Images may only be pulled by specific users or groups"
 msgstr ""
+"Kalıplar sadece belirli kullanıcılar veya gruplar tarafından çekilebilir"
 
 #: pkg/kubernetes/views/registry-dashboard-page.html:54
 msgid "Images pushed recently"
-msgstr ""
+msgstr "Yakın zamanda yüklenen kalıplar"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:637
 msgid "Immediately Start VM"
-msgstr ""
+msgstr "Sanal Makineyi Hemen Başlat"
 
 #: pkg/storaged/mdraid-details.jsx:100
 msgid "In Sync"
@@ -3924,23 +3966,30 @@ msgid ""
 "In most configurations, macvtap does not work for host to guest network "
 "communication."
 msgstr ""
+"Çoğu yapılandırmada, ana makineden konuğa ağ iletişimi için macvtap çalışmaz."
 
 #: pkg/kubernetes/views/registry-dashboard-page.html:81
 msgid ""
 "In order to begin pushing images to the registry, use the commands below."
 msgstr ""
+"Kalıpları kayıt defterine göndermeye başlamak için aşağıdaki komutları "
+"kullanın."
 
 #: pkg/kubernetes/views/registry-dashboard-page.html:6
 msgid ""
 "In order to begin pushing images to the registry, you need to create a "
 "project."
 msgstr ""
+"Kalıpları kayıt defterine göndermeye başlamak için bir proje oluşturmanız "
+"gerekmektedir."
 
 #: pkg/lib/machine-sync-users.html:50
 msgid ""
 "In order to synchronize users, you need to log in to {{#strong}}{{host}}{{/"
 "strong}}."
 msgstr ""
+"Kullanıcıları eşzamanlamak için, {{#strong}}{{host}}{{/strong}} üzerinde "
+"oturum açmanız gerekmektedir."
 
 #: pkg/networkmanager/interfaces.js:824 pkg/networkmanager/interfaces.js:1417
 #: pkg/networkmanager/interfaces.js:1424 pkg/networkmanager/interfaces.js:2606
@@ -3949,85 +3998,87 @@ msgstr "Etkin değil"
 
 #: pkg/storaged/content-views.jsx:613
 msgid "Inactive volume"
-msgstr ""
+msgstr "Etkin olmayan birim"
 
 #: pkg/networkmanager/firewall.jsx:734
 msgid "Included services"
-msgstr ""
+msgstr "Dahil olan hizmetler"
 
 #: pkg/lib/machine-invalid-hostkey.html:2
 msgid "Incorrect Host Key"
-msgstr ""
+msgstr "Yanlış Ana Makine Anahtarı"
 
 #: pkg/storaged/vdo-details.jsx:301 pkg/storaged/vdos-panel.jsx:69
 msgid "Index Memory"
-msgstr ""
+msgstr "Endeks Belleği"
 
 #: pkg/systemd/logs.html:62
 msgid "Info and above"
-msgstr ""
+msgstr "Bilgi ve üstü"
 
 #: pkg/docker/storage.jsx:309
 msgid "Information about the Docker storage pool is not available."
-msgstr ""
+msgstr "Docker depolama havuzu hakkında bilgi yok."
 
 #: pkg/packagekit/updates.jsx:453
 msgid "Initializing..."
-msgstr ""
+msgstr "Başlatılıyor..."
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:177
 msgid "Initiator"
-msgstr ""
+msgstr "Başlatıcı"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:188
 msgid "Initiator IQN should not be empty"
-msgstr ""
+msgstr "Başlatıcı IQN boş olmamalıdır"
 
 #: pkg/subscriptions/subscriptions-register.jsx:113
 msgid "Insights"
-msgstr ""
+msgstr "Insights"
 
 #: pkg/apps/application.jsx:112 pkg/apps/application-list.jsx:87
 #: pkg/machines/components/vm/vmActions.jsx:98
 #: pkg/lib/cockpit-components-install-dialog.jsx:115
 msgid "Install"
-msgstr ""
+msgstr "Kur"
 
 #: pkg/packagekit/updates.jsx:806
 msgid "Install All Updates"
-msgstr ""
+msgstr "Tüm Güncellemeleri Kur"
 
 #: pkg/storaged/nfs-panel.jsx:96
 msgid "Install NFS Support"
-msgstr ""
+msgstr "NFS Desteğini Kur"
 
 #: pkg/packagekit/updates.jsx:806 pkg/packagekit/updates.jsx:812
 msgid "Install Security Updates"
-msgstr ""
+msgstr "Güvenlik Güncellemelerini Kur"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:103
 msgid "Install Software"
-msgstr ""
+msgstr "Yazılım Kur"
 
 #: pkg/storaged/vdos-panel.jsx:171
 msgid "Install VDO support"
-msgstr ""
+msgstr "VDO desteğini kur"
 
 #: pkg/selinux/setroubleshoot-view.jsx:379
 msgid "Install setroubleshoot-server to troubleshoot SELinux events."
 msgstr ""
+"SELinux olayları hakkındaki sorunları gidermek için setroubleshoot-server "
+"kur."
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:226
 msgid "Installation Source"
-msgstr ""
+msgstr "Kurulum Kaynağı"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:212
 msgid "Installation Source Type"
-msgstr ""
+msgstr "Kurulum Kaynağı Türü"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:113
 msgid "Installation Source should not be empty"
-msgstr ""
+msgstr "Kurulum Kaynağı boş olmamalıdır"
 
 #: pkg/packagekit/updates.jsx:59
 msgid "Installed"
@@ -4035,7 +4086,7 @@ msgstr "Kurulu"
 
 #: pkg/subscriptions/subscriptions-view.jsx:250
 msgid "Installed products"
-msgstr ""
+msgstr "Kurulu ürünler"
 
 #: pkg/apps/application.jsx:55 pkg/apps/application-list.jsx:47
 #: pkg/packagekit/updates.jsx:51
@@ -4045,20 +4096,20 @@ msgstr "Kuruluyor"
 #: pkg/subscriptions/insights.jsx:46
 #: pkg/lib/cockpit-components-install-dialog.jsx:183
 msgid "Installing $0"
-msgstr ""
+msgstr "$0 kuruluyor"
 
 #: pkg/systemd/services.html:184
 msgid "Instantiate"
-msgstr ""
+msgstr "Örnek Oluştur"
 
 #: pkg/kubernetes/views/volume-body.html:81
 #: pkg/kubernetes/views/pv-modify.html:170
 msgid "Interface"
-msgstr ""
+msgstr "Arayüz"
 
 #: pkg/machines/components/nicEdit.jsx:123
 msgid "Interface Type"
-msgstr ""
+msgstr "Arayüz Türü"
 
 #: pkg/networkmanager/index.html:108 pkg/networkmanager/firewall.jsx:739
 #: pkg/networkmanager/firewall.jsx:927
@@ -4067,11 +4118,11 @@ msgstr "Arayüzler"
 
 #: src/ws/login.js:639
 msgid "Internal Error: Invalid challenge header"
-msgstr ""
+msgstr "Dahili Hata: Geçersiz kimlik sorma başlığı"
 
 #: src/base1/cockpit.js:4025
 msgid "Internal error"
-msgstr ""
+msgstr "Dahili hata"
 
 #: pkg/networkmanager/utils.js:88 pkg/networkmanager/utils.js:171
 msgid "Invalid address $0"
@@ -4079,7 +4130,7 @@ msgstr "Geçersiz adres $0"
 
 #: pkg/subscriptions/subscriptions-client.js:195
 msgid "Invalid credentials"
-msgstr ""
+msgstr "Geçersiz kimlik bilgileri"
 
 #: pkg/systemd/shutdown.js:143 pkg/systemd/host.js:1471
 msgid "Invalid date format"
@@ -4095,7 +4146,7 @@ msgstr "Geçersiz tarih biçimi."
 
 #: pkg/users/local.js:1237
 msgid "Invalid expiration date"
-msgstr ""
+msgstr "Geçersiz süre dolma tarihi"
 
 #: pkg/lib/credentials.js:285
 msgid "Invalid file permissions"
@@ -4103,7 +4154,7 @@ msgstr "Geçersiz dosya izinleri"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:100
 msgid "Invalid filename"
-msgstr ""
+msgstr "Geçersiz dosya adı"
 
 #: pkg/users/index.html:377
 msgid "Invalid key"
@@ -4115,11 +4166,11 @@ msgstr "Geçersiz metrik $0"
 
 #: pkg/users/local.js:1313
 msgid "Invalid number of days"
-msgstr ""
+msgstr "Geçersiz gün sayısı"
 
 #: pkg/systemd/init.js:1314
 msgid "Invalid number."
-msgstr ""
+msgstr "Geçersiz sayı."
 
 #: pkg/docker/run.js:269
 msgid "Invalid port"
@@ -4127,7 +4178,7 @@ msgstr "Geçersiz bağlantı noktası"
 
 #: pkg/networkmanager/firewall.jsx:335
 msgid "Invalid port number"
-msgstr ""
+msgstr "Geçersiz bağlantı noktası numarası"
 
 #: pkg/networkmanager/utils.js:41
 msgid "Invalid prefix $0"
@@ -4139,7 +4190,7 @@ msgstr "Geçersiz ön ek veya ağ maskesi $0"
 
 #: pkg/networkmanager/firewall.jsx:362
 msgid "Invalid range"
-msgstr ""
+msgstr "Geçersiz aralık"
 
 #: pkg/systemd/shutdown.js:141 pkg/systemd/host.js:1469
 msgid "Invalid time format"
@@ -4152,19 +4203,19 @@ msgstr "Geçersiz saat dilimi"
 #: pkg/storaged/iscsi-panel.jsx:80 pkg/storaged/iscsi-panel.jsx:163
 #: pkg/subscriptions/subscriptions-client.js:193
 msgid "Invalid username or password"
-msgstr ""
+msgstr "Geçersiz kullanıcı adı veya parola"
 
 #: pkg/lib/machine-info.js:96
 msgid "IoT Gateway"
-msgstr ""
+msgstr "IoT Ağ Geçidi"
 
 #: pkg/lib/machine-change-port.html:15
 msgid "Is sshd running on a different port?"
-msgstr ""
+msgstr "sshd farklı bir bağlantı noktasında mı çalışıyor?"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:108
 msgid "Isolated Network"
-msgstr ""
+msgstr "Yalıtılmış Ağ"
 
 #: pkg/storaged/jobs-panel.jsx:186
 msgid "Jobs"
@@ -4176,48 +4227,50 @@ msgstr "Katıl"
 
 #: pkg/realmd/operation.js:597
 msgid "Join Domain"
-msgstr ""
+msgstr "Etki Alanına Katıl"
 
 #: pkg/realmd/operation.js:116
 msgid "Join a Domain"
-msgstr ""
+msgstr "Bir Etki Alanına Katıl"
 
 #: pkg/realmd/operation.js:506
 msgid "Joining this domain is not supported"
-msgstr ""
+msgstr "Bu etki alanına katılmak desteklenmiyor"
 
 #: pkg/systemd/init.js:736
 msgid "Joins Namespace Of"
-msgstr ""
+msgstr "Etki Alanına Katılır"
 
 #: pkg/systemd/logs.html:23
 msgid "Journal"
-msgstr ""
+msgstr "Günlük"
 
 #: pkg/systemd/logs.js:407
 msgid "Journal entry"
-msgstr ""
+msgstr "Günlük girdisi"
 
 #: pkg/systemd/logs.js:438
 msgid "Journal entry not found"
-msgstr ""
+msgstr "Günlük girdisi bulunamadı"
 
 #: pkg/kdump/kdump-view.jsx:459
 msgid ""
 "Kdump service not installed. Please ensure package kexec-tools is installed."
 msgstr ""
+"Kdump hizmeti kurulu değil. Lütfen kexec-tools paketinin kurulu olduğundan "
+"emin olun."
 
 #: pkg/networkmanager/index.html:708
 msgid "Keep connection"
-msgstr ""
+msgstr "Bağlantıyı koru"
 
 #: pkg/lib/machine-auth-failed.html:10
 msgid "Kerberos Based SSO"
-msgstr ""
+msgstr "Kerberos Tabanlı SSO"
 
 #: pkg/lib/machine-change-auth.html:69
 msgid "Kerberos Ticket"
-msgstr ""
+msgstr "Kerberos Bileti"
 
 #: pkg/systemd/index.html:241 pkg/systemd/host.js:1602
 msgid "Kernel"
@@ -4229,47 +4282,47 @@ msgstr "Çekirdek Dökümü"
 
 #: pkg/kubernetes/views/node-body.html:19
 msgid "Kernel Version"
-msgstr ""
+msgstr "Çekirdek Sürümü"
 
 #: pkg/kubernetes/views/volume-body.html:67
 msgid "Key Ring Path"
-msgstr ""
+msgstr "Anahtarlık Yolu"
 
 #: pkg/storaged/crypto-keyslots.jsx:563
 msgid "Key slots with unknown types can not be edited here"
-msgstr ""
+msgstr "Bilinmeyen türlere sahip anahtar yuvaları burada düzenlenemiyor"
 
 #: pkg/storaged/crypto-keyslots.jsx:202
 msgid "Key source"
-msgstr ""
+msgstr "Anahtar kaynağı"
 
 #: pkg/storaged/crypto-keyslots.jsx:586
 msgid "Keys"
-msgstr ""
+msgstr "Anahtarlar"
 
 #: pkg/storaged/crypto-keyslots.jsx:557
 msgid "Keyserver"
-msgstr ""
+msgstr "Anahtar sunucusu"
 
 #: pkg/storaged/crypto-keyslots.jsx:222 pkg/storaged/crypto-keyslots.jsx:272
 msgid "Keyserver address"
-msgstr ""
+msgstr "Anahtar sunucusu adresi"
 
 #: pkg/storaged/crypto-keyslots.jsx:415
 msgid "Keyserver removal may prevent unlocking $0."
-msgstr ""
+msgstr "Anahtar sunucusu kaldırma, $0 kilidini açmayı engelleyebilir."
 
 #: pkg/kubernetes/views/node-body.html:23
 msgid "Kubelet Version"
-msgstr ""
+msgstr "Kubelet Sürümü"
 
 #: pkg/kubernetes/index.html:23
 msgid "Kubernetes Cluster"
-msgstr ""
+msgstr "Kubernetes Kümesi"
 
 #: pkg/networkmanager/index.html:377
 msgid "LACP Key"
-msgstr ""
+msgstr "LACP Anahtarı"
 
 #: pkg/kubernetes/views/route-body.html:22
 #: pkg/kubernetes/views/node-body.html:31
@@ -4279,27 +4332,27 @@ msgstr ""
 #: pkg/kubernetes/views/pod-body.html:26
 #: node_modules/registry-image-widgets/views/image-meta.html:3
 msgid "Labels"
-msgstr ""
+msgstr "Etiketler"
 
 #: pkg/lib/machine-info.js:72
 msgid "Laptop"
-msgstr ""
+msgstr "Dizüstü"
 
 #: pkg/systemd/logs.html:44
 msgid "Last 24 hours"
-msgstr ""
+msgstr "Son 24 saat"
 
 #: pkg/systemd/logs.html:45
 msgid "Last 7 days"
-msgstr ""
+msgstr "Son 7 gün"
 
 #: pkg/kubernetes/views/node-body.html:49
 msgid "Last Heartbeat"
-msgstr ""
+msgstr "Son Kalp Atışı"
 
 #: pkg/subscriptions/insights.jsx:247
 msgid "Last Insights data upload"
-msgstr ""
+msgstr "Son Insights veri yüklemesi"
 
 #: pkg/users/index.html:100
 msgid "Last Login"
@@ -4307,28 +4360,28 @@ msgstr "Son Oturum Açma"
 
 #: pkg/kubernetes/views/node-body.html:51
 msgid "Last Status Change"
-msgstr ""
+msgstr "Son Durum Değişikliği"
 
 #: pkg/systemd/init.js:284
 msgid "Last Trigger"
-msgstr ""
+msgstr "Son Tetikleme"
 
 #: node_modules/registry-image-widgets/views/image-listing.html:8
 msgid "Last Updated"
-msgstr ""
+msgstr "Son Güncelleme"
 
 #: pkg/packagekit/updates.jsx:177
 msgid "Last checked: $0 ago"
-msgstr ""
+msgstr "Son denetleme: $0 önce"
 
 #: pkg/kubernetes/views/details-page.html:107
 #: pkg/kubernetes/views/deploymentconfig-body.html:15
 msgid "Latest Version"
-msgstr ""
+msgstr "En Son Sürüm"
 
 #: pkg/machines/components/desktopConsole.jsx:128
 msgid "Launch Remote Viewer"
-msgstr ""
+msgstr "Remote Viewer'ı Başlat"
 
 #: pkg/realmd/operation.html:24 pkg/realmd/operation.html:28
 msgid "Leave Domain"
@@ -4340,6 +4393,9 @@ msgid ""
 "you enter a different username, that user will always be used when "
 "connecting to this machine."
 msgstr ""
+"Bu makineye şu anda oturum açmış kullanıcı olarak bağlanmak için boş "
+"bırakın. Farklı bir kullanıcı adı girerseniz, bu makineye bağlanırken her "
+"zaman o kullanıcı kullanılacaktır."
 
 #: pkg/lib/machine-change-auth.html:23
 msgid ""
@@ -4347,10 +4403,14 @@ msgid ""
 "user{{#default_user}} ({{default_user}}){{/default_user}}. If you enter a "
 "different username, that user will always be used connecting to this machine."
 msgstr ""
+"Bu makineye şu anda oturum açmış kullanıcı{{#default_user}} "
+"({{default_user}}){{/default_user}} olarak bağlanmak için boş bırakın. "
+"Farklı bir kullanıcı adı girerseniz, bu makineye bağlanırken her zaman o "
+"kullanıcı kullanılacaktır."
 
 #: pkg/shell/stub.html:73 pkg/shell/simple.html:66 pkg/shell/index.html:90
 msgid "Licensed under:"
-msgstr ""
+msgstr "Lisansı:"
 
 #: pkg/systemd/terminal.jsx:100
 msgid "Light"
@@ -4358,27 +4418,27 @@ msgstr "Aydınlık"
 
 #: pkg/networkmanager/index.html:294
 msgid "Link Monitoring"
-msgstr ""
+msgstr "Bağlantı İzleme"
 
 #: pkg/networkmanager/index.html:338
 msgid "Link Watch"
-msgstr ""
+msgstr "Bağlantı İzleme"
 
 #: pkg/networkmanager/index.html:311 pkg/networkmanager/index.html:355
 msgid "Link down delay"
-msgstr ""
+msgstr "Bağlantı devre dışı bırakma gecikmesi"
 
 #: pkg/networkmanager/interfaces.js:1957 pkg/networkmanager/interfaces.js:1967
 msgid "Link local"
-msgstr ""
+msgstr "Yerel bağlantı"
 
 #: pkg/docker/index.html:497
 msgid "Link to another container"
-msgstr ""
+msgstr "Başka bir konteynere bağla"
 
 #: pkg/networkmanager/index.html:307 pkg/networkmanager/index.html:351
 msgid "Link up delay"
-msgstr ""
+msgstr "Bağlantı etkinleştirme gecikmesi"
 
 #: pkg/docker/index.html:493
 msgid "Links"
@@ -4390,27 +4450,27 @@ msgstr "Bağlantılar:"
 
 #: pkg/networkmanager/interfaces.js:1993
 msgid "Load Balancing"
-msgstr ""
+msgstr "Yük Dengeleme"
 
 #: pkg/systemd/logs.js:138
 msgid "Load earlier entries"
-msgstr ""
+msgstr "Daha önceki girdileri yükle"
 
 #: pkg/machines/components/serialConsole.jsx:139
 msgid "Loading ..."
-msgstr ""
+msgstr "Yükleniyor..."
 
 #: pkg/packagekit/updates.jsx:46
 msgid "Loading available updates failed"
-msgstr ""
+msgstr "Kullanılabilir güncellemeler yüklenemedi"
 
 #: pkg/packagekit/updates.jsx:39
 msgid "Loading available updates, please wait..."
-msgstr ""
+msgstr "Kullanılabilir güncellemeler yükleniyor, lütfen bekleyin..."
 
 #: pkg/ovirt/components/VdsmView.jsx:34
 msgid "Loading data ..."
-msgstr ""
+msgstr "Veriler yükleniyor..."
 
 #: pkg/systemd/services.html:84 pkg/kdump/kdump-view.jsx:367
 #: pkg/storaged/devices.jsx:65 pkg/systemd/logs.js:144 pkg/systemd/logs.js:159
@@ -4420,11 +4480,11 @@ msgstr "Yükleniyor..."
 
 #: pkg/users/index.html:23
 msgid "Local Accounts"
-msgstr ""
+msgstr "Yerel Hesaplar"
 
 #: pkg/docker/storage.jsx:198
 msgid "Local Disks"
-msgstr ""
+msgstr "Yerel Diskler"
 
 #: pkg/kdump/kdump-view.jsx:136
 msgid "Local Filesystem"
@@ -4432,11 +4492,11 @@ msgstr "Yerel Dosya Sistemi"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:218
 msgid "Local Install Media"
-msgstr ""
+msgstr "Yerel Kurulum Ortamı"
 
 #: pkg/storaged/nfs-details.jsx:162
 msgid "Local Mount Point"
-msgstr ""
+msgstr "Yerel Bağlama Noktası"
 
 #: pkg/kdump/kdump-view.jsx:145
 msgid "Location"
@@ -4452,43 +4512,43 @@ msgstr "Hesabı Kilitle"
 
 #: pkg/users/local.js:879 pkg/users/local.js:1218
 msgid "Lock account on $0"
-msgstr ""
+msgstr "$0 üzerinde hesabı kilitle"
 
 #: pkg/storaged/jobs-panel.jsx:38
 msgid "Locking $target"
-msgstr ""
+msgstr "$target kilitleniyor"
 
 #: pkg/lib/machine-change-auth.html:81 src/ws/login.html:85 src/ws/login.js:490
 msgid "Log In"
-msgstr ""
+msgstr "Oturum Aç"
 
 #: pkg/shell/stub.html:53 pkg/shell/simple.html:46 pkg/shell/index.html:70
 msgid "Log Out"
-msgstr ""
+msgstr "Oturumu Kapat"
 
 #: pkg/shell/simple.html:108
 msgid "Log in again"
-msgstr ""
+msgstr "Tekrar oturum aç"
 
 #: pkg/lib/machine-change-auth.html:4
 msgid "Log in to {{host}}"
-msgstr ""
+msgstr "{{host}} üzerinde oturum aç"
 
 #: src/ws/login.js:515
 msgid "Log in with your server user account."
-msgstr ""
+msgstr "Sunucu kullanıcı hesabınızla oturum açın."
 
 #: pkg/kubernetes/views/registry-dashboard-page.html:116
 msgid "Log into OpenShift command line tools:"
-msgstr ""
+msgstr "OpenShift komut satırı araçlarında oturum aç:"
 
 #: pkg/kubernetes/views/registry-dashboard-page.html:101
 msgid "Log into the registry:"
-msgstr ""
+msgstr "Kayıt defterinde oturum aç:"
 
 #: pkg/systemd/index.html:65
 msgid "Log messages"
-msgstr ""
+msgstr "Günlük kaydı mesajları"
 
 #: pkg/users/local.js:961
 msgid "Logged In"
@@ -4496,17 +4556,17 @@ msgstr "Oturum Açıldı"
 
 #: pkg/storaged/vdo-details.jsx:289
 msgid "Logical"
-msgstr ""
+msgstr "Mantıksal"
 
 #: pkg/storaged/vdo-details.jsx:220 pkg/storaged/vdos-panel.jsx:63
 msgid "Logical Size"
-msgstr ""
+msgstr "Mantıksal Boyut"
 
 #: pkg/kubernetes/views/volume-body.html:79
 #: pkg/kubernetes/views/volume-body.html:118
 #: pkg/kubernetes/views/pv-modify.html:159
 msgid "Logical Unit Number"
-msgstr ""
+msgstr "Mantıksal Birim Numarası"
 
 #: pkg/storaged/utils.js:197
 msgid "Logical Volume"
@@ -4514,47 +4574,49 @@ msgstr "Mantıksal Birim"
 
 #: pkg/storaged/utils.js:195
 msgid "Logical Volume (Snapshot)"
-msgstr ""
+msgstr "Mantıksal Birim (Anlık Görüntü)"
 
 #: pkg/storaged/utils.js:269
 msgid "Logical Volume of $0"
-msgstr ""
+msgstr "$0'ın Mantıksal Birimi"
 
 #: pkg/subscriptions/subscriptions-register.jsx:172
 msgid "Login"
-msgstr ""
+msgstr "Oturum Aç"
 
 #: src/ws/login.js:300
 msgid "Login Again"
-msgstr ""
+msgstr "Tekrar Oturum Aç"
 
 #: pkg/realmd/operation.html:14
 msgid "Login Format"
-msgstr ""
+msgstr "Oturum Açma Biçimi"
 
 #: pkg/lib/machine-change-auth.html:68
 msgid "Login Password"
-msgstr ""
+msgstr "Oturum Açma Parolası"
 
 #: pkg/kubernetes/views/registry-dashboard-page.html:96
 msgid "Login commands"
-msgstr ""
+msgstr "Oturum açma komutları"
 
 #: src/base1/cockpit.js:4015
 msgid "Login failed"
-msgstr ""
+msgstr "Oturum açılamadı"
 
 #: pkg/shell/index.html:36
 msgid "Login has escalated admin privileges"
-msgstr ""
+msgstr "Oturum, artırılmış yönetici ayrıcalıklarına sahip"
 
 #: pkg/subscriptions/subscriptions-client.js:199
 msgid "Login/password or activation key required to register."
 msgstr ""
+"Kaydolmak için oturum açma bilgisi/parola veya etkinleştirme anahtarı "
+"gerekmektedir."
 
 #: src/ws/login.js:301
 msgid "Logout Successful"
-msgstr ""
+msgstr "Oturum Kapatıldı"
 
 #: pkg/kubernetes/views/container-panel.html:6
 #: pkg/kubernetes/views/container-page-inline.html:8 pkg/systemd/logs.html:82
@@ -4567,11 +4629,11 @@ msgstr "Bağlantı kesildi. Yeniden bağlanmaya çalışılıyor"
 
 #: pkg/lib/machine-info.js:67
 msgid "Low Profile Desktop"
-msgstr ""
+msgstr "Düşük Profilli Masaüstü"
 
 #: pkg/lib/machine-info.js:79
 msgid "Lunch Box"
-msgstr ""
+msgstr "Lunch Box"
 
 #: pkg/networkmanager/index.html:192 pkg/networkmanager/index.html:271
 msgid "MAC"
@@ -7896,7 +7958,7 @@ msgstr ""
 
 #: pkg/subscriptions/subscriptions-view.jsx:39
 msgid "Starts"
-msgstr ""
+msgstr "Başlangıç"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:284
 msgid "Startup"
