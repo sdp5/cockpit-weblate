@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-06-24 14:40+0000\n"
+"PO-Revision-Date: 2020-09-26 20:29+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/es/>\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -128,23 +128,23 @@ msgstr "$0 falló"
 
 #: pkg/storaged/lvol-tabs.jsx:159
 msgid "$0 filesystems can not be made larger."
-msgstr "$0 los sistemas de archivos no se pueden hacer más grandes."
+msgstr "$0 sistemas de archivos no se pueden agrandar."
 
 #: pkg/storaged/lvol-tabs.jsx:156
 msgid "$0 filesystems can not be made smaller."
-msgstr "$0 los sistemas de archivos no se pueden hacer más pequeños."
+msgstr "$0 sistemas de archivos no se pueden reducir."
 
 #: pkg/storaged/lvol-tabs.jsx:152
 msgid "$0 filesystems can not be resized here."
-msgstr "$0 a los sistemas de archivos no se les puede cambiar el tamaño aquí."
+msgstr "$0 sistemas de archivos no se pueden redimensionar aquí."
 
 #: pkg/machines/components/desktopConsole.jsx:44
 msgid ""
 "$0 is available for most operating systems. To install it, search for it in "
 "GNOME Software or run the following:"
 msgstr ""
-"$0 está disponible para muchos sistemas operativos. Para instalarlo, búscalo "
-"en \"GNOME Software\" o ejecuta el siguiente comando:"
+"$0 está disponible en la mayoría de los sistemas operativos. Para "
+"instalarlo, búsquelo en Software de GNOME o ejecute la orden siguiente:"
 
 #: pkg/storaged/format-dialog.jsx:259 pkg/storaged/vdo-details.jsx:146
 #: pkg/storaged/vdo-details.jsx:175 pkg/storaged/vgroup-details.jsx:203
@@ -152,7 +152,7 @@ msgstr ""
 #: pkg/storaged/lvol-tabs.jsx:200 pkg/storaged/lvol-tabs.jsx:259
 #: pkg/storaged/content-views.jsx:283 pkg/storaged/content-views.jsx:505
 msgid "$0 is in active use"
-msgstr "$0 se está utilizando"
+msgstr "$0 está en uso activo"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:150
 msgid "$0 is not available from any repository."
@@ -1091,7 +1091,7 @@ msgstr "Falló la autenticación: Se ha cerrado la conexión con el servidor"
 
 #: src/ws/login.js:657
 msgid "Authentication failed"
-msgstr "Autenticación Fallida"
+msgstr "Falló la autenticación"
 
 #: org.cockpit-project.cockpit-bridge.policy.in.h:2
 msgid ""
@@ -1103,7 +1103,7 @@ msgstr ""
 
 #: pkg/storaged/iscsi-panel.jsx:147
 msgid "Authentication required"
-msgstr "Autentificación requerida"
+msgstr "Se necesita autenticación."
 
 #: pkg/docker/index.html:700
 #: node_modules/registry-image-widgets/views/image-body.html:12
@@ -1158,7 +1158,7 @@ msgstr "Utilizando automáticamente servidores NTP específicos"
 #: pkg/machines/components/networks/networkOverviewTab.jsx:86
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:166
 msgid "Autostart"
-msgstr "Autoinicio"
+msgstr "Inicio automático"
 
 #: pkg/lib/machine-change-auth.html:66
 #: pkg/machines/components/vm/vmUsageTab.jsx:65
@@ -1208,7 +1208,7 @@ msgstr "Datos inválidos pasados por el mecanismo passwd1"
 
 #: pkg/networkmanager/index.html:333
 msgid "Balancer"
-msgstr "Balanceador"
+msgstr "Equilibrador"
 
 #: pkg/ovirt/components/ClusterTemplates.jsx:135
 msgid "Base Template"
@@ -1370,11 +1370,11 @@ msgstr "Fallo en la acción CREATE VM"
 #: pkg/machines/components/vmDiskColumns.jsx:75
 #: pkg/machines/components/diskAdd.jsx:246
 msgid "Cache"
-msgstr "Caché"
+msgstr "Antememoria"
 
 #: pkg/systemd/index.html:259 pkg/systemd/host.js:1695
 msgid "Cached"
-msgstr "Cacheado"
+msgstr "Prealmacenado"
 
 #: pkg/docker/index.html:63
 msgid "Can&rsquo;t connect to Docker"
@@ -1463,7 +1463,7 @@ msgstr "No se puede descifrar llave privada cifrada con PEM"
 
 #: src/base1/cockpit.js:4031
 msgid "Cannot forward login credentials"
-msgstr "No se pueden re-enviar las credenciales de acceso"
+msgstr "No se pueden transferir los datos de acceso"
 
 #: pkg/systemd/shutdown.js:164
 msgid "Cannot schedule event in the past"
@@ -8923,11 +8923,11 @@ msgstr "Este sistema no está registrado"
 
 #: pkg/tuned/dialog.js:103
 msgid "This system is using a custom profile"
-msgstr "El sistema esta usando un perfil personalizado"
+msgstr "El sistema utiliza un perfil personalizado"
 
 #: pkg/tuned/dialog.js:101
 msgid "This system is using the recommended profile"
-msgstr "El sistema esta usando el perfil recomendado"
+msgstr "El sistema utiliza el perfil recomendado"
 
 #: pkg/sosreport/index.html:34
 msgid ""
@@ -8954,12 +8954,12 @@ msgid ""
 "This version of cockpit-ws does not support connecting to a host with an "
 "alternate user or port"
 msgstr ""
-"Esta versión de cockpit-ws no soporta conexiones a un servidor con un "
+"Esta versión de cockpit-ws no admite conexiones con un servidor mediante un "
 "usuario o puerto alterno"
 
 #: pkg/ovirt/components/OVirtTab.jsx:134
 msgid "This virtual machine is not managed by oVirt"
-msgstr "Esta máquina virtual no está gestionada por oVirt"
+msgstr "oVirt no gestiona esta máquina virtual"
 
 #: pkg/kubernetes/views/pv-delete.html:7
 msgid ""
@@ -8973,11 +8973,11 @@ msgstr ""
 
 #: pkg/kubernetes/views/pv-claim.html:23
 msgid "This volume has not been claimed"
-msgstr "Este volumen ni ha sido reclamado"
+msgstr "No se ha reivindicado este volumen"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:369
 msgid "This volume is already used by another VM."
-msgstr "Este volumen está utilizándose por otra MV."
+msgstr "Otra MV ya utiliza este volumen."
 
 #: pkg/storaged/lvol-tabs.jsx:186
 msgid "This volume needs to be activated before it can be resized."
@@ -9022,7 +9022,7 @@ msgstr "Los jueves"
 
 #: pkg/systemd/index.html:371
 msgid "Time Zone"
-msgstr "Zona horaria"
+msgstr "Huso horario"
 
 #: pkg/systemd/services.html:59
 msgid "Timers"
