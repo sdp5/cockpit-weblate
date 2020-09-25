@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-06-24 14:40+0000\n"
+"PO-Revision-Date: 2020-09-26 20:29+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/es/>\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -153,15 +153,15 @@ msgstr "$0 falló"
 
 #: pkg/storaged/lvol-tabs.jsx:161
 msgid "$0 filesystems can not be made larger."
-msgstr "$0 los sistemas de archivos no se pueden hacer más grandes."
+msgstr "$0 sistemas de archivos no se pueden agrandar."
 
 #: pkg/storaged/lvol-tabs.jsx:158
 msgid "$0 filesystems can not be made smaller."
-msgstr "$0 los sistemas de archivos no se pueden hacer más pequeños."
+msgstr "$0 sistemas de archivos no se pueden reducir."
 
 #: pkg/storaged/lvol-tabs.jsx:154
 msgid "$0 filesystems can not be resized here."
-msgstr "$0 a los sistemas de archivos no se les puede cambiar el tamaño aquí."
+msgstr "$0 sistemas de archivos no se pueden redimensionar aquí."
 
 #: pkg/lib/plot.js:974
 msgid "$0 hour"
@@ -174,8 +174,8 @@ msgid ""
 "$0 is available for most operating systems. To install it, search for it in "
 "GNOME Software or run the following:"
 msgstr ""
-"$0 está disponible para muchos sistemas operativos. Para instalarlo, búscalo "
-"en \"GNOME Software\" o ejecuta el siguiente comando:"
+"$0 está disponible en la mayoría de los sistemas operativos. Para "
+"instalarlo, búsquelo en Software de GNOME o ejecute la orden siguiente:"
 
 #: pkg/storaged/content-views.jsx:298 pkg/storaged/content-views.jsx:538
 #: pkg/storaged/format-dialog.jsx:164 pkg/storaged/lvol-tabs.jsx:203
@@ -183,7 +183,7 @@ msgstr ""
 #: pkg/storaged/mdraid-details.jsx:282 pkg/storaged/vdo-details.jsx:128
 #: pkg/storaged/vdo-details.jsx:159 pkg/storaged/vgroup-details.jsx:199
 msgid "$0 is in active use"
-msgstr "$0 se está utilizando"
+msgstr "$0 está en uso activo"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId:
 # cockpit
@@ -220,8 +220,8 @@ msgstr "$0 de $1"
 #: pkg/systemd/init.js:424
 msgid "$0 service has failed"
 msgid_plural "$0 services have failed"
-msgstr[0] "El servicio $0 ha fallado"
-msgstr[1] "Los servicios $0 han fallado"
+msgstr[0] "Falló $0 servicio"
+msgstr[1] "Fallaron $0 servicios"
 
 #: pkg/docker/util.js:125
 msgid "$0 shares"
@@ -1016,7 +1016,7 @@ msgstr "Falló la autenticación: Se ha cerrado la conexión con el servidor"
 
 #: src/ws/login.js:685
 msgid "Authentication failed"
-msgstr "Autenticación Fallida"
+msgstr "Falló la autenticación"
 
 #: src/bridge/org.cockpit-project.cockpit-bridge.policy.in:11
 msgid ""
@@ -1028,7 +1028,7 @@ msgstr ""
 
 #: pkg/storaged/iscsi-panel.jsx:153
 msgid "Authentication required"
-msgstr "Autentificación requerida"
+msgstr "Se necesita autenticación."
 
 #: pkg/docker/index.html:702 pkg/docker/containers-view.jsx:413
 msgid "Author"
@@ -1087,7 +1087,7 @@ msgstr "Script de automatización"
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:70
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:166
 msgid "Autostart"
-msgstr "Autoinicio"
+msgstr "Inicio automático"
 
 #: pkg/lib/machine-change-auth.html:66
 #: pkg/machines/components/vm/vmUsageTab.jsx:65
@@ -1133,7 +1133,7 @@ msgstr "Datos inválidos pasados por el mecanismo passwd1"
 
 #: pkg/networkmanager/index.html:340
 msgid "Balancer"
-msgstr "Balanceador"
+msgstr "Equilibrador"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId:
 # cockpit
@@ -1276,16 +1276,16 @@ msgstr "Uso de CPU:"
 #: pkg/machines/components/diskAdd.jsx:164
 #: pkg/machines/components/vmDiskColumns.jsx:75
 msgid "Cache"
-msgstr "Caché"
+msgstr "Antememoria"
 
 #: pkg/systemd/graphs.html:161 pkg/systemd/graphs.js:392
 msgid "Cached"
-msgstr "Cacheado"
+msgstr "Prealmacenado"
 
 #: pkg/systemd/logs.js:181 pkg/systemd/logs.js:345
 msgid "Can not find any logs using the current combination of filters."
 msgstr ""
-"No se pudo encontrar ningún registro utilizando la combinación de filtros "
+"No se pudo encontrar ningún registro mediante la combinación de filtros "
 "actuales."
 
 #: pkg/docker/index.html:63
@@ -1342,7 +1342,7 @@ msgstr "No se puede conectar a una máquina desconocida"
 
 #: src/base1/cockpit.js:4048
 msgid "Cannot forward login credentials"
-msgstr "No se pueden re-enviar las credenciales de acceso"
+msgstr "No se pueden transferir los datos de acceso"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:628
 msgid "Cannot join a domain because realmd is not available on this system"
@@ -7588,11 +7588,11 @@ msgstr "Este sistema no está registrado"
 
 #: pkg/tuned/dialog.js:103
 msgid "This system is using a custom profile"
-msgstr "El sistema esta usando un perfil personalizado"
+msgstr "El sistema utiliza un perfil personalizado"
 
 #: pkg/tuned/dialog.js:101
 msgid "This system is using the recommended profile"
-msgstr "El sistema esta usando el perfil recomendado"
+msgstr "El sistema utiliza el perfil recomendado"
 
 #: pkg/sosreport/index.html:34
 msgid ""
@@ -7615,16 +7615,16 @@ msgid ""
 "This version of cockpit-ws does not support connecting to a host with an "
 "alternate user or port"
 msgstr ""
-"Esta versión de cockpit-ws no soporta conexiones a un servidor con un "
+"Esta versión de cockpit-ws no admite conexiones con un servidor mediante un "
 "usuario o puerto alterno"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:463
 msgid "This volume is already used by another VM."
-msgstr "Este volumen está utilizándose por otra MV."
+msgstr "Otra MV ya utiliza este volumen."
 
 #: pkg/machines/components/diskAdd.jsx:240
 msgid "This volume is already used by: "
-msgstr "Este volumen está utilizándose por: "
+msgstr "Este volumen ya lo utiliza: "
 
 #: pkg/storaged/lvol-tabs.jsx:188
 msgid "This volume needs to be activated before it can be resized."
@@ -7675,7 +7675,7 @@ msgstr "Los jueves"
 
 #: pkg/systemd/index.html:83
 msgid "Time Zone"
-msgstr "Zona horaria"
+msgstr "Huso horario"
 
 #: pkg/systemd/services.jsx:52
 msgid "Timers"
