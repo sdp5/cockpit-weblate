@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-08-22 08:29+0000\n"
+"PO-Revision-Date: 2020-09-29 10:27+0000\n"
 "Last-Translator: Roberto Bellingeri <bellingeri@netguru.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/it/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.1\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -5276,7 +5276,6 @@ msgid "Pause"
 msgstr "Pausa"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:407
-#, fuzzy
 msgid "Performance profile"
 msgstr "Profilo delle prestazioni"
 
@@ -5662,7 +5661,7 @@ msgstr "L'intervallo deve essere rigorosamente ordinato"
 
 #: pkg/systemd/hwinfo.jsx:271
 msgid "Rank"
-msgstr ""
+msgstr "Posizione"
 
 #: pkg/kdump/kdump-view.jsx:391
 msgid "Raw to a device"
@@ -6549,7 +6548,7 @@ msgstr "Socket"
 
 #: pkg/packagekit/index.html:23 pkg/packagekit/manifest.json.in
 msgid "Software Updates"
-msgstr "Aggiornamenti software"
+msgstr "Aggiornamenti Software"
 
 #: pkg/systemd/hwinfo.jsx:212
 msgid ""
@@ -8260,7 +8259,7 @@ msgstr "Visualizza rapporto"
 #: pkg/machines/components/storagePools/storagePoolList.jsx:46
 #: pkg/machines/hostvmslist.jsx:73 pkg/machines/manifest.json.in
 msgid "Virtual Machines"
-msgstr "Server Virtuali"
+msgstr "Macchine Virtuali"
 
 #: pkg/machines/index.html:4
 msgid "Virtual Machines Management"
