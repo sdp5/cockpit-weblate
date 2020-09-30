@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-08-22 08:29+0000\n"
+"PO-Revision-Date: 2020-10-01 01:16+0000\n"
 "Last-Translator: Roberto Bellingeri <bellingeri@netguru.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/it/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.1\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: pkg/machines/components/diskAdd.jsx:234
 msgid " Attaching it will make this disk shareable for every VM using it."
@@ -92,8 +92,8 @@ msgstr[1] "$0 byte"
 #: pkg/systemd/overview-cards/insights.jsx:155
 msgid "$0 critical hit"
 msgid_plural "$0 hits, including critical"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 risultato critico"
+msgstr[1] "$0 risultati, inclusi critici"
 
 #: pkg/storaged/vdo-details.jsx:279
 msgid "$0 data + $1 overhead used of $2 ($3)"
@@ -169,8 +169,8 @@ msgstr[1] "$0 ore"
 #: pkg/systemd/overview-cards/insights.jsx:160
 msgid "$0 important hit"
 msgid_plural "$0 hits, including important"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 risultato importante"
+msgstr[1] "$0 risultati, inclusi importanti"
 
 #: pkg/machines/components/desktopConsole.jsx:56
 msgid ""
@@ -199,8 +199,8 @@ msgstr "$0 ucciso con il segnale $1"
 #: pkg/systemd/overview-cards/insights.jsx:170
 msgid "$0 low severity hit"
 msgid_plural "$0 low severity hits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 risultato severo"
+msgstr[1] "$0 risultati, inclusi severi"
 
 #: pkg/lib/plot.js:977
 msgid "$0 minute"
@@ -209,13 +209,10 @@ msgstr[0] "$0 minuto"
 msgstr[1] "$0 minuti"
 
 #: pkg/systemd/overview-cards/insights.jsx:165
-#, fuzzy
-#| msgid "$0 month"
-#| msgid_plural "$0 months"
 msgid "$0 moderate hit"
 msgid_plural "$0 hits, including moderate"
-msgstr[0] "$0 mese"
-msgstr[1] "$0 mesi"
+msgstr[0] "$0 risultato moderato"
+msgstr[1] "$0 risultati, inclusi moderati"
 
 #: pkg/lib/plot.js:965
 msgid "$0 month"
@@ -1027,10 +1024,8 @@ msgid "Audit log"
 msgstr "Log audit"
 
 #: pkg/shell/superuser.jsx:91
-#, fuzzy
-#| msgid "Authenticating"
 msgid "Authenticate"
-msgstr "Autenticazione"
+msgstr "Autenticare"
 
 #: pkg/networkmanager/interfaces.js:828
 msgid "Authenticating"
@@ -5057,7 +5052,7 @@ msgstr ""
 
 #: pkg/systemd/overview-cards/insights.jsx:143
 msgid "No rule hits"
-msgstr ""
+msgstr "Nessuna regola trovata"
 
 #: pkg/docker/containers-view.jsx:371
 msgid "No running containers"
@@ -5507,7 +5502,6 @@ msgid "Pause"
 msgstr "Pausa"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:295
-#, fuzzy
 msgid "Performance profile"
 msgstr "Profilo delle prestazioni"
 
@@ -5912,7 +5906,7 @@ msgstr "L'intervallo deve essere rigorosamente ordinato"
 
 #: pkg/systemd/hwinfo.jsx:273
 msgid "Rank"
-msgstr ""
+msgstr "Posizione"
 
 #: pkg/kdump/kdump-view.jsx:391
 msgid "Raw to a device"
@@ -6825,7 +6819,7 @@ msgstr "Socket"
 
 #: pkg/packagekit/index.html:23 pkg/packagekit/manifest.json.in
 msgid "Software Updates"
-msgstr "Aggiornamenti software"
+msgstr "Aggiornamenti Software"
 
 #: pkg/systemd/hwinfo.jsx:213
 msgid ""
@@ -7246,7 +7240,7 @@ msgstr "Servizi di sistema"
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:105
 msgid "System information"
-msgstr ""
+msgstr "Informazioni di sistema"
 
 # ctx::sourcefile::/systems/SystemEntitlements
 #: pkg/packagekit/updates.jsx:941 pkg/packagekit/updates.jsx:951
@@ -8562,7 +8556,7 @@ msgstr "Visualizza rapporto"
 #: pkg/machines/components/networks/networkList.jsx:47
 #: pkg/machines/hostvmslist.jsx:92 pkg/machines/manifest.json.in
 msgid "Virtual Machines"
-msgstr "Server Virtuali"
+msgstr "Macchine Virtuali"
 
 #: pkg/machines/index.html:4
 msgid "Virtual Machines Management"
