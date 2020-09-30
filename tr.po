@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 10:09+0200\n"
-"PO-Revision-Date: 2020-09-26 20:29+0000\n"
-"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"PO-Revision-Date: 2020-10-01 01:17+0000\n"
+"Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/tr/>\n"
 "Language: tr\n"
@@ -821,7 +821,7 @@ msgstr "Aşağıdaki bölgelere bağlantı noktaları ekle:"
 
 #: pkg/users/index.html:406
 msgid "Add public key"
-msgstr "Genel anahtar ekle"
+msgstr "Ortak anahtar ekle"
 
 #: pkg/networkmanager/firewall.jsx:458
 msgid "Add services to following zones:"
@@ -836,8 +836,8 @@ msgid ""
 "Adding <b>$0</b> will break the connection to the server, and will make the "
 "administration UI unavailable."
 msgstr ""
-"<b>$0</b> eklenmesi sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"<b>$0</b> eklenmesi sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/firewall.jsx:558
 msgid ""
@@ -1086,7 +1086,7 @@ msgstr "Güncellemeler uygulanıyor"
 
 #: pkg/packagekit/updates.jsx:45
 msgid "Applying updates failed"
-msgstr "Güncellemeler uygulanamadı"
+msgstr "Güncellemeleri uygulama başarısız oldu"
 
 #: node_modules/registry-image-widgets/views/image-config.html:16
 #: pkg/subscriptions/subscriptions-view.jsx:37
@@ -1604,8 +1604,8 @@ msgid ""
 "Changing the settings will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"Ayarların değiştirilmesi sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"Ayarların değiştirilmesi sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/packagekit/updates.jsx:175
 msgid "Check for Updates"
@@ -2403,32 +2403,32 @@ msgid ""
 "Creating this VLAN will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"Bu VLAN'ı oluşturmak sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"Bu VLAN'ı oluşturmak sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/interfaces.js:3821
 msgid ""
 "Creating this bond will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"Bu birleştirmeyi (bond) oluşturmak sunucuyla bağlantıyı kesecek ve yönetici "
-"arayüzünü kullanılamaz hale getirecektir."
+"Bu birleştirmeyi (bond) oluşturmak sunucuyla bağlantıyı kesecek ve yönetim "
+"kullanıcı arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/interfaces.js:4274
 msgid ""
 "Creating this bridge will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"Bu köprüyü oluşturmak sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"Bu köprüyü oluşturmak sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/interfaces.js:4020
 msgid ""
 "Creating this team will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"Bu takımı oluşturmak sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"Bu takımı oluşturmak sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/storaged/jobs-panel.jsx:71
 msgid "Creating volume group $target"
@@ -2646,8 +2646,8 @@ msgid ""
 "Deleting <b>$0</b> will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"<b>$0</b> silinmesi sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"<b>$0</b> silinmesi sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/kubernetes/views/item-delete.html:7
 msgid ""
@@ -4462,11 +4462,11 @@ msgstr "Yükleniyor..."
 
 #: pkg/packagekit/updates.jsx:46
 msgid "Loading available updates failed"
-msgstr "Kullanılabilir güncellemeler yüklenemedi"
+msgstr "Mevcut güncellemeleri yükleme başarısız oldu"
 
 #: pkg/packagekit/updates.jsx:39
 msgid "Loading available updates, please wait..."
-msgstr "Kullanılabilir güncellemeler yükleniyor, lütfen bekleyin..."
+msgstr "Mevcut güncellemeler yükleniyor, lütfen bekleyin..."
 
 #: pkg/ovirt/components/VdsmView.jsx:34
 msgid "Loading data ..."
@@ -4621,11 +4621,11 @@ msgstr "Oturum Kapatıldı"
 #: pkg/kubernetes/views/container-panel.html:6
 #: pkg/kubernetes/views/container-page-inline.html:8 pkg/systemd/logs.html:82
 msgid "Logs"
-msgstr "Günlük kayıtları"
+msgstr "Günlükler"
 
 #: pkg/dashboard/index.html:112
 msgid "Lost connection. Trying to reconnect"
-msgstr "Bağlantı kesildi. Yeniden bağlanmaya çalışılıyor"
+msgstr "Bağlantı kayboldu. Yeniden bağlanmaya çalışılıyor"
 
 #: pkg/lib/machine-info.js:67
 msgid "Low Profile Desktop"
@@ -6008,7 +6008,7 @@ msgstr "Yapıştır"
 
 #: pkg/users/index.html:409
 msgid "Paste the contents of your public SSH key file here"
-msgstr "Genel SSH anahtar dosyanızın içeriğini buraya yapıştırın"
+msgstr "Ortak SSH anahtar dosyanızın içeriğini buraya yapıştırın"
 
 #: pkg/kubernetes/views/volume-body.html:37
 #: pkg/kubernetes/views/volume-body.html:49
@@ -6843,7 +6843,7 @@ msgstr "Geri Alma Politikası"
 
 #: pkg/storaged/format-dialog.jsx:248
 msgid "Recommended default"
-msgstr "Öntanımlı tavsiye edilen"
+msgstr "Varsayılan önerilen"
 
 #: pkg/kubernetes/registry.html:75 pkg/kubernetes/index.html:108
 #: pkg/shell/stub.html:180 pkg/shell/simple.html:138 pkg/shell/index.html:386
@@ -7032,8 +7032,8 @@ msgid ""
 "Removing <b>$0</b> will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"<b>$0</b> kaldırılması sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"<b>$0</b> kaldırılması sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/storaged/jobs-panel.jsx:74
 msgid "Removing physical volume from $target"
@@ -8254,24 +8254,24 @@ msgid ""
 "Switching off <b>$0</b>  will break the connection to the server, and will "
 "make the administration UI unavailable."
 msgstr ""
-"<b>$0</b> kapatılması sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"<b>$0</b> kapatılması sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/interfaces.js:3038
 msgid ""
 "Switching off <b>$0</b> will break the connection to the server, and will "
 "make the administration UI unavailable."
 msgstr ""
-"<b>$0</b> kapatılması sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"<b>$0</b> kapatılması sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/interfaces.js:2466 pkg/networkmanager/interfaces.js:3026
 msgid ""
 "Switching on <b>$0</b> will break the connection to the server, and will "
 "make the administration UI unavailable."
 msgstr ""
-"<b>$0</b> açılması sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"<b>$0</b> açılması sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/kubernetes/scripts/images.js:634
 msgid "Sync all tags from a remote image repository"
@@ -8823,7 +8823,7 @@ msgstr ""
 
 #: pkg/users/index.html:387
 msgid "There are no authorized public keys for this account."
-msgstr "Bu hesap için yetkilendirilmiş genel anahtar yok."
+msgstr "Bu hesap için yetkilendirilmiş ortak anahtarlar yok."
 
 #: pkg/storaged/vgroup-details.jsx:102
 msgid ""
@@ -9027,7 +9027,7 @@ msgstr "Bu web tarayıcısı, Cockpit'i çalıştırmak için çok eski ($0 eksi
 
 #: pkg/packagekit/updates.jsx:832
 msgid "This web console will be updated."
-msgstr "Bu web konsolu güncellenecek."
+msgstr "Bu web konsolu güncellenecektir."
 
 #: pkg/kdump/kdump-view.jsx:296
 msgid ""
@@ -9077,8 +9077,8 @@ msgid ""
 "To get software updates, this system needs to be registered with Red Hat, "
 "either using the Red Hat Customer Portal or a local subscription server."
 msgstr ""
-"Yazılım güncellemelerini almak için, bu sistemin Red Hat Müşteri Portalı "
-"veya yerel bir abonelik sunucusu kullanılarak Red Hat'e kaydedilmesi "
+"Yazılım güncellemelerini almak için bu sistemin Red Hat Müşteri Portalı veya "
+"yerel bir abonelik sunucusu kullanılarak Red Hat'e kaydedilmesi "
 "gerekmektedir."
 
 #: node_modules/registry-image-widgets/views/image-pull.html:4
@@ -9579,7 +9579,7 @@ msgstr "Kullanıcı veya Grup"
 #: pkg/kubernetes/views/auth-form.html:94 pkg/storaged/iscsi-panel.jsx:46
 #: pkg/storaged/iscsi-panel.jsx:149
 msgid "Username"
-msgstr "Kullanıcı Adı"
+msgstr "Kullanıcı adı"
 
 #: pkg/kubernetes/views/project-listing.html:85
 msgid "Users"
@@ -9951,7 +9951,7 @@ msgid ""
 "You do not have permission to view the authorized public keys for this "
 "account."
 msgstr ""
-"Bu hesap için yetkilendirilmiş genel anahtarları görüntüleme izniniz yok."
+"Bu hesap için yetkilendirilmiş ortak anahtarları görüntüleme izniniz yok."
 
 #: pkg/docker/storage.jsx:504
 msgid "You don't have permission to manage the Docker storage pool."
