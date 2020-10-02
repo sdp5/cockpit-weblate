@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-09-26 20:29+0000\n"
-"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"PO-Revision-Date: 2020-10-03 11:30+0000\n"
+"Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/tr/>\n"
 "Language: tr\n"
@@ -102,7 +102,7 @@ msgstr[1] "$0 bayt"
 
 #: pkg/storaged/vdo-details.jsx:279
 msgid "$0 data + $1 overhead used of $2 ($3)"
-msgstr "kullanılan: $0 veri + $1 ekstra, toplam mevcut alan: $2 ($3)"
+msgstr "$0 veri + $1 ek yük kullanıldı, toplam $2 ($3)"
 
 #: pkg/lib/plot.js:971
 msgid "$0 day"
@@ -162,7 +162,7 @@ msgid ""
 "$0 is available for most operating systems. To install it, search for it in "
 "GNOME Software or run the following:"
 msgstr ""
-"$0, çoğu işletim sisteminde kullanılabilir. Kurmak için GNOME Yazılımlar'da "
+"$0, çoğu işletim sisteminde kullanılabilir. Yüklemek için GNOME Yazılımı'nda "
 "arayın veya aşağıdaki komutu çalıştırın:"
 
 #: pkg/storaged/content-views.jsx:298 pkg/storaged/content-views.jsx:538
@@ -235,7 +235,7 @@ msgstr[1] "$0 hafta"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:108
 msgid "$0 will be installed."
-msgstr "$0 kurulacak."
+msgstr "$0 yüklenecektir."
 
 #: pkg/lib/plot.js:962
 msgid "$0 year"
@@ -526,7 +526,7 @@ msgid ""
 "A compatible version of Cockpit is not installed on {{#strong}}{{host}}{{/"
 "strong}}."
 msgstr ""
-"{{#strong}}{{host}}{{/strong}} üzerinde uyumlu bir Cockpit sürümü kurulu "
+"{{#strong}}{{host}}{{/strong}} üzerinde uyumlu bir Cockpit sürümü yüklü "
 "değil."
 
 #: pkg/storaged/vdos-panel.jsx:95
@@ -696,7 +696,7 @@ msgstr "Takım Ekle"
 
 #: pkg/networkmanager/index.html:119
 msgid "Add VLAN"
-msgstr "VLAN Ekle"
+msgstr "VLAN ekle"
 
 #: pkg/machines/components/nicAdd.jsx:191
 msgid "Add Virtual Network Interface"
@@ -725,15 +725,15 @@ msgstr "$0 bölgesine bağlantı noktaları ekle"
 
 #: pkg/users/index.html:406
 msgid "Add public key"
-msgstr "Genel anahtar ekle"
+msgstr "Ortak anahtar ekle"
 
 #: pkg/networkmanager/firewall.jsx:496
 msgid "Add services to $0 zone"
-msgstr "$0 bölgesine hizmetler ekle"
+msgstr "$0 bölgesine hizmetleri ekle"
 
 #: pkg/networkmanager/firewall.jsx:151
 msgid "Add services to zone $0"
-msgstr "$0 bölgesine hizmetler ekle"
+msgstr "$0 bölgesine hizmetleri ekle"
 
 #: pkg/networkmanager/firewall.jsx:746
 msgid "Add zone"
@@ -744,8 +744,8 @@ msgid ""
 "Adding <b>$0</b> will break the connection to the server, and will make the "
 "administration UI unavailable."
 msgstr ""
-"<b>$0</b> eklenmesi sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"<b>$0</b> eklenmesi sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/firewall.jsx:586
 msgid ""
@@ -766,7 +766,7 @@ msgstr "$target'e fiziksel birim ekleniyor"
 
 #: pkg/machines/components/vmDisksTab.jsx:119
 msgid "Additional"
-msgstr "Eklemeler"
+msgstr "Ek"
 
 #: pkg/networkmanager/interfaces.js:2638
 msgid "Additional DNS $val"
@@ -870,7 +870,7 @@ msgstr "Alarm ve üstü"
 
 #: pkg/systemd/services.html:64 pkg/systemd/logs.js:239 pkg/systemd/logs.js:416
 msgid "All"
-msgstr "Hepsi"
+msgstr "Tümü"
 
 #: pkg/lib/machine-info.js:79
 msgid "All In One"
@@ -951,7 +951,7 @@ msgstr "Güncellemeler uygulanıyor"
 
 #: pkg/packagekit/updates.jsx:47
 msgid "Applying updates failed"
-msgstr "Güncellemeler uygulanamadı"
+msgstr "Güncellemeleri uygulama başarısız oldu"
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:98
 msgid "Asset tag"
@@ -993,15 +993,15 @@ msgstr "Kimlik Doğrulama Başarısız: Sunucu bağlantıyı kapattı"
 
 #: src/ws/login.js:685
 msgid "Authentication failed"
-msgstr "Kimlik doğrulama başarısız"
+msgstr "Kimlik doğrulama başarısız oldu"
 
 #: src/bridge/org.cockpit-project.cockpit-bridge.policy.in:11
 msgid ""
 "Authentication is required to perform privileged tasks with the Cockpit Web "
 "Console"
 msgstr ""
-"Cockpit Web Konsolu ile ayrıcalıklı görevleri gerçekleştirmek için kimlik "
-"doğrulaması gerekmektedir"
+"Cockpit Web Konsolu ile yetkili görevleri gerçekleştirmek için kimlik "
+"doğrulaması gerekir"
 
 #: pkg/storaged/iscsi-panel.jsx:153
 msgid "Authentication required"
@@ -1064,7 +1064,7 @@ msgstr "Otomasyon Betiği"
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:70
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:166
 msgid "Autostart"
-msgstr "Otomatik olarak başlat"
+msgstr "Otomatik başlat"
 
 #: pkg/lib/machine-change-auth.html:66
 #: pkg/machines/components/vm/vmUsageTab.jsx:65
@@ -1253,12 +1253,12 @@ msgstr "Önbellek"
 
 #: pkg/systemd/graphs.html:161 pkg/systemd/graphs.js:392
 msgid "Cached"
-msgstr "Önbelleğe alınan"
+msgstr "Önbelleklendi"
 
 #: pkg/systemd/logs.js:181 pkg/systemd/logs.js:345
 msgid "Can not find any logs using the current combination of filters."
 msgstr ""
-"Geçerli filtre birleşimi kullanılarak herhangi bir günlük kaydı bulunamıyor."
+"Şu anki süzgeçlerin birleşimi kullanılarak herhangi bir günlük bulunamıyor."
 
 #: pkg/docker/index.html:63
 msgid "Can&rsquo;t connect to Docker"
@@ -1314,16 +1314,16 @@ msgstr "Bilinmeyen bir makineye bağlanılamıyor"
 
 #: src/base1/cockpit.js:4048
 msgid "Cannot forward login credentials"
-msgstr "Oturum açma bilgileri yönlendirilemiyor"
+msgstr "Oturum açma kimlik bilgileri yönlendirilemiyor"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:628
 msgid "Cannot join a domain because realmd is not available on this system"
 msgstr ""
-"Bu sistemde realmd kullanılabilir olmadığı için bir etki alanına katılamıyor"
+"Bu sistemde realmd kullanılabilir olmadığından bir etki alanına katılamıyor"
 
 #: pkg/systemd/shutdown.js:175
 msgid "Cannot schedule event in the past"
-msgstr "Geçmiş için olay zamanlanamaz"
+msgstr "Geçmişteki olay zamanlanamaz"
 
 #: pkg/machines/components/vmDisksTab.jsx:111
 msgid "Capacity"
@@ -1385,15 +1385,15 @@ msgstr "Ayarları değiştir"
 #: pkg/machines/components/vm/bootOrderModal.jsx:283
 #: pkg/machines/components/warningInactive.jsx:11
 msgid "Changes will take effect after shutting down the VM"
-msgstr "Değişiklikler, sanal makine kapatıldıktan sonra geçerli olacaktır"
+msgstr "Değişiklikler, sanal makine kapatıldıktan sonra etkili olacak"
 
 #: pkg/networkmanager/interfaces.js:3137
 msgid ""
 "Changing the settings will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"Ayarların değiştirilmesi sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"Ayarların değiştirilmesi sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/packagekit/updates.jsx:179
 msgid "Check for Updates"
@@ -1429,7 +1429,7 @@ msgstr "Genel anahtarlar denetleniyor"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:145
 msgid "Checking installed software"
-msgstr "Kurulu yazılımlar denetleniyor"
+msgstr "Yüklü yazılımlar denetleniyor"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:365
 msgid "Choose an operating system"
@@ -1449,11 +1449,11 @@ msgstr "Sınıf"
 
 #: pkg/storaged/jobs-panel.jsx:55
 msgid "Cleaning up for $target"
-msgstr "$target için temizleniyor"
+msgstr "$target temizleniyor"
 
 #: pkg/systemd/service-details.jsx:189
 msgid "Clear 'Failed to start'"
-msgstr "'Başlatılamadı' hatasını temizle"
+msgstr "'Başlatma başarısız' hatasını temizle"
 
 #: pkg/systemd/services.html:85
 msgid "Clear All Filters"
@@ -1471,8 +1471,8 @@ msgstr "Bağlama noktası yapılandırmasını temizle"
 msgid ""
 "Clicking \"Launch Remote Viewer\" will download a .vv file and launch $0."
 msgstr ""
-"\"Remote Viewer'ı Başlat\" tıklandığında bir .vv dosyası indirilecek ve $0 "
-"başlatılacaktır."
+"\"Remote Viewer'ı Başlat\"a tıklamak bir .vv dosyası indirecek ve $0 "
+"başlatılacak."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:20
 msgid "Client Software"
@@ -1549,11 +1549,11 @@ msgstr "Cockpit, sistemdeki yazılımla uyumlu değil."
 
 #: pkg/lib/machine-not-supported.html:2
 msgid "Cockpit is not installed"
-msgstr "Cockpit kurulu değil"
+msgstr "Cockpit yüklü değil"
 
 #: src/base1/cockpit.js:4046
 msgid "Cockpit is not installed on the system."
-msgstr "Cockpit sistemde kurulu değil."
+msgstr "Cockpit sistemde yüklü değil."
 
 #: src/ws/cockpit.appdata.xml.in:18
 msgid ""
@@ -1743,7 +1743,7 @@ msgstr "İle Çakışır"
 
 #: pkg/systemd/service-details.jsx:428
 msgid "Conflicts"
-msgstr "Çakışır"
+msgstr "Çakışmalar"
 
 #: pkg/lib/machine-unknown-hostkey.html:22
 #: pkg/machines/components/serialConsole.jsx:82
@@ -1781,7 +1781,7 @@ msgstr "Docker'a bağlanılıyor"
 
 #: pkg/selinux/setroubleshoot-view.jsx:376
 msgid "Connecting to SETroubleshoot daemon..."
-msgstr "SETroubleshoot hizmetine bağlanılıyor..."
+msgstr "SETroubleshoot arka plan programına bağlanılıyor..."
 
 #: pkg/machines/components/libvirtSlate.jsx:86
 msgid "Connecting to Virtualization Service"
@@ -1804,7 +1804,7 @@ msgstr "Bağlantı Hatası"
 
 #: pkg/shell/index.html:427
 msgid "Connection failed"
-msgstr "Bağlantı başarısız"
+msgstr "Bağlantı başarısız oldu"
 
 #: src/base1/cockpit.js:4044
 msgid "Connection has timed out."
@@ -2112,32 +2112,32 @@ msgid ""
 "Creating this VLAN will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"Bu VLAN'ı oluşturmak sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"Bu VLAN'ı oluşturmak sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/interfaces.js:3812
 msgid ""
 "Creating this bond will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"Bu birleştirmeyi (bond) oluşturmak sunucuyla bağlantıyı kesecek ve yönetici "
-"arayüzünü kullanılamaz hale getirecektir."
+"Bu birleştirmeyi (bond) oluşturmak sunucuyla bağlantıyı kesecek ve yönetim "
+"kullanıcı arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/interfaces.js:4270
 msgid ""
 "Creating this bridge will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"Bu köprüyü oluşturmak sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"Bu köprüyü oluşturmak sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/interfaces.js:4015
 msgid ""
 "Creating this team will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"Bu takımı oluşturmak sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"Bu takımı oluşturmak sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/storaged/jobs-panel.jsx:71
 msgid "Creating volume group $target"
@@ -2211,11 +2211,11 @@ msgstr "DNS Arama Etki Alanları $val"
 
 #: pkg/systemd/terminal.jsx:100
 msgid "Dark"
-msgstr "Karanlık"
+msgstr "Koyu"
 
 #: pkg/dashboard/index.html:22
 msgid "Dashboard"
-msgstr "Gösterge Paneli"
+msgstr "Panel"
 
 #: pkg/storaged/lvol-tabs.jsx:465
 msgid "Data Used"
@@ -2274,7 +2274,7 @@ msgstr "Sil"
 
 #: pkg/networkmanager/interfaces.js:2418 pkg/users/local.js:1198
 msgid "Delete $0"
-msgstr "Sil: $0"
+msgstr "$0 sil"
 
 #: pkg/machines/components/storagePools/storageVolumeDelete.jsx:67
 msgid "Delete $0 volume"
@@ -2311,8 +2311,8 @@ msgid ""
 "Deleting <b>$0</b> will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"<b>$0</b> silinmesi sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"<b>$0</b> silinmesi sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/storaged/mdraid-details.jsx:294
 msgid "Deleting a RAID device will erase all data on it."
@@ -2419,20 +2419,20 @@ msgstr "$0 dizini yazılabilir değil veya yok."
 
 #: pkg/systemd/hwinfo.jsx:195
 msgid "Disable simultaneous multithreading"
-msgstr "Eşzamanlı çoklu kullanımı devre dışı bırak"
+msgstr "Eşzamanlı çoklu kullanımı etkisizleştir"
 
 #: pkg/networkmanager/firewall.jsx:940
 msgid "Disable the firewall"
-msgstr "Güvenlik duvarını devre dışı bırak"
+msgstr "Güvenlik duvarını etkisizleştir"
 
 #: pkg/tuned/dialog.js:233
 msgid "Disable tuned"
-msgstr "tuned'i devre dışı bırak"
+msgstr "tuned'i etkisizleştir"
 
 #: pkg/systemd/services.html:66 pkg/networkmanager/interfaces.js:1948
 #: pkg/systemd/init.js:225 pkg/systemd/service-details.jsx:334
 msgid "Disabled"
-msgstr "Devre dışı"
+msgstr "Etkisizleştirildi"
 
 #: pkg/systemd/service-details.jsx:193
 msgid "Disallow running (mask)"
@@ -2660,7 +2660,7 @@ msgstr "Güvenlik duvarını etkinleştir"
 
 #: pkg/systemd/services.html:65 pkg/systemd/init.js:222
 msgid "Enabled"
-msgstr "Etkin"
+msgstr "Etkinleştirildi"
 
 #: pkg/storaged/format-dialog.jsx:209
 msgid "Encrypt data"
@@ -2740,11 +2740,11 @@ msgstr "Tüm alt ağ"
 
 #: pkg/systemd/logs.html:83
 msgid "Entry"
-msgstr "Kayıt"
+msgstr "Giriş"
 
 #: pkg/systemd/logs.js:463
 msgid "Entry at $0"
-msgstr "$0 tarihindeki girdi"
+msgstr "$0 tarihindeki giriş"
 
 #: pkg/docker/containers-view.jsx:410
 msgid "Entrypoint"
@@ -3451,7 +3451,7 @@ msgstr "Başlatıcı IQN boş olmamalıdır"
 #: pkg/lib/cockpit-components-install-dialog.jsx:118
 #: pkg/machines/components/vm/vmActions.jsx:98
 msgid "Install"
-msgstr "Kur"
+msgstr "Yükle"
 
 #: pkg/packagekit/updates.jsx:847
 msgid "Install All Updates"
@@ -3477,7 +3477,7 @@ msgstr "VDO Desteğini Kur"
 msgid "Install setroubleshoot-server to troubleshoot SELinux events."
 msgstr ""
 "SELinux olayları hakkındaki sorunları gidermek için setroubleshoot-server "
-"kur."
+"yükleyin."
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:306
 msgid "Installation Source"
@@ -3493,16 +3493,16 @@ msgstr "Kurulum Türü"
 
 #: pkg/packagekit/updates.jsx:61
 msgid "Installed"
-msgstr "Kurulu"
+msgstr "Yüklendi"
 
 #: pkg/apps/application-list.jsx:48 pkg/apps/application.jsx:55
 #: pkg/packagekit/updates.jsx:53
 msgid "Installing"
-msgstr "Kuruluyor"
+msgstr "Yükleniyor"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:186
 msgid "Installing $0"
-msgstr "$0 kuruluyor"
+msgstr "$0 yükleniyor"
 
 #: pkg/systemd/service-details.jsx:488
 msgid "Instance of template: "
@@ -3659,7 +3659,7 @@ msgstr "Bir Etki Alanına Katıl"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:623
 msgid "Joining a domain requires installation of realmd"
-msgstr "Bir etki alanına katılmak, realmd'nin kurulmasını gerektirmektedir"
+msgstr "Bir etki alanına katılmak, realmd kurulumu gerektirir"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:508
 msgid "Joining this domain is not supported"
@@ -3685,7 +3685,7 @@ msgstr "Günlük girdisi bulunamadı"
 msgid ""
 "Kdump service not installed. Please ensure package kexec-tools is installed."
 msgstr ""
-"Kdump hizmeti kurulu değil. Lütfen kexec-tools paketinin kurulu olduğundan "
+"Kdump hizmeti yüklü değil. Lütfen kexec-tools paketinin yüklü olduğundan "
 "emin olun."
 
 #: pkg/networkmanager/index.html:733
@@ -3848,11 +3848,11 @@ msgstr "Kaynaklar Yükleniyor"
 
 #: pkg/packagekit/updates.jsx:48
 msgid "Loading available updates failed"
-msgstr "Kullanılabilir güncellemeler yüklenemedi"
+msgstr "Mevcut güncellemeleri yükleme başarısız oldu"
 
 #: pkg/packagekit/updates.jsx:41
 msgid "Loading available updates, please wait..."
-msgstr "Kullanılabilir güncellemeler yükleniyor, lütfen bekleyin..."
+msgstr "Mevcut güncellemeler yükleniyor, lütfen bekleyin..."
 
 #: pkg/lib/cockpit-components-modifications.jsx:145
 msgid "Loading system modifications..."
@@ -3978,11 +3978,11 @@ msgstr "Oturum Kapatıldı"
 
 #: pkg/systemd/logs.html:82 pkg/systemd/manifest.json.in
 msgid "Logs"
-msgstr "Günlük kayıtları"
+msgstr "Günlükler"
 
 #: pkg/dashboard/index.html:112
 msgid "Lost connection. Trying to reconnect"
-msgstr "Bağlantı kesildi. Yeniden bağlanmaya çalışılıyor"
+msgstr "Bağlantı kayboldu. Yeniden bağlanmaya çalışılıyor"
 
 #: pkg/lib/machine-info.js:70
 msgid "Low Profile Desktop"
@@ -4634,7 +4634,7 @@ msgstr "Takma ad belirtilmedi"
 
 #: pkg/apps/application-list.jsx:133
 msgid "No applications installed or available"
-msgstr "Kurulu veya kullanılabilir uygulama yok"
+msgstr "Yüklü veya kullanılabilir uygulamalar yok"
 
 #: pkg/sosreport/index.js:129
 msgid "No archive has been created."
@@ -4949,7 +4949,7 @@ msgid ""
 "Once Cockpit is installed, enable it with \"systemctl enable --now cockpit."
 "socket\"."
 msgstr ""
-"Cockpit kurulduktan sonra, \"systemctl enable --now cockpit.socket\" "
+"Cockpit yüklendikten sonra, \"systemctl enable --now cockpit.socket\" "
 "komutuyla etkinleştirin."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:68
@@ -5062,7 +5062,7 @@ msgstr "PackageKit çöktü"
 
 #: pkg/packagekit/updates.jsx:569
 msgid "PackageKit is not installed"
-msgstr "PackageKit kurulu değil"
+msgstr "PackageKit yüklü değil"
 
 #: pkg/packagekit/updates.jsx:737
 msgid "PackageKit reported error code $0"
@@ -5161,7 +5161,7 @@ msgstr "Yapıştır"
 
 #: pkg/users/index.html:409
 msgid "Paste the contents of your public SSH key file here"
-msgstr "Genel SSH anahtar dosyanızın içeriğini buraya yapıştırın"
+msgstr "Ortak SSH anahtar dosyanızın içeriğini buraya yapıştırın"
 
 #: pkg/machines/components/deleteDialog.jsx:45
 #: pkg/machines/components/diskEdit.jsx:39 pkg/systemd/service-details.jsx:482
@@ -5303,7 +5303,7 @@ msgstr "Lütfen yeni birim boyutunu girin"
 
 #: pkg/networkmanager/firewall.jsx:889
 msgid "Please install the $0 package"
-msgstr "Lütfen $0 paketini kurun"
+msgstr "Lütfen $0 paketini yükleyin"
 
 #: pkg/users/local.js:1251
 msgid "Please specify an expiration date"
@@ -5664,7 +5664,7 @@ msgstr "Son zamanda"
 
 #: pkg/storaged/format-dialog.jsx:152
 msgid "Recommended default"
-msgstr "Öntanımlı tavsiye edilen"
+msgstr "Varsayılan önerilen"
 
 #: pkg/shell/index.html:413
 msgid "Reconnect"
@@ -5791,8 +5791,8 @@ msgid ""
 "Removing <b>$0</b> will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"<b>$0</b> kaldırılması sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"<b>$0</b> kaldırılması sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/storaged/jobs-panel.jsx:74
 msgid "Removing physical volume from $target"
@@ -5907,7 +5907,7 @@ msgstr "Gerektirir"
 
 #: pkg/systemd/service-details.jsx:390
 msgid "Requires administration access to edit"
-msgstr "Düzenlemek için yönetici erişimi gerektirir"
+msgstr "Düzenlemek için yönetim erişimi gerektirir"
 
 #: pkg/systemd/service-details.jsx:419
 msgid "Requisite"
@@ -6773,7 +6773,7 @@ msgstr "Pazar günleri"
 
 #: pkg/storaged/optional-panel.jsx:98
 msgid "Support is installed."
-msgstr "Destek kuruldu."
+msgstr "Destek yüklendi."
 
 #: pkg/storaged/content-views.jsx:164
 msgid "Swap"
@@ -6801,24 +6801,24 @@ msgid ""
 "Switching off <b>$0</b>  will break the connection to the server, and will "
 "make the administration UI unavailable."
 msgstr ""
-"<b>$0</b> kapatılması sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"<b>$0</b> kapatılması sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/interfaces.js:3021
 msgid ""
 "Switching off <b>$0</b> will break the connection to the server, and will "
 "make the administration UI unavailable."
 msgstr ""
-"<b>$0</b> kapatılması sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"<b>$0</b> kapatılması sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/networkmanager/interfaces.js:2449 pkg/networkmanager/interfaces.js:3009
 msgid ""
 "Switching on <b>$0</b> will break the connection to the server, and will "
 "make the administration UI unavailable."
 msgstr ""
-"<b>$0</b> açılması sunucuyla bağlantıyı kesecek ve yönetici arayüzünü "
-"kullanılamaz hale getirecektir."
+"<b>$0</b> açılması sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
+"arayüzünü kullanılamaz hale getirecektir."
 
 #: pkg/lib/machine-sync-users.html:77
 msgid "Synchronize"
@@ -6954,7 +6954,7 @@ msgstr "$0 silinemedi"
 
 #: pkg/storaged/vdos-panel.jsx:45
 msgid "The $0 package must be installed to create VDO devices."
-msgstr "VDO aygıtları oluşturmak için $0 paketi kurulmalıdır."
+msgstr "VDO aygıtları oluşturmak için $0 paketi yüklenmek zorundadır."
 
 #: pkg/docker/storage.jsx:523
 msgid "The Docker storage pool cannot be managed on this system."
@@ -7319,7 +7319,7 @@ msgstr "Bu bölgede etkin hizmet yok"
 
 #: pkg/users/index.html:387
 msgid "There are no authorized public keys for this account."
-msgstr "Bu hesap için yetkilendirilmiş genel anahtar yok."
+msgstr "Bu hesap için yetkilendirilmiş ortak anahtarlar yok."
 
 #: pkg/storaged/vgroup-details.jsx:96
 msgid ""
@@ -7487,7 +7487,7 @@ msgstr "Bu web tarayıcısı, Cockpit'i çalıştırmak için çok eski ($0 eksi
 
 #: pkg/packagekit/updates.jsx:890
 msgid "This web console will be updated."
-msgstr "Bu web konsolu güncellenecek."
+msgstr "Bu web konsolu güncellenecektir."
 
 #: pkg/kdump/kdump-view.jsx:296
 msgid ""
@@ -7544,8 +7544,8 @@ msgid ""
 "To get software updates, this system needs to be registered with Red Hat, "
 "either using the Red Hat Customer Portal or a local subscription server."
 msgstr ""
-"Yazılım güncellemelerini almak için, bu sistemin Red Hat Müşteri Portalı "
-"veya yerel bir abonelik sunucusu kullanılarak Red Hat'e kaydedilmesi "
+"Yazılım güncellemelerini almak için bu sistemin Red Hat Müşteri Portalı veya "
+"yerel bir abonelik sunucusu kullanılarak Red Hat'e kaydedilmesi "
 "gerekmektedir."
 
 #: pkg/lib/machine-change-port.html:11
@@ -7973,7 +7973,7 @@ msgstr "Kullanıcı adı boş olamaz"
 
 #: pkg/storaged/iscsi-panel.jsx:46 pkg/storaged/iscsi-panel.jsx:155
 msgid "Username"
-msgstr "Kullanıcı Adı"
+msgstr "Kullanıcı adı"
 
 #: pkg/lib/machine-change-auth.html:44
 msgid "Using available credentials"
@@ -8039,7 +8039,7 @@ msgstr "$0 sanal makinesi silinemedi"
 
 #: pkg/machines/hostvmslist.jsx:101 pkg/machines/libvirt-common.js:1402
 msgid "VM $0 failed to get installed"
-msgstr "$0 sanal makinesi kurulamadı"
+msgstr "$0 sanal makinesinin yüklenmesi başarısız oldu"
 
 #: pkg/machines/hostvmslist.jsx:125
 msgid "VM $0 failed to pause"
@@ -8323,7 +8323,7 @@ msgid ""
 "You do not have permission to view the authorized public keys for this "
 "account."
 msgstr ""
-"Bu hesap için yetkilendirilmiş genel anahtarları görüntüleme izniniz yok."
+"Bu hesap için yetkilendirilmiş ortak anahtarları görüntüleme izniniz yok."
 
 #: pkg/docker/storage.jsx:520
 msgid "You don't have permission to manage the Docker storage pool."
@@ -8662,7 +8662,7 @@ msgstr "etkin değil"
 
 #: pkg/apps/manifest.json.in
 msgid "install"
-msgstr "kur"
+msgstr "yükle"
 
 #: pkg/networkmanager/manifest.json.in
 msgid "interface"
@@ -8796,8 +8796,8 @@ msgstr "hiçbiri"
 #: pkg/systemd/graphs.js:142 pkg/systemd/overview-cards/usageCard.jsx:112
 msgid "of $0 CPU"
 msgid_plural "of $0 CPUs"
-msgstr[0] "$0 CPU'dan"
-msgstr[1] "$0 CPU'dan"
+msgstr[0] "$0 CPU'nun"
+msgstr[1] "$0 CPU'nun"
 
 #: pkg/systemd/manifest.json.in
 msgid "operating system"
@@ -9117,7 +9117,7 @@ msgid ""
 "new VMs"
 msgstr ""
 "Yeni sanal makineler oluşturmak için sistemde virt-install paketinin "
-"kurulması gerekmektedir"
+"yüklenmesi gerekmektedir"
 
 #: pkg/networkmanager/manifest.json.in
 msgid "vlan"
