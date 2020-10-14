@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-10-12 13:30+0000\n"
+"PO-Revision-Date: 2020-10-15 20:30+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/tr/>\n"
@@ -865,7 +865,7 @@ msgstr "Sistem önyüklemesinden sonra"
 
 #: pkg/systemd/logs.html:57
 msgid "Alert and above"
-msgstr "Uyarı ve üzeri"
+msgstr "Uyarı ve üstü"
 
 #: pkg/systemd/services.html:64 pkg/systemd/logs.js:239 pkg/systemd/logs.js:416
 msgid "All"
@@ -5615,7 +5615,7 @@ msgstr "Oku-Yaz"
 
 #: pkg/storaged/plot.jsx:312
 msgid "Reading"
-msgstr "Okunuyor"
+msgstr "Okuma"
 
 #: pkg/kdump/kdump-view.jsx:416
 msgid "Reading..."
@@ -8281,7 +8281,7 @@ msgstr "Yazılabilir ve paylaşılan"
 
 #: pkg/storaged/plot.jsx:315
 msgid "Writing"
-msgstr "Yazılıyor"
+msgstr "Yazma"
 
 #: src/ws/login.js:687
 msgid "Wrong user name or password"
