@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-10-15 20:30+0000\n"
+"PO-Revision-Date: 2020-10-18 22:15+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/tr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.3.1-dev\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -1049,11 +1049,11 @@ msgstr "Otomatik olarak başlar"
 
 #: pkg/systemd/index.html:101
 msgid "Automatically using NTP"
-msgstr "Otomatik olarak NTP kullanma"
+msgstr "Otomatik olarak NTP kullanarak"
 
 #: pkg/systemd/index.html:102
 msgid "Automatically using specific NTP servers"
-msgstr "Otomatik olarak belirli NTP sunucularını kullanma"
+msgstr "Otomatik olarak belirli NTP sunucularını kullanarak"
 
 #: pkg/lib/cockpit-components-modifications.jsx:72
 msgid "Automation Script"
@@ -1317,8 +1317,7 @@ msgstr "Oturum açma kimlik bilgileri yönlendirilemiyor"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:628
 msgid "Cannot join a domain because realmd is not available on this system"
-msgstr ""
-"Bu sistemde realmd kullanılabilir olmadığından bir etki alanına katılamıyor"
+msgstr "Bu sistemde realmd mevcut olmadığından bir etki alanına katılamıyor"
 
 #: pkg/systemd/shutdown.js:175
 msgid "Cannot schedule event in the past"
@@ -1741,7 +1740,7 @@ msgstr "İle Çakışır"
 
 #: pkg/systemd/service-details.jsx:428
 msgid "Conflicts"
-msgstr "Çakışmalar"
+msgstr "Çakışanlar"
 
 #: pkg/lib/machine-unknown-hostkey.html:22
 #: pkg/machines/components/serialConsole.jsx:82
@@ -5901,7 +5900,7 @@ msgstr "Gerektiren: "
 
 #: pkg/systemd/service-details.jsx:418
 msgid "Requires"
-msgstr "Gerektirir"
+msgstr "Gerekliler"
 
 #: pkg/systemd/service-details.jsx:390
 msgid "Requires administration access to edit"
@@ -7570,11 +7569,11 @@ msgstr "Tower"
 
 #: pkg/systemd/service-details.jsx:434
 msgid "Triggered By"
-msgstr "Tarafından Tetiklenir"
+msgstr "Tetikleyen"
 
 #: pkg/systemd/service-details.jsx:433
 msgid "Triggers"
-msgstr "Tetikler"
+msgstr "Tetikleyiciler"
 
 #: pkg/shell/index.html:414 pkg/machines/components/libvirtSlate.jsx:112
 msgid "Troubleshoot"
@@ -7598,7 +7597,7 @@ msgstr "Tekrar dene"
 
 #: pkg/systemd/index.html:47
 msgid "Trying to synchronize with {{Server}}"
-msgstr "{{Server}} ile eşzamanlamaya çalışılıyor"
+msgstr "{{Server}} ile eşitlemeye çalışılıyor"
 
 #: pkg/systemd/services.html:127
 msgid "Tuesday"
@@ -7889,7 +7888,7 @@ msgstr "Güncellemeler Var"
 
 #: pkg/packagekit/updates.jsx:54
 msgid "Updating"
-msgstr "Güncelleniyor"
+msgstr "Güncellenen"
 
 #: pkg/systemd/service-details.jsx:409
 msgid "Updating status..."
@@ -8889,7 +8888,7 @@ msgstr "roller"
 
 #: pkg/machines/helpers.js:195
 msgid "running"
-msgstr "çalışıyor"
+msgstr "çalışan"
 
 #: pkg/systemd/overview.jsx:147
 msgid "running $0"
