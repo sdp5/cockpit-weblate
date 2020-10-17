@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-10-15 20:30+0000\n"
+"PO-Revision-Date: 2020-10-18 22:15+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/tr/>\n"
@@ -36,7 +36,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.3.1-dev\n"
 
 #: pkg/machines/components/diskAdd.jsx:234
 msgid " Attaching it will make this disk shareable for every VM using it."
@@ -1111,11 +1111,11 @@ msgstr "Otomatik olarak başlar"
 
 #: pkg/systemd/overview-cards/serverTime.js:526
 msgid "Automatically using NTP"
-msgstr "Otomatik olarak NTP kullanma"
+msgstr "Otomatik olarak NTP kullanarak"
 
 #: pkg/systemd/overview-cards/serverTime.js:527
 msgid "Automatically using specific NTP servers"
-msgstr "Otomatik olarak belirli NTP sunucularını kullanma"
+msgstr "Otomatik olarak belirli NTP sunucularını kullanarak"
 
 #: pkg/lib/cockpit-components-modifications.jsx:72
 msgid "Automation Script"
@@ -1388,8 +1388,7 @@ msgstr "Oturum açma kimlik bilgileri yönlendirilemiyor"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:631
 msgid "Cannot join a domain because realmd is not available on this system"
-msgstr ""
-"Bu sistemde realmd kullanılabilir olmadığından bir etki alanına katılamıyor"
+msgstr "Bu sistemde realmd mevcut olmadığından bir etki alanına katılamıyor"
 
 #: pkg/systemd/shutdown.js:175
 msgid "Cannot schedule event in the past"
@@ -1826,7 +1825,7 @@ msgstr "İle Çakışır"
 
 #: pkg/systemd/services/service-details.jsx:509
 msgid "Conflicts"
-msgstr "Çakışmalar"
+msgstr "Çakışanlar"
 
 #: pkg/lib/machine-unknown-hostkey.html:20
 #: pkg/machines/components/serialConsole.jsx:85
@@ -6143,7 +6142,7 @@ msgstr "Gerektiren: "
 
 #: pkg/systemd/services/service-details.jsx:499
 msgid "Requires"
-msgstr "Gerektirir"
+msgstr "Gerekliler"
 
 #: pkg/systemd/services/service-details.jsx:471
 msgid "Requires administration access to edit"
@@ -7851,12 +7850,12 @@ msgstr ""
 
 #: pkg/systemd/services/service-details.jsx:515
 msgid "Triggered By"
-msgstr "Tarafından Tetiklenir"
+msgstr "Tetikleyen"
 
 #: pkg/systemd/services/services-list.jsx:54
 #: pkg/systemd/services/service-details.jsx:514
 msgid "Triggers"
-msgstr "Tetikler"
+msgstr "Tetikleyiciler"
 
 #: pkg/shell/index.html:420 pkg/machines/components/libvirtSlate.jsx:101
 msgid "Troubleshoot"
@@ -8187,7 +8186,7 @@ msgstr "Güncellemeler Var"
 
 #: pkg/packagekit/updates.jsx:64
 msgid "Updating"
-msgstr "Güncelleniyor"
+msgstr "Güncellenen"
 
 #: pkg/systemd/services/service-details.jsx:490
 msgid "Updating status..."
@@ -9247,7 +9246,7 @@ msgstr "roller"
 
 #: pkg/machines/helpers.js:196
 msgid "running"
-msgstr "çalışıyor"
+msgstr "çalışan"
 
 #: pkg/systemd/overview.jsx:253
 msgid "running $0"
