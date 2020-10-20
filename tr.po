@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-10-18 22:15+0000\n"
+"PO-Revision-Date: 2020-10-21 12:15+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/tr/>\n"
@@ -1768,7 +1768,7 @@ msgstr "Sıkıştırma"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:44
 msgid "Computer OU"
-msgstr "Bilgisayar Organizasyon Birimi"
+msgstr "Bilgisayar kuruluş birimi"
 
 #: pkg/systemd/services/service-details.jsx:526
 msgid "Condition $0=$1 was not met"
@@ -4950,7 +4950,7 @@ msgstr "Eşleşen sonuçlar yok"
 
 #: pkg/storaged/drive-details.jsx:75
 msgid "No media inserted"
-msgstr "Takılan ortam yok"
+msgstr "Takılı ortam yok"
 
 #: pkg/kdump/kdump-view.jsx:453
 msgid ""
@@ -5300,7 +5300,7 @@ msgstr "PackageKit $0 hata kodunu bildirdi"
 
 #: pkg/networkmanager/index.html:169
 msgid "Parent"
-msgstr "Üst Öğe"
+msgstr "Üst öğe"
 
 #: pkg/networkmanager/interfaces.js:2907
 msgid "Parent $parent"
@@ -9246,7 +9246,7 @@ msgstr "roller"
 
 #: pkg/machines/helpers.js:196
 msgid "running"
-msgstr "çalışan"
+msgstr "çalışıyor"
 
 #: pkg/systemd/overview.jsx:253
 msgid "running $0"
