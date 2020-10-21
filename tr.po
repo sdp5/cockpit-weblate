@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 10:09+0200\n"
-"PO-Revision-Date: 2020-10-21 12:15+0000\n"
+"PO-Revision-Date: 2020-10-22 22:15+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/tr/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.1-dev\n"
+"X-Generator: Weblate 4.3.1\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -9173,7 +9173,7 @@ msgstr "Salı günleri"
 
 #: pkg/tuned/dialog.js:260
 msgid "Tuned has failed to start"
-msgstr "Tuned başlatmak için başarısız oldu"
+msgstr "Tuned başlatılamadı"
 
 #: pkg/tuned/dialog.js:91
 msgid "Tuned is not available"
@@ -9677,7 +9677,7 @@ msgstr "$0 sanal makinesini kapatma başarısız oldu"
 
 #: pkg/machines/hostvmslist.jsx:104
 msgid "VM $0 failed to start"
-msgstr "$0 sanal makinesini başlatma başarısız oldu"
+msgstr "$0 sanal makinesi başlatılamadı"
 
 #: pkg/ovirt/components/VmOverviewColumn.jsx:37
 msgid "VM icon"
