@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-10-21 12:15+0000\n"
+"PO-Revision-Date: 2020-10-22 22:15+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/tr/>\n"
@@ -36,7 +36,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.1-dev\n"
+"X-Generator: Weblate 4.3.1\n"
 
 #: pkg/machines/components/diskAdd.jsx:234
 msgid " Attaching it will make this disk shareable for every VM using it."
@@ -1534,7 +1534,7 @@ msgstr "$target temizleniyor"
 
 #: pkg/systemd/services/service-details.jsx:263
 msgid "Clear 'Failed to start'"
-msgstr "'Başlatma başarısız oldu' hatasını temizle"
+msgstr "'Başlatılamadı' hatasını temizle"
 
 #: pkg/shell/nav.jsx:126
 msgid "Clear Search"
@@ -3026,7 +3026,7 @@ msgstr "Ctrl+Alt+$0 tuş birleşimini $1 sanal makinesine gönderme başarısız
 #: pkg/systemd/services/service-details.jsx:422
 #: pkg/systemd/services/services.jsx:524
 msgid "Failed to start"
-msgstr "Başlatma başarısız oldu"
+msgstr "Başlatılamadı"
 
 #: pkg/docker/containers.js:60
 msgid "Failed to start Docker: $0"
@@ -7891,7 +7891,7 @@ msgstr "Salı günleri"
 
 #: pkg/tuned/dialog.js:255
 msgid "Tuned has failed to start"
-msgstr "Tuned başlatmak için başarısız oldu"
+msgstr "Tuned başlatılamadı"
 
 #: pkg/tuned/dialog.js:91
 msgid "Tuned is not available"
@@ -8356,7 +8356,7 @@ msgstr "$0 sanal makinesini kapatma başarısız oldu"
 
 #: pkg/machines/hostvmslist.jsx:113
 msgid "VM $0 failed to start"
-msgstr "$0 sanal makinesini başlatma başarısız oldu"
+msgstr "$0 sanal makinesi başlatılamadı"
 
 #: pkg/machines/components/desktopConsole.jsx:187
 msgid "VNC"
