@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-10-22 22:15+0000\n"
+"PO-Revision-Date: 2020-10-29 17:34+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/tr/>\n"
@@ -36,7 +36,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.1\n"
+"X-Generator: Weblate 4.3.2-dev\n"
 
 #: pkg/machines/components/diskAdd.jsx:234
 msgid " Attaching it will make this disk shareable for every VM using it."
@@ -800,7 +800,7 @@ msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
 msgstr ""
-"Özel bağlantı noktalarının eklenmesi firewalld aracını yeniden yükleyecek. "
+"Özel bağlantı noktalarının eklenmesi firewalld hizmetini yeniden yükleyecek. "
 "Yeniden yükleme, herhangi bir sadece çalışma zamanı yapılandırmasının "
 "kaybolmasına neden olacak!"
 
@@ -2756,7 +2756,7 @@ msgstr "Hizmeti Etkinleştir"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:324
 msgid "Enable stored metrics"
-msgstr "Metrikleri saklamayı etkinleştir"
+msgstr "Ölçümleri saklamayı etkinleştir"
 
 #: pkg/networkmanager/firewall.jsx:889
 msgid "Enable the firewall"
@@ -3729,7 +3729,7 @@ msgstr "Geçersiz anahtar"
 
 #: pkg/networkmanager/utils.js:55
 msgid "Invalid metric $0"
-msgstr "Geçersiz metrik $0"
+msgstr "Geçersiz ölçüm $0"
 
 #: pkg/users/expiration-dialogs.js:210
 msgid "Invalid number of days"
@@ -7023,7 +7023,7 @@ msgstr "Depolama boyutu 0 olmamak zorundadır"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:309
 msgid "Store metrics"
-msgstr "Metrikleri sakla"
+msgstr "Ölçümleri sakla"
 
 #: pkg/storaged/format-dialog.jsx:69
 msgid "Store passphrase"
