@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-10-29 17:34+0000\n"
-"Last-Translator: Matthias Caesar <matthiasc@ilocit.de>\n"
+"PO-Revision-Date: 2020-11-01 15:34+0000\n"
+"Last-Translator: Alain Nussbaumer <alain.nussbaumer@alleluia.ch>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/de/>\n"
 "Language: de\n"
@@ -5723,7 +5723,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:3320
 msgid "Prefix length"
-msgstr "Präfix"
+msgstr "Präfixlänge"
 
 #: pkg/networkmanager/interfaces.js:3320
 msgid "Prefix length or Netmask"
@@ -7986,7 +7986,7 @@ msgstr "Versuchen Sie es nochmal"
 
 #: pkg/docker/index.html:70 pkg/docker/index.html:73
 msgid "Try again"
-msgstr "Nochmals versuchen"
+msgstr "Versuchen Sie es nochmal"
 
 #: pkg/systemd/overview-cards/serverTime.js:385
 #, fuzzy
