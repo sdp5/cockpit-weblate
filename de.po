@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-07-25 21:28+0000\n"
-"Last-Translator: Jonas Becker <jonasbecker1.jb@gmail.com>\n"
+"PO-Revision-Date: 2020-11-01 15:34+0000\n"
+"Last-Translator: Alain Nussbaumer <alain.nussbaumer@alleluia.ch>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/de/>\n"
 "Language: de\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.3.2-dev\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -5451,7 +5451,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:3291
 msgid "Prefix length"
-msgstr "Präfix"
+msgstr "Präfixlänge"
 
 #: pkg/networkmanager/interfaces.js:3291
 msgid "Prefix length or Netmask"
@@ -7666,7 +7666,7 @@ msgstr "Versuchen Sie es nochmal"
 
 #: pkg/docker/index.html:71 pkg/docker/index.html:74
 msgid "Try again"
-msgstr "Nochmals versuchen"
+msgstr "Versuchen Sie es nochmal"
 
 #: pkg/systemd/index.html:47
 msgid "Trying to synchronize with {{Server}}"
