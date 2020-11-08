@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-11-01 15:34+0000\n"
+"PO-Revision-Date: 2020-11-09 10:35+0000\n"
 "Last-Translator: Alain Nussbaumer <alain.nussbaumer@alleluia.ch>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/fr/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -7287,7 +7287,7 @@ msgstr "Démarrer quand l’hôte est amorcé"
 
 #: pkg/networkmanager/index.html:328
 msgid "Runner"
-msgstr "Runner"
+msgstr "Exécuteur"
 
 #: pkg/storaged/mdraid-details.jsx:343
 msgid "Running"
