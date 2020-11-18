@@ -13,16 +13,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-07-17 05:28+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"PO-Revision-Date: 2020-11-18 10:16+0000\n"
+"Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
-"master/cs/>\n"
+"rhel8/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
-"X-Generator: Weblate 4.1.1\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: pkg/machines/components/diskAdd.jsx:234
 msgid " Attaching it will make this disk shareable for every VM using it."
@@ -908,7 +908,7 @@ msgstr "Pokročilé TCA"
 
 #: pkg/systemd/services/service-details.jsx:512
 msgid "After"
-msgstr "Později"
+msgstr "Po"
 
 #: pkg/systemd/services.html:214
 msgctxt "time-delay"
@@ -1846,6 +1846,7 @@ msgid "Configuring IP"
 msgstr "Nastavuje se IP adresa"
 
 #: pkg/kdump/manifest.json.in
+#, fuzzy
 msgid "Configuring kdump"
 msgstr "Nastavuje se kdump"
 
@@ -9517,7 +9518,7 @@ msgstr "paměť"
 
 #: pkg/systemd/manifest.json.in
 msgid "mitigation"
-msgstr "stěhování"
+msgstr ""
 
 #: pkg/storaged/manifest.json.in
 msgid "mkfs"
