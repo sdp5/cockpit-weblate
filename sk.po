@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-09-12 18:29+0000\n"
+"PO-Revision-Date: 2020-11-19 10:35+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/sk/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
@@ -86,19 +86,21 @@ msgstr[2] "$0 bitov"
 #: src/base1/test-locale.js:87 src/base1/test-locale.js:88
 msgid "$0 byte"
 msgid_plural "$0 bytes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "$0 bajt"
+msgstr[1] "$0 bajty"
+msgstr[2] "$0 bajtov"
 
 #: src/base1/test-locale.js:76 src/base1/test-locale.js:77
 msgctxt "memory"
 msgid "$0 byte"
 msgid_plural "$0 bytes"
-msgstr[0] ""
+msgstr[0] "$0 bajt"
+msgstr[1] "$0 bajty"
+msgstr[2] "$0 bajtov"
 
 #: pkg/storaged/vdo-details.jsx:279
 msgid "$0 data + $1 overhead used of $2 ($3)"
-msgstr ""
+msgstr "$0 dáta + $1 réžie využitéj z $2 ($3)"
 
 #: pkg/lib/plot.js:971
 msgid "$0 day"
@@ -112,7 +114,9 @@ msgstr[2] "$0 dní"
 #: pkg/playground/translate.js:29 pkg/storaged/mdraid-details.jsx:208
 msgid "$0 disk is missing"
 msgid_plural "$0 disks are missing"
-msgstr[0] ""
+msgstr[0] "$0 disk chýba"
+msgstr[1] "$0 disky chýbajú"
+msgstr[2] "$0 diskov chýba"
 
 #: src/base1/test-locale.js:68 src/base1/test-locale.js:70
 #: src/base1/test-locale.js:72 pkg/playground/translate.js:32
@@ -120,7 +124,9 @@ msgstr[0] ""
 msgctxt "disk-non-rotational"
 msgid "$0 disk is missing"
 msgid_plural "$0 disks are missing"
-msgstr[0] ""
+msgstr[0] "$0 disk chýba"
+msgstr[1] "$0 disky chýbajú"
+msgstr[2] "$0 diskov chýba"
 
 #: src/ws/login.js:336 src/ws/login.js:695
 msgid "$0 error"
@@ -128,11 +134,11 @@ msgstr "$0 chyba"
 
 #: src/base1/cockpit.js:2785
 msgid "$0 exited with code $1"
-msgstr ""
+msgstr "$0 skončilo s kódom $1"
 
 #: src/base1/cockpit.js:2787
 msgid "$0 failed"
-msgstr ""
+msgstr "$0 sa nepodarilo"
 
 #: pkg/storaged/lvol-tabs.jsx:161
 msgid "$0 filesystems can not be made larger."
@@ -158,6 +164,8 @@ msgid ""
 "$0 is available for most operating systems. To install it, search for it in "
 "GNOME Software or run the following:"
 msgstr ""
+"$0 je k dispozícií pre väčšinu operačných systémov. Pre inštaláciu "
+"vyhľadejte v GNOME Software alebo spusťte nasledujúce:"
 
 #: pkg/storaged/content-views.jsx:298 pkg/storaged/content-views.jsx:538
 #: pkg/storaged/format-dialog.jsx:164 pkg/storaged/lvol-tabs.jsx:203
@@ -165,11 +173,11 @@ msgstr ""
 #: pkg/storaged/mdraid-details.jsx:282 pkg/storaged/vdo-details.jsx:128
 #: pkg/storaged/vdo-details.jsx:159 pkg/storaged/vgroup-details.jsx:199
 msgid "$0 is in active use"
-msgstr ""
+msgstr "$0 je práve používaný"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:153
 msgid "$0 is not available from any repository."
-msgstr ""
+msgstr "$0 nie je k dispozícií v žiadom repozitári."
 
 #: src/base1/cockpit.js:2783
 msgid "$0 killed with signal $1"
@@ -178,12 +186,16 @@ msgstr ""
 #: pkg/lib/plot.js:977
 msgid "$0 minute"
 msgid_plural "$0 minutes"
-msgstr[0] ""
+msgstr[0] "$0 minúta"
+msgstr[1] "$0 minúty"
+msgstr[2] "$0 minút"
 
 #: pkg/lib/plot.js:965
 msgid "$0 month"
 msgid_plural "$0 months"
-msgstr[0] ""
+msgstr[0] "$0 mesiac"
+msgstr[1] "$0 mesiace"
+msgstr[2] "$0 mesiacov"
 
 #: pkg/selinux/setroubleshoot-view.jsx:434
 msgid "$0 occurrence"
@@ -192,12 +204,14 @@ msgstr[0] ""
 
 #: pkg/storaged/fsys-tab.jsx:365
 msgid "$0 of $1"
-msgstr ""
+msgstr "$0 z $1"
 
 #: pkg/systemd/init.js:424
 msgid "$0 service has failed"
 msgid_plural "$0 services have failed"
-msgstr[0] ""
+msgstr[0] "$0 služba zhavarovala"
+msgstr[1] "$0 služby zhavarovali"
+msgstr[2] "$0 služieb zhavarovalo"
 
 #: pkg/docker/util.js:125
 msgid "$0 shares"
@@ -210,42 +224,50 @@ msgstr ""
 #: pkg/packagekit/updates.jsx:163
 msgid "$0 update"
 msgid_plural "$0 updates"
-msgstr[0] ""
+msgstr[0] "$0 aktualizácia"
+msgstr[1] "$0 aktualizácie"
+msgstr[2] "$0 aktualizácií"
 
 #: pkg/storaged/vdo-details.jsx:291
 msgid "$0 used of $1 ($2 saved)"
-msgstr ""
+msgstr "$0 použité z $1 ($2 ušetrené)"
 
 #: pkg/lib/plot.js:968
 msgid "$0 week"
 msgid_plural "$0 weeks"
-msgstr[0] ""
+msgstr[0] "$0 týždeň"
+msgstr[1] "$0 týždne"
+msgstr[2] "$0 týždňov"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:108
 msgid "$0 will be installed."
-msgstr ""
+msgstr "$0 bude nainštalovaný."
 
 #: pkg/lib/plot.js:962
 msgid "$0 year"
 msgid_plural "$0 years"
-msgstr[0] ""
+msgstr[0] "$0 rok"
+msgstr[1] "$0 roky"
+msgstr[2] "$0 rokov"
 
 #: pkg/storaged/vgroup-details.jsx:111
 msgid "$0, $1 free"
-msgstr ""
+msgstr "$0, $1 k dispozícií"
 
 #: pkg/systemd/logs.js:457
 msgid "$0: crash at $1"
-msgstr ""
+msgstr "$0: pád v $1"
 
 #: pkg/packagekit/updates.jsx:161
 msgid "$1 security fix"
 msgid_plural "$1 security fixes"
-msgstr[0] ""
+msgstr[0] "$1 oprava zabezpečenia"
+msgstr[1] "$1 opravy zabezpečenia"
+msgstr[2] "$1 opráv zabezpečenia"
 
 #: pkg/storaged/utils.js:182
 msgid "$name (from $host)"
-msgstr ""
+msgstr "$name (z $host)"
 
 #: pkg/storaged/utils.js:126
 msgid "${size} ${desc}"
@@ -253,16 +275,18 @@ msgstr ""
 
 #: pkg/networkmanager/firewall.jsx:573
 msgid "(Optional)"
-msgstr ""
+msgstr "(Voliteľné)"
 
 #: pkg/storaged/crypto-tab.jsx:132
 msgid "(none)"
-msgstr ""
+msgstr "(žiadne)"
 
 #: pkg/packagekit/updates.jsx:165
 msgid ", including $1 security fix"
 msgid_plural ", including $1 security fixes"
-msgstr[0] ""
+msgstr[0] ", vrátane $1 opravy zabezpečenia"
+msgstr[1] ", vrátane $1 opráv zabezpečenia"
+msgstr[2] ", vrátane $1 opráv zabezpečenia"
 
 #: pkg/storaged/nfs-details.jsx:325
 msgid "--"
@@ -270,7 +294,7 @@ msgstr ""
 
 #: pkg/storaged/mdraids-panel.jsx:106
 msgid "1 MiB"
-msgstr ""
+msgstr "1 MiB"
 
 #: pkg/systemd/index.html:183 pkg/systemd/index.html:187
 msgid "1 Minute"
@@ -286,7 +310,7 @@ msgstr "1 deň"
 #: pkg/networkmanager/index.html:406 pkg/systemd/graphs.html:51
 #: pkg/storaged/plot.jsx:79
 msgid "1 hour"
-msgstr ""
+msgstr "1 hodina"
 
 #: pkg/systemd/graphs.js:382
 msgid "1 min"
@@ -296,63 +320,63 @@ msgstr "1 min"
 #: pkg/networkmanager/index.html:409 pkg/systemd/graphs.html:57
 #: pkg/storaged/plot.jsx:88
 msgid "1 week"
-msgstr ""
+msgstr "1 týždeň"
 
 #: pkg/systemd/services.html:164
 msgid "10th"
-msgstr ""
+msgstr "10."
 
 #: pkg/systemd/services.html:165
 msgid "11th"
-msgstr ""
+msgstr "11."
 
 #: pkg/storaged/mdraids-panel.jsx:104
 msgid "128 KiB"
-msgstr ""
+msgstr "128 KiB"
 
 #: pkg/systemd/services.html:166
 msgid "12th"
-msgstr ""
+msgstr "12."
 
 #: pkg/systemd/services.html:167
 msgid "13th"
-msgstr ""
+msgstr "13."
 
 #: pkg/systemd/services.html:168
 msgid "14th"
-msgstr ""
+msgstr "14."
 
 #: pkg/systemd/services.html:169
 msgid "15th"
-msgstr ""
+msgstr "15."
 
 #: pkg/storaged/mdraids-panel.jsx:101
 msgid "16 KiB"
-msgstr ""
+msgstr "16 KiB"
 
 #: pkg/systemd/services.html:170
 msgid "16th"
-msgstr ""
+msgstr "16."
 
 #: pkg/systemd/services.html:171
 msgid "17th"
-msgstr ""
+msgstr "17."
 
 #: pkg/systemd/services.html:172
 msgid "18th"
-msgstr ""
+msgstr "18."
 
 #: pkg/systemd/services.html:173
 msgid "19th"
-msgstr ""
+msgstr "19."
 
 #: pkg/systemd/services.html:155
 msgid "1st"
-msgstr ""
+msgstr "1."
 
 #: pkg/storaged/mdraids-panel.jsx:107
 msgid "2 MiB"
-msgstr ""
+msgstr "2 MiB"
 
 #: pkg/systemd/graphs.js:381
 msgid "2 min"
@@ -364,47 +388,47 @@ msgstr "20 minút"
 
 #: pkg/systemd/services.html:174
 msgid "20th"
-msgstr ""
+msgstr "20."
 
 #: pkg/systemd/services.html:175
 msgid "21st"
-msgstr ""
+msgstr "21."
 
 #: pkg/systemd/services.html:176
 msgid "22nd"
-msgstr ""
+msgstr "22."
 
 #: pkg/systemd/services.html:177
 msgid "23rd"
-msgstr ""
+msgstr "23."
 
 #: pkg/systemd/services.html:178
 msgid "24th"
-msgstr ""
+msgstr "24."
 
 #: pkg/systemd/services.html:179
 msgid "25th"
-msgstr ""
+msgstr "25."
 
 #: pkg/systemd/services.html:180
 msgid "26th"
-msgstr ""
+msgstr "26."
 
 #: pkg/systemd/services.html:181
 msgid "27th"
-msgstr ""
+msgstr "27."
 
 #: pkg/systemd/services.html:182
 msgid "28th"
-msgstr ""
+msgstr "28."
 
 #: pkg/systemd/services.html:183
 msgid "29th"
-msgstr ""
+msgstr "29."
 
 #: pkg/systemd/services.html:156
 msgid "2nd"
-msgstr ""
+msgstr "2."
 
 #: pkg/systemd/graphs.js:380
 msgid "3 min"
@@ -412,19 +436,19 @@ msgstr "3 min"
 
 #: pkg/systemd/services.html:184
 msgid "30th"
-msgstr ""
+msgstr "30."
 
 #: pkg/systemd/services.html:185
 msgid "31st"
-msgstr ""
+msgstr "31."
 
 #: pkg/storaged/mdraids-panel.jsx:102
 msgid "32 KiB"
-msgstr ""
+msgstr "32 KiB"
 
 #: pkg/systemd/services.html:157
 msgid "3rd"
-msgstr ""
+msgstr "3."
 
 #: pkg/storaged/mdraids-panel.jsx:99
 msgid "4 KiB"
@@ -511,6 +535,8 @@ msgid ""
 "A compatible version of Cockpit is not installed on {{#strong}}{{host}}{{/"
 "strong}}."
 msgstr ""
+"Na {{#strong}}{{host}}{{/strong}} nie je nainštalovaná kompatibilná verzia "
+"Cockpitu."
 
 #: pkg/storaged/vdos-panel.jsx:95
 msgid "A disk is needed."
@@ -520,14 +546,16 @@ msgstr "Je potrebný disk."
 msgid ""
 "A modern browser is required for security, reliability, and performance."
 msgstr ""
+"Z dôvodu zabezpečenia, spoľahlivosti a rýchlosti je potrebný moderný "
+"prehliadač."
 
 #: pkg/storaged/mdraid-details.jsx:114
 msgid "A spare disk needs to be added first before this disk can be removed."
-msgstr ""
+msgstr "Pred odobraním tohoto disku je potrebné pridať náhradný."
 
 #: pkg/networkmanager/interfaces.js:1974
 msgid "ARP"
-msgstr ""
+msgstr "ARP"
 
 #: pkg/networkmanager/interfaces.js:2768
 msgid "ARP Monitoring"
@@ -543,13 +571,13 @@ msgstr ""
 
 #: pkg/lib/machine-info.js:254
 msgid "Absent"
-msgstr ""
+msgstr "Chýba"
 
 #: pkg/users/index.html:104 pkg/users/index.html:190
 #: pkg/machines/components/diskEdit.jsx:94
 #: pkg/machines/components/vmDisksTab.jsx:115
 msgid "Access"
-msgstr ""
+msgstr "Prístup"
 
 #: pkg/users/index.html:249
 msgid "Account Expiration"
@@ -561,7 +589,7 @@ msgstr ""
 
 #: pkg/users/index.html:63
 msgid "Account not available or cannot be edited."
-msgstr ""
+msgstr "Účet nie je k dispozícií alebo ho nie je možné zmeniť."
 
 #: pkg/playground/translate.html:95 pkg/users/index.html:71
 #: pkg/users/manifest.json.in
@@ -577,11 +605,11 @@ msgstr "Účty"
 #: pkg/machines/components/storagePools/storagePool.jsx:176
 #: pkg/storaged/content-views.jsx:270
 msgid "Activate"
-msgstr ""
+msgstr "Aktivovať"
 
 #: pkg/storaged/jobs-panel.jsx:68
 msgid "Activating $target"
-msgstr ""
+msgstr "Aktivuje sa $target"
 
 #: pkg/networkmanager/interfaces.js:842 pkg/networkmanager/interfaces.js:1989
 msgid "Active"
@@ -597,19 +625,19 @@ msgstr "Aktívne stránky"
 
 #: pkg/storaged/dialog.jsx:1030 pkg/storaged/dialog.jsx:1034
 msgid "Active since"
-msgstr ""
+msgstr "Aktívny od"
 
 #: pkg/systemd/service-details.jsx:355
 msgid "Active since "
-msgstr ""
+msgstr "Aktívny od "
 
 #: pkg/networkmanager/interfaces.js:1968
 msgid "Adaptive load balancing"
-msgstr ""
+msgstr "Prispôsobujúce sa rozkladanie zátaže"
 
 #: pkg/networkmanager/interfaces.js:1967
 msgid "Adaptive transmit load balancing"
-msgstr ""
+msgstr "Prispôsobujúce sa rozkladanie prenosovej zátaže odesielania"
 
 #: pkg/lib/machine-add.html:43 pkg/shell/index.html:197
 #: pkg/machines/components/diskAdd.jsx:549
@@ -724,6 +752,8 @@ msgid ""
 "Adding <b>$0</b> will break the connection to the server, and will make the "
 "administration UI unavailable."
 msgstr ""
+"Pridaním <b>$0</b> sa preruší spojenie so serverom a zneprístupní sa tak "
+"rozhranie pre jeho správu."
 
 #: pkg/networkmanager/firewall.jsx:586
 msgid ""
@@ -733,11 +763,11 @@ msgstr ""
 
 #: pkg/users/authorized-keys.js:113
 msgid "Adding key"
-msgstr ""
+msgstr "Pridáva sa kľúč"
 
 #: pkg/storaged/jobs-panel.jsx:73
 msgid "Adding physical volume to $target"
-msgstr ""
+msgstr "Pridáva sa fyzický zväzok do $target"
 
 #: pkg/machines/components/vmDisksTab.jsx:119
 msgid "Additional"
@@ -781,18 +811,18 @@ msgstr "Adresa $val"
 
 #: pkg/storaged/crypto-keyslots.jsx:193
 msgid "Address cannot be empty"
-msgstr ""
+msgstr "Adresa nemôže byť prázdna"
 
 #: pkg/storaged/crypto-keyslots.jsx:195
 msgid "Address is not a valid URL"
-msgstr ""
+msgstr "Adresa nie je platné URL"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:60
 #: pkg/machines/components/networks/createNetworkDialog.jsx:67
 #: pkg/machines/components/networks/createNetworkDialog.jsx:88
 #: pkg/machines/components/networks/createNetworkDialog.jsx:95
 msgid "Address not within subnet"
-msgstr ""
+msgstr "Adresa sa nenachádza v podsieti"
 
 #: pkg/machines/components/desktopConsole.jsx:153
 msgid "Address:"
@@ -804,7 +834,7 @@ msgstr "Adresy"
 
 #: src/bridge/org.cockpit-project.cockpit-bridge.policy.in:10
 msgid "Administration with Cockpit Web Console"
-msgstr ""
+msgstr "Správa pomocou webovej konzole Cockpit"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:336
 msgid "Administrator Password"
@@ -812,7 +842,7 @@ msgstr ""
 
 #: pkg/lib/machine-info.js:93
 msgid "Advanced TCA"
-msgstr ""
+msgstr "Pokročilé TCA"
 
 #: pkg/systemd/service-details.jsx:431
 msgid "After"
@@ -821,7 +851,7 @@ msgstr ""
 #: pkg/systemd/services.html:309
 msgctxt "time-delay"
 msgid "After"
-msgstr ""
+msgstr "Po"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:27
 msgid ""
@@ -2153,15 +2183,15 @@ msgstr ""
 #: pkg/machines/components/storagePools/storagePool.jsx:168
 #: pkg/storaged/content-views.jsx:268
 msgid "Deactivate"
-msgstr ""
+msgstr "Deaktivovať"
 
 #: pkg/networkmanager/interfaces.js:844
 msgid "Deactivating"
-msgstr ""
+msgstr "Deaktivuje sa"
 
 #: pkg/storaged/jobs-panel.jsx:69
 msgid "Deactivating $target"
-msgstr ""
+msgstr "Deaktivuje sa $target"
 
 #: pkg/systemd/logs.html:63
 msgid "Debug and above"
@@ -2169,7 +2199,7 @@ msgstr "Ladiace a závažnejšie"
 
 #: pkg/storaged/vdo-details.jsx:309 pkg/storaged/vdos-panel.jsx:124
 msgid "Deduplication"
-msgstr ""
+msgstr "Deduplikácia"
 
 #: pkg/docker/index.html:359 pkg/docker/index.html:363
 msgid "Default"
@@ -2202,7 +2232,7 @@ msgstr "Zmazať"
 
 #: pkg/networkmanager/interfaces.js:2418 pkg/users/local.js:1198
 msgid "Delete $0"
-msgstr ""
+msgstr "Zmazať $0"
 
 #: pkg/machines/components/storagePools/storageVolumeDelete.jsx:67
 msgid "Delete $0 volume"
@@ -5774,11 +5804,11 @@ msgstr ""
 
 #: pkg/systemd/service-details.jsx:375
 msgid "Required by "
-msgstr ""
+msgstr "Vyžadované "
 
 #: pkg/systemd/service-details.jsx:418
 msgid "Requires"
-msgstr ""
+msgstr "Vyžaduje"
 
 #: pkg/systemd/service-details.jsx:390
 msgid "Requires administration access to edit"
@@ -5794,12 +5824,12 @@ msgstr ""
 
 #: pkg/kdump/kdump-view.jsx:504
 msgid "Reserved memory"
-msgstr ""
+msgstr "Vyhradená pamäť"
 
 #: pkg/docker/index.html:303 pkg/users/index.html:333
 #: pkg/systemd/terminal.jsx:106
 msgid "Reset"
-msgstr ""
+msgstr "Reset"
 
 #: pkg/docker/storage.jsx:452
 msgid "Reset Storage Pool"
@@ -5814,7 +5844,7 @@ msgstr ""
 #: pkg/storaged/jobs-panel.jsx:40 pkg/storaged/jobs-panel.jsx:46
 #: pkg/storaged/jobs-panel.jsx:78
 msgid "Resizing $target"
-msgstr ""
+msgstr "Mení sa veľkosť $target"
 
 #: pkg/storaged/lvol-tabs.jsx:229 pkg/storaged/lvol-tabs.jsx:314
 msgid ""
@@ -5827,7 +5857,7 @@ msgstr ""
 #: pkg/systemd/overview.jsx:123 pkg/systemd/service-details.jsx:170
 #: pkg/systemd/shutdown.js:99 pkg/systemd/shutdown.js:100
 msgid "Restart"
-msgstr ""
+msgstr "Reštart"
 
 #: pkg/packagekit/updates.jsx:504
 msgid "Restart Now"
@@ -5847,15 +5877,15 @@ msgstr ""
 
 #: pkg/packagekit/updates.jsx:936
 msgid "Restarting"
-msgstr ""
+msgstr "Reštartuje sa"
 
 #: pkg/networkmanager/index.html:39
 msgid "Restoring connection"
-msgstr ""
+msgstr "Obnovuje sa spojenie"
 
 #: pkg/machines/components/vm/vmActions.jsx:84
 msgid "Resume"
-msgstr ""
+msgstr "Obnoviť chod"
 
 #: pkg/docker/index.html:555
 msgid "Retries:"
@@ -5871,7 +5901,7 @@ msgstr ""
 
 #: pkg/users/index.html:94
 msgid "Roles"
-msgstr ""
+msgstr "Role"
 
 #: pkg/networkmanager/interfaces.js:1962 pkg/networkmanager/interfaces.js:1979
 msgid "Round Robin"
@@ -5887,12 +5917,12 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:3310
 msgid "Routes"
-msgstr ""
+msgstr "Trasy"
 
 #: pkg/docker/index.html:253 pkg/docker/index.html:566
 #: pkg/systemd/services.html:295 pkg/machines/components/vm/vmActions.jsx:91
 msgid "Run"
-msgstr ""
+msgstr "Spustiť"
 
 #: pkg/docker/index.html:427
 msgid "Run Image"
@@ -5901,7 +5931,7 @@ msgstr "Spustiť obraz"
 #: pkg/machines/components/networks/networkOverviewTab.jsx:93
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:134
 msgid "Run when host boots"
-msgstr ""
+msgstr "Spustiť pri štarte stroja"
 
 #: pkg/networkmanager/index.html:335
 msgid "Runner"
@@ -5913,7 +5943,7 @@ msgstr "Beží"
 
 #: pkg/selinux/manifest.json.in
 msgid "SELinux"
-msgstr ""
+msgstr "SELinux"
 
 #: pkg/selinux/setroubleshoot-view.jsx:369
 msgid "SELinux Access Control Errors"
@@ -8453,15 +8483,15 @@ msgstr ""
 
 #: pkg/systemd/manifest.json.in
 msgid "journal"
-msgstr ""
+msgstr "žurnál"
 
 #: pkg/kdump/manifest.json.in
 msgid "kdump"
-msgstr ""
+msgstr "kdump"
 
 #: pkg/kdump/kdump-view.jsx:496
 msgid "kdump status"
-msgstr ""
+msgstr "stav kdump"
 
 #: pkg/docker/run.js:527
 msgid "key"
@@ -8469,51 +8499,51 @@ msgstr ""
 
 #: pkg/storaged/crypto-keyslots.jsx:358
 msgid "key slot $0"
-msgstr ""
+msgstr "slot pre kľúč $0"
 
 #: pkg/users/manifest.json.in
 msgid "keys"
-msgstr ""
+msgstr "kľúče"
 
 #: pkg/machines/manifest.json.in
 msgid "libvirt"
-msgstr ""
+msgstr "libvirt"
 
 #: pkg/kdump/kdump-view.jsx:383 pkg/kdump/kdump-view.jsx:385
 msgid "locally in $0"
-msgstr ""
+msgstr "lokálne v $0"
 
 #: pkg/users/manifest.json.in
 msgid "login"
-msgstr ""
+msgstr "prihlásenie"
 
 #: pkg/storaged/manifest.json.in
 msgid "luks"
-msgstr ""
+msgstr "luks"
 
 #: pkg/storaged/manifest.json.in
 msgid "lvm2"
-msgstr ""
+msgstr "lvm2"
 
 #: pkg/networkmanager/manifest.json.in
 msgid "mac"
-msgstr ""
+msgstr "mac"
 
 #: pkg/systemd/manifest.json.in
 msgid "machine"
-msgstr ""
+msgstr "stroj"
 
 #: pkg/systemd/manifest.json.in
 msgid "mask"
-msgstr ""
+msgstr "maska"
 
 #: pkg/machines/helpers.js:223
 msgid "mcast"
-msgstr ""
+msgstr "mcast"
 
 #: pkg/systemd/manifest.json.in
 msgid "memory"
-msgstr ""
+msgstr "pamäť"
 
 #: pkg/systemd/manifest.json.in
 msgid "mitigation"
