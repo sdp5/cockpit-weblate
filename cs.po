@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-11-18 10:18+0000\n"
-"Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
+"PO-Revision-Date: 2020-11-19 10:35+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/cs/>\n"
 "Language: cs\n"
@@ -9149,7 +9149,7 @@ msgstr "paměť"
 
 #: pkg/systemd/manifest.json.in
 msgid "mitigation"
-msgstr ""
+msgstr "omezení vlivu"
 
 #: pkg/storaged/manifest.json.in
 msgid "mkfs"
