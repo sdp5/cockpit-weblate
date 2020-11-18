@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-11-18 10:16+0000\n"
-"Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
+"PO-Revision-Date: 2020-11-19 10:35+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/cs/>\n"
 "Language: cs\n"
@@ -1846,7 +1846,6 @@ msgid "Configuring IP"
 msgstr "Nastavuje se IP adresa"
 
 #: pkg/kdump/manifest.json.in
-#, fuzzy
 msgid "Configuring kdump"
 msgstr "Nastavuje se kdump"
 
@@ -9518,7 +9517,7 @@ msgstr "paměť"
 
 #: pkg/systemd/manifest.json.in
 msgid "mitigation"
-msgstr ""
+msgstr "omezení vlivu"
 
 #: pkg/storaged/manifest.json.in
 msgid "mkfs"
