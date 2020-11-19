@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
+"PO-Revision-Date: 2020-11-20 18:35+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit/"
+"rhel-7/fi/>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-10-01 12:14+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Finnish\n"
-"Language: fi\n"
-"X-Generator: Zanata 4.6.2\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -561,7 +562,7 @@ msgstr "Tilin asetukset"
 
 #: pkg/users/index.html:63
 msgid "Account not available or cannot be edited."
-msgstr "Tili ei ole käytettävissä tai sitä ei voi muokata"
+msgstr "Tili ei ole käytettävissä tai sitä ei voi muokata."
 
 #: pkg/users/index.html:71
 msgid "Accounts"
@@ -772,7 +773,7 @@ msgid ""
 "Adding <b>$0</b> will break the connection to the server, and will make the "
 "administration UI unavailable."
 msgstr ""
-"<b>$0</b>  lisääminen katkaisee yhteyden palvelimeen, jolloin "
+"<b>$0</b> lisääminen katkaisee yhteyden palvelimeen, jolloin "
 "hallintakäyttöliittymä ei ole saatavilla."
 
 #: pkg/networkmanager/firewall.jsx:559
@@ -1062,7 +1063,7 @@ msgstr "Tunnistautuminen epäonnistui"
 
 #: src/ws/login.js:647
 msgid "Authentication Failed: Server closed connection"
-msgstr "Tunnistautuminen epäonnistui: palvelin sulki yhteyden."
+msgstr "Tunnistautuminen epäonnistui: palvelin sulki yhteyden"
 
 #: src/ws/login.js:657
 msgid "Authentication failed"
@@ -1334,7 +1335,7 @@ msgstr "Prosessorin prioriteetti"
 
 #: pkg/docker/index.html:217
 msgid "CPU usage:"
-msgstr "Prosessorin käyttö"
+msgstr "Prosessorin käyttö:"
 
 #: pkg/ovirt/provider.js:256
 msgid "CREATE VM action failed"
@@ -1687,8 +1688,8 @@ msgid ""
 "journal interface."
 msgstr ""
 "Cockpit on palvelinhallintatyökalu, joka tekee ylläpidon helpoksi selaimen "
-"kautta.  Liikkuminen päätteen ja verkkokäyttöliittymän välillä ei ole "
-"ongelma. Cockpitissä aloitettu palvelu voidaan lopettaa päätteessä.  Samaten "
+"kautta. Liikkuminen päätteen ja verkkokäyttöliittymän välillä ei ole "
+"ongelma. Cockpitissä aloitettu palvelu voidaan lopettaa päätteessä. Samaten "
 "päätteessä näkyvä virheilmoitus voidaan nähdä myös Cockpitin journal-"
 "näkymässä."
 
@@ -2563,7 +2564,7 @@ msgid ""
 "Deleting <b>$0</b> will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"Kohteen <b>$0</b>  poistaminen katkaisee yhteyden palvelimeen, jolloin "
+"Kohteen <b>$0</b> poistaminen katkaisee yhteyden palvelimeen, jolloin "
 "hallintakäyttöliittymä ei ole saatavilla."
 
 #: pkg/kubernetes/views/item-delete.html:7
@@ -3089,7 +3090,7 @@ msgid ""
 "time you reconnect to this machine"
 msgstr ""
 "Erilaisen salasanan antaminen tässä tarkoittaa, että sinun tulee antaa "
-"salasana uudestaan joka kerta kun yhdistät uudelleen tähän koneeseen."
+"salasana uudestaan joka kerta kun yhdistät uudelleen tähän koneeseen"
 
 #: pkg/networkmanager/firewall.jsx:757
 msgid "Entire subnet"
@@ -3149,11 +3150,11 @@ msgstr "Virheviesti Dockerilta:"
 
 #: pkg/users/authorized-keys.js:121
 msgid "Error saving authorized keys: "
-msgstr "Virhe tallentaessa valtuutettuja avaimia:"
+msgstr "Virhe tallentaessa valtuutettuja avaimia: "
 
 #: pkg/selinux/setroubleshoot-client.js:193
 msgid "Error while deleting alert: $0"
-msgstr "Virhe poistaessa hälytystä:"
+msgstr "Virhe poistaessa hälytystä: $0"
 
 #: pkg/selinux/setroubleshoot.js:67
 msgid "Error while setting SELinux mode: '$0'"
@@ -3601,7 +3602,7 @@ msgstr "Laitteistotiedot"
 
 #: pkg/networkmanager/interfaces.js:2863
 msgid "Hello time $hello_time"
-msgstr "Hello time $hello_time"
+msgstr "Tervehdys aika on $hello_time"
 
 #: pkg/machines/components/diskAdd.jsx:238
 msgid "Hide Performance Options"
@@ -3733,7 +3734,7 @@ msgstr "Id:"
 #: node_modules/registry-image-widgets/views/image-listing.html:7
 #: node_modules/registry-image-widgets/views/image-body.html:24
 msgid "Identifier"
-msgstr "Tunniste:"
+msgstr "Tunniste"
 
 #: pkg/kubernetes/views/user-page.html:22
 #: pkg/kubernetes/views/user-panel.html:18
@@ -4040,7 +4041,7 @@ msgstr "Virheellinen päivämuoto."
 
 #: pkg/users/local.js:1237
 msgid "Invalid expiration date"
-msgstr "Virheellinen vanhenemispäivä."
+msgstr "Virheellinen vanhenemispäivä"
 
 #: pkg/lib/credentials.js:285
 msgid "Invalid file permissions"
@@ -4989,7 +4990,7 @@ msgstr ""
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:67
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:82
 msgid "Name should not be empty"
-msgstr "Nimen ei tule olla tyhjä."
+msgstr "Nimen ei tule olla tyhjä"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:36
 msgid "Name: "
@@ -5090,7 +5091,7 @@ msgstr "Verkot"
 
 #: pkg/users/local.js:963
 msgid "Never"
-msgstr "Ei  koskaan"
+msgstr "Ei koskaan"
 
 #: pkg/users/index.html:297 pkg/users/local.js:868
 msgid "Never expire password"
@@ -5295,7 +5296,7 @@ msgstr "Levyjä ei ole saatavilla."
 
 #: pkg/machines/components/vmDisksTab.jsx:85
 msgid "No disks defined for this VM"
-msgstr "Tälle virtuaalikoneelle ei ole määritetty levyjä."
+msgstr "Tälle virtuaalikoneelle ei ole määritetty levyjä"
 
 #: pkg/storaged/drives-panel.jsx:120
 msgid "No drives attached"
@@ -7666,7 +7667,7 @@ msgstr "Koko"
 
 #: pkg/storaged/dialog.jsx:911
 msgid "Size cannot be negative"
-msgstr "Koko ei  voi olla negatiivinen"
+msgstr "Koko ei voi olla negatiivinen"
 
 #: pkg/storaged/dialog.jsx:909
 msgid "Size cannot be zero"
@@ -8541,7 +8542,7 @@ msgstr "Käyttäjällä <b>$0</b> ei ole oikeutta hallita palvelimia"
 
 #: pkg/storaged/storage-controls.jsx:73
 msgid "The user <b>$0</b> is not permitted to manage storage"
-msgstr "Käyttäjällä  <b>$0</b> ei ole oikeutta hallita tallennustilaa"
+msgstr "Käyttäjällä <b>$0</b> ei ole oikeutta hallita tallennustilaa"
 
 #: pkg/users/local.js:43
 msgid "The user <b>$0</b> is not permitted to modify accounts"
@@ -8689,7 +8690,7 @@ msgstr "Tämä kone on jo lisätty."
 
 #: pkg/realmd/operation.html:80
 msgid "This may take a while"
-msgstr "Tässä voi mennä hetki."
+msgstr "Tässä voi mennä hetki"
 
 #: pkg/kubernetes/views/pv-modify.html:24
 msgid ""
@@ -8699,7 +8700,7 @@ msgstr ""
 
 #: src/bridge/cockpitpackages.c:506
 msgid "This package is not compatible with this version of Cockpit"
-msgstr "Tämä paketti ei ole yhteensopiva tämän Cockpitin version kanssa."
+msgstr "Tämä paketti ei ole yhteensopiva tämän Cockpitin version kanssa"
 
 #: src/bridge/cockpitpackages.c:495
 #, c-format
@@ -8959,7 +8960,7 @@ msgstr "Kirjoita salasana"
 
 #: pkg/docker/containers-view.jsx:115
 msgid "Type to filter…"
-msgstr "Kirjoita suodattaaksesi..."
+msgstr "Kirjoita suodattaaksesi…"
 
 #: pkg/kubernetes/views/details-page.html:7
 msgid "Type:"
