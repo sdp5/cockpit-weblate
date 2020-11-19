@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-11-09 10:35+0000\n"
+"PO-Revision-Date: 2020-11-20 18:35+0000\n"
 "Last-Translator: Alain Nussbaumer <alain.nussbaumer@alleluia.ch>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/fr/>\n"
@@ -1544,7 +1544,7 @@ msgstr "Modifier les paramètres"
 #: pkg/machines/components/vcpuModal.jsx:183
 #: pkg/machines/components/nicEdit.jsx:272
 msgid "Changes will take effect after shutting down the VM"
-msgstr "Ces modifications prendront effet après l’extinction de la VM"
+msgstr "Ces modifications prendront effet après l'extinction de la VM"
 
 #: pkg/networkmanager/interfaces.js:3152
 msgid ""
