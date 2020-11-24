@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-11-19 10:35+0000\n"
+"PO-Revision-Date: 2020-11-25 20:35+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/sk/>\n"
@@ -846,7 +846,7 @@ msgstr "Pokročilé TCA"
 
 #: pkg/systemd/service-details.jsx:431
 msgid "After"
-msgstr ""
+msgstr "Po"
 
 #: pkg/systemd/services.html:309
 msgctxt "time-delay"
@@ -871,7 +871,7 @@ msgstr "Výstraha a závažnejšie"
 
 #: pkg/systemd/services.html:64 pkg/systemd/logs.js:239 pkg/systemd/logs.js:416
 msgid "All"
-msgstr ""
+msgstr "Všetko"
 
 #: pkg/lib/machine-info.js:79
 msgid "All In One"
@@ -902,7 +902,7 @@ msgstr ""
 
 #: pkg/lib/cockpit-components-modifications.jsx:81
 msgid "Ansible"
-msgstr ""
+msgstr "Ansible"
 
 #: pkg/lib/cockpit-components-modifications.jsx:91
 msgid "Ansible roles documentation"
@@ -910,12 +910,12 @@ msgstr ""
 
 #: pkg/systemd/terminal.jsx:94
 msgid "Appearance:"
-msgstr ""
+msgstr "Vzhľad:"
 
 #: pkg/apps/index.html:23 pkg/apps/application-list.jsx:148
 #: pkg/apps/application.jsx:143 pkg/apps/manifest.json.in
 msgid "Applications"
-msgstr ""
+msgstr "Aplikácie"
 
 #: pkg/networkmanager/index.html:487 pkg/networkmanager/index.html:513
 #: pkg/networkmanager/index.html:539 pkg/networkmanager/index.html:565
@@ -1019,7 +1019,7 @@ msgstr ""
 #: pkg/networkmanager/interfaces.js:3312
 #: pkg/systemd/overview-cards/realmd-operation.js:339
 msgid "Automatic"
-msgstr ""
+msgstr "Automaticky"
 
 #: pkg/networkmanager/interfaces.js:1954
 msgid "Automatic (DHCP only)"
@@ -1061,7 +1061,7 @@ msgstr ""
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:70
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:166
 msgid "Autostart"
-msgstr ""
+msgstr "Automatické spustenie"
 
 #: pkg/lib/machine-change-auth.html:66
 #: pkg/machines/components/vm/vmUsageTab.jsx:65
@@ -1111,7 +1111,7 @@ msgstr ""
 
 #: pkg/systemd/service-details.jsx:430
 msgid "Before"
-msgstr ""
+msgstr "Pred"
 
 #: pkg/systemd/service-details.jsx:421
 msgid "Binds To"
@@ -1119,11 +1119,11 @@ msgstr ""
 
 #: pkg/systemd/terminal.jsx:99
 msgid "Black"
-msgstr ""
+msgstr "Čierny"
 
 #: pkg/lib/machine-info.js:94
 msgid "Blade"
-msgstr ""
+msgstr "Blade"
 
 #: pkg/lib/machine-info.js:95
 msgid "Blade enclosure"
@@ -1131,7 +1131,7 @@ msgstr ""
 
 #: pkg/storaged/block-details.jsx:34
 msgid "Block"
-msgstr ""
+msgstr "Blok"
 
 #: pkg/storaged/content-views.jsx:693
 msgid "Block device for filesystems"
@@ -1139,12 +1139,12 @@ msgstr ""
 
 #: pkg/storaged/mdraid-details.jsx:98
 msgid "Blocked"
-msgstr ""
+msgstr "Blokované"
 
 #: pkg/networkmanager/interfaces.js:2493 pkg/networkmanager/interfaces.js:2505
 #: pkg/networkmanager/interfaces.js:2773
 msgid "Bond"
-msgstr ""
+msgstr "Väzba"
 
 #: pkg/networkmanager/index.html:499
 msgid "Bond Settings"
@@ -1166,7 +1166,7 @@ msgstr ""
 #: pkg/networkmanager/interfaces.js:2499 pkg/networkmanager/interfaces.js:2511
 #: pkg/networkmanager/interfaces.js:2850
 msgid "Bridge"
-msgstr ""
+msgstr "Most"
 
 #: pkg/networkmanager/index.html:603
 msgid "Bridge Port Settings"
@@ -1202,7 +1202,7 @@ msgstr ""
 #: pkg/machines/components/vm/bootOrderModal.jsx:132
 #: pkg/machines/components/vmDisksTab.jsx:113
 msgid "Bus"
-msgstr ""
+msgstr "Zbernica"
 
 #: pkg/lib/machine-info.js:86
 msgid "Bus Expansion Chassis"
@@ -1212,7 +1212,7 @@ msgstr ""
 #: pkg/docker/containers-view.jsx:359 pkg/systemd/hwinfo.jsx:99
 #: pkg/systemd/overview-cards/usageCard.jsx:121
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: pkg/systemd/graphs.js:487
 msgid "CPU Graph"
@@ -1246,7 +1246,7 @@ msgstr ""
 #: pkg/machines/components/diskAdd.jsx:164
 #: pkg/machines/components/vmDiskColumns.jsx:75
 msgid "Cache"
-msgstr ""
+msgstr "Vyrovnávacia pamäť"
 
 #: pkg/systemd/graphs.html:161 pkg/systemd/graphs.js:392
 msgid "Cached"
@@ -1322,17 +1322,17 @@ msgstr ""
 
 #: pkg/machines/components/vmDisksTab.jsx:111
 msgid "Capacity"
-msgstr ""
+msgstr "Kapacita"
 
 #: pkg/networkmanager/interfaces.js:2572
 msgid "Carrier"
-msgstr ""
+msgstr "Nosný signál"
 
 #: pkg/docker/index.html:664 pkg/systemd/index.html:123
 #: pkg/systemd/index.html:261 pkg/users/index.html:277 pkg/users/index.html:316
 #: pkg/storaged/iscsi-panel.jsx:188
 msgid "Change"
-msgstr ""
+msgstr "Zmeniť"
 
 #: pkg/systemd/index.html:217
 msgid "Change Host Name"
@@ -1438,7 +1438,7 @@ msgstr ""
 
 #: pkg/systemd/hwinfo.jsx:257
 msgid "Class"
-msgstr ""
+msgstr "Trieda"
 
 #: pkg/storaged/jobs-panel.jsx:55
 msgid "Cleaning up for $target"
@@ -1478,7 +1478,7 @@ msgstr ""
 #: pkg/lib/cockpit-components-modifications.jsx:103 pkg/sosreport/index.js:45
 #: pkg/sosreport/index.js:127 pkg/storaged/dialog.jsx:400
 msgid "Close"
-msgstr ""
+msgstr "Zavrieť"
 
 #: pkg/shell/active-pages.js:104
 msgid "Close Selected Pages"
@@ -1486,7 +1486,7 @@ msgstr ""
 
 #: src/ws/cockpit.appdata.xml.in:7
 msgid "Cockpit"
-msgstr ""
+msgstr "Cockpit"
 
 #: src/ws/login.js:356
 msgid "Cockpit authentication is configured incorrectly."
@@ -1616,7 +1616,7 @@ msgstr "Príkaz:"
 
 #: pkg/shell/index.html:285
 msgid "Comment"
-msgstr ""
+msgstr "Komentár"
 
 #: pkg/docker/index.html:140 pkg/docker/index.html:718
 #: pkg/docker/containers-view.jsx:328
@@ -1650,7 +1650,7 @@ msgstr ""
 #: pkg/kdump/kdump-view.jsx:156 pkg/storaged/vdo-details.jsx:303
 #: pkg/storaged/vdos-panel.jsx:120
 msgid "Compression"
-msgstr ""
+msgstr "Kompresia"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:44
 msgid "Computer OU"
@@ -1670,7 +1670,7 @@ msgstr "Konfigurácia"
 
 #: pkg/networkmanager/interfaces.js:2707
 msgid "Configure"
-msgstr ""
+msgstr "Nastaviť"
 
 #: pkg/docker/storage.jsx:335
 msgid "Configure storage..."
@@ -1678,7 +1678,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:832
 msgid "Configuring"
-msgstr ""
+msgstr "Nastavuje sa"
 
 #: pkg/networkmanager/interfaces.js:836
 msgid "Configuring IP"
@@ -1687,7 +1687,7 @@ msgstr ""
 #: pkg/shell/index.html:323 pkg/users/index.html:176
 #: pkg/storaged/format-dialog.jsx:221
 msgid "Confirm"
-msgstr ""
+msgstr "Potvrdiť"
 
 #: pkg/users/index.html:221
 msgid "Confirm New Password"
@@ -1716,7 +1716,7 @@ msgstr ""
 #: pkg/lib/machine-unknown-hostkey.html:22
 #: pkg/machines/components/serialConsole.jsx:82
 msgid "Connect"
-msgstr ""
+msgstr "Pripojiť"
 
 #: pkg/networkmanager/interfaces.js:2694
 msgid "Connect automatically"
@@ -1764,7 +1764,7 @@ msgstr ""
 #: pkg/machines/components/storagePools/storagePoolList.jsx:54
 #: pkg/machines/hostvmslist.jsx:74
 msgid "Connection"
-msgstr ""
+msgstr "Spojenie"
 
 #: pkg/dashboard/list.js:414
 msgid "Connection Error"
@@ -1840,7 +1840,7 @@ msgstr ""
 
 #: pkg/storaged/content-views.jsx:597
 msgid "Content"
-msgstr ""
+msgstr "Obsah"
 
 #: pkg/shell/index.html:140
 msgid "Continue Session"
@@ -1849,17 +1849,17 @@ msgstr ""
 #: src/base1/test-locale.js:45 src/base1/test-locale.js:56
 #: pkg/playground/translate.js:20
 msgid "Control"
-msgstr ""
+msgstr "Ovládanie"
 
 #: src/base1/test-locale.js:46 src/base1/test-locale.js:58
 #: pkg/playground/translate.js:23
 msgctxt "key"
 msgid "Control"
-msgstr ""
+msgstr "Ovládanie"
 
 #: pkg/lib/machine-info.js:97
 msgid "Convertible"
-msgstr ""
+msgstr "Počítač 2v1"
 
 #: pkg/lib/cockpit-components-context-menu.jsx:103
 msgid "Copy"
@@ -1934,7 +1934,7 @@ msgstr ""
 #: pkg/storaged/lvol-tabs.jsx:361 pkg/storaged/mdraids-panel.jsx:123
 #: pkg/storaged/vdos-panel.jsx:146 pkg/storaged/vgroups-panel.jsx:90
 msgid "Create"
-msgstr ""
+msgstr "Vytvoriť"
 
 #: pkg/storaged/things-panel.jsx:66
 msgid "Create Devices"
@@ -2153,7 +2153,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:3301
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: pkg/networkmanager/interfaces.js:2638
 msgid "DNS $val"
@@ -2169,11 +2169,11 @@ msgstr ""
 
 #: pkg/systemd/terminal.jsx:100
 msgid "Dark"
-msgstr ""
+msgstr "Tmavý"
 
 #: pkg/dashboard/index.html:22
 msgid "Dashboard"
-msgstr ""
+msgstr "Prehľad"
 
 #: pkg/storaged/lvol-tabs.jsx:465
 msgid "Data Used"
@@ -2207,7 +2207,7 @@ msgstr ""
 
 #: pkg/systemd/index.html:178
 msgid "Delay"
-msgstr ""
+msgstr "Omeškanie"
 
 #: pkg/docker/index.html:139 pkg/docker/index.html:251
 #: pkg/networkmanager/index.html:440 pkg/users/index.html:79
@@ -2523,11 +2523,11 @@ msgstr ""
 
 #: pkg/packagekit/updates.jsx:60
 msgid "Downloaded"
-msgstr ""
+msgstr "Stiahnuté"
 
 #: pkg/packagekit/updates.jsx:52
 msgid "Downloading"
-msgstr ""
+msgstr "Sťahuje sa"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:182
 msgid "Downloading $0"
@@ -2557,7 +2557,7 @@ msgstr ""
 #: pkg/machines/components/nicEdit.jsx:212 pkg/storaged/crypto-tab.jsx:129
 #: pkg/storaged/nfs-details.jsx:307
 msgid "Edit"
-msgstr ""
+msgstr "Upraviť"
 
 #: pkg/dashboard/index.html:130
 msgid "Edit Server"
@@ -2582,13 +2582,13 @@ msgstr ""
 #: pkg/playground/translate.html:57 src/base1/test-locale.js:47
 #: src/base1/test-locale.js:57 pkg/playground/translate.js:11
 msgid "Empty"
-msgstr ""
+msgstr "Prázdny"
 
 #: pkg/playground/translate.html:62 src/base1/test-locale.js:48
 #: src/base1/test-locale.js:59 pkg/playground/translate.js:17
 msgctxt "verb"
 msgid "Empty"
-msgstr ""
+msgstr "Vyprázdniť"
 
 #: pkg/storaged/jobs-panel.jsx:75
 msgid "Emptying $target"
@@ -2612,7 +2612,7 @@ msgstr "Zapnúť bránu firewall"
 
 #: pkg/systemd/services.html:65 pkg/systemd/init.js:222
 msgid "Enabled"
-msgstr ""
+msgstr "Povolený"
 
 #: pkg/storaged/format-dialog.jsx:209
 msgid "Encrypt data"
@@ -2653,7 +2653,7 @@ msgstr ""
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:238
 msgid "End"
-msgstr ""
+msgstr "Koniec"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:63
 #: pkg/machines/components/networks/createNetworkDialog.jsx:91
@@ -2766,7 +2766,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:1994
 msgid "Ethtool"
-msgstr ""
+msgstr "Ethtool"
 
 #: pkg/systemd/logs.html:55 pkg/docker/containers-view.jsx:108
 msgid "Everything"
@@ -2920,7 +2920,7 @@ msgstr "Odtlačok"
 #: pkg/networkmanager/firewall.html:22 pkg/networkmanager/index.html:103
 #: pkg/networkmanager/firewall.jsx:948 pkg/networkmanager/firewall.jsx:952
 msgid "Firewall"
-msgstr ""
+msgstr "Brána firewall"
 
 #: pkg/networkmanager/firewall.jsx:888
 msgid "Firewall is not available"
@@ -5731,11 +5731,11 @@ msgstr ""
 
 #: pkg/storaged/jobs-panel.jsx:77
 msgid "Renaming $target"
-msgstr ""
+msgstr "Premenováva sa $target"
 
 #: pkg/storaged/jobs-panel.jsx:48
 msgid "Repairing $target"
-msgstr ""
+msgstr "Opravuje sa $target"
 
 #: pkg/systemd/services.html:343
 msgid "Repeat Daily"
@@ -5764,27 +5764,27 @@ msgstr ""
 
 #: pkg/systemd/reporting.jsx:428
 msgid "Report"
-msgstr ""
+msgstr "Nahlásiť"
 
 #: pkg/systemd/reporting.jsx:152
 msgid "Report to ABRT Analytics"
-msgstr ""
+msgstr "Nahlásiť do ABRT Analytics"
 
 #: pkg/systemd/reporting.jsx:409
 msgid "Reported; no links available"
-msgstr ""
+msgstr "Nahlásené; nie su dostupné žiadne odkazy"
 
 #: pkg/systemd/reporting.jsx:305
 msgid "Reporting failed"
-msgstr ""
+msgstr "Nahlasovanie sa nepodarilo"
 
 #: pkg/systemd/reporting.jsx:205
 msgid "Reporting was canceled"
-msgstr ""
+msgstr "Nahlasovanie bolo zrušené"
 
 #: pkg/systemd/reporting.jsx:407
 msgid "Reports:"
-msgstr ""
+msgstr "Hlásenia:"
 
 #: pkg/docker/index.html:690
 msgid "Repository"
@@ -6351,11 +6351,11 @@ msgstr ""
 
 #: pkg/machines/components/vcpuModal.jsx:220 pkg/systemd/services.jsx:51
 msgid "Sockets"
-msgstr ""
+msgstr "Sokety"
 
 #: pkg/packagekit/index.html:23 pkg/packagekit/manifest.json.in
 msgid "Software Updates"
-msgstr ""
+msgstr "Aktualizácie software"
 
 #: pkg/systemd/hwinfo.jsx:212
 msgid ""
@@ -6370,15 +6370,15 @@ msgstr ""
 
 #: pkg/selinux/setroubleshoot-view.jsx:95
 msgid "Solution applied successfully"
-msgstr ""
+msgstr "Riešenie bolo úspešne aplikované"
 
 #: pkg/selinux/setroubleshoot-view.jsx:101
 msgid "Solution failed"
-msgstr ""
+msgstr "Riešenie sa nepodarilo"
 
 #: pkg/selinux/setroubleshoot-view.jsx:414
 msgid "Solutions"
-msgstr ""
+msgstr "Riešenia"
 
 #: pkg/packagekit/updates.jsx:42
 msgid ""
@@ -6387,7 +6387,7 @@ msgstr ""
 
 #: pkg/networkmanager/firewall.jsx:677
 msgid "Sorted from least trusted to most trusted"
-msgstr ""
+msgstr "Zoradené od najmenej po najviac dôverihodné"
 
 #: pkg/machines/components/diskAdd.jsx:489
 #: pkg/machines/components/nicBody.jsx:146
@@ -6395,7 +6395,7 @@ msgstr ""
 #: pkg/machines/components/vmDisksTab.jsx:117
 #: pkg/machines/components/vmnetworktab.jsx:179
 msgid "Source"
-msgstr ""
+msgstr "Zdroj"
 
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:57
 msgid "Source Format"
