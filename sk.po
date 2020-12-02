@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-11-27 17:35+0000\n"
+"PO-Revision-Date: 2020-12-04 13:35+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/sk/>\n"
@@ -2353,7 +2353,6 @@ msgid "Devices"
 msgstr "Zariadenia"
 
 #: pkg/sosreport/manifest.json.in
-#, fuzzy
 msgid "Diagnostic Reports"
 msgstr "Diagnostické hlásenia"
 
@@ -8442,7 +8441,7 @@ msgstr ""
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:194
 msgid "iSCSI target IQN"
-msgstr ""
+msgstr "IQN pre iSCSI cieľ"
 
 #: pkg/machines/helpers.js:196
 msgid "idle"
@@ -8455,31 +8454,31 @@ msgstr "Neaktívne"
 
 #: pkg/apps/manifest.json.in
 msgid "install"
-msgstr ""
+msgstr "inštalovať"
 
 #: pkg/networkmanager/manifest.json.in
 msgid "interface"
-msgstr ""
+msgstr "rozhranie"
 
 #: pkg/kdump/kdump-view.jsx:379
 msgid "invalid: multiple targets defined"
-msgstr ""
+msgstr "neplatné: viacero definovaných cieľov"
 
 #: pkg/networkmanager/manifest.json.in
 msgid "ipv4"
-msgstr ""
+msgstr "ipv4"
 
 #: pkg/networkmanager/manifest.json.in
 msgid "ipv6"
-msgstr ""
+msgstr "ipv6"
 
 #: pkg/storaged/manifest.json.in
 msgid "iscsi"
-msgstr ""
+msgstr "iscsi"
 
 #: pkg/machines/manifest.json.in
 msgid "iso"
-msgstr ""
+msgstr "iso"
 
 #: pkg/systemd/manifest.json.in
 msgid "journal"
@@ -8547,28 +8546,28 @@ msgstr "pamäť"
 
 #: pkg/systemd/manifest.json.in
 msgid "mitigation"
-msgstr ""
+msgstr "zmiernenie"
 
 #: pkg/storaged/manifest.json.in
 msgid "mkfs"
-msgstr ""
+msgstr "mkfs"
 
 #: pkg/storaged/manifest.json.in
 msgid "mount"
-msgstr ""
+msgstr "mount"
 
 #: pkg/storaged/manifest.json.in
 msgid "nbde"
-msgstr ""
+msgstr "nbde"
 
 #: pkg/machines/helpers.js:207 pkg/machines/helpers.js:218
 #: pkg/networkmanager/manifest.json.in
 msgid "network"
-msgstr ""
+msgstr "sieť"
 
 #: pkg/storaged/manifest.json.in
 msgid "nfs"
-msgstr ""
+msgstr "nfs"
 
 #: pkg/kdump/kdump-client.js:117
 msgid "nfs dump target isn't formated as server:path"
@@ -8579,19 +8578,19 @@ msgstr ""
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:71
 #: pkg/machines/helpers.js:241
 msgid "no"
-msgstr ""
+msgstr "nie"
 
 #: pkg/docker/run.js:419 pkg/docker/run.js:475 pkg/docker/run.js:529
 #: pkg/docker/run.js:574 pkg/tuned/dialog.js:105
 msgid "none"
-msgstr ""
+msgstr "žiaden"
 
 #: pkg/systemd/graphs.js:142 pkg/systemd/overview-cards/usageCard.jsx:112
 msgid "of $0 CPU"
 msgid_plural "of $0 CPUs"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "z $0 procesoru"
+msgstr[1] "z $0 procesorov"
+msgstr[2] "z $0 procesorov"
 
 #: pkg/systemd/manifest.json.in
 msgid "operating system"
@@ -8599,15 +8598,15 @@ msgstr "Operačný systém"
 
 #: pkg/systemd/manifest.json.in
 msgid "os"
-msgstr ""
+msgstr "os"
 
 #: pkg/packagekit/manifest.json.in
 msgid "package"
-msgstr ""
+msgstr "balík"
 
 #: pkg/packagekit/manifest.json.in
 msgid "packagekit"
-msgstr ""
+msgstr "packagekit"
 
 #: pkg/storaged/manifest.json.in
 msgid "partition"
@@ -8615,15 +8614,15 @@ msgstr ""
 
 #: pkg/users/manifest.json.in
 msgid "passwd"
-msgstr ""
+msgstr "passwd"
 
 #: pkg/users/manifest.json.in
 msgid "password"
-msgstr ""
+msgstr "heslo"
 
 #: pkg/systemd/manifest.json.in
 msgid "path"
-msgstr ""
+msgstr "umiestnenie"
 
 #: pkg/machines/helpers.js:197
 msgid "paused"
@@ -8631,7 +8630,7 @@ msgstr ""
 
 #: pkg/systemd/manifest.json.in
 msgid "pci"
-msgstr ""
+msgstr "pci"
 
 #: pkg/apps/manifest.json.in
 msgid "plugin"
@@ -8639,31 +8638,31 @@ msgstr ""
 
 #: pkg/networkmanager/manifest.json.in
 msgid "port"
-msgstr ""
+msgstr "port"
 
 #: pkg/systemd/manifest.json.in
 msgid "power"
-msgstr ""
+msgstr "napájanie"
 
 #: pkg/machines/manifest.json.in
 msgid "pxe"
-msgstr ""
+msgstr "pxe"
 
 #: pkg/machines/manifest.json.in
 msgid "qcow2"
-msgstr ""
+msgstr "qcow2"
 
 #: pkg/machines/manifest.json.in
 msgid "qemu"
-msgstr ""
+msgstr "qemu"
 
 #: pkg/storaged/manifest.json.in
 msgid "raid"
-msgstr ""
+msgstr "raid"
 
 #: pkg/systemd/manifest.json.in
 msgid "ram"
-msgstr ""
+msgstr "ram"
 
 #: pkg/storaged/fsys-tab.jsx:379
 msgid "read only"
@@ -8671,7 +8670,7 @@ msgstr ""
 
 #: pkg/tuned/change-profile.jsx:42
 msgid "recommended"
-msgstr ""
+msgstr "odporúčaný"
 
 #: pkg/machines/helpers.js:209
 msgid "redirected device"
@@ -8679,11 +8678,11 @@ msgstr ""
 
 #: pkg/systemd/manifest.json.in
 msgid "restart"
-msgstr ""
+msgstr "reštartovať"
 
 #: pkg/users/manifest.json.in
 msgid "roles"
-msgstr ""
+msgstr "role"
 
 #: pkg/machines/helpers.js:195
 msgid "running"
@@ -8691,7 +8690,7 @@ msgstr "Beží"
 
 #: pkg/systemd/overview.jsx:147
 msgid "running $0"
-msgstr ""
+msgstr "beží na $0"
 
 #: pkg/docker/search.js:50
 msgid "search by name, namespace or description"
@@ -8699,7 +8698,7 @@ msgstr ""
 
 #: pkg/packagekit/updates.jsx:266 pkg/packagekit/manifest.json.in
 msgid "security"
-msgstr ""
+msgstr "bezpečnosť"
 
 #: pkg/docker/index.html:406
 msgid "select container"
@@ -8707,7 +8706,7 @@ msgstr ""
 
 #: pkg/selinux/manifest.json.in
 msgid "semanage"
-msgstr ""
+msgstr "semanage"
 
 #: pkg/systemd/manifest.json.in
 msgid "serial"
@@ -8715,15 +8714,15 @@ msgstr ""
 
 #: pkg/machines/helpers.js:224
 msgid "server"
-msgstr ""
+msgstr "server"
 
 #: pkg/systemd/manifest.json.in
 msgid "service"
-msgstr ""
+msgstr "služba"
 
 #: pkg/selinux/manifest.json.in
 msgid "setroubleshoot"
-msgstr ""
+msgstr "setroubleshoot"
 
 #: pkg/docker/index.html:485 pkg/docker/index.html:657
 msgid "shares"
@@ -8731,15 +8730,15 @@ msgstr ""
 
 #: pkg/systemd/manifest.json.in
 msgid "shell"
-msgstr ""
+msgstr "shell"
 
 #: pkg/lib/cockpit-components-inline-notification.jsx:60
 msgid "show less"
-msgstr ""
+msgstr "ukázať menej"
 
 #: pkg/lib/cockpit-components-inline-notification.jsx:58
 msgid "show more"
-msgstr ""
+msgstr "ukázať viac"
 
 #: pkg/systemd/manifest.json.in
 msgid "shut"
