@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-12-04 13:35+0000\n"
+"PO-Revision-Date: 2020-12-06 09:35+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/sk/>\n"
@@ -4441,11 +4441,11 @@ msgstr "Nikdy"
 
 #: pkg/users/index.html:297 pkg/users/local.js:890
 msgid "Never expire password"
-msgstr ""
+msgstr "Nikdy neexpirovať heslo"
 
 #: pkg/users/index.html:258 pkg/users/local.js:898
 msgid "Never lock account"
-msgstr ""
+msgstr "Nikdy nezamknúť účet"
 
 #: pkg/storaged/nfs-details.jsx:136
 msgid "New NFS Mount"
@@ -4461,11 +4461,11 @@ msgstr ""
 
 #: pkg/storaged/crypto-keyslots.jsx:214 pkg/storaged/crypto-keyslots.jsx:260
 msgid "New passphrase"
-msgstr ""
+msgstr "Nová heslová fráza"
 
 #: pkg/lib/credentials.js:237 pkg/users/local.js:109
 msgid "New password was not accepted"
-msgstr ""
+msgstr "Nové heslo nebolo prijaté"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:84
 #: pkg/storaged/iscsi-panel.jsx:50
@@ -4512,7 +4512,7 @@ msgstr ""
 
 #: pkg/storaged/nfs-panel.jsx:100
 msgid "No NFS mounts set up"
-msgstr ""
+msgstr "Nie sú nastavené žiadne NFS pripojenia"
 
 #: pkg/machines/components/nicBody.jsx:114
 msgid "No Network Devices"
@@ -4520,7 +4520,7 @@ msgstr ""
 
 #: pkg/selinux/setroubleshoot-view.jsx:370
 msgid "No SELinux alerts."
-msgstr ""
+msgstr "Žiadne výstrahy SELinux."
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:439
 msgid "No Storage"
@@ -4541,7 +4541,7 @@ msgstr ""
 
 #: pkg/machines/hostvmslist.jsx:76
 msgid "No VM is running or defined on this host"
-msgstr ""
+msgstr "Na tomto stroji nie sú spustené ani definované žiadne virt. stroje"
 
 #: pkg/machines/components/nicBody.jsx:112
 msgid "No Virtual Networks"
@@ -4557,15 +4557,15 @@ msgstr ""
 
 #: pkg/apps/application-list.jsx:133
 msgid "No applications installed or available"
-msgstr ""
+msgstr "Nie sú nainštalované ani dostupné žiadne aplikácie"
 
 #: pkg/sosreport/index.js:129
 msgid "No archive has been created."
-msgstr ""
+msgstr "Nebol vytvorený žiaden archív."
 
 #: pkg/storaged/crypto-keyslots.jsx:589
 msgid "No available slots"
-msgstr ""
+msgstr "Nie sú dostupné žiadne sloty"
 
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:48
 msgid "No boot device found"
@@ -4581,7 +4581,7 @@ msgstr "Nebola nájdená žiadna konfigurácia"
 
 #: pkg/machines/components/consoles.jsx:97
 msgid "No console defined for this virtual machine."
-msgstr ""
+msgstr "Pre tento virtuálny stroj nie je definovaná žiadna konzola."
 
 #: pkg/docker/run.js:372
 msgid "No container specified"
@@ -6027,25 +6027,27 @@ msgstr "Uložiť"
 
 #: pkg/systemd/hwinfo.jsx:226
 msgid "Save and reboot"
-msgstr ""
+msgstr "Uložiť a reštartovať"
 
 #: pkg/storaged/vdos-panel.jsx:121
 msgid "Save space by compressing individual blocks with LZ4"
-msgstr ""
+msgstr "Šetriť priestor komprimovaním jednotlivých blokov pomocou LZ4"
 
 #: pkg/storaged/vdos-panel.jsx:125
 msgid "Save space by storing identical data blocks just once"
-msgstr ""
+msgstr "Šetriť priestor ukladaním rovnakých dátových blokov iba raz"
 
 #: pkg/storaged/crypto-keyslots.jsx:233 pkg/storaged/crypto-keyslots.jsx:283
 msgid ""
 "Saving a new passphrase requires unlocking the disk. Please provide a "
 "current disk passphrase."
 msgstr ""
+"Uloženie novej heslovej frázy vyžaduje odomknutie disku. Zadajte súčasnú "
+"heslovú frázu k disku."
 
 #: pkg/lib/machine-info.js:90
 msgid "Sealed-case PC"
-msgstr ""
+msgstr "Počítač so zapäčatenou skriňou"
 
 #: pkg/shell/index.html:389
 msgid "Search"
@@ -6062,7 +6064,7 @@ msgstr ""
 
 #: pkg/storaged/jobs-panel.jsx:56
 msgid "Securely erasing $target"
-msgstr ""
+msgstr "Bezpečne sa vymazáva $target"
 
 #: pkg/docker/containers-view.jsx:506 pkg/docker/containers-view.jsx:649
 msgid "Security"
@@ -6092,7 +6094,7 @@ msgstr ""
 
 #: pkg/machines/components/vnc.jsx:108
 msgid "Send key"
-msgstr ""
+msgstr "Poslať stlačenie klávesy"
 
 #: pkg/networkmanager/index.html:86 pkg/networkmanager/index.html:127
 #: pkg/networkmanager/index.html:145 pkg/networkmanager/index.html:422
@@ -6123,15 +6125,15 @@ msgstr ""
 
 #: pkg/storaged/iscsi-panel.jsx:45
 msgid "Server address cannot be empty."
-msgstr ""
+msgstr "Adresa server nemôže byť prázdna."
 
 #: pkg/storaged/nfs-details.jsx:144
 msgid "Server cannot be empty."
-msgstr ""
+msgstr "Server nemôže byť prázdny."
 
 #: src/base1/cockpit.js:4050
 msgid "Server has closed the connection."
-msgstr ""
+msgstr "Server zavrel spojenie."
 
 #: pkg/dashboard/index.html:86
 msgid "Servers"
@@ -6152,23 +6154,23 @@ msgstr "Služba má chybu"
 
 #: pkg/kdump/kdump-view.jsx:441
 msgid "Service is running"
-msgstr ""
+msgstr "Služba je spustená"
 
 #: pkg/kdump/kdump-view.jsx:447
 msgid "Service is starting"
-msgstr ""
+msgstr "Služba sa spúšťa"
 
 #: pkg/kdump/kdump-view.jsx:443
 msgid "Service is stopped"
-msgstr ""
+msgstr "Služba je zastavená"
 
 #: pkg/kdump/kdump-view.jsx:449
 msgid "Service is stopping"
-msgstr ""
+msgstr "Služba sa zastavuje"
 
 #: pkg/systemd/services.html:253
 msgid "Service name"
-msgstr ""
+msgstr "Názov služby"
 
 #: pkg/systemd/services.html:4 pkg/systemd/services.html:221
 #: pkg/networkmanager/firewall.jsx:507 pkg/systemd/manifest.json.in
@@ -6182,7 +6184,7 @@ msgstr "Sedenie"
 
 #: pkg/shell/index.html:134
 msgid "Session is about to expire"
-msgstr ""
+msgstr "Relácia čoskoro skončí"
 
 #: pkg/dashboard/index.html:176 pkg/users/index.html:238
 msgid "Set"
@@ -6210,24 +6212,26 @@ msgstr ""
 
 #: pkg/machines/components/nicAdd.jsx:60
 msgid "Set manually"
-msgstr ""
+msgstr "Nastaviť ručne"
 
 #: pkg/networkmanager/index.html:190
 msgid "Set to"
-msgstr ""
+msgstr "Nastaviť na"
 
 #: pkg/packagekit/updates.jsx:63
 msgid "Set up"
-msgstr ""
+msgstr "Nastaviť"
 
 #: pkg/selinux/setroubleshoot-view.jsx:289
 msgid ""
 "Setting deviates from the configured state and will revert on the next boot."
 msgstr ""
+"Nastavenie sa líši od nastaveného stavu a bude vrátené pri ďalšom "
+"reštartovaní."
 
 #: pkg/packagekit/updates.jsx:55
 msgid "Setting up"
-msgstr ""
+msgstr "Nastavuje sa"
 
 #: pkg/storaged/jobs-panel.jsx:51
 msgid "Setting up loop device $target"
@@ -6259,7 +6263,7 @@ msgstr "Zobraziť ďalšie možnosti"
 
 #: pkg/storaged/overview.jsx:52
 msgid "Show all"
-msgstr ""
+msgstr "Ukázať všetko"
 
 #: pkg/storaged/things-panel.jsx:82
 msgid "Show all $0 devices"
