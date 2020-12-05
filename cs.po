@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-11-19 10:35+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"PO-Revision-Date: 2020-12-06 09:35+0000\n"
+"Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/cs/>\n"
 "Language: cs\n"
@@ -6717,6 +6717,7 @@ msgid "Secure Shell keys"
 msgstr "Klíče zabezpečeného shellu"
 
 #: pkg/storaged/jobs-panel.jsx:56
+#, fuzzy
 msgid "Securely erasing $target"
 msgstr "Jisté vymazávání $target"
 
@@ -6905,6 +6906,7 @@ msgstr ""
 "virt. stroje při jeho vytváření"
 
 #: pkg/packagekit/updates.jsx:65
+#, fuzzy
 msgid "Setting up"
 msgstr "Nastavení"
 
