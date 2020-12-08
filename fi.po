@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-12-04 13:35+0000\n"
+"PO-Revision-Date: 2020-12-09 10:35+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/fi/>\n"
@@ -4189,7 +4189,7 @@ msgstr "Kernel"
 
 #: pkg/kdump/index.html:23
 msgid "Kernel Dump"
-msgstr ""
+msgstr "Ytimen tyhjennys"
 
 #: pkg/kubernetes/views/node-body.html:19
 msgid "Kernel Version"
