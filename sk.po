@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-12-09 11:35+0000\n"
+"PO-Revision-Date: 2020-12-10 08:47+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/sk/>\n"
@@ -946,7 +946,7 @@ msgstr "Aplikuje sa riešenie..."
 
 #: pkg/packagekit/updates.jsx:45
 msgid "Applying updates"
-msgstr ""
+msgstr "Aplikujú sa aktulizácie"
 
 #: pkg/packagekit/updates.jsx:47
 msgid "Applying updates failed"
@@ -971,7 +971,7 @@ msgstr ""
 
 #: pkg/selinux/setroubleshoot-view.jsx:419
 msgid "Audit log"
-msgstr ""
+msgstr "Záznam auditu"
 
 #: pkg/networkmanager/interfaces.js:834
 msgid "Authenticating"
@@ -992,7 +992,7 @@ msgstr ""
 
 #: src/ws/login.js:685
 msgid "Authentication failed"
-msgstr ""
+msgstr "Overenie sa nepodarilo"
 
 #: src/bridge/org.cockpit-project.cockpit-bridge.policy.in:11
 msgid ""
@@ -1002,7 +1002,7 @@ msgstr ""
 
 #: pkg/storaged/iscsi-panel.jsx:153
 msgid "Authentication required"
-msgstr ""
+msgstr "Vyžaduje sa overenie"
 
 #: pkg/docker/index.html:702 pkg/docker/containers-view.jsx:413
 msgid "Author"
@@ -1027,7 +1027,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:1944
 msgid "Automatic (DHCP)"
-msgstr ""
+msgstr "Automaticky (DHCP)"
 
 #: pkg/systemd/init.js:313
 msgid "Automatic Startup"
@@ -1043,7 +1043,7 @@ msgstr "Spúšťať libvirt pri zavádzaní systému"
 
 #: pkg/systemd/service-details.jsx:399
 msgid "Automatically starts"
-msgstr ""
+msgstr "Spúšťa sa automaticky"
 
 #: pkg/systemd/index.html:101
 msgid "Automatically using NTP"
@@ -1186,7 +1186,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:2786 pkg/networkmanager/interfaces.js:2820
 msgid "Broken configuration"
-msgstr ""
+msgstr "Chybné nastavenia"
 
 #: pkg/packagekit/updates.jsx:860
 msgid "Bug Fix Updates Available"
@@ -1360,7 +1360,7 @@ msgstr ""
 
 #: pkg/storaged/crypto-keyslots.jsx:255
 msgid "Change passphrase"
-msgstr ""
+msgstr "Zmeniť heslovú frázu"
 
 #: pkg/docker/index.html:229
 msgid "Change resource limits"
@@ -1394,11 +1394,11 @@ msgstr "Skontrolovať aktualizácie"
 
 #: pkg/storaged/jobs-panel.jsx:47
 msgid "Checking $target"
-msgstr ""
+msgstr "Overuje sa $target"
 
 #: pkg/networkmanager/interfaces.js:838
 msgid "Checking IP"
-msgstr ""
+msgstr "Overuje sa IP adresa"
 
 #: pkg/storaged/jobs-panel.jsx:63
 msgid "Checking RAID Device $target"
@@ -1633,7 +1633,7 @@ msgstr ""
 
 #: pkg/lib/machine-info.js:92
 msgid "Compact PCI"
-msgstr ""
+msgstr "Kompaktné PCI"
 
 #: pkg/storaged/content-views.jsx:559
 msgid "Compatible with all systems and devices (MBR)"
@@ -1662,7 +1662,7 @@ msgstr ""
 
 #: pkg/systemd/service-details.jsx:493
 msgid "Condition failed"
-msgstr ""
+msgstr "Podmienka nesplnená"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:379
 msgid "Configuration"
@@ -1682,7 +1682,7 @@ msgstr "Nastavuje sa"
 
 #: pkg/networkmanager/interfaces.js:836
 msgid "Configuring IP"
-msgstr ""
+msgstr "Nastavuje sa IP adresa"
 
 #: pkg/shell/index.html:323 pkg/users/index.html:176
 #: pkg/storaged/format-dialog.jsx:221
@@ -1720,11 +1720,11 @@ msgstr "Pripojiť"
 
 #: pkg/networkmanager/interfaces.js:2694
 msgid "Connect automatically"
-msgstr ""
+msgstr "Pripojiť automaticky"
 
 #: src/ws/login.html:74
 msgid "Connect to"
-msgstr ""
+msgstr "Pripojiť k"
 
 #: pkg/machines/components/desktopConsole.jsx:188
 msgid "Connect with any $0 viewer application."
@@ -1772,7 +1772,7 @@ msgstr "Chyba pripojenia"
 
 #: pkg/shell/index.html:427
 msgid "Connection failed"
-msgstr ""
+msgstr "Pripojenie sa nepodarilo"
 
 #: src/base1/cockpit.js:4044
 msgid "Connection has timed out."
@@ -1796,7 +1796,7 @@ msgstr ""
 
 #: pkg/systemd/overview-cards/realmd-operation.js:276
 msgid "Contacted domain"
-msgstr ""
+msgstr "Pripojená doména"
 
 #: pkg/docker/console.html:4
 msgid "Container"
@@ -2011,7 +2011,7 @@ msgstr ""
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:885
 msgid "Create VM"
-msgstr ""
+msgstr "Vytvoriť virt. stroj"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:470
 #: pkg/machines/components/networks/createNetworkDialog.jsx:518
@@ -2034,7 +2034,7 @@ msgstr ""
 #: pkg/networkmanager/interfaces.js:3813 pkg/networkmanager/interfaces.js:4016
 #: pkg/networkmanager/interfaces.js:4271 pkg/networkmanager/interfaces.js:4477
 msgid "Create it"
-msgstr ""
+msgstr "Vytvoriť to"
 
 #: pkg/storaged/content-views.jsx:755
 msgid "Create new Logical Volume"
@@ -2140,7 +2140,7 @@ msgstr ""
 
 #: pkg/networkmanager/firewall.jsx:686
 msgid "Custom zones"
-msgstr ""
+msgstr "Užívateľsky určené zóny"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:119
 #: pkg/machines/components/networks/networkOverviewTab.jsx:142
@@ -2157,7 +2157,7 @@ msgstr "DNS"
 
 #: pkg/networkmanager/interfaces.js:2638
 msgid "DNS $val"
-msgstr ""
+msgstr "DNS $val"
 
 #: pkg/networkmanager/interfaces.js:3305
 msgid "DNS Search Domains"
@@ -2261,7 +2261,7 @@ msgstr ""
 
 #: pkg/storaged/jobs-panel.jsx:53 pkg/storaged/jobs-panel.jsx:67
 msgid "Deleting $target"
-msgstr ""
+msgstr "Maže sa $target"
 
 #: pkg/networkmanager/interfaces.js:2417
 msgid ""
@@ -2378,7 +2378,7 @@ msgstr "Vypnúť bránu firewall"
 
 #: pkg/tuned/dialog.js:233
 msgid "Disable tuned"
-msgstr ""
+msgstr "Vypnúť tuned"
 
 #: pkg/systemd/services.html:66 pkg/networkmanager/interfaces.js:1948
 #: pkg/systemd/init.js:225 pkg/systemd/service-details.jsx:334
@@ -2428,7 +2428,7 @@ msgstr "Disk je OK"
 
 #: pkg/storaged/crypto-keyslots.jsx:155
 msgid "Disk passphrase"
-msgstr ""
+msgstr "Heslová fráza k disku"
 
 #: pkg/machines/components/diskAdd.jsx:468
 #: pkg/machines/components/diskEdit.jsx:165
@@ -2530,7 +2530,7 @@ msgstr "Sťahuje sa"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:182
 msgid "Downloading $0"
-msgstr ""
+msgstr "Sťahuje sa $0"
 
 #: pkg/docker/storage.jsx:169 pkg/storaged/drive-details.jsx:68
 msgid "Drive"
@@ -2572,7 +2572,7 @@ msgstr ""
 
 #: pkg/storaged/jobs-panel.jsx:36
 msgid "Ejecting $target"
-msgstr ""
+msgstr "Vysúva sa $target"
 
 #: pkg/lib/machine-info.js:100
 msgid "Embedded PC"
@@ -2591,7 +2591,7 @@ msgstr "Vyprázdniť"
 
 #: pkg/storaged/jobs-panel.jsx:75
 msgid "Emptying $target"
-msgstr ""
+msgstr "Vyprázdňuje sa $target"
 
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:162
 msgid "Emulated Machine"
@@ -2615,11 +2615,11 @@ msgstr "Povolený"
 
 #: pkg/storaged/format-dialog.jsx:209
 msgid "Encrypt data"
-msgstr ""
+msgstr "Šifrovať dáta"
 
 #: pkg/storaged/utils.js:274
 msgid "Encrypted $0"
-msgstr ""
+msgstr "Šifrované $0"
 
 #: pkg/storaged/utils.js:266
 msgid "Encrypted Logical Volume of $0"
@@ -2632,7 +2632,7 @@ msgstr ""
 #: pkg/storaged/content-views.jsx:370
 msgctxt "storage-id-desc"
 msgid "Encrypted data"
-msgstr ""
+msgstr "Šifrované dáta"
 
 #: pkg/storaged/lvol-tabs.jsx:142
 msgid "Encrypted volumes can not be resized here."
@@ -2757,11 +2757,11 @@ msgstr "Chyba pri nastavovaní SELinux režimu: „$0“"
 
 #: pkg/networkmanager/index.html:681
 msgid "Ethernet MAC"
-msgstr ""
+msgstr "Ethernet MAC"
 
 #: pkg/networkmanager/index.html:655
 msgid "Ethernet MTU"
-msgstr ""
+msgstr "Ethernet MTU"
 
 #: pkg/networkmanager/interfaces.js:1994
 msgid "Ethtool"
@@ -2781,7 +2781,7 @@ msgstr "Príklad: 88,2019,nfs,rsync"
 
 #: pkg/users/local.js:447 pkg/users/local.js:1436
 msgid "Excellent password"
-msgstr ""
+msgstr "Skvelé heslo"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:232
 msgid "Existing disk image on host's file system"
@@ -3234,7 +3234,7 @@ msgstr ""
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:193
 msgid "IPv4 only"
-msgstr ""
+msgstr "Iba IPv4"
 
 #: pkg/networkmanager/interfaces.js:2895
 msgid "IPv6"
@@ -3258,7 +3258,7 @@ msgstr "Nastavenia IPv6"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:196
 msgid "IPv6 only"
-msgstr ""
+msgstr "Iba IPv6"
 
 #: pkg/docker/containers-view.jsx:128 pkg/docker/containers-view.jsx:408
 #: pkg/machines/components/diskEdit.jsx:37
@@ -3329,7 +3329,7 @@ msgstr ""
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:885
 msgid "Import VM"
-msgstr ""
+msgstr "Importovať virt. stroj"
 
 #: pkg/storaged/mdraid-details.jsx:95
 msgid "In Sync"
@@ -3521,7 +3521,7 @@ msgstr ""
 
 #: pkg/users/index.html:377
 msgid "Invalid key"
-msgstr ""
+msgstr "Neplatný kľúč"
 
 #: pkg/networkmanager/utils.js:55
 msgid "Invalid metric $0"
@@ -3533,7 +3533,7 @@ msgstr ""
 
 #: pkg/systemd/init.js:1210
 msgid "Invalid number."
-msgstr ""
+msgstr "Neplatné číslo."
 
 #: pkg/docker/run.js:269
 msgid "Invalid port"
@@ -3553,7 +3553,7 @@ msgstr ""
 
 #: pkg/networkmanager/firewall.jsx:413
 msgid "Invalid range"
-msgstr ""
+msgstr "Neplatný rozsah"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:961
 #: pkg/systemd/shutdown.js:152
@@ -3614,7 +3614,7 @@ msgstr "Žurnál"
 
 #: pkg/systemd/logs.js:443
 msgid "Journal entry"
-msgstr ""
+msgstr "Položka žurnálu"
 
 #: pkg/systemd/logs.js:481
 msgid "Journal entry not found"
@@ -3627,7 +3627,7 @@ msgstr ""
 
 #: pkg/networkmanager/index.html:733
 msgid "Keep connection"
-msgstr ""
+msgstr "Zachovať spojenie"
 
 #: pkg/lib/machine-auth-failed.html:10
 msgid "Kerberos Based SSO"
@@ -8342,7 +8342,7 @@ msgstr "vypnuté"
 
 #: pkg/storaged/manifest.json.in
 msgid "drive"
-msgstr ""
+msgstr "jednotka"
 
 #: pkg/machines/helpers.js:201
 msgid "dying"
@@ -8926,7 +8926,7 @@ msgstr "virt. stroj"
 
 #: pkg/storaged/manifest.json.in
 msgid "volume"
-msgstr ""
+msgstr "zväzok"
 
 #: pkg/systemd/manifest.json.in
 msgid "warning"
