@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-12-10 08:47+0000\n"
+"PO-Revision-Date: 2020-12-13 17:35+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/sk/>\n"
@@ -3030,11 +3030,11 @@ msgstr "Všeobecné"
 
 #: pkg/machines/components/nicAdd.jsx:49
 msgid "Generate automatically"
-msgstr ""
+msgstr "Generovať automaticky"
 
 #: pkg/sosreport/index.html:55
 msgid "Generating report"
-msgstr ""
+msgstr "Generuje sa hlásenie"
 
 #: pkg/docker/containers-view.jsx:683
 msgid "Get new image"
@@ -3061,7 +3061,7 @@ msgstr ""
 #: pkg/dashboard/index.html:46 pkg/networkmanager/index.html:67
 #: pkg/networkmanager/index.html:403 pkg/storaged/plot.jsx:72
 msgid "Go to now"
-msgstr ""
+msgstr "Prejsť na súčasnosť"
 
 #: pkg/machines/components/consoles.jsx:51
 msgid "Graphics Console (VNC)"
@@ -3828,7 +3828,7 @@ msgstr ""
 
 #: pkg/users/local.js:901 pkg/users/local.js:1237
 msgid "Lock account on $0"
-msgstr ""
+msgstr "Zamknúť účet na $0"
 
 #: pkg/lib/machine-change-auth.html:76
 msgid "Locked"
@@ -3836,7 +3836,7 @@ msgstr ""
 
 #: pkg/storaged/jobs-panel.jsx:38
 msgid "Locking $target"
-msgstr ""
+msgstr "Zamyká sa $target"
 
 #: pkg/lib/machine-change-auth.html:92 src/ws/login.html:84 src/ws/login.js:516
 msgid "Log In"
@@ -3848,7 +3848,7 @@ msgstr ""
 
 #: pkg/lib/machine-change-auth.html:4
 msgid "Log in to {{host}}"
-msgstr ""
+msgstr "Prihlásiť na {{host}}"
 
 #: src/ws/login.js:542
 msgid "Log in with your server user account."
@@ -3856,7 +3856,7 @@ msgstr ""
 
 #: pkg/systemd/index.html:52
 msgid "Log messages"
-msgstr ""
+msgstr "Záznamy udalostí"
 
 #: pkg/users/local.js:981
 msgid "Logged In"
@@ -3896,7 +3896,7 @@ msgstr ""
 
 #: src/base1/cockpit.js:4032
 msgid "Login failed"
-msgstr ""
+msgstr "Prihlásenie sa nepodarilo"
 
 #: pkg/shell/index.html:36
 msgid "Login has escalated admin privileges"
@@ -3946,11 +3946,11 @@ msgstr "MTU"
 
 #: pkg/networkmanager/interfaces.js:4542
 msgid "MTU must be a positive number"
-msgstr ""
+msgstr "MTU musí byť kladné číslo"
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:104
 msgid "Machine ID"
-msgstr ""
+msgstr "Identifikátor stroja"
 
 #: pkg/systemd/index.html:151
 msgid "Machine SSH Key Fingerprints"
@@ -4631,7 +4631,7 @@ msgstr ""
 
 #: pkg/storaged/iscsi-panel.jsx:269
 msgid "No iSCSI targets set up"
-msgstr ""
+msgstr "Nie sú nastavené žiadne iSCSI ciele"
 
 #: pkg/docker/containers-view.jsx:709
 msgid "No images"
@@ -4643,11 +4643,11 @@ msgstr ""
 
 #: pkg/apps/utils.jsx:96
 msgid "No installation package found for this application."
-msgstr ""
+msgstr "Pre túto aplikáciu nebol nájdený žiaden inštalačný balíček."
 
 #: pkg/storaged/crypto-keyslots.jsx:533
 msgid "No keys added"
-msgstr ""
+msgstr "Žiadne pridané kľúče"
 
 #: pkg/storaged/drive-details.jsx:75
 msgid "No media inserted"
@@ -7826,7 +7826,7 @@ msgstr ""
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:125
 msgid "VM $0 already exists"
-msgstr ""
+msgstr "Virt. stroj $0 už existuje"
 
 #: pkg/machines/hostvmslist.jsx:107
 msgid "VM $0 failed to Reboot"
@@ -7838,35 +7838,35 @@ msgstr ""
 
 #: pkg/machines/hostvmslist.jsx:137
 msgid "VM $0 failed to force shutdown"
-msgstr ""
+msgstr "Virt. stroj $0 sa nepodarilo nútene vypnúť"
 
 #: pkg/machines/components/deleteDialog.jsx:136
 msgid "VM $0 failed to get deleted"
-msgstr ""
+msgstr "Virt. stroj $0 sa nepodarilo zmazať"
 
 #: pkg/machines/hostvmslist.jsx:101 pkg/machines/libvirt-common.js:1402
 msgid "VM $0 failed to get installed"
-msgstr ""
+msgstr "Virt. stroj $0 sa nepodarilo nainštalovať"
 
 #: pkg/machines/hostvmslist.jsx:125
 msgid "VM $0 failed to pause"
-msgstr ""
+msgstr "Virt. stroj $0 sa nepodarilo zastaviť"
 
 #: pkg/machines/hostvmslist.jsx:131
 msgid "VM $0 failed to resume"
-msgstr ""
+msgstr "Virt. stroj $0 sa nepodarilo znovu začať"
 
 #: pkg/machines/hostvmslist.jsx:143
 msgid "VM $0 failed to send NMI"
-msgstr ""
+msgstr "Nepodarilo sa poslať virt. stroju $0 nemaskovateľné prerušenie"
 
 #: pkg/machines/hostvmslist.jsx:119
 msgid "VM $0 failed to shutdown"
-msgstr ""
+msgstr "Virt. stroj $0 sa nepodarilo vypnúť"
 
 #: pkg/machines/hostvmslist.jsx:95
 msgid "VM $0 failed to start"
-msgstr ""
+msgstr "Virt. stroj $0 sa nepodarilo naštartovať"
 
 #: pkg/machines/components/desktopConsole.jsx:187
 msgid "VNC"
@@ -7886,15 +7886,15 @@ msgstr ""
 
 #: pkg/systemd/overview-cards/realmd-operation.js:167
 msgid "Validating address"
-msgstr ""
+msgstr "Overuje sa adresa"
 
 #: src/ws/login.html:99
 msgid "Validating authentication token"
-msgstr ""
+msgstr "Kontroluje sa overovací žetón"
 
 #: pkg/users/authorized-keys.js:108
 msgid "Validating key"
-msgstr ""
+msgstr "Overuje sa kľúč"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:120
 #: pkg/machines/components/vm/bootOrderModal.jsx:126 pkg/systemd/hwinfo.jsx:259
@@ -7907,7 +7907,7 @@ msgstr "Overené"
 
 #: pkg/storaged/crypto-keyslots.jsx:324
 msgid "Verify key"
-msgstr ""
+msgstr "Overiť kľúč"
 
 #: pkg/packagekit/updates.jsx:56
 msgid "Verifying"
@@ -7920,11 +7920,11 @@ msgstr "Verzia"
 
 #: pkg/storaged/jobs-panel.jsx:57
 msgid "Very securely erasing $target"
-msgstr ""
+msgstr "Veľmi bezpečne sa maže $target"
 
 #: pkg/lib/cockpit-components-modifications.jsx:167
 msgid "View automation script"
-msgstr ""
+msgstr "Ukázať automatizačný skript"
 
 #: pkg/systemd/overview-cards/usageCard.jsx:147
 msgid "View graphs"
@@ -7932,17 +7932,17 @@ msgstr ""
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:114
 msgid "View hardware details"
-msgstr ""
+msgstr "Ukázať podrobnosti o hardware"
 
 #: pkg/systemd/reporting.jsx:397
 msgid "View report"
-msgstr ""
+msgstr "Zobraziť hlásenie"
 
 #: pkg/machines/components/networks/networkList.jsx:47
 #: pkg/machines/components/storagePools/storagePoolList.jsx:46
 #: pkg/machines/hostvmslist.jsx:73 pkg/machines/manifest.json.in
 msgid "Virtual Machines"
-msgstr ""
+msgstr "Virtuálne stroje"
 
 #: pkg/machines/index.html:4
 msgid "Virtual Machines Management"
@@ -7991,11 +7991,11 @@ msgstr ""
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:65
 msgid "Volume failed to be created"
-msgstr ""
+msgstr "Zväzok sa nepodarilo vytvoriť"
 
 #: pkg/storaged/lvol-tabs.jsx:425
 msgid "Volume size is $0. Content size is $1."
-msgstr ""
+msgstr "Veľkosť zväzku je $0. Veľkosť obsahu je $1."
 
 #: pkg/docker/index.html:517
 msgid "Volumes"
@@ -8016,24 +8016,24 @@ msgstr "Čaká sa"
 #: pkg/selinux/setroubleshoot-view.jsx:74
 #: pkg/selinux/setroubleshoot-view.jsx:170
 msgid "Waiting for details..."
-msgstr ""
+msgstr "Čaká sa na podrobnosti..."
 
 #: pkg/systemd/reporting.jsx:220
 msgid "Waiting for input…"
-msgstr ""
+msgstr "Čaká sa na vstup…"
 
 #: pkg/apps/utils.jsx:63
 msgid "Waiting for other programs to finish using the package manager..."
-msgstr ""
+msgstr "Čaká sa až ostatné programy dokončia používanie správcu balíčkov..."
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:143
 #: pkg/lib/cockpit-components-install-dialog.jsx:178
 msgid "Waiting for other software management operations to finish"
-msgstr ""
+msgstr "Čaká sa na dokončenie ostatných operácií správy balíčkov"
 
 #: pkg/systemd/reporting.jsx:315
 msgid "Waiting to start…"
-msgstr ""
+msgstr "Čaká sa na spustenie…"
 
 #: pkg/systemd/service-details.jsx:425
 msgid "Wanted By"
@@ -8049,7 +8049,7 @@ msgstr "Varovanie a závažnejšie"
 
 #: src/ws/cockpit.appdata.xml.in:8
 msgid "Web Console for Linux servers"
-msgstr ""
+msgstr "Webová konzola pre linuxové servery"
 
 #: pkg/systemd/services.html:128
 msgid "Wednesday"
@@ -8065,7 +8065,7 @@ msgstr "Týždne"
 
 #: pkg/storaged/crypto-keyslots.jsx:332
 msgid "What if tang-show-keys is not available?"
-msgstr ""
+msgstr "Čo ak príkaz tang-show-keys nie je dostupný?"
 
 #: pkg/systemd/terminal.jsx:102
 msgid "White"
@@ -8077,7 +8077,7 @@ msgstr ""
 
 #: pkg/storaged/mdraid-details.jsx:97
 msgid "Write-mostly"
-msgstr ""
+msgstr "Prevažne zápis"
 
 #: pkg/machines/components/diskEdit.jsx:118
 #: pkg/machines/components/vmDisksTab.jsx:144
@@ -8087,7 +8087,7 @@ msgstr "Zapisovateľný"
 #: pkg/machines/components/diskEdit.jsx:131
 #: pkg/machines/components/vmDisksTab.jsx:144
 msgid "Writeable and shared"
-msgstr ""
+msgstr "Zapisovateľné a zdielané"
 
 #: pkg/storaged/plot.jsx:315
 msgid "Writing"
@@ -8095,7 +8095,7 @@ msgstr "Zapisuje sa"
 
 #: src/ws/login.js:687
 msgid "Wrong user name or password"
-msgstr ""
+msgstr "Chybné užívateľské meno alebo heslo"
 
 #: pkg/networkmanager/interfaces.js:1964
 msgid "XOR"
@@ -8120,13 +8120,13 @@ msgstr ""
 #: pkg/networkmanager/firewall.jsx:145 pkg/networkmanager/firewall.jsx:898
 #: pkg/networkmanager/firewall.jsx:930
 msgid "You are not authorized to modify the firewall."
-msgstr ""
+msgstr "Nemáte oprávnenia na správu brány firewall."
 
 #: pkg/users/index.html:390
 msgid ""
 "You do not have permission to view the authorized public keys for this "
 "account."
-msgstr ""
+msgstr "Nemáte oprávnenia zobrazovať overené kľúče pre tento účet."
 
 #: pkg/docker/storage.jsx:520
 msgid "You don't have permission to manage the Docker storage pool."
@@ -8134,11 +8134,11 @@ msgstr ""
 
 #: pkg/shell/base_index.js:546
 msgid "You have been logged out due to inactivity."
-msgstr ""
+msgstr "Boli ste odhlásený z dôvodu neaktivity."
 
 #: pkg/systemd/logs.js:160
 msgid "You may try to load older entries."
-msgstr ""
+msgstr "Môžte skúsiť načítať skoršie záznamy."
 
 #: pkg/users/local.js:90
 msgid "You must wait longer to change your password"
