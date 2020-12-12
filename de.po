@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-11-01 15:34+0000\n"
-"Last-Translator: Alain Nussbaumer <alain.nussbaumer@alleluia.ch>\n"
+"PO-Revision-Date: 2020-12-13 17:35+0000\n"
+"Last-Translator: Fabian Affolter <mail@fabian-affolter.ch>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/de/>\n"
 "Language: de\n"
@@ -32,7 +32,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: pkg/machines/components/diskAdd.jsx:234
 msgid " Attaching it will make this disk shareable for every VM using it."
@@ -861,7 +861,7 @@ msgstr "Adresse ist keine gültige URL"
 #: pkg/machines/components/networks/createNetworkDialog.jsx:101
 #: pkg/machines/components/networks/createNetworkDialog.jsx:108
 msgid "Address not within subnet"
-msgstr "Addresse befindet sich nicht im Subnetz"
+msgstr "Adresse befindet sich nicht im Subnetz"
 
 #: pkg/machines/components/desktopConsole.jsx:153
 msgid "Address:"
@@ -1240,7 +1240,7 @@ msgstr "Gebunden"
 #: pkg/networkmanager/interfaces.js:2521 pkg/networkmanager/interfaces.js:2533
 #: pkg/networkmanager/interfaces.js:2872
 msgid "Bridge"
-msgstr "Bridge"
+msgstr "Netzwerkbrücke"
 
 #: pkg/networkmanager/index.html:619
 msgid "Bridge Port Settings"
@@ -1252,7 +1252,7 @@ msgstr "Bridge Einstellungen"
 
 #: pkg/networkmanager/interfaces.js:2893
 msgid "Bridge port"
-msgstr "Bridge-Port"
+msgstr "Netzwerkbrücken-Port"
 
 #: pkg/networkmanager/interfaces.js:1977 pkg/networkmanager/interfaces.js:1994
 msgid "Broadcast"
@@ -1287,7 +1287,7 @@ msgstr "Bus-Erweiterungsgehäuse"
 #: pkg/systemd/hwinfo.jsx:101 pkg/systemd/overview-cards/usageCard.jsx:121
 #: pkg/docker/containers-view.jsx:366
 msgid "CPU"
-msgstr "CPU"
+msgstr "Prozessor"
 
 #: pkg/systemd/graphs.js:489
 msgid "CPU Graph"
@@ -2631,7 +2631,7 @@ msgstr "Dockingstation"
 
 #: pkg/systemd/services/services-list.jsx:70
 msgid "Does not automatically start"
-msgstr "Starte nicht automatisch"
+msgstr "Nicht automatisch starten"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:11
 #: pkg/systemd/overview-cards/configurationCard.jsx:290
@@ -2750,7 +2750,7 @@ msgstr "Tang-Keyserver bearbeiten"
 
 #: pkg/shell/hosts.jsx:242
 msgid "Edit hosts"
-msgstr ""
+msgstr "Hosts bearbeiten"
 
 #: pkg/storaged/crypto-keyslots.jsx:548
 msgid "Editing a key requires a free slot"
@@ -2762,7 +2762,7 @@ msgstr "Auswerfen $target"
 
 #: pkg/lib/machine-info.js:100
 msgid "Embedded PC"
-msgstr "Eingebetteter PC"
+msgstr "Embedded PC"
 
 #: pkg/playground/translate.html:56 src/base1/test-locale.js:47
 #: src/base1/test-locale.js:57 pkg/playground/translate.js:13
@@ -2846,11 +2846,12 @@ msgstr "Ende"
 #: pkg/machines/components/networks/createNetworkDialog.jsx:76
 #: pkg/machines/components/networks/createNetworkDialog.jsx:104
 msgid "End should not be empty"
-msgstr ""
+msgstr "Das Ende sollte nicht leer sein"
 
 #: pkg/selinux/setroubleshoot-view.jsx:285
+#, fuzzy
 msgid "Enforcing"
-msgstr ""
+msgstr "Enforcing"
 
 #: pkg/packagekit/updates.jsx:867
 msgid "Enhancement Updates Available"
@@ -3048,7 +3049,7 @@ msgstr "Tuned konnte nicht aktiviert werden"
 
 #: pkg/machines/components/vmnetworktab.jsx:76
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
-msgstr ""
+msgstr "IP-Adresse der Schnittstellen in $0 können nicht bezogen werden"
 
 #: pkg/users/authorized-keys-panel.js:110
 msgid "Failed to load authorized keys."
@@ -3205,7 +3206,7 @@ msgstr "Weiterleitungsverzögerung $forward_delay"
 
 #: pkg/machines/components/networks/networkList.jsx:56
 msgid "Forwarding mode"
-msgstr ""
+msgstr "Weiterleitungs-Modus"
 
 #: pkg/storaged/pvol-tabs.jsx:44
 msgid "Free"
@@ -3287,7 +3288,7 @@ msgstr "Kurve"
 
 #: pkg/networkmanager/interfaces.js:2771
 msgid "Group"
-msgstr ""
+msgstr "Gruppe"
 
 #: pkg/storaged/lvol-tabs.jsx:240 pkg/storaged/lvol-tabs.jsx:389
 #: pkg/storaged/lvol-tabs.jsx:441 pkg/storaged/vdo-details.jsx:228
@@ -3365,11 +3366,11 @@ msgstr "Rechnername"
 
 #: src/base1/cockpit.js:4051
 msgid "Host key is incorrect"
-msgstr "Hostschlüssel ist falsch"
+msgstr "Host-Schlüssel ist falsch"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:608
 msgid "Host name should not be changed in a domain"
-msgstr ""
+msgstr "Host-Name sollte nicht in eine Domain gewechselt werden"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:149
 msgid "Host should not be empty"
@@ -3380,10 +3381,8 @@ msgid "Hostname"
 msgstr "Hostname"
 
 #: pkg/shell/hosts.jsx:198
-#, fuzzy
-#| msgid "Host"
 msgid "Hosts"
-msgstr "Host"
+msgstr "Hosts"
 
 #: pkg/systemd/services.html:258
 msgid "Hour : Minute"
@@ -3399,8 +3398,6 @@ msgid "Hours"
 msgstr "Stunde"
 
 #: pkg/systemd/overview-cards/serverTime.js:620
-#, fuzzy
-#| msgid "Hour needs to be a number between 0-23"
 msgid "Hours must be a number between 0 and 23"
 msgstr "Die Stunde muss eine Zahl zwischen 0 und 23 sein"
 
@@ -3599,11 +3596,11 @@ msgstr "Inaktives Volumen"
 
 #: pkg/networkmanager/firewall.jsx:673
 msgid "Included services"
-msgstr ""
+msgstr "Enthaltene Dienste"
 
 #: pkg/storaged/fsys-tab.jsx:479
 msgid "Inconsistent filesystem mount"
-msgstr ""
+msgstr "Inkonsistenter Dateisystem-Einhängepunkt"
 
 #: pkg/lib/machine-invalid-hostkey.html:2
 msgid "Incorrect Host Key"
@@ -3721,21 +3718,21 @@ msgstr "Interner Fehler"
 #: pkg/machines/components/networks/createNetworkDialog.jsx:71
 #: pkg/machines/components/networks/createNetworkDialog.jsx:78
 msgid "Invalid IPv4 address"
-msgstr "Ungültige IPv4 Adresse"
+msgstr "Ungültige IPv4-Adresse"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:65
 msgid "Invalid IPv4 mask or prefix length"
-msgstr "Ungültige IPv4 Maske oder Prefix-Länge"
+msgstr "Ungültige IPv4-Maske oder Prefix-Länge"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:88
 #: pkg/machines/components/networks/createNetworkDialog.jsx:99
 #: pkg/machines/components/networks/createNetworkDialog.jsx:106
 msgid "Invalid IPv6 address"
-msgstr "Ungültige IPv6 Adresse"
+msgstr "Ungültige IPv6-Adresse"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:93
 msgid "Invalid IPv6 prefix"
-msgstr "Ungültiger IPv6 Prefix"
+msgstr "Ungültiger IPv6-Prefix"
 
 #: pkg/networkmanager/utils.js:90 pkg/networkmanager/utils.js:175
 msgid "Invalid address $0"
@@ -3743,7 +3740,7 @@ msgstr "Ungültige Adresse $0"
 
 #: pkg/systemd/overview-cards/serverTime.js:615 pkg/systemd/shutdown.js:154
 msgid "Invalid date format"
-msgstr "ungültiges Datumsformat"
+msgstr "Ungültiges Datumsformat"
 
 #: pkg/systemd/shutdown.js:150
 msgid "Invalid date format and invalid time format"
@@ -4013,11 +4010,11 @@ msgstr "Lizenziert unter:"
 
 #: pkg/systemd/terminal.jsx:98
 msgid "Light"
-msgstr ""
+msgstr "Leicht"
 
 #: pkg/shell/superuser.jsx:147
 msgid "Limit access"
-msgstr ""
+msgstr "Zugang limitieren"
 
 #: pkg/shell/superuser.jsx:344
 msgid "Limited access"
@@ -4085,7 +4082,7 @@ msgstr "Verfügbare Updates werden geladen, bitte warten ..."
 
 #: pkg/lib/cockpit-components-modifications.jsx:145
 msgid "Loading system modifications..."
-msgstr ""
+msgstr "System-Änderungen laden..."
 
 #: pkg/storaged/devices.jsx:68 pkg/machines/components/serialConsole.jsx:68
 #: pkg/systemd/logs.js:214 pkg/systemd/logs.js:256
@@ -4262,47 +4259,35 @@ msgstr ""
 
 #: pkg/networkmanager/manifest.json.in
 msgid "Managing firewall"
-msgstr ""
+msgstr "Firewall verwalten"
 
 #: pkg/networkmanager/manifest.json.in
-#, fuzzy
-#| msgid "Networking"
 msgid "Managing networking"
-msgstr "Netzwerk"
+msgstr "Netzwerk verwalten"
 
 #: pkg/storaged/manifest.json.in
-#, fuzzy
-#| msgid "Creating partition $target"
 msgid "Managing partitions"
-msgstr "Erzeuge Partition $target"
+msgstr "Partitionen verwalten"
 
 #: pkg/systemd/manifest.json.in
-#, fuzzy
-#| msgid "Backing Device"
 msgid "Managing services"
-msgstr "Sicherungsgerät"
+msgstr "Dienste verwalten"
 
 #: pkg/packagekit/manifest.json.in
-#, fuzzy
-#| msgid "Software Updates"
 msgid "Managing software updates"
-msgstr "Aktualisierungen"
+msgstr "Software-Aktualisierungen verwalten"
 
 #: pkg/storaged/manifest.json.in
-#, fuzzy
-#| msgid "Raw to a device"
 msgid "Managing storage devices"
-msgstr "Raw zu einem Gerät"
+msgstr "Speichergeräte verwalten"
 
 #: pkg/users/manifest.json.in
 msgid "Managing user accounts"
-msgstr ""
+msgstr "Benutzerkonten verwalten"
 
 #: pkg/machines/manifest.json.in
-#, fuzzy
-#| msgid "Virtual Machines"
 msgid "Managing virtual machines"
-msgstr "Virtuelle Maschinen"
+msgstr "Virtuelle Maschinen verwalten"
 
 #: pkg/networkmanager/interfaces.js:1958 pkg/networkmanager/interfaces.js:1968
 msgid "Manual"
@@ -4339,7 +4324,7 @@ msgstr ""
 
 #: pkg/systemd/services/service-details.jsx:403
 msgid "Masked"
-msgstr ""
+msgstr "Maskiert"
 
 #: pkg/systemd/services/service-details.jsx:275
 msgid ""
@@ -4413,7 +4398,7 @@ msgstr ""
 #: pkg/machines/components/vm/memoryModal.jsx:83
 #: pkg/machines/components/vm/memoryModal.jsx:93
 msgid "Memory could not be saved"
-msgstr ""
+msgstr "Speicher konnte nicht gespeichert werden"
 
 #: pkg/docker/index.html:415 pkg/docker/index.html:590
 msgid "Memory limit"
@@ -4441,7 +4426,7 @@ msgstr "Verwendete Metadaten"
 
 #: pkg/shell/superuser.jsx:69
 msgid "Method"
-msgstr ""
+msgstr "Methode"
 
 #: pkg/docker/index.html:429 pkg/docker/index.html:604
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:95
@@ -4475,7 +4460,7 @@ msgstr "Minute muss eine Zahl zwischen 0 und 59 sein"
 
 #: pkg/systemd/hwinfo.jsx:59
 msgid "Mitigations"
-msgstr ""
+msgstr "Milderungen"
 
 #: pkg/networkmanager/index.html:297
 msgid "Mode"
@@ -9485,7 +9470,7 @@ msgstr "systemd"
 
 #: pkg/storaged/manifest.json.in
 msgid "tang"
-msgstr ""
+msgstr "tang"
 
 #: pkg/systemd/manifest.json.in
 msgid "target"
