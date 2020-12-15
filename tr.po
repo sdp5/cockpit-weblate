@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 10:09+0200\n"
-"PO-Revision-Date: 2020-10-29 17:34+0000\n"
+"PO-Revision-Date: 2020-12-17 07:35+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/tr/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -9882,7 +9882,7 @@ msgstr "tang-show-keys kullanılamıyorsa ne yapılsın?"
 
 #: pkg/kubernetes/views/volumes-page.html:61
 msgid "When"
-msgstr "Ne zaman"
+msgstr "Zamanı"
 
 #: pkg/systemd/terminal.jsx:101
 msgid "White"
