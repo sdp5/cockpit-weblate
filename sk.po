@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-22 08:44+0000\n"
-"PO-Revision-Date: 2020-12-13 17:35+0000\n"
+"PO-Revision-Date: 2020-12-17 18:35+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-8-2/sk/>\n"
@@ -6681,11 +6681,11 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:2475 pkg/networkmanager/interfaces.js:3022
 msgid "Switch off $0"
-msgstr ""
+msgstr "Vypnúť $0"
 
 #: pkg/networkmanager/interfaces.js:2450 pkg/networkmanager/interfaces.js:3010
 msgid "Switch on $0"
-msgstr ""
+msgstr "Zapnúť $0"
 
 #: pkg/networkmanager/interfaces.js:2474
 msgid ""
@@ -6744,15 +6744,15 @@ msgstr ""
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:87
 msgid "System information"
-msgstr ""
+msgstr "Informácie o systéme"
 
 #: pkg/packagekit/updates.jsx:942 pkg/packagekit/updates.jsx:956
 msgid "System is up to date"
-msgstr ""
+msgstr "Systém je aktuálny"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:392
 msgid "System time"
-msgstr ""
+msgstr "Systémový čas"
 
 #: pkg/docker/index.html:329 pkg/docker/index.html:333
 #: pkg/networkmanager/firewall.jsx:169
@@ -6773,7 +6773,7 @@ msgstr ""
 
 #: pkg/storaged/crypto-keyslots.jsx:210
 msgid "Tang keyserver"
-msgstr ""
+msgstr "Tang server s kľúčami"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:133
 msgid "Target"
@@ -6823,23 +6823,25 @@ msgstr ""
 
 #: pkg/kdump/kdump-view.jsx:483
 msgid "Test is only available while the kdump service is running."
-msgstr ""
+msgstr "Test je k dispozícií len keď je spustená služba kdump."
 
 #: pkg/kdump/kdump-view.jsx:293
 msgid "Test kdump settings"
-msgstr ""
+msgstr "Vyskúšať nastavenia kdump"
 
 #: pkg/networkmanager/index.html:38
 msgid "Testing connection"
-msgstr ""
+msgstr "Skúša sa spojenie"
 
 #: pkg/machines/components/deleteResource.jsx:46
 msgid "The $0 could not be deleted"
-msgstr ""
+msgstr "$0 sa nepodarilo zmazať"
 
 #: pkg/storaged/vdos-panel.jsx:45
 msgid "The $0 package must be installed to create VDO devices."
 msgstr ""
+"Aby bolo možné vytvárať VDO zariadenia je potrebné mať nainštalovaný balík "
+"$0."
 
 #: pkg/docker/storage.jsx:523
 msgid "The Docker storage pool cannot be managed on this system."
