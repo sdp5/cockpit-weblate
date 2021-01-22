@@ -39,6 +39,10 @@ msgstr ""
 " Durch das Einhängen der Platte wird Sie für jede VM die sie verwendet, "
 "freigegeben."
 
+#: pkg/networkmanager/interfaces.js:23
+msgid "Adding a new extra message"
+msgstr ""
+
 #: pkg/networkmanager/interfaces.js:2317
 msgid "$0 Active Zone"
 msgstr "$0 aktive Zone"
