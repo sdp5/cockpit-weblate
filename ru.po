@@ -20,6 +20,10 @@ msgstr ""
 "X-Generator: Weblate 4.0.4\n"
 
 #: pkg/docker/storage.jsx:261
+msgid " (a branch new message)"
+msgstr ""
+
+#: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
 msgstr " (в общем доступе с ОС)"
 
