@@ -27,6 +27,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.3.2\n"
 
+#: pkg/docker/storage.jsx:26
+msgid " (some new string)"
+msgstr ""
+
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
 msgstr " (partagé avec l’OS)"
