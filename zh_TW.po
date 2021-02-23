@@ -21,6 +21,9 @@ msgstr ""
 msgid "a brand new string added to zh_TW"
 msgstr ""
 
+msgid "add an another string to zh_TW"
+msgstr ""
+
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
 msgstr " （分享給作業系統）"
