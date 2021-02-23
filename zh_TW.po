@@ -18,6 +18,10 @@ msgstr ""
 "X-Generator: Zanata 4.6.2\n"
 
 #: pkg/docker/storage.jsx:261
+msgid "a brand new string added to zh_TW"
+msgstr ""
+
+#: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
 msgstr " （分享給作業系統）"
 
