@@ -26,6 +26,10 @@ msgstr ""
 msgid " (brand new string)"
 msgstr ""
 
+#: pkg/docker/storage.jsx:25
+msgid " (brand new string) two"
+msgstr ""
+
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
 msgstr " (OS と共有)"
