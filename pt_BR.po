@@ -28,6 +28,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Weblate 4.1.1\n"
 
+#: pkg/docker/storage.jsx:58
+msgid " the brand new gettext message catalogue"
+msgstr ""
+
 #: pkg/docker/storage.jsx:261
 msgid " (shared with the OS)"
 msgstr "(compartilhado com o SO)"
