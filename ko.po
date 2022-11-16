@@ -519,22 +519,17 @@ msgstr "보안, 안정성, 성능을 위해 최신 브라우저가 필요합니�
 msgid ""
 "A network bond combines multiple network interfaces into one logical "
 "interface with higher throughput or redundancy."
-msgstr ""
-"네트워크 본딩은 여러 네트워크 연결장치를 하나의 논리적 연결장치로 결합하여 처"
-"리량 또는 중복성을 증가시킵니다."
+msgstr "네트워크 본딩은 여러 네트워크 연결장치를 하나의 논리적 연결장치로 결합하여 처리량 또는 중복성을 증가시킵니다."
 
 #: pkg/shell/hosts_dialog.jsx:772
 msgid ""
 "A new SSH key at $0 will be created for $1 on $2 and it will be added to the "
 "$3 file of $4 on $5."
-msgstr ""
-"$0에서 신규 SSH 키는 $1에서($2에 대해) 생성되고 $3에서 $4에서($5에 대해) 파일"
-"에 추가됩니다."
+msgstr "$0에서 신규 SSH 키는 $1에서($2에 대해) 생성되고 $3에서 $4에서($5에 대해) 파일에 추가됩니다."
 
 #: pkg/packagekit/updates.jsx:1525
 msgid "A package needs a system reboot for the updates to take effect:"
-msgid_plural ""
-"Some packages need a system reboot for the updates to take effect:"
+msgid_plural "Some packages need a system reboot for the updates to take effect:"
 msgstr[0] "최신화를 적용하려면 꾸러미의 시스템을 재시작해야 합니다:"
 
 #: pkg/storaged/stratis-details.jsx:227
@@ -543,8 +538,7 @@ msgstr "이와 같은 이름을 갖는 풀은 이미 존재합니다."
 
 #: pkg/packagekit/updates.jsx:1529
 msgid "A service needs to be restarted for the updates to take effect:"
-msgid_plural ""
-"Some services need to be restarted for the updates to take effect:"
+msgid_plural "Some services need to be restarted for the updates to take effect:"
 msgstr[0] "최신화를 적용하려면 서비스를 다시 시작해야 합니다:"
 
 #: pkg/storaged/mdraid-details.jsx:134
@@ -741,16 +735,13 @@ msgstr "영역 추가"
 msgid ""
 "Adding $0 will break the connection to the server, and will make the "
 "administration UI unavailable."
-msgstr ""
-"$0 을 추가하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
+msgstr "$0 을 추가하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
 
 #: pkg/networkmanager/firewall.jsx:600
 msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
-msgstr ""
-"사용자 지정 포트를 추가하면 방화벽이 다시 적재됩니다. 방화벽을 다시 적재하면 "
-"런타임 전용 설정이 손실됩니다!"
+msgstr "사용자 지정 포트를 추가하면 방화벽이 다시 적재됩니다. 방화벽을 다시 적재하면 런타임 전용 설정이 손실됩니다!"
 
 #: pkg/users/authorized-keys.js:112
 msgid "Adding key"
@@ -834,10 +825,7 @@ msgid ""
 "After leaving the domain, only users with local credentials will be able to "
 "log into this machine. This may also affect other services as DNS resolution "
 "settings and the list of trusted CAs may change."
-msgstr ""
-"도메인 종료 후 로컬 인증 정보가 있는 사용자만 시스템에 로그인 할 수 있습니"
-"다. 이 경우 DNS 확인 설정 및 신뢰할 수 있는 CA 목록이 변경 될 수 있으므로 다"
-"른 서비스에도 영향을 미칠 수 있습니다."
+msgstr "도메인 종료 후 로컬 인증 정보가 있는 사용자만 시스템에 로그인 할 수 있습니다. 이 경우 DNS 확인 설정 및 신뢰할 수 있는 CA 목록이 변경 될 수 있으므로 다른 서비스에도 영향을 미칠 수 있습니다."
 
 #: pkg/systemd/services/timer-dialog.jsx:197
 msgid "After system boot"
@@ -890,11 +878,7 @@ msgid ""
 "in the form of a regular expression. Also supports filtering by message log "
 "fields. These are space separated values, in form FIELD=VALUE, where value "
 "can be comma separated list of possible values."
-msgstr ""
-"로그 메시지에서 모든 텍스트 문자열을 필터링 될 수 있습니다. 문자열은 또한 정"
-"규식 표현의 형식일 수도 있습니다. 또한 메시지 로그 부분에 의해 필터링을 지원"
-"합니다. 이들은 형식 FIELD=VALUE 에서 공백으로 분리된 값이며, 해당 값은 가능"
-"한 값의 쉼표로 구분된 목록일 수 있습니다."
+msgstr "로그 메시지에서 모든 텍스트 문자열을 필터링 될 수 있습니다. 문자열은 또한 정규식 표현의 형식일 수도 있습니다. 또한 메시지 로그 부분에 의해 필터링을 지원합니다. 이들은 형식 FIELD=VALUE 에서 공백으로 분리된 값이며, 해당 값은 가능한 값의 쉼표로 구분된 목록일 수 있습니다."
 
 #: pkg/systemd/terminal.jsx:147
 msgid "Appearance"
@@ -1203,9 +1187,7 @@ msgid ""
 "By changing the password of the SSH key $0 to the login password of $1 on "
 "$2, the key will be automatically made available and you can log in to $3 "
 "without password in the future."
-msgstr ""
-"SSH 키 $0의 비밀번호를 $1의 ($2에서) 로그인 비밀번호로 변경하면, 키가 자동으"
-"로 제공되며 추후 비밀번호 없이 $3에 로그인 할 수 있습니다."
+msgstr "SSH 키 $0의 비밀번호를 $1의 ($2에서) 로그인 비밀번호로 변경하면, 키가 자동으로 제공되며 추후 비밀번호 없이 $3에 로그인 할 수 있습니다."
 
 #: pkg/systemd/hwinfo.jsx:118 pkg/systemd/overview-cards/usageCard.jsx:134
 #: pkg/metrics/metrics.jsx:689 pkg/metrics/metrics.jsx:1683
@@ -1359,16 +1341,13 @@ msgid ""
 "Changed keys are often the result of an operating system reinstallation. "
 "However, an unexpected change may indicate a third-party attempt to "
 "intercept your connection."
-msgstr ""
-"때때로 운영 체제 재설치로 인해 키가 변경될 수 있습니다. 그러나 예기치 않은 변"
-"경은 연결을 가로채는 타사의 시도를 나타낼 수도 있습니다."
+msgstr "때때로 운영 체제 재설치로 인해 키가 변경될 수 있습니다. 그러나 예기치 않은 변경은 연결을 가로채는 타사의 시도를 나타낼 수도 있습니다."
 
 #: pkg/networkmanager/interfaces.js:1595
 msgid ""
 "Changing the settings will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr ""
-"설정을 변경하면 서버와의 연결이 끊어지고, 관리 UI를 사용 할 수 없게 됩니다."
+msgstr "설정을 변경하면 서버와의 연결이 끊어지고, 관리 UI를 사용 할 수 없게 됩니다."
 
 #: pkg/packagekit/updates.jsx:919
 msgid "Check for updates"
@@ -1485,11 +1464,7 @@ msgid ""
 "no problem. A service started via Cockpit can be stopped via the terminal. "
 "Likewise, if an error occurs in the terminal, it can be seen in the Cockpit "
 "journal interface."
-msgstr ""
-"Cockpit은 웹 브라우저에서 리눅스 서버를 쉽게 관리 할 수 있는 서버 관리자입니"
-"다. 터미널과 웹 도구을 구분하지 않고 사용할 수 있습니다. Cockpit에서 시작된 "
-"서비스는 터미널을 통해 중지할 수 있습니다. 마찬가지로 터미널에서 오류가 발생"
-"한 경우 해당 오류를 Cockpit 저널 연결장치에서 확인 할 수 있습니다."
+msgstr "Cockpit은 웹 브라우저에서 리눅스 서버를 쉽게 관리 할 수 있는 서버 관리자입니다. 터미널과 웹 도구을 구분하지 않고 사용할 수 있습니다. Cockpit에서 시작된 서비스는 터미널을 통해 중지할 수 있습니다. 마찬가지로 터미널에서 오류가 발생한 경우 해당 오류를 Cockpit 저널 연결장치에서 확인 할 수 있습니다."
 
 #: pkg/shell/shell-modals.jsx:70
 msgid "Cockpit is an interactive Linux server admin interface."
@@ -1514,11 +1489,7 @@ msgid ""
 "stopping services. You can monitor and administer several servers at the "
 "same time. Just add them with a single click and your machines will look "
 "after its buddies."
-msgstr ""
-"Cockpit은 경험이 적은 시스템 관리자에게 적합합니다. 시스템 관리자는 저장장치 "
-"관리, 저널 검사, 서비스 시작 및 중지 등의 간단한 작업을 쉽게 수행할 수 있으"
-"며 여러 서버를 동시에 모니터링 및 관리 할 수 있습니다. 간단하게 장비를 추가하"
-"여 서버를 추가할 수 있으며 추가 후 다른 기기를 관리할 수 있습니다."
+msgstr "Cockpit은 경험이 적은 시스템 관리자에게 적합합니다. 시스템 관리자는 저장장치 관리, 저널 검사, 서비스 시작 및 중지 등의 간단한 작업을 쉽게 수행할 수 있으며 여러 서버를 동시에 모니터링 및 관리 할 수 있습니다. 간단하게 장비를 추가하여 서버를 추가할 수 있으며 추가 후 다른 기기를 관리할 수 있습니다."
 
 #: pkg/static/login.js:183
 msgid "Cockpit might not render correctly in your browser"
@@ -1902,9 +1873,7 @@ msgstr "$target 스냅샷 생성 중"
 msgid ""
 "Creating this $0 will break the connection to the server, and will make the "
 "administration UI unavailable."
-msgstr ""
-"이와 같은 $0 를 생성하기는 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없"
-"게 합니다."
+msgstr "이와 같은 $0 를 생성하기는 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 합니다."
 
 #: pkg/systemd/logs.jsx:66
 msgid "Critical and above"
@@ -1914,9 +1883,7 @@ msgstr "중대한 이상 수준"
 msgid ""
 "Crypto Policies is a system component that configures the core cryptographic "
 "subsystems, covering the TLS, IPSec, SSH, DNSSec, and Kerberos protocols."
-msgstr ""
-"암호화 정책은 TLS, IPSec, SSH, DNSSec와 커버러스 통신규약을 포함하는 핵심 암"
-"호화 하위 시스템을 구성하는 시스템 구성 요소입니다."
+msgstr "암호화 정책은 TLS, IPSec, SSH, DNSSec와 커버러스 통신규약을 포함하는 핵심 암호화 하위 시스템을 구성하는 시스템 구성 요소입니다."
 
 #: pkg/systemd/overview-cards/cryptoPolicies.jsx:73
 msgid "Crypto policy"
@@ -2006,11 +1973,7 @@ msgid ""
 "Alternatively the strings 'yesterday', 'today', 'tomorrow' are understood. "
 "'now' refers to the current time. Finally, relative times may be specified, "
 "prefixed with '-' or '+'"
-msgstr ""
-"날짜 상세는 연-월-일 시:분:초 (YYYY-MM-DD hh:mm:ss)형식이어야 합니다. 대안으"
-"로 문자열 '어제', '오늘', '내일'로 이해 할 수 있습니다. '지금'은 현재 시간을 "
-"나타냅니다. 마지막으로, '-' 또는 '+'를 접두사로 사용하여, 상대 시간으로 지정 "
-"할 수 있습니다"
+msgstr "날짜 상세는 연-월-일 시:분:초 (YYYY-MM-DD hh:mm:ss)형식이어야 합니다. 대안으로 문자열 '어제', '오늘', '내일'로 이해 할 수 있습니다. '지금'은 현재 시간을 나타냅니다. 마지막으로, '-' 또는 '+'를 접두사로 사용하여, 상대 시간으로 지정 할 수 있습니다"
 
 #: pkg/storaged/content-views.jsx:322
 msgid "Deactivate"
@@ -2080,8 +2043,7 @@ msgstr "영구적으로 보고를 삭제?"
 msgid ""
 "Deleting $0 will break the connection to the server, and will make the "
 "administration UI unavailable."
-msgstr ""
-"$0 을 삭제하기는 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 합니다."
+msgstr "$0 을 삭제하기는 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 합니다."
 
 #: pkg/storaged/jobs-panel.jsx:60 pkg/storaged/jobs-panel.jsx:74
 msgid "Deleting $target"
@@ -2692,10 +2654,7 @@ msgstr "승인된 키를 불러오지 못했습니다."
 msgid ""
 "Failed to parse unit files for dnf-automatic.timer or dnf-automatic-install."
 "timer. Please remove custom overrides to configure automatic updates."
-msgstr ""
-"dnf-automatic.timer 또는 dnf-automatic-install.timer를 위한 단위 파일을 구문"
-"분석하는데 실패했습니다. 자동 최신화를 구성하려면 사용자 지정 재정의를 제거하"
-"세요."
+msgstr "dnf-automatic.timer 또는 dnf-automatic-install.timer를 위한 단위 파일을 구문분석하는데 실패했습니다. 자동 최신화를 구성하려면 사용자 지정 재정의를 제거하세요."
 
 #: pkg/packagekit/updates.jsx:490
 msgid "Failed to restart service"
@@ -2831,9 +2790,7 @@ msgstr "여유공간"
 msgid ""
 "Free up space in this group: Shrink or delete other logical volumes or add "
 "another physical volume."
-msgstr ""
-"이 그룹에서 여유 공간을 확보합니다: 다른 논리 볼륨을 축소 또는 제거하거나 신"
-"규 물리 볼륨을 추가하십시오."
+msgstr "이 그룹에서 여유 공간을 확보합니다: 다른 논리 볼륨을 축소 또는 제거하거나 신규 물리 볼륨을 추가하십시오."
 
 #: pkg/systemd/logs.jsx:377
 msgid "Free-form search"
@@ -2986,9 +2943,7 @@ msgstr "IP 주소"
 msgid ""
 "IP address with routing prefix. Separate multiple values with a comma. "
 "Example: 192.0.2.0/24, 2001:db8::/32"
-msgstr ""
-"라우팅 프리픽스와 IP 주소. 쉼표로 여러 값을 구분합니다. 예시: 192.0.2.0/24, "
-"2001 : db8 :: / 32"
+msgstr "라우팅 프리픽스와 IP 주소. 쉼표로 여러 값을 구분합니다. 예시: 192.0.2.0/24, 2001 : db8 :: / 32"
 
 #: pkg/networkmanager/network-interface.jsx:570
 msgid "IPv4"
@@ -3014,24 +2969,19 @@ msgstr "식별자"
 msgid ""
 "If left empty, ID will be generated based on associated port services and "
 "port numbers"
-msgstr ""
-"만약 비워져 있으면, ID는 연관된 포트 서비스와 포트 번호를 기반으로 발생합니다"
+msgstr "만약 비워져 있으면, ID는 연관된 포트 서비스와 포트 번호를 기반으로 발생합니다"
 
 #: pkg/static/login.html:97
 msgid ""
 "If the fingerprint matches, click \"Accept key and log in\". Otherwise, do "
 "not log in and contact your administrator."
-msgstr ""
-"지문이 일치하면 \"키 수락 및 로그인\"을 눌러주세요. 일치 하지 않을 경우 로그"
-"인하지 않고 관리자에게 문의하십시오."
+msgstr "지문이 일치하면 \"키 수락 및 로그인\"을 눌러주세요. 일치 하지 않을 경우 로그인하지 않고 관리자에게 문의하십시오."
 
 #: pkg/shell/hosts_dialog.jsx:465 pkg/shell/hosts_dialog.jsx:476
 msgid ""
 "If the fingerprint matches, click 'Accept key and connect'. Otherwise, do "
 "not connect and contact your administrator."
-msgstr ""
-"만약 지문이 일치하면, '키 수락과 연결'을 눌러주세요. 그렇지 않다면, 연결하지 "
-"않고 관리자에게 문의하세요."
+msgstr "만약 지문이 일치하면, '키 수락과 연결'을 눌러주세요. 그렇지 않다면, 연결하지 않고 관리자에게 문의하세요."
 
 #: pkg/storaged/format-dialog.jsx:87
 msgid ""
@@ -3039,11 +2989,7 @@ msgid ""
 "next boot even if it was mounted before it.  This is useful if mounting "
 "during boot is not possible, such as when a passphrase is required to unlock "
 "the filesystem but booting is unattended."
-msgstr ""
-"만약 선택이 확인 되었으면, 파일 시스템은 심지어 이전에 적재되어져 있을지라도 "
-"다음 부팅 중에 적재되지 않을 것입니다.  이는 부팅 중에 적재가 불가능 할 때에 "
-"유용 하고, 예를 들어 암호가 파일 시스템을 잠금 해제 할 때에 필요하지만 부팅"
-"은 사용되지 않습니다."
+msgstr "만약 선택이 확인 되었으면, 파일 시스템은 심지어 이전에 적재되어져 있을지라도 다음 부팅 중에 적재되지 않을 것입니다.  이는 부팅 중에 적재가 불가능 할 때에 유용 하고, 예를 들어 암호가 파일 시스템을 잠금 해제 할 때에 필요하지만 부팅은 사용되지 않습니다."
 
 #: pkg/networkmanager/ip-settings.jsx:56 pkg/packagekit/updates.jsx:696
 #: pkg/packagekit/updates.jsx:773
@@ -3063,9 +3009,7 @@ msgid ""
 "In order to allow log in to $0 as $1 without password in the future, use the "
 "login password of $2 on $3 as the key password, or leave the key password "
 "blank."
-msgstr ""
-"추후 암호 없이 $0에 $1으로 로그인하려면, $2의 $3 로그인 비밀번호를 키 암호로 "
-"사용하거나 키 비밀번호를 비워 두세요."
+msgstr "추후 암호 없이 $0에 $1으로 로그인하려면, $2의 $3 로그인 비밀번호를 키 암호로 사용하거나 키 비밀번호를 비워 두세요."
 
 #: pkg/storaged/mdraid-details.jsx:112
 msgid "In sync"
@@ -3088,9 +3032,7 @@ msgstr "포함된 서비스"
 #: pkg/networkmanager/firewall.jsx:1054
 msgid ""
 "Incoming requests are blocked by default. Outgoing requests are not blocked."
-msgstr ""
-"기본적으로 들어오는 요청은 차단됩니다. 외부로 나가는 요청은 차단되지 않습니"
-"다."
+msgstr "기본적으로 들어오는 요청은 차단됩니다. 외부로 나가는 요청은 차단되지 않습니다."
 
 #: pkg/storaged/fsys-tab.jsx:671
 msgid "Inconsistent filesystem mount"
@@ -3347,9 +3289,7 @@ msgstr "다음으로 이동"
 #: pkg/kdump/kdump-view.jsx:438
 msgid ""
 "Kdump service not installed. Please ensure package kexec-tools is installed."
-msgstr ""
-"Kdump 서비스가 설치되어 있지 않습니다. kexec-tools 꾸러미가 설치를 확인하십시"
-"오."
+msgstr "Kdump 서비스가 설치되어 있지 않습니다. kexec-tools 꾸러미가 설치를 확인하십시오."
 
 #: pkg/networkmanager/interfaces.js:69
 msgid "Keep connection"
@@ -3493,9 +3433,7 @@ msgstr "제한된 접근"
 msgid ""
 "Limited access mode restricts administrative privileges. Some parts of the "
 "web console will have reduced functionality."
-msgstr ""
-"제한된 접근 방식은 관리 권한을 제한합니다. 웹 콘솔의 일부 부분은 기능이 축소"
-"됩니다."
+msgstr "제한된 접근 방식은 관리 권한을 제한합니다. 웹 콘솔의 일부 부분은 기능이 축소됩니다."
 
 #: pkg/systemd/abrtLog.jsx:143
 msgid "Limits"
@@ -3873,9 +3811,7 @@ msgid ""
 "Masking service prevents all dependent units from running. This can have "
 "bigger impact than anticipated. Please confirm that you want to mask this "
 "unit."
-msgstr ""
-"마스크 서비스는 모든 종속 장치가 실행되지 않도록합니다. 이는 예상보다 큰 영향"
-"을 미칠 수 있습니다. 이 장치에 마스크를 설정할 지 확인하십시오."
+msgstr "마스크 서비스는 모든 종속 장치가 실행되지 않도록합니다. 이는 예상보다 큰 영향을 미칠 수 있습니다. 이 장치에 마스크를 설정할 지 확인하십시오."
 
 #: pkg/networkmanager/network-interface.jsx:520
 msgid "Maximum message age $max_age"
@@ -4367,9 +4303,7 @@ msgid ""
 "No memory reserved. Append a crashkernel option to the kernel command line "
 "(e.g. in /etc/default/grub) to reserve memory at boot time. Example: "
 "crashkernel=512M"
-msgstr ""
-"메모리가 예약되어 있지 않습니다. crashkernel 옵션을 커맨드라인에 추가하고 "
-"(예: /etc/default/grub) 시작시 메모리를 예약합니다. 예: crashkernel=512M"
+msgstr "메모리가 예약되어 있지 않습니다. crashkernel 옵션을 커맨드라인에 추가하고 (예: /etc/default/grub) 시작시 메모리를 예약합니다. 예: crashkernel=512M"
 
 #: pkg/storaged/content-views.jsx:696
 msgid "No partitioning"
@@ -4386,9 +4320,7 @@ msgstr "결과를 찾을 수 없습니다"
 #: pkg/systemd/services/services.jsx:858
 msgid ""
 "No results match the filter criteria. Clear all filters to show results."
-msgstr ""
-"필터 기준과 일치하는 결과가 없습니다. 결과를 표시하려면 모든 필터를 지우십시"
-"오."
+msgstr "필터 기준과 일치하는 결과가 없습니다. 결과를 표시하려면 모든 필터를 지우십시오."
 
 #: pkg/systemd/overview-cards/insights.jsx:183
 msgid "No rule hits"
@@ -4556,9 +4488,7 @@ msgstr "실패한 경우"
 msgid ""
 "Once Cockpit is installed, enable it with \"systemctl enable --now cockpit."
 "socket\"."
-msgstr ""
-"Cockpit이 설치되면 \"systemctl enable --now cockpit.socket\"을 사용하여 이를 "
-"활성화합니다."
+msgstr "Cockpit이 설치되면 \"systemctl enable --now cockpit.socket\"을 사용하여 이를 활성화합니다."
 
 #: pkg/storaged/vdo-details.jsx:122
 msgid "Only $0 of $1 are used."
@@ -4611,9 +4541,7 @@ msgstr "기타"
 msgid ""
 "Other authentication methods are still available even when interactive "
 "password authentication is not allowed."
-msgstr ""
-"다른 인증 방식은 대화형 비밀번호 인증이 허용되지 않을 때에 여전히 사용 할 수 "
-"있습니다."
+msgstr "다른 인증 방식은 대화형 비밀번호 인증이 허용되지 않을 때에 여전히 사용 할 수 있습니다."
 
 #: pkg/storaged/content-views.jsx:491
 msgctxt "storage-id-desc"
@@ -4854,8 +4782,7 @@ msgstr "일시정지"
 msgid ""
 "Performance Co-Pilot collects and analyzes performance metrics from your "
 "system."
-msgstr ""
-"Performance Co-Pilot는 당신의 시스템에서 성능 메트릭을 수집하고 분석합니다."
+msgstr "Performance Co-Pilot는 당신의 시스템에서 성능 메트릭을 수집하고 분석합니다."
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:81
 msgid "Performance profile"
@@ -5068,8 +4995,7 @@ msgstr "다음 위치에 다시 로드 전파"
 msgid ""
 "Protects from anticipated near-term future attacks at the expense of "
 "interoperability."
-msgstr ""
-"상호 운용성을 희생하며 예상되는 단기-적인 미래 공격으로부터 보호합니다."
+msgstr "상호 운용성을 희생하며 예상되는 단기-적인 미래 공격으로부터 보호합니다."
 
 #: pkg/storaged/stratis-details.jsx:698
 msgid "Provide the passphrase for the pool on these block devices:"
@@ -5222,9 +5148,7 @@ msgstr "실제 호스트 이름"
 msgid ""
 "Real host name can only contain lower-case characters, digits, dashes, and "
 "periods (with populated subdomains)"
-msgstr ""
-"실제 호스트 이름에는 소문자, 숫자, 대시, 마침표만 사용할 수 있습니다. (입력"
-"된 하위 도메인 포함)"
+msgstr "실제 호스트 이름에는 소문자, 숫자, 대시, 마침표만 사용할 수 있습니다. (입력된 하위 도메인 포함)"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:252
 msgid "Real host name must be 64 characters or less"
@@ -5422,8 +5346,7 @@ msgstr "$0 삭제 중"
 msgid ""
 "Removing $0 will break the connection to the server, and will make the "
 "administration UI unavailable."
-msgstr ""
-"$0 을 제거하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
+msgstr "$0 을 제거하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
 
 #: pkg/storaged/jobs-panel.jsx:68
 msgid "Removing $target from RAID device"
@@ -5433,9 +5356,7 @@ msgstr "레이드 장치에서 $target 삭제 중"
 msgid ""
 "Removing a passphrase without confirmation of another passphrase may prevent "
 "unlocking or key management, if other passphrases are forgotten or lost."
-msgstr ""
-"다른 암호문의 확인 없이 암호문을 제거하는 것은 만약 다른 암호문은 잊었거나 또"
-"는 잃어 버렸을 경우에 잠금해제 또는 키 관리를 방지 할 수 있습니다."
+msgstr "다른 암호문의 확인 없이 암호문을 제거하는 것은 만약 다른 암호문은 잊었거나 또는 잃어 버렸을 경우에 잠금해제 또는 키 관리를 방지 할 수 있습니다."
 
 #: pkg/storaged/jobs-panel.jsx:81
 msgid "Removing physical volume from $target"
@@ -5446,9 +5367,7 @@ msgid ""
 "Removing the cockpit service might result in the web console becoming "
 "unreachable. Make sure that this zone does not apply to your current web "
 "console connection."
-msgstr ""
-"Cockpit 서비스를 제거하면 web 콘솔에 액세스하지 못할 수 있습니다. 이 영역이 "
-"현재 사용중인 web 콘솔 연결에 적용되지 않는지 확인하십시오."
+msgstr "Cockpit 서비스를 제거하면 web 콘솔에 액세스하지 못할 수 있습니다. 이 영역이 현재 사용중인 web 콘솔 연결에 적용되지 않는지 확인하십시오."
 
 #: pkg/networkmanager/firewall.jsx:945
 msgid "Removing the zone will remove all services within it."
@@ -5594,9 +5513,7 @@ msgstr "$target 크기 변경 중"
 msgid ""
 "Resizing an encrypted filesystem requires unlocking the disk. Please provide "
 "a current disk passphrase."
-msgstr ""
-"암호화된 파일 시스템의 크기를 변경하려면 디스크 잠금을 해제해야 합니다. 현재 "
-"디스크의 암호를 입력하십시오."
+msgstr "암호화된 파일 시스템의 크기를 변경하려면 디스크 잠금을 해제해야 합니다. 현재 디스크의 암호를 입력하십시오."
 
 # ctx::sourcefile::/rhn/admin/config/Restart.do
 #: pkg/systemd/services/service-details.jsx:131
@@ -5758,8 +5675,7 @@ msgstr "STP 우선순위"
 #: pkg/shell/failures.jsx:43
 msgid ""
 "Safari users need to import and trust the certificate of the self-signing CA:"
-msgstr ""
-"Safari 사용자는 자체 서명 CA 인증서를 가져와서 인증서를 신뢰해야 합니다:"
+msgstr "Safari 사용자는 자체 서명 CA 인증서를 가져와서 인증서를 신뢰해야 합니다:"
 
 #: pkg/systemd/services/timer-dialog.jsx:305 pkg/packagekit/autoupdates.jsx:314
 msgid "Saturdays"
@@ -5797,9 +5713,7 @@ msgstr "동일한 데이터 블록을 한 번만 저장하여 공간을 절약�
 msgid ""
 "Saving a new passphrase requires unlocking the disk. Please provide a "
 "current disk passphrase."
-msgstr ""
-"신규 암호를 저장하려면 디스크 잠금 해제가 필요합니다. 현재 디스크의 암호를 제"
-"공하십시오."
+msgstr "신규 암호를 저장하려면 디스크 잠금 해제가 필요합니다. 현재 디스크의 암호를 제공하십시오."
 
 #: pkg/systemd/overview-cards/shutdownStatus.jsx:88
 msgid "Scheduled poweroff at $0"
@@ -6156,10 +6070,7 @@ msgid ""
 "Software-based workarounds help prevent CPU security issues. These "
 "mitigations have the side effect of reducing performance. Change these "
 "settings at your own risk."
-msgstr ""
-"소프트웨어 기반 완화 방법은 CPU 보안 문제를 예방하는데 도움이 될 수 있습니"
-"다. 이러한 완화 옵션은 성능을 저하시키는 부작용이 있습니다. 이러한 부작용을 "
-"인지하고 필요에 따라 설정을 변경하십시오."
+msgstr "소프트웨어 기반 완화 방법은 CPU 보안 문제를 예방하는데 도움이 될 수 있습니다. 이러한 완화 옵션은 성능을 저하시키는 부작용이 있습니다. 이러한 부작용을 인지하고 필요에 따라 설정을 변경하십시오."
 
 #: pkg/selinux/setroubleshoot-view.jsx:87
 msgid "Solution applied successfully"
@@ -6580,26 +6491,20 @@ msgstr "$1의 SSH 키 $0 ($2에서)는 $4의 $3 ($5에서)파일로 추가됩니
 msgid ""
 "The SSH key $0 will be made available for the remainder of the session and "
 "will be available for login to other hosts as well."
-msgstr ""
-"SSH 키 $0는 나머지 세션에서 사용 할 수 있고 다른 호스트에 로그인 할 때에도 사"
-"용 할 수 있습니다."
+msgstr "SSH 키 $0는 나머지 세션에서 사용 할 수 있고 다른 호스트에 로그인 할 때에도 사용 할 수 있습니다."
 
 #: pkg/shell/hosts_dialog.jsx:750
 msgid ""
 "The SSH key for logging in to $0 is protected by a password, and the host "
 "does not allow logging in with a password. Please provide the password of "
 "the key at $1."
-msgstr ""
-"$0에 로그인하기 위한 SSH 키가 비밀번호에 의해 보호되고 있으며, 그리고 호스트"
-"는 비밀번호로 로그인을 허용 하지 않습니다. $1에서 키의 비밀번호를 제공하세요."
+msgstr "$0에 로그인하기 위한 SSH 키가 비밀번호에 의해 보호되고 있으며, 그리고 호스트는 비밀번호로 로그인을 허용 하지 않습니다. $1에서 키의 비밀번호를 제공하세요."
 
 #: pkg/shell/hosts_dialog.jsx:755
 msgid ""
 "The SSH key for logging in to $0 is protected. You can log in with either "
 "your login password or by providing the password of the key at $1."
-msgstr ""
-"$0에 로그인하기 위해 SSH 키가 보호되고 있습니다. 당신은 $1에서 자신의 로그인 "
-"비밀번호에 의하거나 키의 비밀번호 제공을 통해 로그인 할 수 있습니다.."
+msgstr "$0에 로그인하기 위해 SSH 키가 보호되고 있습니다. 당신은 $1에서 자신의 로그인 비밀번호에 의하거나 키의 비밀번호 제공을 통해 로그인 할 수 있습니다.."
 
 #: pkg/users/password-dialogs.js:265
 msgid "The account '$0' will be forced to change their password on next login"
@@ -6627,9 +6532,7 @@ msgstr "현재 로그인한 사용자는 키에 대한 정보를 볼 수 없습�
 msgid ""
 "The disk needs to be unlocked before formatting.  Please provide a existing "
 "passphrase."
-msgstr ""
-"디스크는 초기화 하기 전에 잠금이 해제된 상태이어야 합니다.  기존 암호를 입력"
-"하세요."
+msgstr "디스크는 초기화 하기 전에 잠금이 해제된 상태이어야 합니다.  기존 암호를 입력하세요."
 
 #: pkg/sosreport/index.jsx:377
 msgid "The file $0 will be deleted."
@@ -6641,17 +6544,13 @@ msgstr "파일 시스템에 영구 적재 지점이 없습니다."
 
 #: pkg/storaged/fsys-tab.jsx:360
 msgid "The filesystem is already mounted at $0. Proceeding will unmount it."
-msgstr ""
-"파일 시스템이 이미 $0에 적재되어 있습니다. 계속 진행할 경우 적재가 해제됩니"
-"다."
+msgstr "파일 시스템이 이미 $0에 적재되어 있습니다. 계속 진행할 경우 적재가 해제됩니다."
 
 #: pkg/storaged/fsys-tab.jsx:661
 msgid ""
 "The filesystem is configured to be automatically mounted on boot but its "
 "encryption container will not be unlocked at that time."
-msgstr ""
-"파일 시스템이 부팅 시 자동으로 적재되도록 구성되어 있지만 이 암호화된 컨테이"
-"너는 그 때에 잠금이 해제되지 않습니다."
+msgstr "파일 시스템이 부팅 시 자동으로 적재되도록 구성되어 있지만 이 암호화된 컨테이너는 그 때에 잠금이 해제되지 않습니다."
 
 #: pkg/storaged/fsys-tab.jsx:653
 msgid ""
@@ -6663,15 +6562,13 @@ msgstr "파일 시스템이 현재 적재되어 있지만 다음 부팅 후에�
 msgid ""
 "The filesystem is currently mounted on $0 but will be mounted on $1 on the "
 "next boot."
-msgstr ""
-"파일 시스템이 현재 $0에 적재되어 있지만 다음 부팅 후에는 $1에 적재됩니다."
+msgstr "파일 시스템이 현재 $0에 적재되어 있지만 다음 부팅 후에는 $1에 적재됩니다."
 
 #: pkg/storaged/fsys-tab.jsx:657
 msgid ""
 "The filesystem is currently mounted on $0 but will not be mounted after the "
 "next boot."
-msgstr ""
-"파일 시스템이 현재 $0에 적재되어 있지만 다음 부팅 후에는 적재되지 않습니다."
+msgstr "파일 시스템이 현재 $0에 적재되어 있지만 다음 부팅 후에는 적재되지 않습니다."
 
 #: pkg/storaged/fsys-tab.jsx:649
 msgid ""
@@ -6686,9 +6583,7 @@ msgstr "파일 시스템이 적재되어 있지 않습니다."
 msgid ""
 "The filesystem will be unlocked and mounted on the next boot. This might "
 "require inputting a passphrase."
-msgstr ""
-"파일 시스템은 잠금 해제되어 있어야 하고 다음 부팅시에는 적재됩니다. 이는 암호"
-"를 입력해야 할 수 있습니다."
+msgstr "파일 시스템은 잠금 해제되어 있어야 하고 다음 부팅시에는 적재됩니다. 이는 암호를 입력해야 할 수 있습니다."
 
 #: pkg/packagekit/updates.jsx:505
 msgid "The following service will be restarted:"
@@ -6768,16 +6663,13 @@ msgstr "비밀번호가 일치하지 않습니다."
 msgid ""
 "The resulting fingerprint is fine to share via public methods, including "
 "email."
-msgstr ""
-"최종 지문을 전자우편을 포함한 공개적인 방법을 통해 공유 할 수 있습니다."
+msgstr "최종 지문을 전자우편을 포함한 공개적인 방법을 통해 공유 할 수 있습니다."
 
 #: pkg/static/login.js:892
 msgid ""
 "The server refused to authenticate '$0' using password authentication, and "
 "no other supported authentication methods are available."
-msgstr ""
-"서버가 비밀번호 인증을 사용하여 '$0' 인증을 거부했습니다. 지원되는 다른 인증 "
-"방법을 사용 할 수 없습니다."
+msgstr "서버가 비밀번호 인증을 사용하여 '$0' 인증을 거부했습니다. 지원되는 다른 인증 방법을 사용 할 수 없습니다."
 
 #: pkg/lib/cockpit.js:3995
 msgid "The server refused to authenticate using any supported methods."
@@ -6793,8 +6685,7 @@ msgstr "사용자 $0는 암호화 정책을 변경 할 수 없습니다"
 
 #: pkg/users/account-roles.js:89
 msgid "The user must log out and log back in to fully change roles."
-msgstr ""
-"역할을 완전히 변경하려면 사용자가 로그 아웃했다가 다시 로그인해야합니다."
+msgstr "역할을 완전히 변경하려면 사용자가 로그 아웃했다가 다시 로그인해야합니다."
 
 #: pkg/users/account-create-dialog.js:108
 msgid ""
@@ -6805,8 +6696,7 @@ msgstr "사용자 이름에는 a~z 문자, 숫자, 점, 대시, 밑줄만 사용
 #: pkg/static/login.js:210
 msgid ""
 "The web browser configuration prevents Cockpit from running (inaccessible $0)"
-msgstr ""
-"웹 브라우저의 설정에 따라 Cockpit이 실행되지 않습니다 (액세스 불가능 $0)"
+msgstr "웹 브라우저의 설정에 따라 Cockpit이 실행되지 않습니다 (액세스 불가능 $0)"
 
 #: pkg/shell/active-pages-modal.jsx:103
 msgid "There are currently no active pages"
@@ -6816,9 +6706,7 @@ msgstr "현재 활성화된 페이지가 없습니다"
 msgid ""
 "There are devices with multiple paths on the system, but the multipath "
 "service is not running."
-msgstr ""
-"시스템에 여러 경로를 갖는 장치가 있지만 다중 경로 서비스가 동작되고 있지 않습"
-"니다."
+msgstr "시스템에 여러 경로를 갖는 장치가 있지만 다중 경로 서비스가 동작되고 있지 않습니다."
 
 #: pkg/networkmanager/firewall.jsx:212
 msgid "There are no active services in this zone"
@@ -6832,9 +6720,7 @@ msgstr "이 계정에 승인된 공개키가 없습니다."
 msgid ""
 "There is not enough free space elsewhere to remove this physical volume. At "
 "least $0 more free space is needed."
-msgstr ""
-"이 물리 볼륨을 제거하는데 필요한 공간이 충분하지 않습니다. 최소 $0의 여유 공"
-"간이 필요합니다."
+msgstr "이 물리 볼륨을 제거하는데 필요한 공간이 충분하지 않습니다. 최소 $0의 여유 공간이 필요합니다."
 
 #: pkg/shell/failures.jsx:39
 msgid "There was an unexpected error while connecting to the machine."
@@ -6898,9 +6784,7 @@ msgstr "시간이 걸릴 수 있습니다"
 msgid ""
 "This pool can not be unlocked here because its key description is not in the "
 "expected format."
-msgstr ""
-"이 풀은 키 설명이 예상 형식이 아니기 때문에 여기에서 잠금 해제 할 수 없습니"
-"다."
+msgstr "이 풀은 키 설명이 예상 형식이 아니기 때문에 여기에서 잠금 해제 할 수 없습니다."
 
 #: pkg/packagekit/updates.jsx:1371
 msgid "This system is not registered"
@@ -6939,23 +6823,14 @@ msgid ""
 "the journal. Thus, 1 means the first boot found in the journal in "
 "chronological order, 2 the second and so on; while -0 is the last boot, -1 "
 "the boot before last, and so on."
-msgstr ""
-"이는 '_BOOT_ID='를 위해 일치 항목을 추가합니다. 만약 지정하지 않으면 현재 부"
-"팅을 위한 기록(로그)가 표시 될 것입니다. 만약 부트 ID가 생략되었으면, 양수 오"
-"프셋은 저널의 시작 부분에서 시작하여 부팅을 조회 할 것이고, 0 보다 같거나 작"
-"은 오프셋은 저널의 끝에서 부팅을 조회 할 것입니다. 그러므로, 1은 시간 순서에"
-"서 저널에서 발견된 처음 부팅을 의미하고, 2는 두 번째 부팅 등을 의미합니다; 반"
-"면 -0은 마지막 부팅이고, -1은 마지막 부팅 전의 부팅입니다."
+msgstr "이는 '_BOOT_ID='를 위해 일치 항목을 추가합니다. 만약 지정하지 않으면 현재 부팅을 위한 기록(로그)가 표시 될 것입니다. 만약 부트 ID가 생략되었으면, 양수 오프셋은 저널의 시작 부분에서 시작하여 부팅을 조회 할 것이고, 0 보다 같거나 작은 오프셋은 저널의 끝에서 부팅을 조회 할 것입니다. 그러므로, 1은 시간 순서에서 저널에서 발견된 처음 부팅을 의미하고, 2는 두 번째 부팅 등을 의미합니다; 반면 -0은 마지막 부팅이고, -1은 마지막 부팅 전의 부팅입니다."
 
 #: pkg/systemd/logs.jsx:369
 msgid ""
 "This will add match for '_SYSTEMD_UNIT=', 'COREDUMP_UNIT=' and 'UNIT=' to "
 "find all possible messages for the given unit. Can contain more units "
 "separated by comma. "
-msgstr ""
-"이는 '_SYSTEMD_UNIT=', 'COREDUMP_UNIT=' 와 'UNIT=' 을 위한 일치를 추가하여 제"
-"공된 단위를 위해 모든 가능한 메시지를 찾습니다. 쉼표에 의해 구분된 더 많은 단"
-"위를 포함할 수 있습니다. "
+msgstr "이는 '_SYSTEMD_UNIT=', 'COREDUMP_UNIT=' 와 'UNIT=' 을 위한 일치를 추가하여 제공된 단위를 위해 모든 가능한 메시지를 찾습니다. 쉼표에 의해 구분된 더 많은 단위를 포함할 수 있습니다. "
 
 #: pkg/shell/hosts_dialog.jsx:801
 msgid "This will allow you to log in without password in the future."
@@ -6966,9 +6841,7 @@ msgid ""
 "This will test kdump settings by crashing the kernel and thereby the system. "
 "Depending on the settings, the system may not automatically reboot and the "
 "process may take a while."
-msgstr ""
-"kdump 설정은 커널을 충돌하여 시험합니다. 설정에 따라 재시작이 자동으로 수행되"
-"지 않고 처리 시간이 길어질 수 있습니다."
+msgstr "kdump 설정은 커널을 충돌하여 시험합니다. 설정에 따라 재시작이 자동으로 수행되지 않고 처리 시간이 길어질 수 있습니다."
 
 #: pkg/kdump/kdump-view.jsx:467
 msgid "This will test the kdump configuration by crashing the kernel."
@@ -6978,9 +6851,7 @@ msgstr "커널 충돌에 인해 kdump 구성을 시험할 것입니다."
 msgid ""
 "This zone contains the cockpit service. Make sure that this zone does not "
 "apply to your current web console connection."
-msgstr ""
-"이 영역에는 Cockpit 서비스가 포함되어 있습니다. 이 영역이 현재 웹 콘솔 연결"
-"에 적용되지 않는지 확인하십시오."
+msgstr "이 영역에는 Cockpit 서비스가 포함되어 있습니다. 이 영역이 현재 웹 콘솔 연결에 적용되지 않는지 확인하십시오."
 
 #: pkg/systemd/services/timer-dialog.jsx:303 pkg/packagekit/autoupdates.jsx:312
 msgid "Thursdays"
@@ -7015,35 +6886,27 @@ msgstr "타이머"
 msgid ""
 "Tip: Make your key password match your login password to automatically "
 "authenticate against other systems."
-msgstr ""
-"도움말: 다른 시스템에 자동으로 인증하려면 키 비밀번호가 로그인 비밀번호와 일"
-"치해야 합니다."
+msgstr "도움말: 다른 시스템에 자동으로 인증하려면 키 비밀번호가 로그인 비밀번호와 일치해야 합니다."
 
 #: pkg/static/login.html:91 pkg/shell/hosts_dialog.jsx:459
 #: pkg/shell/hosts_dialog.jsx:470
 msgid ""
 "To ensure that your connection is not intercepted by a malicious third-"
 "party, please verify the host key fingerprint:"
-msgstr ""
-"악성의 제3자가 귀하의 연결을 가로채지 않도록 하려면 호스트 키 지문을 확인하십"
-"시오:"
+msgstr "악성의 제3자가 귀하의 연결을 가로채지 않도록 하려면 호스트 키 지문을 확인하십시오:"
 
 #: pkg/packagekit/updates.jsx:1374
 msgid ""
 "To get software updates, this system needs to be registered with Red Hat, "
 "either using the Red Hat Customer Portal or a local subscription server."
-msgstr ""
-"소프트웨어 최신화 하려면, 이 시스템은 Red Hat 고객 포털이나 로컬 서브스크립"
-"션 서버를 사용하여 Red Hat에 등록되어 있어야 합니다."
+msgstr "소프트웨어 최신화 하려면, 이 시스템은 Red Hat 고객 포털이나 로컬 서브스크립션 서버를 사용하여 Red Hat에 등록되어 있어야 합니다."
 
 #: pkg/static/login.js:745 pkg/shell/hosts_dialog.jsx:462
 #: pkg/shell/hosts_dialog.jsx:473
 msgid ""
 "To verify a fingerprint, run the following on $0 while physically sitting at "
 "the machine or through a trusted network:"
-msgstr ""
-"지문을 확인하려면 물리적인 장치 또는 신뢰할 수 있는 네트워크를 통해 $0에서 다"
-"음을 실행합니다:"
+msgstr "지문을 확인하려면 물리적인 장치 또는 신뢰할 수 있는 네트워크를 통해 $0에서 다음을 실행합니다:"
 
 #: pkg/metrics/metrics.jsx:1652
 msgid "Today"
@@ -7149,9 +7012,7 @@ msgid ""
 "Tuned is a service that monitors your system and optimizes the performance "
 "under certain workloads. The core of Tuned are profiles, which tune your "
 "system for different use cases."
-msgstr ""
-"Tuned는 시스템을 모니터링하고 특정 워크로드에 대해 성능을 최적화하는 서비스입"
-"니다. Tuned의 핵심은 다른 사용 사례에 맞게 시스템을 조정하는 프로파일입니다."
+msgstr "Tuned는 시스템을 모니터링하고 특정 워크로드에 대해 성능을 최적화하는 서비스입니다. Tuned의 핵심은 다른 사용 사례에 맞게 시스템을 조정하는 프로파일입니다."
 
 #: pkg/tuned/dialog.jsx:76
 msgid "Tuned is not available"
@@ -7215,9 +7076,7 @@ msgstr "$0를 연락 할 수 없음."
 msgid ""
 "Unable to contact the given host $0. Make sure it has ssh running on port "
 "$1, or specify another port in the address."
-msgstr ""
-"지정된 호스트 $0에 연결할 수 없습니다. 포트 $1에서 ssh가 실행되고 있는지 확인"
-"하거나 주소에서 다른 포트를 지정합니다."
+msgstr "지정된 호스트 $0에 연결할 수 없습니다. 포트 $1에서 ssh가 실행되고 있는지 확인하거나 주소에서 다른 포트를 지정합니다."
 
 #: pkg/selinux/setroubleshoot-view.jsx:58
 #: pkg/selinux/setroubleshoot-view.jsx:181
@@ -7232,17 +7091,13 @@ msgstr "알림을 받을 수 없음: $0"
 msgid ""
 "Unable to log in to $0 using SSH key authentication. Please provide the "
 "password. You may want to set up your SSH keys for automatic login."
-msgstr ""
-"SSH 키 인증을 사용하여 $0에 로그인 할 수 없습니다. 비밀번호를 입력하세요. 자"
-"동 로그인을 위해 자신의 SSH 키를 설정 할 수 있습니다."
+msgstr "SSH 키 인증을 사용하여 $0에 로그인 할 수 없습니다. 비밀번호를 입력하세요. 자동 로그인을 위해 자신의 SSH 키를 설정 할 수 있습니다."
 
 #: pkg/shell/hosts_dialog.jsx:745
 msgid ""
 "Unable to log in to $0. The host does not accept password login or any of "
 "your SSH keys."
-msgstr ""
-"$0에 로그인 할 수 없습니다. 호스트는 비밀번호 로그인 또는 자신의 SSH 키를 허"
-"용하지 않습니다."
+msgstr "$0에 로그인 할 수 없습니다. 호스트는 비밀번호 로그인 또는 자신의 SSH 키를 허용하지 않습니다."
 
 #: pkg/storaged/iscsi-panel.jsx:91
 msgid "Unable to reach server"
@@ -7727,8 +7582,7 @@ msgstr "입력 대기 중…"
 
 #: pkg/apps/utils.jsx:53
 msgid "Waiting for other programs to finish using the package manager..."
-msgstr ""
-"꾸러미 관리자를 사용 중이어서 다른 프로그램이 종료 할 때까지 대기 중..."
+msgstr "꾸러미 관리자를 사용 중이어서 다른 프로그램이 종료 할 때까지 대기 중..."
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:148
 #: pkg/lib/cockpit-components-install-dialog.jsx:183
@@ -7796,10 +7650,7 @@ msgid ""
 "When the Web Console is restarted, you will no longer see progress "
 "information. However, the update process will continue in the background. "
 "Reconnect to continue watching the update process."
-msgstr ""
-"웹 콘솔이 다시 시작되면 더 이상 진행률 정보가 표시되지 않지만 업데이트 프로세"
-"스는 백그라운드에서 계속됩니다. 업데이트 프로세스를 계속 확인하려면 다시 연결"
-"하십시오."
+msgstr "웹 콘솔이 다시 시작되면 더 이상 진행률 정보가 표시되지 않지만 업데이트 프로세스는 백그라운드에서 계속됩니다. 업데이트 프로세스를 계속 확인하려면 다시 연결하십시오."
 
 #: pkg/systemd/terminal.jsx:156
 msgid "White"
@@ -7884,9 +7735,7 @@ msgstr "사용자 계정"
 msgid ""
 "Your browser does not allow paste from the context menu. You can use Shift"
 "+Insert."
-msgstr ""
-"당신의 검색기는 내용 메뉴에서 붙여넣기를 허용하지 않습니다. Shift+Insert를 사"
-"용 할 수 있습니다."
+msgstr "당신의 검색기는 내용 메뉴에서 붙여넣기를 허용하지 않습니다. Shift+Insert를 사용 할 수 있습니다."
 
 #: pkg/shell/superuser.jsx:273
 msgid "Your browser will remember your access level across sessions."
@@ -9149,7 +8998,6 @@ msgstr "영역"
 #~ msgid "Select unit state"
 #~ msgstr "장치 상태 선택"
 
-#, fuzzy
 #~| msgid "Enable stored metrics"
 #~ msgid "Enable PCP metrics collector"
 #~ msgstr "저장된 항목 사용"
@@ -9290,7 +9138,6 @@ msgstr "영역"
 #~ msgid "Clone"
 #~ msgstr "복제"
 
-#, fuzzy
 #~| msgid "Can't load image"
 #~ msgid "Cloud base image"
 #~ msgstr "이미지를 로드할 수 없습니다"
@@ -9599,7 +9446,6 @@ msgstr "영역"
 #~ "Leave the password blank if you do not wish to have a user account created"
 #~ msgstr "사용자 계정을 만들지 않으려면 암호를 비워 두십시오"
 
-#, fuzzy
 #~| msgid ""
 #~| "Leave the password blank if you do not wish to have a root account "
 #~| "created"
@@ -9808,7 +9654,6 @@ msgstr "영역"
 #~ msgid "Path to ISO file on host's file system"
 #~ msgstr "호스트의 파일 시스템에서 ISO 파일로의 경로"
 
-#, fuzzy
 #~| msgid "Path to file on host's file system"
 #~ msgid "Path to cloud image file on host's file system"
 #~ msgstr "호스트 파일 시스템에서 파일의 경로"
@@ -10396,14 +10241,12 @@ msgstr "영역"
 #~ msgid "Networking"
 #~ msgstr "네트워킹"
 
-#, fuzzy
 #~ msgid "No such file found in directory '$0'"
 #~ msgstr "이러한 파일 또는 디렉토리가 없습니다"
 
 #~ msgid "No updates pending"
 #~ msgstr "보류 중인 업데이트가 없습니다"
 
-#, fuzzy
 #~| msgid "ssh server is empty"
 #~ msgid "This directory is empty"
 #~ msgstr "ssh 서버가 비어 있습니다"
@@ -10486,7 +10329,6 @@ msgstr "영역"
 #~ msgid "Dashboard"
 #~ msgstr "대시보드"
 
-#, fuzzy
 #~ msgid "Description input text"
 #~ msgstr "설명"
 
@@ -10523,12 +10365,10 @@ msgstr "영역"
 #~ msgid_plural "$0 bytes"
 #~ msgstr[0] "$0 바이트"
 
-#, fuzzy
 #~| msgid "Bond settings"
 #~ msgid "Bond settings           "
 #~ msgstr "본드 설정"
 
-#, fuzzy
 #~| msgid "IP settings"
 #~ msgid "IP settings          "
 #~ msgstr "IP 설정"
@@ -10663,7 +10503,6 @@ msgstr "영역"
 #~ msgid "Available"
 #~ msgstr "사용 가능"
 
-#, fuzzy
 #~ msgid "Enter IP address or hostname"
 #~ msgstr "IP 주소 또는 호스트 명을 입력하세요"
 
@@ -10960,7 +10799,6 @@ msgstr "영역"
 #~ msgid "No results for $0"
 #~ msgstr "$0의 결과를 찾을 수 없습니다"
 
-#, fuzzy
 #~| msgid "No images that match the current filter"
 #~ msgid "No results that match the filter criteria"
 #~ msgstr "현재 필터에 일치하는 이미지가 없습니다"
@@ -11145,7 +10983,6 @@ msgstr "영역"
 #~ msgid "Machines"
 #~ msgstr "장치들"
 
-#, fuzzy
 #~| msgid "The user $0 is not permitted to change the system time"
 #~ msgid "The user $0 is not permitted to create timers"
 #~ msgstr "사용자 $0은/는 시스템 시간을 변경할 수 없습니다"
@@ -11180,7 +11017,6 @@ msgstr "영역"
 #~ msgid "The user <b>$0</b> is not permitted to modify network settings"
 #~ msgstr "사용자 <b>$0</b> 는 네트워크 설정 권한이 없습니다"
 
-#, fuzzy
 #~| msgid "Required by "
 #~ msgid "Required by $0"
 #~ msgstr "필요 사항 "
@@ -11289,5 +11125,3 @@ msgstr "영역"
 #~ msgid "${hip}:${hport} -> $cport"
 #~ msgstr "${hip}:${hport} -> $cport"
 
-#~ msgid "Hide Performance Options"
-#~ msgstr "성능 옵션 숨기기   "

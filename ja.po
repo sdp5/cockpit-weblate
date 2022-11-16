@@ -516,32 +516,24 @@ msgstr "この名前のファイルシステムは、すでにこのプールに
 #: pkg/static/login.html:44
 msgid ""
 "A modern browser is required for security, reliability, and performance."
-msgstr ""
-"セキュリティー、信頼性、およびパフォーマンスに対して最新のブラウザーが必要で"
-"す。"
+msgstr "セキュリティー、信頼性、およびパフォーマンスに対して最新のブラウザーが必要です。"
 
 #: pkg/networkmanager/bond.jsx:144
 msgid ""
 "A network bond combines multiple network interfaces into one logical "
 "interface with higher throughput or redundancy."
-msgstr ""
-"ネットワークボンディングは複数のネットワークインタフェースを高いスループット"
-"または冗長性の単一論理インタフェースにまとめます。"
+msgstr "ネットワークボンディングは複数のネットワークインタフェースを高いスループットまたは冗長性の単一論理インタフェースにまとめます。"
 
 #: pkg/shell/hosts_dialog.jsx:772
 msgid ""
 "A new SSH key at $0 will be created for $1 on $2 and it will be added to the "
 "$3 file of $4 on $5."
-msgstr ""
-"$0 で新しい SSH キーが $2 の $1 用に作成され、$5 上の $3 の $3 ファイルに追加"
-"されました。"
+msgstr "$0 で新しい SSH キーが $2 の $1 用に作成され、$5 上の $3 の $3 ファイルに追加されました。"
 
 #: pkg/packagekit/updates.jsx:1525
 msgid "A package needs a system reboot for the updates to take effect:"
-msgid_plural ""
-"Some packages need a system reboot for the updates to take effect:"
-msgstr[0] ""
-"パッケージの更新を有効にするには、システムを再起動する必要があります:"
+msgid_plural "Some packages need a system reboot for the updates to take effect:"
+msgstr[0] "パッケージの更新を有効にするには、システムを再起動する必要があります:"
 
 #: pkg/storaged/stratis-details.jsx:227
 msgid "A pool with this name exists already."
@@ -549,8 +541,7 @@ msgstr "この名前を持つプールはすでに存在します。"
 
 #: pkg/packagekit/updates.jsx:1529
 msgid "A service needs to be restarted for the updates to take effect:"
-msgid_plural ""
-"Some services need to be restarted for the updates to take effect:"
+msgid_plural "Some services need to be restarted for the updates to take effect:"
 msgstr[0] "更新を有効にするには、サービスを再起動する必要があります:"
 
 #: pkg/storaged/mdraid-details.jsx:134
@@ -747,16 +738,13 @@ msgstr "ゾーンの追加"
 msgid ""
 "Adding $0 will break the connection to the server, and will make the "
 "administration UI unavailable."
-msgstr ""
-"$0 を追加すると、サーバーへの接続が切断され、管理 UI が利用できなくなります。"
+msgstr "$0 を追加すると、サーバーへの接続が切断され、管理 UI が利用できなくなります。"
 
 #: pkg/networkmanager/firewall.jsx:600
 msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
-msgstr ""
-"カスタムポートを追加すると、firewalld がリロードされます。リロードにより、ラ"
-"ンタイムのみの設定が失われます!"
+msgstr "カスタムポートを追加すると、firewalld がリロードされます。リロードにより、ランタイムのみの設定が失われます!"
 
 #: pkg/users/authorized-keys.js:112
 msgid "Adding key"
@@ -840,10 +828,7 @@ msgid ""
 "After leaving the domain, only users with local credentials will be able to "
 "log into this machine. This may also affect other services as DNS resolution "
 "settings and the list of trusted CAs may change."
-msgstr ""
-"ドメインの終了後は、ローカル認証情報を持つユーザーだけが、このマシンにログイ"
-"ンできます。DNS 解決設定および信頼される CA の一覧が変更する可能性があるた"
-"め、他のサービスにも影響を及ぼす場合があります。"
+msgstr "ドメインの終了後は、ローカル認証情報を持つユーザーだけが、このマシンにログインできます。DNS 解決設定および信頼される CA の一覧が変更する可能性があるため、他のサービスにも影響を及ぼす場合があります。"
 
 #: pkg/systemd/services/timer-dialog.jsx:197
 msgid "After system boot"
@@ -896,11 +881,7 @@ msgid ""
 "in the form of a regular expression. Also supports filtering by message log "
 "fields. These are space separated values, in form FIELD=VALUE, where value "
 "can be comma separated list of possible values."
-msgstr ""
-"ログメッセージのテキスト文字列はフィルターでフィルタリングできます。文字列"
-"は、正規表現の形式でも指定できます。また、メッセージログフィールドによるフィ"
-"ルタリングもサポートできます。これらは、FIELD=VALUE の形式でスペースで区切っ"
-"た値は、使用できる値のカンマ区切りのリストになります。"
+msgstr "ログメッセージのテキスト文字列はフィルターでフィルタリングできます。文字列は、正規表現の形式でも指定できます。また、メッセージログフィールドによるフィルタリングもサポートできます。これらは、FIELD=VALUE の形式でスペースで区切った値は、使用できる値のカンマ区切りのリストになります。"
 
 #: pkg/systemd/terminal.jsx:147
 msgid "Appearance"
@@ -1208,10 +1189,7 @@ msgid ""
 "By changing the password of the SSH key $0 to the login password of $1 on "
 "$2, the key will be automatically made available and you can log in to $3 "
 "without password in the future."
-msgstr ""
-"SSH キー $0 のパスワードを $2 の $1 のログインパスワードに変更することで、自"
-"動的にキーが使えるようになります。これで、パスワードなしで $3 にログインでき"
-"るようになります。"
+msgstr "SSH キー $0 のパスワードを $2 の $1 のログインパスワードに変更することで、自動的にキーが使えるようになります。これで、パスワードなしで $3 にログインできるようになります。"
 
 #: pkg/systemd/hwinfo.jsx:118 pkg/systemd/overview-cards/usageCard.jsx:134
 #: pkg/metrics/metrics.jsx:689 pkg/metrics/metrics.jsx:1683
@@ -1248,8 +1226,7 @@ msgstr "ホスト名、IP アドレス、エイリアス名、または ssh:// U
 
 #: pkg/systemd/logsJournal.jsx:280
 msgid "Can not find any logs using the current combination of filters."
-msgstr ""
-"現在のフィルターの組み合わせを使用して、ログを見つけることができません。"
+msgstr "現在のフィルターの組み合わせを使用して、ログを見つけることができません。"
 
 #: pkg/static/login.html:148 pkg/playground/translate.html:39
 #: pkg/systemd/hwinfo.jsx:242 pkg/systemd/overview-cards/realmd.jsx:419
@@ -1366,18 +1343,13 @@ msgid ""
 "Changed keys are often the result of an operating system reinstallation. "
 "However, an unexpected change may indicate a third-party attempt to "
 "intercept your connection."
-msgstr ""
-"キーを変更すると、オペレーティングシステムを再インストールすることになること"
-"が多くあります。ただし、予期しない変更により接続の傍受が試行される場合もあり"
-"ます。"
+msgstr "キーを変更すると、オペレーティングシステムを再インストールすることになることが多くあります。ただし、予期しない変更により接続の傍受が試行される場合もあります。"
 
 #: pkg/networkmanager/interfaces.js:1595
 msgid ""
 "Changing the settings will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr ""
-"設定を変更すると、サーバーへの接続が切断され、管理 UI が利用できなくなりま"
-"す。"
+msgstr "設定を変更すると、サーバーへの接続が切断され、管理 UI が利用できなくなります。"
 
 #: pkg/packagekit/updates.jsx:919
 msgid "Check for updates"
@@ -1494,11 +1466,7 @@ msgid ""
 "no problem. A service started via Cockpit can be stopped via the terminal. "
 "Likewise, if an error occurs in the terminal, it can be seen in the Cockpit "
 "journal interface."
-msgstr ""
-"Cockpit は、Web ブラウザーで Linux サーバーを簡単に管理できるサーバーマネー"
-"ジャーです。端末と Web ツールを区別せずに使用できます。Cockpit で起動された"
-"サービスは端末で停止できます。同様に、端末でエラーが発生した場合は、そのエ"
-"ラーを Cockpit ジャーナルインターフェースで確認できます。"
+msgstr "Cockpit は、Web ブラウザーで Linux サーバーを簡単に管理できるサーバーマネージャーです。端末と Web ツールを区別せずに使用できます。Cockpit で起動されたサービスは端末で停止できます。同様に、端末でエラーが発生した場合は、そのエラーを Cockpit ジャーナルインターフェースで確認できます。"
 
 #: pkg/shell/shell-modals.jsx:70
 msgid "Cockpit is an interactive Linux server admin interface."
@@ -1523,14 +1491,10 @@ msgid ""
 "stopping services. You can monitor and administer several servers at the "
 "same time. Just add them with a single click and your machines will look "
 "after its buddies."
-msgstr ""
-"Cockpit は経験が少ないシステム管理者に最適です。これらのシステム管理者はスト"
-"レージの管理、ジャーナルの検査、サービスの起動および停止などの単純なタスクを"
-"簡単に実行できるようになります。また、複数のサーバーを同時に監視および管理で"
-"きます。これらのサーバーはクリックするだけで追加できます。追加後に、ご使用の"
-"マシンは他のマシンを管理するようになります。"
+msgstr "Cockpit は経験が少ないシステム管理者に最適です。これらのシステム管理者はストレージの管理、ジャーナルの検査、サービスの起動および停止などの単純なタスクを簡単に実行できるようになります。また、複数のサーバーを同時に監視および管理できます。これらのサーバーはクリックするだけで追加できます。追加後に、ご使用のマシンは他のマシンを管理するようになります。"
 
 #: pkg/static/login.js:183
+#, fuzzy
 msgid "Cockpit might not render correctly in your browser"
 msgstr ""
 
@@ -1573,8 +1537,7 @@ msgstr "すべてのシステムおよびデバイスとの互換性あり (MBR)
 
 #: pkg/storaged/content-views.jsx:694
 msgid "Compatible with modern system and hard disks > 2TB (GPT)"
-msgstr ""
-"最新のシステムとの互換性があり、ハードディスクが 2TB よりも大きい (GPT)"
+msgstr "最新のシステムとの互換性があり、ハードディスクが 2TB よりも大きい (GPT)"
 
 #: pkg/kdump/kdump-view.jsx:173
 msgid "Compress crash dumps to save space"
@@ -1909,9 +1872,7 @@ msgstr "$target のスナップショットの作成"
 msgid ""
 "Creating this $0 will break the connection to the server, and will make the "
 "administration UI unavailable."
-msgstr ""
-"この $0を作成すると、サーバーへの接続が切断され、管理 UI が利用できなくなりま"
-"す。"
+msgstr "この $0を作成すると、サーバーへの接続が切断され、管理 UI が利用できなくなります。"
 
 #: pkg/systemd/logs.jsx:66
 msgid "Critical and above"
@@ -1921,9 +1882,7 @@ msgstr "重大以上のレベル"
 msgid ""
 "Crypto Policies is a system component that configures the core cryptographic "
 "subsystems, covering the TLS, IPSec, SSH, DNSSec, and Kerberos protocols."
-msgstr ""
-"暗号化ポリシーは、TLS、IPSec、SSH、DNSSec、および Kerberos プロトコルに対応す"
-"るコア暗号化サブシステムを設定するシステムコンポーネントです。"
+msgstr "暗号化ポリシーは、TLS、IPSec、SSH、DNSSec、および Kerberos プロトコルに対応するコア暗号化サブシステムを設定するシステムコンポーネントです。"
 
 #: pkg/systemd/overview-cards/cryptoPolicies.jsx:73
 msgid "Crypto policy"
@@ -2013,11 +1972,7 @@ msgid ""
 "Alternatively the strings 'yesterday', 'today', 'tomorrow' are understood. "
 "'now' refers to the current time. Finally, relative times may be specified, "
 "prefixed with '-' or '+'"
-msgstr ""
-"日付の指定は、YYYY-MM-DD hh:mm:ss の形式にする必要があります。または、文字列"
-"は 'yesterday'、'today'、'tomorrow' が理解されます。'now' は現在の時刻を指し"
-"ます。最後に、相対時間を指定できます。最後に、ハイフン (-) または '+' を付け"
-"ることができます"
+msgstr "日付の指定は、YYYY-MM-DD hh:mm:ss の形式にする必要があります。または、文字列は 'yesterday'、'today'、'tomorrow' が理解されます。'now' は現在の時刻を指します。最後に、相対時間を指定できます。最後に、ハイフン (-) または '+' を付けることができます"
 
 #: pkg/storaged/content-views.jsx:322
 msgid "Deactivate"
@@ -2087,8 +2042,7 @@ msgstr "レポートを完全に削除しますか?"
 msgid ""
 "Deleting $0 will break the connection to the server, and will make the "
 "administration UI unavailable."
-msgstr ""
-"$0 を削除すると、サーバーへの接続が切断され、管理 UI が利用できなくなります。"
+msgstr "$0 を削除すると、サーバーへの接続が切断され、管理 UI が利用できなくなります。"
 
 #: pkg/storaged/jobs-panel.jsx:60 pkg/storaged/jobs-panel.jsx:74
 msgid "Deleting $target"
@@ -2100,25 +2054,19 @@ msgstr "LVM2 ボリュームグループ $target の削除"
 
 #: pkg/storaged/stratis-details.jsx:252
 msgid "Deleting a Stratis pool will erase all data it contains."
-msgstr ""
-"Stratis プールを削除すると、Stratis プールに含まれるデータがすべて消去されま"
-"す。"
+msgstr "Stratis プールを削除すると、Stratis プールに含まれるデータがすべて消去されます。"
 
 #: pkg/storaged/stratis-details.jsx:553
 msgid "Deleting a filesystem will delete all data in it."
-msgstr ""
-"ファイルシステムを削除すると、そのファイルシステム内のすべてのデータが削除さ"
-"れます。"
+msgstr "ファイルシステムを削除すると、そのファイルシステム内のすべてのデータが削除されます。"
 
 #: pkg/storaged/content-views.jsx:360
 msgid "Deleting a logical volume will delete all data in it."
-msgstr ""
-"論理ボリュームを削除すると、論理ボリューム内のすべてのデータが削除されます。"
+msgstr "論理ボリュームを削除すると、論理ボリューム内のすべてのデータが削除されます。"
 
 #: pkg/storaged/content-views.jsx:363
 msgid "Deleting a partition will delete all data in it."
-msgstr ""
-"パーティションを削除すると、パーティション内のすべてのデータが削除されます。"
+msgstr "パーティションを削除すると、パーティション内のすべてのデータが削除されます。"
 
 #: pkg/storaged/mdraid-details.jsx:298
 msgid "Deleting erases all data on a RAID device."
@@ -2479,8 +2427,7 @@ msgstr "ここでは、暗号化したボリュームのサイズを変更する
 
 #: pkg/storaged/lvol-tabs.jsx:174
 msgid "Encrypted volumes need to be unlocked before they can be resized."
-msgstr ""
-"暗号化したボリュームは、サイズを変更する前にロックを解除する必要があります。"
+msgstr "暗号化したボリュームは、サイズを変更する前にロックを解除する必要があります。"
 
 #: pkg/storaged/format-dialog.jsx:260 pkg/storaged/content-views.jsx:238
 msgid "Encryption"
@@ -2700,10 +2647,7 @@ msgstr "承認された鍵のロードに失敗しました。"
 msgid ""
 "Failed to parse unit files for dnf-automatic.timer or dnf-automatic-install."
 "timer. Please remove custom overrides to configure automatic updates."
-msgstr ""
-"dnf-automatic.timer または dnf-automatic-install.timer のユニットファイルの分"
-"析に失敗しました。カスタムオーバーライドを削除して、自動更新を設定してくださ"
-"い。"
+msgstr "dnf-automatic.timer または dnf-automatic-install.timer のユニットファイルの分析に失敗しました。カスタムオーバーライドを削除して、自動更新を設定してください。"
 
 #: pkg/packagekit/updates.jsx:490
 msgid "Failed to restart service"
@@ -2839,9 +2783,7 @@ msgstr "空き領域"
 msgid ""
 "Free up space in this group: Shrink or delete other logical volumes or add "
 "another physical volume."
-msgstr ""
-"このグループ内で領域を解放します: 他の論理ボリュームを縮小または削除するか、"
-"新たな物理ボリュームを追加してください。"
+msgstr "このグループ内で領域を解放します: 他の論理ボリュームを縮小または削除するか、新たな物理ボリュームを追加してください。"
 
 #: pkg/systemd/logs.jsx:377
 msgid "Free-form search"
@@ -2992,9 +2934,7 @@ msgstr "IP アドレス"
 msgid ""
 "IP address with routing prefix. Separate multiple values with a comma. "
 "Example: 192.0.2.0/24, 2001:db8::/32"
-msgstr ""
-"ルーティングプレフィックス付きの IP アドレス。複数の値はコンマで区切ります。"
-"例: 192.0.2.0/24, 2001:db8::/32"
+msgstr "ルーティングプレフィックス付きの IP アドレス。複数の値はコンマで区切ります。例: 192.0.2.0/24, 2001:db8::/32"
 
 #: pkg/networkmanager/network-interface.jsx:570
 msgid "IPv4"
@@ -3020,25 +2960,19 @@ msgstr "識別子"
 msgid ""
 "If left empty, ID will be generated based on associated port services and "
 "port numbers"
-msgstr ""
-"空白のままの場合、関連付けられたポートサービスおよびポート番号に基づいて ID "
-"が生成されます"
+msgstr "空白のままの場合、関連付けられたポートサービスおよびポート番号に基づいて ID が生成されます"
 
 #: pkg/static/login.html:97
 msgid ""
 "If the fingerprint matches, click \"Accept key and log in\". Otherwise, do "
 "not log in and contact your administrator."
-msgstr ""
-"フィンガープリントが一致する場合は、Accept key and login をクリックします。一"
-"致しない場合は、ログインせずに、管理者にお問い合わせください。"
+msgstr "フィンガープリントが一致する場合は、Accept key and login をクリックします。一致しない場合は、ログインせずに、管理者にお問い合わせください。"
 
 #: pkg/shell/hosts_dialog.jsx:465 pkg/shell/hosts_dialog.jsx:476
 msgid ""
 "If the fingerprint matches, click 'Accept key and connect'. Otherwise, do "
 "not connect and contact your administrator."
-msgstr ""
-"フィンガープリントが一致している場合は、キーを受け入れて接続をクリックしま"
-"す。一致していない場合は、接続せずに管理者にお問い合わせください。"
+msgstr "フィンガープリントが一致している場合は、キーを受け入れて接続をクリックします。一致していない場合は、接続せずに管理者にお問い合わせください。"
 
 #: pkg/storaged/format-dialog.jsx:87
 msgid ""
@@ -3046,11 +2980,7 @@ msgid ""
 "next boot even if it was mounted before it.  This is useful if mounting "
 "during boot is not possible, such as when a passphrase is required to unlock "
 "the filesystem but booting is unattended."
-msgstr ""
-"このオプションにチェックが付けられると、次回の起動時にファイルシステムがマウ"
-"ントされていても、次回の起動時にマウントされません。これは、ファイルシステム"
-"のロックを解除する必要があるが、起動が無人の場合などに、起動時にマウントでき"
-"ない場合に役立ちます。"
+msgstr "このオプションにチェックが付けられると、次回の起動時にファイルシステムがマウントされていても、次回の起動時にマウントされません。これは、ファイルシステムのロックを解除する必要があるが、起動が無人の場合などに、起動時にマウントできない場合に役立ちます。"
 
 #: pkg/networkmanager/ip-settings.jsx:56 pkg/packagekit/updates.jsx:696
 #: pkg/packagekit/updates.jsx:773
@@ -3070,10 +3000,7 @@ msgid ""
 "In order to allow log in to $0 as $1 without password in the future, use the "
 "login password of $2 on $3 as the key password, or leave the key password "
 "blank."
-msgstr ""
-"今後、$0 にパスワードなしで $1 としてログインできるようにするには、$3 上の "
-"$2 のログインパスワードをキーパスワードとして使用するか、キーパスワードを空欄"
-"のままにしてください。"
+msgstr "今後、$0 にパスワードなしで $1 としてログインできるようにするには、$3 上の $2 のログインパスワードをキーパスワードとして使用するか、キーパスワードを空欄のままにしてください。"
 
 #: pkg/storaged/mdraid-details.jsx:112
 msgid "In sync"
@@ -3096,9 +3023,7 @@ msgstr "含まれているサービス"
 #: pkg/networkmanager/firewall.jsx:1054
 msgid ""
 "Incoming requests are blocked by default. Outgoing requests are not blocked."
-msgstr ""
-"受信リクエストはデフォルトでブロックされます。発信リクエストはブロックされま"
-"せん。"
+msgstr "受信リクエストはデフォルトでブロックされます。発信リクエストはブロックされません。"
 
 #: pkg/storaged/fsys-tab.jsx:671
 msgid "Inconsistent filesystem mount"
@@ -3175,9 +3100,7 @@ msgstr "セキュリティーアップデートをインストールする"
 
 #: pkg/selinux/setroubleshoot-view.jsx:332
 msgid "Install setroubleshoot-server to troubleshoot SELinux events."
-msgstr ""
-"setroubleshoot-server をインストールして SELinux イベントをトラブルシュートし"
-"ます。"
+msgstr "setroubleshoot-server をインストールして SELinux イベントをトラブルシュートします。"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:110
 msgid "Install software"
@@ -3353,9 +3276,7 @@ msgstr "次にジャンプ"
 #: pkg/kdump/kdump-view.jsx:438
 msgid ""
 "Kdump service not installed. Please ensure package kexec-tools is installed."
-msgstr ""
-"Kdump サービスがインストールされていません。パッケージ kexec-tools がインス"
-"トールされていることを確認してください。"
+msgstr "Kdump サービスがインストールされていません。パッケージ kexec-tools がインストールされていることを確認してください。"
 
 #: pkg/networkmanager/interfaces.js:69
 msgid "Keep connection"
@@ -3499,9 +3420,7 @@ msgstr "制限付きアクセス"
 msgid ""
 "Limited access mode restricts administrative privileges. Some parts of the "
 "web console will have reduced functionality."
-msgstr ""
-"限定アクセスモードでは、管理者権限が制限されます。Web コンソールの一部の機能"
-"が低下します。"
+msgstr "限定アクセスモードでは、管理者権限が制限されます。Web コンソールの一部の機能が低下します。"
 
 #: pkg/systemd/abrtLog.jsx:143
 msgid "Limits"
@@ -3777,8 +3696,7 @@ msgstr "メンテナンス"
 #: pkg/storaged/crypto-keyslots.jsx:389
 msgid ""
 "Make sure the key hash from the Tang server matches one of the following:"
-msgstr ""
-"Tang サーバーのキーハッシュが、以下のいずれかと一致することを確認します:"
+msgstr "Tang サーバーのキーハッシュが、以下のいずれかと一致することを確認します:"
 
 #: pkg/networkmanager/network-main.jsx:181
 msgid "Managed interfaces"
@@ -3871,10 +3789,7 @@ msgid ""
 "Masking service prevents all dependent units from running. This can have "
 "bigger impact than anticipated. Please confirm that you want to mask this "
 "unit."
-msgstr ""
-"サービスをマスクすると、すべての依存するユニットが実行されなくなります。大き"
-"な影響が及ぶ可能性があります。このユニットをマスクすることを確認してくださ"
-"い。"
+msgstr "サービスをマスクすると、すべての依存するユニットが実行されなくなります。大きな影響が及ぶ可能性があります。このユニットをマスクすることを確認してください。"
 
 #: pkg/networkmanager/network-interface.jsx:520
 msgid "Maximum message age $max_age"
@@ -4366,10 +4281,7 @@ msgid ""
 "No memory reserved. Append a crashkernel option to the kernel command line "
 "(e.g. in /etc/default/grub) to reserve memory at boot time. Example: "
 "crashkernel=512M"
-msgstr ""
-"メモリーが予約されていません。crashkernel オプションをカーネルコマンドライン"
-"に追加して (例: /etc/default/grub)、起動時にメモリーを予約します。例: "
-"crashkernel=512M"
+msgstr "メモリーが予約されていません。crashkernel オプションをカーネルコマンドラインに追加して (例: /etc/default/grub)、起動時にメモリーを予約します。例: crashkernel=512M"
 
 #: pkg/storaged/content-views.jsx:696
 msgid "No partitioning"
@@ -4386,9 +4298,7 @@ msgstr "結果が見つかりません"
 #: pkg/systemd/services/services.jsx:858
 msgid ""
 "No results match the filter criteria. Clear all filters to show results."
-msgstr ""
-"絞り込みの基準と一致する結果がありません。結果を見るためには全ての絞り込み基"
-"準を解除してください。"
+msgstr "絞り込みの基準と一致する結果がありません。結果を見るためには全ての絞り込み基準を解除してください。"
 
 #: pkg/systemd/overview-cards/insights.jsx:183
 msgid "No rule hits"
@@ -4554,9 +4464,7 @@ msgstr "障害発生時"
 msgid ""
 "Once Cockpit is installed, enable it with \"systemctl enable --now cockpit."
 "socket\"."
-msgstr ""
-"Cockpit がインストールされたら、\"systemctl enable --now cockpit.socket\" コ"
-"マンドで有効にします。"
+msgstr "Cockpit がインストールされたら、\"systemctl enable --now cockpit.socket\" コマンドで有効にします。"
 
 #: pkg/storaged/vdo-details.jsx:122
 msgid "Only $0 of $1 are used."
@@ -4572,9 +4480,7 @@ msgstr "緊急のみ"
 
 #: pkg/systemd/overview-cards/cryptoPolicies.jsx:40
 msgid "Only use approved and allowed algorithms when booting in FIPS mode."
-msgstr ""
-"FIPS モードで起動する場合は、承認および許可されたアルゴリズムのみを使用してく"
-"ださい。"
+msgstr "FIPS モードで起動する場合は、承認および許可されたアルゴリズムのみを使用してください。"
 
 #: pkg/shell/topnav.jsx:192
 msgid "Ooops!"
@@ -4611,8 +4517,7 @@ msgstr "その他"
 msgid ""
 "Other authentication methods are still available even when interactive "
 "password authentication is not allowed."
-msgstr ""
-"対話式パスワード認証が許可されない場合でも、他の認証方法を利用できます。"
+msgstr "対話式パスワード認証が許可されない場合でも、他の認証方法を利用できます。"
 
 #: pkg/storaged/content-views.jsx:491
 msgctxt "storage-id-desc"
@@ -4847,9 +4752,7 @@ msgstr "一時停止"
 msgid ""
 "Performance Co-Pilot collects and analyzes performance metrics from your "
 "system."
-msgstr ""
-"パフォーマンス Co-Pilot は、お使いのシステムからパフォーマンスメトリックスを"
-"収集して分析します。"
+msgstr "パフォーマンス Co-Pilot は、お使いのシステムからパフォーマンスメトリックスを収集して分析します。"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:81
 msgid "Performance profile"
@@ -5212,9 +5115,7 @@ msgstr "実際のホスト名"
 msgid ""
 "Real host name can only contain lower-case characters, digits, dashes, and "
 "periods (with populated subdomains)"
-msgstr ""
-"実際のホスト名には小文字、数字、ダッシュ、およびピリオドのみを使用できます "
-"(入力されたサブドメインを含む)"
+msgstr "実際のホスト名には小文字、数字、ダッシュ、およびピリオドのみを使用できます (入力されたサブドメインを含む)"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:252
 msgid "Real host name must be 64 characters or less"
@@ -5410,8 +5311,7 @@ msgstr "$0 を削除中"
 msgid ""
 "Removing $0 will break the connection to the server, and will make the "
 "administration UI unavailable."
-msgstr ""
-"$0 を削除すると、サーバーへの接続が切断され、管理 UI が利用できなくなります。"
+msgstr "$0 を削除すると、サーバーへの接続が切断され、管理 UI が利用できなくなります。"
 
 #: pkg/storaged/jobs-panel.jsx:68
 msgid "Removing $target from RAID device"
@@ -5421,9 +5321,7 @@ msgstr "$target を RAID デバイスから削除"
 msgid ""
 "Removing a passphrase without confirmation of another passphrase may prevent "
 "unlocking or key management, if other passphrases are forgotten or lost."
-msgstr ""
-"別のパスフレーズの確認なしでパスフレーズを削除すると、その他のパスフレーズを"
-"忘れたり、紛失した場合に、アンロックやキー管理ができなくなることがあります。"
+msgstr "別のパスフレーズの確認なしでパスフレーズを削除すると、その他のパスフレーズを忘れたり、紛失した場合に、アンロックやキー管理ができなくなることがあります。"
 
 #: pkg/storaged/jobs-panel.jsx:81
 msgid "Removing physical volume from $target"
@@ -5434,10 +5332,7 @@ msgid ""
 "Removing the cockpit service might result in the web console becoming "
 "unreachable. Make sure that this zone does not apply to your current web "
 "console connection."
-msgstr ""
-"Cockpit サービスを削除すると、web コンソールにアクセスできなくなる可能性があ"
-"ります。このゾーンが現在お使いの web コンソール接続に適用されないことを確認し"
-"てください。"
+msgstr "Cockpit サービスを削除すると、web コンソールにアクセスできなくなる可能性があります。このゾーンが現在お使いの web コンソール接続に適用されないことを確認してください。"
 
 #: pkg/networkmanager/firewall.jsx:945
 msgid "Removing the zone will remove all services within it."
@@ -5581,9 +5476,7 @@ msgstr "$target のサイズ変更"
 msgid ""
 "Resizing an encrypted filesystem requires unlocking the disk. Please provide "
 "a current disk passphrase."
-msgstr ""
-"暗号化されたファイルシステムのサイズ変更には、ディスクのロック解除が必要で"
-"す。現在のディスクのパスフレーズを提供してください。"
+msgstr "暗号化されたファイルシステムのサイズ変更には、ディスクのロック解除が必要です。現在のディスクのパスフレーズを提供してください。"
 
 #: pkg/systemd/services/service-details.jsx:131
 msgid "Restart"
@@ -5741,8 +5634,7 @@ msgstr "STP 優先度"
 #: pkg/shell/failures.jsx:43
 msgid ""
 "Safari users need to import and trust the certificate of the self-signing CA:"
-msgstr ""
-"Safari ユーザーは、自己署名 CA 証明書をインポートし、信頼する必要があります:"
+msgstr "Safari ユーザーは、自己署名 CA 証明書をインポートし、信頼する必要があります:"
 
 #: pkg/systemd/services/timer-dialog.jsx:305 pkg/packagekit/autoupdates.jsx:314
 msgid "Saturdays"
@@ -5780,9 +5672,7 @@ msgstr "同一のデータブロックを 1 回だけ保存することで、空
 msgid ""
 "Saving a new passphrase requires unlocking the disk. Please provide a "
 "current disk passphrase."
-msgstr ""
-"新しいパスフレーズの保存には、ディスクのロック解除が必要です。現在のディスク"
-"のパスフレーズを提供してください。"
+msgstr "新しいパスフレーズの保存には、ディスクのロック解除が必要です。現在のディスクのパスフレーズを提供してください。"
 
 #: pkg/systemd/overview-cards/shutdownStatus.jsx:88
 msgid "Scheduled poweroff at $0"
@@ -6130,10 +6020,7 @@ msgid ""
 "Software-based workarounds help prevent CPU security issues. These "
 "mitigations have the side effect of reducing performance. Change these "
 "settings at your own risk."
-msgstr ""
-"ソフトウェアベースの回避策により、CPU セキュリティー問題を回避します。これら"
-"の緩和策にはパフォーマンスの低下という副次的な影響があります。リスクをご理解"
-"の上、これらの設定を変更してください。"
+msgstr "ソフトウェアベースの回避策により、CPU セキュリティー問題を回避します。これらの緩和策にはパフォーマンスの低下という副次的な影響があります。リスクをご理解の上、これらの設定を変更してください。"
 
 #: pkg/selinux/setroubleshoot-view.jsx:87
 msgid "Solution applied successfully"
@@ -6150,8 +6037,7 @@ msgstr "ソリューション"
 #: pkg/packagekit/updates.jsx:89
 msgid ""
 "Some other program is currently using the package manager, please wait..."
-msgstr ""
-"別のプログラムがパッケージマネージャーを使用中です。しばらくお待ちください..."
+msgstr "別のプログラムがパッケージマネージャーを使用中です。しばらくお待ちください..."
 
 #: pkg/packagekit/updates.jsx:747 pkg/packagekit/updates.jsx:854
 #: pkg/packagekit/updates.jsx:1533
@@ -6407,18 +6293,14 @@ msgstr "アクセス制限への切り替え"
 msgid ""
 "Switching off $0 will break the connection to the server, and will make the "
 "administration UI unavailable."
-msgstr ""
-"$0 をオフにすると、サーバーへの接続が切断され、管理 UI が利用できなくなりま"
-"す。"
+msgstr "$0 をオフにすると、サーバーへの接続が切断され、管理 UI が利用できなくなります。"
 
 #: pkg/networkmanager/network-interface.jsx:144
 #: pkg/networkmanager/network-interface-members.jsx:83
 msgid ""
 "Switching on $0 will break the connection to the server, and will make the "
 "administration UI unavailable."
-msgstr ""
-"$0 をオンにすると、サーバーへの接続が切断され、管理 UI が利用できなくなりま"
-"す。"
+msgstr "$0 をオンにすると、サーバーへの接続が切断され、管理 UI が利用できなくなります。"
 
 #: pkg/lib/serverTime.js:379
 msgid "Synchronized"
@@ -6526,9 +6408,7 @@ msgstr "接続のテスト"
 
 #: pkg/storaged/stratis-panel.jsx:45
 msgid "The $0 package must be installed to create Stratis pools."
-msgstr ""
-"Stratis デバイスを作成するために $0 パッケージをインストールする必要がありま"
-"す。"
+msgstr "Stratis デバイスを作成するために $0 パッケージをインストールする必要があります。"
 
 #: pkg/storaged/content-views.jsx:894
 msgid "The $0 package will be installed to create VDO devices."
@@ -6544,8 +6424,7 @@ msgstr "RAID アレイは劣化状態にあります"
 
 #: pkg/storaged/mdraid-details.jsx:154
 msgid "The RAID device must be running in order to add spare disks."
-msgstr ""
-"スペアディスクを追加する場合は、RAID デバイスが実行中である必要があります。"
+msgstr "スペアディスクを追加する場合は、RAID デバイスが実行中である必要があります。"
 
 #: pkg/storaged/mdraid-details.jsx:130
 msgid "The RAID device must be running in order to remove disks."
@@ -6559,26 +6438,20 @@ msgstr "$2 の $1 の SSH キー $0 は、$5 上の $4 の $3 ファイルに追
 msgid ""
 "The SSH key $0 will be made available for the remainder of the session and "
 "will be available for login to other hosts as well."
-msgstr ""
-"SSH キー $0 はセッションの残りの時間に利用できるようになり、他のホストにもロ"
-"グインできるようになります。"
+msgstr "SSH キー $0 はセッションの残りの時間に利用できるようになり、他のホストにもログインできるようになります。"
 
 #: pkg/shell/hosts_dialog.jsx:750
 msgid ""
 "The SSH key for logging in to $0 is protected by a password, and the host "
 "does not allow logging in with a password. Please provide the password of "
 "the key at $1."
-msgstr ""
-"$0 にログインするための SSH キーはパスワードで保護され、パスワードによるログ"
-"インを許可しません。$1 にキーのパスワードを指定してください。"
+msgstr "$0 にログインするための SSH キーはパスワードで保護され、パスワードによるログインを許可しません。$1 にキーのパスワードを指定してください。"
 
 #: pkg/shell/hosts_dialog.jsx:755
 msgid ""
 "The SSH key for logging in to $0 is protected. You can log in with either "
 "your login password or by providing the password of the key at $1."
-msgstr ""
-"$0 にログインするための SSH キーは保護されています。ログインパスワードでログ"
-"インするか、$1 で鍵のパスワードを提供することでログインできます。"
+msgstr "$0 にログインするための SSH キーは保護されています。ログインパスワードでログインするか、$1 で鍵のパスワードを提供することでログインできます。"
 
 #: pkg/users/password-dialogs.js:265
 msgid "The account '$0' will be forced to change their password on next login"
@@ -6600,16 +6473,13 @@ msgstr "この VDO デバイスの作成は終了していないため、使用�
 #: pkg/storaged/crypto-keyslots.jsx:550
 msgid ""
 "The currently logged in user is not permitted to see information about keys."
-msgstr ""
-"現在ログイン中のユーザーは、キーに関する情報を見ることを許可されていません。"
+msgstr "現在ログイン中のユーザーは、キーに関する情報を見ることを許可されていません。"
 
 #: pkg/storaged/format-dialog.jsx:299
 msgid ""
 "The disk needs to be unlocked before formatting.  Please provide a existing "
 "passphrase."
-msgstr ""
-"ディスクをフォーマットする前にロックを解除する必要があります。既存のパスフ"
-"レーズを指定してください。"
+msgstr "ディスクをフォーマットする前にロックを解除する必要があります。既存のパスフレーズを指定してください。"
 
 #: pkg/sosreport/index.jsx:377
 msgid "The file $0 will be deleted."
@@ -6621,48 +6491,36 @@ msgstr "ファイルシステムには永続的なマウントポイントがあ
 
 #: pkg/storaged/fsys-tab.jsx:360
 msgid "The filesystem is already mounted at $0. Proceeding will unmount it."
-msgstr ""
-"ファイルシステムはすでに $0 にマウントされています。続行するとアンマウントさ"
-"れます。"
+msgstr "ファイルシステムはすでに $0 にマウントされています。続行するとアンマウントされます。"
 
 #: pkg/storaged/fsys-tab.jsx:661
 msgid ""
 "The filesystem is configured to be automatically mounted on boot but its "
 "encryption container will not be unlocked at that time."
-msgstr ""
-"ファイルシステムは起動時に自動的にマウントされるように設定されていますが、そ"
-"の暗号化コンテナーはその時点ではアンロックされません。"
+msgstr "ファイルシステムは起動時に自動的にマウントされるように設定されていますが、その暗号化コンテナーはその時点ではアンロックされません。"
 
 #: pkg/storaged/fsys-tab.jsx:653
 msgid ""
 "The filesystem is currently mounted but will not be mounted after the next "
 "boot."
-msgstr ""
-"ファイルシステムは現在マウントされていますが、次回のブート後はマウントされま"
-"せん。"
+msgstr "ファイルシステムは現在マウントされていますが、次回のブート後はマウントされません。"
 
 #: pkg/storaged/fsys-tab.jsx:645
 msgid ""
 "The filesystem is currently mounted on $0 but will be mounted on $1 on the "
 "next boot."
-msgstr ""
-"ファイルシステムは現在 $0 にマウントされていますが、次回のブート時に $1 にマ"
-"ウントされます。"
+msgstr "ファイルシステムは現在 $0 にマウントされていますが、次回のブート時に $1 にマウントされます。"
 
 #: pkg/storaged/fsys-tab.jsx:657
 msgid ""
 "The filesystem is currently mounted on $0 but will not be mounted after the "
 "next boot."
-msgstr ""
-"ファイルシステムは現在 $0 にマウントされていますが、次回のブート後はマウント"
-"されません。"
+msgstr "ファイルシステムは現在 $0 にマウントされていますが、次回のブート後はマウントされません。"
 
 #: pkg/storaged/fsys-tab.jsx:649
 msgid ""
 "The filesystem is currently not mounted but will be mounted on the next boot."
-msgstr ""
-"ファイルシステムは現在マウントされていませんが、次回のブート時にマウントされ"
-"ます。"
+msgstr "ファイルシステムは現在マウントされていませんが、次回のブート時にマウントされます。"
 
 #: pkg/storaged/fsys-tab.jsx:531
 msgid "The filesystem is not mounted."
@@ -6672,9 +6530,7 @@ msgstr "ファイルシステムはマウントされていません。"
 msgid ""
 "The filesystem will be unlocked and mounted on the next boot. This might "
 "require inputting a passphrase."
-msgstr ""
-"ファイルシステムはロック解除され、次回の起動時にマウントされます。パスフレー"
-"ズの入力が必要になる場合があります。"
+msgstr "ファイルシステムはロック解除され、次回の起動時にマウントされます。パスフレーズの入力が必要になる場合があります。"
 
 #: pkg/packagekit/updates.jsx:505
 msgid "The following service will be restarted:"
@@ -6754,17 +6610,13 @@ msgstr "パスワードが一致しません。"
 msgid ""
 "The resulting fingerprint is fine to share via public methods, including "
 "email."
-msgstr ""
-"作成されたフィンガープリントは、電子メールを含むパブリックメソッドを介して共"
-"有すると問題ありません。"
+msgstr "作成されたフィンガープリントは、電子メールを含むパブリックメソッドを介して共有すると問題ありません。"
 
 #: pkg/static/login.js:892
 msgid ""
 "The server refused to authenticate '$0' using password authentication, and "
 "no other supported authentication methods are available."
-msgstr ""
-"サーバーはパスワード認証を使用した '$0' の認証を拒否しました。サポートされた"
-"他の認証方法は利用できません。"
+msgstr "サーバーはパスワード認証を使用した '$0' の認証を拒否しました。サポートされた他の認証方法は利用できません。"
 
 #: pkg/lib/cockpit.js:3995
 msgid "The server refused to authenticate using any supported methods."
@@ -6780,23 +6632,18 @@ msgstr "ユーザー $0 は、暗号化ポリシーの変更を許可されて�
 
 #: pkg/users/account-roles.js:89
 msgid "The user must log out and log back in to fully change roles."
-msgstr ""
-"ロールを完全に変更するには、ユーザーはログアウトしてからログインし直す必要が"
-"あります。"
+msgstr "ロールを完全に変更するには、ユーザーはログアウトしてからログインし直す必要があります。"
 
 #: pkg/users/account-create-dialog.js:108
 msgid ""
 "The user name can only consist of letters from a-z, digits, dots, dashes and "
 "underscores."
-msgstr ""
-"ユーザー名は a〜z の文字、数字、ドット、ダッシュ、およびアンダースコアだけで"
-"構成されます。"
+msgstr "ユーザー名は a〜z の文字、数字、ドット、ダッシュ、およびアンダースコアだけで構成されます。"
 
 #: pkg/static/login.js:210
 msgid ""
 "The web browser configuration prevents Cockpit from running (inaccessible $0)"
-msgstr ""
-"Web ブラウザーの設定により、Cockpit の実行は防がれます (アクセスできない $0)"
+msgstr "Web ブラウザーの設定により、Cockpit の実行は防がれます (アクセスできない $0)"
 
 #: pkg/shell/active-pages-modal.jsx:103
 msgid "There are currently no active pages"
@@ -6806,9 +6653,7 @@ msgstr "現在アクティブなページはありません"
 msgid ""
 "There are devices with multiple paths on the system, but the multipath "
 "service is not running."
-msgstr ""
-"システムに複数のパスを持つデバイスがありますが、マルチパスサービスが実行され"
-"ていません。"
+msgstr "システムに複数のパスを持つデバイスがありますが、マルチパスサービスが実行されていません。"
 
 #: pkg/networkmanager/firewall.jsx:212
 msgid "There are no active services in this zone"
@@ -6822,9 +6667,7 @@ msgstr "このアカウントに承認された公開鍵がありません。"
 msgid ""
 "There is not enough free space elsewhere to remove this physical volume. At "
 "least $0 more free space is needed."
-msgstr ""
-"この物理ボリュームを削除するのに十分な空き領域がありません。少なくとも $0 の"
-"空き領域が必要です。"
+msgstr "この物理ボリュームを削除するのに十分な空き領域がありません。少なくとも $0 の空き領域が必要です。"
 
 #: pkg/shell/failures.jsx:39
 msgid "There was an unexpected error while connecting to the machine."
@@ -6888,9 +6731,7 @@ msgstr "これにはしばらく時間がかかることがあります"
 msgid ""
 "This pool can not be unlocked here because its key description is not in the "
 "expected format."
-msgstr ""
-"キーの説明が想定される形式ではないため、このプールはここでアンロックできませ"
-"ん。"
+msgstr "キーの説明が想定される形式ではないため、このプールはここでアンロックできません。"
 
 #: pkg/packagekit/updates.jsx:1371
 msgid "This system is not registered"
@@ -6914,13 +6755,11 @@ msgstr "このユーザー名はすでに存在します"
 
 #: pkg/storaged/lvol-tabs.jsx:217
 msgid "This volume needs to be activated before it can be resized."
-msgstr ""
-"このボリュームは、サイズを変更する前にアクティベートする必要があります。"
+msgstr "このボリュームは、サイズを変更する前にアクティベートする必要があります。"
 
 #: pkg/static/login.js:194
 msgid "This web browser is too old to run the Web Console (missing $0)"
-msgstr ""
-"この Web ブラウザーは古いため、Web コンソールを実行できません ($0 が不明)"
+msgstr "この Web ブラウザーは古いため、Web コンソールを実行できません ($0 が不明)"
 
 #: pkg/systemd/logs.jsx:358
 msgid ""
@@ -6931,23 +6770,14 @@ msgid ""
 "the journal. Thus, 1 means the first boot found in the journal in "
 "chronological order, 2 the second and so on; while -0 is the last boot, -1 "
 "the boot before last, and so on."
-msgstr ""
-"これにより、_BOOT_ID=' 一致を追加します。指定のない場合は、現在のブートのログ"
-"が表示されます。ブート ID を省略すると、正のオフセットはジャーナルの開始から"
-"ブートを探します。また、ゼロまたはゼロ未満のオフセットは、ジャーナルの最後か"
-"らブートを探します。したがって、1 は時系列順でジャーナルで見つかった最初の"
-"ブートを意味し、2 は 2 番目のブートを意味します (以下、同様)。また、-0 は最後"
-"のブート、-1 は最後の前のブートとなります。"
+msgstr "これにより、_BOOT_ID=' 一致を追加します。指定のない場合は、現在のブートのログが表示されます。ブート ID を省略すると、正のオフセットはジャーナルの開始からブートを探します。また、ゼロまたはゼロ未満のオフセットは、ジャーナルの最後からブートを探します。したがって、1 は時系列順でジャーナルで見つかった最初のブートを意味し、2 は 2 番目のブートを意味します (以下、同様)。また、-0 は最後のブート、-1 は最後の前のブートとなります。"
 
 #: pkg/systemd/logs.jsx:369
 msgid ""
 "This will add match for '_SYSTEMD_UNIT=', 'COREDUMP_UNIT=' and 'UNIT=' to "
 "find all possible messages for the given unit. Can contain more units "
 "separated by comma. "
-msgstr ""
-"これにより、'_SYSTEMD_UNIT='、'COREDUMP_UNIT='、'UNIT=' と一致させ、指定のユ"
-"ニットに対する考えられるメッセージをすべて特定します。複数のユニットをコンマ"
-"で区切ることができます。 "
+msgstr "これにより、'_SYSTEMD_UNIT='、'COREDUMP_UNIT='、'UNIT=' と一致させ、指定のユニットに対する考えられるメッセージをすべて特定します。複数のユニットをコンマで区切ることができます。 "
 
 #: pkg/shell/hosts_dialog.jsx:801
 msgid "This will allow you to log in without password in the future."
@@ -6958,10 +6788,7 @@ msgid ""
 "This will test kdump settings by crashing the kernel and thereby the system. "
 "Depending on the settings, the system may not automatically reboot and the "
 "process may take a while."
-msgstr ""
-"kdump 設定は、カーネル (つまり、システム) をクラッシュすることによりテストさ"
-"れます。設定に応じて、再起動が自動的に行われず、処理にしばらく時間がかかるこ"
-"とがあります。"
+msgstr "kdump 設定は、カーネル (つまり、システム) をクラッシュすることによりテストされます。設定に応じて、再起動が自動的に行われず、処理にしばらく時間がかかることがあります。"
 
 #: pkg/kdump/kdump-view.jsx:467
 msgid "This will test the kdump configuration by crashing the kernel."
@@ -6971,9 +6798,7 @@ msgstr "kdump 設定はカーネルをクラッシュすることによりテス
 msgid ""
 "This zone contains the cockpit service. Make sure that this zone does not "
 "apply to your current web console connection."
-msgstr ""
-"このゾーンには Cockpit サービスが含まれます。このゾーンが現在の web コンソー"
-"ル接続に適用されないことを確認してください。"
+msgstr "このゾーンには Cockpit サービスが含まれます。このゾーンが現在の web コンソール接続に適用されないことを確認してください。"
 
 #: pkg/systemd/services/timer-dialog.jsx:303 pkg/packagekit/autoupdates.jsx:312
 msgid "Thursdays"
@@ -7007,36 +6832,27 @@ msgstr "タイマー"
 msgid ""
 "Tip: Make your key password match your login password to automatically "
 "authenticate against other systems."
-msgstr ""
-"ヒント: 他のシステムに対して自動的に認証する場合は、鍵のパスワードをログイン"
-"パスワードに一致させます。"
+msgstr "ヒント: 他のシステムに対して自動的に認証する場合は、鍵のパスワードをログインパスワードに一致させます。"
 
 #: pkg/static/login.html:91 pkg/shell/hosts_dialog.jsx:459
 #: pkg/shell/hosts_dialog.jsx:470
 msgid ""
 "To ensure that your connection is not intercepted by a malicious third-"
 "party, please verify the host key fingerprint:"
-msgstr ""
-"悪意のあるサードパーティーによって接続がインターセプトされないようにするに"
-"は、ホストキーフィンガープリントを確認してください:"
+msgstr "悪意のあるサードパーティーによって接続がインターセプトされないようにするには、ホストキーフィンガープリントを確認してください:"
 
 #: pkg/packagekit/updates.jsx:1374
 msgid ""
 "To get software updates, this system needs to be registered with Red Hat, "
 "either using the Red Hat Customer Portal or a local subscription server."
-msgstr ""
-"ソフトウェアアップデートを取得するには、このシステムを Red Hat に登録する必要"
-"があります。登録には、Red Hat カスタマーポータルまたはローカルのサブスクリプ"
-"ションサーバーを使用します。"
+msgstr "ソフトウェアアップデートを取得するには、このシステムを Red Hat に登録する必要があります。登録には、Red Hat カスタマーポータルまたはローカルのサブスクリプションサーバーを使用します。"
 
 #: pkg/static/login.js:745 pkg/shell/hosts_dialog.jsx:462
 #: pkg/shell/hosts_dialog.jsx:473
 msgid ""
 "To verify a fingerprint, run the following on $0 while physically sitting at "
 "the machine or through a trusted network:"
-msgstr ""
-"フィンガープリントを確認するには、マシン上に物理的に置かれるか、信頼できる"
-"ネットワークを介して $0 で次のコマンドを実行します:"
+msgstr "フィンガープリントを確認するには、マシン上に物理的に置かれるか、信頼できるネットワークを介して $0 で次のコマンドを実行します:"
 
 #: pkg/metrics/metrics.jsx:1652
 msgid "Today"
@@ -7142,10 +6958,7 @@ msgid ""
 "Tuned is a service that monitors your system and optimizes the performance "
 "under certain workloads. The core of Tuned are profiles, which tune your "
 "system for different use cases."
-msgstr ""
-"Tuned は、システムを監視し、特定のワークロードでパフォーマンスを最適化する"
-"サービスです。Tuned のコアは、さまざまなユースケースに合わせてシステムを調整"
-"するプロファイルです。"
+msgstr "Tuned は、システムを監視し、特定のワークロードでパフォーマンスを最適化するサービスです。Tuned のコアは、さまざまなユースケースに合わせてシステムを調整するプロファイルです。"
 
 #: pkg/tuned/dialog.jsx:76
 msgid "Tuned is not available"
@@ -7205,9 +7018,7 @@ msgstr "$0 と通信できません。"
 msgid ""
 "Unable to contact the given host $0. Make sure it has ssh running on port "
 "$1, or specify another port in the address."
-msgstr ""
-"該当するホスト $0 に接続できませんでした。そのホストのポート $1 で ssh が実行"
-"されていることを確認するか、アドレスで別のポートを指定します。"
+msgstr "該当するホスト $0 に接続できませんでした。そのホストのポート $1 で ssh が実行されていることを確認するか、アドレスで別のポートを指定します。"
 
 #: pkg/selinux/setroubleshoot-view.jsx:58
 #: pkg/selinux/setroubleshoot-view.jsx:181
@@ -7222,17 +7033,13 @@ msgstr "アラートを取得できません: $0"
 msgid ""
 "Unable to log in to $0 using SSH key authentication. Please provide the "
 "password. You may want to set up your SSH keys for automatic login."
-msgstr ""
-"SSH キー認証で $0 にログインできません。パスワードを入力してください。SSH "
-"キーを自動ログイン用に設定しておいてください。"
+msgstr "SSH キー認証で $0 にログインできません。パスワードを入力してください。SSH キーを自動ログイン用に設定しておいてください。"
 
 #: pkg/shell/hosts_dialog.jsx:745
 msgid ""
 "Unable to log in to $0. The host does not accept password login or any of "
 "your SSH keys."
-msgstr ""
-"$0 にログインできません。ホストが、パスワードログインまたは SSH キーを受け付"
-"けていません。"
+msgstr "$0 にログインできません。ホストが、パスワードログインまたは SSH キーを受け付けていません。"
 
 #: pkg/storaged/iscsi-panel.jsx:91
 msgid "Unable to reach server"
@@ -7660,6 +7467,7 @@ msgid "View metrics and history"
 msgstr "メトリックスおよび履歴の表示"
 
 #: pkg/metrics/metrics.jsx:680
+#, fuzzy
 msgid "View per-disk throughput"
 msgstr ""
 
@@ -7711,8 +7519,7 @@ msgstr "入力を待機中…"
 
 #: pkg/apps/utils.jsx:53
 msgid "Waiting for other programs to finish using the package manager..."
-msgstr ""
-"パッケージマネージャーを使用して、その他のプログラムを終了するのを待機中..."
+msgstr "パッケージマネージャーを使用して、その他のプログラムを終了するのを待機中..."
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:148
 #: pkg/lib/cockpit-components-install-dialog.jsx:183
@@ -7780,10 +7587,7 @@ msgid ""
 "When the Web Console is restarted, you will no longer see progress "
 "information. However, the update process will continue in the background. "
 "Reconnect to continue watching the update process."
-msgstr ""
-"Web コンソールを再起動すると、進捗情報が表示されなくなります。ただし、更新プ"
-"ロセスはバックグラウンドで続行されます。更新プロセスの監視を継続するには、再"
-"接続します。"
+msgstr "Web コンソールを再起動すると、進捗情報が表示されなくなります。ただし、更新プロセスはバックグラウンドで続行されます。更新プロセスの監視を継続するには、再接続します。"
 
 #: pkg/systemd/terminal.jsx:156
 msgid "White"
@@ -7868,9 +7672,7 @@ msgstr "お使いのアカウント"
 msgid ""
 "Your browser does not allow paste from the context menu. You can use Shift"
 "+Insert."
-msgstr ""
-"お使いのブラウザーでは、コンテキストメニューからの貼り付けが許可されていませ"
-"ん。Shift+Insert を使用できます。"
+msgstr "お使いのブラウザーでは、コンテキストメニューからの貼り付けが許可されていません。Shift+Insert を使用できます。"
 
 #: pkg/shell/superuser.jsx:273
 msgid "Your browser will remember your access level across sessions."
@@ -8682,7 +8484,6 @@ msgstr "ゾーン"
 #~ msgid "nfs dump target isn't formatted as server:path"
 #~ msgstr "nfs ダンプターゲットは server:path の形式になっていません"
 
-#, fuzzy
 #~| msgid "Zone"
 #~ msgid "$0 Zone"
 #~ msgstr "ゾーン"
@@ -8732,7 +8533,6 @@ msgstr "ゾーン"
 #~ msgid "Performance Metrics"
 #~ msgstr "パフォーマンスメトリックス"
 
-#, fuzzy
 #~| msgid "read only"
 #~ msgid "Save only"
 #~ msgstr "読み取り専用"
@@ -8867,17 +8667,14 @@ msgstr "ゾーン"
 #~ msgid "$0 of $1"
 #~ msgstr "$0/$1"
 
-#, fuzzy
 #~| msgid "Blocked"
 #~ msgid "Blockdev"
 #~ msgstr "ブロック済み"
 
-#, fuzzy
 #~| msgid "Physical volume"
 #~ msgid "LVM2 physical volume"
 #~ msgstr "物理ボリューム"
 
-#, fuzzy
 #~| msgid "Physical volume of $0"
 #~ msgid "LVM2 physical volume of $0"
 #~ msgstr "$0 の物理ボリューム"
@@ -8891,22 +8688,18 @@ msgstr "ゾーン"
 #~ msgid "VDO backing"
 #~ msgstr "VDO バッキング"
 
-#, fuzzy
 #~| msgid "Create storage pool"
 #~ msgid "Create Stratis Pool"
 #~ msgstr "ストレージプールの作成"
 
-#, fuzzy
 #~| msgid "Mount options"
 #~ msgid "Mount Options"
 #~ msgstr "マウントオプション"
 
-#, fuzzy
 #~| msgid "Mount point"
 #~ msgid "Mount Point"
 #~ msgstr "マウントポイント"
 
-#, fuzzy
 #~| msgid "Reset Storage Pool"
 #~ msgid "Stratis Pool"
 #~ msgstr "ストレージプールのリセット"
@@ -9137,7 +8930,6 @@ msgstr "ゾーン"
 #~ msgid "Select unit state"
 #~ msgstr "ユニットの状態の選択"
 
-#, fuzzy
 #~| msgid "Enable stored metrics"
 #~ msgid "Enable PCP metrics collector"
 #~ msgstr "保存されたメトリックを有効にします"
@@ -9281,7 +9073,6 @@ msgstr "ゾーン"
 #~ msgid "Clone"
 #~ msgstr "クローン"
 
-#, fuzzy
 #~| msgid "Can't load image"
 #~ msgid "Cloud base image"
 #~ msgstr "イメージをロードできません"
@@ -9593,7 +9384,6 @@ msgstr "ゾーン"
 #~ "ユーザーアカウントを作成したくない場合はパスワードを空白のままにしてくださ"
 #~ "い"
 
-#, fuzzy
 #~| msgid ""
 #~| "Leave the password blank if you do not wish to have a root account "
 #~| "created"
@@ -9619,7 +9409,6 @@ msgstr "ゾーン"
 #~ msgid "Machine must be shut off before changing bus type"
 #~ msgstr "バスタイプの変更前にマシンをシャットオフする必要があります"
 
-#, fuzzy
 #~| msgid "Machine must be shut off before changing bus type"
 #~ msgid "Machine must be shut off before changing cache mode"
 #~ msgstr "バスタイプの変更前にマシンをシャットオフする必要があります"
@@ -9808,7 +9597,6 @@ msgstr "ゾーン"
 #~ msgid "Path to ISO file on host's file system"
 #~ msgstr "ホストファイルシステムの ISO ファイルのパス"
 
-#, fuzzy
 #~| msgid "Path to file on host's file system"
 #~ msgid "Path to cloud image file on host's file system"
 #~ msgstr "ホストファイルシステムのファイルへのパス"
@@ -10396,7 +10184,6 @@ msgstr "ゾーン"
 #~ msgid "No snapshots"
 #~ msgstr "スナップショットなし"
 
-#, fuzzy
 #~| msgid "No such file or directory '$0'"
 #~ msgid "No such file found in directory '$0'"
 #~ msgstr "「$0」というファイルやディテクトリーはありません"
@@ -10404,7 +10191,6 @@ msgstr "ゾーン"
 #~ msgid "No updates pending"
 #~ msgstr "保留中の更新がありません"
 
-#, fuzzy
 #~| msgid "ssh server is empty"
 #~ msgid "This directory is empty"
 #~ msgstr "ssh サーバーが空です"
@@ -10523,12 +10309,10 @@ msgstr "ゾーン"
 #~ msgid_plural "$0 bytes"
 #~ msgstr[0] "$0 バイト"
 
-#, fuzzy
 #~| msgid "Bond settings"
 #~ msgid "Bond settings           "
 #~ msgstr "ボンド設定"
 
-#, fuzzy
 #~| msgid "IP settings"
 #~ msgid "IP settings          "
 #~ msgstr "IP 設定"
@@ -10961,7 +10745,6 @@ msgstr "ゾーン"
 #~ msgid "No results for $0"
 #~ msgstr "$0 の結果なし"
 
-#, fuzzy
 #~| msgid "No images that match the current filter"
 #~ msgid "No results that match the filter criteria"
 #~ msgstr "現在のフィルターに一致するイメージがありません"
@@ -11294,5 +11077,3 @@ msgstr "ゾーン"
 #~ msgid "Hide Performance Options"
 #~ msgstr "パフォーマンスオプションを非表示にします"
 
-#~ msgid "Show Performance Options"
-#~ msgstr "パフォーマンスオプションを表示します"
