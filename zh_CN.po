@@ -535,14 +535,11 @@ msgstr "网络绑定将多个网络接口组合成一个逻辑接口以提高吞
 msgid ""
 "A new SSH key at $0 will be created for $1 on $2 and it will be added to the "
 "$3 file of $4 on $5."
-msgstr ""
-"将在 $2 上为 $1 在 $0 创建一个新的 SSH 密钥 ，它将被添加到 $5 上 $4 的 $3 文"
-"件中。"
+msgstr "将在 $2 上为 $1 在 $0 创建一个新的 SSH 密钥 ，它将被添加到 $5 上 $4 的 $3 文件中。"
 
 #: pkg/packagekit/updates.jsx:1525
 msgid "A package needs a system reboot for the updates to take effect:"
-msgid_plural ""
-"Some packages need a system reboot for the updates to take effect:"
+msgid_plural "Some packages need a system reboot for the updates to take effect:"
 msgstr[0] "软件包需要重启系统才能使更新生效："
 
 #: pkg/storaged/stratis-details.jsx:227
@@ -551,8 +548,7 @@ msgstr "具有此名称的池已存在。"
 
 #: pkg/packagekit/updates.jsx:1529
 msgid "A service needs to be restarted for the updates to take effect:"
-msgid_plural ""
-"Some services need to be restarted for the updates to take effect:"
+msgid_plural "Some services need to be restarted for the updates to take effect:"
 msgstr[0] "需要重启服务才能使更新生效："
 
 #: pkg/storaged/mdraid-details.jsx:134
@@ -839,9 +835,7 @@ msgid ""
 "After leaving the domain, only users with local credentials will be able to "
 "log into this machine. This may also affect other services as DNS resolution "
 "settings and the list of trusted CAs may change."
-msgstr ""
-"从域离开后，仅有使用本地凭据的用户可以登录到该主机。这也可能影响到包括DNS解析"
-"设置以及信任的CA在内的一系列设置。"
+msgstr "从域离开后，仅有使用本地凭据的用户可以登录到该主机。这也可能影响到包括DNS解析设置以及信任的CA在内的一系列设置。"
 
 #: pkg/systemd/services/timer-dialog.jsx:197
 msgid "After system boot"
@@ -894,10 +888,7 @@ msgid ""
 "in the form of a regular expression. Also supports filtering by message log "
 "fields. These are space separated values, in form FIELD=VALUE, where value "
 "can be comma separated list of possible values."
-msgstr ""
-"可以对日志信息中的文本字符串进行过滤。字符串也可以是正则表达式的形式。另外，"
-"还支持按消息日志字段进行过滤。它们是空格分隔的值，格式为 FIELD=VALUE，其中的"
-"值可以是逗号分隔的可能的值的列表。"
+msgstr "可以对日志信息中的文本字符串进行过滤。字符串也可以是正则表达式的形式。另外，还支持按消息日志字段进行过滤。它们是空格分隔的值，格式为 FIELD=VALUE，其中的值可以是逗号分隔的可能的值的列表。"
 
 #: pkg/systemd/terminal.jsx:147
 msgid "Appearance"
@@ -1205,9 +1196,7 @@ msgid ""
 "By changing the password of the SSH key $0 to the login password of $1 on "
 "$2, the key will be automatically made available and you can log in to $3 "
 "without password in the future."
-msgstr ""
-"通过将 SSH 密钥 $0 的密码改为 $2 上 $1 的登录密码，密钥就会自动可用，以后在登"
-"陆到 $3 时就不再需要密码 。"
+msgstr "通过将 SSH 密钥 $0 的密码改为 $2 上 $1 的登录密码，密钥就会自动可用，以后在登陆到 $3 时就不再需要密码 。"
 
 #: pkg/systemd/hwinfo.jsx:118 pkg/systemd/overview-cards/usageCard.jsx:134
 #: pkg/metrics/metrics.jsx:689 pkg/metrics/metrics.jsx:1683
@@ -1361,9 +1350,7 @@ msgid ""
 "Changed keys are often the result of an operating system reinstallation. "
 "However, an unexpected change may indicate a third-party attempt to "
 "intercept your connection."
-msgstr ""
-"密钥的变化通常是操作系统重新安装的结果。但是，意料外的变化可能代表有第三方尝"
-"试截获您的连接。"
+msgstr "密钥的变化通常是操作系统重新安装的结果。但是，意料外的变化可能代表有第三方尝试截获您的连接。"
 
 #: pkg/networkmanager/interfaces.js:1595
 msgid ""
@@ -1486,10 +1473,7 @@ msgid ""
 "no problem. A service started via Cockpit can be stopped via the terminal. "
 "Likewise, if an error occurs in the terminal, it can be seen in the Cockpit "
 "journal interface."
-msgstr ""
-"Cockpit 是一个服务器管理工具，可以方便地通过浏览器来管理您的 Linux 服务器。在"
-"终端和 web 工具间自由切换将不是问题。通过 Cockpit 启动的服务可以通过终端停"
-"止。同样，如果在终端中发生错误, 也可以在 Cockpit 的日志接口中看到。"
+msgstr "Cockpit 是一个服务器管理工具，可以方便地通过浏览器来管理您的 Linux 服务器。在终端和 web 工具间自由切换将不是问题。通过 Cockpit 启动的服务可以通过终端停止。同样，如果在终端中发生错误, 也可以在 Cockpit 的日志接口中看到。"
 
 #: pkg/shell/shell-modals.jsx:70
 msgid "Cockpit is an interactive Linux server admin interface."
@@ -1514,12 +1498,10 @@ msgid ""
 "stopping services. You can monitor and administer several servers at the "
 "same time. Just add them with a single click and your machines will look "
 "after its buddies."
-msgstr ""
-"Cockpit 是完美的系统管理员工具，它可以轻松完成简单的任务, 如存储管理, 检查日"
-"志信息，以及启动/停止服务。 您可以同时监控和管理多个服务器。点一键就可以添加"
-"服务器，并开始进行管理。"
+msgstr "Cockpit 是完美的系统管理员工具，它可以轻松完成简单的任务, 如存储管理, 检查日志信息，以及启动/停止服务。 您可以同时监控和管理多个服务器。点一键就可以添加服务器，并开始进行管理。"
 
 #: pkg/static/login.js:183
+#, fuzzy
 msgid "Cockpit might not render correctly in your browser"
 msgstr ""
 
@@ -1907,9 +1889,7 @@ msgstr "Critical 及更高级别"
 msgid ""
 "Crypto Policies is a system component that configures the core cryptographic "
 "subsystems, covering the TLS, IPSec, SSH, DNSSec, and Kerberos protocols."
-msgstr ""
-"加密策略是一个系统组件，它配置内核加密子系统，覆盖 TLS、IPSec、SSH、DNSSec "
-"和 Kerberos 协议。"
+msgstr "加密策略是一个系统组件，它配置内核加密子系统，覆盖 TLS、IPSec、SSH、DNSSec 和 Kerberos 协议。"
 
 #: pkg/systemd/overview-cards/cryptoPolicies.jsx:73
 msgid "Crypto policy"
@@ -1999,10 +1979,7 @@ msgid ""
 "Alternatively the strings 'yesterday', 'today', 'tomorrow' are understood. "
 "'now' refers to the current time. Finally, relative times may be specified, "
 "prefixed with '-' or '+'"
-msgstr ""
-"日期规格应为 YYYY-MM-DD hh:mm:ss 格式。另外，也可以使用字符串 'yesterday', "
-"'today', 'tomorrow'。'now' 代表当前时间。另外，还可以指定相对时间，前缀为 "
-"'-' 或 '+'"
+msgstr "日期规格应为 YYYY-MM-DD hh:mm:ss 格式。另外，也可以使用字符串 'yesterday', 'today', 'tomorrow'。'now' 代表当前时间。另外，还可以指定相对时间，前缀为 '-' 或 '+'"
 
 #: pkg/storaged/content-views.jsx:322
 msgid "Deactivate"
@@ -2677,9 +2654,7 @@ msgstr "载入 authorized key 失败。"
 msgid ""
 "Failed to parse unit files for dnf-automatic.timer or dnf-automatic-install."
 "timer. Please remove custom overrides to configure automatic updates."
-msgstr ""
-"为 dnf-automatic.timer 或 dnf-automatic-install.timer 解析单元文件失败。请删"
-"除自定义覆盖来配置自动更新。"
+msgstr "为 dnf-automatic.timer 或 dnf-automatic-install.timer 解析单元文件失败。请删除自定义覆盖来配置自动更新。"
 
 #: pkg/packagekit/updates.jsx:490
 msgid "Failed to restart service"
@@ -2966,8 +2941,7 @@ msgstr "IP 地址"
 msgid ""
 "IP address with routing prefix. Separate multiple values with a comma. "
 "Example: 192.0.2.0/24, 2001:db8::/32"
-msgstr ""
-"带有路由前缀的IP地址。用逗号分隔多个值。例如：192.0.2.0/24, 2001:db8::/32"
+msgstr "带有路由前缀的IP地址。用逗号分隔多个值。例如：192.0.2.0/24, 2001:db8::/32"
 
 #: pkg/networkmanager/network-interface.jsx:570
 msgid "IPv4"
@@ -2999,16 +2973,13 @@ msgstr "如果为空，则将根据关联的端口服务和端口号生成 ID"
 msgid ""
 "If the fingerprint matches, click \"Accept key and log in\". Otherwise, do "
 "not log in and contact your administrator."
-msgstr ""
-"如果指纹匹配，点\"Accept key and log in\"。否则，请不要登录并联系您的管理员。"
+msgstr "如果指纹匹配，点\"Accept key and log in\"。否则，请不要登录并联系您的管理员。"
 
 #: pkg/shell/hosts_dialog.jsx:465 pkg/shell/hosts_dialog.jsx:476
 msgid ""
 "If the fingerprint matches, click 'Accept key and connect'. Otherwise, do "
 "not connect and contact your administrator."
-msgstr ""
-"如果指纹匹配，点击\"Accept key and connect\"。否则，请不要连接并联系您的管理"
-"员。"
+msgstr "如果指纹匹配，点击\"Accept key and connect\"。否则，请不要连接并联系您的管理员。"
 
 #: pkg/storaged/format-dialog.jsx:87
 msgid ""
@@ -3016,10 +2987,7 @@ msgid ""
 "next boot even if it was mounted before it.  This is useful if mounting "
 "during boot is not possible, such as when a passphrase is required to unlock "
 "the filesystem but booting is unattended."
-msgstr ""
-"如果选中此选项，则下一次引导期间不会挂载该文件系统。即使之前已被挂载。如果无"
-"法在引导期间进行挂载，比如需要密码来解锁文件系统，但引导是无人参与时，这将非"
-"常有用。"
+msgstr "如果选中此选项，则下一次引导期间不会挂载该文件系统。即使之前已被挂载。如果无法在引导期间进行挂载，比如需要密码来解锁文件系统，但引导是无人参与时，这将非常有用。"
 
 #: pkg/networkmanager/ip-settings.jsx:56 pkg/packagekit/updates.jsx:696
 #: pkg/packagekit/updates.jsx:773
@@ -3039,9 +3007,7 @@ msgid ""
 "In order to allow log in to $0 as $1 without password in the future, use the "
 "login password of $2 on $3 as the key password, or leave the key password "
 "blank."
-msgstr ""
-"为了以后不需要密码就可以以 $1 身份登录到 $0 ，请使用 $3 上 $2 的登录密码作为"
-"密钥密码，或者将密钥密码留空。"
+msgstr "为了以后不需要密码就可以以 $1 身份登录到 $0 ，请使用 $3 上 $2 的登录密码作为密钥密码，或者将密钥密码留空。"
 
 #: pkg/storaged/mdraid-details.jsx:112
 msgid "In sync"
@@ -3830,9 +3796,7 @@ msgid ""
 "Masking service prevents all dependent units from running. This can have "
 "bigger impact than anticipated. Please confirm that you want to mask this "
 "unit."
-msgstr ""
-"屏蔽服务会阻止所有依赖的单元被运行。这所造成的影响可能会比预期的大。请确认您"
-"需要屏蔽这个单元。"
+msgstr "屏蔽服务会阻止所有依赖的单元被运行。这所造成的影响可能会比预期的大。请确认您需要屏蔽这个单元。"
 
 #: pkg/networkmanager/network-interface.jsx:520
 msgid "Maximum message age $max_age"
@@ -4324,9 +4288,7 @@ msgid ""
 "No memory reserved. Append a crashkernel option to the kernel command line "
 "(e.g. in /etc/default/grub) to reserve memory at boot time. Example: "
 "crashkernel=512M"
-msgstr ""
-"没有内存预留。在内核命令行（例如在 /etc/default/grub 文件）中增加一个 "
-"crashkernel 选项以在启动时预留内存。例如：crashkernel=512M"
+msgstr "没有内存预留。在内核命令行（例如在 /etc/default/grub 文件）中增加一个 crashkernel 选项以在启动时预留内存。例如：crashkernel=512M"
 
 #: pkg/storaged/content-views.jsx:696
 msgid "No partitioning"
@@ -4509,8 +4471,7 @@ msgstr "失败时"
 msgid ""
 "Once Cockpit is installed, enable it with \"systemctl enable --now cockpit."
 "socket\"."
-msgstr ""
-"在安装 Cockpit 后，使用 \"systemctl enable --now cockpit.socket\" 启用它。"
+msgstr "在安装 Cockpit 后，使用 \"systemctl enable --now cockpit.socket\" 启用它。"
 
 #: pkg/storaged/vdo-details.jsx:122
 msgid "Only $0 of $1 are used."
@@ -5367,9 +5328,7 @@ msgstr "从 RAID 设备中删除 $target"
 msgid ""
 "Removing a passphrase without confirmation of another passphrase may prevent "
 "unlocking or key management, if other passphrases are forgotten or lost."
-msgstr ""
-"当删除密码短语而没有确认另外一个密码短语时，如果忘记或丢失了其他密码短语，则"
-"可能无法取消锁定或进行密钥管理。"
+msgstr "当删除密码短语而没有确认另外一个密码短语时，如果忘记或丢失了其他密码短语，则可能无法取消锁定或进行密钥管理。"
 
 #: pkg/storaged/jobs-panel.jsx:81
 msgid "Removing physical volume from $target"
@@ -5380,9 +5339,7 @@ msgid ""
 "Removing the cockpit service might result in the web console becoming "
 "unreachable. Make sure that this zone does not apply to your current web "
 "console connection."
-msgstr ""
-"删除 cockpit 服务可能会导致 web 控制台无法被访问。请确认这个区不会应用到当前"
-"的 web 控制台连接。"
+msgstr "删除 cockpit 服务可能会导致 web 控制台无法被访问。请确认这个区不会应用到当前的 web 控制台连接。"
 
 #: pkg/networkmanager/firewall.jsx:945
 msgid "Removing the zone will remove all services within it."
@@ -6070,9 +6027,7 @@ msgid ""
 "Software-based workarounds help prevent CPU security issues. These "
 "mitigations have the side effect of reducing performance. Change these "
 "settings at your own risk."
-msgstr ""
-"基于软件的临时解决方案可以帮助防止 CPU 安全问题。这些缓解方案会对性能有一定影"
-"响。改变这些设置可能会存在风险。"
+msgstr "基于软件的临时解决方案可以帮助防止 CPU 安全问题。这些缓解方案会对性能有一定影响。改变这些设置可能会存在风险。"
 
 #: pkg/selinux/setroubleshoot-view.jsx:87
 msgid "Solution applied successfully"
@@ -6497,17 +6452,13 @@ msgid ""
 "The SSH key for logging in to $0 is protected by a password, and the host "
 "does not allow logging in with a password. Please provide the password of "
 "the key at $1."
-msgstr ""
-"登录到 $0 的 SSH 密钥是受密码保护的，主机不允许使用密码登录。请在 $1 提供密钥"
-"的密码。"
+msgstr "登录到 $0 的 SSH 密钥是受密码保护的，主机不允许使用密码登录。请在 $1 提供密钥的密码。"
 
 #: pkg/shell/hosts_dialog.jsx:755
 msgid ""
 "The SSH key for logging in to $0 is protected. You can log in with either "
 "your login password or by providing the password of the key at $1."
-msgstr ""
-"登录到 $0 的 SSH 密钥是受保护的。您可以用您的登录密码或通过在 $1 提供密钥的密"
-"码来登录。"
+msgstr "登录到 $0 的 SSH 密钥是受保护的。您可以用您的登录密码或通过在 $1 提供密钥的密码来登录。"
 
 #: pkg/users/password-dialogs.js:265
 msgid "The account '$0' will be forced to change their password on next login"
@@ -6672,8 +6623,7 @@ msgstr "结果指纹可以通过公共方法（包括电子邮件）共享。"
 msgid ""
 "The server refused to authenticate '$0' using password authentication, and "
 "no other supported authentication methods are available."
-msgstr ""
-"服务器拒绝使用密码验证的方法来验证 '$0'，并且没有其他支持的验证途径可以使用。"
+msgstr "服务器拒绝使用密码验证的方法来验证 '$0'，并且没有其他支持的验证途径可以使用。"
 
 #: pkg/lib/cockpit.js:3995
 msgid "The server refused to authenticate using any supported methods."
@@ -6724,8 +6674,7 @@ msgstr "没有这个帐户的授权公钥."
 msgid ""
 "There is not enough free space elsewhere to remove this physical volume. At "
 "least $0 more free space is needed."
-msgstr ""
-"其它地方没有足够的空闲空间来移除这个物理卷。至少需要 $0 或更多空闲空间。"
+msgstr "其它地方没有足够的空闲空间来移除这个物理卷。至少需要 $0 或更多空闲空间。"
 
 #: pkg/shell/failures.jsx:39
 msgid "There was an unexpected error while connecting to the machine."
@@ -6828,20 +6777,14 @@ msgid ""
 "the journal. Thus, 1 means the first boot found in the journal in "
 "chronological order, 2 the second and so on; while -0 is the last boot, -1 "
 "the boot before last, and so on."
-msgstr ""
-"这将添加一个 '_BOOT_ID=' 匹配项。 如果未指定，则将显示来自当前引导的日志。 在"
-"没有指定 ID 时，正偏移将从日志开始查找启动，而等于或小于零的偏移将从日志末尾"
-"开始查找启动。因此，1 表示日志中第一次引导（按时间顺序排列），2 为第二个，以"
-"此类推；-0 是最后一次引导，-1 是最后一次引导前的一个，以此类推。"
+msgstr "这将添加一个 '_BOOT_ID=' 匹配项。 如果未指定，则将显示来自当前引导的日志。 在没有指定 ID 时，正偏移将从日志开始查找启动，而等于或小于零的偏移将从日志末尾开始查找启动。因此，1 表示日志中第一次引导（按时间顺序排列），2 为第二个，以此类推；-0 是最后一次引导，-1 是最后一次引导前的一个，以此类推。"
 
 #: pkg/systemd/logs.jsx:369
 msgid ""
 "This will add match for '_SYSTEMD_UNIT=', 'COREDUMP_UNIT=' and 'UNIT=' to "
 "find all possible messages for the given unit. Can contain more units "
 "separated by comma. "
-msgstr ""
-"这将添加 '_SYSTEMD_UNIT='、'COREDUMP_UNIT=' 和 'UNIT=' 匹配项，以查找给定单元"
-"的所有可能消息。可以包含以逗号分隔的多个单元。 "
+msgstr "这将添加 '_SYSTEMD_UNIT='、'COREDUMP_UNIT=' 和 'UNIT=' 匹配项，以查找给定单元的所有可能消息。可以包含以逗号分隔的多个单元。 "
 
 #: pkg/shell/hosts_dialog.jsx:801
 msgid "This will allow you to log in without password in the future."
@@ -6852,9 +6795,7 @@ msgid ""
 "This will test kdump settings by crashing the kernel and thereby the system. "
 "Depending on the settings, the system may not automatically reboot and the "
 "process may take a while."
-msgstr ""
-"这将通过崩溃内核和系统来测试 kdump 设置。取决于这些设置，系统也许不会自动重"
-"启，并且过程将持续一段时间。"
+msgstr "这将通过崩溃内核和系统来测试 kdump 设置。取决于这些设置，系统也许不会自动重启，并且过程将持续一段时间。"
 
 #: pkg/kdump/kdump-view.jsx:467
 msgid "This will test the kdump configuration by crashing the kernel."
@@ -6864,8 +6805,7 @@ msgstr "这将通过崩溃内核来测试 kdump 配置。"
 msgid ""
 "This zone contains the cockpit service. Make sure that this zone does not "
 "apply to your current web console connection."
-msgstr ""
-"这个区包括 cockpit 服务。请确认这个区不会应用到您当前的 web 控制台连接。"
+msgstr "这个区包括 cockpit 服务。请确认这个区不会应用到您当前的 web 控制台连接。"
 
 #: pkg/systemd/services/timer-dialog.jsx:303 pkg/packagekit/autoupdates.jsx:312
 msgid "Thursdays"
@@ -6912,17 +6852,14 @@ msgstr "要确保您的连接没有被恶意第三方截取，请验证主机密
 msgid ""
 "To get software updates, this system needs to be registered with Red Hat, "
 "either using the Red Hat Customer Portal or a local subscription server."
-msgstr ""
-"为了获取软件更新，该系统需要通过红帽客户门户网站或本地订阅服务器注册到红帽。"
+msgstr "为了获取软件更新，该系统需要通过红帽客户门户网站或本地订阅服务器注册到红帽。"
 
 #: pkg/static/login.js:745 pkg/shell/hosts_dialog.jsx:462
 #: pkg/shell/hosts_dialog.jsx:473
 msgid ""
 "To verify a fingerprint, run the following on $0 while physically sitting at "
 "the machine or through a trusted network:"
-msgstr ""
-"要验证指纹，在 $0 上运行以下内容（在实际的物理机器上本地进行，或通过一个可信"
-"任的网络进行）："
+msgstr "要验证指纹，在 $0 上运行以下内容（在实际的物理机器上本地进行，或通过一个可信任的网络进行）："
 
 #: pkg/metrics/metrics.jsx:1652
 msgid "Today"
@@ -7028,9 +6965,7 @@ msgid ""
 "Tuned is a service that monitors your system and optimizes the performance "
 "under certain workloads. The core of Tuned are profiles, which tune your "
 "system for different use cases."
-msgstr ""
-"Tuned 是一个监控您的系统并优化某些工作负载性能的服务。Tuned 的核心是配置集"
-"（profile），使用它为不同的用例调整您的系统。"
+msgstr "Tuned 是一个监控您的系统并优化某些工作负载性能的服务。Tuned 的核心是配置集（profile），使用它为不同的用例调整您的系统。"
 
 #: pkg/tuned/dialog.jsx:76
 msgid "Tuned is not available"
@@ -7090,9 +7025,7 @@ msgstr "无法联系 $0 。"
 msgid ""
 "Unable to contact the given host $0. Make sure it has ssh running on port "
 "$1, or specify another port in the address."
-msgstr ""
-"无法与指定主机 $0 联系。请确认已经在端口 $1 上运行 SSH，或者在地址中指定另一"
-"个端口。"
+msgstr "无法与指定主机 $0 联系。请确认已经在端口 $1 上运行 SSH，或者在地址中指定另一个端口。"
 
 #: pkg/selinux/setroubleshoot-view.jsx:58
 #: pkg/selinux/setroubleshoot-view.jsx:181
@@ -7107,9 +7040,7 @@ msgstr "无法获取警告： $0"
 msgid ""
 "Unable to log in to $0 using SSH key authentication. Please provide the "
 "password. You may want to set up your SSH keys for automatic login."
-msgstr ""
-"无法使用 SSH 密钥认证登录到 $0 。请提供密码。您可能需要为自动登录设置 SSH 密"
-"钥。"
+msgstr "无法使用 SSH 密钥认证登录到 $0 。请提供密码。您可能需要为自动登录设置 SSH 密钥。"
 
 #: pkg/shell/hosts_dialog.jsx:745
 msgid ""
@@ -7543,6 +7474,7 @@ msgid "View metrics and history"
 msgstr "查看指标和历史记录"
 
 #: pkg/metrics/metrics.jsx:680
+#, fuzzy
 msgid "View per-disk throughput"
 msgstr ""
 
@@ -7662,9 +7594,7 @@ msgid ""
 "When the Web Console is restarted, you will no longer see progress "
 "information. However, the update process will continue in the background. "
 "Reconnect to continue watching the update process."
-msgstr ""
-"当 Web 控制台重启时，将不再能够看到进度信息。但是，更新过程会继续在后台进行。"
-"重新连接以继续监视更新过程。"
+msgstr "当 Web 控制台重启时，将不再能够看到进度信息。但是，更新过程会继续在后台进行。重新连接以继续监视更新过程。"
 
 #: pkg/systemd/terminal.jsx:156
 msgid "White"
@@ -8561,7 +8491,6 @@ msgstr "区"
 #~ msgid "nfs dump target isn't formatted as server:path"
 #~ msgstr "nfs dump 目标的格式不是 server:path"
 
-#, fuzzy
 #~| msgid "Zone"
 #~ msgid "$0 Zone"
 #~ msgstr "区域"
@@ -8609,7 +8538,6 @@ msgstr "区"
 #~ msgid "Performance Metrics"
 #~ msgstr "性能指标数据"
 
-#, fuzzy
 #~| msgid "read only"
 #~ msgid "Save only"
 #~ msgstr "只读"
@@ -8756,22 +8684,18 @@ msgstr "区"
 #~ msgid "VDO backing"
 #~ msgstr "VDO支持"
 
-#, fuzzy
 #~| msgid "Create storage pool"
 #~ msgid "Create Stratis Pool"
 #~ msgstr "创建存储池"
 
-#, fuzzy
 #~| msgid "Mount options"
 #~ msgid "Mount Options"
 #~ msgstr "挂载选项"
 
-#, fuzzy
 #~| msgid "Mount point"
 #~ msgid "Mount Point"
 #~ msgstr "挂载点"
 
-#, fuzzy
 #~| msgid "Reset Storage Pool"
 #~ msgid "Stratis Pool"
 #~ msgstr "重置存储池"
@@ -8990,7 +8914,6 @@ msgstr "区"
 #~ msgid "Select unit state"
 #~ msgstr "选择单元状态"
 
-#, fuzzy
 #~| msgid "Enable stored metrics"
 #~ msgid "Enable PCP metrics collector"
 #~ msgstr "启用保存的指标数据"
@@ -9128,7 +9051,6 @@ msgstr "区"
 #~ msgid "Clone"
 #~ msgstr "克隆"
 
-#, fuzzy
 #~| msgid "Can't load image"
 #~ msgid "Cloud base image"
 #~ msgstr "无法加载镜像"
@@ -9432,7 +9354,6 @@ msgstr "区"
 #~ "Leave the password blank if you do not wish to have a user account created"
 #~ msgstr "如果你不希望创建一个用户账号，则将密码留空"
 
-#, fuzzy
 #~| msgid ""
 #~| "Leave the password blank if you do not wish to have a root account "
 #~| "created"
@@ -9634,7 +9555,6 @@ msgstr "区"
 #~ msgid "Path to ISO file on host's file system"
 #~ msgstr "主机文件系统中到 ISO 文件的路径"
 
-#, fuzzy
 #~| msgid "Path to file on host's file system"
 #~ msgid "Path to cloud image file on host's file system"
 #~ msgstr "到主机文件系统上的文件的路径"
@@ -10214,7 +10134,6 @@ msgstr "区"
 #~ msgid "No snapshots"
 #~ msgstr "没有快照"
 
-#, fuzzy
 #~| msgid "No such file or directory '$0'"
 #~ msgid "No such file found in directory '$0'"
 #~ msgstr "没有该文件或目录 '$0'"
@@ -10222,7 +10141,6 @@ msgstr "区"
 #~ msgid "No updates pending"
 #~ msgstr "没有待完成的更新"
 
-#, fuzzy
 #~| msgid "ssh server is empty"
 #~ msgid "This directory is empty"
 #~ msgstr "ssh 服务器为空"
@@ -10339,12 +10257,10 @@ msgstr "区"
 #~ msgid_plural "$0 bytes"
 #~ msgstr[0] "$0 字节"
 
-#, fuzzy
 #~| msgid "Bond settings"
 #~ msgid "Bond settings           "
 #~ msgstr "绑定设置"
 
-#, fuzzy
 #~| msgid "IP settings"
 #~ msgid "IP settings          "
 #~ msgstr "IP 设置"
@@ -10761,7 +10677,6 @@ msgstr "区"
 #~ msgid "No results for $0"
 #~ msgstr "没有 $0 的结果"
 
-#, fuzzy
 #~| msgid "No images that match the current filter"
 #~ msgid "No results that match the filter criteria"
 #~ msgstr "没有匹配当前过滤器的镜像"
@@ -10943,7 +10858,6 @@ msgstr "区"
 #~ msgid "Machines"
 #~ msgstr "主机"
 
-#, fuzzy
 #~| msgid "The user $0 is not permitted to change the system time"
 #~ msgid "The user $0 is not permitted to create timers"
 #~ msgstr "用户 $0 不允许修改系统时间"
@@ -10977,7 +10891,6 @@ msgstr "区"
 #~ msgid "The user <b>$0</b> is not permitted to modify network settings"
 #~ msgstr "用户 <b>$0</b> 不允许修改网络设置"
 
-#, fuzzy
 #~| msgid "Required by "
 #~ msgid "Required by $0"
 #~ msgstr "要求自 "
@@ -11087,5 +11000,3 @@ msgstr "区"
 #~ msgid "Hide Performance Options"
 #~ msgstr "隐藏性能选项"
 
-#~ msgid "Show Performance Options"
-#~ msgstr "显示性能选项"
